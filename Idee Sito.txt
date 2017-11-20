@@ -1,0 +1,35 @@
+Home:
+Header: Contatti, Login
+Menu: Desta o sopra
+Content: Offerte/Promozioni
+Footer: Account, chi siamo, supporto, social
+
+Config Predefinite:
+Header //
+Menu //
+Content: 4 configurazioni predefinite - pagina per ogni configurazione
+Footer //
+Fasce di prezzo: 599, 999, 1499, 1999 
+
+
+
+Catalogo pezzi assemblaggio
+Header //
+Content: Macrocategorie con range di prezzo:
+Case, Alimentazione, Scheda madre, Cpu, Raffreddamento, Schede video. Schede audio, Memorie ram, Memorie interne, Monitor, Periferiche esterne
+Footer //
+
+Contatti:
+Header //
+Menu //
+Content: chi siamo, dove siamo, contatti vari, social vari
+Footer //
+
+Account amministrazione WIP
+
+Recensioni WIP
+
+STILE:
+
+sfondo nero, colore principale blu scuro, font vedi https://www.maingear.com
+
