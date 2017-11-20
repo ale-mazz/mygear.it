@@ -1,0 +1,14 @@
+*{
+    padding: 0em;
+    margin: 0em;
+}
+
+#html,body {
+    /*background-color: black;*/
+}
+
+#top_box {
+    background-color: #1B1B1B;
+    width: 100%;
+    height: 2em;
+}
