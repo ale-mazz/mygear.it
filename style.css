@@ -20,6 +20,9 @@
     font-size: 0.8em;
     padding-left: 5em;
     color: white;
+    width: 30%;
+    height: 2em;
+    padding-top:
 }
 
 #top_box_account {
@@ -27,4 +30,6 @@
     font-size: 0.8em;
     padding-right: 5em;
     color: white;
+    width: 40%;
+    height: 2em;
 }
