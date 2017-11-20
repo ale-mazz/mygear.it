@@ -8,7 +8,7 @@ a:link{
 }
 
 a:visited {
-	color: orange;
+	color: white;
 }
 
 
@@ -43,7 +43,7 @@ a:visited {
 
 #menu {
     padding-left: 5em;
-    background-color: #050097;
+    background-color: #11119F;
     width: 100%;
 }
 
@@ -52,11 +52,12 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: #11119F;
 }
 
 li {
     float: left;
+
 }
 
 li a {
@@ -65,13 +66,10 @@ li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    background-color: #11119F;
 }
 
 /* Change the link color to #111 (black) on hover */
 li a:hover {
     background-color: #111;
-}
-
-.active {
-    background-color: red;
 }
