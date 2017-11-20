@@ -1,0 +1,38 @@
+﻿Progetto
+Si richiede la progettazione e lo sviluppo di un sito web con contenuto a scelta dello studente ma che rispetti le seguenti caratteristiche:
+* il sito web deve essere realizzato con lo standard XHTML Strict o HTML5;
+* il layout deve essere realizzato con CSS puri;
+* il sito web deve rispettare la completa separazione tra contenuto, presentazione e comportamento;
+* il sito web deve essere accessibile a tutte le categorie di utenti;
+* il sito web deve organizzare i propri contenuti in modo da poter essere facilmente reperiti da qualsiasi utente;
+* il sito web deve contenere pagine che facciano utilizzo di script per collezionare e pubblicare dati inseriti dagli utenti;
+* i dati inseriti dagli utenti devono essere salvati in un database (es. MySQL).
+
+
+Il progetto deve essere accompagnato da una relazione che ne illustri le fasi di progettazione, realizzazione e test ed evidenzi chiaramente il ruolo svolto dai singoli componenti del gruppo. Ricordo che il numero “ideale” di componenti per gruppo è di 3-4 persone. In casi particolari (da concordare col responsabile del corso, Prof. Lamberto Ballan) possono essere costituiti gruppi di 2 persone.
+
+
+Nella relazione deve essere riportata una analisi iniziale delle caratteristiche degli utenti che il sito si propone di raggiungere. Le pagine web devono essere accessibili indipendentemente dal browser e dalle dimensioni dello schermo del dispositivo degli utenti. Considerazioni riguardanti diversi dispositivi (laddove possibile) verranno valutate positivamente.
+Regole per la consegna del progetto
+Il non rispetto di anche una sola di queste regole può comportare l'esclusione dalla consegna o una penalizzazione nella valutazione:
+
+
+Per poter consegnare il progetto, ogni gruppo deve compilare, entro 5 giorni prima della data di consegna, un form per l'iscrizione che verrà reso disponibile su Moodle.
+
+
+La relazione deve contenere in prima pagina:
+* indirizzo web del sito;
+* eventuali password degli utenti da utilizzare in fase di correzione (una coppia login-password per ogni classe di utenza), in particolare:
+   * l'utente amministratore, se presente, deve avere login e password uguali ad admin;
+   * l'utente semplice, se presente, deve avere login e password uguali ad user;
+* indirizzo email del referente del gruppo per eventuali comunicazioni;
+* i file PHP devono avere i permessi corretti;
+* il sito deve utilizzare link relativi in modo da poter essere facilmente installato anche su server o cartelle diverse (se l'installazione necessita di operazioni particolari queste devono essere indicate chiaramente in relazione).
+
+
+Come accennato in precedenza, il progetto deve essere consegnato attraverso la piattaforma Moodle entro la deadline che verrà comunicata nel corso delle prossime settimane. Le istruzioni dettagliate per la consegna verranno comunicate contestualmente alla definizione della deadline.
+Appelli e valutazione
+Ricordo che nella sessione di esame di Gennaio / Febbraio sarà fissata una sola data per la consegna del progetto (tendenzialmente in una data a metà tra lo scritto del 5/2/2018 e quello del 20/2/2018. Analogamente, nelle sessioni successive si avrà sempre una unica data per la consegna del progetto (anche nei casi in cui vi siano più appelli per lo scritto all’interno della stessa sessione).
+
+
+Il voto finale verrà registrato quando sia lo scritto che il progetto sono stati superati (quindi con una valutazione, per ciascuna parte, pari ad almeno 18) e sarà ottenuto dalla media arrotondata per eccesso. Per incentivare e premiare chi riesce a superare l’esame “seguendo il calendario” verrà attribuito un bonus di +2 punti sul voto finale se l’esame verrà superato entro la fine della sessione di esami di Febbraio.
