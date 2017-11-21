@@ -103,9 +103,11 @@ label {
   font-size: 0;
 }
 
-itaflag{
-    width: 10px;
+#itaflag{
+
+    width: 23px;
     float: left;
+    padding-top: 12px;
 }
 
 /******************************************************************************
