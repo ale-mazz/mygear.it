@@ -49,6 +49,7 @@ a:visited {
     padding-left: 5em;
     background-color: #11119F;
     width: 100%;
+    margin: auto;
     border-style: solid;
     border-left: none;
     border-right: none;
@@ -64,11 +65,8 @@ a:visited {
 
 #menu ul {
     list-style-type: none;
-    margin: 0;
-    padding-right: 20em;
-    padding-top: 1em;
-    font-size: 1.6em;
-    overflow: hidden;
+    padding-right: 18em;
+    font-size: 1em;
     float: right;
     background-color: #11119F;
 }
@@ -81,8 +79,7 @@ a:visited {
 #menu li a {
     display: block;
     color: white;
-    text-align: center;
-    padding: 14px 16px;
+    padding: 16px 20px;
     text-decoration: none;
     background-color: #11119F;
 
@@ -95,13 +92,13 @@ a:visited {
 }
 
 #logo{
-    height: 6em;
+    height: 3.5em;
     width: auto;
     padding-left: 10.5em;
 }
 
 img.loghi_social{
 
-    width: 5em;
+    width: 4em;
     height: auto;
 }
