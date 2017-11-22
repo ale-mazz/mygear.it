@@ -24,7 +24,6 @@ body {
   Header
 *******************************************************************************/
 
-
 #top_box {
     background-color: #424242;
     width: 100%;
@@ -70,59 +69,58 @@ body {
 #top_box_account {
     float: right;
     font-size: 1em;
-    padding-right: 14em;
+    padding-right: 19em;
     color: white;
     padding-top: 7px;
     padding-bottom: auto;
 }
 
 form {
-  margin: auto;
-  background: white;
-  border-radius: 4px;
-  box-shadow: 0 0 5px rgba(#000,.3);
+    margin: auto;
+    background: white;
+    border-radius: 4px;
+    box-shadow: 0 0 5px rgba(#000,.3);
 }
 
 
 input {
-  color: #666;
-  height: 100%;
-  padding: 5px 5px 5px 10px;
-  border-radius: 0px 4px 4px 0px;
+    color: #666;
+    height: 100%;
+    padding: 5px 5px 5px 10px;
+    border-radius: 0px 4px 4px 0px;
     outline:none;
 }
 
 label {
-  font-size: 0;
+    font-size: 0;
 }
 
 /******************************************************************************
   Menu
 *******************************************************************************/
+@media only screen and (min-width: 1180px) {
 
-#menu {
-    padding-left: 5em;
-    background-color: #3D5AFE;
+.menu {
+    background-color: #651FFF;
     width: 100%;
     margin: auto;
-    border-color: #3D5AFE;
 
 
 }
-#container {
+.container {
     padding-bottom: 0.7em;
-    background: #304FFE;
+    background: #6200EA;
 }
 
-#menu ul {
+.menu ul {
     list-style-type: none;
-    padding-right: 18em;
+    padding-right: 18.5em;
     font-size: 1em;
     float: right;
-    background-color: #3D5AFE;
+    background-color: #651FFF;
 }
 
-#menu li {
+.menu li {
     float: left;
     padding-top: 0.7em;
     padding-bottom: 0.7em;
@@ -131,23 +129,122 @@ label {
 
 }
 
-#menu li a {
+.menu li a {
     display: block;
     color: white;
     padding: 12px 16px;
     text-decoration: none;
-    background-color: #3D5AFE;
+    background-color: #651FFF;
     border-radius: 10px;
 
 }
 
-#menu li a:hover {
+.menu li a:hover {
     background-color: #424242;
 }
 
-#logo{
+.logo{
     height: 4em;
     width: auto;
-    padding-left: 10em;
+    padding-left: 14.5em;
+}
+.button{
+    display: none;
+}
+.logo_hamb{
+    display: none;
 }
 
+}
+
+@media only screen and (max-width: 1180px) {
+
+    header{
+        width:100%;
+        background-color: #651FFF;
+        height:73px;
+
+    }
+
+    .container_hamb {
+        padding-bottom: 0.7em;
+        background: #6200EA;
+    }
+
+    .logo{
+        display: none;
+    }
+    .logo_hamb{
+        float: left;
+        width: 20em;
+        padding-left: 2em;
+
+    }
+
+    .hamburger{
+      background:none;
+      position:absolute;
+      top:0;
+      right:0;
+      line-height:45px;
+      padding:15px 20px 15px 15px;
+      color:white;
+      border:0;
+      font-size:3em;
+      font-weight:bold;
+      cursor:pointer;
+      outline:none;
+
+    }
+
+
+    .menu{
+        font-weight:bold;
+        font-size:0.8em;
+        background:#f1f1f1;
+        text-align:center;
+        font-size:12px;
+    }
+    .menu ul {
+
+        list-style-type: none;
+        list-style-image: none;
+    }
+    .menu li {
+        display: block;
+        padding:15px 0 15px 0;
+        border-bottom:#dddddd 1px solid;
+    }
+    .menu li:hover{
+        display: block;
+        background:#ffffff;
+        padding:15px 0 15px 0;
+        border-bottom:#dddddd 1px solid;
+    }
+    .menu ul li a {
+        text-decoration:none;
+        margin: 0px;
+        color:#666;
+    }
+    .menu ul li a:hover {
+        color: #666;
+        text-decoration:none;
+    }
+    .menu a{
+        text-decoration:none;
+        color:#666;
+    }
+    .menu a:hover{
+        text-decoration:none;
+        color:#666;
+    }
+
+    header{
+        display:inline-block;
+        font-size:12px;
+    }
+
+    #top_box{
+        display: none;
+    }
+}
