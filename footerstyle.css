@@ -21,22 +21,126 @@ body {
     background-color: #424242;
 }
 
-#footer {
-    text-align: left;
-    background-color: #616161;
-}
-
-#menu_footer {
-    width: 3em;
-}
-
-#menu_footer .h1 {
-    color: #FAFAFA;
-    text-align: left;
-    border-bottom-width: 0.5em;
-}
-
-#menu_footer .img {
-    width: 2em;
+/********************************************************************************
+    Footer Top
+********************************************************************************/
+#footer_top {
     float:left;
+    margin-top: 50%;
+    background-color: #616161;
+    width: 100%;
+    font-size: 0.8em;
+    color: #FAFAFA;
+    border-style: solid;
+    border-width: 0.1em;
+    border-color: #757575;
+}
+
+#footer_top ul {
+	list-style-type:none;
+    padding-top: 0.5em;
+}
+
+#footer_top ul li{
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+}
+
+#footer_top a {
+    text-decoration: none;
+    color: #FAFAFA;
+}
+
+#footer_top a:hover {
+    color: #D50000;
+}
+
+#footer_top a:visited {
+    color: #FFA726;
+}
+
+#footer_top h1 {
+    color: #FAFAFA;
+    margin-bottom: 0.2em;
+    font-size: 1em;
+}
+
+.block_title {
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+    border-bottom-style: solid;
+    border-bottom-color: #FAFAFA;
+    border-bottom-width: 0.1em;
+}
+
+#account_footer {
+    width: 20%;
+    padding: 0.8em;
+    float: left;
+    margin-left: 4em;
+}
+
+#chi_siamo_footer {
+    width: 20%;
+    padding: 0.8em;
+    float: left;
+    margin-left: 2em;
+}
+
+#support_footer {
+    width: 20%;
+    padding: 0.8em;
+    float:left;
+    margin-left: 2em;
+}
+
+#social_footer {
+    width: 20%;
+    padding: 0.8em;
+    float: left;
+    margin-right: 4em;
+    margin-left: 2em;
+}
+
+#social_footer h2 {
+    margin-bottom: 0.5em;
+    margin-top: 1em;
+    font-size: 1em;
+    font-weight: normal;
+}
+
+#social_footer img {
+    width: 3em;
+    float:left;
+    padding: 1em;
+}
+
+/*******************************************************************
+ Footer Bottom
+*******************************************************************/
+
+#footer_bottom {
+    color:#FAFAFA;
+    margin-bottom: 1em;
+}
+
+#footer_bottom p {
+    font-size: 0.8em;
+    padding: 0.8em;
+}
+
+#diritti {
+    float: left;
+    margin-left: 20%;
+}
+
+#call_us {
+    float: left;
+    margin-left: 12%;
+    margin-right: 12%;
+}
+
+#luogo {
+    float: left;
+    margin-right: 20%;
 }
