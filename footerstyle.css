@@ -34,6 +34,7 @@ body {
     border-style: solid;
     border-width: 0.1em;
     border-color: #757575;
+    padding: 2em;
 }
 
 #footer_top ul {
@@ -77,29 +78,27 @@ body {
     width: 20%;
     padding: 0.8em;
     float: left;
-    margin-left: 4em;
 }
 
 #chi_siamo_footer {
     width: 20%;
     padding: 0.8em;
     float: left;
-    margin-left: 2em;
+    margin-left: 3em;
 }
 
 #support_footer {
     width: 20%;
     padding: 0.8em;
-    float:left;
-    margin-left: 2em;
+    float: left;
+    margin-left: 3em;
 }
 
 #social_footer {
     width: 20%;
     padding: 0.8em;
     float: left;
-    margin-right: 4em;
-    margin-left: 2em;
+    margin-left: 3em;
 }
 
 #social_footer h2 {
@@ -121,7 +120,7 @@ body {
 
 #footer_bottom {
     color:#FAFAFA;
-    margin-bottom: 1em;
+    text-align: center;
 }
 
 #footer_bottom p {
@@ -130,17 +129,78 @@ body {
 }
 
 #diritti {
-    float: left;
-    margin-left: 20%;
+    width: 10em;
+    display: inline-block;
+    text-align: left;
 }
 
 #call_us {
-    float: left;
-    margin-left: 12%;
-    margin-right: 12%;
+    width: 10em;
+    display: inline-block;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: left;
 }
 
 #luogo {
-    float: left;
-    margin-right: 20%;
+    width: 10em;
+    display: inline-block;
+    text-align: left;
+
+}
+
+/******************************************************************
+ Media query Footer
+******************************************************************/
+
+@media only screen and (max-width: 1023px) {
+
+#footer_top {
+    font-size: 1.5em;
+}
+
+#account_footer {
+    width: 40%;
+    margin-left: 5%;
+}
+
+#chi_siamo_footer {
+     width: 40%;
+}
+
+#support_footer {
+    clear: left;
+    width: 40%;
+    margin-left: 5%;
+}
+
+#social_footer {
+     width: 40%;
+}
+
+#social_footer img {
+    width: 1.5em;
+    padding: 0.5em;
+}
+
+#footer_bottom {
+    font-size: 1.5em;
+    margin-bottom: 1em;
+}
+
+#diritti {
+    margin-left: 6%;
+}
+
+#call_us {
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+#luogo {
+    clear: right;
+    margin-right: 6%;
+}
+
+
 }
