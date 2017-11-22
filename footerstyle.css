@@ -1,0 +1,19 @@
+#footer {
+    text-align: left;
+    background-color: #616161;
+}
+
+#menu_footer {
+    width: 3em;
+}
+
+#menu_footer .h1 {
+    color: #FAFAFA;
+    text-align: left;
+    border-bottom-width: 0.5em;
+}
+
+#menu_footer .img {
+    width: 2em;
+    float:left;
+}
