@@ -36,12 +36,6 @@ body {
     color:white;
 }
 
-#corpo_home p {
-    text-align: left;
-    color:white;
-    text-decoration: none;
-}
-
 #corpo_home a{
     text-decoration: none;
     color: #FAFAFA;
@@ -77,12 +71,12 @@ body {
 }
 
 #i_piu_venduti_home {
-   width: 23%;
+    width: 23%;
     float:left;
 }
 
 #i_piu_venduti_home img {
-     width: 80%;
+    width: 80%;
     padding: 0.5em;
 }
 
@@ -93,6 +87,34 @@ body {
 }
 
 #pensati_per_voi_home img {
-     width: 80%;
+    width: 80%;
     padding: 0.5em;
+}
+
+#dicono_di_noi_home h3 {
+    text-align: left;
+    font-size: 1.5em;
+    color:white;
+}
+
+#dicono_di_noi_home p{
+    text-align: center;
+    color:white;
+}
+#dicono_di_noi_home {
+    margin-left: 2em;
+    width: 100%;
+    float:left;
+}
+
+#marche_home h3 {
+    text-align: left;
+    font-size: 1.5em;
+    color:white;
+}
+
+#marche_home {
+    margin-left: 2em;
+    width: 100%;
+    float:left;
 }
