@@ -25,33 +25,74 @@ body {
     Footer Top
 ********************************************************************************/
 
-.column {
-    float: left;
-    width: 25%;
+#corpo_home {
+    width: 100%;
+    padding-top: 2em;
+}
+
+#corpo_home h1 {
+    text-align: center;
+    font-size: 1.5em;
+    color:white;
+}
+
+#corpo_home p {
+    text-align: left;
+    color:white;
+    text-decoration: none;
+}
+
+#corpo_home a{
+    text-decoration: none;
+    color: #FAFAFA;
+}
+
+#corpo_home a:hover {
+    color: #D50000;
+}
+
+#corpo_home a:visited {
+    color: #FFA726;
+}
 
 #novita_home {
-    width: ;
-    padding: ;
-    float: ;
+    margin-left: 2em;
+    width: 23%;
+    float:left;
+}
+
+#novita_home img {
+    width: 80%;
+    padding: 0.5em;
 }
 
 #offerte_home {
-    width: ;
-    padding: ;
-    float: ;
-    margin-left: ;
+    width: 23%;
+    float:left;
+}
+
+#offerte_home img{
+    width: 80%;
+    padding: 0.5em;
 }
 
 #i_piu_venduti_home {
-    width: ;
-    padding: ;
-    float: ;
-    margin-left: ;
+   width: 23%;
+    float:left;
+}
+
+#i_piu_venduti_home img {
+     width: 80%;
+    padding: 0.5em;
 }
 
 #pensati_per_voi_home {
-    width: ;
-    padding: ;
-    float: ;
-    margin-left: ;
+    margin-right: 2em;
+    width: 23%;
+    float:left;
+}
+
+#pensati_per_voi_home img {
+     width: 80%;
+    padding: 0.5em;
 }

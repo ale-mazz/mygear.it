@@ -119,6 +119,7 @@ body {
 *******************************************************************/
 
 #footer_bottom {
+    margin-top: 55%;
     color:#FAFAFA;
     text-align: center;
 }
@@ -166,6 +167,7 @@ body {
 
 #chi_siamo_footer {
      width: 40%;
+    margin-left: 0.5em;
 }
 
 #support_footer {
@@ -176,6 +178,7 @@ body {
 
 #social_footer {
      width: 40%;
+    margin-left: 0.5em;
 }
 
 #social_footer img {
