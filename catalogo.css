@@ -1,4 +1,220 @@
-body{
+#corpo_catalogo {
+    width: 100%;
+    padding-top: 2em;
+}
 
-    background-color: aquamarine;
+#categoria1_catalogo h2 {
+    text-align: left;
+    font-size:1em;
+    color: #FAFAFA;
+    padding-left: 0.8em;
+}
+
+#categoria1_catalogo a{
+    text-decoration: none;
+    color: #FAFAFA;
+}
+
+#categoria1_catalogo {
+    margin-left: 7.9%;
+    width: 25%;
+    float:left;
+    padding: 0.5em;
+    border-style: solid;
+    border-color: #FAFAFA;
+    border-width: 0.1em;
+    background-color: #616161;
+    border-radius: 0.5em;
+}
+
+#categoria2_catalogo h2 {
+    text-align: left;
+    font-size:1em;
+    color: #FAFAFA;
+    padding-left: 0.8em;
+}
+
+#categoria2_catalogo a{
+    text-decoration: none;
+    color: #FAFAFA;
+}
+
+#categoria2_catalogo {
+    margin-left: 7.9%;
+    width: 25%;
+    float:left;
+    padding: 0.5em;
+    border-style: solid;
+    border-color: #FAFAFA;
+    border-width: 0.1em;
+    background-color: #616161;
+    border-radius: 0.5em;
+}
+
+#categoria3_catalogo h2 {
+    text-align: left;
+    font-size:1em;
+    color: #FAFAFA;
+    padding-left: 0.8em;
+}
+
+#categoria3_catalogo a{
+    text-decoration: none;
+    color: #FAFAFA;
+}
+
+#categoria3_catalogo {
+    margin-left: 7.9%;
+    width: 25%;
+    float:left;
+    padding: 0.5em;
+    border-style: solid;
+    border-color: #FAFAFA;
+    border-width: 0.1em;
+    background-color: #616161;
+    border-radius: 0.5em;
+}
+
+#categoria4_catalogo h2 {
+    text-align: left;
+    font-size:1em;
+    color: #FAFAFA;
+    padding-left: 0.8em;
+}
+
+#categoria4_catalogo a{
+    text-decoration: none;
+    color: #FAFAFA;
+}
+
+#categoria4_catalogo {
+    margin-left: 7.9%;
+    width: 25%;
+    float:left;
+    padding: 0.5em;
+    border-style: solid;
+    border-color: #FAFAFA;
+    border-width: 0.1em;
+    background-color: #616161;
+    border-radius: 0.5em;
+}
+
+#categoria5_catalogo h2 {
+    text-align: left;
+    font-size:1em;
+    color: #FAFAFA;
+    padding-left: 0.8em;
+}
+
+#categoria5_catalogo a{
+    text-decoration: none;
+    color: #FAFAFA;
+}
+
+#categoria5_catalogo {
+    margin-left: 7.9%;
+    width: 25%;
+    float:left;
+    padding: 0.5em;
+    border-style: solid;
+    border-color: #FAFAFA;
+    border-width: 0.1em;
+    background-color: #616161;
+    border-radius: 0.5em;
+}
+
+#categoria6_catalogo h2 {
+    text-align: left;
+    font-size:1em;
+    color: #FAFAFA;
+    padding-left: 0.8em;
+}
+
+#categoria6_catalogo a{
+    text-decoration: none;
+    color: #FAFAFA;
+}
+
+#categoria6_catalogo {
+    margin-left: 7.9%;
+    width: 25%;
+    float:left;
+    padding: 0.5em;
+    border-style: solid;
+    border-color: #FAFAFA;
+    border-width: 0.1em;
+    background-color: #616161;
+    border-radius: 0.5em;
+}
+
+#categoria7_catalogo h2 {
+    text-align: left;
+    font-size:1em;
+    color: #FAFAFA;
+    padding-left: 0.8em;
+}
+
+#categoria7_catalogo a{
+    text-decoration: none;
+    color: #FAFAFA;
+}
+
+#categoria7_catalogo {
+    margin-left: 7.9%;
+    width: 25%;
+    float:left;
+    padding: 0.5em;
+    border-style: solid;
+    border-color: #FAFAFA;
+    border-width: 0.1em;
+    background-color: #616161;
+    border-radius: 0.5em;
+}
+
+#categoria8_catalogo h2 {
+    text-align: left;
+    font-size:1em;
+    color: #FAFAFA;
+    padding-left: 0.8em;
+}
+
+#categoria8_catalogo a{
+    text-decoration: none;
+    color: #FAFAFA;
+}
+
+#categoria8_catalogo {
+    margin-left: 7.9%;
+    width: 25%;
+    float:left;
+    padding: 0.5em;
+    border-style: solid;
+    border-color: #FAFAFA;
+    border-width: 0.1em;
+    background-color: #616161;
+    border-radius: 0.5em;
+}
+
+#categoria9_catalogo h2 {
+    text-align: left;
+    font-size:1em;
+    color: #FAFAFA;
+    padding-left: 0.8em;
+}
+
+#categoria9_catalogo a{
+    text-decoration: none;
+    color: #FAFAFA;
+}
+
+#categoria9_catalogo {
+    margin-left: 7.9%;
+    width: 25%;
+    float:left;
+    padding: 0.5em;
+    border-style: solid;
+    border-color: #FAFAFA;
+    border-width: 0.1em;
+    background-color: #616161;
+    border-radius: 0.5em;
 }

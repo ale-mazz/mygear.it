@@ -47,86 +47,69 @@ label {
 *******************************************************************************/
 
 
+header{
+    width:100%;
+    background-color: #D32F2F;
+    height:75px;
+}
+.menu {
+    margin:auto;
+    float: right;
+    margin-right: 2em;
+}
+#container {
+    padding-bottom: 0.7em;
+    background: #B71C1C;
+}
+.menu ul {
+    list-style-type: none;
+    padding-right: 0em;
+    font-size: 1em;
+    float: right;
+}
+.menu li {
+    float: left;
+    padding-top: 0.9em;
+    padding-bottom: 0.9em;
+    padding-left: 0.5em;
+    padding-right: 0.8em;
+}
+.menu li a {
+    display: block;
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+}
+.hover:hover{
+    font-size:105%;
+}
+.selected {
+    font-weight: 900;
+}
 
-    header{
-        width:100%;
-        background-color: #D32F2F;
-        height:75px;
+.logo{
+    top: 0px;
+    height: 4em;
+    width: auto;
+    padding-left: 3em;
+    padding-top: 0.6em;
+}
 
-    }
-    .menu {
-        background-color: #D32F2F;
-        margin:auto;
-        float: right;
-        margin-right: 2em;
-
-
-    }
-    #container {
-        padding-bottom: 0.7em;
-        background: #B71C1C;
-    }
-
-    .menu ul {
-        list-style-type: none;
-        padding-right: 0em;
-        font-size: 1em;
-        float: right;
-        background-color: #D32F2F;
-    }
-
-    .menu li {
-        float: left;
-        padding-top: 0.9em;
-        padding-bottom: 0.9em;
-        padding-left: 0.5em;
-        padding-right: 0.8em;
-
-    }
-
-    .menu li a {
-        display: block;
-        color: white;
-        padding: 12px 16px;
-        text-decoration: none;
-        background-color: #D32F2F;
-
-    }
-
-    .hover:hover{
-        font-size:105%;
-    }
-
-    .selected {
-        font-weight: 900;
-
-    }
-
-    .logo{
-        top: 0px;
-        height: 4em;
-        width: auto;
-        padding-left: 3em;
-        padding-top: 0.6em;
-    }
-
-
-    .buttonlogin {
-        background-color: #D32F2F;
-        float: right;
-        border: none;
-        color: white;
-        padding: 1em 1em;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 1em;
-        margin-top: 0.5em;
-        margin-right: 0em;
-        cursor: pointer;
-        border-radius: 10px;
-
-    }
+.buttonlogin {
+    background-color: #D32F2F;
+    float: right;
+    border: none;
+    color: white;
+    padding: 1em 1em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+    margin-top: 0.6em;
+    margin-right: 1em;
+    cursor: pointer;
+    border-radius: 10px;
+}
 .buttonlogin:hover {
 
     font-size: 103%;
@@ -137,111 +120,103 @@ Media Query
 ****************************************/
 @media only screen and (min-width: 1024px) {
 
-    .hamburger{
-        display: none;
-    }
-    .drop_menu{
-        display: none;
-    }
-
+.hamburger{
+    display: none;
+}
+.drop_menu{
+    display: none;
+}
 }
 
 
 @media only screen and (max-width: 1023px) {
 
-    .menu{
-        display: none;
+.menu{
+    display: none;
 
-    }
-    header{
-        width:100%;
-        background-color: #651FFF;
-        height:75px;
-        display:inline-block;
-        font-size:12px;
-
-    }
-
-    #container {
-        padding-bottom: 0.7em;
-        background: #6200EA;
-    }
-
-    .logo{
-        float: left;
-        height: 2.6em;
-        padding-left: 3em;
-        padding-top: 1.8em;
-    }
-
-
-    .hamburger{
-        background:none;
-        position:absolute;
-        top:0;
-        right:0;
-        line-height:45px;
-        padding:15px 20px 15px 15px;
-        color:white;
-        border:0;
-        font-size:3em;
-        font-weight:bold;
-        cursor:pointer;
-        outline:none;
-    }
-
-    .drop_menu{
-        font-weight:bold;
-        font-size:1.5em;
-        background:#f1f1f1;
-        text-align:center;
-    }
-    .drop_menu ul {
-        list-style-type: none;
-        list-style-image: none;
-    }
-    .drop_menu li {
-        display: block;
-        padding:15px 0 15px 0;
-        border-bottom:#dddddd 1px solid;
-    }
-    .drop_menu li:hover{
-        display: block;
-        background:#ffffff;
-        padding:15px 0 15px 0;
-        border-bottom:#dddddd 1px solid;
-    }
-    .drop_menu ul li a {
-        text-decoration:none;
-        margin: 0px;
-        color:#666;
-    }
-    .drop_menu ul li a:hover {
-        color: #666;
-        text-decoration:none;
-    }
-    .drop_menu a{
-        text-decoration:none;
-        color:#666;
-        }
+}
+header{
+    width:100%;
+    background-color: #D32F2F;
+    height:75px;
+    display:inline-block;
+    font-size:12px;
+}
+#container {
+    padding-bottom: 0.7em;
+    background: #B71C1C;
+}
+.logo{
+    float: left;
+    height: 2.6em;
+    padding-left: 3em;
+    padding-top: 1.8em;
+}
+.hamburger{
+    background:none;
+    position:absolute;
+    top:0;
+    right:0;
+    line-height:45px;
+    padding:15px 20px 15px 15px;
+    color:white;
+    border:0;
+    font-size:3em;
+    font-weight:bold;
+    cursor:pointer;
+    outline:none;
+}
+.drop_menu{
+    font-weight:bold;
+    font-size:1.5em;
+    background:#f1f1f1;
+    text-align:center;
+}
+.drop_menu ul {
+    list-style-type: none;
+    list-style-image: none;
+}
+.drop_menu li {
+    display: block;
+    padding:15px 0 15px 0;
+    border-bottom:#dddddd 1px solid;
+}
+.drop_menu li:hover{
+    display: block;
+    background:#ffffff;
+    padding:15px 0 15px 0;
+    border-bottom:#dddddd 1px solid;
+}
+.drop_menu ul li a {
+    text-decoration:none;
+    margin: 0px;
+    color:#666;
+}
+.drop_menu ul li a:hover {
+    color: #666;
+    text-decoration:none;
+}
+.drop_menu a{
+    text-decoration:none;
+    color:#666;
+}
     .drop_menu a:hover{
         text-decoration:none;
         color:#666;
-    }
-    .buttonlogin {
-        background-color: #651FFF;
-        float: right;
-        border: none;
-        color: white;
-        padding: 1em 1em;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 1.5em;
-        margin-top: 0.5em;
-        margin-right: 4em;
-        cursor: pointer;
-        border-radius: 10px;
-
-    }
+}
+.buttonlogin {
+    background-color: #D32F2F;
+    float: right;
+    border: none;
+    color: white;
+    padding: 1em 1em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.5em;
+    margin-top: 0.5em;
+    margin-right: 4em;
+    cursor: pointer;
+    border-radius: 10px;
+}
 }
