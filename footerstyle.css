@@ -120,7 +120,7 @@ body {
 
 #footer_bottom {
     color:#FAFAFA;
-
+    text-align: left;
 }
 
 #footer_bottom p {
@@ -129,20 +129,20 @@ body {
 }
 
 #diritti {
-    width: 5%;
+    width: 10%;
     float: left;
-    margin-left: 20%;
+    margin-left: 27%;
 }
 
 #call_us {
-    width: 5%;
-    margin-left: 3em;
-    margin-right: 3em;
+    width: 10%;
+    margin-left: 8%;
+    margin-right: 8%;
     float: left;
 }
 
 #luogo {
-    width: 5%;
+    width: 10%;
     float: left;
     margin-right: 27%;
 
@@ -195,16 +195,18 @@ body {
 }
 
 #diritti {
-    margin-left: 6%;
+    width: 20%;
+    margin-left: 15%;
 }
 
 #call_us {
-    margin-left: 3%;
-    margin-right: 3%;
+    width: 20%;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 #luogo {
-    clear: right;
+    width: 20%;
     margin-right: 6%;
 }
 
