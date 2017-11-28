@@ -35,17 +35,32 @@ body {
     height: 70%;
 }
 
-#corpo_top_home h1 {
-    text-align: center;
+#titoli_corpo_top {
+    width: 100%;
+    float: left;
+}
+
+#titoli_corpo_top h1 {
     font-size: 1.5em;
     color:#FAFAFA;
 }
 
-#corpo_top_home h2 {
-    text-align: left;
-    font-size:1em;
-    color: #FAFAFA;
-    padding-left: 0.8em;
+#titolo_vetrina {
+    width: 10%;
+    float: left;
+    margin-left: 17%;
+}
+
+#titolo_promo {
+    width: 10%;
+    float: left;
+    margin-left: 19%;
+}
+
+#titolo_novita {
+    width: 10%;
+    float: left;
+    margin-left: 19%;
 }
 
 #corpo_top_home p {
@@ -61,15 +76,14 @@ body {
 }
 
 #vetrina_home {
+    margin-top: 1.5em;
     margin-left: 7.9%;
     width: 25%;
+    clear: left;
     float:left;
     padding: 0.5em;
-    border-style: solid;
-    border-color: #FAFAFA;
-    border-width: 0.1em;
-    background-color: #616161;
-    border-radius: 0.5em;
+    background-color: black;
+    border-radius: 1em;
 }
 
 #vetrina_home img {
@@ -80,15 +94,13 @@ body {
 }
 
 #promo_home {
+    margin-top: 1.5em;
     width: 25%;
     float:left;
     margin-left: 2em;
     padding: 0.5em;
-    border-style: solid;
-    border-color: #FAFAFA;
-    border-width: 0.1em;
-    background-color: #616161;
-    border-radius: 0.5em;
+    background-color: black;
+    border-radius: 1em;
 }
 
 #promo_home img{
@@ -99,16 +111,14 @@ body {
 }
 
 #novita_home {
+    margin-top: 1.5em;
     width: 25%;
     float:left;
     margin-left: 2em;
     margin-right: 7.9%;
     padding: 0.5em;
-    border-style: solid;
-    border-color: #FAFAFA;
-    border-width: 0.1em;
-    background-color: #616161;
-    border-radius: 0.5em;
+    background-color: black;
+    border-radius: 1em;
 }
 
 #novita_home img {
