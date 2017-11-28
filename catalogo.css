@@ -30,4 +30,21 @@ body {
     padding-top: 2em;
 }
 
-#
+#categoria1_catalogo h2 {
+    text-align: center;
+    font-size: 1.5em;
+    color:white;
+}
+
+#categoria1_catalogo a{
+    text-decoration: none;
+    color: #FAFAFA;
+}
+
+#categoria1_catalogo a:hover {
+    color: #D50000;
+}
+
+#categoria1_catalogo a:visited {
+    color: #FFA726;
+}
