@@ -26,15 +26,13 @@ body {
 ********************************************************************************/
 #footer_top {
     float:left;
-    margin-top: 50%;
+    margin-top: 2em;
     background-color: #616161;
     width: 100%;
     font-size: 0.8em;
     color: #FAFAFA;
     border-style: solid;
-    border-width: 0.1em;
     border-color: #757575;
-    padding: 2em;
 }
 
 #footer_top ul {
@@ -76,29 +74,31 @@ body {
 
 #account_footer {
     width: 20%;
-    padding: 0.8em;
+    padding: 0.5em;
     float: left;
+    margin-left: 4%;
 }
 
 #chi_siamo_footer {
     width: 20%;
-    padding: 0.8em;
+    padding: 0.5em;
     float: left;
-    margin-left: 3em;
+    margin-left: 2em;
 }
 
 #support_footer {
     width: 20%;
-    padding: 0.8em;
+    padding: 0.5em;
     float: left;
-    margin-left: 3em;
+    margin-left: 2em;
 }
 
 #social_footer {
     width: 20%;
-    padding: 0.8em;
+    padding: 0.5em;
     float: left;
-    margin-left: 3em;
+    margin-left: 2em;
+    margin-right: 2.8em;
 }
 
 #social_footer h2 {
@@ -119,7 +119,6 @@ body {
 *******************************************************************/
 
 #footer_bottom {
-    margin-top: 55%;
     color:#FAFAFA;
     text-align: center;
 }
@@ -162,23 +161,28 @@ body {
 
 #account_footer {
     width: 40%;
-    margin-left: 5%;
+    margin-left: 7%;
+    padding: 0.5em;
 }
 
 #chi_siamo_footer {
      width: 40%;
-    margin-left: 0.5em;
+    margin-left: 0em;
+    padding: 0.5em;
 }
 
 #support_footer {
     clear: left;
     width: 40%;
-    margin-left: 5%;
+    margin-left: 7%;
+    padding: 0.5em;
 }
 
 #social_footer {
-     width: 40%;
-    margin-left: 0.5em;
+    width: 40%;
+    margin-left: 0em;
+    margin-right: 0em;
+    padding: 0.5em;
 }
 
 #social_footer img {
