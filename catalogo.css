@@ -1,11 +1,5 @@
-#corpo_catalogo {
-    width: 100%;
-    padding-top: 2em;
-}
-
 #categoria1_catalogo h2 {
     text-align: left;
-    font-size:1em;
     color: #FAFAFA;
     padding-left: 0.8em;
 }
@@ -17,7 +11,7 @@
 
 #categoria1_catalogo {
     margin-left: 7.9%;
-    width: 25%;
+    width: 23%;
     float:left;
     padding: 0.5em;
     border-style: solid;
@@ -29,7 +23,6 @@
 
 #categoria2_catalogo h2 {
     text-align: left;
-    font-size:1em;
     color: #FAFAFA;
     padding-left: 0.8em;
 }
@@ -41,7 +34,7 @@
 
 #categoria2_catalogo {
     margin-left: 7.9%;
-    width: 25%;
+    width: 23%;
     float:left;
     padding: 0.5em;
     border-style: solid;
@@ -53,7 +46,6 @@
 
 #categoria3_catalogo h2 {
     text-align: left;
-    font-size:1em;
     color: #FAFAFA;
     padding-left: 0.8em;
 }
@@ -65,7 +57,7 @@
 
 #categoria3_catalogo {
     margin-left: 7.9%;
-    width: 25%;
+    width: 23%;
     float:left;
     padding: 0.5em;
     border-style: solid;
@@ -77,7 +69,6 @@
 
 #categoria4_catalogo h2 {
     text-align: left;
-    font-size:1em;
     color: #FAFAFA;
     padding-left: 0.8em;
 }
@@ -89,7 +80,7 @@
 
 #categoria4_catalogo {
     margin-left: 7.9%;
-    width: 25%;
+    width: 23%;
     float:left;
     padding: 0.5em;
     border-style: solid;
@@ -101,7 +92,6 @@
 
 #categoria5_catalogo h2 {
     text-align: left;
-    font-size:1em;
     color: #FAFAFA;
     padding-left: 0.8em;
 }
@@ -113,7 +103,7 @@
 
 #categoria5_catalogo {
     margin-left: 7.9%;
-    width: 25%;
+    width: 23%;
     float:left;
     padding: 0.5em;
     border-style: solid;
@@ -125,7 +115,6 @@
 
 #categoria6_catalogo h2 {
     text-align: left;
-    font-size:1em;
     color: #FAFAFA;
     padding-left: 0.8em;
 }
@@ -137,7 +126,7 @@
 
 #categoria6_catalogo {
     margin-left: 7.9%;
-    width: 25%;
+    width: 23%;
     float:left;
     padding: 0.5em;
     border-style: solid;
@@ -149,7 +138,6 @@
 
 #categoria7_catalogo h2 {
     text-align: left;
-    font-size:1em;
     color: #FAFAFA;
     padding-left: 0.8em;
 }
@@ -161,7 +149,7 @@
 
 #categoria7_catalogo {
     margin-left: 7.9%;
-    width: 25%;
+    width: 23%;
     float:left;
     padding: 0.5em;
     border-style: solid;
@@ -173,7 +161,6 @@
 
 #categoria8_catalogo h2 {
     text-align: left;
-    font-size:1em;
     color: #FAFAFA;
     padding-left: 0.8em;
 }
@@ -185,7 +172,7 @@
 
 #categoria8_catalogo {
     margin-left: 7.9%;
-    width: 25%;
+    width: 23%;
     float:left;
     padding: 0.5em;
     border-style: solid;
@@ -197,7 +184,6 @@
 
 #categoria9_catalogo h2 {
     text-align: left;
-    font-size:1em;
     color: #FAFAFA;
     padding-left: 0.8em;
 }
@@ -209,7 +195,7 @@
 
 #categoria9_catalogo {
     margin-left: 7.9%;
-    width: 25%;
+    width: 23%;
     float:left;
     padding: 0.5em;
     border-style: solid;

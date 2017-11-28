@@ -9,21 +9,20 @@
 
 #chi_siamo_contatti h2 {
     text-align: left;
-    font-size:1em;
     color: #FAFAFA;
     padding-left: 0.8em;
 }
 
 #chi_siamo_contatti p {
     text-align: left;
-    font-size: 0.6em;
+    font-size: 0.8em;
     color: #FAFAFA;
     padding-left: 1.4em;
 }
 
 #chi_siamo_contatti {
     margin-left: 7.9%;
-    width: 25%;
+    width: 23%;
     float:left;
     padding: 0.5em;
     border-style: solid;
@@ -35,21 +34,20 @@
 
 #dove_trovarci_contatti h2 {
     text-align: left;
-    font-size:1em;
     color: #FAFAFA;
     padding-left: 0.8em;
 }
 
 #dove_trovarci_contatti p {
     text-align: left;
-    font-size: 0.6em;
+    font-size: 0.8em;
     color: #FAFAFA;
     padding-left: 1.4em;
 }
 
 #dove_trovarci_contatti {
     margin-left: 7.9%;
-    width: 25%;
+    width: 23%;
     float:left;
     padding: 0.5em;
     border-style: solid;
@@ -61,22 +59,21 @@
 
 #come_contattarci_contatti h2 {
     text-align: left;
-    font-size:1em;
     color: #FAFAFA;
     padding-left: 0.8em;
 }
 
 #come_contattarci_contatti ul {
     text-align: left;
-    font-size: 0.6em;
+    font-size: 0.8em;
     color: #FAFAFA;
     padding-left: 1.4em;
 }
 
 #come_contattarci_contatti {
     margin-left: 7.9%;
-    width: 25%;
-    float:right;
+    width: 23%;
+    float:left;
     padding: 0.5em;
     border-style: solid;
     border-color: #FAFAFA;
