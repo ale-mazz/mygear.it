@@ -114,8 +114,7 @@ body {
     margin-top: 1.5em;
     width: 25%;
     float:left;
-    margin-left: 2em;
-    margin-right: 7.9%;
+    margin-left: 1.5em;
     padding: 0.5em;
     background-color: black;
     border-radius: 1em;
@@ -145,8 +144,7 @@ body {
     float: left;
     width: 5%;
     padding: 1em;
-    margin-left: 3.2em;
-    margin-left: 8%;
+    margin-left: 6%;
 }
 
 #logo_nvidia img {
@@ -154,7 +152,7 @@ body {
     float: left;
     width: 5%;
     padding: 1em;
-    margin-left: 3em;
+    margin-left: 2em;
 }
 
 #logo_asus img {
@@ -162,7 +160,7 @@ body {
     float: left;
     width: 5%;
     padding: 1em;
-    margin-left: 3em;
+    margin-left: 2em;
 }
 
 #logo_hp img {
@@ -170,7 +168,7 @@ body {
     float: left;
     width: 5%;
     padding: 1em;
-    margin-left: 3em;
+    margin-left: 2em;
 }
 
 #logo_dell img {
@@ -178,7 +176,7 @@ body {
     float: left;
     width: 5%;
     padding: 1em;
-    margin-left: 3em;
+    margin-left: 2em;
 }
 
 #logo_samsung img {
@@ -186,7 +184,7 @@ body {
     float: left;
     width: 5%;
     padding: 1em;
-    margin-left: 3em;
+    margin-left: 2em;
 }
 
 #logo_logitech img {
@@ -194,7 +192,7 @@ body {
     float: left;
     width: 5%;
     padding: 1em;
-    margin-left: 3em;
+    margin-left: 2em;
 }
 
 #logo_microsoft img {
@@ -202,6 +200,18 @@ body {
     float: left;
     width: 5%;
     padding: 1em;
-    margin-left: 3em;
+    margin-left: 2em;
     margin-right: 8%;
+}
+
+/******************************************************************
+ Media query home
+******************************************************************/
+
+@media only screen and (max-width: 1023px) {
+
+    #titoli_corpo_top h1 {
+    font-size: 1em;
+    }
+
 }
