@@ -110,21 +110,21 @@ header{
     cursor: pointer;
     border-radius: 10px;
 }
-.buttonlogin:hover {
 
-    font-size: 103%;
-}
 
 /****************************************
 Media Query
 ****************************************/
 @media only screen and (min-width: 1024px) {
 
-.hamburger{
+#hamburger{
     display: none;
 }
-.drop_menu{
+#drop_menu{
     display: none;
+}
+.buttonlogin:hover {
+    font-size: 103%;
 }
 }
 
@@ -152,7 +152,8 @@ header{
     padding-left: 3em;
     padding-top: 1.8em;
 }
-.hamburger{
+#hamburger{
+    display: block;
     background:none;
     position:absolute;
     top:0;
@@ -166,43 +167,30 @@ header{
     cursor:pointer;
     outline:none;
 }
-.drop_menu{
+#drop_menu{
+    display: none;
     font-weight:bold;
     font-size:1.5em;
     background:#f1f1f1;
     text-align:center;
 }
-.drop_menu ul {
+#drop_menu ul {
     list-style-type: none;
     list-style-image: none;
 }
-.drop_menu li {
+#drop_menu li {
     display: block;
     padding:15px 0 15px 0;
     border-bottom:#dddddd 1px solid;
 }
-.drop_menu li:hover{
-    display: block;
-    background:#ffffff;
-    padding:15px 0 15px 0;
-    border-bottom:#dddddd 1px solid;
-}
-.drop_menu ul li a {
+#drop_menu ul li a {
     text-decoration:none;
     margin: 0px;
     color:#666;
 }
-.drop_menu ul li a:hover {
-    color: #666;
-    text-decoration:none;
-}
-.drop_menu a{
+#drop_menu a{
     text-decoration:none;
     color:#666;
-}
-    .drop_menu a:hover{
-        text-decoration:none;
-        color:#666;
 }
 .buttonlogin {
     background-color: #D32F2F;
