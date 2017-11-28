@@ -120,7 +120,7 @@ body {
 
 #footer_bottom {
     color:#FAFAFA;
-    text-align: center;
+
 }
 
 #footer_bottom p {
@@ -129,23 +129,22 @@ body {
 }
 
 #diritti {
-    width: 10em;
-    display: inline-block;
-    text-align: left;
+    width: 5%;
+    float: left;
+    margin-left: 20%;
 }
 
 #call_us {
-    width: 10em;
-    display: inline-block;
-    margin-left: 5%;
-    margin-right: 5%;
-    text-align: left;
+    width: 5%;
+    margin-left: 3em;
+    margin-right: 3em;
+    float: left;
 }
 
 #luogo {
-    width: 10em;
-    display: inline-block;
-    text-align: left;
+    width: 5%;
+    float: left;
+    margin-right: 27%;
 
 }
 
