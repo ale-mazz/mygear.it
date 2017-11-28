@@ -30,91 +30,168 @@ body {
     padding-top: 2em;
 }
 
-#corpo_home h1 {
-    text-align: center;
-    font-size: 1.5em;
-    color:white;
+#corpo_top_home {
+    width: 100%;
+    height: 70%;
 }
 
-#corpo_home a{
+#corpo_top_home h1 {
+    text-align: center;
+    font-size: 1.5em;
+    color:#FAFAFA;
+}
+
+#corpo_top_home h2 {
+    text-align: left;
+    font-size:1em;
+    color: #FAFAFA;
+    padding-left: 0.8em;
+}
+
+#corpo_top_home p {
+    text-align: left;
+    font-size: 0.6em;
+    color: #FAFAFA;
+    padding-left: 1.4em;
+}
+
+#corpo_top_home a{
     text-decoration: none;
     color: #FAFAFA;
 }
 
-#corpo_home a:hover {
-    color: #D50000;
+#vetrina_home {
+    margin-left: 7.9%;
+    width: 25%;
+    float:left;
+    padding: 0.5em;
+    border-style: solid;
+    border-color: #FAFAFA;
+    border-width: 0.1em;
+    background-color: #616161;
+    border-radius: 0.5em;
 }
 
-#corpo_home a:visited {
-    color: #FFA726;
+#vetrina_home img {
+    width: 80%;
+    padding: 0.8em;
+    margin-left: 1.7em;
+    margin-right: 1.7em;
+}
+
+#promo_home {
+    width: 25%;
+    float:left;
+    margin-left: 2em;
+    padding: 0.5em;
+    border-style: solid;
+    border-color: #FAFAFA;
+    border-width: 0.1em;
+    background-color: #616161;
+    border-radius: 0.5em;
+}
+
+#promo_home img{
+    width: 80%;
+    padding: 0.8em;
+    margin-left: 1.7em;
+    margin-right: 1.7em;
 }
 
 #novita_home {
-    margin-left: 2em;
-    width: 23%;
+    width: 25%;
     float:left;
+    margin-left: 2em;
+    margin-right: 7.9%;
+    padding: 0.5em;
+    border-style: solid;
+    border-color: #FAFAFA;
+    border-width: 0.1em;
+    background-color: #616161;
+    border-radius: 0.5em;
 }
 
 #novita_home img {
     width: 80%;
-    padding: 0.5em;
+    padding: 0.8em;
+    margin-left: 1.7em;
+    margin-right: 1.7em;
 }
 
-#offerte_home {
-    width: 23%;
-    float:left;
-}
-
-#offerte_home img{
-    width: 80%;
-    padding: 0.5em;
-}
-
-#i_piu_venduti_home {
-    width: 23%;
-    float:left;
-}
-
-#i_piu_venduti_home img {
-    width: 80%;
-    padding: 0.5em;
-}
-
-#pensati_per_voi_home {
-    margin-right: 2em;
-    width: 23%;
-    float:left;
-}
-
-#pensati_per_voi_home img {
-    width: 80%;
-    padding: 0.5em;
-}
-
-#dicono_di_noi_home h3 {
-    text-align: left;
-    font-size: 1.5em;
-    color:white;
-}
-
-#dicono_di_noi_home p{
+#corpo_bottom_home {
+    width: 100%;
+    height: 30%;
+    margin-top: 35%;
     text-align: center;
-    color:white;
-}
-#dicono_di_noi_home {
-    margin-left: 2em;
-    width: 100%;
-    float:left;
 }
 
-#marche_home h3 {
-    text-align: left;
-    font-size: 1.5em;
-    color:white;
+#corpo_bottom_home h1 {
+    font-size: 2em;
+    color: #FAFAFA;
 }
 
-#marche_home {
-    margin-left: 2em;
-    width: 100%;
-    float:left;
+#logo_intel img {
+    margin-top: 2em;
+    float: left;
+    width: 5%;
+    padding: 1em;
+    margin-left: 3.2em;
+    margin-left: 8%;
+}
+
+#logo_nvidia img {
+    margin-top: 2em;
+    float: left;
+    width: 5%;
+    padding: 1em;
+    margin-left: 3em;
+}
+
+#logo_asus img {
+    margin-top: 2em;
+    float: left;
+    width: 5%;
+    padding: 1em;
+    margin-left: 3em;
+}
+
+#logo_hp img {
+    margin-top: 2em;
+    float: left;
+    width: 5%;
+    padding: 1em;
+    margin-left: 3em;
+}
+
+#logo_dell img {
+    margin-top: 2em;
+    float: left;
+    width: 5%;
+    padding: 1em;
+    margin-left: 3em;
+}
+
+#logo_samsung img {
+    margin-top: 2em;
+    float: left;
+    width: 5%;
+    padding: 1em;
+    margin-left: 3em;
+}
+
+#logo_logitech img {
+    margin-top: 2em;
+    float: left;
+    width: 5%;
+    padding: 1em;
+    margin-left: 3em;
+}
+
+#logo_microsoft img {
+    margin-top: 2em;
+    float: left;
+    width: 5%;
+    padding: 1em;
+    margin-left: 3em;
+    margin-right: 8%;
 }
