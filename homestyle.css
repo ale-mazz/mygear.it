@@ -93,10 +93,39 @@
     float:left;
     padding: 0.5em;
     background-color: white;
+<<<<<<< HEAD
     border-color: #BDBDBD;
     border-width: 0.05em;
     border-style: solid;
     -webkit-border:
+=======
+    position: relative;
+}
+
+#vetrina_home:before, #vetrina_home:after {
+  content: "";
+  position: absolute;
+  top: -3px;
+  right: -3px;
+}
+
+#vetrina_home:before {
+  bottom: -2px;
+  width: 2px;
+  background-image: -webkit-gradient(linear, 0 100%, 0 0, from(#9E9E9E), to(transparent));
+  background-image: -webkit-linear-gradient(#9E9E9E, transparent);
+  background-image: -moz-linear-gradient(#9E9E9E, transparent);
+  background-image: -o-linear-gradient(#9E9E9E, transparent);
+}
+
+#vetrina_home:after {
+  left: -2px;
+  height: 2px;
+  background-image: -webkit-gradient(linear, 0 0, 100% 0, from(transparent), to(#9E9E9E));
+  background-image: -webkit-linear-gradient(left, transparent, #9E9E9E);
+  background-image: -moz-linear-gradient(left, transparent, #9E9E9E);
+  background-image: -o-linear-gradient(left, transparent, #9E9E9E);
+>>>>>>> origin/master
 }
 
 
@@ -115,9 +144,38 @@
     margin-left: 3em;
     padding: 0.5em;
     background-color: white;
+<<<<<<< HEAD
     border-color: #BDBDBD;
     border-width: 0.05em;
     border-style: solid;
+=======
+    position: relative;
+}
+
+#promo_home:before, #promo_home:after {
+  content: "";
+  position: absolute;
+  top: -3px;
+  right: -3px;
+}
+
+#promo_home:before {
+  bottom: -2px;
+  width: 2px;
+  background-image: -webkit-gradient(linear, 0 100%, 0 0, from(#9E9E9E), to(transparent));
+  background-image: -webkit-linear-gradient(#9E9E9E, transparent);
+  background-image: -moz-linear-gradient(#9E9E9E, transparent);
+  background-image: -o-linear-gradient(#9E9E9E, transparent);
+}
+
+#promo_home:after {
+  left: -2px;
+  height: 2px;
+  background-image: -webkit-gradient(linear, 0 0, 100% 0, from(transparent), to(#9E9E9E));
+  background-image: -webkit-linear-gradient(left, transparent, #9E9E9E);
+  background-image: -moz-linear-gradient(left, transparent, #9E9E9E);
+  background-image: -o-linear-gradient(left, transparent, #9E9E9E);
+>>>>>>> origin/master
 }
 
 #promo_home img{
@@ -134,9 +192,38 @@
     margin-left: 3em;
     padding: 0.5em;
     background-color: white;
+<<<<<<< HEAD
     border-color: #BDBDBD;
     border-width: 0.05em;
     border-style: solid;
+=======
+    position: relative;
+}
+
+#novita_home:before, #novita_home:after {
+  content: "";
+  position: absolute;
+  top: -3px;
+  right: -3px;
+}
+
+#novita_home:before {
+  bottom: -2px;
+  width: 2px;
+  background-image: -webkit-gradient(linear, 0 100%, 0 0, from(#9E9E9E), to(transparent));
+  background-image: -webkit-linear-gradient(#9E9E9E, transparent);
+  background-image: -moz-linear-gradient(#9E9E9E, transparent);
+  background-image: -o-linear-gradient(#9E9E9E, transparent);
+}
+
+#novita_home:after {
+  left: -2px;
+  height: 2px;
+  background-image: -webkit-gradient(linear, 0 0, 100% 0, from(transparent), to(#9E9E9E));
+  background-image: -webkit-linear-gradient(left, transparent, #9E9E9E);
+  background-image: -moz-linear-gradient(left, transparent, #9E9E9E);
+  background-image: -o-linear-gradient(left, transparent, #9E9E9E);
+>>>>>>> origin/master
 }
 
 #novita_home img {
