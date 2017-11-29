@@ -137,11 +137,6 @@
     margin-left: 3em;
     padding: 0.5em;
     background-color: white;
-<<<<<<< HEAD
-    border-color: #BDBDBD;
-    border-width: 0.05em;
-    border-style: solid;
-=======
     position: relative;
 }
 
@@ -168,7 +163,6 @@
   background-image: -webkit-linear-gradient(left, transparent, #9E9E9E);
   background-image: -moz-linear-gradient(left, transparent, #9E9E9E);
   background-image: -o-linear-gradient(left, transparent, #9E9E9E);
->>>>>>> origin/master
 }
 
 #promo_home img{
@@ -185,11 +179,6 @@
     margin-left: 3em;
     padding: 0.5em;
     background-color: white;
-<<<<<<< HEAD
-    border-color: #BDBDBD;
-    border-width: 0.05em;
-    border-style: solid;
-=======
     position: relative;
 }
 
@@ -216,7 +205,6 @@
   background-image: -webkit-linear-gradient(left, transparent, #9E9E9E);
   background-image: -moz-linear-gradient(left, transparent, #9E9E9E);
   background-image: -o-linear-gradient(left, transparent, #9E9E9E);
->>>>>>> origin/master
 }
 
 #novita_home img {
@@ -239,16 +227,16 @@ Corpo bottom Home
   content: "";
   position: absolute;
   top: -3px;
-  left: -3px;
+  left: 20px;
 }
 
 #corpo_bottom_home:after {
-  right: -3px;
+  right: 20px;
   height: 3px;
-  background-image: -webkit-gradient(linear, 0 0, 100% 0, from(#000), to(transparent));
+  background-image: -webkit-gradient(linear, 0 0, 100% 0, from(transparent), to(#9E9E9E), to (transparent));
   background-image: -webkit-linear-gradient(left, transparent, #9E9E9E, transparent);
-  background-image: -moz-linear-gradient(left, #000, transparent);
-  background-image: -o-linear-gradient(left, #000, transparent);
+  background-image: -moz-linear-gradient(left, transparent, #9E9E9E, transparent);
+  background-image: -o-linear-gradient(left, transparent, #9E9E9E, transparent);
 }
 
 #corpo_bottom_home h1 {
@@ -258,23 +246,31 @@ Corpo bottom Home
     text-align: center;
 }
 
-#logo_intel img {
+#logo_amd img {
     margin-top: 2em;
     float: left;
-    width: 5%;
+    width: 6%;
     padding: 1em;
     margin-left: 6%;
 }
 
-#logo_nvidia img {
-    margin-top: 2em;
+#logo_aorus img {
+    margin-top: 1.8em;
     float: left;
-    width: 5%;
+    width: 8%;
     padding: 1em;
     margin-left: 2em;
 }
 
 #logo_asus img {
+    margin-top: 1.8em;
+    float: left;
+    width: 10%;
+    padding: 1em;
+    margin-left: 1em;
+}
+
+#logo_corsair img {
     margin-top: 2em;
     float: left;
     width: 5%;
@@ -282,7 +278,7 @@ Corpo bottom Home
     margin-left: 2em;
 }
 
-#logo_hp img {
+#logo_cmd img {
     margin-top: 2em;
     float: left;
     width: 5%;
@@ -290,7 +286,7 @@ Corpo bottom Home
     margin-left: 2em;
 }
 
-#logo_dell img {
+#logo_msi img {
     margin-top: 2em;
     float: left;
     width: 5%;
@@ -298,23 +294,15 @@ Corpo bottom Home
     margin-left: 2em;
 }
 
-#logo_samsung img {
+#logo_nvidia img {
     margin-top: 2em;
     float: left;
-    width: 5%;
+    width: 7%;
     padding: 1em;
     margin-left: 2em;
 }
 
-#logo_logitech img {
-    margin-top: 2em;
-    float: left;
-    width: 5%;
-    padding: 1em;
-    margin-left: 2em;
-}
-
-#logo_microsoft img {
+#logo_predator img {
     margin-top: 2em;
     float: left;
     width: 5%;
