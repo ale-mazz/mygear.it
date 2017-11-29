@@ -93,12 +93,6 @@
     float:left;
     padding: 0.5em;
     background-color: white;
-<<<<<<< HEAD
-    border-color: #BDBDBD;
-    border-width: 0.05em;
-    border-style: solid;
-    -webkit-border:
-=======
     position: relative;
 }
 
@@ -125,7 +119,6 @@
   background-image: -webkit-linear-gradient(left, transparent, #9E9E9E);
   background-image: -moz-linear-gradient(left, transparent, #9E9E9E);
   background-image: -o-linear-gradient(left, transparent, #9E9E9E);
->>>>>>> origin/master
 }
 
 
