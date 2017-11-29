@@ -246,7 +246,7 @@ Corpo bottom Home
     text-align: center;
 }
 
-#logo_intel img {
+#logo_amd img {
     margin-top: 2em;
     float: left;
     width: 5%;
@@ -254,7 +254,7 @@ Corpo bottom Home
     margin-left: 6%;
 }
 
-#logo_nvidia img {
+#logo_aorus img {
     margin-top: 2em;
     float: left;
     width: 5%;
@@ -270,7 +270,7 @@ Corpo bottom Home
     margin-left: 2em;
 }
 
-#logo_hp img {
+#logo_corsair img {
     margin-top: 2em;
     float: left;
     width: 5%;
@@ -278,7 +278,7 @@ Corpo bottom Home
     margin-left: 2em;
 }
 
-#logo_dell img {
+#logo_cmd img {
     margin-top: 2em;
     float: left;
     width: 5%;
@@ -286,7 +286,7 @@ Corpo bottom Home
     margin-left: 2em;
 }
 
-#logo_samsung img {
+#logo_msi img {
     margin-top: 2em;
     float: left;
     width: 5%;
@@ -294,7 +294,7 @@ Corpo bottom Home
     margin-left: 2em;
 }
 
-#logo_logitech img {
+#logo_nvidia img {
     margin-top: 2em;
     float: left;
     width: 5%;
@@ -302,7 +302,7 @@ Corpo bottom Home
     margin-left: 2em;
 }
 
-#logo_microsoft img {
+#logo_predator img {
     margin-top: 2em;
     float: left;
     width: 5%;
