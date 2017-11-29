@@ -15,7 +15,7 @@ Fasce di prezzo: 599,999$
 Catalogo pezzi assemblaggio
 Header //
 Content: Macrocategorie con range di prezzo:
-Case, Alimentatori, Schede madri, Cpu, Raffreddamento, Schede video, Schede audio, Memorie ram, Memorie interne, Monitor, Periferiche esterne
+Case, Alimentatori, Schede madri, Cpu, Raffreddamento, Schede video, Schede audio, Memorie ram, Memorie interne, Monitor, Tastiere, Mouse
 Footer //
 
 Contatti:

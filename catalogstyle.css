@@ -1,15 +1,15 @@
-#categoria1_catalogo h2 {
+#case_catalogo h2 {
     text-align: left;
     color: #FAFAFA;
     padding-left: 0.8em;
 }
 
-#categoria1_catalogo a{
+#case_catalogo a{
     text-decoration: none;
     color: #FAFAFA;
 }
 
-#categoria1_catalogo {
+#case_catalogo {
     margin-left: 7.9%;
     width: 15%;
     float:left;
