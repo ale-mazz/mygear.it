@@ -11,7 +11,7 @@
 
 #categoria1_catalogo {
     margin-left: 7.9%;
-    width: 23%;
+    width: 15%;
     float:left;
     padding: 0.5em;
     border-style: solid;
@@ -34,7 +34,7 @@
 
 #categoria2_catalogo {
     margin-left: 7.9%;
-    width: 23%;
+    width: 15%;
     float:left;
     padding: 0.5em;
     border-style: solid;
@@ -57,7 +57,7 @@
 
 #categoria3_catalogo {
     margin-left: 7.9%;
-    width: 23%;
+    width: 15%;
     float:left;
     padding: 0.5em;
     border-style: solid;
@@ -80,7 +80,7 @@
 
 #categoria4_catalogo {
     margin-left: 7.9%;
-    width: 23%;
+    width: 15%;
     float:left;
     padding: 0.5em;
     border-style: solid;
@@ -194,6 +194,75 @@
 }
 
 #categoria9_catalogo {
+    margin-left: 7.9%;
+    width: 23%;
+    float:left;
+    padding: 0.5em;
+    border-style: solid;
+    border-color: #FAFAFA;
+    border-width: 0.1em;
+    background-color: #616161;
+    border-radius: 0.5em;
+}
+
+#categoria10_catalogo h2 {
+    text-align: left;
+    color: #FAFAFA;
+    padding-left: 0.8em;
+}
+
+#categoria10_catalogo a{
+    text-decoration: none;
+    color: #FAFAFA;
+}
+
+#categoria10_catalogo {
+    margin-left: 7.9%;
+    width: 23%;
+    float:left;
+    padding: 0.5em;
+    border-style: solid;
+    border-color: #FAFAFA;
+    border-width: 0.1em;
+    background-color: #616161;
+    border-radius: 0.5em;
+}
+
+#categoria11_catalogo h2 {
+    text-align: left;
+    color: #FAFAFA;
+    padding-left: 0.8em;
+}
+
+#categoria11_catalogo a{
+    text-decoration: none;
+    color: #FAFAFA;
+}
+
+#categoria11_catalogo {
+    margin-left: 7.9%;
+    width: 23%;
+    float:left;
+    padding: 0.5em;
+    border-style: solid;
+    border-color: #FAFAFA;
+    border-width: 0.1em;
+    background-color: #616161;
+    border-radius: 0.5em;
+}
+
+#categoria12_catalogo h2 {
+    text-align: left;
+    color: #FAFAFA;
+    padding-left: 0.8em;
+}
+
+#categoria12_catalogo a{
+    text-decoration: none;
+    color: #FAFAFA;
+}
+
+#categoria12_catalogo {
     margin-left: 7.9%;
     width: 23%;
     float:left;
