@@ -1,275 +1,501 @@
-#alimentatori_catalogo h2 {
-    text-align: left;
-    color: #FAFAFA;
-    padding-left: 0.8em;
-}
-
 #alimentatori_catalogo a{
     text-decoration: none;
-    color: #FAFAFA;
+    color: #000000;
 }
 
 #alimentatori_catalogo {
-    margin-left: 7.9%;
-    width: 15%;
+    margin-top: 1.5em;
+    margin-left: 3%;
+    width: 28%;
+    clear: left;
     float:left;
     padding: 0.5em;
-    border-style: solid;
-    border-color: #FAFAFA;
-    border-width: 0.1em;
-    background-color: #616161;
-    border-radius: 0.5em;
+    background-color: white;
+    position: relative;
 }
 
-#case_catalogo h2 {
-    text-align: left;
-    color: #FAFAFA;
-    padding-left: 0.8em;
+#alimentatori_catalogo:before, #alimentatori_catalogo:after {
+  content: "";
+  position: absolute;
+  top: -3px;
+  right: -3px;
 }
+
+#alimentatori_catalogo:before {
+  bottom: -2px;
+  width: 2px;
+  background-image: -webkit-gradient(linear, 0 100%, 0 0, from(#9E9E9E), to(transparent));
+  background-image: -webkit-linear-gradient(#9E9E9E, transparent);
+  background-image: -moz-linear-gradient(#9E9E9E, transparent);
+  background-image: -o-linear-gradient(#9E9E9E, transparent);
+}
+
+#alimentatori_catalogo:after {
+  left: -2px;
+  height: 2px;
+  background-image: -webkit-gradient(linear, 0 0, 100% 0, from(transparent), to(#9E9E9E));
+  background-image: -webkit-linear-gradient(left, transparent, #9E9E9E);
+  background-image: -moz-linear-gradient(left, transparent, #9E9E9E);
+  background-image: -o-linear-gradient(left, transparent, #9E9E9E);
+}
+
 
 #case_catalogo a{
     text-decoration: none;
-    color: #FAFAFA;
+    color: #000000;
 }
 
 #case_catalogo {
-    margin-left: 7.9%;
-    width: 15%;
+    margin-top: 1.5em;
+    margin-left: 3%;
+    width: 28%;
+    clear: left;
     float:left;
     padding: 0.5em;
-    border-style: solid;
-    border-color: #FAFAFA;
-    border-width: 0.1em;
-    background-color: #616161;
-    border-radius: 0.5em;
+    background-color: white;
+    position: relative;
 }
 
-#cpu_catalogo h2 {
-    text-align: left;
-    color: #FAFAFA;
-    padding-left: 0.8em;
+#case_catalogo:before, #case_catalogo:after {
+  content: "";
+  position: absolute;
+  top: -3px;
+  right: -3px;
 }
+
+#case_catalogo:before {
+  bottom: -2px;
+  width: 2px;
+  background-image: -webkit-gradient(linear, 0 100%, 0 0, from(#9E9E9E), to(transparent));
+  background-image: -webkit-linear-gradient(#9E9E9E, transparent);
+  background-image: -moz-linear-gradient(#9E9E9E, transparent);
+  background-image: -o-linear-gradient(#9E9E9E, transparent);
+}
+
+#case_catalogo:after {
+  left: -2px;
+  height: 2px;
+  background-image: -webkit-gradient(linear, 0 0, 100% 0, from(transparent), to(#9E9E9E));
+  background-image: -webkit-linear-gradient(left, transparent, #9E9E9E);
+  background-image: -moz-linear-gradient(left, transparent, #9E9E9E);
+  background-image: -o-linear-gradient(left, transparent, #9E9E9E);
+}
+
 
 #cpu_catalogo a{
     text-decoration: none;
-    color: #FAFAFA;
+    color: #000000;
 }
 
 #cpu_catalogo {
-    margin-left: 7.9%;
-    width: 15%;
+    margin-top: 1.5em;
+    margin-left: 3%;
+    width: 28%;
+    clear: left;
     float:left;
     padding: 0.5em;
-    border-style: solid;
-    border-color: #FAFAFA;
-    border-width: 0.1em;
-    background-color: #616161;
-    border-radius: 0.5em;
+    background-color: white;
+    position: relative;
 }
 
-#cuffie_catalogo h2 {
-    text-align: left;
-    color: #FAFAFA;
-    padding-left: 0.8em;
+#cpu_catalogo:before, #cpu_catalogo:after {
+  content: "";
+  position: absolute;
+  top: -3px;
+  right: -3px;
 }
+
+#cpu_catalogo:before {
+  bottom: -2px;
+  width: 2px;
+  background-image: -webkit-gradient(linear, 0 100%, 0 0, from(#9E9E9E), to(transparent));
+  background-image: -webkit-linear-gradient(#9E9E9E, transparent);
+  background-image: -moz-linear-gradient(#9E9E9E, transparent);
+  background-image: -o-linear-gradient(#9E9E9E, transparent);
+}
+
+#cpu_catalogo:after {
+  left: -2px;
+  height: 2px;
+  background-image: -webkit-gradient(linear, 0 0, 100% 0, from(transparent), to(#9E9E9E));
+  background-image: -webkit-linear-gradient(left, transparent, #9E9E9E);
+  background-image: -moz-linear-gradient(left, transparent, #9E9E9E);
+  background-image: -o-linear-gradient(left, transparent, #9E9E9E);
+}
+
 
 #cuffie_catalogo a{
     text-decoration: none;
-    color: #FAFAFA;
+    color: #000000;
 }
 
 #cuffie_catalogo {
-    margin-left: 7.9%;
-    width: 15%;
+    margin-top: 1.5em;
+    margin-left: 3%;
+    width: 28%;
+    clear: left;
     float:left;
     padding: 0.5em;
-    border-style: solid;
-    border-color: #FAFAFA;
-    border-width: 0.1em;
-    background-color: #616161;
-    border-radius: 0.5em;
+    background-color: white;
+    position: relative;
 }
 
-#memorie_interne_catalogo h2 {
-    text-align: left;
-    color: #FAFAFA;
-    padding-left: 0.8em;
+#cuffie_catalogo:before, #cuffie_catalogo:after {
+  content: "";
+  position: absolute;
+  top: -3px;
+  right: -3px;
 }
+
+#cuffie_catalogo:before {
+  bottom: -2px;
+  width: 2px;
+  background-image: -webkit-gradient(linear, 0 100%, 0 0, from(#9E9E9E), to(transparent));
+  background-image: -webkit-linear-gradient(#9E9E9E, transparent);
+  background-image: -moz-linear-gradient(#9E9E9E, transparent);
+  background-image: -o-linear-gradient(#9E9E9E, transparent);
+}
+
+#cuffie_catalogo:after {
+  left: -2px;
+  height: 2px;
+  background-image: -webkit-gradient(linear, 0 0, 100% 0, from(transparent), to(#9E9E9E));
+  background-image: -webkit-linear-gradient(left, transparent, #9E9E9E);
+  background-image: -moz-linear-gradient(left, transparent, #9E9E9E);
+  background-image: -o-linear-gradient(left, transparent, #9E9E9E);
+}
+
 
 #memorie_interne_catalogo a{
     text-decoration: none;
-    color: #FAFAFA;
+    color: #000000;
 }
 
 #memorie_interne_catalogo {
-    margin-left: 7.9%;
-    width: 23%;
+    margin-top: 1.5em;
+    margin-left: 3%;
+    width: 28%;
+    clear: left;
     float:left;
     padding: 0.5em;
-    border-style: solid;
-    border-color: #FAFAFA;
-    border-width: 0.1em;
-    background-color: #616161;
-    border-radius: 0.5em;
+    background-color: white;
+    position: relative;
 }
 
-#memorie_ram_catalogo h2 {
-    text-align: left;
-    color: #FAFAFA;
-    padding-left: 0.8em;
+#memorie_interne_catalogo:before, #memorie_interne_catalogo:after {
+  content: "";
+  position: absolute;
+  top: -3px;
+  right: -3px;
 }
+
+#memorie_interne_catalogo:before {
+  bottom: -2px;
+  width: 2px;
+  background-image: -webkit-gradient(linear, 0 100%, 0 0, from(#9E9E9E), to(transparent));
+  background-image: -webkit-linear-gradient(#9E9E9E, transparent);
+  background-image: -moz-linear-gradient(#9E9E9E, transparent);
+  background-image: -o-linear-gradient(#9E9E9E, transparent);
+}
+
+#memorie_interne_catalogo:after {
+  left: -2px;
+  height: 2px;
+  background-image: -webkit-gradient(linear, 0 0, 100% 0, from(transparent), to(#9E9E9E));
+  background-image: -webkit-linear-gradient(left, transparent, #9E9E9E);
+  background-image: -moz-linear-gradient(left, transparent, #9E9E9E);
+  background-image: -o-linear-gradient(left, transparent, #9E9E9E);
+}
+
 
 #memorie_ram_catalogo a{
     text-decoration: none;
-    color: #FAFAFA;
+    color: #000000;
 }
 
 #memorie_ram_catalogo {
-    margin-left: 7.9%;
-    width: 23%;
+    margin-top: 1.5em;
+    margin-left: 3%;
+    width: 28%;
+    clear: left;
     float:left;
     padding: 0.5em;
-    border-style: solid;
-    border-color: #FAFAFA;
-    border-width: 0.1em;
-    background-color: #616161;
-    border-radius: 0.5em;
+    background-color: white;
+    position: relative;
 }
 
-#monitor_catalogo h2 {
-    text-align: left;
-    color: #FAFAFA;
-    padding-left: 0.8em;
+#memorie_ram_catalogo:before, #memorie_ram_catalogo:after {
+  content: "";
+  position: absolute;
+  top: -3px;
+  right: -3px;
 }
+
+#memorie_ram_catalogo:before {
+  bottom: -2px;
+  width: 2px;
+  background-image: -webkit-gradient(linear, 0 100%, 0 0, from(#9E9E9E), to(transparent));
+  background-image: -webkit-linear-gradient(#9E9E9E, transparent);
+  background-image: -moz-linear-gradient(#9E9E9E, transparent);
+  background-image: -o-linear-gradient(#9E9E9E, transparent);
+}
+
+#memorie_ram_catalogo:after {
+  left: -2px;
+  height: 2px;
+  background-image: -webkit-gradient(linear, 0 0, 100% 0, from(transparent), to(#9E9E9E));
+  background-image: -webkit-linear-gradient(left, transparent, #9E9E9E);
+  background-image: -moz-linear-gradient(left, transparent, #9E9E9E);
+  background-image: -o-linear-gradient(left, transparent, #9E9E9E);
+}
+
 
 #monitor_catalogo a{
     text-decoration: none;
-    color: #FAFAFA;
+    color: #000000;
 }
 
 #monitor_catalogo {
-    margin-left: 7.9%;
-    width: 23%;
+    margin-top: 1.5em;
+    margin-left: 3%;
+    width: 28%;
+    clear: left;
     float:left;
     padding: 0.5em;
-    border-style: solid;
-    border-color: #FAFAFA;
-    border-width: 0.1em;
-    background-color: #616161;
-    border-radius: 0.5em;
+    background-color: white;
+    position: relative;
 }
 
-#mouse_e_tastiere_catalogo h2 {
-    text-align: left;
-    color: #FAFAFA;
-    padding-left: 0.8em;
+#monitor_catalogo:before, #monitor_catalogo:after {
+  content: "";
+  position: absolute;
+  top: -3px;
+  right: -3px;
+}
+
+#monitor_catalogo:before {
+  bottom: -2px;
+  width: 2px;
+  background-image: -webkit-gradient(linear, 0 100%, 0 0, from(#9E9E9E), to(transparent));
+  background-image: -webkit-linear-gradient(#9E9E9E, transparent);
+  background-image: -moz-linear-gradient(#9E9E9E, transparent);
+  background-image: -o-linear-gradient(#9E9E9E, transparent);
+}
+
+#monitor_catalogo:after {
+  left: -2px;
+  height: 2px;
+  background-image: -webkit-gradient(linear, 0 0, 100% 0, from(transparent), to(#9E9E9E));
+  background-image: -webkit-linear-gradient(left, transparent, #9E9E9E);
+  background-image: -moz-linear-gradient(left, transparent, #9E9E9E);
+  background-image: -o-linear-gradient(left, transparent, #9E9E9E);
 }
 
 #mouse_e_tastiere_catalogo a{
     text-decoration: none;
-    color: #FAFAFA;
+    color: #000000;
 }
 
 #mouse_e_tastiere_catalogo {
-    margin-left: 7.9%;
-    width: 23%;
+    margin-top: 1.5em;
+    margin-left: 3%;
+    width: 28%;
+    clear: left;
     float:left;
     padding: 0.5em;
-    border-style: solid;
-    border-color: #FAFAFA;
-    border-width: 0.1em;
-    background-color: #616161;
-    border-radius: 0.5em;
+    background-color: white;
+    position: relative;
 }
 
-#raffreddamento_catalogo h2 {
-    text-align: left;
-    color: #FAFAFA;
-    padding-left: 0.8em;
+#mouse_e_tastiere_catalogo:before, #mouse_e_tastiere_catalogo:after {
+  content: "";
+  position: absolute;
+  top: -3px;
+  right: -3px;
 }
+
+#mouse_e_tastiere_catalogo:before {
+  bottom: -2px;
+  width: 2px;
+  background-image: -webkit-gradient(linear, 0 100%, 0 0, from(#9E9E9E), to(transparent));
+  background-image: -webkit-linear-gradient(#9E9E9E, transparent);
+  background-image: -moz-linear-gradient(#9E9E9E, transparent);
+  background-image: -o-linear-gradient(#9E9E9E, transparent);
+}
+
+#mouse_e_tastiere_catalogo:after {
+  left: -2px;
+  height: 2px;
+  background-image: -webkit-gradient(linear, 0 0, 100% 0, from(transparent), to(#9E9E9E));
+  background-image: -webkit-linear-gradient(left, transparent, #9E9E9E);
+  background-image: -moz-linear-gradient(left, transparent, #9E9E9E);
+  background-image: -o-linear-gradient(left, transparent, #9E9E9E);
+}
+
 
 #raffreddamento_catalogo a{
     text-decoration: none;
-    color: #FAFAFA;
+    color: #000000;
 }
 
 #raffreddamento_catalogo {
-    margin-left: 7.9%;
-    width: 23%;
+    margin-top: 1.5em;
+    margin-left: 3%;
+    width: 28%;
+    clear: left;
     float:left;
     padding: 0.5em;
-    border-style: solid;
-    border-color: #FAFAFA;
-    border-width: 0.1em;
-    background-color: #616161;
-    border-radius: 0.5em;
+    background-color: white;
+    position: relative;
 }
 
-#schede_audio_catalogo h2 {
-    text-align: left;
-    color: #FAFAFA;
-    padding-left: 0.8em;
+#raffreddamento_catalogo:before, #raffreddamento_catalogo:after {
+  content: "";
+  position: absolute;
+  top: -3px;
+  right: -3px;
 }
+
+#raffreddamento_catalogo:before {
+  bottom: -2px;
+  width: 2px;
+  background-image: -webkit-gradient(linear, 0 100%, 0 0, from(#9E9E9E), to(transparent));
+  background-image: -webkit-linear-gradient(#9E9E9E, transparent);
+  background-image: -moz-linear-gradient(#9E9E9E, transparent);
+  background-image: -o-linear-gradient(#9E9E9E, transparent);
+}
+
+#raffreddamento_catalogo:after {
+  left: -2px;
+  height: 2px;
+  background-image: -webkit-gradient(linear, 0 0, 100% 0, from(transparent), to(#9E9E9E));
+  background-image: -webkit-linear-gradient(left, transparent, #9E9E9E);
+  background-image: -moz-linear-gradient(left, transparent, #9E9E9E);
+  background-image: -o-linear-gradient(left, transparent, #9E9E9E);
+}
+
 
 #schede_audio_catalogo a{
     text-decoration: none;
-    color: #FAFAFA;
+    color: #000000;
 }
 
 #schede_audio_catalogo {
-    margin-left: 7.9%;
-    width: 23%;
+    margin-top: 1.5em;
+    margin-left: 3%;
+    width: 28%;
+    clear: left;
     float:left;
     padding: 0.5em;
-    border-style: solid;
-    border-color: #FAFAFA;
-    border-width: 0.1em;
-    background-color: #616161;
-    border-radius: 0.5em;
+    background-color: white;
+    position: relative;
 }
 
-#schede_madri_catalogo h2 {
-    text-align: left;
-    color: #FAFAFA;
-    padding-left: 0.8em;
+#schede_audio_catalogo:before, #schede_audio_catalogo:after {
+  content: "";
+  position: absolute;
+  top: -3px;
+  right: -3px;
 }
+
+#schede_audio_catalogo:before {
+  bottom: -2px;
+  width: 2px;
+  background-image: -webkit-gradient(linear, 0 100%, 0 0, from(#9E9E9E), to(transparent));
+  background-image: -webkit-linear-gradient(#9E9E9E, transparent);
+  background-image: -moz-linear-gradient(#9E9E9E, transparent);
+  background-image: -o-linear-gradient(#9E9E9E, transparent);
+}
+
+#schede_audio_catalogo:after {
+  left: -2px;
+  height: 2px;
+  background-image: -webkit-gradient(linear, 0 0, 100% 0, from(transparent), to(#9E9E9E));
+  background-image: -webkit-linear-gradient(left, transparent, #9E9E9E);
+  background-image: -moz-linear-gradient(left, transparent, #9E9E9E);
+  background-image: -o-linear-gradient(left, transparent, #9E9E9E);
+}
+
 
 #schede_madri_catalogo a{
     text-decoration: none;
-    color: #FAFAFA;
+    color: #000000;
 }
 
 #schede_madri_catalogo {
-    margin-left: 7.9%;
-    width: 23%;
+    margin-top: 1.5em;
+    margin-left: 3%;
+    width: 28%;
+    clear: left;
     float:left;
     padding: 0.5em;
-    border-style: solid;
-    border-color: #FAFAFA;
-    border-width: 0.1em;
-    background-color: #616161;
-    border-radius: 0.5em;
+    background-color: white;
+    position: relative;
 }
 
-#schede_video_catalogo h2 {
-    text-align: left;
-    color: #FAFAFA;
-    padding-left: 0.8em;
+#schede_madri_catalogo:before, #schede_madri_catalogo:after {
+  content: "";
+  position: absolute;
+  top: -3px;
+  right: -3px;
 }
+
+#schede_madri_catalogo:before {
+  bottom: -2px;
+  width: 2px;
+  background-image: -webkit-gradient(linear, 0 100%, 0 0, from(#9E9E9E), to(transparent));
+  background-image: -webkit-linear-gradient(#9E9E9E, transparent);
+  background-image: -moz-linear-gradient(#9E9E9E, transparent);
+  background-image: -o-linear-gradient(#9E9E9E, transparent);
+}
+
+#schede_madri_catalogo:after {
+  left: -2px;
+  height: 2px;
+  background-image: -webkit-gradient(linear, 0 0, 100% 0, from(transparent), to(#9E9E9E));
+  background-image: -webkit-linear-gradient(left, transparent, #9E9E9E);
+  background-image: -moz-linear-gradient(left, transparent, #9E9E9E);
+  background-image: -o-linear-gradient(left, transparent, #9E9E9E);
+}
+
 
 #schede_video_catalogo a{
     text-decoration: none;
-    color: #FAFAFA;
+    color: #000000;
 }
 
 #schede_video_catalogo {
-    margin-left: 7.9%;
-    width: 23%;
+    margin-top: 1.5em;
+    margin-left: 3%;
+    width: 28%;
+    clear: left;
     float:left;
     padding: 0.5em;
-    border-style: solid;
-    border-color: #FAFAFA;
-    border-width: 0.1em;
-    background-color: #616161;
-    border-radius: 0.5em;
+    background-color: white;
+    position: relative;
+}
+
+#schede_video_catalogo:before, #schede_video_catalogo:after {
+  content: "";
+  position: absolute;
+  top: -3px;
+  right: -3px;
+}
+
+#schede_video_catalogo:before {
+  bottom: -2px;
+  width: 2px;
+  background-image: -webkit-gradient(linear, 0 100%, 0 0, from(#9E9E9E), to(transparent));
+  background-image: -webkit-linear-gradient(#9E9E9E, transparent);
+  background-image: -moz-linear-gradient(#9E9E9E, transparent);
+  background-image: -o-linear-gradient(#9E9E9E, transparent);
+}
+
+#schede_video_catalogo:after {
+  left: -2px;
+  height: 2px;
+  background-image: -webkit-gradient(linear, 0 0, 100% 0, from(transparent), to(#9E9E9E));
+  background-image: -webkit-linear-gradient(left, transparent, #9E9E9E);
+  background-image: -moz-linear-gradient(left, transparent, #9E9E9E);
+  background-image: -o-linear-gradient(left, transparent, #9E9E9E);
 }
