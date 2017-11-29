@@ -1,38 +1,17 @@
-@charset "UTF-8";
-
-/******************************************************************************
-  General
-*******************************************************************************/
-
-* {
-    border-color: #e1e1e1;
-    border-style: solid;
-    border-width: 0;
-    padding: 0em;
-    margin: 0em;
-}
-
-html,body {
-  height: 100%;
-}
-
-body {
-    font-family: 'Arimo', sans-serif;
-    background-color: #424242;
-}
-
 /********************************************************************************
     Footer Top
 ********************************************************************************/
 #footer_top {
     float:left;
     margin-top: 2em;
-    background-color: #616161;
+    background-color: #212121;
     width: 100%;
     font-size: 0.8em;
     color: #FAFAFA;
     border-style: solid;
     border-color: #757575;
+    border-left: none;
+    border-right: none;
 }
 
 #footer_top ul {
@@ -108,7 +87,7 @@ body {
     font-weight: normal;
 }
 
-#social_footer img {
+.loghi_social {
     width: 3em;
     float:left;
     padding: 1em;
@@ -119,7 +98,7 @@ body {
 *******************************************************************/
 
 #footer_bottom {
-    color:#FAFAFA;
+    color:#212121;
     text-align: left;
 }
 
