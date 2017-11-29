@@ -205,18 +205,18 @@
     border-radius: 0.5em;
 }
 
-#scheda_audio_catalogo h2 {
+#schede_audio_catalogo h2 {
     text-align: left;
     color: #FAFAFA;
     padding-left: 0.8em;
 }
 
-#scheda_audio_catalogo a{
+#schede_audio_catalogo a{
     text-decoration: none;
     color: #FAFAFA;
 }
 
-#scheda_audio_catalogo {
+#schede_audio_catalogo {
     margin-left: 7.9%;
     width: 23%;
     float:left;
