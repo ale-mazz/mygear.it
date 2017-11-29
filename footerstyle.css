@@ -46,7 +46,6 @@
     border-bottom-color: #FAFAFA;
     border-bottom-width: 0.1em;
 }
-
 #account_footer {
     width: 20%;
     padding: 0.5em;
@@ -121,6 +120,10 @@
     float: left;
     margin-right: 19%;
 
+}
+
+p {
+    margin-top: 1em;
 }
 
 /******************************************************************
