@@ -92,7 +92,7 @@
     clear: left;
     float:left;
     padding: 0.5em;
-    background-color: #FAFAFA;
+    background-color: white;
     border-radius: 0.5em;
     border-color: #000000;
     border-width: 0.05em;
@@ -112,7 +112,7 @@
     float:left;
     margin-left: 3em;
     padding: 0.5em;
-    background-color: #FAFAFA;
+    background-color: white;
     border-radius: 0.5em;
     border-color: #000000;
     border-width: 0.05em;
@@ -132,7 +132,7 @@
     float:left;
     margin-left: 3em;
     padding: 0.5em;
-    background-color: #FAFAFA;
+    background-color: white;
     border-radius: 0.5em;
     border-color: #000000;
     border-width: 0.05em;
@@ -155,7 +155,7 @@
 
 #corpo_bottom_home h1 {
     font-size: 2em;
-    color: #FAFAFA;
+    color: white;
 }
 
 #logo_intel img {
