@@ -51,14 +51,38 @@
 
 #corpo_top_home p {
     text-align: left;
-    font-size: 0.6em;
+    font-size: 0.7em;
     color: #000000;
-    padding-left: 1.4em;
+    padding-top: 1em;
 }
 
-#corpo_top_home a{
+.riquadro {
+    padding:1em;
+}
+
+.riquadro h1 {
+    font-size: 1em;
+    padding-bottom: 0.5em;
+}
+
+.block_title_home {
+    border-color: #000000;
+    border-bottom-style: solid;
+    border-bottom-width: 0.1em;
+}
+
+.riquadro h2 {
+    font-size: 0.8em;
+    padding-top: 1em;
+}
+
+.riquadro a{
     text-decoration: none;
     color: #000000;
+}
+
+.riquadro a:hover {
+    color:#D50000;
 }
 
 #vetrina_home {
