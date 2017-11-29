@@ -1,0 +1,71 @@
+#regform{
+
+    background-color: #FF8A80;
+    margin: 10em 30em 10em 30em;
+    padding-bottom: 30em ;
+}
+#regform h1{
+
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 2em;
+}
+/* Full-width input fields */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+.regform button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+/* Extra styles for the cancel button */
+
+.cancelbtn {
+    background-color: #f44336;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    cursor: pointer;
+    margin: 8px 0;
+}
+
+.signupbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;;
+    border: none;
+    cursor: pointer;
+    margin: 8px 0;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn,.signupbtn {
+    float: left;
+    width: 50%;
+}
+
+/* Add padding to container elements */
+.containerreg {
+    padding: 100px;
+}
+
+/* Clear floats */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
