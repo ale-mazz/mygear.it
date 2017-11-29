@@ -1,3 +1,26 @@
+#alimentatori_catalogo h2 {
+    text-align: left;
+    color: #FAFAFA;
+    padding-left: 0.8em;
+}
+
+#alimentatori_catalogo a{
+    text-decoration: none;
+    color: #FAFAFA;
+}
+
+#alimentatori_catalogo {
+    margin-left: 7.9%;
+    width: 15%;
+    float:left;
+    padding: 0.5em;
+    border-style: solid;
+    border-color: #FAFAFA;
+    border-width: 0.1em;
+    background-color: #616161;
+    border-radius: 0.5em;
+}
+
 #case_catalogo h2 {
     text-align: left;
     color: #FAFAFA;
@@ -21,18 +44,18 @@
     border-radius: 0.5em;
 }
 
-#categoria2_catalogo h2 {
+#cpu_catalogo h2 {
     text-align: left;
     color: #FAFAFA;
     padding-left: 0.8em;
 }
 
-#categoria2_catalogo a{
+#cpu_catalogo a{
     text-decoration: none;
     color: #FAFAFA;
 }
 
-#categoria2_catalogo {
+#cpu_catalogo {
     margin-left: 7.9%;
     width: 15%;
     float:left;
@@ -44,18 +67,18 @@
     border-radius: 0.5em;
 }
 
-#categoria3_catalogo h2 {
+#cuffie_catalogo h2 {
     text-align: left;
     color: #FAFAFA;
     padding-left: 0.8em;
 }
 
-#categoria3_catalogo a{
+#cuffie_catalogo a{
     text-decoration: none;
     color: #FAFAFA;
 }
 
-#categoria3_catalogo {
+#cuffie_catalogo {
     margin-left: 7.9%;
     width: 15%;
     float:left;
@@ -67,41 +90,18 @@
     border-radius: 0.5em;
 }
 
-#categoria4_catalogo h2 {
+#memorie_interne_catalogo h2 {
     text-align: left;
     color: #FAFAFA;
     padding-left: 0.8em;
 }
 
-#categoria4_catalogo a{
+#memorie_interne_catalogo a{
     text-decoration: none;
     color: #FAFAFA;
 }
 
-#categoria4_catalogo {
-    margin-left: 7.9%;
-    width: 15%;
-    float:left;
-    padding: 0.5em;
-    border-style: solid;
-    border-color: #FAFAFA;
-    border-width: 0.1em;
-    background-color: #616161;
-    border-radius: 0.5em;
-}
-
-#categoria5_catalogo h2 {
-    text-align: left;
-    color: #FAFAFA;
-    padding-left: 0.8em;
-}
-
-#categoria5_catalogo a{
-    text-decoration: none;
-    color: #FAFAFA;
-}
-
-#categoria5_catalogo {
+#memorie_interne_catalogo {
     margin-left: 7.9%;
     width: 23%;
     float:left;
@@ -113,18 +113,18 @@
     border-radius: 0.5em;
 }
 
-#categoria6_catalogo h2 {
+#memorie_ram_catalogo h2 {
     text-align: left;
     color: #FAFAFA;
     padding-left: 0.8em;
 }
 
-#categoria6_catalogo a{
+#memorie_ram_catalogo a{
     text-decoration: none;
     color: #FAFAFA;
 }
 
-#categoria6_catalogo {
+#memorie_ram_catalogo {
     margin-left: 7.9%;
     width: 23%;
     float:left;
@@ -136,18 +136,18 @@
     border-radius: 0.5em;
 }
 
-#categoria7_catalogo h2 {
+#monitor_catalogo h2 {
     text-align: left;
     color: #FAFAFA;
     padding-left: 0.8em;
 }
 
-#categoria7_catalogo a{
+#monitor_catalogo a{
     text-decoration: none;
     color: #FAFAFA;
 }
 
-#categoria7_catalogo {
+#monitor_catalogo {
     margin-left: 7.9%;
     width: 23%;
     float:left;
@@ -159,18 +159,18 @@
     border-radius: 0.5em;
 }
 
-#categoria8_catalogo h2 {
+#mouse_e_tastiere_catalogo h2 {
     text-align: left;
     color: #FAFAFA;
     padding-left: 0.8em;
 }
 
-#categoria8_catalogo a{
+#mouse_e_tastiere_catalogo a{
     text-decoration: none;
     color: #FAFAFA;
 }
 
-#categoria8_catalogo {
+#mouse_e_tastiere_catalogo {
     margin-left: 7.9%;
     width: 23%;
     float:left;
@@ -182,18 +182,18 @@
     border-radius: 0.5em;
 }
 
-#categoria9_catalogo h2 {
+#raffreddamento_catalogo h2 {
     text-align: left;
     color: #FAFAFA;
     padding-left: 0.8em;
 }
 
-#categoria9_catalogo a{
+#raffreddamento_catalogo a{
     text-decoration: none;
     color: #FAFAFA;
 }
 
-#categoria9_catalogo {
+#raffreddamento_catalogo {
     margin-left: 7.9%;
     width: 23%;
     float:left;
@@ -205,18 +205,18 @@
     border-radius: 0.5em;
 }
 
-#categoria10_catalogo h2 {
+#scheda_audio_catalogo h2 {
     text-align: left;
     color: #FAFAFA;
     padding-left: 0.8em;
 }
 
-#categoria10_catalogo a{
+#scheda_audio_catalogo a{
     text-decoration: none;
     color: #FAFAFA;
 }
 
-#categoria10_catalogo {
+#scheda_audio_catalogo {
     margin-left: 7.9%;
     width: 23%;
     float:left;
@@ -228,18 +228,18 @@
     border-radius: 0.5em;
 }
 
-#categoria11_catalogo h2 {
+#schede_madri_catalogo h2 {
     text-align: left;
     color: #FAFAFA;
     padding-left: 0.8em;
 }
 
-#categoria11_catalogo a{
+#schede_madri_catalogo a{
     text-decoration: none;
     color: #FAFAFA;
 }
 
-#categoria11_catalogo {
+#schede_madri_catalogo {
     margin-left: 7.9%;
     width: 23%;
     float:left;
@@ -251,18 +251,18 @@
     border-radius: 0.5em;
 }
 
-#categoria12_catalogo h2 {
+#schede_video_catalogo h2 {
     text-align: left;
     color: #FAFAFA;
     padding-left: 0.8em;
 }
 
-#categoria12_catalogo a{
+#schede_video_catalogo a{
     text-decoration: none;
     color: #FAFAFA;
 }
 
-#categoria12_catalogo {
+#schede_video_catalogo {
     margin-left: 7.9%;
     width: 23%;
     float:left;
