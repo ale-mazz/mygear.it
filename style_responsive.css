@@ -1,4 +1,429 @@
 
+/*
+
+|style_responsive.css|
+
+CSS creato in maniera responsive al fine di adattare al meglio il nostro sito web
+in ogni dispositivo di qualsiasi dimensione.
+
+Le sezioni sono suddivise per categoria, le media query relative ad una specifica
+categoria sono state inserite al termine di ogni sezione.
+
+*/
+
+
+/******************************************************************************
+Generale
+*******************************************************************************/
+@charset "UTF-8";
+
+* {
+    padding: 0em;
+    margin: 0em;
+}
+
+html,body {
+    height: 100%;
+}
+body {
+    font-family: 'Lato';
+    background-color: white;
+}
+
+/******************************************************************************
+Header & Menu
+*******************************************************************************/
+
+header{
+    width:100%;
+    background-color: #D32F2F;
+    height:75px;
+}
+.menu {
+    margin:auto;
+    float: right;
+    margin-right: 2em;
+}
+#container {
+    padding-bottom: 0.7em;
+    background: #B71C1C;
+}
+.menu ul {
+    list-style-type: none;
+    padding-right: 0em;
+    font-size: 1em;
+    float: right;
+}
+.menu li {
+    float: left;
+    padding-top: 0.9em;
+    padding-bottom: 0.9em;
+    padding-left: 0.5em;
+    padding-right: 0.8em;
+}
+.menu li a {
+    display: block;
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+}
+
+.hover{
+    display: inline-block;
+    position: relative;
+}
+.hover:hover{
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+
+
+}
+.selected {
+    font-weight: 900;
+}
+
+.logo{
+    top: 0px;
+    height: 4em;
+    width: auto;
+    padding-left: 3em;
+    padding-top: 0.6em;
+}
+
+.buttonlogin {
+    display: inline-block;
+    position: relative;
+    background-color: #D32F2F;
+    float: right;
+    border: none;
+    color: white;
+    padding: 1em 1em;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1em;
+    margin-top: 0.6em;
+    margin-right: 1em;
+    cursor: pointer;
+}
+
+/****************************************
+Media Query Header & Menu
+****************************************/
+@media only screen and (min-width: 1001px) {
+
+    #hamburger{
+        display: none;
+    }
+    #drop_menu{
+        display: none;
+    }
+    .buttonlogin:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    }
+}
+
+
+@media only screen and (max-width: 1000px) {
+
+    .menu{
+        display: none;
+
+    }
+    header{
+        width:100%;
+        background-color: #D32F2F;
+        height:8em;
+        display:inline-block;
+        font-size:12px;
+        position: fixed;
+    }
+    #container {
+        padding-bottom: 0.7em;
+        background: #B71C1C;
+        position:fixed;
+        width: 100%;
+        height: 6.5em;
+    }
+    .logo{
+        float: left;
+        height: 4em;
+        padding-left: 3em;
+        padding-top: 1.8em;
+    }
+    #hamburger{
+        display: block;
+        background:none;
+        position:absolute;
+        top:0;
+        right:0;
+        line-height:45px;
+        padding:0.45em 0.45em 0.45em 0.45em;
+        color:white;
+        border:0;
+        font-size:4.5em;
+        font-weight:bold;
+        cursor:pointer;
+        outline:none;
+    }
+    #drop_menu{
+        font-weight:bold;
+        font-size:1.5em;
+        background:#f1f1f1;
+        text-align:center;
+        position: fixed;
+        width: 100%;
+        top:4.8em;
+    }
+    #drop_menu ul {
+        list-style-type: none;
+        list-style-image: none;
+    }
+    #drop_menu li {
+        display: block;
+        padding:15px 0 15px 0;
+        border-bottom:#dddddd 1px solid;
+    }
+    #drop_menu ul li a {
+        text-decoration:none;
+        margin: 0px;
+        color:#666;
+    }
+    #drop_menu a{
+        text-decoration:none;
+        color:#666;
+    }
+
+    .menuClose{
+        height: 0;
+        display: none;
+    }
+    .menuOpen{
+        height: auto;
+        display: block;
+    }
+    .buttonlogin {
+        font-size: 2.3em;
+        padding: 0.5em 0.5em 0.5em 0.5em;
+        margin-top: 0.65em;
+        margin-right: 4em;
+
+    }
+}
+
+@media only screen and (max-width: 767px) {
+
+    body{
+        background-color: yellow;
+    }
+    .logo{
+        height: 3em;
+        margin-top: 0;
+    }
+    .buttonlogin{
+        font-size: 1.6em;
+        margin-right: 3em;
+        margin-top: 0.4em;
+        padding-left: 0em;
+    }
+    #hamburger{
+        font-size: 3em;
+    }
+}
+
+/********************************************************************************
+Footer Top
+********************************************************************************/
+
+#footer_top {
+    float:left;
+    margin-top: 2em;
+    background-color: #212121;
+    width: 100%;
+    font-size: 0.8em;
+    color: #FAFAFA;
+    border-style: solid;
+    border-color: #D32F2F;
+    border-left: none;
+    border-right: none;
+}
+
+#footer_top ul {
+	list-style-type:none;
+    padding-top: 0.5em;
+}
+
+#footer_top ul li{
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+}
+
+#footer_top a {
+    text-decoration: none;
+    color: #FAFAFA;
+}
+
+#footer_top a:hover {
+    color: #D50000;
+}
+
+#footer_top h1 {
+    color: #FAFAFA;
+    margin-bottom: 0.2em;
+    font-size: 1em;
+}
+
+.block_title {
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+    border-bottom-style: solid;
+    border-bottom-color: #FAFAFA;
+    border-bottom-width: 0.1em;
+}
+#account_footer {
+    width: 20%;
+    padding: 0.5em;
+    float: left;
+    margin-left: 3.25%;
+}
+
+#chi_siamo_footer {
+    width: 20%;
+    padding: 0.5em;
+    float: left;
+    margin-left: 3%;
+}
+
+#support_footer {
+    width: 20%;
+    padding: 0.5em;
+    float: left;
+    margin-left: 3%;
+}
+
+#social_footer {
+    width: 20%;
+    padding: 0.5em;
+    float: left;
+    margin-left: 3%;
+    margin-right: 3.25%;
+}
+
+#social_footer h2 {
+    margin-bottom: 0.5em;
+    margin-top: 1em;
+    font-size: 1em;
+    font-weight: normal;
+}
+
+.loghi_social {
+    width: 3em;
+    float:left;
+    padding: 1em;
+}
+
+/*******************************************************************
+ Footer Bottom
+*******************************************************************/
+
+#footer_bottom {
+    color:#212121;
+    text-align: left;
+}
+
+#footer_bottom p {
+    font-size: 0.8em;
+    padding: 0.8em;
+}
+
+#diritti {
+    width: 15%;
+    float: left;
+    margin-left: 20%;
+}
+
+#call_us {
+    width: 15%;
+    margin-left: 8%;
+    margin-right: 8%;
+    float: left;
+}
+
+#luogo {
+    width: 15%;
+    float: left;
+    margin-right: 19%;
+
+}
+
+p {
+    margin-top: 1em;
+}
+
+/******************************************************************
+ Media Query Footer
+******************************************************************/
+
+@media only screen and (max-width: 1000px) {
+
+    #footer_top {
+        font-size: 2em;
+    }
+
+    #account_footer {
+        width: 80%;
+        margin-left: 10%;
+        padding: 0.5em;
+    }
+
+    #chi_siamo_footer {
+        width: 80%;
+        margin-left: 10%;
+        padding: 0.5em;
+    }
+
+    #support_footer {
+        width: 80%;
+        margin-left: 10%;
+        padding: 0.5em;
+    }
+
+    #social_footer {
+        width: 80%;
+        margin-left: 10%;
+        padding: 0.5em;
+    }
+
+    #social_footer img {
+        width: 2em;
+        padding: 0.8em;
+    }
+
+    #footer_bottom {
+        font-size: 1.5em;
+        margin-bottom: 1em;
+    }
+
+    #diritti {
+        width: 20%;
+        margin-left: 15%;
+    }
+
+    #call_us {
+        width: 20%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    #luogo {
+        width: 20%;
+        margin-right: 6%;
+    }
+
+}
+
 /********************************************************************************
 Banner
 ********************************************************************************/
