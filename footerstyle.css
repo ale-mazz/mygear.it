@@ -133,38 +133,36 @@ p {
 @media only screen and (max-width: 1023px) {
 
 #footer_top {
-    font-size: 1.5em;
+    font-size: 2em;
 }
 
 #account_footer {
-    width: 40%;
-    margin-left: 7%;
+    width: 50%;
+    margin-left: 25%;
     padding: 0.5em;
 }
 
 #chi_siamo_footer {
-     width: 40%;
-    margin-left: 0em;
+    width: 50%;
+    margin-left: 25%;
     padding: 0.5em;
 }
 
 #support_footer {
-    clear: left;
-    width: 40%;
-    margin-left: 7%;
+    width: 50%;
+    margin-left: 25%;
     padding: 0.5em;
 }
 
 #social_footer {
-    width: 40%;
-    margin-left: 0em;
-    margin-right: 0em;
+    width: 50%;
+    margin-left: 25%;
     padding: 0.5em;
 }
 
 #social_footer img {
-    width: 1.5em;
-    padding: 0.5em;
+    width: 2em;
+    padding: 0.8em;
 }
 
 #footer_bottom {
