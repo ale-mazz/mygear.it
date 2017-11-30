@@ -1,21 +1,22 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="it">
+<html lang="it">
 <head>
-  <title>Titolo sito</title>
-   <link rel="stylesheet" type="text/css" href="headerstyle.css">
-   <link rel="stylesheet" type="text/css" href="footerstyle.css">
-   <link rel="stylesheet" type="text/css" href="configstyle.css">
-    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Arimo" />
-    <script src="jquery-3.2.1.min.js"></script>
-    <script src="header.js"></script>
+<title>MYGEAR</title>
+    <link rel="stylesheet" type="text/css" href="headerstyle.css">
+    <link rel="stylesheet" type="text/css" href="footerstyle.css">
+    <link rel="stylesheet" type="text/css" href="homestyle.css">
+    <link rel="stylesheet" type="text/css" href="configstyle.css">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Lato" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="javascript/hamburger.js"></script>
     <meta charset="UTF-8">
 </head>
 <body>
     <div id="container">
         <header>
-                <button class="hamburger">&#9776;</button>
+                <button id="hamburger">&#9776;</button>
                 <button class="buttonlogin">ACCEDI</button>
             <img class="logo" src="immaginisito/mygear.png" alt="Logo del sito Mygear">
             <div class="menu">
@@ -28,71 +29,298 @@
             </div>
         </header>
     </div>
-        <div class="drop_menu">
+        <div id="drop_menu" class="menuClose">
             <ul>
                 <li><a class="selected" href="home.html">Home</a></li>
-                <li><a href="configurazioni.html">Configurazioni</a></li>
-                <li><a href="catalogo.html">Catalogo</a></li>
-                <li><a href="contatti.html">Contatti</a></li>
+                <li><a class="hover" href="configurazioni.html">Configurazioni</a></li>
+                <li><a class="hover" href="catalogo.html">Catalogo</a></li>
+                <li><a class="hover" href="contatti.html">Contatti</a></li>
             </ul>
         </div>
-<div id="titolo1_configurazioni">
-    <h1>TITOLO 1</h1>
-    <img src="immaginisito/">
-    <strong>SPECIFICHE</strong>
-    <p></p>
-</div>
-<div id="titolo2_configurazioni">
-    <h1>TITOLO 2</h1>
-    <img src="immaginisito/">
-    <strong>SPECIFICHE</strong>
-    <p></p>
-    </div>
-</body>
+     <div id="titolo_config"> <h1>LE NOSTRE CONFIGURAZIONI</h1></div>
+<!-- Configurazione 1 -->
+    <div id="configurazione_1">
+         <div class="titoli_config"> <h1>VYBE HERO</h1></div>
+         <img src="immaginisito/vybe_hero.png">
+         <div class="riquadro">
+             <h1>SPECIFICHE</h1>
+                 <h2>PROCESSORE</h2>
+             <div class="corpo_riquadro">
+                 <p>
+                     Intel® Core™ i7 8700 3.2GHz/4.6GHz Turbo SIX Core CPU w/ Hyperthreading 12MB L3 Cache
+                 </p>
+             </div>
+                 <h2>RAFFREDDAMENTO</h2>
+             <div class="corpo_riquadro">
+                 <p>
+                    [Closed Loop Liquid Cooling] Epic 240 Cooler from Epic 120
+                 </p>
+             </div>
+                 <h2>MEMORIA RAM</h2>
+             <div class="corpo_riquadro">
+                 <p>
+                    16GB CORSAIR Dominator Platinum DDR4- 3200 (4x4GB)
+                 </p>
+             </div>
+                 <h2>SCHEDA VIDEO</h2>
+             <div class="corpo_riquadro">
+                 <p>
+                    NVIDIA GeForce GTX 1080 8GB GDDR5x with G-SYNC
+                 </p>
+             </div>
+                 <h2>ALIMENTATORE</h2>
+             <div class="corpo_riquadro">
+                 <p>
+                    850W EVGA® SuperNOVA P2 80 PLATINUM Certified Fully Modular PSU
+                 </p>
+             </div>
+                 <h2>SSD</h2>
+             <div class="corpo_riquadro">
+                 <p>
+                    [M.2 NVME SSD] 512GB Samsung® 960 Pro [3,500MB/s Sequential Reads]
+                 </p>
+             </div>
+                 <h2>HARD DISK</h2>
+             <div class="corpo_riquadro">
+                 <p>
+                    [HDD] 2TB Seagate Desktop HDD 7200rpm 64MB Cache
+                 </p>
+             </div>
+                 <h2>MASTERIZZATORE</h2>
+             <div class="corpo_riquadro">
+                 <p>
+                    8X Asus® DVD Burner External USB 2.0
+                 </p>
+             </div>
+                 <h2>SCHEDA AUDIO</h2>
+             <div class="corpo_riquadro">
+                 <p>
+                    Asus® Xonar DX 7.1 Surround PCI-E [GAMING]
+                 </p>
+             </div>
+                 <h2>SISTEMA OPERATIVO</h2>
+             <div class="corpo_riquadro">
+                 <p>
+                    Microsoft Windows 10 Professional 64-bit
+                 </p>
+             </div>
+                 <h2>GARANZIA</h2>
+             <div class="corpo_riquadro">
+                 <p>
+                    2 ANNI
+                 </p>
+             </div>
+                 <h1>PREZZO</h1>
+             <div class="corpo_riquadro">
+                 <h1>750,00 €</h1>
+             </div>
+         </div>
+     </div>
+<!-- Configurazione 2 -->
+        <div id="configurazione_2">
+         <div class="titoli_config"> <h1>D2</h1></div>
+         <img src="immaginisito/d2_main.png">
+         <div class="riquadro">
+             <h1>SPECIFICHE</h1>
+                 <h2>PROCESSORE</h2>
+             <div class="corpo_riquadro">
+                 <p>
+                     Intel® Core™ i7 8700 3.2GHz/4.6GHz Turbo SIX Core CPU w/ Hyperthreading 12MB L3 Cache
+                 </p>
+             </div>
+                 <h2>RAFFREDDAMENTO</h2>
+             <div class="corpo_riquadro">
+                 <p>
+                    [Closed Loop Liquid Cooling] Epic 240 Cooler from Epic 120
+                 </p>
+             </div>
+                 <h2>MEMORIA RAM</h2>
+             <div class="corpo_riquadro">
+                 <p>
+                    16GB CORSAIR Dominator Platinum DDR4- 3200 (4x4GB)
+                 </p>
+             </div>
+                 <h2>SCHEDA VIDEO</h2>
+             <div class="corpo_riquadro">
+                 <p>
+                    NVIDIA GeForce GTX 1080 8GB GDDR5x with G-SYNC
+                 </p>
+             </div>
+                 <h2>ALIMENTATORE</h2>
+             <div class="corpo_riquadro">
+                 <p>
+                    850W EVGA® SuperNOVA P2 80 PLATINUM Certified Fully Modular PSU
+                 </p>
+             </div>
+                 <h2>SSD</h2>
+             <div class="corpo_riquadro">
+                 <p>
+                    [M.2 NVME SSD] 512GB Samsung® 960 Pro [3,500MB/s Sequential Reads]
+                 </p>
+             </div>
+                 <h2>HARD DISK</h2>
+             <div class="corpo_riquadro">
+                 <p>
+                    [HDD] 2TB Seagate Desktop HDD 7200rpm 64MB Cache
+                 </p>
+             </div>
+                 <h2>MASTERIZZATORE</h2>
+             <div class="corpo_riquadro">
+                 <p>
+                    8X Asus® DVD Burner External USB 2.0
+                 </p>
+             </div>
+                 <h2>SCHEDA AUDIO</h2>
+             <div class="corpo_riquadro">
+                 <p>
+                    Asus® Xonar DX 7.1 Surround PCI-E [GAMING]
+                 </p>
+             </div>
+                 <h2>SISTEMA OPERATIVO</h2>
+             <div class="corpo_riquadro">
+                 <p>
+                    Microsoft Windows 10 Professional 64-bit
+                 </p>
+             </div>
+                 <h2>GARANZIA</h2>
+             <div class="corpo_riquadro">
+                 <p>
+                    2 ANNI
+                 </p>
+             </div>
+                 <h1>PREZZO</h1>
+             <div class="corpo_riquadro">
+                 <h1>1550,00 €</h1>
+             </div>
+            </div>
+        </div>
+<!-- Configurazione 3 -->
+    <div id="configurazione_3">
+         <div class="titoli_config"> <h1>RUSH</h1></div>
+         <img src="immaginisito/rush_red.png">
+         <div class="riquadro">
+             <h1>SPECIFICHE</h1>
+                 <h2>PROCESSORE</h2>
+             <div class="corpo_riquadro">
+                 <p>
+                     Intel® Core™ i7 8700 3.2GHz/4.6GHz Turbo SIX Core CPU w/ Hyperthreading 12MB L3 Cache
+                 </p>
+             </div>
+                 <h2>RAFFREDDAMENTO</h2>
+             <div class="corpo_riquadro">
+                 <p>
+                    [Closed Loop Liquid Cooling] Epic 240 Cooler from Epic 120
+                 </p>
+             </div>
+                 <h2>MEMORIA RAM</h2>
+             <div class="corpo_riquadro">
+                 <p>
+                    16GB CORSAIR Dominator Platinum DDR4- 3200 (4x4GB)
+                 </p>
+             </div>
+                 <h2>SCHEDA VIDEO</h2>
+             <div class="corpo_riquadro">
+                 <p>
+                    NVIDIA GeForce GTX 1080 8GB GDDR5x with G-SYNC
+                 </p>
+             </div>
+                 <h2>ALIMENTATORE</h2>
+             <div class="corpo_riquadro">
+                 <p>
+                    850W EVGA® SuperNOVA P2 80 PLATINUM Certified Fully Modular PSU
+                 </p>
+             </div>
+                 <h2>SSD</h2>
+             <div class="corpo_riquadro">
+                 <p>
+                    [M.2 NVME SSD] 512GB Samsung® 960 Pro [3,500MB/s Sequential Reads]
+                 </p>
+             </div>
+                 <h2>HARD DISK</h2>
+             <div class="corpo_riquadro">
+                 <p>
+                    [HDD] 2TB Seagate Desktop HDD 7200rpm 64MB Cache
+                 </p>
+             </div>
+                 <h2>MASTERIZZATORE</h2>
+             <div class="corpo_riquadro">
+                 <p>
+                    8X Asus® DVD Burner External USB 2.0
+                 </p>
+             </div>
+                 <h2>SCHEDA AUDIO</h2>
+             <div class="corpo_riquadro">
+                 <p>
+                    Asus® Xonar DX 7.1 Surround PCI-E [GAMING]
+                 </p>
+             </div>
+                 <h2>SISTEMA OPERATIVO</h2>
+             <div class="corpo_riquadro">
+                 <p>
+                    Microsoft Windows 10 Professional 64-bit
+                 </p>
+             </div>
+                 <h2>GARANZIA</h2>
+             <div class="corpo_riquadro">
+                 <p>
+                    2 ANNI
+                 </p>
+             </div>
+                 <h1>PREZZO</h1>
+             <div class="corpo_riquadro">
+                 <h1>3750,00 €</h1>
+             </div>
+         </div>
+     </div>
+<!-- Footer -->
 <footer id="footer_top">
    <div id="account_footer">
    <div class="block_title"> <h1>Account</h1> </div>
             <ul>
-                <li> <a href="account.html">Login </a></li>
-                <li> <a href="recupero_password.html"> Forgot My Password </a></li>
-                <li> <a href="account_computer.html"> My Computer </a></li>
+                <li> <a href="account.html">Registrati</a></li>
+                <li> <a href="recupero_password.html">Accedi</a></li>
+                <li> <a href="account_computer.html">Elimina Account</a></li>
             </ul>
     </div>
     <div id="chi_siamo_footer">
 
     <div class="block_title"> <h1>Chi Siamo</h1> </div>
             <p>
-                Siamo designer, programmatori, copywriter, esperti di marketing, analisi statistica e pubblicità online… ma soprattutto, siamo appassionati di internet.
-                No, non è solo un mestiere :)
+                Mygear dal 2017 offre il meglio della componentistica Gaming Based e soluzioni pensate per chi vuole
+                sempre il top! Noi siamo poveri comunque (SAD)
             </p>
     </div>
     <div id="support_footer">
-    <div class="block_title"> <h1>Support</h1> </div>
+    <div class="block_title"> <h1>Supporto</h1> </div>
             <ul>
                 <li> <a href="contatti.html"> Contattaci </a> </li>
-                <li> <a href="faq.html"> FAQ </a> </li>
-                <li> <a href="privacy.html"> Privacy Policy </a> </li>
+                <li> <a href="faq.html"> F.A.Q. </a> </li>
+                <li> <a href="privacy.html"> Privacy </a> </li>
                 <li> <a href="termini_condizioni.html"> Termini e Condizioni </a> </li>
-                <li> <a href="warranty.html"> Warranty Return Policy </a> </li>
+                <li> <a href="warranty.html"> Politica di Reso </a> </li>
             </ul>
     </div>
     <div id="social_footer">
     <div class="block_title"> <h1>Social</h1> </div>
         <h2>Seguici su:</h2>
-            <a href="https://www.facebook.com" target="_blank"><img class="loghi_social" src="immaginisito/social_icon_facebook.png"></a>
-            <a href="https://www.twitter.com" target="_blank"><img img class="loghi_social" src="immaginisito/social_icon_twitter.png"></a>
-            <a href="https://www.instagram.com" target="_blank"><img img class="loghi_social" src="immaginisito/social_icon_instagram.png"></a>
+            <a href="https://www.facebook.com" target="_blank"><img class="loghi_social" src="/immaginisito/fb.png"></a>
+            <a href="https://www.twitter.com" target="_blank"><img img class="loghi_social" src="immaginisito/twitter.png"></a>
+            <a href="https://www.instagram.com" target="_blank"><img img class="loghi_social" src="immaginisito/instagram.png"></a>
+            <a href="https://www.youtube.com" target="_blank"><img img class="loghi_social" src="immaginisito/yt.png"></a>
+
     </div>
 </footer>
 <footer id="footer_bottom">
     <div id="diritti">
-        <p> © 2017 MY GEAR Inc,<br>All Rights Reserved </p>
+        <p>© 2017 MY GEAR Inc.<br> Diritti riservati</p>
     </div>
     <div id="call_us">
-        <p>Call Us: 034 4532890 <br> MY GEAR s.n.c</p>
+        <p>Chiamaci: 049 55678990<br> MY GEAR inc.</p>
     </div>
     <div id="luogo">
-        <p>Via Trieste 123, 30051,<br> Padova, Italy</p>
+        <p>Via Trieste 123, 30051<br> Padova, Italy</p>
     </div>
-    </footer>
+
+</footer>
+</body>
 </html>
