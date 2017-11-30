@@ -95,9 +95,9 @@ header{
 }
 
 .buttonlogin:hover {
-    -webkit-transform: scale(1.2);
-    -ms-transform: scale(1.2);
-    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -moz-transform: scale(1.1);
 
 }
 
@@ -164,7 +164,7 @@ header{
     text-align:center;
     position: fixed;
     width: 100%;
-    top:3.53em
+    top:4.8em;
 }
 #drop_menu ul {
     list-style-type: none;
@@ -185,7 +185,6 @@ header{
     color:#666;
 }
 
-
 .menuClose{
     height: 0;
     display: none;
@@ -196,9 +195,9 @@ header{
 }
 .buttonlogin {
     font-size: 2.3em;
-    margin-top: 0.15em;
+    padding: 0.5em 0.5em 0.5em 0.5em;
+    margin-top: 0.65em;
     margin-right: 4em;
-
 
 }
 }
