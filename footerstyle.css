@@ -50,29 +50,29 @@
     width: 20%;
     padding: 0.5em;
     float: left;
-    margin-left: 4%;
+    margin-left: 3.25%;
 }
 
 #chi_siamo_footer {
     width: 20%;
     padding: 0.5em;
     float: left;
-    margin-left: 2em;
+    margin-left: 3%;
 }
 
 #support_footer {
     width: 20%;
     padding: 0.5em;
     float: left;
-    margin-left: 2em;
+    margin-left: 3%;
 }
 
 #social_footer {
     width: 20%;
     padding: 0.5em;
     float: left;
-    margin-left: 2em;
-    margin-right: 2.8em;
+    margin-left: 3%;
+    margin-right: 3.25%;
 }
 
 #social_footer h2 {
@@ -137,26 +137,26 @@ p {
 }
 
 #account_footer {
-    width: 50%;
-    margin-left: 25%;
+    width: 80%;
+    margin-left: 10%;
     padding: 0.5em;
 }
 
 #chi_siamo_footer {
-    width: 50%;
-    margin-left: 25%;
+    width: 80%;
+    margin-left: 10%;
     padding: 0.5em;
 }
 
 #support_footer {
-    width: 50%;
-    margin-left: 25%;
+    width: 80%;
+    margin-left: 10%;
     padding: 0.5em;
 }
 
 #social_footer {
-    width: 50%;
-    margin-left: 25%;
+    width: 80%;
+    margin-left: 10%;
     padding: 0.5em;
 }
 

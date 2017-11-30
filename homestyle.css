@@ -339,11 +339,24 @@ Corpo bottom Home
         font-size: 2em;
     }
 
-      #titolo_vetrina h1 {
-        font-size: 3em;
-}
+    #corpo_top_home p {
+        font-size: 1.5em;
+    }
 
-   #vetrina {
+    .riquadro h1 {
+        font-size: 2em;
+    }
+
+    .riquadro h2 {
+        font-size: 1.8em;
+    }
+
+    #titolo_vetrina h1 {
+        font-size: 3em;
+        margin-top: 1em;
+    }
+
+    #vetrina {
         width: 90%;
         margin-left: 0;
     }
@@ -353,12 +366,13 @@ Corpo bottom Home
         position: static;
     }
 
-      #titolo_promo h1 {
+    #titolo_promo h1 {
         font-size: 3em;
+        margin-bottom: 2em;
 }
 
     #promo {
-        margin-top: 2em;
+        margin-top: 5em;
         width: 90%;
         margin-left: 0;
     }
@@ -371,10 +385,11 @@ Corpo bottom Home
 
     #titolo_novita h1 {
         font-size: 3em;
+        margin-bottom: 2em;
 }
 
     #novita {
-        margin-top: 2em;
+        margin-top: 5em;
         width: 90%;
         margin-left: 0;
     }
@@ -390,7 +405,7 @@ Corpo bottom Home
 
     #corpo_bottom_home{
         position: static;
-        margin-top: 295%;
+        margin-top: 370%;
         border-style: none;
     }
 
