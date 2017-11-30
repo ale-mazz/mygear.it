@@ -127,64 +127,63 @@ p {
 }
 
 /******************************************************************
- Media query Footer
+ Media Query Footer
 ******************************************************************/
 
-@media only screen and (max-width: 1023px) {
+@media only screen and (max-width: 1000px) {
 
-#footer_top {
-    font-size: 2em;
-}
+    #footer_top {
+        font-size: 2em;
+    }
 
-#account_footer {
-    width: 80%;
-    margin-left: 10%;
-    padding: 0.5em;
-}
+    #account_footer {
+        width: 80%;
+        margin-left: 10%;
+        padding: 0.5em;
+    }
 
-#chi_siamo_footer {
-    width: 80%;
-    margin-left: 10%;
-    padding: 0.5em;
-}
+    #chi_siamo_footer {
+        width: 80%;
+        margin-left: 10%;
+        padding: 0.5em;
+    }
 
-#support_footer {
-    width: 80%;
-    margin-left: 10%;
-    padding: 0.5em;
-}
+    #support_footer {
+        width: 80%;
+        margin-left: 10%;
+        padding: 0.5em;
+    }
 
-#social_footer {
-    width: 80%;
-    margin-left: 10%;
-    padding: 0.5em;
-}
+    #social_footer {
+        width: 80%;
+        margin-left: 10%;
+        padding: 0.5em;
+    }
 
-#social_footer img {
-    width: 2em;
-    padding: 0.8em;
-}
+    #social_footer img {
+        width: 2em;
+        padding: 0.8em;
+    }
 
-#footer_bottom {
-    font-size: 1.5em;
-    margin-bottom: 1em;
-}
+    #footer_bottom {
+        font-size: 1.5em;
+        margin-bottom: 1em;
+    }
 
-#diritti {
-    width: 20%;
-    margin-left: 15%;
-}
+    #diritti {
+        width: 20%;
+        margin-left: 15%;
+    }
 
-#call_us {
-    width: 20%;
-    margin-left: 5%;
-    margin-right: 5%;
-}
+    #call_us {
+        width: 20%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
 
-#luogo {
-    width: 20%;
-    margin-right: 6%;
-}
-
+    #luogo {
+        width: 20%;
+        margin-right: 6%;
+    }
 
 }
