@@ -187,3 +187,17 @@ p {
     }
 
 }
+
+/******************************************************************
+Media Query Mobile
+******************************************************************/
+@media only screen and (max-width: 767px) {
+
+    #footer_top {
+        font-size: 0.8em;
+    }
+
+    #footer_bottom {
+        font-size: 0.5em;
+    }
+}
