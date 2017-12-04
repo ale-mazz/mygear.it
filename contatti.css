@@ -7,77 +7,194 @@
     padding-top: 2em;
 }
 
-#chi_siamo_contatti h2 {
+#chi_siamo_contatti img {
+    width: 10%;
+    float: left;
+    margin-left: 1em;
+}
+
+#chi_siamo_contatti h1 {
     text-align: left;
-    color: #FAFAFA;
-    padding-left: 0.8em;
+    color: black;
+    float: left;
 }
 
 #chi_siamo_contatti p {
     text-align: left;
-    font-size: 0.8em;
-    color: #FAFAFA;
-    padding-left: 1.4em;
+    font-size: 1.2em;
+    color: black;
+    float: left;
+    clear: left;
 }
 
 #chi_siamo_contatti {
-    margin-left: 7.9%;
-    width: 23%;
-    float:left;
+    margin-top: 2em;
+    margin-bottom: 3em;
+    margin-left: 4.5em;
     padding: 0.5em;
-    border-style: solid;
-    border-color: #FAFAFA;
-    border-width: 0.1em;
-    background-color: #616161;
-    border-radius: 0.5em;
+    background-color: white;
+    width: 25%;
+    height: 25%;
+    float:left;
+    position:relative;
 }
 
-#dove_trovarci_contatti h2 {
+#chi_siamo_contatti:before, #chi_siamo_contatti:after {
+  content: "";
+  position: absolute;
+  top: -3px;
+  right: -3px;
+}
+
+#chi_siamo_contatti:before {
+  bottom: -2px;
+  width: 2px;
+  background-image: -webkit-gradient(linear, 0 100%, 0 0, from(#9E9E9E), to(transparent));
+  background-image: -webkit-linear-gradient(#9E9E9E, transparent);
+  background-image: -moz-linear-gradient(#9E9E9E, transparent);
+  background-image: -o-linear-gradient(#9E9E9E, transparent);
+}
+
+#chi_siamo_contatti:after {
+  left: -2px;
+  height: 2px;
+  background-image: -webkit-gradient(linear, 0 0, 100% 0, from(transparent), to(#9E9E9E));
+  background-image: -webkit-linear-gradient(left, transparent, #9E9E9E);
+  background-image: -moz-linear-gradient(left, transparent, #9E9E9E);
+  background-image: -o-linear-gradient(left, transparent, #9E9E9E);
+}
+
+#titolo_chi_siamo_contatti h1 {
+    border-color: black;
+    border-bottom-style: solid;
+    border-bottom-width: 0.1em;
+}
+
+#dove_trovarci_contatti img {
+    width: 10%;
+    float: left;
+    margin-left: 1em;
+}
+
+#dove_trovarci_contatti h1 {
     text-align: left;
-    color: #FAFAFA;
-    padding-left: 0.8em;
+    color: black;
+    float: left;
 }
 
 #dove_trovarci_contatti p {
     text-align: left;
-    font-size: 0.8em;
-    color: #FAFAFA;
-    padding-left: 1.4em;
+    font-size: 1.2em;
+    color: black;
+    float: left;
+    clear: left;
 }
 
 #dove_trovarci_contatti {
-    margin-left: 7.9%;
-    width: 23%;
-    float:left;
+    margin-top: 2em;
+    margin-bottom: 3em;
+    margin-left: 4.5em;
     padding: 0.5em;
-    border-style: solid;
-    border-color: #FAFAFA;
-    border-width: 0.1em;
-    background-color: #616161;
-    border-radius: 0.5em;
+    background-color: white;
+    width: 25%;
+    height: 25%;
+    float:left;
+    position: relative;
 }
 
-#come_contattarci_contatti h2 {
+#dove_trovarci_contatti:before, #dove_trovarci_contatti:after {
+  content: "";
+  position: absolute;
+  top: -3px;
+  right: -3px;
+}
+
+#dove_trovarci_contatti:before {
+  bottom: -2px;
+  width: 2px;
+  background-image: -webkit-gradient(linear, 0 100%, 0 0, from(#9E9E9E), to(transparent));
+  background-image: -webkit-linear-gradient(#9E9E9E, transparent);
+  background-image: -moz-linear-gradient(#9E9E9E, transparent);
+  background-image: -o-linear-gradient(#9E9E9E, transparent);
+}
+
+#dove_trovarci_contatti:after {
+  left: -2px;
+  height: 2px;
+  background-image: -webkit-gradient(linear, 0 0, 100% 0, from(transparent), to(#9E9E9E));
+  background-image: -webkit-linear-gradient(left, transparent, #9E9E9E);
+  background-image: -moz-linear-gradient(left, transparent, #9E9E9E);
+  background-image: -o-linear-gradient(left, transparent, #9E9E9E);
+}
+
+#titolo_dove_trovarci_contatti h1 {
+    border-color: black;
+    border-bottom-style: solid;
+    border-bottom-width: 0.1em;
+}
+
+
+#come_contattarci_contatti img {
+    width: 10%;
+    float: left;
+    margin-left: 1em;
+}
+
+#come_contattarci_contatti h1 {
     text-align: left;
-    color: #FAFAFA;
-    padding-left: 0.8em;
+    color: black;
+    float: left;
 }
 
 #come_contattarci_contatti ul {
     text-align: left;
-    font-size: 0.8em;
-    color: #FAFAFA;
-    padding-left: 1.4em;
+    font-size: 1.2em;
+    padding: 0.5em;
+    color: black;
+    float: left;
+    clear: left;
+    padding-left: 1em;
 }
 
 #come_contattarci_contatti {
-    margin-left: 7.9%;
-    width: 23%;
-    float:left;
+    margin-top: 2em;
+    margin-bottom: 3em;
+    margin-left: 4.5em;
     padding: 0.5em;
-    border-style: solid;
-    border-color: #FAFAFA;
-    border-width: 0.1em;
-    background-color: #616161;
-    border-radius: 0.5em;
+    background-color: white;
+    width: 25%;
+    height: 25%;
+    float:left;
+    position: relative;
+}
+
+#come_contattarci_contatti:before, #come_contattarci_contatti:after {
+  content: "";
+  position: absolute;
+  top: -3px;
+  right: -3px;
+}
+
+#come_contattarci_contatti:before {
+  bottom: -2px;
+  width: 2px;
+  background-image: -webkit-gradient(linear, 0 100%, 0 0, from(#9E9E9E), to(transparent));
+  background-image: -webkit-linear-gradient(#9E9E9E, transparent);
+  background-image: -moz-linear-gradient(#9E9E9E, transparent);
+  background-image: -o-linear-gradient(#9E9E9E, transparent);
+}
+
+#come_contattarci_contatti:after {
+  left: -2px;
+  height: 2px;
+  background-image: -webkit-gradient(linear, 0 0, 100% 0, from(transparent), to(#9E9E9E));
+  background-image: -webkit-linear-gradient(left, transparent, #9E9E9E);
+  background-image: -moz-linear-gradient(left, transparent, #9E9E9E);
+  background-image: -o-linear-gradient(left, transparent, #9E9E9E);
+}
+
+#titolo_come_contattarci_contatti h1 {
+    border-color: black;
+    border-bottom-style: solid;
+    border-bottom-width: 0.1em;
 }

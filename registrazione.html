@@ -3,19 +3,21 @@
 <head>
 <title>MYGEAR</title>
     <link rel="stylesheet" type="text/css" href="headerstyle.css">
-
+    <link rel="stylesheet" type="text/css" href="footerstyle.css">
     <link rel="stylesheet" type="text/css" href="regstyle.css">
 
 
-    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Arimo" />
-    <script src="jquery-3.2.1.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lato" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="javascript/hamburger.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
     <meta charset="UTF-8">
 </head>
 <body>
-    <script src="/javascript/hamburger.js"></script>
     <div id="container">
         <header>
-                <button id="hamburger" onclick="showmenu()">&#9776;</button>
+                <button id="hamburger">&#9776;</button>
                 <button class="buttonlogin">ACCEDI</button>
             <img class="logo" src="immaginisito/mygear.png" alt="Logo del sito Mygear">
             <div class="menu">
@@ -28,79 +30,87 @@
             </div>
         </header>
     </div>
-    <div id="drop_menu">
-        <ul>
-            <li><a class="selected" href="home.html">Home</a></li>
-            <li><a href="configurazioni.html">Configurazioni</a></li>
-            <li><a href="catalogo.html">Catalogo</a></li>
-            <li><a href="contatti.html">Contatti</a></li>
-        </ul>
+        <div id="drop_menu" class="menuClose">
+            <ul>
+                <li><a class="selected" href="home.html">Home</a></li>
+                <li><a class="hover" href="configurazioni.html">Configurazioni</a></li>
+                <li><a class="hover" href="catalogo.html">Catalogo</a></li>
+                <li><a class="hover" href="contatti.html">Contatti</a></li>
+            </ul>
+        </div>
+    <div id="regtitle">
+        <h1>REGISTRATI SUBITO PER RIMANERE SEMPRE AGGIORNATO SULLE OFFERTE DEL NEOGOZIO!</h1>
     </div>
     <div id="regform">
-        <h1>Registrati subito per rimanere sempre aggiornato sulle nostre offerte in negozio!</h1>
-        <form action="/action_page.php" style="border:1px solid #ccc">
             <div class="containerreg">
-                <label><b>Email</b></label>
-                <input type="text" placeholder="Enter Email" name="email" required>
-                <label><b>Password</b></label>
-                <input type="password" placeholder="Enter Password" name="psw" required>
-                <label><b>Repeat Password</b></label>
-                <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
-                <input type="checkbox" checked="checked"> Remember me
-                <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
-                    <div class="clearfix">
-                        <button type="button" class="cancelbtn">Cancel</button>
-                        <button type="submit" class="signupbtn">Sign Up</button>
-                    </div>
+                <h2>Nome</h2>
+                <input type="text" placeholder="Nome" name="nome" required>
+                <h2>Cognome</h2>
+                <input type="text" placeholder="Cognome" name="cognome" required>
+                <h2>Username</h2>
+                <input type="text" placeholder="Username" name="username" required>
             </div>
-        </form>
+            <div class="containerreg2">
+                <h2>Email</h2>
+                <input type="text" placeholder="Email" name="email" required>
+                <h2>Password</h2>
+                <input type="password" placeholder="Password" name="psw" required>
+                <h2>Ripeti Password</h2>
+                <input type="password" placeholder="Ripeti Password" name="psw-repeat" required>
+            </div>
+            <div class="clearfix">
+                <button type="submit" class="signupbtn">Registrati</button>
+            </div>
     </div>
-    <footer id="footer_top">
-       <div id="account_footer">
-       <div class="block_title"> <h1>Account</h1> </div>
-                <ul>
-                    <li> <a href="account.html">Login </a></li>
-                    <li> <a href="recupero_password.html"> Forgot My Password </a></li>
-                    <li> <a href="account_computer.html"> My Computer </a></li>
-                </ul>
-        </div>
-        <div id="chi_siamo_footer">
+      <footer id="footer_top">
+   <div id="account_footer">
+   <div class="block_title"> <h1>Account</h1> </div>
+            <ul>
+                <li> <a href="account.html">Registrati</a></li>
+                <li> <a href="recupero_password.html">Accedi</a></li>
+                <li> <a href="account_computer.html">Elimina Account</a></li>
+            </ul>
+    </div>
+    <div id="chi_siamo_footer">
 
-        <div class="block_title"> <h1>Chi Siamo</h1> </div>
-                <p>
-                    Mygear offre soluzioni personalizzate per tutti gli utenti, dalla componentistica alle configurazioni pensate direttamente per voi!
-                </p>
-        </div>
-        <div id="support_footer">
-        <div class="block_title"> <h1>Support</h1> </div>
-                <ul>
-                    <li> <a href="contatti.html"> Contattaci </a> </li>
-                    <li> <a href="faq.html"> FAQ </a> </li>
-                    <li> <a href="privacy.html"> Privacy</a> </li>
-                    <li> <a href="termini_condizioni.html"> Termini e Condizioni </a> </li>
-                    <li> <a href="warranty.html"> Politiche di Reso</a> </li>
-                </ul>
-        </div>
-        <div id="social_footer">
-        <div class="block_title"> <h1>Social</h1> </div>
-            <h2>Seguici su:</h2>
-                <a href="https://www.facebook.com" target="_blank"><img class="loghi_social" src="/immaginisito/fb.png"></a>
-                <a href="https://www.twitter.com" target="_blank"><img img class="loghi_social" src="immaginisito/twitter.png"></a>
-                <a href="https://www.instagram.com" target="_blank"><img img class="loghi_social" src="immaginisito/instagram.png"></a>
-                <a href="https://www.youtube.com" target="_blank"><img img class="loghi_social" src="immaginisito/yt.png"></a>
+    <div class="block_title"> <h1>Chi Siamo</h1> </div>
+            <p>
+                Mygear dal 2017 offre il meglio della componentistica Gaming Based e soluzioni pensate per chi vuole
+                sempre il top!
+            </p>
+    </div>
+    <div id="support_footer">
+    <div class="block_title"> <h1>Supporto</h1> </div>
+            <ul>
+                <li> <a href="contatti.html"> Contattaci </a> </li>
+                <li> <a href="faq.html"> F.A.Q. </a> </li>
+                <li> <a href="privacy.html"> Privacy </a> </li>
+                <li> <a href="termini_condizioni.html"> Termini e Condizioni </a> </li>
+                <li> <a href="warranty.html"> Politica di Reso </a> </li>
+            </ul>
+    </div>
+    <div id="social_footer">
+    <div class="block_title"> <h1>Social</h1> </div>
+        <h2>Seguici su:</h2>
+            <a href="https://www.facebook.com" target="_blank"><img class="loghi_social" src="/immaginisito/loghisito/fb.png"></a>
+            <a href="https://www.twitter.com" target="_blank"><img img class="loghi_social" src="immaginisito/loghisito/twitter.png"></a>
+            <a href="https://www.instagram.com" target="_blank"><img img class="loghi_social" src="immaginisito/loghisito/instagram.png"></a>
+            <a href="https://www.youtube.com" target="_blank"><img img class="loghi_social" src="immaginisito/loghisito/yt.png"></a>
 
-        </div>
-    </footer>
-    <footer id="footer_bottom">
-        <div id="diritti">
-            <p> © 2017 MY GEAR Inc,<br>All Rights Reserved </p>
-        </div>
-        <div id="call_us">
-            <p>Chiamaci: 034 4532890 <br> MY GEAR S.N.C</p>
-        </div>
-        <div id="luogo">
-            <p>Via Trieste 123, 30051,<br> Padova, Italy</p>
-        </div>
-    </footer>
+    </div>
+</footer>
+<footer id="footer_bottom">
+    <div id="diritti">
+        <p>© 2017 MY GEAR Inc.<br> Diritti riservati</p>
+    </div>
+    <div id="call_us">
+        <p>Chiamaci: 049 55678990<br> MY GEAR inc.</p>
+    </div>
+    <div id="luogo">
+        <p>Via Trieste 123, 30051<br> Padova, Italy</p>
+    </div>
+
+</footer>
 </body>
+</html>
 </html>
