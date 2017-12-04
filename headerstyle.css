@@ -157,12 +157,12 @@ Media Query
     }
     #drop_menu{
         font-weight:bold;
-        font-size:3em;
+        font-size:2.3em;
         background:#f1f1f1;
         text-align:center;
         position: fixed;
         width: 100%;
-        top:2.25em;
+        top:3.1em;
     }
     #drop_menu ul {
         list-style-type: none;
@@ -201,21 +201,35 @@ Media Query
 }
 
 @media only screen and (max-width: 767px) {
+    header{
 
-    body{
-        background-color: yellow;
+        height: 5.5em;
     }
+    #container{
+        height: 0em;
+        padding-bottom: 4.8em;
+    }
+
     .logo{
-        height: 3em;
-        margin-top: 0;
+        width: 12.5em;
+        height: auto;
+        padding-top: 1.7em;
+        padding-left: 1em;
     }
     .buttonlogin{
         font-size: 1.6em;
         margin-right: 3em;
-        margin-top: 0.4em;
+        margin-top: 0.8em;
         padding-left: 0em;
     }
     #hamburger{
         font-size: 3em;
+        margin-top: 0.em;
+        margin-right: 0.1em;
+        padding:0.35em 0.35em 0.35em 0.35em;
+    }
+    #drop_menu{
+        font-size: 1.8em;
+        top: 2.69em;
     }
 }
