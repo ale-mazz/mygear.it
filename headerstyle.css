@@ -157,12 +157,12 @@ Media Query
     }
     #drop_menu{
         font-weight:bold;
-        font-size:1.5em;
+        font-size:3em;
         background:#f1f1f1;
         text-align:center;
         position: fixed;
         width: 100%;
-        top:4.8em;
+        top:2.25em;
     }
     #drop_menu ul {
         list-style-type: none;
