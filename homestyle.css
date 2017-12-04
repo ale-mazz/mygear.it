@@ -80,31 +80,6 @@ Corpo home
     position: relative;
 }
 
-#vetrina_home:before, #vetrina_home:after {
-  content: "";
-  position: absolute;
-  top: -3px;
-  right: -3px;
-}
-
-#vetrina_home:before {
-  bottom: -2px;
-  width: 2px;
-  background-image: -webkit-gradient(linear, 0 100%, 0 0, from(#9E9E9E), to(transparent));
-  background-image: -webkit-linear-gradient(#9E9E9E, transparent);
-  background-image: -moz-linear-gradient(#9E9E9E, transparent);
-  background-image: -o-linear-gradient(#9E9E9E, transparent);
-}
-
-#vetrina_home:after {
-  left: -2px;
-  height: 2px;
-  background-image: -webkit-gradient(linear, 0 0, 100% 0, from(transparent), to(#9E9E9E));
-  background-image: -webkit-linear-gradient(left, transparent, #9E9E9E);
-  background-image: -moz-linear-gradient(left, transparent, #9E9E9E);
-  background-image: -o-linear-gradient(left, transparent, #9E9E9E);
-}
-
 #vetrina_home img {
     width: 80%;
     margin-left: 10%;
@@ -135,31 +110,6 @@ Corpo home
     float:left;
     background-color: white;
     position: relative;
-}
-
-#promo_home:before, #promo_home:after {
-  content: "";
-  position: absolute;
-  top: -3px;
-  right: -3px;
-}
-
-#promo_home:before {
-  bottom: -2px;
-  width: 2px;
-  background-image: -webkit-gradient(linear, 0 100%, 0 0, from(#9E9E9E), to(transparent));
-  background-image: -webkit-linear-gradient(#9E9E9E, transparent);
-  background-image: -moz-linear-gradient(#9E9E9E, transparent);
-  background-image: -o-linear-gradient(#9E9E9E, transparent);
-}
-
-#promo_home:after {
-  left: -2px;
-  height: 2px;
-  background-image: -webkit-gradient(linear, 0 0, 100% 0, from(transparent), to(#9E9E9E));
-  background-image: -webkit-linear-gradient(left, transparent, #9E9E9E);
-  background-image: -moz-linear-gradient(left, transparent, #9E9E9E);
-  background-image: -o-linear-gradient(left, transparent, #9E9E9E);
 }
 
 #promo_home img{
@@ -194,33 +144,9 @@ Corpo home
     position: relative;
 }
 
-#novita_home:before, #novita_home:after {
-  content: "";
-  position: absolute;
-  top: -3px;
-  right: -3px;
-}
-
-#novita_home:before {
-  bottom: -2px;
-  width: 2px;
-  background-image: -webkit-gradient(linear, 0 100%, 0 0, from(#9E9E9E), to(transparent));
-  background-image: -webkit-linear-gradient(#9E9E9E, transparent);
-  background-image: -moz-linear-gradient(#9E9E9E, transparent);
-  background-image: -o-linear-gradient(#9E9E9E, transparent);
-}
-
-#novita_home:after {
-    left: -2px;
-    height: 2px;
-    background-image: -webkit-gradient(linear, 0 0, 100% 0, from(transparent), to(#9E9E9E));
-    background-image: -webkit-linear-gradient(left, transparent, #9E9E9E);
-    background-image: -moz-linear-gradient(left, transparent, #9E9E9E);
-    background-image: -o-linear-gradient(left, transparent, #9E9E9E);
-}
 
 #novita_home img {
-    width: 87%;
+    width: 80%;
     margin-left: 10%;
     margin-right: 10%;
 }
@@ -246,7 +172,7 @@ Corpo home
  Media Query Home
 ******************************************************************/
 
-@media only screen and (max-width: 1023px) {
+@media only screen and (max-width: 1002px) {
 
     #banner img{
         margin-top: 7.2em;
@@ -441,6 +367,81 @@ Media Query Mobile
     padding-top: 1em;
     padding-bottom: 1em;
     position: relative;
+}
+
+#promo_home:before, #promo_home:after {
+  content: "";
+  position: absolute;
+  top: -3px;
+  right: -3px;
+}
+
+#promo_home:before {
+  bottom: -2px;
+  width: 2px;
+  background-image: -webkit-gradient(linear, 0 100%, 0 0, from(#9E9E9E), to(transparent));
+  background-image: -webkit-linear-gradient(#9E9E9E, transparent);
+  background-image: -moz-linear-gradient(#9E9E9E, transparent);
+  background-image: -o-linear-gradient(#9E9E9E, transparent);
+}
+
+#promo_home:after {
+  left: -2px;
+  height: 2px;
+  background-image: -webkit-gradient(linear, 0 0, 100% 0, from(transparent), to(#9E9E9E));
+  background-image: -webkit-linear-gradient(left, transparent, #9E9E9E);
+  background-image: -moz-linear-gradient(left, transparent, #9E9E9E);
+  background-image: -o-linear-gradient(left, transparent, #9E9E9E);
+}
+
+#novita_home:before, #novita_home:after {
+  content: "";
+  position: absolute;
+  top: -3px;
+  right: -3px;
+}
+
+#novita_home:before {
+  bottom: -2px;
+  width: 2px;
+  background-image: -webkit-gradient(linear, 0 100%, 0 0, from(#9E9E9E), to(transparent));
+  background-image: -webkit-linear-gradient(#9E9E9E, transparent);
+  background-image: -moz-linear-gradient(#9E9E9E, transparent);
+  background-image: -o-linear-gradient(#9E9E9E, transparent);
+}
+
+#novita_home:after {
+    left: -2px;
+    height: 2px;
+    background-image: -webkit-gradient(linear, 0 0, 100% 0, from(transparent), to(#9E9E9E));
+    background-image: -webkit-linear-gradient(left, transparent, #9E9E9E);
+    background-image: -moz-linear-gradient(left, transparent, #9E9E9E);
+    background-image: -o-linear-gradient(left, transparent, #9E9E9E);
+}
+
+#vetrina_home:before, #vetrina_home:after {
+  content: "";
+  position: absolute;
+  top: -3px;
+  right: -3px;
+}
+
+#vetrina_home:before {
+  bottom: -2px;
+  width: 2px;
+  background-image: -webkit-gradient(linear, 0 100%, 0 0, from(#9E9E9E), to(transparent));
+  background-image: -webkit-linear-gradient(#9E9E9E, transparent);
+  background-image: -moz-linear-gradient(#9E9E9E, transparent);
+  background-image: -o-linear-gradient(#9E9E9E, transparent);
+}
+
+#vetrina_home:after {
+  left: -2px;
+  height: 2px;
+  background-image: -webkit-gradient(linear, 0 0, 100% 0, from(transparent), to(#9E9E9E));
+  background-image: -webkit-linear-gradient(left, transparent, #9E9E9E);
+  background-image: -moz-linear-gradient(left, transparent, #9E9E9E);
+  background-image: -o-linear-gradient(left, transparent, #9E9E9E);
 }
 
 
