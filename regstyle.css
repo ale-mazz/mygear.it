@@ -1,69 +1,61 @@
 #regform{
+    background-color: white;
+    margin: 10em 10em 10em 10em;
 
-    background-color: #FF8A80;
-    margin: 10em 30em 10em 30em;
-    padding-bottom: 30em ;
 }
-#regform h1{
+#regtitle h1{
 
+    background-color: #D32F2F;
     text-align: center;
     color: white;
     font-weight: bold;
+    font-size: 3em;
+    margin-bottom: 2em;
+    margin-top: 2em;
+    padding: 1em 1em 1em 1em;
+}
+
+h2{
+    text-align: center;
     font-size: 2em;
 }
-/* Full-width input fields */
+
 input[type=text], input[type=password] {
     width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
+    padding: 1em 1em 1em 1em;
+    margin: 0.5em 0.5em 0.5em 0.5em;
+    display:inline-block;
     border: 1px solid #ccc;
     box-sizing: border-box;
-}
+    text-align: center;
 
-/* Set a style for all buttons */
-.regform button {
-    background-color: #4CAF50;
-    color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
-    border: none;
-    cursor: pointer;
-    width: 100%;
-}
-
-/* Extra styles for the cancel button */
-
-.cancelbtn {
-    background-color: #f44336;
-    color: white;
-    padding: 14px 20px;
-    border: none;
-    cursor: pointer;
-    margin: 8px 0;
 }
 
 .signupbtn {
-    background-color: #4CAF50;
+    background-color: #D32F2F;
     color: white;
-    padding: 14px 20px;;
+    padding: 0.5em 0.5em 0.5em 0.5em;
     border: none;
     cursor: pointer;
-    margin: 8px 0;
-}
-
-/* Float cancel and signup buttons and add an equal width */
-.cancelbtn,.signupbtn {
+    font-weight: bold;
+    font-size: 2em;
     float: left;
-    width: 50%;
+    width: 100%;
+    margin-top: 2em;
 }
 
-/* Add padding to container elements */
-.containerreg {
-    padding: 100px;
+.containerreg{
+    float: left;
+    padding: 0.5em;
+    width: 40em;
+
+}
+.containerreg2{
+    padding: 0.5em;
+    float: right;
+    width: 40em;
 }
 
-/* Clear floats */
 .clearfix::after {
     content: "";
     clear: both;

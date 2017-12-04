@@ -12,13 +12,10 @@ Banner
 Corpo home
 ********************************************************************************/
 
-#corpo_home {
-    width: 100%;
-    padding-top: 2em;
-}
 
 #corpo_top_home {
     width: 100%;
+    margin-top: 3em;
 }
 
 #corpo_top_home p {
@@ -214,12 +211,12 @@ Corpo home
 }
 
 #novita_home:after {
-  left: -2px;
-  height: 2px;
-  background-image: -webkit-gradient(linear, 0 0, 100% 0, from(transparent), to(#9E9E9E));
-  background-image: -webkit-linear-gradient(left, transparent, #9E9E9E);
-  background-image: -moz-linear-gradient(left, transparent, #9E9E9E);
-  background-image: -o-linear-gradient(left, transparent, #9E9E9E);
+    left: -2px;
+    height: 2px;
+    background-image: -webkit-gradient(linear, 0 0, 100% 0, from(transparent), to(#9E9E9E));
+    background-image: -webkit-linear-gradient(left, transparent, #9E9E9E);
+    background-image: -moz-linear-gradient(left, transparent, #9E9E9E);
+    background-image: -o-linear-gradient(left, transparent, #9E9E9E);
 }
 
 #novita_home img {
@@ -228,43 +225,21 @@ Corpo home
     margin-right: 10%;
 }
 
-/***********************************************************************************************
-Corpo bottom Home
-***********************************************************************************************/
 
-#corpo_bottom_home{
-  position: relative;
-  margin-top: 45%;
-}
-
-#corpo_bottom_home:after {
-  content: "";
-  position: absolute;
-  top: -3px;
-  left: 20px;
-}
-
-#corpo_bottom_home:after {
-  right: 20px;
-  height: 3px;
-  background-image: -webkit-gradient(linear, 0 0, 100% 0, from(transparent), to(#9E9E9E), to (transparent));
-  background-image: -webkit-linear-gradient(left, transparent, #9E9E9E, transparent);
-  background-image: -moz-linear-gradient(left, transparent, #9E9E9E, transparent);
-  background-image: -o-linear-gradient(left, transparent, #9E9E9E, transparent);
-}
-
-#corpo_bottom_home h1 {
-    font-size: 1.5em;
-    color: #000000;
-    padding: 1em;
+#titolo_bottom h1 {
     text-align: center;
+    color: black;
 }
 
-#corpo_bottom_home img {
+#loghi {
     float: left;
-    width: 8%;
-    margin-left: 5.5%;
+    clear: left;
+    width: 100%;
+}
 
+#loghi img {
+    width: 8%;
+    margin-left: 4%;
 }
 
 /******************************************************************
@@ -272,10 +247,6 @@ Corpo bottom Home
 ******************************************************************/
 
 @media only screen and (max-width: 1023px) {
-
-/******************************************************************
-Media Query Corpo Top
-******************************************************************/
 
     #banner img{
         margin-top: 7.2em;
@@ -302,12 +273,12 @@ Media Query Corpo Top
     }
 
     #vetrina {
-        width: 90%;
+        width: 80%;
         margin-left: 0;
     }
 
     #vetrina_home {
-        border-style: none;
+        border: none;
         position: static;
     }
 
@@ -318,13 +289,13 @@ Media Query Corpo Top
 
     #promo {
         margin-top: 5em;
-        width: 90%;
+        width: 100%;
         margin-left: 0;
     }
 
     #promo_home {
         margin-top: 2em;
-        border-style: none;
+        border: none;
         position: static;
     }
 
@@ -335,28 +306,25 @@ Media Query Corpo Top
 
     #novita {
         margin-top: 5em;
-        width: 90%;
+        width: 100%;
         margin-left: 0;
         margin-bottom: 3em;
     }
 
     #novita_home {
-        border-style: none;
-        position: static;
-    }
-
-/******************************************************************
-Media Query Corpo Bottom
-******************************************************************/
-
-    #corpo_bottom_home{
-        position: static;
         border: none;
+        position: static;
     }
 
-    #corpo_bottom_home h1 {
-        font-size: 3em;
+    #titolo_bottom {
 
+    }
+
+    #loghi img {
+        width: 15%;
+        margin-left: 8%;
+        float: left;
+        padding-top: 1em;
     }
 
 }
@@ -365,6 +333,115 @@ Media Query Corpo Bottom
 Media Query Mobile
 ******************************************************************/
 @media only screen and (max-width: 767px) {
+
+    #banner img{
+        margin-top: 4.8em;
+    }
+
+    #corpo_top_home p {
+        font-size: 0.8em;
+    }
+
+    .riquadro h1 {
+        font-size: 1em;
+    }
+
+    .riquadro h2 {
+        font-size: 1em;
+    }
+
+    #titolo_vetrina {
+        width: 40%;
+        margin-left: 30%;
+    }
+
+    #titolo_vetrina h1 {
+        font-size: 1.5em;
+        margin-top: 1em;
+        text-align: center;
+    }
+
+    #vetrina {
+        width: 100%;
+    }
+
+    #vetrina_home {
+        margin-left: 0;
+        width: 100%;
+    }
+
+     #titolo_promo {
+        width: 40%;
+        margin-left: 30%;
+    }
+
+    #titolo_promo h1 {
+        font-size: 1.5em;
+        margin-bottom: 2em;
+        text-align: center;
+    }
+
+    #promo {
+        width: 100%;
+    }
+
+    #promo_home {
+        width: 100%;
+        margin-left: 0;
+    }
+
+     #titolo_novita {
+        width: 40%;
+        margin-left: 30%;
+    }
+
+    #titolo_novita h1 {
+        font-size: 1.5em;
+        margin-bottom: 2em;
+        text-align: center;
+    }
+
+    #novita {
+        width: 100%;
+    }
+
+    #novita_home {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    #titolo_bottom {
+        position: static;
+    }
+
+}
+
+@media only screen and (min-width: 1001px) {
+
+#titolo_bottom:after {
+  content: "";
+  position: absolute;
+  top: -3px;
+  left: 20px;
+}
+
+#titolo_bottom:after {
+  right: 20px;
+  height: 3px;
+  background-image: -webkit-gradient(linear, 0 0, 100% 0, from(transparent), to(#9E9E9E), to (transparent));
+  background-image: -webkit-linear-gradient(left, transparent, #9E9E9E, transparent);
+  background-image: -moz-linear-gradient(left, transparent, #9E9E9E, transparent);
+  background-image: -o-linear-gradient(left, transparent, #9E9E9E, transparent);
+}
+
+#titolo_bottom {
+    float: left;
+    width: 100%;
+    margin-top: 3em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    position: relative;
+}
 
 
 }
