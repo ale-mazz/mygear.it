@@ -19,7 +19,6 @@ Corpo home
 
 #corpo_top_home {
     width: 100%;
-    height: 70%;
 }
 
 #corpo_top_home p {
@@ -261,6 +260,12 @@ Corpo bottom Home
     text-align: center;
 }
 
+#corpo_bottom_home img {
+    float: left;
+    width: 8%;
+    margin-left: 5.5%;
+
+}
 
 /******************************************************************
  Media Query Home
@@ -332,6 +337,7 @@ Media Query Corpo Top
         margin-top: 5em;
         width: 90%;
         margin-left: 0;
+        margin-bottom: 3em;
     }
 
     #novita_home {
@@ -345,13 +351,20 @@ Media Query Corpo Bottom
 
     #corpo_bottom_home{
         position: static;
-        margin-top: 370%;
-        border-style: none;
+        border: none;
     }
 
     #corpo_bottom_home h1 {
         font-size: 3em;
 
     }
+
+}
+
+/******************************************************************
+Media Query Mobile
+******************************************************************/
+@media only screen and (max-width: 767px) {
+
 
 }
