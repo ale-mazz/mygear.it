@@ -149,11 +149,15 @@
 #come_contattarci_contatti ul {
     text-align: left;
     font-size: 1.2em;
-    padding: 0.5em;
+    padding-top: 1em;
     color: black;
     float: left;
     clear: left;
-    padding-left: 1em;
+}
+
+#come_contattarci_contatti ul li {
+
+    list-style: none;
 }
 
 #come_contattarci_contatti {
