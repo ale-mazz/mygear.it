@@ -203,28 +203,28 @@ Media Query
 @media only screen and (max-width: 767px) {
     header{
 
-        height: 5.5em;
+        height: 4em;
     }
     #container{
         height: 0em;
-        padding-bottom: 4.8em;
+        padding-bottom: 3.6em;
     }
 
     .logo{
-        width: 12.5em;
+        width: 11em;
         height: auto;
-        padding-top: 1.7em;
+        padding-top: 1em;
         padding-left: 1em;
     }
     .buttonlogin{
-        font-size: 1.5em;
+        font-size: 1.3em;
         margin-right: 3.4em;
-        margin-top: 0.9em;
+        margin-top: 0.65em;
         padding: 0.5em 0.5em 0.5em 0.5em;
     }
     #hamburger{
         font-size: 3.3em;
-        margin-top: 0.2em;
+        margin-top: 0em;
         margin-right: 0.13em;
         padding:0.25em 0.25em 0.25em 0.25em;
         line-height:0.9em;
