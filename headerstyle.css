@@ -34,9 +34,9 @@ header{
 }
 .menu ul {
     list-style-type: none;
-    font-size: 0.87em;
+    font-size: 0.86em;
     float: right;
-    margin-top:0.4em
+    margin-top:0.38em
 }
 .menu li {
     float: left;
@@ -199,14 +199,14 @@ Media Query
     }
 
     .logo{
-        width: 15em;
+        width: 14em;
         height: auto;
         padding-top: 0.7em;
         padding-left: 1em;
     }
     .buttonlogin{
         font-size: 1.2em;
-        margin-right: 4em;
+        margin-right: 3.5em;
         margin-top: 0.8em;
         padding: 0.5em 0.5em 0.5em 0.5em;
     }
@@ -221,6 +221,6 @@ Media Query
     }
     #drop_menu{
         font-size: 1.5em;
-        top: 3.05em;
+        top: 2.55em;
     }
 }
