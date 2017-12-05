@@ -34,9 +34,9 @@ header{
 }
 .menu ul {
     list-style-type: none;
-    font-size: 0.87em;
+    font-size: 0.86em;
     float: right;
-    margin-top:0.4em
+    margin-top:0.38em
 }
 .menu li {
     float: left;
