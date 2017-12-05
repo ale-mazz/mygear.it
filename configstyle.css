@@ -1,8 +1,6 @@
 #titolo_config {
-    width: 50%;
-    padding: 1em;
+    width: 100%;
     margin-top: 2em;
-    margin-left: 25%;
     margin-bottom: 2em;
 }
 
@@ -13,158 +11,130 @@
 }
 
 #configurazione_1 {
-    width: 25%;
-    margin-left: 5%;
-    padding: 0.5em;
-    float: left;
-    clear: left;
-    position: relative;
+    width: 100%;
     background-color: white;
-}
-
-#configurazione_1:before, #configurazione_1:after {
-    content: "";
-    position: absolute;
-    top: -3px;
-    right: -3px;
-}
-
-#configurazione_1:before {
-    bottom: -2px;
-    width: 2px;
-    background-image: -webkit-gradient(linear, 0 100%, 0 0, from(#9E9E9E), to(transparent));
-    background-image: -webkit-linear-gradient(#9E9E9E, transparent);
-    background-image: -moz-linear-gradient(#9E9E9E, transparent);
-    background-image: -o-linear-gradient(#9E9E9E, transparent);
-}
-
-#configurazione_1:after {
-    left: -2px;
-    height: 2px;
-    background-image: -webkit-gradient(linear, 0 0, 100% 0, from(transparent), to(#9E9E9E));
-    background-image: -webkit-linear-gradient(left, transparent, #9E9E9E);
-    background-image: -moz-linear-gradient(left, transparent, #9E9E9E);
-    background-image: -o-linear-gradient(left, transparent, #9E9E9E);
 }
 
 #configurazione_1 img {
     float: left;
     clear: left;
-    padding: 1.5em;
-    width: 50%;
-    margin-left: 20%;
+    width: 25%;
+    padding: 2em;
+    margin-left: 5%;
 }
 
 #configurazione_2 {
-    width: 25%;
-    margin-left: 5%;
-    padding: 0.5em;
-    float: left;
-    position: relative;
-    background-color: white;
-}
-
-#configurazione_2:before, #configurazione_2:after {
-    content: "";
-    position: absolute;
-    top: -3px;
-    right: -3px;
-}
-
-#configurazione_2:before {
-    bottom: -2px;
-    width: 2px;
-    background-image: -webkit-gradient(linear, 0 100%, 0 0, from(#9E9E9E), to(transparent));
-    background-image: -webkit-linear-gradient(#9E9E9E, transparent);
-    background-image: -moz-linear-gradient(#9E9E9E, transparent);
-    background-image: -o-linear-gradient(#9E9E9E, transparent);
-}
-
-#configurazione_2:after {
-    left: -2px;
-    height: 2px;
-    background-image: -webkit-gradient(linear, 0 0, 100% 0, from(transparent), to(#9E9E9E));
-    background-image: -webkit-linear-gradient(left, transparent, #9E9E9E);
-    background-image: -moz-linear-gradient(left, transparent, #9E9E9E);
-    background-image: -o-linear-gradient(left, transparent, #9E9E9E);
+    width:100%;
+    background-color:white;
 }
 
 #configurazione_2 img {
     float: left;
     clear: left;
-    width: 50%;
-    padding: 1.5em;
-    margin-left: 20%;
+    width: 25%;
+    padding: 2em;
+    margin-left: 5%;
 }
 
 #configurazione_3 {
-    width: 25%;
-    margin-left: 5%;
-    padding: 0.5em;
-    float: left;
-    position: relative;
+    width: 100%;
     background-color: white;
-}
-
-#configurazione_3:before, #configurazione_3:after {
-    content: "";
-    position: absolute;
-    top: -3px;
-    right: -3px;
-}
-
-#configurazione_3:before {
-    bottom: -2px;
-    width: 2px;
-    background-image: -webkit-gradient(linear, 0 100%, 0 0, from(#9E9E9E), to(transparent));
-    background-image: -webkit-linear-gradient(#9E9E9E, transparent);
-    background-image: -moz-linear-gradient(#9E9E9E, transparent);
-    background-image: -o-linear-gradient(#9E9E9E, transparent);
-}
-
-#configurazione_3:after {
-    left: -2px;
-    height: 2px;
-    background-image: -webkit-gradient(linear, 0 0, 100% 0, from(transparent), to(#9E9E9E));
-    background-image: -webkit-linear-gradient(left, transparent, #9E9E9E);
-    background-image: -moz-linear-gradient(left, transparent, #9E9E9E);
-    background-image: -o-linear-gradient(left, transparent, #9E9E9E);
 }
 
 #configurazione_3 img {
     float: left;
     clear: left;
-    width: 50%;
-    padding: 1.5em;
+    width: 25%;
+    padding: 2em;
     padding-bottom: 0.8em;
-    margin-left: 20%;
+    margin-left: 5%;
 }
 
-.titoli_config {
+.top {
     width: 100%;
     float: left;
+    background-color: #424242;
 }
 
-.titoli_config h1 {
+.descrizione_config {
+    float: left;
+    margin-top: 4%;
+    margin-left: 1%;
+    width: 54%;
+    background-color: #212121;
+    padding: 2em 2em 4em 2.5em;
+}
+
+.descrizione_config p {
+    font-size: 1em;
+    text-align: left;
+    color: white;
+
+}
+
+.descrizione_config h2 {
+    font-size: 1.5em;
+    text-align: left;
+    padding-top: 2em;
+    color: white;
+}
+
+.descrizione_config h1 {
     font-size: 2em;
     text-align: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    color: white;
 }
 
-.riquadro {
+.specifiche {
+    width: 100%;
     float: left;
     clear: left;
-    padding: 0.5em;
-    background-color: white
-}
-
-.riquadro h1 {
-    font-size: 1em;
-    color: #000000;
     text-align: center;
-    margin-top: 0.5em;
+    padding-top: 1em;
+    padding-bottom: 1em;
 }
 
-.riquadro h2 {
+.riquadro_1 {
+    width: 25%;
+    float: left;
+    clear: left;
+    margin-left: 5%;
+    background-color: white;
+    padding-top: 1em;
+}
+
+.riquadro_2 {
+    width: 25%;
+    float: left;
+    margin-left: 7.5%;
+    background-color: white;
+    padding-top: 1em;
+}
+
+.riquadro_3 {
+    width: 25%;
+    float: left;
+    margin-left: 7.5%;
+    background-color: white;
+    padding-top: 1em;
+
+}
+
+.riquadro_1 h1 {
+    font-size: 0.8em;
+    color: #000000;
+    text-align: left;
+}
+
+.riquadro_2 h1 {
+    font-size: 0.8em;
+    color: #000000;
+    text-align: left;
+}
+
+.riquadro_3 h1 {
     font-size: 0.8em;
     color: #000000;
     text-align: left;
@@ -172,10 +142,8 @@
 
 .corpo_riquadro {
     width: 100%;
-    padding-bottom: 0.8em;
-    border-bottom-style: solid;
-    border-bottom-color: #000000;
-    border-bottom-width: 0.1em;
+    height: 1.5em;
+    padding-bottom: 1.5em;
 }
 
 .corpo_riquadro p {
