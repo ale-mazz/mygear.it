@@ -19,6 +19,7 @@ Corpo home
 }
 
 #corpo_top_home p {
+    height: 1em;
     text-align: left;
     font-size: 0.8em;
     color: #000000;
@@ -77,7 +78,6 @@ Corpo home
     clear: left;
     float:left;
     background-color: white;
-    position: relative;
 }
 
 #vetrina_home img {
@@ -109,7 +109,6 @@ Corpo home
     width: 90%;
     float:left;
     background-color: white;
-    position: relative;
 }
 
 #promo_home img{
@@ -141,7 +140,6 @@ Corpo home
     width: 90%;
     float:left;
     background-color: white;
-    position: relative;
 }
 
 
@@ -149,8 +147,16 @@ Corpo home
     width: 80%;
     margin-left: 10%;
     margin-right: 10%;
+    padding-bottom: 1.3em;
 }
 
+#titolo_bottom {
+    float: left;
+    width: 100%;
+    margin-top: 3em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
 
 #titolo_bottom h1 {
     text-align: center;
@@ -172,10 +178,10 @@ Corpo home
  Media Query Home
 ******************************************************************/
 
-@media only screen and (max-width: 1002px) {
+@media only screen and (max-width: 955px) {
 
     #banner img{
-        margin-top: 7.2em;
+        margin-top: 5.5em;
     }
     #titoli_corpo_top h1 {
         font-size: 2em;
@@ -193,57 +199,72 @@ Corpo home
         font-size: 1.8em;
     }
 
+    #titolo_vetrina {
+        width: 60%;
+        margin-left: 20%;
+    }
+
     #titolo_vetrina h1 {
         font-size: 3em;
-        margin-top: 1em;
+        margin-bottom: 1em;
+        text-align: center;
     }
 
     #vetrina {
-        width: 80%;
-        margin-left: 0;
+        width: 100%;
     }
 
     #vetrina_home {
-        border: none;
-        position: static;
+        margin-left: 0;
+        width: 100%;
+    }
+
+     #titolo_promo {
+        width: 60%;
+        margin-left: 20%;
     }
 
     #titolo_promo h1 {
         font-size: 3em;
-        margin-bottom: 2em;
-}
+        margin-bottom: 1em;
+        text-align: center;
+        margin-top: 1em;
+    }
 
     #promo {
-        margin-top: 5em;
         width: 100%;
         margin-left: 0;
     }
 
     #promo_home {
-        margin-top: 2em;
-        border: none;
-        position: static;
+        width: 100%;
+        margin-left: 0;
+    }
+
+     #titolo_novita {
+        width: 60%;
+        margin-left: 20%;
     }
 
     #titolo_novita h1 {
         font-size: 3em;
-        margin-bottom: 2em;
-}
+        margin-top: 1em;
+        margin-bottom: 1em;
+        text-align: center;
+    }
 
     #novita {
-        margin-top: 5em;
         width: 100%;
         margin-left: 0;
-        margin-bottom: 3em;
     }
 
     #novita_home {
-        border: none;
-        position: static;
+        width: 100%;
+        margin-left: 0;
     }
 
-    #titolo_bottom {
-
+    #titolo_bottom h1 {
+        font-size: 3em;
     }
 
     #loghi img {
@@ -277,8 +298,8 @@ Media Query Mobile
     }
 
     #titolo_vetrina {
-        width: 40%;
-        margin-left: 30%;
+        width: 60%;
+        margin-left: 20%;
     }
 
     #titolo_vetrina h1 {
@@ -297,8 +318,8 @@ Media Query Mobile
     }
 
      #titolo_promo {
-        width: 40%;
-        margin-left: 30%;
+        width: 60%;
+        margin-left: 20%;
     }
 
     #titolo_promo h1 {
@@ -317,8 +338,8 @@ Media Query Mobile
     }
 
      #titolo_novita {
-        width: 40%;
-        margin-left: 30%;
+        width: 60%;
+        margin-left: 20%;
     }
 
     #titolo_novita h1 {
@@ -337,115 +358,116 @@ Media Query Mobile
     }
 
     #titolo_bottom {
-        position: static;
-    }
-
-    #titolo_bottom {
         font-size: 0.7em;
     }
 }
 
-@media only screen and (min-width: 1001px) {
+@media only screen and (min-width: 956px) {
 
-#titolo_bottom:after {
-  content: "";
-  position: absolute;
-  top: -3px;
-  left: 20px;
-}
+    #titolo_bottom:after {
+        content: "";
+        position: absolute;
+        top: -3px;
+        left: 20px;
+    }
 
-#titolo_bottom:after {
-  right: 20px;
-  height: 3px;
-  background-image: -webkit-gradient(linear, 0 0, 100% 0, from(transparent), to(#9E9E9E), to (transparent));
-  background-image: -webkit-linear-gradient(left, transparent, #9E9E9E, transparent);
-  background-image: -moz-linear-gradient(left, transparent, #9E9E9E, transparent);
-  background-image: -o-linear-gradient(left, transparent, #9E9E9E, transparent);
-}
+    #titolo_bottom:after {
+        right: 20px;
+        height: 3px;
+        background-image: -webkit-gradient(linear, 0 0, 100% 0, from(transparent), to(#9E9E9E), to (transparent));
+        background-image: -webkit-linear-gradient(left, transparent, #9E9E9E, transparent);
+        background-image: -moz-linear-gradient(left, transparent, #9E9E9E, transparent);
+        background-image: -o-linear-gradient(left, transparent, #9E9E9E, transparent);
+    }
 
-#titolo_bottom {
-    float: left;
-    width: 100%;
-    margin-top: 3em;
-    padding-top: 1em;
-    padding-bottom: 1em;
-    position: relative;
-}
+    #titolo_bottom {
+        position: relative;
+    }
 
-#promo_home:before, #promo_home:after {
-  content: "";
-  position: absolute;
-  top: -3px;
-  right: -3px;
-}
+    #promo_home:before, #promo_home:after {
+        content: "";
+        position: absolute;
+        top: -3px;
+        right: -3px;
+    }
 
-#promo_home:before {
-  bottom: -2px;
-  width: 2px;
-  background-image: -webkit-gradient(linear, 0 100%, 0 0, from(#9E9E9E), to(transparent));
-  background-image: -webkit-linear-gradient(#9E9E9E, transparent);
-  background-image: -moz-linear-gradient(#9E9E9E, transparent);
-  background-image: -o-linear-gradient(#9E9E9E, transparent);
-}
+    #promo_home:before {
+        bottom: -2px;
+        width: 2px;
+        background-image: -webkit-gradient(linear, 0 100%, 0 0, from(#9E9E9E), to(transparent));
+        background-image: -webkit-linear-gradient(#9E9E9E, transparent);
+        background-image: -moz-linear-gradient(#9E9E9E, transparent);
+        background-image: -o-linear-gradient(#9E9E9E, transparent);
+    }
 
-#promo_home:after {
-  left: -2px;
-  height: 2px;
-  background-image: -webkit-gradient(linear, 0 0, 100% 0, from(transparent), to(#9E9E9E));
-  background-image: -webkit-linear-gradient(left, transparent, #9E9E9E);
-  background-image: -moz-linear-gradient(left, transparent, #9E9E9E);
-  background-image: -o-linear-gradient(left, transparent, #9E9E9E);
-}
+    #promo_home:after {
+        left: -2px;
+        height: 2px;
+        background-image: -webkit-gradient(linear, 0 0, 100% 0, from(transparent), to(#9E9E9E));
+        background-image: -webkit-linear-gradient(left, transparent, #9E9E9E);
+        background-image: -moz-linear-gradient(left, transparent, #9E9E9E);
+        background-image: -o-linear-gradient(left, transparent, #9E9E9E);
+    }
 
-#novita_home:before, #novita_home:after {
-  content: "";
-  position: absolute;
-  top: -3px;
-  right: -3px;
-}
+    #novita_home:before, #novita_home:after {
+        content: "";
+        position: absolute;
+        top: -3px;
+        right: -3px;
+    }
 
-#novita_home:before {
-  bottom: -2px;
-  width: 2px;
-  background-image: -webkit-gradient(linear, 0 100%, 0 0, from(#9E9E9E), to(transparent));
-  background-image: -webkit-linear-gradient(#9E9E9E, transparent);
-  background-image: -moz-linear-gradient(#9E9E9E, transparent);
-  background-image: -o-linear-gradient(#9E9E9E, transparent);
-}
+    #novita_home:before {
+        bottom: -2px;
+        width: 2px;
+        background-image: -webkit-gradient(linear, 0 100%, 0 0, from(#9E9E9E), to(transparent));
+        background-image: -webkit-linear-gradient(#9E9E9E, transparent);
+        background-image: -moz-linear-gradient(#9E9E9E, transparent);
+        background-image: -o-linear-gradient(#9E9E9E, transparent);
+    }
 
-#novita_home:after {
-    left: -2px;
-    height: 2px;
-    background-image: -webkit-gradient(linear, 0 0, 100% 0, from(transparent), to(#9E9E9E));
-    background-image: -webkit-linear-gradient(left, transparent, #9E9E9E);
-    background-image: -moz-linear-gradient(left, transparent, #9E9E9E);
-    background-image: -o-linear-gradient(left, transparent, #9E9E9E);
-}
+    #novita_home:after {
+        left: -2px;
+        height: 2px;
+        background-image: -webkit-gradient(linear, 0 0, 100% 0, from(transparent), to(#9E9E9E));
+        background-image: -webkit-linear-gradient(left, transparent, #9E9E9E);
+        background-image: -moz-linear-gradient(left, transparent, #9E9E9E);
+        background-image: -o-linear-gradient(left, transparent, #9E9E9E);
+    }
 
-#vetrina_home:before, #vetrina_home:after {
-  content: "";
-  position: absolute;
-  top: -3px;
-  right: -3px;
-}
+    #vetrina_home:before, #vetrina_home:after {
+        content: "";
+        position: absolute;
+        top: -3px;
+        right: -3px;
+    }
 
-#vetrina_home:before {
-  bottom: -2px;
-  width: 2px;
-  background-image: -webkit-gradient(linear, 0 100%, 0 0, from(#9E9E9E), to(transparent));
-  background-image: -webkit-linear-gradient(#9E9E9E, transparent);
-  background-image: -moz-linear-gradient(#9E9E9E, transparent);
-  background-image: -o-linear-gradient(#9E9E9E, transparent);
-}
+    #vetrina_home:before {
+        bottom: -2px;
+        width: 2px;
+        background-image: -webkit-gradient(linear, 0 100%, 0 0, from(#9E9E9E), to(transparent));
+        background-image: -webkit-linear-gradient(#9E9E9E, transparent);
+        background-image: -moz-linear-gradient(#9E9E9E, transparent);
+        background-image: -o-linear-gradient(#9E9E9E, transparent);
+    }
 
-#vetrina_home:after {
-  left: -2px;
-  height: 2px;
-  background-image: -webkit-gradient(linear, 0 0, 100% 0, from(transparent), to(#9E9E9E));
-  background-image: -webkit-linear-gradient(left, transparent, #9E9E9E);
-  background-image: -moz-linear-gradient(left, transparent, #9E9E9E);
-  background-image: -o-linear-gradient(left, transparent, #9E9E9E);
-}
+    #vetrina_home:after {
+        left: -2px;
+        height: 2px;
+        background-image: -webkit-gradient(linear, 0 0, 100% 0, from(transparent), to(#9E9E9E));
+        background-image: -webkit-linear-gradient(left, transparent, #9E9E9E);
+        background-image: -moz-linear-gradient(left, transparent, #9E9E9E);
+        background-image: -o-linear-gradient(left, transparent, #9E9E9E);
+    }
 
+    #vetrina_home {
+        position: relative;
+    }
 
+    #novita_home {
+        position: relative;
+    }
+
+    #promo_home {
+        position: relative;
+    }
 }

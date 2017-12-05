@@ -83,7 +83,7 @@
 }
 
 .loghi_social {
-    width: 3em;
+    width: 2.7em;
     float:left;
     padding: 1em;
 }
@@ -130,7 +130,7 @@ p {
  Media Query Footer
 ******************************************************************/
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 955px) {
 
     #footer_top {
         font-size: 2em;
