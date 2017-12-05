@@ -22,7 +22,7 @@ Header & Menu
 header{
     width:100%;
     background-color: #D32F2F;
-    height:4.7em;
+    height:4em;
 }
 .menu {
     margin:auto;
@@ -30,11 +30,11 @@ header{
 }
 #container {
     background: #B71C1C;
-    height: 5.5em;
+    height: 4.6em;
 }
 .menu ul {
     list-style-type: none;
-    font-size: 0.86em;
+    font-size: 0.7em;
     float: right;
     margin-top:0.38em
 }
@@ -69,7 +69,7 @@ header{
 
 .logo{
     top: 0px;
-    height: 4em;
+    height: 3em;
     width: auto;
     padding-left: 2em;
     padding-top: 0.5em;
@@ -84,8 +84,8 @@ header{
     color: white;
     padding: 1em 1em;
     text-decoration: none;
-    font-size: 1em;
-    margin-top: 1em;
+    font-size: 0.7em;
+    margin-top: 1.25em;
     cursor: pointer;
 }
 
@@ -115,7 +115,7 @@ Media Query
     header{
         width:100%;
         background-color: #D32F2F;
-        height:6em;
+        height:4em;
         display:inline-block;
         font-size:0.8em;
         position: fixed;
@@ -123,13 +123,14 @@ Media Query
     #container{
         position: fixed;
         width: 100%;
+        height: 3.8em;
     }
 
     .logo{
         float: left;
-        height: 4em;
-        padding-left: 2em;
-        padding-top: 1.2em;
+        height: 2.6em;
+        padding-left: 1.5em;
+        padding-top: 0.7em;
     }
     #hamburger{
         display: block;
@@ -141,7 +142,7 @@ Media Query
         padding:0.45em 0.45em 0.45em 0.45em;
         color:white;
         border:0;
-        font-size:4em;
+        font-size:3em;
         font-weight:bold;
         cursor:pointer;
         outline:none;
@@ -179,10 +180,10 @@ Media Query
         display: block;
     }
     .buttonlogin {
-        font-size: 2em;
+        font-size: 1.5em;
         padding: 0.5em 0.5em 0.5em 0.5em;
         margin-top: 0.4em;
-        margin-right: 4em;
+        margin-right: 5em;
 
     }
 
