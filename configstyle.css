@@ -44,7 +44,8 @@
 #configurazione_3 img {
     float: left;
     clear: left;
-    width: 25%;
+    width: 30%;
+    margin-top: 0.2em;
     padding: 2em;
     margin-left: 5%;
 }
