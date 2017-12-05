@@ -149,3 +149,13 @@
 .corpo_riquadro p {
     font-size: 0.7em;
 }
+
+@media only screen and (max-width: 767px) {
+
+
+    #titolo_config {
+        position:relative;
+        margin-top:0;
+    }
+
+}
