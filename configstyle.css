@@ -18,7 +18,7 @@
 #configurazione_1 img {
     float: left;
     clear: left;
-    width: 25%;
+    width: 30%;
     padding: 2em;
     margin-left: 5%;
 }
@@ -31,7 +31,7 @@
 #configurazione_2 img {
     float: left;
     clear: left;
-    width: 28%;
+    width: 30%;
     padding: 2em;
     margin-left: 5%;
 }
@@ -44,9 +44,8 @@
 #configurazione_3 img {
     float: left;
     clear: left;
-    width: 18%;
+    width: 25%;
     padding: 2em;
-
     margin-left: 5%;
 }
 
@@ -56,30 +55,45 @@
     background-color: #424242;
 }
 
-.descrizione_config {
+#descrizione_config_1 {
     float: left;
-    margin-top: 4%;
-    margin-left: 1%;
-    width: 54%;
+    margin:2%;
+    width: 50%;
     background-color: #212121;
-    padding: 2em 2em 4em 2.5em;
+    padding: 2em;
 }
 
-.descrizione_config p {
+#descrizione_config_2 {
+    float: left;
+    margin: 2%;
+    width: 50%;
+    background-color: #212121;
+    padding: 2em;
+}
+
+#descrizione_config_3 {
+    float: left;
+    margin: 2%;
+    width: 50%;
+    background-color: #212121;
+    padding: 2em;
+}
+
+.top p {
     font-size: 1em;
     text-align: left;
     color: white;
 
 }
 
-.descrizione_config h2 {
+.top h2 {
     font-size: 1.5em;
     text-align: left;
     padding-top: 2em;
     color: white;
 }
 
-.descrizione_config h1 {
+.top h1 {
     font-size: 2em;
     text-align: center;
     padding-top: 1em;
