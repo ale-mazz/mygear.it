@@ -12,6 +12,7 @@
 
 #configurazione_1 {
     width: 100%;
+    height: auto;
     background-color: white;
 }
 
@@ -19,12 +20,14 @@
     float: left;
     clear: left;
     width: 30%;
-    padding: 2em;
-    margin-left: 5%;
+    height: auto;
+    padding-top: 3%;
+    margin-left: 8%;
 }
 
 #configurazione_2 {
     width:100%;
+    height: auto;
     background-color:white;
 }
 
@@ -32,23 +35,24 @@
     float: left;
     clear: left;
     width: 30%;
-    padding: 2em;
-    margin-left: 5%;
+    height: auto;
+    padding-top: 3%;
+    margin-left: 8%;
 }
 
 #configurazione_3 {
     width: 100%;
+    height: auto;
     background-color: white;
 }
 
 #configurazione_3 img {
     float: left;
     clear: left;
-    width: 25%;
-    margin-right: 5%;
-    margin-top: 0.2em;
-    padding: 2em;
-    margin-left: 5%;
+    width: 27%;
+    height: auto;
+    padding-top: 3%;
+    margin-left: 10%;
 }
 
 .top {
@@ -58,9 +62,9 @@
 }
 
 .descrizione_config {
-    float: left;
-    margin:3%;
-    width: 40%;
+    float: right;
+    margin:2%;
+    width: 50%;
     background-color: #212121;
     padding: 2em;
 }
@@ -103,6 +107,7 @@
     margin-left: 5%;
     background-color: white;
     padding-top: 1em;
+    font-size: 1.2em;
 }
 
 .riquadro_2 {
@@ -111,6 +116,7 @@
     margin-left: 7.5%;
     background-color: white;
     padding-top: 1em;
+    font-size: 1.2em;
 }
 
 .riquadro_3 {
@@ -119,7 +125,7 @@
     margin-left: 7.5%;
     background-color: white;
     padding-top: 1em;
-
+    font-size: 1.2em;
 }
 
 .riquadro_1 h1 {
