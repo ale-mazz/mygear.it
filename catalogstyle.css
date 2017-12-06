@@ -8,17 +8,18 @@
     margin: 2em;
 }
 
+h2 {
+    text-align: center;
+    font-size: 1.5em;
+}
+
 /* alimentatori */
 
 #alimentatori_catalogo {
     margin-top: 1.5em;
     margin-left: 3%;
     width: 28%;
-}
-
-#titolo_alimentatori h2{
-    margin-left: 30%;
-    font-size: 1.5em;
+    float: left;
 }
 
 #titolo_alimentatori a{
@@ -64,13 +65,8 @@
 
 #case_catalogo {
     margin-top: 1.5em;
-    margin-left: 3%;
     width: 28%;
-}
-
-#titolo_case h2{
-    margin-left: 30%;
-    font-size: 1.5em;
+    float: left;
 }
 
 #titolo_case a{
@@ -80,8 +76,7 @@
 
 #riquadro_case {
     margin-top: 1em;
-    clear: left;
-    float:left;
+    float: left;
     padding: 0.5em;
     background-color: white;
     position: relative;
@@ -116,36 +111,40 @@
   background-image: -o-linear-gradient(left, transparent, #9E9E9E);
 }
 
-/*
-...
-altro
-...
-*/
+/* cpu */
 
-#cpu_catalogo a{
+#cpu_catalogo {
+    margin-top: 1.5em;
+    width: 28%;
+    float: left;
+}
+
+#titolo_cpu a{
     text-decoration: none;
     color: #000000;
 }
 
-#cpu_catalogo {
-    margin-top: 1.5em;
-    margin-left: 3%;
-    width: 28%;
-    clear: left;
+#riquadro_cpu {
+    margin-top: 1em;
+
     float:left;
     padding: 0.5em;
     background-color: white;
     position: relative;
 }
 
-#cpu_catalogo:before, #cpu_catalogo:after {
+#riquadro_cpu img {
+    margin: 2em;
+}
+
+#riquadro_cpu:before, #riquadro_cpu:after {
   content: "";
   position: absolute;
   top: -3px;
   right: -3px;
 }
 
-#cpu_catalogo:before {
+#riquadro_cpu:before {
   bottom: -2px;
   width: 2px;
   background-image: -webkit-gradient(linear, 0 100%, 0 0, from(#9E9E9E), to(transparent));
@@ -154,7 +153,7 @@ altro
   background-image: -o-linear-gradient(#9E9E9E, transparent);
 }
 
-#cpu_catalogo:after {
+#riquadro_cpu:after {
   left: -2px;
   height: 2px;
   background-image: -webkit-gradient(linear, 0 0, 100% 0, from(transparent), to(#9E9E9E));
@@ -163,16 +162,21 @@ altro
   background-image: -o-linear-gradient(left, transparent, #9E9E9E);
 }
 
-
-#cuffie_catalogo a{
-    text-decoration: none;
-    color: #000000;
-}
+/* cuffie */
 
 #cuffie_catalogo {
     margin-top: 1.5em;
     margin-left: 3%;
     width: 28%;
+}
+
+#titolo_cuffie a{
+    text-decoration: none;
+    color: #000000;
+}
+
+#riquadro_cuffie {
+    margin-top: 1em;
     clear: left;
     float:left;
     padding: 0.5em;
@@ -180,14 +184,18 @@ altro
     position: relative;
 }
 
-#cuffie_catalogo:before, #cuffie_catalogo:after {
+#riquadro_cuffie img {
+    margin: 2em;
+}
+
+#riquadro_cuffie:before, #riquadro_cuffie:after {
   content: "";
   position: absolute;
   top: -3px;
   right: -3px;
 }
 
-#cuffie_catalogo:before {
+#riquadro_cuffie:before {
   bottom: -2px;
   width: 2px;
   background-image: -webkit-gradient(linear, 0 100%, 0 0, from(#9E9E9E), to(transparent));
@@ -196,7 +204,7 @@ altro
   background-image: -o-linear-gradient(#9E9E9E, transparent);
 }
 
-#cuffie_catalogo:after {
+#riquadro_cuffie:after {
   left: -2px;
   height: 2px;
   background-image: -webkit-gradient(linear, 0 0, 100% 0, from(transparent), to(#9E9E9E));
@@ -205,16 +213,21 @@ altro
   background-image: -o-linear-gradient(left, transparent, #9E9E9E);
 }
 
-
-#memorie_interne_catalogo a{
-    text-decoration: none;
-    color: #000000;
-}
+/* memorie interne */
 
 #memorie_interne_catalogo {
     margin-top: 1.5em;
     margin-left: 3%;
     width: 28%;
+}
+
+#titolo_memorie_interne a{
+    text-decoration: none;
+    color: #000000;
+}
+
+#riquadro_memorie_interne {
+    margin-top: 1em;
     clear: left;
     float:left;
     padding: 0.5em;
@@ -222,14 +235,18 @@ altro
     position: relative;
 }
 
-#memorie_interne_catalogo:before, #memorie_interne_catalogo:after {
+#riquadro_memorie_interne img {
+    margin: 2em;
+}
+
+#riquadro_memorie_interne:before, #riquadro_memorie_interne:after {
   content: "";
   position: absolute;
   top: -3px;
   right: -3px;
 }
 
-#memorie_interne_catalogo:before {
+#riquadro_memorie_interne:before {
   bottom: -2px;
   width: 2px;
   background-image: -webkit-gradient(linear, 0 100%, 0 0, from(#9E9E9E), to(transparent));
@@ -238,7 +255,7 @@ altro
   background-image: -o-linear-gradient(#9E9E9E, transparent);
 }
 
-#memorie_interne_catalogo:after {
+#riquadro_memorie_interne:after {
   left: -2px;
   height: 2px;
   background-image: -webkit-gradient(linear, 0 0, 100% 0, from(transparent), to(#9E9E9E));
@@ -247,16 +264,21 @@ altro
   background-image: -o-linear-gradient(left, transparent, #9E9E9E);
 }
 
-
-#memorie_ram_catalogo a{
-    text-decoration: none;
-    color: #000000;
-}
+/* memorie ram */
 
 #memorie_ram_catalogo {
     margin-top: 1.5em;
     margin-left: 3%;
     width: 28%;
+}
+
+#titolo_memorie_ram a{
+    text-decoration: none;
+    color: #000000;
+}
+
+#riquadro_memorie_ram {
+    margin-top: 1em;
     clear: left;
     float:left;
     padding: 0.5em;
@@ -264,14 +286,18 @@ altro
     position: relative;
 }
 
-#memorie_ram_catalogo:before, #memorie_ram_catalogo:after {
+#riquadro_memorie_ram img {
+    margin: 2em;
+}
+
+#riquadro_memorie_ram:before, #riquadro_memorie_ram:after {
   content: "";
   position: absolute;
   top: -3px;
   right: -3px;
 }
 
-#memorie_ram_catalogo:before {
+#riquadro_memorie_ram:before {
   bottom: -2px;
   width: 2px;
   background-image: -webkit-gradient(linear, 0 100%, 0 0, from(#9E9E9E), to(transparent));
@@ -280,7 +306,7 @@ altro
   background-image: -o-linear-gradient(#9E9E9E, transparent);
 }
 
-#memorie_ram_catalogo:after {
+#riquadro_memorie_ram:after {
   left: -2px;
   height: 2px;
   background-image: -webkit-gradient(linear, 0 0, 100% 0, from(transparent), to(#9E9E9E));
@@ -290,15 +316,21 @@ altro
 }
 
 
-#monitor_catalogo a{
-    text-decoration: none;
-    color: #000000;
-}
+/* monitor */
 
 #monitor_catalogo {
     margin-top: 1.5em;
     margin-left: 3%;
     width: 28%;
+}
+
+#titolo_monitor a{
+    text-decoration: none;
+    color: #000000;
+}
+
+#riquadro_monitor {
+    margin-top: 1em;
     clear: left;
     float:left;
     padding: 0.5em;
@@ -306,14 +338,18 @@ altro
     position: relative;
 }
 
-#monitor_catalogo:before, #monitor_catalogo:after {
+#riquadro_monitor img {
+    margin: 2em;
+}
+
+#riquadro_monitor:before, #riquadro_monitor:after {
   content: "";
   position: absolute;
   top: -3px;
   right: -3px;
 }
 
-#monitor_catalogo:before {
+#riquadro_monitor:before {
   bottom: -2px;
   width: 2px;
   background-image: -webkit-gradient(linear, 0 100%, 0 0, from(#9E9E9E), to(transparent));
@@ -322,7 +358,7 @@ altro
   background-image: -o-linear-gradient(#9E9E9E, transparent);
 }
 
-#monitor_catalogo:after {
+#riquadro_monitor:after {
   left: -2px;
   height: 2px;
   background-image: -webkit-gradient(linear, 0 0, 100% 0, from(transparent), to(#9E9E9E));
@@ -331,15 +367,21 @@ altro
   background-image: -o-linear-gradient(left, transparent, #9E9E9E);
 }
 
-#mouse_e_tastiere_catalogo a{
-    text-decoration: none;
-    color: #000000;
-}
+/* mouse_e_tastiere */
 
 #mouse_e_tastiere_catalogo {
     margin-top: 1.5em;
     margin-left: 3%;
     width: 28%;
+}
+
+#titolo_mouse_e_tastiere a{
+    text-decoration: none;
+    color: #000000;
+}
+
+#riquadro_mouse_e_tastiere {
+    margin-top: 1em;
     clear: left;
     float:left;
     padding: 0.5em;
@@ -347,14 +389,18 @@ altro
     position: relative;
 }
 
-#mouse_e_tastiere_catalogo:before, #mouse_e_tastiere_catalogo:after {
+#riquadro_mouse_e_tastiere img {
+    margin: 2em;
+}
+
+#riquadro_mouse_e_tastiere:before, #riquadro_mouse_e_tastiere:after {
   content: "";
   position: absolute;
   top: -3px;
   right: -3px;
 }
 
-#mouse_e_tastiere_catalogo:before {
+#riquadro_mouse_e_tastiere:before {
   bottom: -2px;
   width: 2px;
   background-image: -webkit-gradient(linear, 0 100%, 0 0, from(#9E9E9E), to(transparent));
@@ -363,7 +409,7 @@ altro
   background-image: -o-linear-gradient(#9E9E9E, transparent);
 }
 
-#mouse_e_tastiere_catalogo:after {
+#riquadro_mouse_e_tastiere:after {
   left: -2px;
   height: 2px;
   background-image: -webkit-gradient(linear, 0 0, 100% 0, from(transparent), to(#9E9E9E));
@@ -372,16 +418,21 @@ altro
   background-image: -o-linear-gradient(left, transparent, #9E9E9E);
 }
 
-
-#raffreddamento_catalogo a{
-    text-decoration: none;
-    color: #000000;
-}
+/* raffreddamento */
 
 #raffreddamento_catalogo {
     margin-top: 1.5em;
     margin-left: 3%;
     width: 28%;
+}
+
+#titolo_raffreddamento a{
+    text-decoration: none;
+    color: #000000;
+}
+
+#riquadro_raffreddamento {
+    margin-top: 1em;
     clear: left;
     float:left;
     padding: 0.5em;
@@ -389,14 +440,18 @@ altro
     position: relative;
 }
 
-#raffreddamento_catalogo:before, #raffreddamento_catalogo:after {
+#riquadro_raffreddamento img {
+    margin: 2em;
+}
+
+#riquadro_raffreddamento:before, #riquadro_raffreddamento:after {
   content: "";
   position: absolute;
   top: -3px;
   right: -3px;
 }
 
-#raffreddamento_catalogo:before {
+#riquadro_raffreddamento:before {
   bottom: -2px;
   width: 2px;
   background-image: -webkit-gradient(linear, 0 100%, 0 0, from(#9E9E9E), to(transparent));
@@ -405,7 +460,7 @@ altro
   background-image: -o-linear-gradient(#9E9E9E, transparent);
 }
 
-#raffreddamento_catalogo:after {
+#riquadro_raffreddamento:after {
   left: -2px;
   height: 2px;
   background-image: -webkit-gradient(linear, 0 0, 100% 0, from(transparent), to(#9E9E9E));
@@ -414,16 +469,21 @@ altro
   background-image: -o-linear-gradient(left, transparent, #9E9E9E);
 }
 
-
-#schede_audio_catalogo a{
-    text-decoration: none;
-    color: #000000;
-}
+/* schede audio */
 
 #schede_audio_catalogo {
     margin-top: 1.5em;
     margin-left: 3%;
     width: 28%;
+}
+
+#titolo_schede_audio a{
+    text-decoration: none;
+    color: #000000;
+}
+
+#riquadro_schede_audio {
+    margin-top: 1em;
     clear: left;
     float:left;
     padding: 0.5em;
@@ -431,14 +491,18 @@ altro
     position: relative;
 }
 
-#schede_audio_catalogo:before, #schede_audio_catalogo:after {
+#riquadro_schede_audio img {
+    margin: 2em;
+}
+
+#riquadro_schede_audio:before, #riquadro_schede_audio:after {
   content: "";
   position: absolute;
   top: -3px;
   right: -3px;
 }
 
-#schede_audio_catalogo:before {
+#riquadro_schede_audio:before {
   bottom: -2px;
   width: 2px;
   background-image: -webkit-gradient(linear, 0 100%, 0 0, from(#9E9E9E), to(transparent));
@@ -447,7 +511,7 @@ altro
   background-image: -o-linear-gradient(#9E9E9E, transparent);
 }
 
-#schede_audio_catalogo:after {
+#riquadro_schede_audio:after {
   left: -2px;
   height: 2px;
   background-image: -webkit-gradient(linear, 0 0, 100% 0, from(transparent), to(#9E9E9E));
@@ -456,16 +520,21 @@ altro
   background-image: -o-linear-gradient(left, transparent, #9E9E9E);
 }
 
-
-#schede_madri_catalogo a{
-    text-decoration: none;
-    color: #000000;
-}
+/* schede madri */
 
 #schede_madri_catalogo {
     margin-top: 1.5em;
     margin-left: 3%;
     width: 28%;
+}
+
+#titolo_schede_madri a{
+    text-decoration: none;
+    color: #000000;
+}
+
+#riquadro_schede_madri {
+    margin-top: 1em;
     clear: left;
     float:left;
     padding: 0.5em;
@@ -473,14 +542,18 @@ altro
     position: relative;
 }
 
-#schede_madri_catalogo:before, #schede_madri_catalogo:after {
+#riquadro_schede_madri img {
+    margin: 2em;
+}
+
+#riquadro_schede_madri:before, #riquadro_schede_madri:after {
   content: "";
   position: absolute;
   top: -3px;
   right: -3px;
 }
 
-#schede_madri_catalogo:before {
+#riquadro_schede_madri:before {
   bottom: -2px;
   width: 2px;
   background-image: -webkit-gradient(linear, 0 100%, 0 0, from(#9E9E9E), to(transparent));
@@ -489,7 +562,7 @@ altro
   background-image: -o-linear-gradient(#9E9E9E, transparent);
 }
 
-#schede_madri_catalogo:after {
+#riquadro_schede_madri:after {
   left: -2px;
   height: 2px;
   background-image: -webkit-gradient(linear, 0 0, 100% 0, from(transparent), to(#9E9E9E));
@@ -498,16 +571,21 @@ altro
   background-image: -o-linear-gradient(left, transparent, #9E9E9E);
 }
 
-
-#schede_video_catalogo a{
-    text-decoration: none;
-    color: #000000;
-}
+/* schede video */
 
 #schede_video_catalogo {
     margin-top: 1.5em;
     margin-left: 3%;
     width: 28%;
+}
+
+#titolo_schede_video a{
+    text-decoration: none;
+    color: #000000;
+}
+
+#riquadro_schede_video {
+    margin-top: 1em;
     clear: left;
     float:left;
     padding: 0.5em;
@@ -515,14 +593,18 @@ altro
     position: relative;
 }
 
-#schede_video_catalogo:before, #schede_video_catalogo:after {
+#riquadro_schede_video img {
+    margin: 2em;
+}
+
+#riquadro_schede_video:before, #riquadro_schede_video:after {
   content: "";
   position: absolute;
   top: -3px;
   right: -3px;
 }
 
-#schede_video_catalogo:before {
+#riquadro_schede_video:before {
   bottom: -2px;
   width: 2px;
   background-image: -webkit-gradient(linear, 0 100%, 0 0, from(#9E9E9E), to(transparent));
@@ -531,7 +613,7 @@ altro
   background-image: -o-linear-gradient(#9E9E9E, transparent);
 }
 
-#schede_video_catalogo:after {
+#riquadro_schede_video:after {
   left: -2px;
   height: 2px;
   background-image: -webkit-gradient(linear, 0 0, 100% 0, from(transparent), to(#9E9E9E));
