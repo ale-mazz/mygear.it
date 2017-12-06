@@ -62,3 +62,30 @@ input[type=text], input[type=password] {
     height: auto;
 
 }
+
+@media only screen and (max-width: 955px) {
+
+    #regtitle{
+        margin-top: 0em;
+        padding-top: 8em;
+        font-size: 0.5em;
+    }
+
+    #regform{
+        margin-top: 0em;
+        padding-top: 0em;
+    }
+
+    .containerreg{
+        float: center;
+        width: 100%;
+    }
+    .containerreg2{
+        float: center;
+        width: 100%;
+    }
+
+}
+
+@media only screen and (max-width: 767px) {
+}

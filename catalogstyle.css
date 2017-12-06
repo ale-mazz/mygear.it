@@ -1,20 +1,33 @@
 
+/* immagini antemprima */
 .icona_categoria{
     max-width: 80%;
     margin-top: 1em;
     margin-left: 10%;
     margin-bottom: 1em;
+    margin: 2em;
 }
 
-#alimentatori_catalogo a{
-    text-decoration: none;
-    color: #000000;
-}
+/* alimentatori */
 
 #alimentatori_catalogo {
     margin-top: 1.5em;
     margin-left: 3%;
     width: 28%;
+}
+
+#titolo_alimentatori h2{
+    margin-left: 30%;
+    font-size: 1.5em;
+}
+
+#titolo_alimentatori a{
+    text-decoration: none;
+    color: #000000;
+}
+
+#riquadro_alimentatori {
+    margin-top: 1em;
     clear: left;
     float:left;
     padding: 0.5em;
@@ -22,14 +35,14 @@
     position: relative;
 }
 
-#alimentatori_catalogo:before, #alimentatori_catalogo:after {
+#riquadro_alimentatori:before, #riquadro_alimentatori:after {
   content: "";
   position: absolute;
   top: -3px;
   right: -3px;
 }
 
-#alimentatori_catalogo:before {
+#riquadro_alimentatori:before {
   bottom: -2px;
   width: 2px;
   background-image: -webkit-gradient(linear, 0 100%, 0 0, from(#9E9E9E), to(transparent));
@@ -38,7 +51,7 @@
   background-image: -o-linear-gradient(#9E9E9E, transparent);
 }
 
-#alimentatori_catalogo:after {
+#riquadro_alimentatori:after {
   left: -2px;
   height: 2px;
   background-image: -webkit-gradient(linear, 0 0, 100% 0, from(transparent), to(#9E9E9E));
@@ -47,16 +60,26 @@
   background-image: -o-linear-gradient(left, transparent, #9E9E9E);
 }
 
-
-#case_catalogo a{
-    text-decoration: none;
-    color: #000000;
-}
+/* case */
 
 #case_catalogo {
     margin-top: 1.5em;
     margin-left: 3%;
     width: 28%;
+}
+
+#titolo_case h2{
+    margin-left: 30%;
+    font-size: 1.5em;
+}
+
+#titolo_case a{
+    text-decoration: none;
+    color: #000000;
+}
+
+#riquadro_case {
+    margin-top: 1em;
     clear: left;
     float:left;
     padding: 0.5em;
@@ -64,14 +87,18 @@
     position: relative;
 }
 
-#case_catalogo:before, #case_catalogo:after {
+#riquadro_case img {
+    margin: 2em;
+}
+
+#riquadro_case:before, #riquadro_case:after {
   content: "";
   position: absolute;
   top: -3px;
   right: -3px;
 }
 
-#case_catalogo:before {
+#riquadro_case:before {
   bottom: -2px;
   width: 2px;
   background-image: -webkit-gradient(linear, 0 100%, 0 0, from(#9E9E9E), to(transparent));
@@ -80,7 +107,7 @@
   background-image: -o-linear-gradient(#9E9E9E, transparent);
 }
 
-#case_catalogo:after {
+#riquadro_case:after {
   left: -2px;
   height: 2px;
   background-image: -webkit-gradient(linear, 0 0, 100% 0, from(transparent), to(#9E9E9E));
@@ -89,6 +116,11 @@
   background-image: -o-linear-gradient(left, transparent, #9E9E9E);
 }
 
+/*
+...
+altro
+...
+*/
 
 #cpu_catalogo a{
     text-decoration: none;
