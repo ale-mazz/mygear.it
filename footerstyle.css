@@ -16,7 +16,7 @@
 
 #footer_top ul {
 	list-style-type:none;
-    padding-top: 0.5em;
+    padding-left: 0;
 }
 
 #footer_top ul li{
@@ -46,38 +46,41 @@
     border-bottom-color: #FAFAFA;
     border-bottom-width: 0.1em;
 }
+
+#chi_siamo_footer p{
+    font-size: 1em;
+    padding-top: 0.5em;
+}
+
 #account_footer {
     width: 20%;
-    padding: 0.5em;
     float: left;
-    margin-left: 3.25%;
+    margin-left: 4%;
 }
 
 #chi_siamo_footer {
     width: 20%;
-    padding: 0.5em;
     float: left;
-    margin-left: 3%;
+    margin-left: 4%;
 }
 
 #support_footer {
     width: 20%;
-    padding: 0.5em;
     float: left;
-    margin-left: 3%;
+    margin-left: 4%;
 }
 
 #social_footer {
     width: 20%;
-    padding: 0.5em;
     float: left;
-    margin-left: 3%;
-    margin-right: 3.25%;
+    margin-left: 4%;
+    margin-right: 4%;
 }
 
 #social_footer h2 {
     margin-bottom: 0.5em;
     margin-top: 1em;
+    padding-top: 0.5em;
     font-size: 1em;
     font-weight: normal;
 }
@@ -85,7 +88,7 @@
 .loghi_social {
     width: 2.7em;
     float:left;
-    padding: 1em;
+    padding: 4%;
 }
 
 /*******************************************************************
