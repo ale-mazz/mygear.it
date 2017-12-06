@@ -18,12 +18,13 @@
 h2{
     text-align: center;
     font-size: 2em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
 }
 
 input[type=text], input[type=password] {
     width: 100%;
     padding: 1em 1em 1em 1em;
-    margin: 1em 0em 1em 0em;
     display:inline-block;
     border: 1px solid #ccc;
     box-sizing: border-box;
