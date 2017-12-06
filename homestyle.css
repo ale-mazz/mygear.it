@@ -172,6 +172,11 @@ Corpo Home
 #loghi img {
     width: 8%;
     margin-left: 4%;
+    text-decoration: none;
+}
+
+#loghi a {
+    text-decoration:none;
 }
 
 /******************************************************************
