@@ -1,3 +1,11 @@
+
+.icona_categoria{
+    max-width: 80%;
+    margin-top: 1em;
+    margin-left: 10%;
+    margin-bottom: 1em;
+}
+
 #alimentatori_catalogo a{
     text-decoration: none;
     color: #000000;
