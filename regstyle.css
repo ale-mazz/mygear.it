@@ -9,7 +9,6 @@
     text-align: center;
     color: white;
     font-weight: bold;
-    font-size: 3em;
     margin-bottom: 2em;
     margin-top: 2em;
     padding: 1em 1em 1em 1em;
@@ -47,17 +46,18 @@ input[type=text], input[type=password] {
 .containerreg{
     float: left;
     padding: 0.5em;
-    width: 40em;
+    width: 48%;
 
 }
 .containerreg2{
     padding: 0.5em;
     float: right;
-    width: 40em;
+    width: 48%;
+
 }
 
-.clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
+.clearfix{
+    width: 90%;
+    height: auto;
+    margin-left: 1em;
 }
