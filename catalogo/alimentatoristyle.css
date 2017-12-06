@@ -20,16 +20,19 @@
 }
 
 #alimentatore1 img {
-    width: 30%;
+    width: 80%;
+    margin-top: 3%;
     margin-left: 10%;
     margin-right: 10%;
-    border-color: black;
-    border-bottom-style: solid;
-    border-bottom-width: 0.1em;
 }
 
 #alimentatore1 p{
-    text-align: center;
+    width: 80%;
+    text-align: left;
+}
+
+#alimentatore1 h3{
+    margin-top: 5%;
 }
 
 
@@ -43,17 +46,21 @@
 }
 
 #alimentatore2 img{
-    width: 30%;
+    width: 80%;
+    margin-top: 3%;
     margin-left: 10%;
     margin-right: 10%;
-    border-color: black;
-    border-bottom-style: solid;
-    border-bottom-width: 0.1em;
 }
 
 #alimentatore2 p{
-    text-align: center;
+    width: 80%;
+    text-align: left;
 }
+
+#alimentatore2 h3{
+    margin-top: 5%;
+}
+
 
 #alimentatore3 {
     margin-top: 1.5em;
@@ -65,17 +72,21 @@
 }
 
 #alimentatore3 img {
-    width: 30%;
+    width: 80%;
+    margin-top: 3%;
     margin-left: 10%;
     margin-right: 10%;
-    border-color: black;
-    border-bottom-style: solid;
-    border-bottom-width: 0.1em;
 }
 
 #alimentatore3 p{
-    text-align: center;
+    width: 80%;
+    text-align: left;
 }
+
+#alimentatore3 h3{
+    margin-top: 5%;
+}
+
 
 #alimentatore4 {
     margin-top: 1.5em;
@@ -87,17 +98,21 @@
 }
 
 #alimentatore4 img {
-    width: 30%;
+    width: 80%;
+    margin-top: 3%;
     margin-left: 10%;
     margin-right: 10%;
-    border-color: black;
-    border-bottom-style: solid;
-    border-bottom-width: 0.1em;
 }
 
 #alimentatore4 p{
-    text-align: center;
+    width: 80%;
+    text-align: left;
 }
+
+#alimentatore4 h3{
+    margin-top: 5%;
+}
+
 
 #alimentatore5 {
     margin-top: 1.5em;
@@ -109,17 +124,21 @@
 }
 
 #alimentatore5 img {
-    width: 30%;
+    width: 80%;
+    margin-top: 3%;
     margin-left: 10%;
     margin-right: 10%;
-    border-color: black;
-    border-bottom-style: solid;
-    border-bottom-width: 0.1em;
 }
 
 #alimentatore5 p{
-    text-align: center;
+    width: 80%;
+    text-align: left;
 }
+
+#alimentatore5 h3{
+    margin-top: 5%;
+}
+
 
 #alimentatore6 {
     margin-top: 1.5em;
@@ -131,17 +150,21 @@
 }
 
 #alimentatore6 img {
-    width: 30%;
+    width: 80%;
+    margin-top: 3%;
     margin-left: 10%;
     margin-right: 10%;
-    border-color: black;
-    border-bottom-style: solid;
-    border-bottom-width: 0.1em;
 }
 
 #alimentatore6 p{
-    text-align: center;
+    width: 80%;
+    text-align: left;
 }
+
+#alimentatore6 h3{
+    margin-top: 5%;
+}
+
 
 #alimentatore7 {
     margin-top: 1.5em;
@@ -153,17 +176,21 @@
 }
 
 #alimentatore7 img {
-    width: 30%;
+    width: 80%;
+    margin-top: 3%;
     margin-left: 10%;
     margin-right: 10%;
-    border-color: black;
-    border-bottom-style: solid;
-    border-bottom-width: 0.1em;
 }
 
 #alimentatore7 p{
-    text-align: center;
+    width: 80%;
+    text-align: left;
 }
+
+#alimentatore7 h3{
+    margin-top: 5%;
+}
+
 
 #alimentatore8 {
     margin-top: 1.5em;
@@ -175,17 +202,21 @@
 }
 
 #alimentatore8 img {
-    width: 30%;
+    width: 80%;
+    margin-top: 3%;
     margin-left: 10%;
     margin-right: 10%;
-    border-color: black;
-    border-bottom-style: solid;
-    border-bottom-width: 0.1em;
 }
 
 #alimentatore8 p{
-    text-align: center;
+    width: 80%;
+    text-align: left;
 }
+
+#alimentatore8 h3{
+    margin-top: 5%;
+}
+
 
 #alimentatore9 {
     margin-top: 1.5em;
@@ -197,17 +228,21 @@
 }
 
 #alimentatore9 img {
-    width: 30%;
+    width: 80%;
+    margin-top: 3%;
     margin-left: 10%;
     margin-right: 10%;
-    border-color: black;
-    border-bottom-style: solid;
-    border-bottom-width: 0.1em;
 }
 
 #alimentatore9 p{
-    text-align: center;
+    width: 80%;
+    text-align: left;
 }
+
+#alimentatore9 h3{
+    margin-top: 5%;
+}
+
 
 #alimentatore10 {
     margin-top: 1.5em;
@@ -219,17 +254,21 @@
 }
 
 #alimentatore10 img{
-    width: 30%;
+    width: 80%;
+    margin-top: 3%;
     margin-left: 10%;
     margin-right: 10%;
-    border-color: black;
-    border-bottom-style: solid;
-    border-bottom-width: 0.1em;
 }
 
 #alimentatore10 p{
-    text-align: center;
+    width: 80%;
+    text-align: left;
 }
+
+#alimentatore10 h3{
+    margin-top: 5%;
+}
+
 
 #alimentatore11 {
     margin-top: 1.5em;
@@ -241,17 +280,21 @@
 }
 
 #alimentatore11 img{
-    width: 30%;
+    width: 80%;
+    margin-top: 3%;
     margin-left: 10%;
     margin-right: 10%;
-    border-color: black;
-    border-bottom-style: solid;
-    border-bottom-width: 0.1em;
 }
 
 #alimentatore11 p{
-    text-align: center;
+    width: 80%;
+    text-align: left;
 }
+
+#alimentatore11 h3{
+    margin-top: 5%;
+}
+
 
 #alimentatore12 {
     margin-top: 1.5em;
@@ -263,16 +306,19 @@
 }
 
 #alimentatore12 img{
-    width: 30%;
+    width: 80%;
+    margin-top: 3%;
     margin-left: 10%;
     margin-right: 10%;
-    border-color: black;
-    border-bottom-style: solid;
-    border-bottom-width: 0.1em;
 }
 
 #alimentatore12 p{
-    text-align: center;
+    width: 80%;
+    text-align: left;
+}
+
+#alimentatore12 h3{
+    margin-top: 5%;
 }
 
 
