@@ -46,7 +46,6 @@ input[type=text], input[type=password] {
 
 .containerreg{
     float: left;
-
     width: 45%;
 
 }
@@ -64,6 +63,10 @@ input[type=text], input[type=password] {
 }
 
 @media only screen and (max-width: 955px) {
+
+    #regform{
+        margin: 15%;
+    }
 
     #regtitle{
         margin-top: 0em;
@@ -88,4 +91,17 @@ input[type=text], input[type=password] {
 }
 
 @media only screen and (max-width: 767px) {
+
+    #regform{
+        margin: 10%;
+    }
+
+    .containerreg{
+
+        width: 100%;
+    }
+    .containerreg2{
+
+        width: 100%;
+    }
 }
