@@ -12,7 +12,6 @@
 
 #configurazione_1 {
     width: 100%;
-    height: auto;
     background-color: white;
 }
 
@@ -20,14 +19,12 @@
     float: left;
     clear: left;
     width: 30%;
-    height: auto;
     padding-top: 3%;
     margin-left: 8%;
 }
 
 #configurazione_2 {
     width:100%;
-    height: auto;
     background-color:white;
 }
 
@@ -35,14 +32,12 @@
     float: left;
     clear: left;
     width: 30%;
-    height: auto;
     padding-top: 3%;
     margin-left: 8%;
 }
 
 #configurazione_3 {
     width: 100%;
-    height: auto;
     background-color: white;
 }
 
@@ -50,7 +45,6 @@
     float: left;
     clear: left;
     width: 27%;
-    height: auto;
     padding-top: 3%;
     margin-left: 10%;
 }
@@ -156,12 +150,22 @@
     font-size: 0.7em;
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 955px) {
 
 
     #titolo_config {
-        position:relative;
-        margin-top:0;
+        margin-top:
     }
+
+    #titolo_config h1 {
+        font-size: 1em;
+    }
+
+    #configurazione_1 {
+
+    }
+
+
+@media only screen and (max-width: 767px) {
 
 }
