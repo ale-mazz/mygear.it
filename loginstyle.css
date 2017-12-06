@@ -9,7 +9,7 @@
     text-align: center;
     color: white;
     font-weight: bold;
-    font-size: 3em;
+    font-size: 1.6em;
     margin-bottom: 2em;
     margin-top: 2em;
     padding: 1em 1em 1em 1em;
@@ -17,14 +17,14 @@
 
 h2{
     text-align: center;
-    font-size: 2em;
+    font-size: 1.3em;
     padding-top: 0.5em;
     padding-bottom: 0.5em;
 }
 
 input[type=text], input[type=password] {
     width: 100%;
-    padding: 1em 1em 1em 1em;
+    padding: 0.5em 0.5em 0.5em 0.5em;
     display:inline-block;
     border: 1px solid #ccc;
     box-sizing: border-box;
@@ -39,7 +39,7 @@ input[type=text], input[type=password] {
     border: none;
     cursor: pointer;
     font-weight: bold;
-    font-size: 2em;
+    font-size: 1.4em;
     float: left;
     width: 100%;
     margin-top: 2em;
@@ -54,5 +54,45 @@ input[type=text], input[type=password] {
 .clearfix{
     width: 40%;
     margin-left: 30%;
-    margin-right: 30%;
+}
+
+@media only screen and (max-width: 955px) {
+
+    #regform{
+        margin: 0%;
+    }
+
+    #regtitle{
+        margin-top: 0em;
+        padding-top: 8em;
+        font-size: 0.5em;
+    }
+
+    #regform{
+        width: 100%;
+        margin-top: 0em;
+        padding-top: 0em;
+    }
+
+    .containerlogin{
+        float: center;
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .clearfix{
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    input[type=text], input[type=password] {
+        font-size: 1.2em;
+
+    }
+
+}
+
+@media only screen and (max-width: 767px) {
+
+
 }
