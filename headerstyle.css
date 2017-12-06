@@ -1,5 +1,4 @@
 @charset "UTF-8";
-
 /******************************************************************************
 Generale
 *******************************************************************************/
@@ -19,32 +18,37 @@ body {
 Header & Menu
 *******************************************************************************/
 
-header{
-    width:100%;
+header {
+    width: 100%;
     background-color: #D32F2F;
-    height:4em;
+    height: 4em;
 }
+
 .menu {
-    margin:auto;
+    margin: auto;
     float: right;
 }
+
 #container {
     background: #B71C1C;
     height: 4.6em;
 }
+
 .menu ul {
     list-style-type: none;
-    font-size: 0.7em;
+    font-size: 1em;
     float: right;
-    margin-top:0.38em
+    margin-top: 0em
 }
+
 .menu li {
     float: left;
-    padding-top: 0.9em;
+    padding-top: 0.4em;
     padding-bottom: 0.9em;
     padding-left: 0.5em;
     padding-right: 0.8em;
 }
+
 .menu li a {
     display: block;
     color: white;
@@ -52,22 +56,24 @@ header{
     text-decoration: none;
 }
 
-.hover{
+.hover {
     display: inline-block;
     position: relative;
 }
-.hover:hover{
+
+.hover:hover {
     -webkit-transform: scale(1.2);
     -ms-transform: scale(1.2);
     -moz-transform: scale(1.2);
 
 
 }
+
 .selected {
     font-weight: 900;
 }
 
-.logo{
+.logo {
     top: 0px;
     height: 3em;
     width: auto;
@@ -75,7 +81,10 @@ header{
     padding-top: 0.5em;
 }
 
-.buttonlogin {
+#buttonLogin {
+    -moz-appearance: button;
+    appearance: button;
+    text-decoration: none;
     display: inline-block;
     position: relative;
     background-color: #D32F2F;
@@ -84,77 +93,79 @@ header{
     color: white;
     padding: 1em 1em;
     text-decoration: none;
-    font-size: 0.7em;
-    margin-top: 1.25em;
+    font-size: 1em;
+    margin-top: 0.4em;
     cursor: pointer;
 }
 
 /****************************************
 Media Query
 ****************************************/
+
 @media only screen and (min-width: 956px) {
 
-    #hamburger{
-        display:none;
-    }
-    #drop_menu{
+    #hamburger {
         display: none;
     }
-    .buttonlogin:hover {
-    -webkit-transform: scale(1.1);
-    -ms-transform: scale(1.1);
-    -moz-transform: scale(1.1);
+    #drop_menu {
+        display: none;
+    }
+    #buttonLogin:hover {
+        -webkit-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+        -moz-transform: scale(1.2);
     }
 }
+
 @media only screen and (max-width: 955px) {
 
-    .menu{
+    .menu {
         display: none;
     }
 
-    header{
-        width:100%;
+    header {
+        width: 100%;
         background-color: #D32F2F;
-        height:4em;
-        display:inline-block;
-        font-size:0.8em;
+        height: 4em;
+        display: inline-block;
+        font-size: 0.8em;
         position: fixed;
     }
-    #container{
+    #container {
         position: fixed;
         width: 100%;
         height: 3.8em;
     }
 
-    .logo{
+    .logo {
         float: left;
         height: 2.6em;
         padding-left: 1.5em;
         padding-top: 0.7em;
     }
-    #hamburger{
+    #hamburger {
         display: block;
-        background:none;
-        position:absolute;
-        top:0;
-        right:0;
-        line-height:0.6em;
-        padding:0.45em 0.45em 0.45em 0.45em;
-        color:white;
-        border:0;
-        font-size:3em;
-        font-weight:bold;
-        cursor:pointer;
-        outline:none;
+        background: none;
+        position: absolute;
+        top: 0;
+        right: 0;
+        line-height: 0.6em;
+        padding: 0.45em 0.45em 0.45em 0.45em;
+        color: white;
+        border: 0;
+        font-size: 3em;
+        font-weight: bold;
+        cursor: pointer;
+        outline: none;
     }
-    #drop_menu{
-        font-weight:bold;
-        font-size:2em;
-        background:#EEEEEE;
-        text-align:center;
+    #drop_menu {
+        font-weight: bold;
+        font-size: 2em;
+        background: #EEEEEE;
+        text-align: center;
         position: fixed;
         width: 100%;
-        top:1.87em;
+        top: 1.87em;
     }
     #drop_menu ul {
         list-style-type: none;
@@ -162,24 +173,24 @@ Media Query
     }
     #drop_menu li {
         display: block;
-        padding:15px 0 15px 0;
-        border-bottom:#E0E0E0 1px solid;
+        padding: 15px 0 15px 0;
+        border-bottom: #E0E0E0 1px solid;
     }
 
-    #drop_menu a{
-        text-decoration:none;
-        color:#424242;
+    #drop_menu a {
+        text-decoration: none;
+        color: #424242;
     }
 
-    .menuClose{
+    .menuClose {
         height: 0;
         display: none;
     }
-    .menuOpen{
+    .menuOpen {
         height: auto;
         display: block;
     }
-    .buttonlogin {
+    #buttonLogin {
         font-size: 1.5em;
         padding: 0.5em 0.5em 0.5em 0.5em;
         margin-top: 0.4em;
@@ -191,36 +202,36 @@ Media Query
 
 @media only screen and (max-width: 767px) {
 
-    header{
+    header {
 
         height: 4em;
     }
-    #container{
+    #container {
         height: 3.8em;
     }
 
-    .logo{
+    .logo {
         width: 14em;
         height: auto;
         padding-top: 0.7em;
         padding-left: 1em;
     }
-    .buttonlogin{
+    #buttonLogin {
         font-size: 1.2em;
         margin-right: 3.5em;
         margin-top: 0.8em;
         padding: 0.5em 0.5em 0.5em 0.5em;
     }
 
-    #hamburger{
+    #hamburger {
         font-size: 2.5em;
         margin-top: 0.2em;
         margin-right: 0.13em;
-        padding:0.25em 0.25em 0.25em 0.25em;
-        line-height:0.9em;
+        padding: 0.25em 0.25em 0.25em 0.25em;
+        line-height: 0.9em;
 
     }
-    #drop_menu{
+    #drop_menu {
         font-size: 1.5em;
         top: 2.52em;
     }
