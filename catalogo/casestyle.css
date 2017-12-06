@@ -1,16 +1,16 @@
-#titolo_alimentatori {
+#titolo_case {
     width: 100%;
     margin-top: 2em;
     margin-bottom: 2em;
 }
 
-#titolo_alimentatori h1 {
+#titolo_case h1 {
     font-size: 2em;
     text-align: center;
     color: #000000;
 }
 
-#alimentatore1 {
+#case1 {
     margin-top: 1.5em;
     margin-left: 6%;
     width: 20%;
@@ -19,7 +19,7 @@
     position: relative;
 }
 
-#alimentatore1 img {
+#case1 img {
     width: 30%;
     margin-left: 10%;
     margin-right: 10%;
@@ -28,12 +28,12 @@
     border-bottom-width: 0.1em;
 }
 
-#alimentatore1 p{
+#case1 p{
     text-align: center;
 }
 
 
-#alimentatore2 {
+#case2 {
     margin-top: 1.5em;
     margin-left: 2%;
     width: 20%;
@@ -42,7 +42,7 @@
     position: relative;
 }
 
-#alimentatore2 img{
+#case2 img{
     width: 30%;
     margin-left: 10%;
     margin-right: 10%;
@@ -51,11 +51,11 @@
     border-bottom-width: 0.1em;
 }
 
-#alimentatore2 p{
+#case2 p{
     text-align: center;
 }
 
-#alimentatore3 {
+#case3 {
     margin-top: 1.5em;
     margin-left: 2%;
     width: 20%;
@@ -64,7 +64,7 @@
     position: relative;
 }
 
-#alimentatore3 img {
+#case3 img {
     width: 30%;
     margin-left: 10%;
     margin-right: 10%;
@@ -73,11 +73,11 @@
     border-bottom-width: 0.1em;
 }
 
-#alimentatore3 p{
+#case3 p{
     text-align: center;
 }
 
-#alimentatore4 {
+#case4 {
     margin-top: 1.5em;
     margin-left: 2%;
     width: 20%;
@@ -86,7 +86,7 @@
     position: relative;
 }
 
-#alimentatore4 img {
+#case4 img {
     width: 30%;
     margin-left: 10%;
     margin-right: 10%;
@@ -95,11 +95,11 @@
     border-bottom-width: 0.1em;
 }
 
-#alimentatore4 p{
+#case4 p{
     text-align: center;
 }
 
-#alimentatore5 {
+#case5 {
     margin-top: 1.5em;
     margin-left: 6%;
     width: 20%;
@@ -108,7 +108,7 @@
     position: relative;
 }
 
-#alimentatore5 img {
+#case5 img {
     width: 30%;
     margin-left: 10%;
     margin-right: 10%;
@@ -117,11 +117,11 @@
     border-bottom-width: 0.1em;
 }
 
-#alimentatore5 p{
+#case5 p{
     text-align: center;
 }
 
-#alimentatore6 {
+#case6 {
     margin-top: 1.5em;
     margin-left: 2%;
     width: 20%;
@@ -130,7 +130,7 @@
     position: relative;
 }
 
-#alimentatore6 img {
+#case6 img {
     width: 30%;
     margin-left: 10%;
     margin-right: 10%;
@@ -139,11 +139,11 @@
     border-bottom-width: 0.1em;
 }
 
-#alimentatore6 p{
+#case6 p{
     text-align: center;
 }
 
-#alimentatore7 {
+#case7 {
     margin-top: 1.5em;
     margin-left: 2%;
     width: 20%;
@@ -152,7 +152,7 @@
     position: relative;
 }
 
-#alimentatore7 img {
+#case7 img {
     width: 30%;
     margin-left: 10%;
     margin-right: 10%;
@@ -161,11 +161,11 @@
     border-bottom-width: 0.1em;
 }
 
-#alimentatore7 p{
+#case7 p{
     text-align: center;
 }
 
-#alimentatore8 {
+#case8 {
     margin-top: 1.5em;
     margin-left: 2%;
     width: 20%;
@@ -174,7 +174,7 @@
     position: relative;
 }
 
-#alimentatore8 img {
+#case8 img {
     width: 30%;
     margin-left: 10%;
     margin-right: 10%;
@@ -183,11 +183,11 @@
     border-bottom-width: 0.1em;
 }
 
-#alimentatore8 p{
+#case8 p{
     text-align: center;
 }
 
-#alimentatore9 {
+#case9 {
     margin-top: 1.5em;
     margin-left: 6%;
     width: 20%;
@@ -196,7 +196,7 @@
     position: relative;
 }
 
-#alimentatore9 img {
+#case9 img {
     width: 30%;
     margin-left: 10%;
     margin-right: 10%;
@@ -205,11 +205,11 @@
     border-bottom-width: 0.1em;
 }
 
-#alimentatore9 p{
+#case9 p{
     text-align: center;
 }
 
-#alimentatore10 {
+#case10 {
     margin-top: 1.5em;
     margin-left: 2%;
     width: 20%;
@@ -218,7 +218,7 @@
     position: relative;
 }
 
-#alimentatore10 img{
+#case10 img{
     width: 30%;
     margin-left: 10%;
     margin-right: 10%;
@@ -227,11 +227,11 @@
     border-bottom-width: 0.1em;
 }
 
-#alimentatore10 p{
+#case10 p{
     text-align: center;
 }
 
-#alimentatore11 {
+#case11 {
     margin-top: 1.5em;
     margin-left: 2%;
     width: 20%;
@@ -240,7 +240,7 @@
     position: relative;
 }
 
-#alimentatore11 img{
+#case11 img{
     width: 30%;
     margin-left: 10%;
     margin-right: 10%;
@@ -249,11 +249,11 @@
     border-bottom-width: 0.1em;
 }
 
-#alimentatore11 p{
+#case11 p{
     text-align: center;
 }
 
-#alimentatore12 {
+#case12 {
     margin-top: 1.5em;
     margin-left: 2%;
     width: 20%;
@@ -262,7 +262,7 @@
     position: relative;
 }
 
-#alimentatore12 img{
+#case12 img{
     width: 30%;
     margin-left: 10%;
     margin-right: 10%;
@@ -271,21 +271,21 @@
     border-bottom-width: 0.1em;
 }
 
-#alimentatore12 p{
+#case12 p{
     text-align: center;
 }
 
 
 
 
-#alimentatore1:before, #alimentatore1:after {
+#case1:before, #case1:after {
         content: "";
         position: absolute;
         top: -3px;
         right: -3px;
     }
 
-#alimentatore1:before {
+#case1:before {
         bottom: -2px;
         width: 2px;
         background-image: -webkit-gradient(linear, 0 100%, 0 0, from(#9E9E9E), to(transparent));
@@ -294,7 +294,7 @@
         background-image: -o-linear-gradient(#9E9E9E, transparent);
     }
 
-#alimentatore1:after {
+#case1:after {
         left: -2px;
         height: 2px;
         background-image: -webkit-gradient(linear, 0 0, 100% 0, from(transparent), to(#9E9E9E));
@@ -303,14 +303,14 @@
         background-image: -o-linear-gradient(left, transparent, #9E9E9E);
     }
 
-#alimentatore2:before, #alimentatore2:after {
+#case2:before, #case2:after {
         content: "";
         position: absolute;
         top: -3px;
         right: -3px;
     }
 
-#alimentatore2:before {
+#case2:before {
         bottom: -2px;
         width: 2px;
         background-image: -webkit-gradient(linear, 0 100%, 0 0, from(#9E9E9E), to(transparent));
@@ -319,7 +319,7 @@
         background-image: -o-linear-gradient(#9E9E9E, transparent);
     }
 
-#alimentatore2:after {
+#case2:after {
         left: -2px;
         height: 2px;
         background-image: -webkit-gradient(linear, 0 0, 100% 0, from(transparent), to(#9E9E9E));
@@ -328,14 +328,14 @@
         background-image: -o-linear-gradient(left, transparent, #9E9E9E);
     }
 
-#alimentatore3:before, #alimentatore3:after {
+#case3:before, #case3:after {
         content: "";
         position: absolute;
         top: -3px;
         right: -3px;
     }
 
-#alimentatore3:before {
+#case3:before {
         bottom: -2px;
         width: 2px;
         background-image: -webkit-gradient(linear, 0 100%, 0 0, from(#9E9E9E), to(transparent));
@@ -344,7 +344,7 @@
         background-image: -o-linear-gradient(#9E9E9E, transparent);
     }
 
-#alimentatore3:after {
+#case3:after {
         left: -2px;
         height: 2px;
         background-image: -webkit-gradient(linear, 0 0, 100% 0, from(transparent), to(#9E9E9E));
@@ -353,14 +353,14 @@
         background-image: -o-linear-gradient(left, transparent, #9E9E9E);
     }
 
-#alimentatore4:before, #alimentatore4:after {
+#case4:before, #case4:after {
         content: "";
         position: absolute;
         top: -3px;
         right: -3px;
     }
 
-#alimentatore4:before {
+#case4:before {
         bottom: -2px;
         width: 2px;
         background-image: -webkit-gradient(linear, 0 100%, 0 0, from(#9E9E9E), to(transparent));
@@ -369,7 +369,7 @@
         background-image: -o-linear-gradient(#9E9E9E, transparent);
     }
 
-#alimentatore4:after {
+#case4:after {
         left: -2px;
         height: 2px;
         background-image: -webkit-gradient(linear, 0 0, 100% 0, from(transparent), to(#9E9E9E));
@@ -378,14 +378,14 @@
         background-image: -o-linear-gradient(left, transparent, #9E9E9E);
     }
 
-#alimentatore5:before, #alimentatore5:after {
+#case5:before, #case5:after {
         content: "";
         position: absolute;
         top: -3px;
         right: -3px;
     }
 
-#alimentatore5:before {
+#case5:before {
         bottom: -2px;
         width: 2px;
         background-image: -webkit-gradient(linear, 0 100%, 0 0, from(#9E9E9E), to(transparent));
@@ -394,7 +394,7 @@
         background-image: -o-linear-gradient(#9E9E9E, transparent);
     }
 
-#alimentatore5:after {
+#case5:after {
         left: -2px;
         height: 2px;
         background-image: -webkit-gradient(linear, 0 0, 100% 0, from(transparent), to(#9E9E9E));
@@ -403,14 +403,14 @@
         background-image: -o-linear-gradient(left, transparent, #9E9E9E);
     }
 
-#alimentatore6:before, #alimentatore6:after {
+#case6:before, #case6:after {
         content: "";
         position: absolute;
         top: -3px;
         right: -3px;
     }
 
-#alimentatore6:before {
+#case6:before {
         bottom: -2px;
         width: 2px;
         background-image: -webkit-gradient(linear, 0 100%, 0 0, from(#9E9E9E), to(transparent));
@@ -419,7 +419,7 @@
         background-image: -o-linear-gradient(#9E9E9E, transparent);
     }
 
-#alimentatore6:after {
+#case6:after {
         left: -2px;
         height: 2px;
         background-image: -webkit-gradient(linear, 0 0, 100% 0, from(transparent), to(#9E9E9E));
@@ -428,14 +428,14 @@
         background-image: -o-linear-gradient(left, transparent, #9E9E9E);
     }
 
-#alimentatore7:before, #alimentatore7:after {
+#case7:before, #case7:after {
         content: "";
         position: absolute;
         top: -3px;
         right: -3px;
     }
 
-#alimentatore7:before {
+#case7:before {
         bottom: -2px;
         width: 2px;
         background-image: -webkit-gradient(linear, 0 100%, 0 0, from(#9E9E9E), to(transparent));
@@ -444,7 +444,7 @@
         background-image: -o-linear-gradient(#9E9E9E, transparent);
     }
 
-#alimentatore7:after {
+#case7:after {
         left: -2px;
         height: 2px;
         background-image: -webkit-gradient(linear, 0 0, 100% 0, from(transparent), to(#9E9E9E));
@@ -453,14 +453,14 @@
         background-image: -o-linear-gradient(left, transparent, #9E9E9E);
     }
 
-#alimentatore8:before, #alimentatore8:after {
+#case8:before, #case8:after {
         content: "";
         position: absolute;
         top: -3px;
         right: -3px;
     }
 
-#alimentatore8:before {
+#case8:before {
         bottom: -2px;
         width: 2px;
         background-image: -webkit-gradient(linear, 0 100%, 0 0, from(#9E9E9E), to(transparent));
@@ -469,7 +469,7 @@
         background-image: -o-linear-gradient(#9E9E9E, transparent);
     }
 
-#alimentatore8:after {
+#case8:after {
         left: -2px;
         height: 2px;
         background-image: -webkit-gradient(linear, 0 0, 100% 0, from(transparent), to(#9E9E9E));
@@ -478,14 +478,14 @@
         background-image: -o-linear-gradient(left, transparent, #9E9E9E);
     }
 
-#alimentatore9:before, #alimentatore9:after {
+#case9:before, #case9:after {
         content: "";
         position: absolute;
         top: -3px;
         right: -3px;
     }
 
-#alimentatore9:before {
+#case9:before {
         bottom: -2px;
         width: 2px;
         background-image: -webkit-gradient(linear, 0 100%, 0 0, from(#9E9E9E), to(transparent));
@@ -494,7 +494,7 @@
         background-image: -o-linear-gradient(#9E9E9E, transparent);
     }
 
-#alimentatore9:after {
+#case9:after {
         left: -2px;
         height: 2px;
         background-image: -webkit-gradient(linear, 0 0, 100% 0, from(transparent), to(#9E9E9E));
@@ -503,14 +503,14 @@
         background-image: -o-linear-gradient(left, transparent, #9E9E9E);
     }
 
-#alimentatore10:before, #alimentatore10:after {
+#case10:before, #case10:after {
         content: "";
         position: absolute;
         top: -3px;
         right: -3px;
     }
 
-#alimentatore10:before {
+#case10:before {
         bottom: -2px;
         width: 2px;
         background-image: -webkit-gradient(linear, 0 100%, 0 0, from(#9E9E9E), to(transparent));
@@ -519,7 +519,7 @@
         background-image: -o-linear-gradient(#9E9E9E, transparent);
     }
 
-#alimentatore10:after {
+#case10:after {
         left: -2px;
         height: 2px;
         background-image: -webkit-gradient(linear, 0 0, 100% 0, from(transparent), to(#9E9E9E));
@@ -528,14 +528,14 @@
         background-image: -o-linear-gradient(left, transparent, #9E9E9E);
     }
 
-#alimentatore11:before, #alimentatore11:after {
+#case11:before, #case11:after {
         content: "";
         position: absolute;
         top: -3px;
         right: -3px;
     }
 
-#alimentatore11:before {
+#case11:before {
         bottom: -2px;
         width: 2px;
         background-image: -webkit-gradient(linear, 0 100%, 0 0, from(#9E9E9E), to(transparent));
@@ -544,7 +544,7 @@
         background-image: -o-linear-gradient(#9E9E9E, transparent);
     }
 
-#alimentatore11:after {
+#case11:after {
         left: -2px;
         height: 2px;
         background-image: -webkit-gradient(linear, 0 0, 100% 0, from(transparent), to(#9E9E9E));
@@ -553,14 +553,14 @@
         background-image: -o-linear-gradient(left, transparent, #9E9E9E);
     }
 
-#alimentatore12:before, #alimentatore12:after {
+#case12:before, #case12:after {
         content: "";
         position: absolute;
         top: -3px;
         right: -3px;
     }
 
-#alimentatore12:before {
+#case12:before {
         bottom: -2px;
         width: 2px;
         background-image: -webkit-gradient(linear, 0 100%, 0 0, from(#9E9E9E), to(transparent));
@@ -569,7 +569,7 @@
         background-image: -o-linear-gradient(#9E9E9E, transparent);
     }
 
-#alimentatore12:after {
+#case12:after {
         left: -2px;
         height: 2px;
         background-image: -webkit-gradient(linear, 0 0, 100% 0, from(transparent), to(#9E9E9E));
