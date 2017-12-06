@@ -50,6 +50,7 @@
 #chi_siamo_footer p{
     font-size: 1em;
     padding-top: 0.5em;
+    margin-top: 0;
 }
 
 #account_footer {
@@ -79,7 +80,7 @@
 
 #social_footer h2 {
     margin-bottom: 0.5em;
-    margin-top: 1em;
+    margin-top: 0;
     padding-top: 0.5em;
     font-size: 1em;
     font-weight: normal;
