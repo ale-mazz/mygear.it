@@ -1,3 +1,5 @@
+/*JQUERY JS*/
+
 $(function (){
     var hamburger = document.getElementById("hamburger");
     hamburger.onclick = function () {
@@ -10,3 +12,4 @@ $(function (){
         }
     };
 });
+

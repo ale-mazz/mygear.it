@@ -1,9 +1,8 @@
-
 /********************************************************************************
 Banner
 ********************************************************************************/
 
-#banner img{
+#banner img {
     width: 100%;
     height: auto;
 }
@@ -11,7 +10,6 @@ Banner
 /********************************************************************************
 Corpo Home
 ********************************************************************************/
-
 
 #corpo_top_home {
     width: 100%;
@@ -27,7 +25,7 @@ Corpo Home
 }
 
 .riquadro {
-    padding:1em;
+    padding: 1em;
 }
 
 .riquadro h1 {
@@ -46,13 +44,13 @@ Corpo Home
     padding-top: 1em;
 }
 
-.riquadro a{
+.riquadro a {
     text-decoration: none;
     color: #000000;
 }
 
 .riquadro a:hover {
-    color:#D50000;
+    color: #D50000;
 }
 
 #vetrina {
@@ -76,7 +74,7 @@ Corpo Home
     margin-left: 10%;
     width: 90%;
     clear: left;
-    float:left;
+    float: left;
     background-color: white;
 }
 
@@ -107,11 +105,11 @@ Corpo Home
     margin-top: 1.5em;
     margin-left: 10%;
     width: 90%;
-    float:left;
+    float: left;
     background-color: white;
 }
 
-#promo_home img{
+#promo_home img {
     width: 80%;
     margin-left: 10%;
     margin-right: 10%;
@@ -138,7 +136,7 @@ Corpo Home
     margin-top: 1.5em;
     margin-left: 10%;
     width: 90%;
-    float:left;
+    float: left;
     background-color: white;
 }
 
@@ -176,7 +174,7 @@ Corpo Home
 }
 
 #loghi a {
-    text-decoration:none;
+    text-decoration: none;
 }
 
 /******************************************************************
@@ -185,7 +183,7 @@ Corpo Home
 
 @media only screen and (max-width: 955px) {
 
-    #banner img{
+    #banner img {
         margin-top: 3.8em;
     }
     #titoli_corpo_top h1 {
@@ -224,7 +222,7 @@ Corpo Home
         width: 100%;
     }
 
-     #titolo_promo {
+    #titolo_promo {
         width: 60%;
         margin-left: 20%;
     }
@@ -246,7 +244,7 @@ Corpo Home
         margin-left: 0;
     }
 
-     #titolo_novita {
+    #titolo_novita {
         width: 60%;
         margin-left: 20%;
     }
@@ -284,9 +282,10 @@ Corpo Home
 /******************************************************************
 Media Query Mobile
 ******************************************************************/
+
 @media only screen and (max-width: 767px) {
 
-    #banner img{
+    #banner img {
         margin-top: 3.58em;
     }
 
@@ -322,7 +321,7 @@ Media Query Mobile
         width: 100%;
     }
 
-     #titolo_promo {
+    #titolo_promo {
         width: 60%;
         margin-left: 20%;
     }
@@ -342,7 +341,7 @@ Media Query Mobile
         margin-left: 0;
     }
 
-     #titolo_novita {
+    #titolo_novita {
         width: 60%;
         margin-left: 20%;
     }
@@ -389,7 +388,8 @@ Media Query Mobile
         position: relative;
     }
 
-    #promo_home:before, #promo_home:after {
+    #promo_home:before,
+    #promo_home:after {
         content: "";
         position: absolute;
         top: -3px;
@@ -414,7 +414,8 @@ Media Query Mobile
         background-image: -o-linear-gradient(left, transparent, #9E9E9E);
     }
 
-    #novita_home:before, #novita_home:after {
+    #novita_home:before,
+    #novita_home:after {
         content: "";
         position: absolute;
         top: -3px;
@@ -439,7 +440,8 @@ Media Query Mobile
         background-image: -o-linear-gradient(left, transparent, #9E9E9E);
     }
 
-    #vetrina_home:before, #vetrina_home:after {
+    #vetrina_home:before,
+    #vetrina_home:after {
         content: "";
         position: absolute;
         top: -3px;
