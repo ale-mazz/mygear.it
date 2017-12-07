@@ -1,9 +1,7 @@
-
 /* immagini antemprima */
 .icona_categoria{
-    max-width: 80%;
-    margin-top: 1em;
-    margin-left: 10%;
+    max-width: 70%;
+    margin-left: 4%;
     margin-bottom: 1em;
     margin: 2em;
 }
@@ -13,28 +11,53 @@ h2 {
     font-size: 1.5em;
 }
 
-/* alimentatori */
+
+/* div generale - 4 riquadri prima riga */
 
 #alimentatori_catalogo {
     margin-top: 1.5em;
-    margin-left: 3%;
-    width: 28%;
+    margin-left: 4%;
+    width: 20%;
     float: left;
 }
+
+#riquadro_alimentatori {
+    text-align: center;
+    margin-top: 1em;
+    float:left;
+    padding: 1em;
+    background-color: white;
+    position: relative;
+}
+
+#case_catalogo {
+    margin-top: 1.5em;
+    width: 20%;
+    margin-left: 4%;
+    float: left;
+}
+
+#cpu_catalogo {
+    margin-top: 1.5em;
+    width: 20%;
+    margin-left: 4%;
+    float: left;
+}
+
+#cuffie_catalogo {
+    margin-top: 1.5em;
+    width: 20%;
+    margin-left: 4%;
+    float:left;
+}
+
+/* alimentatori */
 
 #titolo_alimentatori a{
     text-decoration: none;
     color: #000000;
 }
 
-#riquadro_alimentatori {
-    margin-top: 1em;
-    clear: left;
-    float:left;
-    padding: 0.5em;
-    background-color: white;
-    position: relative;
-}
 
 #riquadro_alimentatori:before, #riquadro_alimentatori:after {
   content: "";
@@ -63,28 +86,20 @@ h2 {
 
 /* case */
 
-#case_catalogo {
-    margin-top: 1.5em;
-    width: 28%;
-    float: left;
-}
-
 #titolo_case a{
     text-decoration: none;
     color: #000000;
 }
 
 #riquadro_case {
+    text-align: center;
     margin-top: 1em;
-    float: left;
-    padding: 0.5em;
+    float:left;
+    padding: 1em;
     background-color: white;
     position: relative;
 }
 
-#riquadro_case img {
-    margin: 2em;
-}
 
 #riquadro_case:before, #riquadro_case:after {
   content: "";
@@ -113,11 +128,6 @@ h2 {
 
 /* cpu */
 
-#cpu_catalogo {
-    margin-top: 1.5em;
-    width: 28%;
-    float: left;
-}
 
 #titolo_cpu a{
     text-decoration: none;
@@ -125,17 +135,14 @@ h2 {
 }
 
 #riquadro_cpu {
+    text-align: center;
     margin-top: 1em;
-
     float:left;
-    padding: 0.5em;
+    padding: 1em;
     background-color: white;
     position: relative;
 }
 
-#riquadro_cpu img {
-    margin: 2em;
-}
 
 #riquadro_cpu:before, #riquadro_cpu:after {
   content: "";
@@ -164,28 +171,18 @@ h2 {
 
 /* cuffie */
 
-#cuffie_catalogo {
-    margin-top: 1.5em;
-    margin-left: 3%;
-    width: 28%;
-}
-
 #titolo_cuffie a{
     text-decoration: none;
     color: #000000;
 }
 
 #riquadro_cuffie {
+    text-align: center;
     margin-top: 1em;
-    clear: left;
     float:left;
-    padding: 0.5em;
+    padding: 1em;
     background-color: white;
     position: relative;
-}
-
-#riquadro_cuffie img {
-    margin: 2em;
 }
 
 #riquadro_cuffie:before, #riquadro_cuffie:after {
@@ -217,8 +214,9 @@ h2 {
 
 #memorie_interne_catalogo {
     margin-top: 1.5em;
-    margin-left: 3%;
-    width: 28%;
+    width: 20%;
+    margin-left: 4%;
+    float: left;
 }
 
 #titolo_memorie_interne a{
@@ -227,16 +225,12 @@ h2 {
 }
 
 #riquadro_memorie_interne {
+    text-align: center;
     margin-top: 1em;
-    clear: left;
     float:left;
-    padding: 0.5em;
+    padding: 1em;
     background-color: white;
     position: relative;
-}
-
-#riquadro_memorie_interne img {
-    margin: 2em;
 }
 
 #riquadro_memorie_interne:before, #riquadro_memorie_interne:after {
@@ -268,8 +262,9 @@ h2 {
 
 #memorie_ram_catalogo {
     margin-top: 1.5em;
-    margin-left: 3%;
-    width: 28%;
+    width: 20%;
+    margin-left: 4%;
+    float: left;
 }
 
 #titolo_memorie_ram a{
@@ -278,16 +273,12 @@ h2 {
 }
 
 #riquadro_memorie_ram {
+    text-align: center;
     margin-top: 1em;
-    clear: left;
     float:left;
-    padding: 0.5em;
+    padding: 1em;
     background-color: white;
     position: relative;
-}
-
-#riquadro_memorie_ram img {
-    margin: 2em;
 }
 
 #riquadro_memorie_ram:before, #riquadro_memorie_ram:after {
@@ -320,8 +311,9 @@ h2 {
 
 #monitor_catalogo {
     margin-top: 1.5em;
-    margin-left: 3%;
-    width: 28%;
+    width: 20%;
+    margin-left: 4%;
+    float: left;
 }
 
 #titolo_monitor a{
@@ -330,16 +322,12 @@ h2 {
 }
 
 #riquadro_monitor {
+    text-align: center;
     margin-top: 1em;
-    clear: left;
     float:left;
-    padding: 0.5em;
+    padding: 1em;
     background-color: white;
     position: relative;
-}
-
-#riquadro_monitor img {
-    margin: 2em;
 }
 
 #riquadro_monitor:before, #riquadro_monitor:after {
@@ -371,8 +359,9 @@ h2 {
 
 #mouse_e_tastiere_catalogo {
     margin-top: 1.5em;
-    margin-left: 3%;
-    width: 28%;
+    width: 20%;
+    margin-left: 4%;
+    float: left;
 }
 
 #titolo_mouse_e_tastiere a{
@@ -381,16 +370,12 @@ h2 {
 }
 
 #riquadro_mouse_e_tastiere {
+    text-align: center;
     margin-top: 1em;
-    clear: left;
     float:left;
-    padding: 0.5em;
+    padding: 1em;
     background-color: white;
     position: relative;
-}
-
-#riquadro_mouse_e_tastiere img {
-    margin: 2em;
 }
 
 #riquadro_mouse_e_tastiere:before, #riquadro_mouse_e_tastiere:after {
@@ -422,8 +407,9 @@ h2 {
 
 #raffreddamento_catalogo {
     margin-top: 1.5em;
-    margin-left: 3%;
-    width: 28%;
+    width: 20%;
+    margin-left: 4%;
+    float: left;
 }
 
 #titolo_raffreddamento a{
@@ -432,16 +418,12 @@ h2 {
 }
 
 #riquadro_raffreddamento {
+    text-align: center;
     margin-top: 1em;
-    clear: left;
     float:left;
-    padding: 0.5em;
+    padding: 1em;
     background-color: white;
     position: relative;
-}
-
-#riquadro_raffreddamento img {
-    margin: 2em;
 }
 
 #riquadro_raffreddamento:before, #riquadro_raffreddamento:after {
@@ -473,8 +455,9 @@ h2 {
 
 #schede_audio_catalogo {
     margin-top: 1.5em;
-    margin-left: 3%;
-    width: 28%;
+    width: 20%;
+    margin-left: 4%;
+    float: left;
 }
 
 #titolo_schede_audio a{
@@ -483,16 +466,12 @@ h2 {
 }
 
 #riquadro_schede_audio {
+    text-align: center;
     margin-top: 1em;
-    clear: left;
     float:left;
-    padding: 0.5em;
+    padding: 1em;
     background-color: white;
     position: relative;
-}
-
-#riquadro_schede_audio img {
-    margin: 2em;
 }
 
 #riquadro_schede_audio:before, #riquadro_schede_audio:after {
@@ -524,8 +503,9 @@ h2 {
 
 #schede_madri_catalogo {
     margin-top: 1.5em;
-    margin-left: 3%;
-    width: 28%;
+    width: 20%;
+    margin-left: 4%;
+    float: left;
 }
 
 #titolo_schede_madri a{
@@ -534,16 +514,12 @@ h2 {
 }
 
 #riquadro_schede_madri {
+    text-align: center;
     margin-top: 1em;
-    clear: left;
     float:left;
-    padding: 0.5em;
+    padding: 1em;
     background-color: white;
     position: relative;
-}
-
-#riquadro_schede_madri img {
-    margin: 2em;
 }
 
 #riquadro_schede_madri:before, #riquadro_schede_madri:after {
@@ -575,8 +551,9 @@ h2 {
 
 #schede_video_catalogo {
     margin-top: 1.5em;
-    margin-left: 3%;
-    width: 28%;
+    width: 20%;
+    margin-left: 4%;
+    float: left;
 }
 
 #titolo_schede_video a{
@@ -585,16 +562,12 @@ h2 {
 }
 
 #riquadro_schede_video {
+    text-align: center;
     margin-top: 1em;
-    clear: left;
     float:left;
-    padding: 0.5em;
+    padding: 1em;
     background-color: white;
     position: relative;
-}
-
-#riquadro_schede_video img {
-    margin: 2em;
 }
 
 #riquadro_schede_video:before, #riquadro_schede_video:after {
