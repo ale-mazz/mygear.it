@@ -12,7 +12,7 @@
 
 #case1 {
     margin-top: 1.5em;
-    margin-left: 6%;
+    margin-left: 6.5%;
     width: 20%;
     float:left;
     background-color: white;
@@ -20,18 +20,20 @@
 }
 
 #case1 img {
-    width: 30%;
+    width: 80%;
+    margin-top: 3%;
     margin-left: 10%;
     margin-right: 10%;
-    border-color: black;
-    border-bottom-style: solid;
-    border-bottom-width: 0.1em;
 }
 
 #case1 p{
-    text-align: center;
+    width: 80%;
+    text-align: left;
 }
 
+#case1 h3{
+    margin-top: 5%;
+}
 
 #case2 {
     margin-top: 1.5em;
@@ -42,17 +44,20 @@
     position: relative;
 }
 
-#case2 img{
-    width: 30%;
+#case2 img {
+    width: 80%;
+    margin-top: 3%;
     margin-left: 10%;
     margin-right: 10%;
-    border-color: black;
-    border-bottom-style: solid;
-    border-bottom-width: 0.1em;
 }
 
 #case2 p{
-    text-align: center;
+    width: 80%;
+    text-align: left;
+}
+
+#case2 h3{
+    margin-top: 5%;
 }
 
 #case3 {
@@ -65,16 +70,19 @@
 }
 
 #case3 img {
-    width: 30%;
+    width: 80%;
+    margin-top: 3%;
     margin-left: 10%;
     margin-right: 10%;
-    border-color: black;
-    border-bottom-style: solid;
-    border-bottom-width: 0.1em;
 }
 
 #case3 p{
-    text-align: center;
+    width: 80%;
+    text-align: left;
+}
+
+#case3 h3{
+    margin-top: 5%;
 }
 
 #case4 {
@@ -87,21 +95,24 @@
 }
 
 #case4 img {
-    width: 30%;
+    width: 80%;
+    margin-top: 3%;
     margin-left: 10%;
     margin-right: 10%;
-    border-color: black;
-    border-bottom-style: solid;
-    border-bottom-width: 0.1em;
 }
 
 #case4 p{
-    text-align: center;
+    width: 80%;
+    text-align: left;
+}
+
+#case4 h3{
+    margin-top: 5%;
 }
 
 #case5 {
     margin-top: 1.5em;
-    margin-left: 6%;
+    margin-left: 6.5%;
     width: 20%;
     float:left;
     background-color: white;
@@ -109,16 +120,19 @@
 }
 
 #case5 img {
-    width: 30%;
+    width: 80%;
+    margin-top: 3%;
     margin-left: 10%;
     margin-right: 10%;
-    border-color: black;
-    border-bottom-style: solid;
-    border-bottom-width: 0.1em;
 }
 
 #case5 p{
-    text-align: center;
+    width: 80%;
+    text-align: left;
+}
+
+#case5 h3{
+    margin-top: 5%;
 }
 
 #case6 {
@@ -131,16 +145,19 @@
 }
 
 #case6 img {
-    width: 30%;
+    width: 80%;
+    margin-top: 3%;
     margin-left: 10%;
     margin-right: 10%;
-    border-color: black;
-    border-bottom-style: solid;
-    border-bottom-width: 0.1em;
 }
 
 #case6 p{
-    text-align: center;
+    width: 80%;
+    text-align: left;
+}
+
+#case6 h3{
+    margin-top: 5%;
 }
 
 #case7 {
@@ -153,16 +170,19 @@
 }
 
 #case7 img {
-    width: 30%;
+    width: 80%;
+    margin-top: 3%;
     margin-left: 10%;
     margin-right: 10%;
-    border-color: black;
-    border-bottom-style: solid;
-    border-bottom-width: 0.1em;
 }
 
 #case7 p{
-    text-align: center;
+    width: 80%;
+    text-align: left;
+}
+
+#case7 h3{
+    margin-top: 5%;
 }
 
 #case8 {
@@ -175,21 +195,24 @@
 }
 
 #case8 img {
-    width: 30%;
+    width: 80%;
+    margin-top: 3%;
     margin-left: 10%;
     margin-right: 10%;
-    border-color: black;
-    border-bottom-style: solid;
-    border-bottom-width: 0.1em;
 }
 
 #case8 p{
-    text-align: center;
+    width: 80%;
+    text-align: left;
+}
+
+#case8 h3{
+    margin-top: 5%;
 }
 
 #case9 {
     margin-top: 1.5em;
-    margin-left: 6%;
+    margin-left: 6.5%;
     width: 20%;
     float:left;
     background-color: white;
@@ -197,16 +220,19 @@
 }
 
 #case9 img {
-    width: 30%;
+    width: 80%;
+    margin-top: 3%;
     margin-left: 10%;
     margin-right: 10%;
-    border-color: black;
-    border-bottom-style: solid;
-    border-bottom-width: 0.1em;
 }
 
 #case9 p{
-    text-align: center;
+    width: 80%;
+    text-align: left;
+}
+
+#case19 h3{
+    margin-top: 5%;
 }
 
 #case10 {
@@ -218,17 +244,20 @@
     position: relative;
 }
 
-#case10 img{
-    width: 30%;
+#case10 img {
+    width: 80%;
+    margin-top: 3%;
     margin-left: 10%;
     margin-right: 10%;
-    border-color: black;
-    border-bottom-style: solid;
-    border-bottom-width: 0.1em;
 }
 
 #case10 p{
-    text-align: center;
+    width: 80%;
+    text-align: left;
+}
+
+#case10 h3{
+    margin-top: 5%;
 }
 
 #case11 {
@@ -240,17 +269,20 @@
     position: relative;
 }
 
-#case11 img{
-    width: 30%;
+#case11 img {
+    width: 80%;
+    margin-top: 3%;
     margin-left: 10%;
     margin-right: 10%;
-    border-color: black;
-    border-bottom-style: solid;
-    border-bottom-width: 0.1em;
 }
 
 #case11 p{
-    text-align: center;
+    width: 80%;
+    text-align: left;
+}
+
+#case11 h3{
+    margin-top: 5%;
 }
 
 #case12 {
@@ -262,19 +294,21 @@
     position: relative;
 }
 
-#case12 img{
-    width: 30%;
+#case12 img {
+    width: 80%;
+    margin-top: 3%;
     margin-left: 10%;
     margin-right: 10%;
-    border-color: black;
-    border-bottom-style: solid;
-    border-bottom-width: 0.1em;
 }
 
 #case12 p{
-    text-align: center;
+    width: 80%;
+    text-align: left;
 }
 
+#case12 h3{
+    margin-top: 5%;
+}
 
 
 
