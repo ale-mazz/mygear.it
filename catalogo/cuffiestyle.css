@@ -10,82 +10,66 @@
     color: #000000;
 }
 
-#cuffie1 {
+.prodotto_inizio_riga:before, .prodotto_inizio_riga:after {
+  content: "";
+  position: absolute;
+  top: -3px;
+  right: -3px;
+}
+
+.prodotto_inizio_riga:before {
+  bottom: -2px;
+  width: 2px;
+  background-image: -webkit-gradient(linear, 0 100%, 0 0, from(#9E9E9E), to(transparent));
+  background-image: -webkit-linear-gradient(#9E9E9E, transparent);
+  background-image: -moz-linear-gradient(#9E9E9E, transparent);
+  background-image: -o-linear-gradient(#9E9E9E, transparent);
+}
+
+.prodotto_inizio_riga:after {
+  left: -2px;
+  height: 2px;
+  background-image: -webkit-gradient(linear, 0 0, 100% 0, from(transparent), to(#9E9E9E));
+  background-image: -webkit-linear-gradient(left, transparent, #9E9E9E);
+  background-image: -moz-linear-gradient(left, transparent, #9E9E9E);
+  background-image: -o-linear-gradient(left, transparent, #9E9E9E);
+}
+
+.prodotto_inizio_riga {
     margin-top: 1.5em;
-    margin-left: 6.5%;
+    margin-left: 6%;
     width: 20%;
     float:left;
     background-color: white;
     position: relative;
 }
 
-#cuffie1 img {
-    width: 80%;
-    margin-top: 3%;
-    margin-left: 10%;
-    margin-right: 10%;
+.prodotto:before, .prodotto:after {
+  content: "";
+  position: absolute;
+  top: -3px;
+  right: -3px;
 }
 
-#cuffie1 p{
-    width: 80%;
-    text-align: left;
+.prodotto:before {
+  bottom: -2px;
+  width: 2px;
+  background-image: -webkit-gradient(linear, 0 100%, 0 0, from(#9E9E9E), to(transparent));
+  background-image: -webkit-linear-gradient(#9E9E9E, transparent);
+  background-image: -moz-linear-gradient(#9E9E9E, transparent);
+  background-image: -o-linear-gradient(#9E9E9E, transparent);
 }
 
-#cuffie1 h3{
-    margin-top: 5%;
+.prodotto:after {
+  left: -2px;
+  height: 2px;
+  background-image: -webkit-gradient(linear, 0 0, 100% 0, from(transparent), to(#9E9E9E));
+  background-image: -webkit-linear-gradient(left, transparent, #9E9E9E);
+  background-image: -moz-linear-gradient(left, transparent, #9E9E9E);
+  background-image: -o-linear-gradient(left, transparent, #9E9E9E);
 }
 
-#cuffie2 {
-    margin-top: 1.5em;
-    margin-left: 2%;
-    width: 20%;
-    float:left;
-    background-color: white;
-    position: relative;
-}
-
-#cuffie2 img {
-    width: 80%;
-    margin-top: 3%;
-    margin-left: 10%;
-    margin-right: 10%;
-}
-
-#cuffie2 p{
-    width: 80%;
-    text-align: left;
-}
-
-#cuffie2 h3{
-    margin-top: 5%;
-}
-
-#cuffie3 {
-    margin-top: 1.5em;
-    margin-left: 2%;
-    width: 20%;
-    float:left;
-    background-color: white;
-    position: relative;
-}
-
-#cuffie3 img {
-    width: 80%;
-    margin-top: 3%;
-    margin-left: 10%;
-    margin-right: 10%;
-}
-
-#cuffie3 p{
-    width: 80%;
-    text-align: left;
-}
-
-#cuffie3 h3{
-    margin-top: 5%;
-}
-
-#cuffie4 {
+.prodotto {
     margin-top: 1.5em;
     margin-left: 2%;
     width: 20%;
@@ -94,520 +78,18 @@
     position: relative;
 }
 
-#cuffie4 img {
+img {
     width: 80%;
     margin-top: 3%;
     margin-left: 10%;
     margin-right: 10%;
 }
 
-#cuffie4 p{
+p{
     width: 80%;
     text-align: left;
 }
 
-#cuffie4 h3{
+h3{
     margin-top: 5%;
 }
-
-#cuffie5 {
-    margin-top: 1.5em;
-    margin-left: 6.5%;
-    width: 20%;
-    float:left;
-    background-color: white;
-    position: relative;
-}
-
-#cuffie5 img {
-    width: 80%;
-    margin-top: 3%;
-    margin-left: 10%;
-    margin-right: 10%;
-}
-
-#cuffie5 p{
-    width: 80%;
-    text-align: left;
-}
-
-#cuffie5 h3{
-    margin-top: 5%;
-}
-
-#cuffie6 {
-    margin-top: 1.5em;
-    margin-left: 2%;
-    width: 20%;
-    float:left;
-    background-color: white;
-    position: relative;
-}
-
-#cuffie6 img {
-    width: 80%;
-    margin-top: 3%;
-    margin-left: 10%;
-    margin-right: 10%;
-}
-
-#cuffie6 p{
-    width: 80%;
-    text-align: left;
-}
-
-#cuffie6 h3{
-    margin-top: 5%;
-}
-
-#cuffie7 {
-    margin-top: 1.5em;
-    margin-left: 2%;
-    width: 20%;
-    float:left;
-    background-color: white;
-    position: relative;
-}
-
-#cuffie7 img {
-    width: 80%;
-    margin-top: 3%;
-    margin-left: 10%;
-    margin-right: 10%;
-}
-
-#cuffie7 p{
-    width: 80%;
-    text-align: left;
-}
-
-#cuffie7 h3{
-    margin-top: 5%;
-}
-
-#cuffie8 {
-    margin-top: 1.5em;
-    margin-left: 2%;
-    width: 20%;
-    float:left;
-    background-color: white;
-    position: relative;
-}
-
-#cuffie8 img {
-    width: 80%;
-    margin-top: 3%;
-    margin-left: 10%;
-    margin-right: 10%;
-}
-
-#cuffie8 p{
-    width: 80%;
-    text-align: left;
-}
-
-#cuffie8 h3{
-    margin-top: 5%;
-}
-
-#cuffie9 {
-    margin-top: 1.5em;
-    margin-left: 6.5%;
-    width: 20%;
-    float:left;
-    background-color: white;
-    position: relative;
-}
-
-#cuffie9 img {
-    width: 80%;
-    margin-top: 3%;uffie
-    margin-left: 10%;
-    margin-right: 10%;
-}
-
-#cuffie9 p{
-    width: 80%;
-    text-align: left;
-}
-
-#cuffie9 h3{
-    margin-top: 5%;
-}
-
-#cuffie10 {
-    margin-top: 1.5em;
-    margin-left: 2%;
-    width: 20%;
-    float:left;
-    background-color: white;
-    position: relative;
-}
-
-#cuffie10 img {
-    width: 80%;
-    margin-top: 3%;
-    margin-left: 10%;
-    margin-right: 10%;
-}
-
-#cuffie10 p{
-    width: 80%;
-    text-align: left;
-}
-
-#cuffie10 h3{
-    margin-top: 5%;
-}
-
-#cuffie11 {
-    margin-top: 1.5em;
-    margin-left: 2%;
-    width: 20%;
-    float:left;
-    background-color: white;
-    position: relative;
-}
-
-#cuffie11 img {
-    width: 80%;
-    margin-top: 3%;
-    margin-left: 10%;
-    margin-right: 10%;
-}
-
-#cuffie11 p{
-    width: 80%;
-    text-align: left;
-}
-
-#cuffie11 h3{
-    margin-top: 5%;
-}
-
-#cuffie12 {
-    margin-top: 1.5em;
-    margin-left: 2%;
-    width: 20%;
-    float:left;
-    background-color: white;
-    position: relative;
-}
-
-#cuffie12 img {
-    width: 80%;
-    margin-top: 3%;
-    margin-left: 10%;
-    margin-right: 10%;
-}
-
-#cuffie12 p{
-    width: 80%;
-    text-align: left;
-}
-
-#cuffie12 h3{
-    margin-top: 5%;
-}
-
-
-
-#cuffie1:before, #cuffie1:after {
-        content: "";
-        position: absolute;
-        top: -3px;
-        right: -3px;
-    }
-
-#cuffie1:before {
-        bottom: -2px;
-        width: 2px;
-        background-image: -webkit-gradient(linear, 0 100%, 0 0, from(#9E9E9E), to(transparent));
-        background-image: -webkit-linear-gradient(#9E9E9E, transparent);
-        background-image: -moz-linear-gradient(#9E9E9E, transparent);
-        background-image: -o-linear-gradient(#9E9E9E, transparent);
-    }
-
-#cuffie1:after {
-        left: -2px;
-        height: 2px;
-        background-image: -webkit-gradient(linear, 0 0, 100% 0, from(transparent), to(#9E9E9E));
-        background-image: -webkit-linear-gradient(left, transparent, #9E9E9E);
-        background-image: -moz-linear-gradient(left, transparent, #9E9E9E);
-        background-image: -o-linear-gradient(left, transparent, #9E9E9E);
-    }
-
-#cuffie2:before, #cuffie2:after {
-        content: "";
-        position: absolute;
-        top: -3px;
-        right: -3px;
-    }
-
-#cuffie2:before {
-        bottom: -2px;
-        width: 2px;
-        background-image: -webkit-gradient(linear, 0 100%, 0 0, from(#9E9E9E), to(transparent));
-        background-image: -webkit-linear-gradient(#9E9E9E, transparent);
-        background-image: -moz-linear-gradient(#9E9E9E, transparent);
-        background-image: -o-linear-gradient(#9E9E9E, transparent);
-    }
-
-#cuffie2:after {
-        left: -2px;
-        height: 2px;
-        background-image: -webkit-gradient(linear, 0 0, 100% 0, from(transparent), to(#9E9E9E));
-        background-image: -webkit-linear-gradient(left, transparent, #9E9E9E);
-        background-image: -moz-linear-gradient(left, transparent, #9E9E9E);
-        background-image: -o-linear-gradient(left, transparent, #9E9E9E);
-    }
-
-#cuffie3:before, #cuffie3:after {
-        content: "";
-        position: absolute;
-        top: -3px;
-        right: -3px;
-    }
-
-#cuffie3:before {
-        bottom: -2px;
-        width: 2px;
-        background-image: -webkit-gradient(linear, 0 100%, 0 0, from(#9E9E9E), to(transparent));
-        background-image: -webkit-linear-gradient(#9E9E9E, transparent);
-        background-image: -moz-linear-gradient(#9E9E9E, transparent);
-        background-image: -o-linear-gradient(#9E9E9E, transparent);
-    }
-
-#cuffie3:after {
-        left: -2px;
-        height: 2px;
-        background-image: -webkit-gradient(linear, 0 0, 100% 0, from(transparent), to(#9E9E9E));
-        background-image: -webkit-linear-gradient(left, transparent, #9E9E9E);
-        background-image: -moz-linear-gradient(left, transparent, #9E9E9E);
-        background-image: -o-linear-gradient(left, transparent, #9E9E9E);
-    }
-
-#cuffie4:before, #cuffie4:after {
-        content: "";
-        position: absolute;
-        top: -3px;
-        right: -3px;
-    }
-
-#cuffie4:before {
-        bottom: -2px;
-        width: 2px;
-        background-image: -webkit-gradient(linear, 0 100%, 0 0, from(#9E9E9E), to(transparent));
-        background-image: -webkit-linear-gradient(#9E9E9E, transparent);
-        background-image: -moz-linear-gradient(#9E9E9E, transparent);
-        background-image: -o-linear-gradient(#9E9E9E, transparent);
-    }
-
-#cuffie4:after {
-        left: -2px;
-        height: 2px;
-        background-image: -webkit-gradient(linear, 0 0, 100% 0, from(transparent), to(#9E9E9E));
-        background-image: -webkit-linear-gradient(left, transparent, #9E9E9E);
-        background-image: -moz-linear-gradient(left, transparent, #9E9E9E);
-        background-image: -o-linear-gradient(left, transparent, #9E9E9E);
-    }
-
-#cuffie5:before, #cuffie5:after {
-        content: "";
-        position: absolute;
-        top: -3px;
-        right: -3px;
-    }
-
-#cuffie5:before {
-        bottom: -2px;
-        width: 2px;
-        background-image: -webkit-gradient(linear, 0 100%, 0 0, from(#9E9E9E), to(transparent));
-        background-image: -webkit-linear-gradient(#9E9E9E, transparent);
-        background-image: -moz-linear-gradient(#9E9E9E, transparent);
-        background-image: -o-linear-gradient(#9E9E9E, transparent);
-    }
-
-#cuffie5:after {
-        left: -2px;
-        height: 2px;
-        background-image: -webkit-gradient(linear, 0 0, 100% 0, from(transparent), to(#9E9E9E));
-        background-image: -webkit-linear-gradient(left, transparent, #9E9E9E);
-        background-image: -moz-linear-gradient(left, transparent, #9E9E9E);
-        background-image: -o-linear-gradient(left, transparent, #9E9E9E);
-    }
-
-#cuffie6:before, #cuffie6:after {
-        content: "";
-        position: absolute;
-        top: -3px;
-        right: -3px;
-    }
-
-#cuffie6:before {
-        bottom: -2px;
-        width: 2px;
-        background-image: -webkit-gradient(linear, 0 100%, 0 0, from(#9E9E9E), to(transparent));
-        background-image: -webkit-linear-gradient(#9E9E9E, transparent);
-        background-image: -moz-linear-gradient(#9E9E9E, transparent);
-        background-image: -o-linear-gradient(#9E9E9E, transparent);
-    }
-
-#cuffie6:after {
-        left: -2px;
-        height: 2px;
-        background-image: -webkit-gradient(linear, 0 0, 100% 0, from(transparent), to(#9E9E9E));
-        background-image: -webkit-linear-gradient(left, transparent, #9E9E9E);
-        background-image: -moz-linear-gradient(left, transparent, #9E9E9E);
-        background-image: -o-linear-gradient(left, transparent, #9E9E9E);
-    }
-
-#cuffie7:bepufore, #cuffie7:after {
-        content: "";
-        position: absolute;
-        top: -3px;
-        right: -3px;
-    }
-
-#cuffie7:before {
-        bottom: -2px;
-        width: 2px;
-        background-image: -webkit-gradient(linear, 0 100%, 0 0, from(#9E9E9E), to(transparent));
-        background-image: -webkit-linear-gradient(#9E9E9E, transparent);
-        background-image: -moz-linear-gradient(#9E9E9E, transparent);
-        background-image: -o-linear-gradient(#9E9E9E, transparent);
-    }
-
-#cuffie7:after {
-        left: -2px;
-        height: 2px;
-        background-image: -webkit-gradient(linear, 0 0, 100% 0, from(transparent), to(#9E9E9E));
-        background-image: -webkit-linear-gradient(left, transparent, #9E9E9E);
-        background-image: -moz-linear-gradient(left, transparent, #9E9E9E);
-        background-image: -o-linear-gradient(left, transparent, #9E9E9E);
-    }
-
-#cuffie8:before, #cuffie8:after {
-        content: "";
-        position: absolute;
-        top: -3px;
-        right: -3px;
-    }
-
-#cuffie8:before {
-        bottom: -2px;
-        width: 2px;
-        background-image: -webkit-gradient(linear, 0 100%, 0 0, from(#9E9E9E), to(transparent));
-        background-image: -webkit-linear-gradient(#9E9E9E, transparent);
-        background-image: -moz-linear-gradient(#9E9E9E, transparent);
-        background-image: -o-linear-gradient(#9E9E9E, transparent);
-    }
-
-#cuffie8:after {
-        left: -2px;
-        height: 2px;
-        background-image: -webkit-gradient(linear, 0 0, 100% 0, from(transparent), to(#9E9E9E));
-        background-image: -webkit-linear-gradient(left, transparent, #9E9E9E);
-        background-image: -moz-linear-gradient(left, transparent, #9E9E9E);
-        background-image: -o-linear-gradient(left, transparent, #9E9E9E);
-    }
-
-#cuffie9:before, #cuffie9:after {
-        content: "";
-        position: absolute;
-        top: -3px;
-        right: -3px;
-    }
-uffie
-#cuffie9:before {
-        bottom: -2px;
-        width: 2px;
-        background-image: -webkit-gradient(linear, 0 100%, 0 0, from(#9E9E9E), to(transparent));
-        background-image: -webkit-linear-gradient(#9E9E9E, transparent);
-        background-image: -moz-linear-gradient(#9E9E9E, transparent);
-        background-image: -o-linear-gradient(#9E9E9E, transparent);
-    }
-
-#cuffie9:after {
-        left: -2px;
-        height: 2px;
-        background-image: -webkit-gradient(linear, 0 0, 100% 0, from(transparent), to(#9E9E9E));
-        background-image: -webkit-linear-gradient(left, transparent, #9E9E9E);
-        background-image: -moz-linear-gradient(left, transparent, #9E9E9E);
-        background-image: -o-linear-gradient(left, transparent, #9E9E9E);
-    }
-
-#cuffie10:before, #cuffie10:after {
-        content: "";
-        position: absolute;
-        top: -3px;
-        right: -3px;
-    }
-
-#cuffie10:before {
-        bottom: -2px;
-        width: 2px;
-        background-image: -webkit-gradient(linear, 0 100%, 0 0, from(#9E9E9E), to(transparent));
-        background-image: -webkit-linear-gradient(#9E9E9E, transparent);
-        background-image: -moz-linear-gradient(#9E9E9E, transparent);
-        background-image: -o-linear-gradient(#9E9E9E, transparent);
-    }
-
-#cuffie10:after {
-        left: -2px;
-        height: 2px;
-        background-image: -webkit-gradient(linear, 0 0, 100% 0, from(transparent), to(#9E9E9E));
-        background-image: -webkit-linear-gradient(left, transparent, #9E9E9E);
-        background-image: -moz-linear-gradient(left, transparent, #9E9E9E);
-        background-image: -o-linear-gradient(left, transparent, #9E9E9E);
-    }
-
-#cuffie11:before, #cuffie11:after {
-        content: "";
-        position: absolute;
-        top: -3px;
-        right: -3px;
-    }
-
-#cuffie11:before {
-        bottom: -2px;
-        width: 2px;
-        background-image: -webkit-gradient(linear, 0 100%, 0 0, from(#9E9E9E), to(transparent));
-        background-image: -webkit-linear-gradient(#9E9E9E, transparent);
-        background-image: -moz-linear-gradient(#9E9E9E, transparent);
-        background-image: -o-linear-gradient(#9E9E9E, transparent);
-    }
-
-#cuffie11:aftuffieer {
-        left: -2px;
-        height: 2px;
-        background-image: -webkit-gradient(linear, 0 0, 100% 0, from(transparent), to(#9E9E9E));
-        background-image: -webkit-linear-gradient(left, transparent, #9E9E9E);
-        background-image: -moz-linear-gradient(left, transparent, #9E9E9E);
-        background-image: -o-linear-gradient(left, transparent, #9E9E9E);
-    }
-
-#cuffie12:before, #cuffie12:after {
-        content: "";
-        position: absolute;
-        top: -3px;
-        right: -3px;
-    }
-
-#cuffie12:before {
-        bottom: -2px;
-        width: 2px;
-        background-image: -webkit-gradient(linear, 0 100%, 0 0, from(#9E9E9E), to(transparent));
-        background-image: -webkit-linear-gradient(#9E9E9E, transparent);
-        background-image: -moz-linear-gradient(#9E9E9E, transparent);
-        background-image: -o-linear-gradient(#9E9E9E, transparent);
-    }
-
-#cuffie12:after {
-        left: -2px;
-        height: 2px;
-        background-image: -webkit-gradient(linear, 0 0, 100% 0, from(transparent), to(#9E9E9E));
-        background-image: -webkit-linear-gradient(left, transparent, #9E9E9E);
-        background-image: -moz-linear-gradient(left, transparent, #9E9E9E);
-        background-image: -o-linear-gradient(left, transparent, #9E9E9E);
-    }
