@@ -1,4 +1,8 @@
 /* scritte centrate in nero */
+#banner img{
+    width: 100%;
+}
+
 a{
     text-decoration: none;
     color: #000000;
@@ -61,3 +65,17 @@ h2 {
   background-image: -o-linear-gradient(left, transparent, #9E9E9E);
 }
 
+@media only screen and (max-width: 956px) {
+
+    .riquadro_esterno {
+        width: 100%;
+        float: none;
+        margin-left: 0em;
+    }
+    .riquadro_interno{
+        width: 80%;
+        float: none;
+        margin-left: 10%;
+        padding: 0em;
+    }
+}
