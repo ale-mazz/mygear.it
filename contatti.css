@@ -12,15 +12,15 @@
     margin-bottom: 3em;
     padding: 2%;
     background-color: #424242;
-    width: 60%;
-    margin-left: 16%;
+    width: 96%;
     float:left;
 }
 
 .riquadri_contatti img {
-    width: 10%;
+    width: 8%;
     float: left;
-    margin-left: 1em;
+    margin-left: 45%;
+    margin-top: 2em;
 }
 
 .riquadri_contatti h1 {
