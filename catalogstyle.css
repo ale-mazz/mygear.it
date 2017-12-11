@@ -1,9 +1,10 @@
 /* scritte centrate in nero */
-#banner img{
+
+#banner img {
     width: 100%;
 }
 
-a{
+a {
     text-decoration: none;
     color: #000000;
 }
@@ -14,7 +15,8 @@ h2 {
 }
 
 /* dimensione/margin immagini */
-.icona_categoria{
+
+.icona_categoria {
     max-width: 70%;
     margin-left: 4%;
     margin-bottom: 1em;
@@ -22,6 +24,7 @@ h2 {
 }
 
 /* larghezza/posizione colonne */
+
 .riquadro_esterno {
     margin-top: 1.5em;
     margin-left: 4%;
@@ -30,39 +33,42 @@ h2 {
 }
 
 /* posizione immagine "all'interno del bordo" */
+
 .riquadro_interno {
     text-align: center;
     margin-top: 1em;
-    float:left;
+    float: left;
     padding: 1em;
     background-color: white;
     position: relative;
 }
 
 /* bordi */
-.riquadro_interno:before, .riquadro_interno:after {
-  content: "";
-  position: absolute;
-  top: -3px;
-  right: -3px;
+
+.riquadro_interno:before,
+.riquadro_interno:after {
+    content: "";
+    position: absolute;
+    top: -3px;
+    right: -3px;
 }
 
 .riquadro_interno:before {
-  bottom: -2px;
-  width: 2px;
-  background-image: -webkit-gradient(linear, 0 100%, 0 0, from(#9E9E9E), to(transparent));
-  background-image: -webkit-linear-gradient(#9E9E9E, transparent);
-  background-image: -moz-linear-gradient(#9E9E9E, transparent);
-  background-image: -o-linear-gradient(#9E9E9E, transparent);
+    bottom: -2px;
+    width: 2px;
+    background-image: -webkit-gradient(linear, 0 100%, 0 0, from(#9E9E9E), to(transparent));
+    background-image: -webkit-linear-gradient(#9E9E9E, transparent);
+    background-image: -moz-linear-gradient(#9E9E9E, transparent);
+    background-image: -o-linear-gradient(#9E9E9E, transparent);
 }
 
 .riquadro_interno:after {
-  left: -2px;
-  height: 2px;
-  background-image: -webkit-gradient(linear, 0 0, 100% 0, from(transparent), to(#9E9E9E));
-  background-image: -webkit-linear-gradient(left, transparent, #9E9E9E);
-  background-image: -moz-linear-gradient(left, transparent, #9E9E9E);
-  background-image: -o-linear-gradient(left, transparent, #9E9E9E);
+    left: -2px;
+    height: 2px;
+    background-image: -webkit-gradient(linear, 0 0, 100% 0, from(transparent), to(#9E9E9E));
+    background-image: -webkit-linear-gradient(left, transparent, #9E9E9E);
+    background-image: -moz-linear-gradient(left, transparent, #9E9E9E);
+    background-image: -o-linear-gradient(left, transparent, #9E9E9E);
 }
 
 @media only screen and (max-width: 956px) {
@@ -72,7 +78,7 @@ h2 {
         float: none;
         margin-left: 0em;
     }
-    .riquadro_interno{
+    .riquadro_interno {
         width: 80%;
         float: none;
         margin-left: 10%;
