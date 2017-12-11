@@ -10,17 +10,11 @@
 .riquadri_contatti {
     margin-top: 2em;
     margin-bottom: 3em;
+    margin-left: 11.5%;
     padding: 2%;
     background-color: #424242;
-    width: 96%;
+    width: 75%;
     float:left;
-}
-
-.riquadri_contatti img {
-    width: 8%;
-    float: left;
-    margin-left: 45%;
-    margin-top: 2em;
 }
 
 .riquadri_contatti h1 {
