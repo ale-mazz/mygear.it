@@ -7,122 +7,30 @@
     padding-top: 2em;
 }
 
-#chi_siamo_contatti img {
+.riquadri_contatti {
+    margin-top: 2em;
+    margin-bottom: 3em;
+    padding: 2%;
+    background-color: #424242;
+    width: 60%;
+    margin-left: 16%;
+    float:left;
+}
+
+.riquadri_contatti img {
     width: 10%;
     float: left;
     margin-left: 1em;
 }
 
-#chi_siamo_contatti h1 {
-    text-align: left;
-    color: black;
-    float: left;
+.riquadri_contatti h1 {
+    text-align: center;
+    color: white;
 }
 
-#chi_siamo_contatti p {
-    text-align: left;
+.riquadri_contatti p {
+    text-align: center;
     font-size: 1.2em;
-    color: black;
-    float: left;
-    clear: left;
+    color: white;
 }
 
-#chi_siamo_contatti {
-    margin-top: 2em;
-    margin-bottom: 3em;
-    padding: 2%;
-    background-color: #424242;
-    width: 96%;
-    height: 30%;
-    float:left;
-}
-
-#titolo_chi_siamo_contatti h1 {
-    border-color: black;
-    border-bottom-style: solid;
-    border-bottom-width: 0.1em;
-}
-
-#dove_trovarci_contatti img {
-    width: 10%;
-    float: left;
-    margin-left: 1em;
-}
-
-#dove_trovarci_contatti h1 {
-    text-align: left;
-    color: black;
-    float: left;
-}
-
-#dove_trovarci_contatti p {
-    text-align: left;
-    font-size: 1.2em;
-    color: black;
-    float: left;
-    clear: left;
-}
-
-#dove_trovarci_contatti {
-    margin-top: 2em;
-    margin-bottom: 3em;
-    padding: 2%;
-    background-color: #424242;
-    width: 96%;
-    height: 30%;
-    float:left;
-    clear: left;
-}
-
-
-#titolo_dove_trovarci_contatti h1 {
-    border-color: black;
-    border-bottom-style: solid;
-    border-bottom-width: 0.1em;
-}
-
-
-#come_contattarci_contatti img {
-    width: 10%;
-    float: left;
-    margin-left: 1em;
-}
-
-#come_contattarci_contatti h1 {
-    text-align: left;
-    color: black;
-    float: left;
-}
-
-#come_contattarci_contatti ul {
-    text-align: left;
-    font-size: 1.2em;
-    padding-top: 1em;
-    color: black;
-    float: left;
-    clear: left;
-}
-
-#come_contattarci_contatti ul li {
-
-    list-style: none;
-}
-
-#come_contattarci_contatti {
-    margin-top: 2em;
-    margin-bottom: 3em;
-    padding: 2%;
-    background-color: #424242;
-    width: 96%;
-    height: 30%;
-    float:left;
-    clear: left;
-}
-
-
-
-#titolo_come_contattarci_contatti h1 {
-    border-color: black;
-    border-bottom-style: solid;
-    border-bottom-width: 0.1em;
-}
