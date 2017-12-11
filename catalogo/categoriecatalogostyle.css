@@ -1,24 +1,24 @@
-#titolo_case {
+#title_cat {
     width: 100%;
     margin-top: 2em;
     margin-bottom: 2em;
 }
 
-#titolo_case h1 {
+#title_cat h1 {
     font-size: 2em;
     text-align: center;
     color: #000000;
 }
 
-.prodotto_inizio_riga:before,
-.prodotto_inizio_riga:after {
+.product_beginning_line:before,
+.product_beginning_line:after {
     content: "";
     position: absolute;
     top: -3px;
     right: -3px;
 }
 
-.prodotto_inizio_riga:before {
+.product_beginning_line:before {
     bottom: -2px;
     width: 2px;
     background-image: -webkit-gradient(linear, 0 100%, 0 0, from(#9E9E9E), to(transparent));
@@ -27,7 +27,7 @@
     background-image: -o-linear-gradient(#9E9E9E, transparent);
 }
 
-.prodotto_inizio_riga:after {
+.product_beginning_line:after {
     left: -2px;
     height: 2px;
     background-image: -webkit-gradient(linear, 0 0, 100% 0, from(transparent), to(#9E9E9E));
@@ -36,7 +36,7 @@
     background-image: -o-linear-gradient(left, transparent, #9E9E9E);
 }
 
-.prodotto_inizio_riga {
+.product_beginning_line {
     margin-top: 1.5em;
     margin-left: 6%;
     width: 20%;
@@ -45,15 +45,15 @@
     position: relative;
 }
 
-.prodotto:before,
-.prodotto:after {
+.product:before,
+.product:after {
     content: "";
     position: absolute;
     top: -3px;
     right: -3px;
 }
 
-.prodotto:before {
+.product:before {
     bottom: -2px;
     width: 2px;
     background-image: -webkit-gradient(linear, 0 100%, 0 0, from(#9E9E9E), to(transparent));
@@ -62,7 +62,7 @@
     background-image: -o-linear-gradient(#9E9E9E, transparent);
 }
 
-.prodotto:after {
+.product:after {
     left: -2px;
     height: 2px;
     background-image: -webkit-gradient(linear, 0 0, 100% 0, from(transparent), to(#9E9E9E));
@@ -71,7 +71,7 @@
     background-image: -o-linear-gradient(left, transparent, #9E9E9E);
 }
 
-.prodotto {
+.product {
     margin-top: 1.5em;
     margin-left: 2%;
     width: 20%;
@@ -80,7 +80,7 @@
     position: relative;
 }
 
-img {
+.imageCat {
     width: 80%;
     margin-top: 3%;
     margin-left: 10%;
@@ -95,3 +95,36 @@ p {
 h3 {
     margin-top: 5%;
 }
+
+
+/******************************************************************
+ Media Query Home
+******************************************************************/
+
+@media only screen and (max-width: 955px) {
+
+    .prodotto_inizio_riga {
+        width: 100%;
+        float: none;
+        margin-left: 0em;
+    }
+
+    .prodotto {
+        width: 100%;
+        float: none;
+        margin-left: 0em;
+    }
+
+    .riquadro_interno {
+        width: 80%;
+        float: none;
+        margin-left: 10%;
+        padding: 0em;
+    }
+}
+
+/******************************************************************
+Media Query Mobile
+******************************************************************/
+
+@media only screen and (max-width: 767px) {}
