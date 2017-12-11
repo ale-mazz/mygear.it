@@ -103,28 +103,12 @@ h3 {
 
 @media only screen and (max-width: 955px) {
 
-    .prodotto_inizio_riga {
-        width: 100%;
-        float: none;
-        margin-left: 0em;
-    }
-
-    .prodotto {
-        width: 100%;
-        float: none;
-        margin-left: 0em;
-    }
-
-    .riquadro_interno {
-        width: 80%;
-        float: none;
-        margin-left: 10%;
-        padding: 0em;
-    }
 }
 
 /******************************************************************
 Media Query Mobile
 ******************************************************************/
 
-@media only screen and (max-width: 767px) {}
+@media only screen and (max-width: 767px) {
+
+}
