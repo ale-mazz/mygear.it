@@ -35,7 +35,6 @@
 
 #footer_top h1 {
     color: #FAFAFA;
-    margin-bottom: 0.2em;
     font-size: 1em;
 }
 
@@ -50,7 +49,6 @@
 #chi_siamo_footer p{
     font-size: 1em;
     padding-top: 0.5em;
-    margin-top: 0;
 }
 
 #account_footer {
@@ -80,7 +78,6 @@
 
 #social_footer h2 {
     margin-bottom: 0.5em;
-    margin-top: 0;
     padding-top: 0.5em;
     font-size: 1em;
     font-weight: normal;
@@ -97,13 +94,16 @@
 *******************************************************************/
 
 #footer_bottom {
+    float: left;
+    clear: left;
+    width: 100%;
     color:#212121;
     text-align: left;
 }
 
 #footer_bottom p {
     font-size: 0.8em;
-    padding: 0.8em;
+    margin-top: 0.5em;
 }
 
 #diritti {
@@ -124,10 +124,6 @@
     float: left;
     margin-right: 19%;
 
-}
-
-p {
-    margin-top: 1em;
 }
 
 /******************************************************************
