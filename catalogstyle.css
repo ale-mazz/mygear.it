@@ -1,9 +1,5 @@
 /* scritte centrate in nero */
 
-#banner img {
-    width: 100%;
-}
-
 a {
     text-decoration: none;
     color: #000000;
@@ -12,6 +8,21 @@ a {
 h2 {
     text-align: center;
     font-size: 1.3em;
+}
+
+/* titolo pagina */
+
+#titolo_catalogo {
+    width: 100%;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    position: static;
+}
+
+#titolo_catalogo h1 {
+    font-size: 2em;
+    text-align: center;
+    color: #000000;
 }
 
 /* dimensione/margin immagini */
@@ -44,50 +55,31 @@ h2 {
     position: relative;
 }
 
-/* bordi */
-
-.riquadro_interno:before,
-.riquadro_interno:after {
-    content: "";
-    position: absolute;
-    top: -3px;
-    right: -3px;
-}
-
-.riquadro_interno:before {
-    bottom: -2px;
-    width: 2px;
-    background-image: -webkit-gradient(linear, 0 100%, 0 0, from(#9E9E9E), to(transparent));
-    background-image: -webkit-linear-gradient(#9E9E9E, transparent);
-    background-image: -moz-linear-gradient(#9E9E9E, transparent);
-    background-image: -o-linear-gradient(#9E9E9E, transparent);
-}
-
-.riquadro_interno:after {
-    left: -2px;
-    height: 2px;
-    background-image: -webkit-gradient(linear, 0 0, 100% 0, from(transparent), to(#9E9E9E));
-    background-image: -webkit-linear-gradient(left, transparent, #9E9E9E);
-    background-image: -moz-linear-gradient(left, transparent, #9E9E9E);
-    background-image: -o-linear-gradient(left, transparent, #9E9E9E);
-}
-
 /******************************************************************
  Media Query Home
 ******************************************************************/
 
 @media only screen and (max-width: 955px) {
 
+    #titolo_catalogo {
+        position: static;
+        margin-top: 0em;
+        padding-top: 5em;
+    }
+
     h2 {
+        position: static;
         font-size: 1em;
     }
 
     .riquadro_esterno {
+        position: static;
         width: 30%;
-        margin-left: 3%;
+        margin-left: 2.5%;
     }
 
     .riquadro_interno {
+        position: static;
         width: 80%;
         float: none;
         margin-left: 10%;
@@ -106,14 +98,48 @@ Media Query Mobile
     }
 
     .riquadro_esterno {
+        position: static;
         width: 40%;
         margin-left: 7%;
     }
 
     .riquadro_interno {
+        position: static;
         width: 80%;
         float: none;
         margin-left: 10%;
         padding: 0em;
+    }
+}
+
+
+@media only screen and (min-width: 956px) {
+
+    /* bordi */
+
+    .riquadro_interno:before,
+    .riquadro_interno:after {
+        content: "";
+        position: absolute;
+        top: -3px;
+        right: -3px;
+    }
+
+    .riquadro_interno:before {
+        bottom: -2px;
+        width: 2px;
+        background-image: -webkit-gradient(linear, 0 100%, 0 0, from(#9E9E9E), to(transparent));
+        background-image: -webkit-linear-gradient(#9E9E9E, transparent);
+        background-image: -moz-linear-gradient(#9E9E9E, transparent);
+        background-image: -o-linear-gradient(#9E9E9E, transparent);
+    }
+
+    .riquadro_interno:after {
+        left: -2px;
+        height: 2px;
+        background-image: -webkit-gradient(linear, 0 0, 100% 0, from(transparent), to(#9E9E9E));
+        background-image: -webkit-linear-gradient(left, transparent, #9E9E9E);
+        background-image: -moz-linear-gradient(left, transparent, #9E9E9E);
+        background-image: -o-linear-gradient(left, transparent, #9E9E9E);
     }
 }

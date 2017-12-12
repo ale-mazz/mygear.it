@@ -4,8 +4,8 @@
 <head>
     <title>MYGEAR</title>
     <link rel="stylesheet" type="text/css" href="headerstyle.css">
-    <link rel="stylesheet" type="text/css" href="catalogstyle.css">
     <link rel="stylesheet" type="text/css" href="footerstyle.css">
+    <link rel="stylesheet" type="text/css" href="catalogstyle.css">
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lato" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="javascript/hamburger.js"></script>
@@ -29,56 +29,62 @@
             </div>
         </header>
     </div>
-    <div id="drop_menu">
+    <div id="drop_menu" class="menuClose">
         <ul>
-            <li><a class="selected" href="home.html">Home</a></li>
-            <li><a href="configurazioni.html">Configurazioni</a></li>
-            <li><a href="catalogo.html">Catalogo</a></li>
-            <li><a href="contatti.html">Contatti</a></li>
+            <li><a class="selected" href="home.html">HOME</a></li>
+            <li><a class="hover" href="configurazioni.html">CONFIGURAZIONI</a></li>
+            <li><a class="hover" href="catalogo.html">CATALOGO</a></li>
+            <li><a class="hover" href="contatti.html">CONTATTI</a></li>
         </ul>
     </div>
+
+    <!-- CATALOGO -->
+    <div id="titolo_catalogo">
+                <h1>CATALOGO</h1>
+    </div>
     <!-- ALIMENTATORI -->
-    <a href="alimentatori.html">
-        <div class="riquadro_esterno">
+    <div id="primo_riquadro" class="riquadro_esterno">
+        <a href="alimentatori.html">
             <div id="titolo_alimentatori">
-                    <h2>ALIMENTATORI</h2>
+                <h2>ALIMENTATORI</h2>
             </div>
             <div class="riquadro_interno"> <img class="icona_categoria" src="/immaginisito/categorie/alimentatori.jpg"> </div>
-        </div>
-    </a>
+        </a>
+    </div>
     <!-- CASE -->
-    <a href="case.html">
-        <div class="riquadro_esterno">
+    <div id="secondo_riquadro" class="riquadro_esterno">
+        <a href="case.html">
             <div id="titolo_case">
-                    <h2>CASE</h2>
+                <h2>CASE</h2>
             </div>
             <div class="riquadro_interno">
                 <img class="icona_categoria" src="/immaginisito/categorie/case.jpg">
             </div>
-        </div>
-    </a>
+        </a>
+    </div>
     <!-- CPU -->
-    <a href="cpu.html">
-        <div class="riquadro_esterno">
+    <div id="terzo_riquadro" class="riquadro_esterno">
+        <a href="cpu.html">
             <div id="titolo_cpu">
                 <h2>CPU</h2>
             </div>
             <div class="riquadro_interno">
                 <img class="icona_categoria" src="/immaginisito/categorie/cpu.jpg">
             </div>
-        </div>
-    </a>
+        </a>
+    </div>
     <!-- CUFFIE -->
-    <a href="cuffie.html">
-        <div class="riquadro_esterno">
+    <div id="quarto_riquadro" class="riquadro_esterno">
+        <a href="cuffie.html">
             <div id="titolo_cuffie">
                 <h2>CUFFIE</h2>
             </div>
             <div class="riquadro_interno">
                 <img class="icona_categoria" src="/immaginisito/categorie/cuffie.jpg">
             </div>
-        </div>
-    </a>
+        </a>
+    </div>
+
     <!-- MEMORIE INTERNE -->
     <a href="memorie_interne.html">
         <div class="riquadro_esterno">
@@ -98,76 +104,76 @@
                     <h2>MEMORIE RAM</h2>
                 </a>
             </div>
-        <div class="riquadro_interno"> <img class="icona_categoria" src="/immaginisito/categorie/memorie_ram.jpg"> </div>
-    </div>
-    <!-- MONITOR -->
-    <a href="monitor.html">
-        <div class="riquadro_esterno">
-            <div id="titolo_monitor">
-                <h2>MONITOR</h2>
-            </div>
-            <div class="riquadro_interno">
-                <img class="icona_categoria" src="/immaginisito/categorie/monitor.jpg">
-            </div>
+            <div class="riquadro_interno"> <img class="icona_categoria" src="/immaginisito/categorie/memorie_ram.jpg"> </div>
         </div>
-    </a>
-    <!-- MOUSE E TASTIERE -->
-    <a href="mouse_e_tastiere.html">
-        <div class="riquadro_esterno">
-            <div id="titolo_mouse_e_tastiere">
-                <h2>MOUSE E TASTIERE</h2>
+        <!-- MONITOR -->
+        <a href="monitor.html">
+            <div class="riquadro_esterno">
+                <div id="titolo_monitor">
+                    <h2>MONITOR</h2>
+                </div>
+                <div class="riquadro_interno">
+                    <img class="icona_categoria" src="/immaginisito/categorie/monitor.jpg">
+                </div>
             </div>
-            <div class="riquadro_interno">
-                <img class="icona_categoria" src="/immaginisito/categorie/mouse_e_tastiere.jpg">
+        </a>
+        <!-- MOUSE E TASTIERE -->
+        <a href="mouse_e_tastiere.html">
+            <div class="riquadro_esterno">
+                <div id="titolo_mouse_e_tastiere">
+                    <h2>MOUSE E TASTIERE</h2>
+                </div>
+                <div class="riquadro_interno">
+                    <img class="icona_categoria" src="/immaginisito/categorie/mouse_e_tastiere.jpg">
+                </div>
             </div>
-        </div>
-    </a>
-    <!-- RAFFREDDAMENTO -->
-    <a href="raffreddamento.html">
-        <div class="riquadro_esterno">
-            <div id="titolo_raffreddamento">
+        </a>
+        <!-- RAFFREDDAMENTO -->
+        <a href="raffreddamento.html">
+            <div class="riquadro_esterno">
+                <div id="titolo_raffreddamento">
                     <h2>RAFFREDDAMENTO</h2>
+                </div>
+                <div class="riquadro_interno">
+                    <img class="icona_categoria" src="/immaginisito/categorie/raffreddamento.jpg">
+                </div>
             </div>
-            <div class="riquadro_interno">
-                <img class="icona_categoria" src="/immaginisito/categorie/raffreddamento.jpg">
+        </a>
+        <!-- SCHEDE AUDIO -->
+        <a href="schede_audio.html">
+            <div class="riquadro_esterno">
+                <div id="titolo_schede_audio">
+                    <h2>SCHEDE AUDIO</h2>
+                </div>
+                <div class="riquadro_interno">
+                    <img class="icona_categoria" src="/immaginisito/categorie/schede_audio.jpg">
+                </div>
             </div>
-        </div>
-    </a>
-    <!-- SCHEDE AUDIO -->
-    <a href="schede_audio.html">
-        <div class="riquadro_esterno">
-            <div id="titolo_schede_audio">
-                <h2>SCHEDE AUDIO</h2>
+        </a>
+        <!-- SCHEDE MADRI -->
+        <a href="schede_madri.html">
+            <div class="riquadro_esterno">
+                <div id="titolo_schede_madri">
+                    <h2>SCHEDE MADRI</h2>
+                </div>
+                <div class="riquadro_interno">
+                    <img class="icona_categoria" src="/immaginisito/categorie/schede_madri.jpg">
+                </div>
             </div>
-            <div class="riquadro_interno">
-                <img class="icona_categoria" src="/immaginisito/categorie/schede_audio.jpg">
+        </a>
+        <!-- SCHEDE VIDEO -->
+        <a href="schede_video.html">
+            <div class="riquadro_esterno">
+                <div id="titolo_schede_video">
+                    <h2>SCHEDE VIDEO</h2>
+                </div>
+                <div class="riquadro_interno">
+                    <img class="icona_categoria" src="/immaginisito/categorie/schede_video.jpg">
+                </div>
             </div>
-        </div>
-    </a>
-    <!-- SCHEDE MADRI -->
-    <a href="schede_madri.html">
-        <div class="riquadro_esterno">
-            <div id="titolo_schede_madri">
-                <h2>SCHEDE MADRI</h2>
-            </div>
-            <div class="riquadro_interno">
-                <img class="icona_categoria" src="/immaginisito/categorie/schede_madri.jpg">
-            </div>
-        </div>
-    </a>
-    <!-- SCHEDE VIDEO -->
-    <a href="schede_video.html">
-        <div class="riquadro_esterno">
-            <div id="titolo_schede_video">
-                <h2>SCHEDE VIDEO</h2>
-            </div>
-            <div class="riquadro_interno">
-                <img class="icona_categoria" src="/immaginisito/categorie/schede_video.jpg">
-            </div>
-        </div>
-    </a>
+        </a>
 
-    <footer id="footer_top">
+        <footer id="footer_top">
         <div id="account_footer">
             <div class="block_title">
                 <h1>Account</h1>
