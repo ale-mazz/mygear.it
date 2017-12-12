@@ -4,7 +4,7 @@
 
 }
 
-#regtitle h1 {
+#regTitle h1 {
 
     background-color: #D32F2F;
     text-align: center;
@@ -78,10 +78,10 @@ input[type=password] {
         margin: 0%;
     }
 
-    #regtitle {
+    #regTitle {
         margin-top: 0em;
-        padding-top: 8em;
-        font-size: 0.5em;
+        padding-top: 3em;
+        font-size: 0.7em;
     }
 
     #regform {
@@ -103,10 +103,22 @@ input[type=password] {
 
     input[type=text],
     input[type=password] {
-        font-size: 1.2em;
+        font-size: 1em;
 
     }
 
+    h2{
+        font-size: 1.6em;
+    }
+
+    #askreg{
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 40%;
+    }
+    #askreg a{
+        font-size: 1.2em;
+    }
 }
 
 @media only screen and (max-width: 767px) {}
