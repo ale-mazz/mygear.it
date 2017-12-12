@@ -1,0 +1,108 @@
+/* inizio sezione pagina user */
+
+
+
+#userContainer{
+    background-color: white;
+    padding: 0.5em 2em 2em 2em;
+}
+
+#userContainer h1 {
+    font-size: 2.5em;
+    color: #D32F2F;
+    font-weight: bold;
+    margin-top: 1em;
+}
+#userContainer h2 {
+    font-size: 1.7em;
+    color: #212121;
+    font-weight: bold;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    margin-top: 1em;
+}
+.userFieldSet {
+    width: 100%;
+}
+.userInputLabel {
+    float: left;
+    width: 20%;
+    margin-top: 0.2em;
+    font-size: 1.2896em;
+    color: black;
+}
+.userInputField {
+    float: left;
+    width: 70%;
+    margin-bottom: 1em;
+    padding: 0;
+    background-color: white;
+    border: 1px solid black;
+    box-sizing: border-box;
+    font-size: 1.2em;
+    color: black;
+}
+.userSubmitButton {
+    padding: 0.5em;
+    clear: both;
+    display: block;
+    cursor: pointer;
+    font-size: 1.2896em;
+    border: none;
+    background-color: #D32F2F;
+    color: white;
+    text-transform: uppercase;
+}
+.userSubmitButton:hover{
+    background-color: #D32F2F;
+}
+#chooseProfilePhotoButton {
+    background: white;
+    color: black;
+    clear: both;
+    padding: 0;
+    text-transform: uppercase;
+    display: block;
+    cursor: pointer;
+    font-size: 1.2896em;
+    border: none;
+}
+#saveProfilePhotoButton {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+.userRadioFieldSet{
+    padding-bottom: 1em;
+}
+
+.userInputLegend {
+    font-size: 1.286em;
+    padding-bottom: 1em;
+}
+#userForm{
+    margin-bottom: 1.5em;
+}
+#userChoiceRow{
+    margin-left: 2em;
+    margin-top: 0.7em;
+}
+.userChoiceLabel {
+    font-size: 1.286em;
+}
+#adminResultsContainer{
+    width: 100%;
+    margin-top: 1em;
+    overflow: hidden;
+}
+.adminResultRow{
+    overflow: hidden;
+}
+.adminResultInfo{
+    font-size: 1.286em;
+    color: black;
+    width: 95%;
+    border-bottom: 1px solid black;
+    float: left;
+    padding-top: 0.5em;
+}
+
