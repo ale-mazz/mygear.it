@@ -54,11 +54,12 @@
 
 p {
     width: 80%;
-    font-size: 1em;
+    font-size: 1.1em;
     text-align: left;
 }
 
 h3 {
+    font-size: 1.1em;
     margin-top: 5%;
     font-size: 1em;
 }
@@ -76,7 +77,7 @@ h3 {
     }
 
     #title_cat h1 {
-        font-size: em;
+        font-size: 1.9em;
     }
 
     .product {
@@ -101,7 +102,7 @@ Media Query Mobile
 @media only screen and (max-width: 767px) {
 
     #title_cat h1{
-        font-size: 2em;
+        font-size: 1.4em;
     }
 
     .product {
@@ -111,10 +112,10 @@ Media Query Mobile
     }
 
     p {
-        font-size: 1em;
+        font-size: 0.7em;
     }
 
     h3 {
-        font-size: 1em;
+        font-size: 0.7em;
     }
 }
