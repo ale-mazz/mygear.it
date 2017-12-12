@@ -114,6 +114,10 @@ Media Query Mobile
 
 @media only screen and (max-width: 767px) {
 
+    #titolo_catalogo{
+        margin-bottom: 1em;
+    }
+
     #titolo_catalogo h1 {
         font-size: 1.4em;
     }
@@ -124,17 +128,21 @@ Media Query Mobile
 
     .riquadro_esterno {
         position: static;
-        width: 40%;
-        margin-left: 7%;
+        width: 45%;
+        margin-left: 3%;
         margin-top: 0.5em;
     }
 
     .riquadro_interno {
         position: static;
-        width: 100%
+        width: 90%
         float: none;
+        padding-left: 5%;
+    }
+
+    .icona_categoria {
+        max-width: 100%;
         margin: 0%;
-        padding: 0em;
     }
 }
 
