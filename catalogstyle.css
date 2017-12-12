@@ -1,16 +1,4 @@
-/* scritte centrate in nero */
-
-a {
-    text-decoration: none;
-    color: #000000;
-}
-
-#riquadro_estermo h2 {
-    text-align: center;
-    font-size: 1.3em;
-}
-
-/* titolo pagina */
+/* titolo pagina h1 */
 
 #titolo_catalogo {
     width: 100%;
@@ -23,6 +11,18 @@ a {
     font-size: 2em;
     text-align: center;
     color: #000000;
+}
+
+/* titoli categorie h2 */
+
+.riquadro_esterno a {
+    text-decoration: none;
+    color: #000000;
+}
+
+#riquadro_estermo h2 {
+    text-align: center;
+    font-size: 1.3em;
 }
 
 /* dimensione/margin immagini */
@@ -61,14 +61,14 @@ a {
 
 @media only screen and (max-width: 955px) {
 
+    #titolo_catalogo h1 {
+        font-size: 1.5em;
+    }
+
     #titolo_catalogo {
         position: static;
         margin-top: 0em;
         padding-top: 5em;
-    }
-
-    #titolo_catalogo h1 {
-        font-size: 1.5em;
     }
 
     .riquadro_esterno h2 {
