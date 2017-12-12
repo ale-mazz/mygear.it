@@ -67,7 +67,11 @@ a {
         padding-top: 5em;
     }
 
-    h2 {
+    #titolo_catalogo h1 {
+        font-size: 1.5em;
+    }
+
+    .riquadro_esterno h2 {
         position: static;
         font-size: 1em;
     }
@@ -93,7 +97,11 @@ Media Query Mobile
 
 @media only screen and (max-width: 767px) {
 
-    h2 {
+    #titolo_catalogo h1 {
+        font-size: 1.1em;
+    }
+
+    .riquadro_esterno h2 {
         font-size: 0.8em;
     }
 
