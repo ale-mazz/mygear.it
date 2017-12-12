@@ -1,16 +1,21 @@
-/* scritte centrate in nero */
+/*****************************
+dimensioni scritte
 
-a {
-    text-decoration: none;
-    color: #000000;
-}
+desktop (em)
+h1 2
+h2 1.5
 
-h2 {
-    text-align: center;
-    font-size: 1.3em;
-}
+tablet
+h1 1.9
+h2 1.4
 
-/* titolo pagina */
+phone
+h1 1.4
+h2 0.87
+
+*****************************/
+
+/* titolo pagina h1 */
 
 #titolo_catalogo {
     width: 100%;
@@ -23,6 +28,18 @@ h2 {
     font-size: 2em;
     text-align: center;
     color: #000000;
+}
+
+/* titoli categorie h2 */
+
+.riquadro_esterno a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.riquadro_esterno h2 {
+    text-align: center;
+    font-size: 1.5em;
 }
 
 /* dimensione/margin immagini */
@@ -61,15 +78,19 @@ h2 {
 
 @media only screen and (max-width: 955px) {
 
+    #titolo_catalogo h1 {
+        font-size: 1.9em;
+    }
+
     #titolo_catalogo {
         position: static;
         margin-top: 0em;
         padding-top: 5em;
     }
 
-    h2 {
+    .riquadro_esterno h2 {
         position: static;
-        font-size: 1em;
+        font-size: 1.4em;
     }
 
     .riquadro_esterno {
@@ -93,22 +114,35 @@ Media Query Mobile
 
 @media only screen and (max-width: 767px) {
 
-    h2 {
-        font-size: 0.8em;
+    #titolo_catalogo{
+        margin-bottom: 1em;
+    }
+
+    #titolo_catalogo h1 {
+        font-size: 1.4em;
+    }
+
+    .riquadro_esterno h2 {
+        font-size: 0.87em;
     }
 
     .riquadro_esterno {
         position: static;
-        width: 40%;
-        margin-left: 7%;
+        width: 45%;
+        margin-left: 3%;
+        margin-top: 0.5em;
     }
 
     .riquadro_interno {
         position: static;
-        width: 80%;
+        width: 90%
         float: none;
-        margin-left: 10%;
-        padding: 0em;
+        padding-left: 5%;
+    }
+
+    .icona_categoria {
+        max-width: 100%;
+        margin: 0%;
     }
 }
 

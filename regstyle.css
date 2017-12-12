@@ -1,9 +1,10 @@
-#regform{
+#regform {
     background-color: white;
-    margin: 10em 10em 10em 10em;
+    margin: 3em 10em 10em 10em;
 
 }
-#regtitle h1{
+
+#regTitle h1 {
 
     font-size: 1.5em;
     background-color: #D32F2F;
@@ -15,18 +16,31 @@
     padding: 1em 1em 1em 1em;
 }
 
-h2{
+#accountTitle h2 {
+    font-size: 2.7em;
     text-align: center;
-    font-size: 1.3em;
+}
+
+.containerreg h2 {
+    text-align: center;
+    font-size: 1.6em;
     margin-bottom: 0.5em;
     margin-top: 0.5em;
 }
 
-input[type=text], input[type=password] {
+.containerreg2 h2 {
+    text-align: center;
+    font-size: 1.6em;
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+}
+
+input[type=text],
+input[type=password] {
     width: 100%;
     font-size: 1em;
     padding: 0.5em 0.5em 0.5em 0.5em;
-    display:inline-block;
+    display: inline-block;
     border: 1px solid #ccc;
     box-sizing: border-box;
     text-align: center;
@@ -46,68 +60,107 @@ input[type=text], input[type=password] {
     margin-top: 2em;
 }
 
-.containerreg{
+.containerreg {
     float: left;
     width: 45%;
 
 }
-.containerreg2{
+
+.containerreg2 {
 
     float: right;
     width: 45%;
 
 }
 
-.clearfix{
+.clearfix {
     width: 100%;
     height: auto;
 
 }
 
+#asklog {
+
+    margin-left: 25%;
+    margin-top: 33em;
+    width: 50%;
+    text-align: center;
+}
+
+#asklog a {
+
+    font-size: 1.4em;
+}
+
 @media only screen and (max-width: 955px) {
 
-    #regform{
-        margin: 15%;
-    }
 
-    #regtitle{
+    #regTitle {
         margin-top: 0em;
         padding-top: 8em;
         font-size: 0.5em;
     }
 
-    #regform{
+    #regTitle h1 {
+        font-size: 2em;
+    }
+
+    #regform {
         margin-top: 0em;
         padding-top: 0em;
     }
 
-    .containerreg{
+    .containerreg {
+        float: center;
+        width: 100%;
+        margin-top: 2em;
+    }
+    .containerreg2 {
         float: center;
         width: 100%;
     }
-    .containerreg2{
-        float: center;
-        width: 100%;
-    }
-    input[type=text], input[type=password] {
+    input[type=text],
+    input[type=password] {
         font-size: 1.2em;
 
     }
+    #asklog {
+
+        margin-left: 15%;
+        margin-top: 51em;
+        width: 70%;
+        text-align: center;
+    }
+
+    #asklog a {
+
+        font-size: 1.6em;
+    }
+    #accountTitle h2 {
+
+        font-size: 1.7em;
+        text-align: center;
+    }
+
 
 }
 
 @media only screen and (max-width: 767px) {
 
-    #regform{
-        margin: 10%;
+    #regform {
+        margin: 8%;
     }
 
-    .containerreg{
+    .containerreg {
+        margin-top: 0m;
+        width: 100%;
+    }
+    .containerreg2 {
 
         width: 100%;
     }
-    .containerreg2{
+    #asklog a {
 
-        width: 100%;
+        font-size: 1.4em;
     }
 }

@@ -1,31 +1,34 @@
-#regform{
+#regform {
     background-color: white;
-    margin: 10em 10em 10em 10em;
+    margin: 7em 10em 7em 10em;
 
 }
-#regtitle h1{
+
+#regTitle h1 {
 
     background-color: #D32F2F;
     text-align: center;
     color: white;
     font-weight: bold;
-    font-size: 3em;
+    font-size: 1.6em;
     margin-bottom: 2em;
     margin-top: 2em;
     padding: 1em 1em 1em 1em;
 }
 
-h2{
+h2 {
     text-align: center;
     font-size: 2em;
     padding-top: 0.5em;
     padding-bottom: 0.5em;
 }
 
-input[type=text], input[type=password] {
+input[type=text],
+input[type=password] {
     width: 100%;
-    padding: 1em 1em 1em 1em;
-    display:inline-block;
+    padding: 0.5em 0.5em 0.5em 0.5em;
+    font-size: 1em;
+    display: inline-block;
     border: 1px solid #ccc;
     box-sizing: border-box;
     text-align: center;
@@ -39,20 +42,83 @@ input[type=text], input[type=password] {
     border: none;
     cursor: pointer;
     font-weight: bold;
-    font-size: 2em;
+    font-size: 1.4em;
     float: left;
     width: 100%;
     margin-top: 2em;
 }
 
 
-.containerlogin{
-    width: 40%;
-    margin-left: 30%;
+.containerlogin {
+    width: 50%;
+    margin-left: 25%;
 }
 
-.clearfix{
-    width: 40%;
-    margin-left: 30%;
-    margin-right: 30%;
+.clearfix {
+    width: 50%;
+    margin-left: 25%;
 }
+
+#askreg{
+
+    margin-left: 25%;
+    margin-top: 10%;
+    width: 50%;
+    text-align: center;
+}
+
+#askreg a{
+
+    font-size: 1.5em;
+}
+
+@media only screen and (max-width: 955px) {
+
+    #regform {
+        margin: 0%;
+    }
+
+    #regTitle {
+        margin-top: 0em;
+        padding-top: 3em;
+        font-size: 0.7em;
+    }
+
+    #regform {
+        width: 100%;
+        margin-top: 0em;
+        padding-top: 0em;
+    }
+
+    .containerlogin {
+        float: center;
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .clearfix {
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    input[type=text],
+    input[type=password] {
+        font-size: 1em;
+
+    }
+
+    h2{
+        font-size: 1.6em;
+    }
+
+    #askreg{
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 40%;
+    }
+    #askreg a{
+        font-size: 1.2em;
+    }
+}
+
+@media only screen and (max-width: 767px) {}

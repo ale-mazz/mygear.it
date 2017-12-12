@@ -54,11 +54,14 @@
 
 p {
     width: 80%;
+    font-size: 1.1em;
     text-align: left;
 }
 
 h3 {
+    font-size: 1.1em;
     margin-top: 5%;
+    font-size: 1em;
 }
 
 
@@ -67,22 +70,28 @@ h3 {
 ******************************************************************/
 
 @media only screen and (max-width: 955px) {
-    #title_cat h1 {
-        font-size: 1em;
+
+    #title_cat {
+        margin: 0em;
+        padding-top: 5em;
     }
 
-    .product_beginning_line {
-        width: 80%;
-        float: left;
-        margin-left: 10%;
-        padding: 0em;
+    #title_cat h1 {
+        font-size: 1.9em;
     }
 
     .product {
-        width: 80%;
-        float: left;
-        margin-left: 10%;
-        padding: 0em;
+        position: static;
+        width: 30%;
+        margin-left: 2.5%;
+    }
+
+    p {
+        font-size: 1em;
+    }
+
+    h3 {
+        font-size: 1em;
     }
 }
 
@@ -91,21 +100,22 @@ Media Query Mobile
 ******************************************************************/
 
 @media only screen and (max-width: 767px) {
-    #title_cat h1{
-        font-size: 0.8em;
-    }
 
-    .product_beginning_line {
-        width: 80%;
-        float: none;
-        margin-left: 10%;
-        padding: 0em;
+    #title_cat h1{
+        font-size: 1.4em;
     }
 
     .product {
-        width: 80%;
-        float: none;
-        margin-left: 10%;
-        padding: 0em;
+        position: static;
+        width: 40%;
+        margin-left: 7%;
+    }
+
+    p {
+        font-size: 0.7em;
+    }
+
+    h3 {
+        font-size: 0.7em;
     }
 }
