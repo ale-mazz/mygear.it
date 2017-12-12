@@ -1,9 +1,10 @@
-#regform{
+#regform {
     background-color: white;
-    margin: 10em 10em 10em 10em;
+    margin: 7em 10em 7em 10em;
 
 }
-#regtitle h1{
+
+#regtitle h1 {
 
     background-color: #D32F2F;
     text-align: center;
@@ -15,17 +16,19 @@
     padding: 1em 1em 1em 1em;
 }
 
-h2{
+h2 {
     text-align: center;
-    font-size: 1.3em;
+    font-size: 2em;
     padding-top: 0.5em;
     padding-bottom: 0.5em;
 }
 
-input[type=text], input[type=password] {
+input[type=text],
+input[type=password] {
     width: 100%;
     padding: 0.5em 0.5em 0.5em 0.5em;
-    display:inline-block;
+    font-size: 1em;
+    display: inline-block;
     border: 1px solid #ccc;
     box-sizing: border-box;
     text-align: center;
@@ -46,53 +49,64 @@ input[type=text], input[type=password] {
 }
 
 
-.containerlogin{
-    width: 40%;
-    margin-left: 30%;
+.containerlogin {
+    width: 50%;
+    margin-left: 25%;
 }
 
-.clearfix{
-    width: 40%;
-    margin-left: 30%;
+.clearfix {
+    width: 50%;
+    margin-left: 25%;
+}
+
+#askreg{
+
+    margin-left: 25%;
+    margin-top: 10%;
+    width: 50%;
+    text-align: center;
+}
+
+#askreg a{
+
+    font-size: 1.5em;
 }
 
 @media only screen and (max-width: 955px) {
 
-    #regform{
+    #regform {
         margin: 0%;
     }
 
-    #regtitle{
+    #regtitle {
         margin-top: 0em;
         padding-top: 8em;
         font-size: 0.5em;
     }
 
-    #regform{
+    #regform {
         width: 100%;
         margin-top: 0em;
         padding-top: 0em;
     }
 
-    .containerlogin{
+    .containerlogin {
         float: center;
         width: 80%;
         margin-left: 10%;
     }
 
-    .clearfix{
+    .clearfix {
         width: 80%;
         margin-left: 10%;
     }
 
-    input[type=text], input[type=password] {
+    input[type=text],
+    input[type=password] {
         font-size: 1.2em;
 
     }
 
 }
 
-@media only screen and (max-width: 767px) {
-
-
-}
+@media only screen and (max-width: 767px) {}

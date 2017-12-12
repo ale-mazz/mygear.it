@@ -1,9 +1,9 @@
 #regform{
     background-color: white;
-    margin: 10em 10em 10em 10em;
+    margin: 6em 10em 10em 10em;
 
 }
-#regtitle h1{
+#regTitle h1{
 
     font-size: 1.5em;
     background-color: #D32F2F;
@@ -15,9 +15,13 @@
     padding: 1em 1em 1em 1em;
 }
 
+#accountTitle h2{
+    font-size: 2.7em;
+}
+
 h2{
     text-align: center;
-    font-size: 1.3em;
+    font-size: 1.6em;
     margin-bottom: 0.5em;
     margin-top: 0.5em;
 }
@@ -62,6 +66,19 @@ input[type=text], input[type=password] {
     width: 100%;
     height: auto;
 
+}
+
+#asklog{
+
+    margin-left: 25%;
+    margin-top: 28%;
+    width: 50%;
+    text-align: center;
+}
+
+#asklog a{
+
+    font-size: 1.5em;
 }
 
 @media only screen and (max-width: 955px) {
