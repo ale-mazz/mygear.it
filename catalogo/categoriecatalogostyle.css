@@ -1,0 +1,114 @@
+#title_cat {
+    width: 100%;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+#title_cat h1 {
+    font-size: 2em;
+    text-align: center;
+    color: #000000;
+}
+
+.product_beginning_line:before,
+.product_beginning_line:after {
+    content: "";
+    position: absolute;
+    top: -3px;
+    right: -3px;
+}
+
+.product_beginning_line:before {
+    bottom: -2px;
+    width: 2px;
+    background-image: -webkit-gradient(linear, 0 100%, 0 0, from(#9E9E9E), to(transparent));
+    background-image: -webkit-linear-gradient(#9E9E9E, transparent);
+    background-image: -moz-linear-gradient(#9E9E9E, transparent);
+    background-image: -o-linear-gradient(#9E9E9E, transparent);
+}
+
+.product_beginning_line:after {
+    left: -2px;
+    height: 2px;
+    background-image: -webkit-gradient(linear, 0 0, 100% 0, from(transparent), to(#9E9E9E));
+    background-image: -webkit-linear-gradient(left, transparent, #9E9E9E);
+    background-image: -moz-linear-gradient(left, transparent, #9E9E9E);
+    background-image: -o-linear-gradient(left, transparent, #9E9E9E);
+}
+
+.product_beginning_line {
+    margin-top: 1.5em;
+    margin-left: 6%;
+    width: 20%;
+    float: left;
+    background-color: white;
+    position: relative;
+}
+
+.product:before,
+.product:after {
+    content: "";
+    position: absolute;
+    top: -3px;
+    right: -3px;
+}
+
+.product:before {
+    bottom: -2px;
+    width: 2px;
+    background-image: -webkit-gradient(linear, 0 100%, 0 0, from(#9E9E9E), to(transparent));
+    background-image: -webkit-linear-gradient(#9E9E9E, transparent);
+    background-image: -moz-linear-gradient(#9E9E9E, transparent);
+    background-image: -o-linear-gradient(#9E9E9E, transparent);
+}
+
+.product:after {
+    left: -2px;
+    height: 2px;
+    background-image: -webkit-gradient(linear, 0 0, 100% 0, from(transparent), to(#9E9E9E));
+    background-image: -webkit-linear-gradient(left, transparent, #9E9E9E);
+    background-image: -moz-linear-gradient(left, transparent, #9E9E9E);
+    background-image: -o-linear-gradient(left, transparent, #9E9E9E);
+}
+
+.product {
+    margin-top: 1.5em;
+    margin-left: 2%;
+    width: 20%;
+    float: left;
+    background-color: white;
+    position: relative;
+}
+
+.imageCat {
+    width: 80%;
+    margin-top: 3%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+p {
+    width: 80%;
+    text-align: left;
+}
+
+h3 {
+    margin-top: 5%;
+}
+
+
+/******************************************************************
+ Media Query Home
+******************************************************************/
+
+@media only screen and (max-width: 955px) {
+
+}
+
+/******************************************************************
+Media Query Mobile
+******************************************************************/
+
+@media only screen and (max-width: 767px) {
+
+}
