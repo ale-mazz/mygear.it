@@ -20,9 +20,9 @@
     color: #000000;
 }
 
-#riquadro_estermo h2 {
+.riquadro_estermo h2 {
     text-align: center;
-    font-size: 1.3em;
+    font-size: 0.5em;
 }
 
 /* dimensione/margin immagini */
