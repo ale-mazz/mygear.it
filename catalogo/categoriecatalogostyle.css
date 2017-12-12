@@ -67,22 +67,20 @@ h3 {
 ******************************************************************/
 
 @media only screen and (max-width: 955px) {
-    #title_cat h1 {
-        font-size: 1em;
+
+    #title_cat {
+        margin: 0em;
+        padding-top: 5em;
     }
 
-    .product_beginning_line {
-        width: 80%;
-        float: left;
-        margin-left: 10%;
-        padding: 0em;
+    #title_cat h1 {
+        font-size: 2em;
     }
 
     .product {
-        width: 80%;
-        float: left;
-        margin-left: 10%;
-        padding: 0em;
+        position: static;
+        width: 30%;
+        margin-left: 2.5%;
     }
 }
 
@@ -91,21 +89,14 @@ Media Query Mobile
 ******************************************************************/
 
 @media only screen and (max-width: 767px) {
+
     #title_cat h1{
         font-size: 0.8em;
     }
 
-    .product_beginning_line {
-        width: 80%;
-        float: none;
-        margin-left: 10%;
-        padding: 0em;
-    }
-
     .product {
-        width: 80%;
-        float: none;
-        margin-left: 10%;
-        padding: 0em;
+        position: static;
+        width: 40%;
+        margin-left: 7%;
     }
 }
