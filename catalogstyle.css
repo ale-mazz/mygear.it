@@ -11,7 +11,7 @@ a {
 
 h2 {
     text-align: center;
-    font-size: 1.5em;
+    font-size: 1.3em;
 }
 
 /* dimensione/margin immagini */
@@ -26,10 +26,11 @@ h2 {
 /* larghezza/posizione colonne */
 
 .riquadro_esterno {
-    margin-top: 1.5em;
+    margin-top: 1em;
     margin-left: 4%;
     width: 20%;
     float: left;
+    text-align: center;
 }
 
 /* posizione immagine "all'interno del bordo" */
@@ -71,13 +72,44 @@ h2 {
     background-image: -o-linear-gradient(left, transparent, #9E9E9E);
 }
 
-@media only screen and (max-width: 956px) {
+/******************************************************************
+ Media Query Home
+******************************************************************/
+
+@media only screen and (max-width: 955px) {
+
+    h2 {
+        font-size: 1em;
+    }
 
     .riquadro_esterno {
-        width: 100%;
-        float: none;
-        margin-left: 0em;
+        width: 30%;
+        margin-left: 3%;
     }
+
+    .riquadro_interno {
+        width: 80%;
+        float: none;
+        margin-left: 10%;
+        padding: 0em;
+    }
+}
+
+/******************************************************************
+Media Query Mobile
+******************************************************************/
+
+@media only screen and (max-width: 767px) {
+
+    h2 {
+        font-size: 0.8em;
+    }
+
+    .riquadro_esterno {
+        width: 40%;
+        margin-left: 7%;
+    }
+
     .riquadro_interno {
         width: 80%;
         float: none;
