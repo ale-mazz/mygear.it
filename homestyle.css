@@ -2,7 +2,7 @@
 Banner
 ********************************************************************************/
 
-#banner img {
+#homeBanner img {
     width: 100%;
     height: auto;
 }
@@ -62,11 +62,11 @@ Corpo Home
     padding-bottom: 18%;
 }
 
-.homeWindowsRiquadro {
+.homeWindowsContainer {
     padding: 1em;
 }
 
-.homeWindowsRiquadro h1 {
+.homeWindowsContainer h1 {
     font-size: 1em;
     padding-bottom: 0.5em;
 }
@@ -77,17 +77,17 @@ Corpo Home
     border-bottom-width: 0.1em;
 }
 
-.homeWindowsRiquadro h2 {
+.homeWindowsContainer h2 {
     font-size: 0.9em;
     padding-top: 1em;
 }
 
-.homeWindowsRiquadro a {
+.homeWindowsContainer a {
     text-decoration: none;
     color: #000000;
 }
 
-.homeWindowsRiquadro a:hover {
+.homeWindowsContainer a:hover {
     color: #D50000;
 }
 
@@ -104,19 +104,19 @@ Corpo Home
     color: black;
 }
 
-#loghi {
+#homeLoghi {
     float: left;
     clear: left;
     width: 100%;
 }
 
-#loghi img {
+#homeLoghi img {
     width: 8%;
     margin-left: 4%;
     text-decoration: none;
 }
 
-#loghi a {
+#homeLoghi a {
     text-decoration: none;
 }
 
@@ -126,10 +126,10 @@ Corpo Home
 
 @media only screen and (max-width: 955px) {
 
-    #banner img {
+    #homeBanner img {
         margin-top: 3.8em;
     }
-    #titoli_content_top h1 {
+    #homeContentTop h1 {
         font-size: 2em;
     }
 
@@ -137,11 +137,11 @@ Corpo Home
         font-size: 1.5em;
     }
 
-    .homeWindowsRiquadro h1 {
+    .homeWindowsContainer h1 {
         font-size: 2em;
     }
 
-    .homeWindowsRiquadro h2 {
+    .homeWindowsContainer h2 {
         font-size: 1.8em;
     }
 
@@ -168,7 +168,7 @@ Corpo Home
         width: 100%;
     }
 
-    #imgVetrina {
+    #homeImgVetrina {
         padding-top: 2em;
         padding-bottom: 0em;
     }
@@ -177,7 +177,7 @@ Corpo Home
         font-size: 3em;
     }
 
-    #loghi img {
+    #homeLoghi img {
         width: 15%;
         margin-left: 8%;
         float: left;
@@ -192,7 +192,7 @@ Media Query Mobile
 
 @media only screen and (max-width: 767px) {
 
-    #banner img {
+    #homeBanner img {
         margin-top: 3.58em;
     }
 
@@ -200,11 +200,15 @@ Media Query Mobile
         font-size: 0.8em;
     }
 
-    .homeWindowsRiquadro h1 {
+     #homeContentTop h1 {
+        font-size: 1.5em;
+    }
+
+    .homeWindowsContainer h1 {
         font-size: 1em;
     }
 
-    .homeWindowsRiquadro h2 {
+    .homeWindowsContainer h2 {
         font-size: 1em;
     }
 

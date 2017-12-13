@@ -1,21 +1,21 @@
-#titolo_config {
+#configTitle {
     width: 100%;
     margin-top: 2em;
     margin-bottom: 2em;
 }
 
-#titolo_config h1 {
+#configTitle h1 {
     font-size: 2em;
     text-align: center;
     color: #000000;
 }
 
-#configurazione_1 {
+#configConfigurazione1 {
     width: 100%;
     background-color: white;
 }
 
-#configurazione_1 img {
+#configConfigurazione1 img {
     float: left;
     clear: left;
     width: 30%;
@@ -23,12 +23,12 @@
     margin-left: 8%;
 }
 
-#configurazione_2 {
+#configConfigurazione2 {
     width: 100%;
     background-color: white;
 }
 
-#configurazione_2 img {
+#configConfigurazione2 img {
     float: left;
     clear: left;
     width: 30%;
@@ -36,12 +36,12 @@
     margin-left: 8%;
 }
 
-#configurazione_3 {
+#configConfigurazione3 {
     width: 100%;
     background-color: white;
 }
 
-#configurazione_3 img {
+#configConfigurazione3 img {
     float: left;
     clear: left;
     width: 27%;
@@ -49,13 +49,13 @@
     margin-left: 10%;
 }
 
-.top {
+.configConfigurazioniTop {
     width: 100%;
     float: left;
     background-color: #424242;
 }
 
-.descrizione_config {
+.configDescription {
     float: right;
     margin: 2%;
     width: 50%;
@@ -63,21 +63,21 @@
     padding: 2em;
 }
 
-.top p {
+.configConfigurazioniTop p {
     font-size: 1em;
     text-align: left;
     color: white;
 
 }
 
-.top h2 {
+.configConfigurazioniTop h2 {
     font-size: 1.5em;
     text-align: left;
     padding-top: 2em;
     color: white;
 }
 
-.top h1 {
+.configConfigurazioniTop h1 {
     font-size: 2em;
     text-align: center;
     padding-top: 1em;
@@ -85,7 +85,7 @@
     color: white;
 }
 
-.specifiche {
+.configSpecification {
     width: 100%;
     float: left;
     clear: left;
@@ -94,11 +94,11 @@
     padding-bottom: 1em;
 }
 
-.specifiche h1 {
+.configSpecification h1 {
     font-size: 2em;
 }
 
-.riquadro_1 {
+.configContainer1 {
     width: 25%;
     float: left;
     clear: left;
@@ -108,7 +108,7 @@
     font-size: 1.2em;
 }
 
-.riquadro_2 {
+.configContainer2 {
     width: 25%;
     float: left;
     margin-left: 7.5%;
@@ -117,7 +117,7 @@
     font-size: 1.2em;
 }
 
-.riquadro_3 {
+.configContainer3 {
     width: 25%;
     float: left;
     margin-left: 7.5%;
@@ -126,117 +126,117 @@
     font-size: 1.2em;
 }
 
-.riquadro_1 h1 {
+.configContainer1 h1 {
     font-size: 0.8em;
     color: #000000;
     text-align: left;
 }
 
-.riquadro_2 h1 {
+.configContainer2 h1 {
     font-size: 0.8em;
     color: #000000;
     text-align: left;
 }
 
-.riquadro_3 h1 {
+.configContainer3 h1 {
     font-size: 0.8em;
     color: #000000;
     text-align: left;
 }
 
-.corpo_riquadro {
+.configContainerSections {
     width: 100%;
     height: 1.5em;
     padding-bottom: 1.5em;
 }
 
-.corpo_riquadro p {
+.configContainerSections p {
     font-size: 0.7em;
 }
 
 @media only screen and (max-width: 955px) {
 
 
-    #titolo_config {
+    #configTitle {
         margin-top: 0em;
     }
 
-    #titolo_config h1 {
+    #configTitle h1 {
         font-size: 2em;
         padding-top: 3em;
         margin-top: 0em;
 
     }
 
-    #configurazione_1 img {
+    #configConfigurazione1 img {
         width: 50%;
         margin: 2% 25% 2% 25%;
 
     }
 
-    #configurazione_2 img {
+    #configConfigurazione2 img {
         width: 50%;
         margin: 2% 25% 2% 25%;
 
     }
 
-    #configurazione_3 img {
+    #configConfigurazione3 img {
         width: 50%;
         margin: 2% 25% 2% 25%;
 
     }
 
-    .descrizione_config {
+    .configDescription {
         float: left;
         clear: left;
         margin: 2% 6% 2% 6%;
         width: 80%;
     }
 
-    .top p {
+    .configConfigurazioniTop p {
         font-size: 1.5em;
     }
 
-    .top h1 {
+    .configConfigurazioniTop h1 {
         font-size: 2.5em;
         padding-top: 0em;
         padding-bottom: 0em;
     }
 
-    .specifiche h1 {
+    .configSpecification h1 {
         font-size: 2.5em;
     }
 
-    .corpo_riquadro {
+    .configContainerSections {
         height: 5em;
     }
 
-    .corpo_riquadro p {
+    .configContainerSections p {
         font-size: 1em;
     }
 
-    .riquadro_1 {
+    .configContainer1 {
         margin-bottom: 2em;
     }
-    .riquadro_2 {
-        margin-bottom: 2em;
-    }
-
-    .riquadro_3 {
+    .configContainer2 {
         margin-bottom: 2em;
     }
 
-    .riquadro_1 h1 {
+    .configContainer3 {
+        margin-bottom: 2em;
+    }
+
+    .configContainer1 h1 {
         font-size: 1.2em;
 
     }
 
-    .riquadro_2 h1 {
+    .configContainer2 h1 {
         font-size: 1.2em;
 
     }
 
-    .riquadro_3 h1 {
+    .configContainer3 h1 {
         font-size: 1.2em;
 
     }
@@ -244,85 +244,82 @@
     @media only screen and (max-width: 767px) {
 
 
-    #titolo_config h1 {
+    #configTitle h1 {
         font-size: 1em;
         padding-top: 5em;
 
     }
 
-    #configurazione_1 img {
+    #configConfigurazione1 img {
         width: 50%;
         margin: 2% 25% 2% 25%;
 
     }
 
-    #configurazione_2 img {
+    #configConfigurazione2 img {
         width: 50%;
         margin: 2% 25% 2% 25%;
 
     }
 
-    #configurazione_3 img {
+    #configConfigurazione3 img {
         width: 50%;
         margin: 2% 25% 2% 25%;
 
     }
 
-    .descrizione_config {
+    .configDescription {
         float: left;
         clear: left;
         margin: 2% 6% 2% 6%;
         width: 70%;
     }
 
-    .top p {
+    .configConfigurazioniTop p {
         font-size: 0.8em;
     }
 
-    .top h1 {
+    .configConfigurazioniTop h1 {
         font-size: 1.5em;
     }
 
-    .top h2 {
+    .configConfigurazioniTop h2 {
     font-size: 1em;
     }
 
-    .specifiche h1 {
+    .configSpecification h1 {
     font-size: 1.2em;
     }
 
-    .corpo_riquadro {
+    .configContainerSections {
         height: 2em;
     }
 
-    .corpo_riquadro p {
+    .configContainerSections p {
         font-size: 0.5em;
     }
 
-    .riquadro_1 {
+    .configContainer1 {
         margin-bottom: 2em;
     }
-    .riquadro_2 {
-        margin-bottom: 2em;
-    }
-
-    .riquadro_3 {
+    .configContainer2 {
         margin-bottom: 2em;
     }
 
-    .riquadro_1 h1 {
-        font-size: 0.5em;
-
+    .configContainer3 {
+        margin-bottom: 2em;
     }
 
-    .riquadro_2 h1 {
+    .configContainer1 h1 {
         font-size: 0.5em;
-
     }
 
-    .riquadro_3 h1 {
+    .configContainer2 h1 {
         font-size: 0.5em;
+    }
 
+    .configContainer3 h1 {
+        font-size: 0.5em;
     }
 
 }
