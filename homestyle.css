@@ -11,12 +11,12 @@ Banner
 Corpo Home
 ********************************************************************************/
 
-#corpo_top_home {
+#homeContentTop {
     width: 100%;
     margin-top: 3em;
 }
 
-#corpo_top_home p {
+#homeContentTop p {
     height: 1em;
     text-align: left;
     font-size: 0.8em;
@@ -24,11 +24,49 @@ Corpo Home
     padding-top: 1em;
 }
 
-.riquadro {
+.homeWindows {
+    float: left;
+    width: 30%;
+    margin-left: 2.5%;
+}
+
+.homeWindowsTitles {
+    width: 40%;
+    float: left;
+    margin-left: 30%;
+}
+
+.homeWindowsTitles h1 {
+    font-size: 1.5em;
+    color: #000000;
+    text-align: center;
+}
+
+.homeWindowsTable {
+    margin-top: 1.5em;
+    margin-left: 10%;
+    width: 90%;
+    clear: left;
+    float: left;
+    background-color: white;
+}
+
+.homeWindows img {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#imgVetrina {
+    padding-top: 17.5%;
+    padding-bottom: 18%;
+}
+
+.homeWindowsRiquadro {
     padding: 1em;
 }
 
-.riquadro h1 {
+.homeWindowsRiquadro h1 {
     font-size: 1em;
     padding-bottom: 0.5em;
 }
@@ -39,116 +77,21 @@ Corpo Home
     border-bottom-width: 0.1em;
 }
 
-.riquadro h2 {
+.homeWindowsRiquadro h2 {
     font-size: 0.9em;
     padding-top: 1em;
 }
 
-.riquadro a {
+.homeWindowsRiquadro a {
     text-decoration: none;
     color: #000000;
 }
 
-.riquadro a:hover {
+.homeWindowsRiquadro a:hover {
     color: #D50000;
 }
 
-#vetrina {
-    float: left;
-    width: 30%;
-}
-
-#titolo_vetrina {
-    width: 10%;
-    float: left;
-    margin-left: 45%;
-}
-
-#titolo_vetrina h1 {
-    font-size: 1.5em;
-    color: #000000;
-}
-
-#vetrina_home {
-    margin-top: 1.5em;
-    margin-left: 10%;
-    width: 90%;
-    clear: left;
-    float: left;
-    background-color: white;
-}
-
-#vetrina_home img {
-    width: 80%;
-    margin-left: 10%;
-    margin-right: 10%;
-}
-
-#promo {
-    float: left;
-    width: 28%;
-    margin-left: 5%;
-}
-
-#titolo_promo {
-    width: 10%;
-    float: left;
-    margin-left: 45%;
-}
-
-#titolo_promo h1 {
-    font-size: 1.5em;
-    color: #000000;
-}
-
-#promo_home {
-    margin-top: 1.5em;
-    margin-left: 10%;
-    width: 90%;
-    float: left;
-    background-color: white;
-}
-
-#promo_home img {
-    width: 80%;
-    margin-left: 10%;
-    margin-right: 10%;
-}
-
-#novita {
-    float: left;
-    width: 28%;
-    margin-left: 5%;
-}
-
-#titolo_novita {
-    width: 10%;
-    float: left;
-    margin-left: 45%;
-}
-
-#titolo_novita h1 {
-    font-size: 1.5em;
-    color: #000000;
-}
-
-#novita_home {
-    margin-top: 1.5em;
-    margin-left: 10%;
-    width: 90%;
-    float: left;
-    background-color: white;
-}
-
-
-#novita_home img {
-    width: 80%;
-    margin-left: 10%;
-    margin-right: 10%;
-    padding-bottom: 1.3em;
-}
-
-#titolo_bottom {
+#homeTitleBottom {
     float: left;
     width: 100%;
     margin-top: 3em;
@@ -156,7 +99,7 @@ Corpo Home
     padding-bottom: 1em;
 }
 
-#titolo_bottom h1 {
+#homeTitleBottom h1 {
     text-align: center;
     color: black;
 }
@@ -186,89 +129,51 @@ Corpo Home
     #banner img {
         margin-top: 3.8em;
     }
-    #titoli_corpo_top h1 {
+    #titoli_content_top h1 {
         font-size: 2em;
     }
 
-    #corpo_top_home p {
+    #homeContentTop p {
         font-size: 1.5em;
     }
 
-    .riquadro h1 {
+    .homeWindowsRiquadro h1 {
         font-size: 2em;
     }
 
-    .riquadro h2 {
+    .homeWindowsRiquadro h2 {
         font-size: 1.8em;
     }
 
-    #titolo_vetrina {
-        margin-bottom: 0em; /* modifica massi */
+    .homeWindowsTitles {
+        margin-bottom: 0em;
         width: 60%;
         margin-left: 20%;
     }
 
-    #titolo_vetrina h1 {
+    .homeWindowsTitles h1 {
         font-size: 3em;
         margin-bottom: 1em;
         text-align: center;
     }
 
-    #vetrina {
+    .homeWindows {
         width: 100%;
+        margin: 0;
+        margin-top: 2em;
     }
 
-    #vetrina_home {
-        margin-top: 0em; /* modifica massi */
+    .homeWindowsTables {
         margin-left: 0;
         width: 100%;
     }
 
-    #titolo_promo {
-        width: 60%;
-        margin-left: 20%;
+    #imgVetrina {
+        padding-top: 2em;
+        padding-bottom: 0em;
     }
 
-    #titolo_promo h1 {
-        font-size: 3em;
-        margin-bottom: 1em;
-        text-align: center;
-        margin-top: 1em;
-    }
-
-    #promo {
-        width: 100%;
-        margin-left: 0;
-    }
-
-    #promo_home {
-        width: 100%;
-        margin-left: 0;
-    }
-
-    #titolo_novita {
-        width: 60%;
-        margin-left: 20%;
-    }
-
-    #titolo_novita h1 {
-        font-size: 3em;
-        margin-top: 1em;
-        margin-bottom: 1em;
-        text-align: center;
-    }
-
-    #novita {
-        width: 100%;
-        margin-left: 0;
-    }
-
-    #novita_home {
-        width: 100%;
-        margin-left: 0;
-    }
-
-    #titolo_bottom h1 {
+    #homeTitleBottom h1 {
         font-size: 3em;
     }
 
@@ -291,93 +196,54 @@ Media Query Mobile
         margin-top: 3.58em;
     }
 
-    #corpo_top_home p {
+    #homeContentTop p {
         font-size: 0.8em;
     }
 
-    .riquadro h1 {
+    .homeWindowsRiquadro h1 {
         font-size: 1em;
     }
 
-    .riquadro h2 {
+    .homeWindowsRiquadro h2 {
         font-size: 1em;
     }
 
-    #titolo_vetrina {
+    .homeWindowsTitles {
         width: 60%;
         margin-left: 20%;
     }
 
-    #titolo_vetrina h1 {
+    .homeWindowsTitles h1 {
         font-size: 1.5em;
         margin-top: 1em;
         text-align: center;
     }
 
-    #vetrina {
+    .homeWindows {
         width: 100%;
+        margin: 0;
     }
 
-    #vetrina_home {
+    .homeWindowsTables {
         margin-left: 0;
         width: 100%;
     }
 
-    #titolo_promo {
-        width: 60%;
-        margin-left: 20%;
-    }
-
-    #titolo_promo h1 {
-        font-size: 1.5em;
-        margin-bottom: 2em;
-        text-align: center;
-    }
-
-    #promo {
-        width: 100%;
-    }
-
-    #promo_home {
-        width: 100%;
-        margin-left: 0;
-    }
-
-    #titolo_novita {
-        width: 60%;
-        margin-left: 20%;
-    }
-
-    #titolo_novita h1 {
-        font-size: 1.5em;
-        margin-bottom: 2em;
-        text-align: center;
-    }
-
-    #novita {
-        width: 100%;
-    }
-
-    #novita_home {
-        width: 100%;
-        margin-left: 0;
-    }
-
-    #titolo_bottom {
+    #homeTitleBottom {
         font-size: 0.7em;
     }
 }
 
 @media only screen and (min-width: 956px) {
 
-    #titolo_bottom:after {
+    #homeTitleBottom:after {
         content: "";
         position: absolute;
         top: -3px;
         left: 20px;
     }
 
-    #titolo_bottom:after {
+    #homeTitleBottom:after {
         right: 20px;
         height: 3px;
         background-image: -webkit-gradient(linear, 0 0, 100% 0, from(transparent), to(#9E9E9E), to (transparent));
@@ -386,19 +252,19 @@ Media Query Mobile
         background-image: -o-linear-gradient(left, transparent, #9E9E9E, transparent);
     }
 
-    #titolo_bottom {
+    #homeTitleBottom {
         position: relative;
     }
 
-    #promo_home:before,
-    #promo_home:after {
+    .homeWindowsTable:before,
+    .homeWindowsTable:after {
         content: "";
         position: absolute;
         top: -3px;
         right: -3px;
     }
 
-    #promo_home:before {
+    .homeWindowsTable:before {
         bottom: -2px;
         width: 2px;
         background-image: -webkit-gradient(linear, 0 100%, 0 0, from(#9E9E9E), to(transparent));
@@ -407,7 +273,7 @@ Media Query Mobile
         background-image: -o-linear-gradient(#9E9E9E, transparent);
     }
 
-    #promo_home:after {
+    .homeWindowsTable:after {
         left: -2px;
         height: 2px;
         background-image: -webkit-gradient(linear, 0 0, 100% 0, from(transparent), to(#9E9E9E));
@@ -416,67 +282,8 @@ Media Query Mobile
         background-image: -o-linear-gradient(left, transparent, #9E9E9E);
     }
 
-    #novita_home:before,
-    #novita_home:after {
-        content: "";
-        position: absolute;
-        top: -3px;
-        right: -3px;
-    }
-
-    #novita_home:before {
-        bottom: -2px;
-        width: 2px;
-        background-image: -webkit-gradient(linear, 0 100%, 0 0, from(#9E9E9E), to(transparent));
-        background-image: -webkit-linear-gradient(#9E9E9E, transparent);
-        background-image: -moz-linear-gradient(#9E9E9E, transparent);
-        background-image: -o-linear-gradient(#9E9E9E, transparent);
-    }
-
-    #novita_home:after {
-        left: -2px;
-        height: 2px;
-        background-image: -webkit-gradient(linear, 0 0, 100% 0, from(transparent), to(#9E9E9E));
-        background-image: -webkit-linear-gradient(left, transparent, #9E9E9E);
-        background-image: -moz-linear-gradient(left, transparent, #9E9E9E);
-        background-image: -o-linear-gradient(left, transparent, #9E9E9E);
-    }
-
-    #vetrina_home:before,
-    #vetrina_home:after {
-        content: "";
-        position: absolute;
-        top: -3px;
-        right: -3px;
-    }
-
-    #vetrina_home:before {
-        bottom: -2px;
-        width: 2px;
-        background-image: -webkit-gradient(linear, 0 100%, 0 0, from(#9E9E9E), to(transparent));
-        background-image: -webkit-linear-gradient(#9E9E9E, transparent);
-        background-image: -moz-linear-gradient(#9E9E9E, transparent);
-        background-image: -o-linear-gradient(#9E9E9E, transparent);
-    }
-
-    #vetrina_home:after {
-        left: -2px;
-        height: 2px;
-        background-image: -webkit-gradient(linear, 0 0, 100% 0, from(transparent), to(#9E9E9E));
-        background-image: -webkit-linear-gradient(left, transparent, #9E9E9E);
-        background-image: -moz-linear-gradient(left, transparent, #9E9E9E);
-        background-image: -o-linear-gradient(left, transparent, #9E9E9E);
-    }
-
-    #vetrina_home {
+    .homeWindowsTable {
         position: relative;
     }
 
-    #novita_home {
-        position: relative;
-    }
-
-    #promo_home {
-        position: relative;
-    }
 }
