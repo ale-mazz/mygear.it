@@ -1,10 +1,8 @@
-/* inizio sezione pagina user */
-
-
 
 #userContainer{
     background-color: white;
-    padding: 0.5em 2em 2em 2em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
 }
 
 #userContainer h1 {
@@ -12,7 +10,9 @@
     color: #D32F2F;
     font-weight: bold;
     margin-top: 1em;
+    margin-left: 10%;
 }
+
 #userContainer h2 {
     font-size: 1.7em;
     color: #212121;
@@ -20,17 +20,22 @@
     padding-top: 0.5em;
     padding-bottom: 0.5em;
     margin-top: 1em;
+    margin-left: 10%;
 }
-.userFieldSet {
-    width: 100%;
+
+.userForm {
+    width: 80%;
+    margin-left: 10%;
 }
+
 .userInputLabel {
     float: left;
-    width: 20%;
-    margin-top: 0.2em;
+    clear: left;
+    width: 30%;
     font-size: 1.2896em;
     color: black;
 }
+
 .userInputField {
     float: left;
     width: 70%;
@@ -52,57 +57,40 @@
     background-color: #D32F2F;
     color: white;
     text-transform: uppercase;
+    margin-top: 0.5em;
 }
 .userSubmitButton:hover{
     background-color: #D32F2F;
 }
-#chooseProfilePhotoButton {
-    background: white;
+
+.userChoiceLabel {
+    font-size: 1.286em;
+}
+
+.userNewsLetterLabel {
+    float: left;
+    clear: left;
+    width: 100%;
+    font-size: 1.2896em;
     color: black;
-    clear: both;
-    padding: 0;
-    text-transform: uppercase;
+}
+
+#userLogoutButton {
+    padding: 0.5em;
     display: block;
     cursor: pointer;
     font-size: 1.2896em;
     border: none;
-}
-#saveProfilePhotoButton {
-    margin-top: 1em;
-    margin-bottom: 1em;
-}
-.userRadioFieldSet{
-    padding-bottom: 1em;
+    background-color: #D32F2F;
+    color: white;
+    text-transform: uppercase;
+    width: 10%;
+    float: right;
+    clear: left;
+    margin-right: 10%;
 }
 
-.userInputLegend {
-    font-size: 1.286em;
-    padding-bottom: 1em;
-}
-#userForm{
-    margin-bottom: 1.5em;
-}
-#userChoiceRow{
-    margin-left: 2em;
-    margin-top: 0.7em;
-}
-.userChoiceLabel {
-    font-size: 1.286em;
-}
-#adminResultsContainer{
-    width: 100%;
-    margin-top: 1em;
-    overflow: hidden;
-}
-.adminResultRow{
-    overflow: hidden;
-}
-.adminResultInfo{
-    font-size: 1.286em;
-    color: black;
-    width: 95%;
-    border-bottom: 1px solid black;
-    float: left;
-    padding-top: 0.5em;
+#userLogoutButton: hover{
+    background-color: #D32F2F;
 }
 
