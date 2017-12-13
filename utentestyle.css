@@ -1,0 +1,168 @@
+
+#userContainer{
+    background-color: white;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+#userContainer h1 {
+    font-size: 2.5em;
+    color: #D32F2F;
+    font-weight: bold;
+    margin-top: 1em;
+    margin-left: 10%;
+}
+
+#userContainer h2 {
+    font-size: 1.7em;
+    color: #212121;
+    font-weight: bold;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    margin-top: 1em;
+    margin-left: 10%;
+}
+
+.userForm {
+    width: 80%;
+    margin-left: 10%;
+}
+
+.userInputLabel {
+    float: left;
+    clear: left;
+    width: 30%;
+    font-size: 1.2896em;
+    color: black;
+}
+
+.userInputField {
+    float: left;
+    width: 70%;
+    margin-bottom: 1em;
+    padding: 0;
+    background-color: white;
+    border: 1px solid black;
+    box-sizing: border-box;
+    font-size: 1.2em;
+    color: black;
+}
+.userSubmitButton {
+    padding: 0.5em;
+    clear: both;
+    display: block;
+    cursor: pointer;
+    font-size: 1.2896em;
+    border: none;
+    background-color: #D32F2F;
+    color: white;
+    text-transform: uppercase;
+    margin-top: 0.5em;
+}
+.userSubmitButton:hover{
+    background-color: #D32F2F;
+}
+
+.userChoiceLabel {
+    font-size: 1.286em;
+}
+
+.userNewsLetterLabel {
+    float: left;
+    clear: left;
+    width: 100%;
+    font-size: 1.2896em;
+    color: black;
+}
+
+#userLogoutButton {
+    padding: 0.5em;
+    display: block;
+    cursor: pointer;
+    font-size: 1.2896em;
+    border: none;
+    background-color: #D32F2F;
+    color: white;
+    text-transform: uppercase;
+    width: 10%;
+    float: right;
+    clear: left;
+    margin-right: 10%;
+}
+
+#userLogoutButton: hover{
+    background-color: #D32F2F;
+}
+
+@media only screen and (max-width: 955px) {
+
+    #userContainer{
+        padding-top: 3em;
+    }
+
+    #userContainer h1 {
+        font-size: 2em;
+    }
+
+    #userContainer h2 {
+        font-size: 1.5em;
+    }
+
+    .userInputLabel {
+        font-size: 1em;
+    }
+
+    .userInputField {
+        font-size: 1em;
+    }
+
+    .userSubmitButton {
+        font-size: 1.5em;
+    }
+
+    .userNewsLetterLabel {
+        font-size: 1em;
+    }
+
+    #userLogoutButton {
+        font-size: 1.5em;
+        width: 30%;
+        margin-top: 2.5em;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+
+
+    #userContainer h1 {
+        font-size: 1.5em;
+    }
+
+    #userContainer h2 {
+        font-size: 1em;
+    }
+
+    .userInputLabel {
+        font-size: 0.7em;
+         width: 40%;
+    }
+
+    .userInputField {
+        font-size: 0.7em;
+         width: 60%;
+    }
+
+    .userSubmitButton {
+        font-size: 1em;
+    }
+
+    .userNewsLetterLabel {
+        font-size: 0.8em;
+    }
+
+    #userLogoutButton {
+        font-size: 1em;
+        width: 30%;
+        margin-top: 2.5em;
+    }
+}

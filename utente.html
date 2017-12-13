@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <title>MYGEAR</title>
+    <link rel="stylesheet" type="text/css" href="headerstyle.css">
+    <link rel="stylesheet" type="text/css" href="utentestyle.css">
+    <link rel="stylesheet" type="text/css" href="footerstyle.css">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lato" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="javascript/hamburger.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta charset="UTF-8">
+</head>
+
+<body>
+     <div id="container">
+        <header>
+            <button id="hamburger">&#9776;</button>
+            <a href="registrazione.html" id="buttonLogin">ACCEDI</a>
+            <img class="logo" src="immaginisito/mygear.png" alt="Logo del sito Mygear">
+            <div class="menu">
+                <ul>
+                    <li><a class="selected" href="home.html">HOME</a></li>
+                    <li><a class="hover" href="configurazioni.html">CONFIGURAZIONI</a></li>
+                    <li><a class="hover" href="catalogo.html">CATALOGO</a></li>
+                    <li><a class="hover" href="contatti.html">CONTATTI</a></li>
+                </ul>
+            </div>
+        </header>
+    </div>
+    <div id="drop_menu" class="menuClose">
+        <ul>
+            <li><a class="selected" href="home.html">HOME</a></li>
+            <li><a class="hover" href="configurazioni.html">CONFIGURAZIONI</a></li>
+            <li><a class="hover" href="catalogo.html">CATALOGO</a></li>
+            <li><a class="hover" href="contatti.html">CONTATTI</a></li>
+        </ul>
+    </div>
+
+<div id="userContainer">
+    <h1>Dati Utente</h1>
+    <h2>Dati Personali</h2>
+    <form class="userForm">
+
+            <label class="userInputLabel" id="usernameLabel" for="username" lang="en">Username</label>
+            <input class="userInputField" id="username" value="" type="text" name="user" title="Username" required="required" />
+
+            <label class="userInputLabel" id="emailLabel" for="email" lang="en">E-mail</label>
+            <input class="userInputField" id="email" value="" type="email" name="email" title="E-mail" required="required" readonly/>
+
+            <label class="userInputLabel" id="birthDateLabel" for="birthDate">Data di nascita</label>
+            <input class="userInputField" id="birth" value="" type="text" name="birth" title="Data di nascita"/>
+
+            <input class="userSubmitButton" id="personalInfoButton" type="submit" value="Salva modifiche">
+            <div class="messages" ></div>
+
+    </form>
+
+    <h2>Modifica <span lang="en">Password</span></h2>
+        <form class="userForm">
+            <label class="userInputLabel" id="oldPasswordLabel" for="oldPassword">Vecchia <span lang="en">password</span></label>
+            <input class="userInputField" id="oldPassword" type="password" name="oldPassword" required="required" />
+
+            <label class="userInputLabel" id="newPasswordLabel" for="newPassword">Nuova <span lang="en">password</span></label>
+            <input class="userInputField" id="newPassword" type="password" name="newPassword" required="required" />
+
+            <label class="userInputLabel" id="repeatPasswordLabel" for="repeatPassword">Ripeti <span lang="en">password</span></label>
+            <input class="userInputField" id="repeatPassword" type="password" name="repeatPassword" required="required" />
+
+            <input class="userSubmitButton" id="changePasswordButton" type="submit" value="Cambia password">
+            <div class="messages" ></div>
+        </form>
+
+    <h1>Contatti</h1>
+    <h2>Contatti <span lang="en">Social</span></h2>
+    <form class="userForm">
+            <label class="userInputLabel" id="facebookLabel" for="facebook" lang="en">Facebook</label>
+            <input class="userInputField" id="facebook" type="text" name="facebook"  value="">
+
+            <label class="userInputLabel" id="twitterLabel" for="twitter" lang="en">Twitter</label>
+            <input class="userInputField" id="twitter" type="text" name="twitter"  value="">
+
+            <label class="userInputLabel" id="instagramLabel" for="instagram" lang="en">Instagram</label>
+            <input class="userInputField" id="instagram" type="text" name="instagram"  value="">
+
+            <label class="userInputLabel" id="youtubeLabel" for="youtube" lang="en">Canale YouTube</label>
+            <input class="userInputField" id="youtube" type="text" name="youtube"  value="">
+
+            <input class="userSubmitButton" id="changeContactsButton" type="submit" value="salva modifiche">
+            <div class="messages"></div>
+    </form>
+
+    <h2>Notifiche<span lang="en">Newsletter</span></h2>
+    <form class="userForm">
+        <label class="userNewsLetterLabel">Desideri ricevere via <span lang="en">mail</span> le novità di MyGear?</label>
+        <input class="userChoice" id="yesMail" type="radio" name="mail" value="yes">
+        <label class="userChoiceLabel" id="yesMailLabel" for="yesMail">Sì</label>
+        <input class="userChoice" id="noMail" type="radio" name="mail" value="no" checked="checked">
+        <label class="userChoiceLabel" id="noMailLabel" for="noMail">No</label>
+        <input class="userSubmitButton" id="changeNewsButton" type="submit" value="salva modifiche">
+
+    </form>
+</div>
+
+    <form action="login.html">
+        <input id="userLogoutButton" id="logoutLabel" type="submit" value="Logout">
+    </form>
+
+<footer id="footer_top">
+        <div id="account_footer">
+            <div class="block_title">
+                <h1>Account</h1>
+            </div>
+            <ul>
+                <li> <a href="account.html">Registrati</a></li>
+                <li> <a href="recupero_password.html">Accedi</a></li>
+            </ul>
+        </div>
+        <div id="chi_siamo_footer">
+
+            <div class="block_title">
+                <h1>Chi Siamo</h1>
+            </div>
+            <p>
+                Mygear dal 2017 offre il meglio della componentistica Gaming Based e soluzioni pensate per chi vuole sempre il top!
+            </p>
+        </div>
+        <div id="support_footer">
+            <div class="block_title">
+                <h1>Supporto</h1>
+            </div>
+            <ul>
+                <li> <a href="contatti.html"> Contattaci </a> </li>
+                <li> <a href="faq.html"> F.A.Q. </a> </li>
+                <li> <a href="termini_condizioni.html"> Termini e Condizioni </a> </li>
+                <li> <a href="warranty.html"> Politica di Reso </a> </li>
+            </ul>
+        </div>
+        <div id="social_footer">
+            <div class="block_title">
+                <h1>Social</h1>
+            </div>
+            <h2>Seguici su:</h2>
+            <a href="https://www.facebook.com"><img class="loghi_social" src="immaginisito/loghisito/facebook.png"></a>
+            <a href="https://www.twitter.comk"><img img class="loghi_social" src="immaginisito/loghisito/twitter.png"></a>
+            <a href="https://www.instagram.com"><img img class="loghi_social" src="immaginisito/loghisito/instagram.png"></a>
+            <a href="https://www.youtube.com"><img img class="loghi_social" src="immaginisito/loghisito/yt.png"></a>
+        </div>
+    </footer>
+<footer id="footer_bottom">
+        <div id="diritti">
+            <p>© 2017 MY GEAR Inc.<br> Diritti riservati</p>
+        </div>
+        <div id="call_us">
+            <p>Chiamaci: 049 55678990<br> MY GEAR inc.</p>
+        </div>
+        <div id="luogo">
+            <p>Via Trieste 123, 30051<br> Padova, Italy</p>
+        </div>
+    </footer>
+</body>
+
+</html>
