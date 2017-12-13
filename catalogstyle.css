@@ -101,10 +101,17 @@ h2 0.87
 
     .riquadro_interno {
         position: static;
-        width: 80%;
+        width: 90%;
         float: none;
-        margin-left: 10%;
+        margin-left: 5%;
         padding: 0em;
+    }
+
+    .icona_categoria {
+        max-width: 70%;
+        margin-left: 4%;
+        margin-bottom: 1em;
+        margin: 2em;
     }
 }
 
