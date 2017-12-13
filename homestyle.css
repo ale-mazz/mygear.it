@@ -203,6 +203,7 @@ Corpo Home
     }
 
     #titolo_vetrina {
+        margin-bottom: 0em; /* modifica massi */
         width: 60%;
         margin-left: 20%;
     }
@@ -218,6 +219,7 @@ Corpo Home
     }
 
     #vetrina_home {
+        margin-top: 0em; /* modifica massi */
         margin-left: 0;
         width: 100%;
     }
