@@ -7,24 +7,65 @@
     padding-top: 2em;
 }
 
-.riquadri_contatti {
-    margin-top: 2em;
-    margin-bottom: 3em;
-    margin-left: 11.5%;
-    padding: 2%;
-    background-color: #424242;
-    width: 75%;
+.titolo_contatti {
+    padding-bottom: 0.5em;
+    border-bottom-style: solid;
+    border-bottom-color: #000000;
+    border-bottom-width: 0.1em;
+}
+
+#chi{
+    text-align: center;
+    padding: 3em 7% 5em 7% ;
+}
+
+#img_chi{
+    width: 5em;
+    float: left;
+    padding: 0.5em 8em 0em 10em;
+}
+
+#chi p {
+    margin: 1em 10em 0em 0em;
+
+}
+
+#dove {
     float:left;
-}
-
-.riquadri_contatti h1 {
     text-align: center;
-    color: white;
+    width: 40%;
+    margin-left: 7%;
+    margin-bottom: 2em;
 }
 
-.riquadri_contatti p {
+#come {
     text-align: center;
-    font-size: 1.2em;
-    color: white;
+    width: 40%;
+    margin-right: 7%;
+    float: right;
+    margin-bottom: 2em;
 }
 
+.img_dove_come{
+    float:left;
+    clear: right;
+    text-align: left;
+    width: 5em;
+    padding: 0.5em 2em 0em 2em;
+}
+
+h1{
+    font-size: 2em;
+}
+
+h2{
+    font-size: 1.3em;
+}
+
+#dove p{
+    margin-top: 1em;
+}
+
+#come p{
+    margin-top: 0.3em;
+}
