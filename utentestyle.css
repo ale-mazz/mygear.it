@@ -94,3 +94,75 @@
     background-color: #D32F2F;
 }
 
+@media only screen and (max-width: 955px) {
+
+    #userContainer{
+        padding-top: 3em;
+    }
+
+    #userContainer h1 {
+        font-size: 2em;
+    }
+
+    #userContainer h2 {
+        font-size: 1.5em;
+    }
+
+    .userInputLabel {
+        font-size: 1em;
+    }
+
+    .userInputField {
+        font-size: 1em;
+    }
+
+    .userSubmitButton {
+        font-size: 1.5em;
+    }
+
+    .userNewsLetterLabel {
+        font-size: 1em;
+    }
+
+    #userLogoutButton {
+        font-size: 1.5em;
+        width: 30%;
+        margin-top: 2.5em;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+
+
+    #userContainer h1 {
+        font-size: 1.5em;
+    }
+
+    #userContainer h2 {
+        font-size: 1em;
+    }
+
+    .userInputLabel {
+        font-size: 0.7em;
+         width: 40%;
+    }
+
+    .userInputField {
+        font-size: 0.7em;
+         width: 60%;
+    }
+
+    .userSubmitButton {
+        font-size: 1em;
+    }
+
+    .userNewsLetterLabel {
+        font-size: 0.8em;
+    }
+
+    #userLogoutButton {
+        font-size: 1em;
+        width: 30%;
+        margin-top: 2.5em;
+    }
+}
