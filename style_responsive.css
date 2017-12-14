@@ -237,7 +237,7 @@ Media Query Header & Menu
 Footer Top
 ********************************************************************************/
 
-#footer_top {
+#footerTop {
     float:left;
     margin-top: 2em;
     background-color: #212121;
@@ -250,60 +250,60 @@ Footer Top
     border-right: none;
 }
 
-#footer_top ul {
+#footerTop ul {
 	list-style-type:none;
     padding-top: 0.5em;
 }
 
-#footer_top ul li{
+#footerTop ul li{
 	padding-top: 0.5em;
 	padding-bottom: 0.5em;
 }
 
-#footer_top a {
+#footerTop a {
     text-decoration: none;
     color: #FAFAFA;
 }
 
-#footer_top a:hover {
+#footerTop a:hover {
     color: #D50000;
 }
 
-#footer_top h1 {
+#footerTop h1 {
     color: #FAFAFA;
     margin-bottom: 0.2em;
     font-size: 1em;
 }
 
-.block_title {
+.footerTopBlockTitle {
     padding-bottom: 0.5em;
     padding-top: 0.5em;
     border-bottom-style: solid;
     border-bottom-color: #FAFAFA;
     border-bottom-width: 0.1em;
 }
-#account_footer {
+#footerTopAccount {
     width: 20%;
     padding: 0.5em;
     float: left;
     margin-left: 3.25%;
 }
 
-#chi_siamo_footer {
+#footerTopChiSiamo {
     width: 20%;
     padding: 0.5em;
     float: left;
     margin-left: 3%;
 }
 
-#support_footer {
+#footerTopSupport {
     width: 20%;
     padding: 0.5em;
     float: left;
     margin-left: 3%;
 }
 
-#social_footer {
+#footerTopSocial {
     width: 20%;
     padding: 0.5em;
     float: left;
@@ -311,14 +311,14 @@ Footer Top
     margin-right: 3.25%;
 }
 
-#social_footer h2 {
+#footerTopSocial h2 {
     margin-bottom: 0.5em;
     margin-top: 1em;
     font-size: 1em;
     font-weight: normal;
 }
 
-.loghi_social {
+.footerTopLoghiSocial {
     width: 3em;
     float:left;
     padding: 1em;
@@ -328,30 +328,30 @@ Footer Top
  Footer Bottom
 *******************************************************************/
 
-#footer_bottom {
+#footerBottom {
     color:#212121;
     text-align: left;
 }
 
-#footer_bottom p {
+#footerBottom p {
     font-size: 0.8em;
     padding: 0.8em;
 }
 
-#diritti {
+#footerBottomDiritti {
     width: 15%;
     float: left;
     margin-left: 20%;
 }
 
-#call_us {
+#footerBottomCallUs {
     width: 15%;
     margin-left: 8%;
     margin-right: 8%;
     float: left;
 }
 
-#luogo {
+#footerBottomLuogo {
     width: 15%;
     float: left;
     margin-right: 19%;
@@ -368,56 +368,56 @@ p {
 
 @media only screen and (max-width: 1000px) {
 
-    #footer_top {
+    #footerTop {
         font-size: 2em;
     }
 
-    #account_footer {
+    #footerTopAccount {
         width: 80%;
         margin-left: 10%;
         padding: 0.5em;
     }
 
-    #chi_siamo_footer {
+    #footerTopChiSiamo {
         width: 80%;
         margin-left: 10%;
         padding: 0.5em;
     }
 
-    #support_footer {
+    #footerTopSupport {
         width: 80%;
         margin-left: 10%;
         padding: 0.5em;
     }
 
-    #social_footer {
+    #footerTopSocial {
         width: 80%;
         margin-left: 10%;
         padding: 0.5em;
     }
 
-    #social_footer img {
+    #footerTopSocial img {
         width: 2em;
         padding: 0.8em;
     }
 
-    #footer_bottom {
+    #footerBottom {
         font-size: 1.5em;
         margin-bottom: 1em;
     }
 
-    #diritti {
+    #footerBottomDiritti {
         width: 20%;
         margin-left: 15%;
     }
 
-    #call_us {
+    #footerBottomCallUs {
         width: 20%;
         margin-left: 5%;
         margin-right: 5%;
     }
 
-    #luogo {
+    #footerBottomLuogo {
         width: 20%;
         margin-right: 6%;
     }
@@ -463,7 +463,7 @@ Corpo home
     padding-bottom: 0.5em;
 }
 
-.block_title_home {
+.footerTopBlockTitle_home {
     border-color: #000000;
     border-bottom-style: solid;
     border-bottom-width: 0.1em;
