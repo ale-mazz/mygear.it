@@ -28,12 +28,12 @@ Corpo Home
     float: left;
     width: 30%;
     margin-left: 2.5%;
+
 }
 
 .homeWindowsTitles {
-    width: 40%;
-    float: left;
-    margin-left: 30%;
+    width: 10%;
+    margin-left: 45%;
 }
 
 .homeWindowsTitles h1 {
@@ -163,8 +163,8 @@ Corpo Home
         margin-top: 2em;
     }
 
-    .homeWindowsTables {
-        margin-left: 0;
+    .homeWindowsTable {
+        margin: 0;
         width: 100%;
     }
 
@@ -260,6 +260,7 @@ Media Query Mobile
         position: relative;
     }
 
+
     .homeWindowsTable:before,
     .homeWindowsTable:after {
         content: "";
@@ -286,8 +287,9 @@ Media Query Mobile
         background-image: -o-linear-gradient(left, transparent, #9E9E9E);
     }
 
-    .homeWindowsTable {
+     .homeWindowsTable {
         position: relative;
     }
+
 
 }
