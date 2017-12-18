@@ -28,7 +28,7 @@
 }
 */
 
-.configImg{
+.configImg {
     width: 40%;
     float: left;
 }
@@ -95,16 +95,23 @@
     font-size: 2em;
 }
 
-.configContainer1 {
-    width: 25%;
+.configContainer {
+    width: 30%;
     float: left;
-    clear: left;
-    margin-left: 5%;
+    margin-left: 2.5%;
     background-color: white;
     padding-top: 1em;
     font-size: 1.2em;
 }
 
+.configContainer h1 {
+    font-size: 0.8em;
+    padding-bottom: 0.3em;
+    color: #000000;
+    text-align: left;
+}
+
+/* confiContainer
 .configContainer2 {
     width: 25%;
     float: left;
@@ -121,14 +128,9 @@
     background-color: white;
     padding-top: 1em;
     font-size: 1.2em;
-}
+} */
 
-.configContainer1 h1 {
-    font-size: 0.8em;
-    color: #000000;
-    text-align: left;
-}
-
+/* configContainer h1
 .configContainer2 h1 {
     font-size: 0.8em;
     color: #000000;
@@ -140,7 +142,7 @@
     color: #000000;
     text-align: left;
 }
-
+*/
 .configContainerSections {
     width: 100%;
     height: 1.5em;
@@ -165,29 +167,22 @@
 
     }
 
-    #configConfigurazione1 img {
-        width: 50%;
-        margin: 2% 25% 2% 25%;
 
-    }
+        .configImg{
+            width: 100%;
+            float: none;
+        }
 
-    #configConfigurazione2 img {
-        width: 50%;
-        margin: 2% 25% 2% 25%;
-
-    }
-
-    #configConfigurazione3 img {
-        width: 50%;
-        margin: 2% 25% 2% 25%;
-
-    }
+        .configImg img {
+            max-width: 90%;
+            margin: 5%;
+        }
 
     .configDescription {
-        float: left;
-        clear: left;
-        margin: 2% 6% 2% 6%;
-        width: 80%;
+        float: none;
+        clear: none;
+        margin: 0%;
+        width: 90%;
     }
 
     .configConfigurazioniTop p {
@@ -241,82 +236,65 @@
     @media only screen and (max-width: 767px) {
 
 
-    #configTitle h1 {
-        font-size: 1em;
-        padding-top: 5em;
+        #configTitle h1 {
+            font-size: 1em;
+            padding-top: 5em;
 
-    }
+        }
 
-    #configConfigurazione1 img {
-        width: 50%;
-        margin: 2% 25% 2% 25%;
-
-    }
-
-    #configConfigurazione2 img {
-        width: 50%;
-        margin: 2% 25% 2% 25%;
-
-    }
-
-    #configConfigurazione3 img {
-        width: 50%;
-        margin: 2% 25% 2% 25%;
-
-    }
 
     .configDescription {
-        float: left;
-        clear: left;
-        margin: 2% 6% 2% 6%;
-        width: 70%;
+        float: none;
+        clear: none;
+        margin: 0%;
+        width: 80%;
     }
 
-    .configConfigurazioniTop p {
-        font-size: 0.8em;
-    }
+        .configConfigurazioniTop p {
+            font-size: 0.8em;
+        }
 
-    .configConfigurazioniTop h1 {
-        font-size: 1.5em;
-    }
+        .configConfigurazioniTop h1 {
+            font-size: 1.5em;
+        }
 
-    .configConfigurazioniTop h2 {
-    font-size: 1em;
-    }
+        .configConfigurazioniTop h2 {
+            font-size: 1em;
+        }
 
-    .configSpecification h1 {
-    font-size: 1.2em;
-    }
+        .configSpecification h1 {
+            font-size: 1.2em;
+        }
 
-    .configContainerSections {
-        height: 2em;
-    }
+        .configContainerSections {
+            height: 2em;
+        }
 
-    .configContainerSections p {
-        font-size: 0.5em;
-    }
+        .configContainerSections p {
+            font-size: 0.5em;
+        }
 
-    .configContainer1 {
-        margin-bottom: 2em;
-    }
-    .configContainer2 {
-        margin-bottom: 2em;
-    }
+        .configContainer1 {
+            margin-bottom: 2em;
+        }
+        .configContainer2 {
+            margin-bottom: 2em;
+        }
 
-    .configContainer3 {
-        margin-bottom: 2em;
-    }
+        .configContainer3 {
+            margin-bottom: 2em;
+        }
 
-    .configContainer1 h1 {
-        font-size: 0.5em;
-    }
+        .configContainer1 h1 {
+            font-size: 0.5em;
+        }
 
-    .configContainer2 h1 {
-        font-size: 0.5em;
-    }
+        .configContainer2 h1 {
+            font-size: 0.5em;
+        }
 
-    .configContainer3 h1 {
-        font-size: 0.5em;
-    }
+        .configContainer3 h1 {
+            font-size: 0.5em;
+        }
 
-}
+    }
