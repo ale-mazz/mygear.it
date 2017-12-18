@@ -4,17 +4,21 @@
     margin-bottom: 2em;
 }
 
+.configConfigurazioniTop {
+    width: 100%;
+    float: left;
+    text-align: center;
+    background-color: #424242;
+    padding: 5%;
+}
+
 #configTitle h1 {
     font-size: 2em;
     text-align: center;
     color: #000000;
 }
 
-#configConfigurazione1 {
-    width: 100%;
-    background-color: white;
-}
-
+/* -- OLD CODE -- *
 #configConfigurazione1 img {
     float: left;
     clear: left;
@@ -22,45 +26,38 @@
     padding-top: 3%;
     margin-left: 8%;
 }
+*/
 
-#configConfigurazione2 {
-    width: 100%;
-    background-color: white;
-}
-
-#configConfigurazione2 img {
+.configImg{
+    width: 40%;
     float: left;
-    clear: left;
-    width: 30%;
-    padding-top: 3%;
-    margin-left: 8%;
 }
 
-#configConfigurazione3 {
-    width: 100%;
-    background-color: white;
-}
-
-#configConfigurazione3 img {
-    float: left;
-    clear: left;
-    width: 27%;
-    padding-top: 3%;
-    margin-left: 10%;
-}
-
-.configConfigurazioniTop {
-    width: 100%;
-    float: left;
-    background-color: #424242;
+.configImg img {
+    max-width: 70%;
+    margin: 5%;
 }
 
 .configDescription {
-    float: right;
-    margin: 2%;
-    width: 50%;
+    float: left;
     background-color: #212121;
     padding: 2em;
+    width: 52%;
+}
+
+#configConfigurazione1 {
+    width: 90%;
+    background-color: white;
+}
+
+#configConfigurazione2 {
+    width: 90%;
+    background-color: white;
+}
+
+#configConfigurazione3 {
+    width: 90%;
+    background-color: white;
 }
 
 .configConfigurazioniTop p {
