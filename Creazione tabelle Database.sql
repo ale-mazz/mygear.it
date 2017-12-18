@@ -136,8 +136,36 @@ VALUES ('017', 'Corsair Vengeance RGB LED DDR4, 3.333 MHz, C16 - Kit 32GB (4x 8G
 ('021', 'Corsair Vengeance LPX DDR4 PC4-33000, 4.133 MHz, C19, Rosso - Kit 8GB (2x 4GB)', 'memorie 1,35V a 4.133MHz da Corsair serie Vengeance LPX con timing CL 19-25-25-45 e dissipatore Corsair Vengeance Airflow', '179,90'),
 ('022', 'Corsair Vengeance LPX DDR4 PC4-35200, 4.400 MHz, C19, Rosso - Kit 16GB (2x 8GB)', 'memorie 1,4V a 4.400MHz da Corsair serie Vengeance LPX con timing CL 19-23-23-45 e dissipatore Corsair Vengeance Airflow', '399,90');
 
+INSERT INTO monitor (`Codice_prodotto`, `Nome`, `Descrizione`, `Prezzo`)
+VALUES ('017', 'Asus MG248QR, 60,96 cm (24 pollici), FreeSync, 144 Hz, TN - DP, HDMI', 'monitor Full HD con pannello TN da Asus con tempo di risposta 1 ms, 144hz di refresh e tecnologia ASUS Ultra Low Blue Light', '349,90'),
+('018', 'Asus MG278Q, 68,58 cm (27 pollici), 144Hz Widescreen, FreeSync - DP', 'monitor 27 pollici da Asus con tempo di risposta 4 ms, AMD Adaptive Sync, 144 Hz e pannello TN', '569,90'),
+('019', 'Asus MG279Q, 68,58 cm (27 pollici), 144Hz Widescreen, FreeSync - DP', 'monitor 27 pollici da Asus con tempo di risposta 4 ms, AMD Adaptive Sync, 144 Hz e pannello IPS', '669,90'),
+('020', 'Asus MX27AQ, 68,58 cm (27 pollici) Widescreen - DP, HDMI', 'monitor 27 pollici ultra flat da ASUS con risoluzione WQHD 2.560 x 1.440 pixel, tecnologia AH-IPS e speaker da 3W', '449,90'),
+('021', 'ASUS PA328Q, 81,28 cm (32 pollici), 4K/UHD Widescreen - DP, HDMI', 'monitor Ultra-HD 32 pollici professionale da ASUS con pannello IPS 10-Bit, 100% sRGB, Displayport & HDMI 2.0', '1279,90'),
+('022', 'Asus ROG Swift PG348Q, 86,7 cm (34 Pollici) G-SYNC Widescreen - DP, HDMI', 'monitor UWHD con tecnologia G-SYNC da Asus con tempo di risposta 4 ms, 100hz refresh & pannello IPS da 34 pollici', '1199,90');
+
+INSERT INTO mouse_tastiere (`Codice_prodotto`, `Nome`, `Descrizione`, `Prezzo`)
+VALUES ('017', 'Trust Gaming GXT 155 Gaming Mouse - Nero', 'mouse da gioco Elite, con pesi integrati personalizzabili e memoria interna per profili programmabili', '49,90'),
+('018', 'Corsair Gaming GLAIVE RGB Gaming Mouse, 16000 DPI - Alluminio', 'mouse gaming da Corsair con sensore laser da 16.000 DPI, struttura in alluminio e componenti intercambiabili', '69,90'),
+('019', 'Cooler Master MasterMouse MM520, 12000 DPI, RGB, Claw Grip', 'mouse pro gaming da Cooler Master con 7 tasti, sensore ottico da 12.000 DPI, 512 KB memoria integrata ed illuminazione RGB', '69,90'),
+('020', 'Corsair Gaming STRAFE RGB, Cherry MX Silent - Layout ITA', 'tastiera meccanica pro gamer da Corsair con kit tasti antiscivolo, retroilluminazione RGB e switch Cherry MX Silent', '149,90'),
+('021', 'Logitech Wireless Desktop MK710', 'bundle con tastiera e mouse Logitech, tecnologia Wireless e alta qualità per durare nel tempo', '99,90'),
+('022', 'Razer Turret - Layout US', 'bundle Razer con mouse Gaming e LapBoard da divano', '179,90');
+
+INSERT INTO case_pc (`Codice_prodotto`, `Nome`, `Descrizione`, `Prezzo`)
+VALUES ('017', 'Corsair Graphite 780T - Nero', 'nuovo connubio di design e funzionalità da Corsair con nuovi elementi della serie Graphite in versione Full Tower', '189,90'),
+('018', 'Corsair Crystal 570X RGB in Vetro Temperato - Rosso con Finestra', 'case gamer da Corsair con 7 slot PCI, supporto per radiatori da 360/240mm, finestra in vetro temprato e ventole RGB', '209,90'),
+('019', 'Cooler Master Cosmos C700P, TG - Nero/Argento con Finestra', 'edizione rinnovata della serie Cosmos da Cooler Master con design sportivo, paratie in vetro temperato ed illuminazione RGB', '289,90'),
+('020', 'Cooler Master Cosmos II RC-1200-KKN1 - Nero', 'nuovo Cosmos II da Cooler Master con design sportivo, ottimizzazione dei flussi d''aria interni e pannello di controllo avanzato', '399,90'),
+('021', 'Aerocool P7-C1-BG - Nero con Finestra in Vetro Temperato', 'case con design esagonale da Aerocool con illuminazione personalizzabile e finestra laterale in vetro temperato', '119,90'),
+('022', 'Hydra Desk HD-DSK-001 Desk Case - Nero', 'ultimate desktop per pro gamers da Hydra 100% alluminio con amplia espandibilità e predisposizione per liquido, 100% made in Italy', '1109,90');
 
 
-
-
+INSERT INTO raffreddamento (`Codice_prodotto`, `Nome`, `Descrizione`, `Prezzo`)
+VALUES ('017', 'Corsair Hydro Series H80i v2 Extreme Performance Liquid CPU Cooler', 'sistema a liquido da Corsair a circuito chiuso con radiatore da 120mm e doppia ventola SP120L PWM ad alta silenziosità', '104,90'),
+('018', 'Enermax LiqTech TR4 240 Watercooling AIO - 240 mm', 'sistema a liquido da Enermax a circuito chiuso con radiatore da 240mm e doppia ventola PWM per processori AMD TR4 ThreadRipper', '149,90'),
+('019', 'Thermaltake Floe Riing RGB TT Premium Edition AIO - 240mm', 'dissipatore AIO da Thermaltake con ventole RGB e radiatore da 240mm', '169,90'),
+('020', 'Cooler Master MasterFan Pro 140 Air Flow RGB - 140 mm', 'ventola LED RGB compatibile con varie tecnologie tra cui ASUS Aura, Gigabyte RGB Fusion, 500-800 RPM, 53 CFM, 0.54 mmH2O', '29,90'),
+('021', 'Aerocool Lighting ventola 140mm - Blu', 'ventola con 11 pale trasperenti e LED luminosi da Aerocool', '19,90'),
+('022', 'Aerocool Lighting ventola 140mm - Rosso', 'ventola con 11 pale trasperenti e LED luminosi da Aerocool', '79,90');
 
