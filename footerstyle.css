@@ -56,7 +56,7 @@
 .footerTopContainer {
     width: 30%;
     float: left;
-    margin-left: 3.33%;
+    margin-left: 2.5%;
 }
 
 #footerTopSocial h2 {
@@ -67,15 +67,14 @@
 }
 
 .footerTopLoghiSocial {
-    width: 15%;
+    width: 10%;
     float: left;
-    padding: 2% 5% 4% 5%;
+    padding: 2% 5% 3% 5%
 }
 
 .footerTopLoghiSocial:hover {
-    width: 20%;
-    padding: 2% 2.5% 0.5% 2.5%;
-    float: left;
+    width: 12%;
+    padding: 1% 4% 2% 4%;
 }
 
 /*******************************************************************
@@ -145,14 +144,29 @@
         font-size: 2em;
     }
 
-    .footerTopBlockTitle{
-        padding: 0em;
+    #footerTop a {
+        font-size: 1.3em;
+    }
+
+    #footerTop a:hover {
+        font-size: 1.5em;
+        color: red;
+    }
+
+    .footerTopContainer {
+        width: 46.25%;
+        float: left;
+        margin-left: 2.5%;
     }
 
     #footerTopChiSiamo {
-        width: 86%;
-        margin-left: 7%;
-        padding-top: 0.5em;
+        width: 95%;
+        float: left;
+        margin-left: 2.5%;
+    }
+
+    .footerTopBlockTitle{
+        padding: 0em;
     }
 
     #footerTopChiSiamo p{
@@ -160,34 +174,22 @@
         padding-top: 0em;
     }
 
-    #footerTopSupport {
-        width: 40%;
-        padding: 0em;
-        margin-left: 7%;
-        float: left;
-    }
-
-    #footerTopAccount {
-        width: 40%;
-        padding: 0em;
-        margin: 0%;
-        margin-left: 6%;
-    }
-
-    #footerTopSocial {
-        width: 86%;
-        margin-left: 7%;
-        padding: 0em;
-    }
-
     #footerTopSocial h2 {
         display: none;
     }
 
-    .footerTopLoghiSocial{
-        width: 10%;
-        margin-left: 7%;
-    }
+
+.footerTopLoghiSocial {
+    width: 10%;
+    float: left;
+    padding: 2% 5% 3% 5%;
+}
+
+.footerTopLoghiSocial:hover {
+    width: 10%;
+    float: left;
+    padding: 2% 5% 3% 5%;
+}
 
     #footerBottom {
         font-size: 1.5em;
