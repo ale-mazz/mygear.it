@@ -137,10 +137,6 @@
         font-size: 1.2em;
     }
 
-    #footerTop ul li {
-        padding-top: 0em;
-    }
-
     #footerTop a:hover {
         font-size: 1.2em;
     }
@@ -157,13 +153,9 @@
         margin-left: 2.5%;
     }
 
-    .footerTopBlockTitle {
-        padding: 0em;
-    }
-
     #footerTopChiSiamo p {
         font-size: 1em;
-        padding-top: 0em;
+        padding: 0.5em 0.5em 0.5em 0.5em;
     }
 
     #footerTopSocial h2 {
@@ -172,9 +164,9 @@
 
     .footerTopLoghiSocial,
     .footerTopLoghiSocial:hover {
-        width: 15%;
+        width: 17%;
         float: left;
-        padding: 4% 17.5% 4% 17.5%;
+        padding: 2% 16.5% 3% 16.5%;
     }
 
 
@@ -194,6 +186,13 @@ Media Query Mobile
         font-size: 0.5em;
     }
 
+    #footerTop a {
+        font-size: 1.2em;
+    }
+
+    #footerTop a:hover {
+        font-size: 1.5em;
+    }
 
     #footerBottom {
         padding: 0.5%;
