@@ -3,12 +3,12 @@
 
 <head>
     <title>MYGEAR</title>
-    <link rel="stylesheet" type="text/css" href="headerstyle.css">
-    <link rel="stylesheet" type="text/css" href="footerstyle.css">
+    <link rel="stylesheet" type="text/css" href="../header/headerstyle.css">
+    <link rel="stylesheet" type="text/css" href="../footer/footerstyle.css">
     <link rel="stylesheet" type="text/css" href="configstyle.css">
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lato" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="javascript/hamburger.js"></script>
+    <script src="../js/hamburger.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <meta charset="UTF-8">
 </head>
@@ -18,33 +18,36 @@
         <header>
             <button id="hamburger">&#9776;</button>
             <a href="registrazione.html" id="buttonLogin">ACCEDI</a>
-            <img class="logo" src="immaginisito/mygear.png" alt="Logo del sito Mygear">
+            <img class="logo" src="../images/mygear.png" alt="Logo del sito Mygear">
             <div class="menu">
                 <ul>
-                    <li><a class="hover" href="home.html">HOME</a></li>
-                    <li><a class="selected" href="configurazioni.html">CONFIGURAZIONI</a></li>
-                    <li><a class="hover" href="catalogo.html">CATALOGO</a></li>
-                    <li><a class="hover" href="contatti.html">CONTATTI</a></li>
+                    <li><a class="hover" href="../home.html">HOME</a></li>
+                    <li><a class="selected" href="../configs/configurazioni.html">CONFIGURAZIONI</a></li>
+                    <li><a class="hover" href="../catalog/catalogo.html">CATALOGO</a></li>
+                    <li><a class="hover" href="../contacts/contatti.html">CONTATTI</a></li>
                 </ul>
             </div>
         </header>
     </div>
     <div id="drop_menu" class="menuClose">
         <ul>
-            <li><a class="hover" href="home.html">HOME</a></li>
-            <li><a class="selected" href="configurazioni.html">CONFIGURAZIONI</a></li>
-            <li><a class="hover" href="catalogo.html">CATALOGO</a></li>
-            <li><a class="hover" href="contatti.html">CONTATTI</a></li>
+            <li><a class="hover" href="../home.html">HOME</a></li>
+            <li><a class="selected" href="../configs/configurazioni.html">CONFIGURAZIONI</a></li>
+            <li><a class="hover" href="../catalog/catalogo.html">CATALOGO</a></li>
+            <li><a class="hover" href="../contacts/contatti.html">CONTATTI</a></li>
         </ul>
     </div>
     <div id="configTitle">
         <h1>LE NOSTRE CONFIGURAZIONI</h1>
     </div>
+    <div>
+        <a href="#drift">DRIFT</a>
+    </div>
     <!-- Configurazione 1 -->
     <div id="configConfigurazione1">
         <div class="configConfigurazioniTop">
             <div class="configImg">
-                <img src="immaginisito/hero.png">
+                <img src="../images/hero.png">
             </div>
             <div class="configDescription">
                 <h1>RUSH</h1>
@@ -56,6 +59,7 @@
         </div>
         <div class="configSpecification">
             <h1>SPECIFICHE</h1>
+        </div>
         <div class="configContainer">
             <h1>PROCESSORE</h1>
             <div class="configContainerSections">
@@ -117,13 +121,13 @@
                 </p>
             </div>
         </div>
-        </div>
+
     </div>
     <!-- Configurazione 2 -->
-    <div id="configConfigurazione2">
+    <a name="drift"><div id="configConfigurazione2"></a>
         <div class="configConfigurazioniTop">
            <div class="configImg">
-            <img src="immaginisito/drift.png">
+            <img src="../images/drift.png">
             </div>
             <div class="configDescription">
                 <h1>DRIFT</h1>
@@ -201,7 +205,7 @@
     <div id="configConfigurazione3">
         <div class="configConfigurazioniTop">
            <div class="configImg">
-            <img src="immaginisito/hero2.png">
+            <img src="../images/hero2.png">
             </div>
             <div class="configDescription">
                 <h1>VYBE</h1>
