@@ -95,15 +95,12 @@
     margin-top: 0.5em;
 }
 
-#footerBottom {
-    padding-left: 20%;
-    padding-right: 20%;
-}
-
 .footerBottomContainer {
     text-align: center;
     width: 20%;
     float: left;
+    margin-left: 10%;
+
 }
 
 

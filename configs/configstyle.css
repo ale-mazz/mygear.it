@@ -6,12 +6,33 @@
 
 #configIndex {
     width: 100%;
-    margin-bottom: 2em;
-    background-color: #424242;
+}
+
+#configIndex h1{
+    color: white;
+    font-size: 1.5em;
+}
+
+#configIndex a {
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+}
+
+#configIndex a:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+
 }
 
 .configIndexOptions {
-    width: 32.5%;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    width: 33.3%;
+    float: left;
+    background-color: #212121;
+    text-align: center;
 }
 
 .configConfigurazioniTop {
@@ -19,6 +40,7 @@
     float: left;
     background-color: #424242;
     padding: 3%;
+    margin-top: 2em;
 
 }
 
@@ -43,21 +65,6 @@
     background-color: #212121;
     padding: 2em;
     width: 52%;
-}
-
-#configConfigurazione1 {
-    width: 100%;
-    background-color: white;
-}
-
-#configConfigurazione2 {
-    width: 100%;
-    background-color: white;
-}
-
-#configConfigurazione3 {
-    width: 100%;
-    background-color: white;
 }
 
 .configConfigurazioniTop p {
