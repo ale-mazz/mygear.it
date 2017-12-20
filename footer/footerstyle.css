@@ -1,8 +1,9 @@
 /********************************************************************************
     Footer Top
 ********************************************************************************/
+
 #footerTop {
-    float:left;
+    float: left;
     margin-top: 3em;
     background-color: #212121;
     width: 100%;
@@ -15,24 +16,24 @@
 }
 
 #footerTop ul {
-	list-style-type:none;
+    list-style-type: none;
     padding-left: 0;
 }
 
-#footerTop ul li{
-	padding-top: 0.5em;
-	padding-bottom: 0.5em;
+#footerTop ul li {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
 }
 
 #footerTop a {
     text-decoration: none;
-    color: #FAFAFA;
-    font-size: 1.2em;
+    color: #D32F2F;
+    font-size: 1.3em;
 }
 
 #footerTop a:hover {
-    color: #D50000;
-    font-size: 1.4em;
+    color: #D32F2F;
+    font-size: 1.6em;
 }
 
 #footerTop h1 {
@@ -48,7 +49,7 @@
     border-bottom-width: 0.1em;
 }
 
-#footerTopChiSiamo p{
+#footerTopChiSiamo p {
     font-size: 1.2em;
     padding-top: 0.5em;
 }
@@ -85,7 +86,7 @@
     float: left;
     clear: left;
     width: 100%;
-    color:#212121;
+    color: #212121;
     text-align: left;
 }
 
@@ -94,45 +95,30 @@
     margin-top: 0.5em;
 }
 
-#footerBottomDiritti {
-    width: 15%;
+.footerBottomContainer {
+    text-align: center;
+    width: 20%;
     float: left;
-    margin-left: 20%;
-}
-
-#footerBottomCallUs {
-    width: 15%;
-    margin-left: 8%;
-    margin-right: 8%;
-    float: left;
-}
-
-#footerBottomLuogo {
-    width: 15%;
-    float: left;
-    margin-right: 19%;
+    margin-left: 10%;
 
 }
 
-    .footerTopContainer h1{
-        padding-left: 0.5em;
-    }
 
-    .footerTopContainer h2{
-        padding-left: 0.5em;
-    }
+.footerTopContainer h1 {
+    padding-left: 0.5em;
+}
 
-    .footerTopContainer p{
-        padding-left: 0.5em;
-    }
+.footerTopContainer h2 {
+    padding-left: 0.5em;
+}
 
-    #footerTopSupport a{
-        padding-left: 0.5em;
-    }
+.footerTopContainer p {
+    padding-left: 0.5em;
+}
 
-    #footerTopAccount a{
-        padding-left: 0.5em;
-    }
+#footerTopAccount a {
+    padding-left: 0.5em;
+}
 
 /******************************************************************
  Media Query Footer
@@ -145,12 +131,11 @@
     }
 
     #footerTop a {
-        font-size: 1.3em;
+        font-size: 1.2em;
     }
 
     #footerTop a:hover {
-        font-size: 1.5em;
-        color: red;
+        font-size: 1.2em;
     }
 
     .footerTopContainer {
@@ -165,58 +150,29 @@
         margin-left: 2.5%;
     }
 
-    .footerTopBlockTitle{
-        padding: 0em;
-    }
-
-    #footerTopChiSiamo p{
+    #footerTopChiSiamo p {
         font-size: 1em;
-        padding-top: 0em;
+        padding: 0.5em 0.5em 0.5em 0.5em;
     }
 
     #footerTopSocial h2 {
         display: none;
     }
 
-
-.footerTopLoghiSocial {
-    width: 10%;
-    float: left;
-    padding: 2% 5% 3% 5%;
-}
-
-.footerTopLoghiSocial:hover {
-    width: 10%;
-    float: left;
-    padding: 2% 5% 3% 5%;
-}
-
-    #footerBottom {
-        font-size: 1.5em;
-        margin-bottom: 1em;
+    .footerTopLoghiSocial,
+    .footerTopLoghiSocial:hover {
+        width: 17%;
+        float: left;
+        padding: 2% 16.5% 3% 16.5%;
     }
 
-    #footerBottomDiritti {
-        width: 20%;
-        margin-left: 15%;
-    }
-
-    #footerBottomCallUs {
-        width: 20%;
-        margin-left: 5%;
-        margin-right: 5%;
-    }
-
-    #footerBottomLuogo {
-        width: 20%;
-        margin-right: 6%;
-    }
 
 }
 
 /******************************************************************
 Media Query Mobile
 ******************************************************************/
+
 @media only screen and (max-width: 767px) {
 
     #footerTop {
@@ -225,5 +181,23 @@ Media Query Mobile
 
     #footerBottom {
         font-size: 0.5em;
+    }
+
+    #footerTop a {
+        font-size: 1.2em;
+    }
+
+    #footerTop a:hover {
+        font-size: 1.5em;
+    }
+
+    #footerBottom {
+        padding: 0.5%;
+    }
+
+    .footerBottomContainer {
+        text-align: center;
+        width: 33%;
+        float: left;
     }
 }

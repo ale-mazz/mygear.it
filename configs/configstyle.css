@@ -4,12 +4,44 @@
     margin-bottom: 2em;
 }
 
-.configConfigurazioniTop {
+#configIndex {
     width: 100%;
+}
+
+#configIndex h1{
+    color: white;
+    font-size: 1.5em;
+}
+
+#configIndex a {
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+}
+
+#configIndex a:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+
+}
+
+.configIndexOptions {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    width: 33.3%;
     float: left;
+    background-color: #212121;
     text-align: center;
+}
+
+.configConfigurazioniTop {
+    width: 94%;
+    float: left;
     background-color: #424242;
-    padding: 5%;
+    padding: 3%;
+    margin-top: 2em;
+
 }
 
 #configTitle h1 {
@@ -17,16 +49,6 @@
     text-align: center;
     color: #000000;
 }
-
-/* -- OLD CODE -- *
-#configConfigurazione1 img {
-    float: left;
-    clear: left;
-    width: 30%;
-    padding-top: 3%;
-    margin-left: 8%;
-}
-*/
 
 .configImg {
     width: 40%;
@@ -43,21 +65,6 @@
     background-color: #212121;
     padding: 2em;
     width: 52%;
-}
-
-#configConfigurazione1 {
-    width: 90%;
-    background-color: white;
-}
-
-#configConfigurazione2 {
-    width: 90%;
-    background-color: white;
-}
-
-#configConfigurazione3 {
-    width: 90%;
-    background-color: white;
 }
 
 .configConfigurazioniTop p {
@@ -86,13 +93,13 @@
     width: 100%;
     float: left;
     clear: left;
-    text-align: center;
     padding-top: 1em;
     padding-bottom: 1em;
 }
 
 .configSpecification h1 {
     font-size: 2em;
+    text-align: center;
 }
 
 .configContainer {
@@ -111,38 +118,6 @@
     text-align: left;
 }
 
-/* confiContainer
-.configContainer2 {
-    width: 25%;
-    float: left;
-    margin-left: 7.5%;
-    background-color: white;
-    padding-top: 1em;
-    font-size: 1.2em;
-}
-
-.configContainer3 {
-    width: 25%;
-    float: left;
-    margin-left: 7.5%;
-    background-color: white;
-    padding-top: 1em;
-    font-size: 1.2em;
-} */
-
-/* configContainer h1
-.configContainer2 h1 {
-    font-size: 0.8em;
-    color: #000000;
-    text-align: left;
-}
-
-.configContainer3 h1 {
-    font-size: 0.8em;
-    color: #000000;
-    text-align: left;
-}
-*/
 .configContainerSections {
     width: 100%;
     height: 1.5em;
@@ -168,15 +143,17 @@
     }
 
 
-        .configImg{
-            width: 100%;
-            float: none;
-        }
+      .configImg{
+        width: 100%;
+        float: none;
+    }
 
-        .configImg img {
-            max-width: 90%;
-            margin: 5%;
-        }
+    .configImg img {
+        float: none;
+        max-width: none;
+        width: 90%;
+        margin: 5%;
+    }
 
     .configDescription {
         float: none;
@@ -207,31 +184,15 @@
         font-size: 1em;
     }
 
-    .configContainer1 {
-        margin-bottom: 2em;
-    }
-    .configContainer2 {
+    .configContainer {
         margin-bottom: 2em;
     }
 
-    .configContainer3 {
-        margin-bottom: 2em;
-    }
-
-    .configContainer1 h1 {
-        font-size: 1.2em;
+    .configContainer h1 {
+        font-size: 1.5em;
 
     }
 
-    .configContainer2 h1 {
-        font-size: 1.2em;
-
-    }
-
-    .configContainer3 h1 {
-        font-size: 1.2em;
-
-    }
 
     @media only screen and (max-width: 767px) {
 
@@ -274,26 +235,11 @@
             font-size: 0.5em;
         }
 
-        .configContainer1 {
-            margin-bottom: 2em;
-        }
-        .configContainer2 {
+        .configContainer {
             margin-bottom: 2em;
         }
 
-        .configContainer3 {
-            margin-bottom: 2em;
-        }
-
-        .configContainer1 h1 {
-            font-size: 0.5em;
-        }
-
-        .configContainer2 h1 {
-            font-size: 0.5em;
-        }
-
-        .configContainer3 h1 {
+        .configContainer h1 {
             font-size: 0.5em;
         }
 
