@@ -23,17 +23,21 @@
 #footerTop ul li {
     padding-top: 0.5em;
     padding-bottom: 0.5em;
+    padding-left: 0.5em;
 }
 
 #footerTop a {
-    text-decoration: none;
-    color: #D32F2F;
-    font-size: 1.3em;
+    color: white;
+    font-size: 1.2em;
+    display: inline-block;
+    position: relative;
 }
 
 #footerTop a:hover {
     color: #D32F2F;
-    font-size: 1.6em;
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -moz-transform: scale(1.2);
 }
 
 #footerTop h1 {
@@ -60,22 +64,34 @@
     margin-left: 2.5%;
 }
 
-#footerTopSocial h2 {
+.footerTopcontainer h2 {
     margin-bottom: 0.3em;
     padding-top: 0.3em;
     font-size: 1.2em;
     font-weight: normal;
 }
 
-.footerTopLoghiSocial {
-    width: 10%;
-    float: left;
-    padding: 2% 5% 3% 5%
+#footerTopLoghiSocial {
+    width: 99.5%;
+    margin-left: 0.5em;
 }
 
-.footerTopLoghiSocial:hover {
-    width: 12%;
-    padding: 1% 4% 2% 4%;
+#footerTopLoghiSocial a{
+    display: inline-block;
+    position: relative;
+    width: 8%;
+    margin-right: 5%;
+    padding-bottom: 0.5em;
+}
+
+#footerTopLoghiSocial img {
+    width: 100%;
+}
+
+.footerTopcontainer img:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -moz-transform: scale(1.2);
 }
 
 /*******************************************************************
@@ -100,7 +116,6 @@
     width: 20%;
     float: left;
     margin-left: 10%;
-
 }
 
 
@@ -116,9 +131,6 @@
     padding-left: 0.5em;
 }
 
-#footerTopAccount a {
-    padding-left: 0.5em;
-}
 
 /******************************************************************
  Media Query Footer
@@ -139,33 +151,35 @@
     }
 
     .footerTopContainer {
-        width: 46.25%;
-        float: left;
-        margin-left: 2.5%;
-    }
-
-    #footerTopChiSiamo {
         width: 95%;
         float: left;
-        margin-left: 2.5%;
     }
 
-    #footerTopChiSiamo p {
+    .footerTopContainer p {
         font-size: 1em;
         padding: 0.5em 0.5em 0.5em 0.5em;
     }
 
-    #footerTopSocial h2 {
+    .footerTopContainer h2 {
         display: none;
     }
 
-    .footerTopLoghiSocial,
-    .footerTopLoghiSocial:hover {
-        width: 17%;
-        float: left;
-        padding: 2% 16.5% 3% 16.5%;
+    #footerTopLoghiSocial {
+        margin-top: 0.5em;
     }
 
+    #footerTopLoghiSocial a{
+        margin-left: 9%;
+    }
+
+    #footerBottom p {
+        font-size: 1em;
+    }
+
+    .footerBottomContainer {
+        width: 30%;
+        margin-left: 2.5%;
+    }
 
 }
 
@@ -195,9 +209,5 @@ Media Query Mobile
         padding: 0.5%;
     }
 
-    .footerBottomContainer {
-        text-align: center;
-        width: 33%;
-        float: left;
-    }
+
 }

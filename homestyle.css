@@ -83,13 +83,23 @@ Corpo Home
 }
 
 .homeWindowsContainer a {
-    text-decoration: none;
     color: #000000;
+    display: inline-block;
+    position: relative;
 }
 
 .homeWindowsContainer a:hover {
     color: #D50000;
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -moz-transform: scale(1.2);
 }
+
+.structural {
+    margin-left: 30%;
+    margin-top: 5em;
+}
+
 
 #homeTitleBottom {
     float: left;
