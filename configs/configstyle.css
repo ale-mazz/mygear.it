@@ -4,6 +4,16 @@
     margin-bottom: 2em;
 }
 
+#configIndex {
+    width: 100%;
+    margin-bottom: 2em;
+    background-color: #424242;
+}
+
+.configIndexOptions {
+    width: 32.5%;
+}
+
 .configConfigurazioniTop {
     width: 94%;
     float: left;
