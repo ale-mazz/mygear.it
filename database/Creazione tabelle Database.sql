@@ -1,8 +1,8 @@
 DROP TABLE IF EXISTS cuffie;
 CREATE TABLE cuffie (
 	`Codice_prodotto` int PRIMARY KEY,
-	`Nome` char(20) NOT NULL,
-	`Descrizione` char(50)  NOT NULL,
+	`Nome` char(30) NOT NULL,
+	`Descrizione` char(100)  NOT NULL,
 	`Prezzo` float(8,2)  NOT NULL
 ) ENGINE=InnoDB;
 
@@ -19,7 +19,8 @@ CREATE TABLE alimentatori (
 	`Codice_prodotto` int PRIMARY KEY,
 	`Nome` char(20) NOT NULL,
 	`Descrizione` char(50)  NOT NULL,
-	`Prezzo` float(8,2)  NOT NULL
+	`Prezzo` float(8,2)  NOT NULL,
+	`Img` char(20) NOT NULL
 ) ENGINE=InnoDB;
 
 DROP TABLE IF EXISTS CPU;
@@ -104,13 +105,13 @@ CREATE TABLE case_pc (
 
 
 
-INSERT INTO alimentatori (`Codice_prodotto`, `Nome`, `Descrizione`, `Prezzo`)
-VALUES ('001', 'Cooler Master MasterWatt 65', 'Alimentatore Notebook - 65 Watt', '34,90'),
-('002', 'Cooler Master MasterWatt 70', 'Alimentatore Notebook - 70 Watt', '39,90'),
-('003', 'Cooler Master MasterWatt 90', 'Alimentatore Notebook - 90 Watt', '44,90'),
-('004', 'TECNOWARE FREE SILENT 520 W', 'Alimentatore Interno Per Personal Computer 520 W', '24,90'),
-('005', 'HAMLET ALIMENTATORE NOTEBOOK 90W XPWNB90C', 'Alimentatore Universale Compatto, Per Computer Portatili)', '34,90'),
-('006', 'ISY ALIMENTATORE NOTEBOOK 19V', 'Alimentatore notebook 19V/90W', '42,90');
+INSERT INTO alimentatori (`Codice_prodotto`, `Nome`, `Descrizione`, `Prezzo`, `Img` )
+VALUES ('001', 'Cooler Master MasterWatt 65', 'Alimentatore Notebook - 65 Watt', '34,90', 'alimentatori.jpg'),
+('002', 'Cooler Master MasterWatt 70', 'Alimentatore Notebook - 70 Watt', '39,90', 'alimentatori.jpg'),
+('003', 'Cooler Master MasterWatt 90', 'Alimentatore Notebook - 90 Watt', '44,90','alimentatori.jpg'),
+('004', 'TECNOWARE FREE SILENT 520 W', 'Alimentatore Interno Per Personal Computer 520 W', '24,90', 'alimentatori.jpg'),
+('005', 'HAMLET ALIMENTATORE NOTEBOOK 90W XPWNB90C', 'Alimentatore Universale Compatto, Per Computer Portatili)', '34,90', 'alimentatori.jpg'),
+('006', 'ISY ALIMENTATORE NOTEBOOK 19V', 'Alimentatore notebook 19V/90W', '42,90', 'alimentatori.jpg');
 
 INSERT INTO cpu (`Codice_prodotto`, `Nome`, `Descrizione`, `Prezzo`)
 VALUES ('011', 'Intel Core i3-6300 3,8 GHz (Skylake) Socket 115', 'CPU dual core da Intel con 3,8 GHz max, 4Mb Cache, chipset grafico HD 530, 47 Watt TDP con dissipatore', '189,90'),

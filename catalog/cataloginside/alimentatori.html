@@ -18,35 +18,37 @@
         <header>
             <button id="hamburger">&#9776;</button>
             <a href="../../user/registrazione.html" id="buttonLogin">ACCEDI</a>
-            <img class="logo" src="../../images/mygear.png" alt="Logo del sito Mygear">
+            <img class="logo" src="../images/mygear.png" alt="Logo del sito Mygear">
             <div class="menu">
                 <ul>
-                    <li><a class="hover" href="../../home.html">HOME</a></li>
-                    <li><a class="hover" href="../../configs/configurazioni.html">CONFIGURAZIONI</a></li>
-                    <li><a class="selected" href="../../catalog/catalogo.html">CATALOGO</a></li>
-                    <li><a class="hover" href="../../contacts/contatti.html">CONTATTI</a></li>
+                    <li><a class="hover" href="../home.html">HOME</a></li>
+                    <li><a class="hover" href="../configs/configurazioni.html">CONFIGURAZIONI</a></li>
+                    <li><a class="selected" href="../catalog/catalogo.html">CATALOGO</a></li>
+                    <li><a class="hover" href="../contacts/contatti.html">CONTATTI</a></li>
                 </ul>
             </div>
         </header>
     </div>
     <div id="drop_menu" class="menuClose">
         <ul>
-            <li><a class="hover" href="../../home.html">HOME</a></li>
-            <li><a class="hover" href="../../configs/configurazioni.html">CONFIGURAZIONI</a></li>
-            <li><a class="selected" href="../../catalog/catalogo.html">CATALOGO</a></li>
-            <li><a class="hover" href="../../contacts/contatti.html">CONTATTI</a></li>
+            <li><a class="hover" href="../home.html">HOME</a></li>
+            <li><a class="hover" href="../configs/configurazioni.html">CONFIGURAZIONI</a></li>
+            <li><a class="selected" href="../catalog/catalogo.html">CATALOGO</a></li>
+            <li><a class="hover" href="../contacts/contatti.html">CONTATTI</a></li>
         </ul>
     </div>
 <div id="title_cat">
     <h1>ALIMENTATORI</h1>
 </div>
 
-    <!--Prodotti-->
+    <!-- Inserimento dei prodotti dal Database Mygear (check php page) -->
 
     $products$
 
+    <!-- Fine inserimento -->
+
     <footer id="footerTop">
-        <div id="footerTopChiSiamo" class="footerTopContainer">
+        <div class="footerTopContainer">
 
             <div class="footerTopBlockTitle">
                 <h1>Chi Siamo</h1>
@@ -55,26 +57,29 @@
                 Mygear dal 2017 offre il meglio della componentistica Gaming Based e soluzioni pensate per chi vuole sempre il top!
             </p>
         </div>
-        <div id="footerTopAccount" class="footerTopContainer">
+        <div class="footerTopContainer">
             <div class="footerTopBlockTitle">
                 <h1>Account</h1>
             </div>
             <ul>
-                <li> <a href="../../user/registrazione.html">Registrati</a></li>
-                <li> <a href="">Accedi</a></li>
+                <li> <a href="account.html">Registrati</a></li>
+                <li> <a href="recupero_password.html">Accedi</a></li>
             </ul>
         </div>
-        <div id="footerTopSocial" class="footerTopContainer">
+        <div class="footerTopContainer">
             <div class="footerTopBlockTitle">
                 <h1>Social</h1>
             </div>
             <h2>Seguici su:</h2>
-            <a href="https://www.facebook.com"><img class="footerTopLoghiSocial" src="/images/loghisito/facebook.png"></a>
-            <a href="https://www.twitter.comk"><img img class="footerTopLoghiSocial" src="/images/loghisito/twitter.png"></a>
-            <a href="https://www.instagram.com"><img img class="footerTopLoghiSocial" src="/images/loghisito/instagram.png"></a>
-            <a href="https://www.youtube.com"><img img class="footerTopLoghiSocial" src="../images/loghisito/yt.png"></a>
+            <div id="footerTopLoghiSocial">
+                <a href="https://www.facebook.com"> <img  src="../images/loghisito/facebook.png" alt="logo facebook"></a>
+                <a href="https://www.twitter.comk"> <img  src="../images/loghisito/twitter.png" alt="logo twitter"></a>
+                <a href="https://www.instagram.com"> <img src="../images/loghisito/instagram.png" alt="logo instagram"></a>
+                <a href="https://www.youtube.com"> <img  src="../images/loghisito/yt.png" alt="logo youtube"></a>
+            </div>
         </div>
     </footer>
+
     <footer id="footerBottom">
         <div id="footerBottomDiritti" class="footerBottomContainer">
             <p>© 2017 MY GEAR Inc.<br> Diritti riservati</p>
