@@ -94,6 +94,14 @@ CREATE TABLE schede_video (
 	`Prezzo` float(8,2)  NOT NULL
 ) ENGINE=InnoDB;
 
+DROP TABLE IF EXISTS case_pc;
+CREATE TABLE case_pc (
+  `Codice_prodotto` int PRIMARY KEY,
+  `Nome` char(20) NOT NULL,
+  `Descrizione` char(50)  NOT NULL,
+  `Prezzo` float(8,2)  NOT NULL
+) ENGINE=InnoDB;
+
 
 
 INSERT INTO alimentatori (`Codice_prodotto`, `Nome`, `Descrizione`, `Prezzo`)
