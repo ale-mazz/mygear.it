@@ -1,20 +1,6 @@
 <?php
 
-///////////////////////////////
-
-$servername = "localhost";
-$username = "root";
-$password = "";
-$db = "mygear";
-
-// Create connection
-$conn = new mysqli($servername, $username, $password, $db);
-
-// Check connection
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
-}
-echo "Connected successfully";
+require_once 'connection.php';
 
 // MYSQLI Query e riempimento array di array associativi
 
@@ -47,10 +33,12 @@ foreach ($products as $product){
     $insertproduct=$insertproduct.$get_product;
 }
 
-$catalogpage=file_get_contents("../catalog/cataloginside/alimentatori.html");
-$catalogpage=str_replace('$products$',$insertproduct, $catalogpage);
+$page=file_get_contents("../catalog/cataloginside/alimentatori.html");
+$footer=file_get_contents("../footer/footer.html");
+$page=str_replace('$footer$', $footer ,$page);
+$page=str_replace('$products$',$insertproduct, $page);
 
-echo $catalogpage;
+echo $page;
 
 mysqli_close($conn);
 
