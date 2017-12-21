@@ -20,7 +20,7 @@ echo "Connected successfully";
 
 $products = array();
 
-$qry = mysqli_query($conn,"SELECT Codice_prodotto, Nome, Descrizione,Img FROM alimentatori ORDER BY Codice_prodotto");
+$qry = mysqli_query($conn,"SELECT Codice_prodotto, Nome, Descrizione,Img,Disponibilita FROM alimentatori ORDER BY Codice_prodotto");
 
 while($row = mysqli_fetch_assoc($qry)){
     $products[] =$row;
@@ -42,6 +42,7 @@ foreach ($products as $product){
     $get_product=file_get_contents("product.html");
     $get_product=str_replace('$title$',$product["Nome"], $get_product);
     $get_product=str_replace('$description$',$product["Descrizione"], $get_product);
+    $get_product=str_replace('$avaible$',$product["Disponibilita"], $get_product);
     $get_product=str_replace('$img$',"../images/categorie/".$product["Img"], $get_product);
     $insertproduct=$insertproduct.$get_product;
 }

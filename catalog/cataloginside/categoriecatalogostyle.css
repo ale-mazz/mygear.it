@@ -47,26 +47,30 @@
 
 .imageCat {
     width: 80%;
-    margin-top: 3%;
+    margin-top: 4%;
     margin-left: 10%;
     margin-right: 10%;
 }
 
-p {
-    width: 80%;
-    font-size: 1.1em;
+.product_description p {
+    margin-top: 1em;
+    font-size: 0.8em;
     text-align: left;
 }
 
-h3 {
+.product_name h1{
+    margin-top: 3em;
     font-size: 1.1em;
-    margin-top: 5%;
-    font-size: 1em;
+}
+
+.product_availability h3 {
+    font-size: 0.9em;
+    margin-top: 10%;
 }
 
 
 /******************************************************************
- Media Query Home
+ Media Query Tablet
 ******************************************************************/
 
 @media only screen and (max-width: 955px) {
