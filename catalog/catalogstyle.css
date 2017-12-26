@@ -30,10 +30,6 @@ h2 0.87
     color: #000000;
 }
 
-/* titolo menù verticale */
-
-/* titoli categorie h2 */
-
 .riquadro_esterno a {
     text-decoration: none;
     color: #000000;
@@ -41,7 +37,39 @@ h2 0.87
 
 .riquadro_esterno h2 {
     text-align: center;
-    font-size: 1.5em;
+    font-size: 1.1em;
+}
+
+#menu_verticale {
+    margin: 1em 2.5% 20em 2.5%;
+    width: 15%;
+    float: left;
+    clear: both;
+}
+
+#menu_verticale h2 {
+    font-size: 1.1em;
+    padding: 0em 0em 0.5em 0.3em;
+    border-bottom-style: solid;
+    border-bottom-color: #000000;
+    border-bottom-width: 0.1em;
+}
+
+#menu_verticale ul {
+    list-style-type: none;
+}
+#menu_verticale li {
+    padding: 0.5em;
+}
+
+#menu_verticale a {
+    color: black;
+    font-size: 0.8em;
+}
+
+#menu_verticale a:hover {
+    color: red;
+    font-size: 1em;
 }
 
 /* dimensione/margin immagini */
@@ -57,8 +85,8 @@ h2 0.87
 
 .riquadro_esterno {
     margin-top: 1em;
-    margin-left: 4%;
-    width: 20%;
+    margin-right: 2.5%;
+    width: 17.5%;
     float: left;
     text-align: center;
 }
