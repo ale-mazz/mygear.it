@@ -5,7 +5,9 @@ CREATE TABLE cuffie (
 	`Codice_prodotto` int PRIMARY KEY,
 	`Nome` char(100) NOT NULL,
 	`Descrizione` char(200)  NOT NULL,
-	`Prezzo` float(8,2)  NOT NULL
+	`Prezzo` float(8,2)  NOT NULL,
+    `Img` char(20) NOT NULL,
+	`Disponibilita` char(20) NOT NULL
 ) ENGINE=InnoDB;
 
 DROP TABLE IF EXISTS PC;
@@ -13,7 +15,9 @@ CREATE TABLE PC (
 	`Codice_prodotto` int PRIMARY KEY,
 	`Nome` char(20) NOT NULL,
 	`Descrizione` char(50)  NOT NULL,
-	`Prezzo` float(8,2)  NOT NULL
+	`Prezzo` float(8,2)  NOT NULL,
+    `Img` char(20) NOT NULL,
+	`Disponibilita` char(20) NOT NULL
 ) ENGINE=InnoDB;
 
 DROP TABLE IF EXISTS alimentatori;
@@ -31,7 +35,9 @@ CREATE TABLE CPU (
 	`Codice_prodotto` int PRIMARY KEY,
 	`Nome` char(20) NOT NULL,
 	`Descrizione` char(50)  NOT NULL,
-	`Prezzo` float(8,2)  NOT NULL
+	`Prezzo` float(8,2)  NOT NULL,
+    `Img` char(20) NOT NULL,
+	`Disponibilita` char(20) NOT NULL
 ) ENGINE=InnoDB;
 
 DROP TABLE IF EXISTS memorie_interne;
@@ -39,7 +45,9 @@ CREATE TABLE memorie_interne (
 	`Codice_prodotto` int PRIMARY KEY,
 	`Nome` char(20) NOT NULL,
 	`Descrizione` char(50)  NOT NULL,
-	`Prezzo` float(8,2)  NOT NULL
+	`Prezzo` float(8,2)  NOT NULL,
+    `Img` char(20) NOT NULL,
+	`Disponibilita` char(20) NOT NULL
 ) ENGINE=InnoDB;
 
 DROP TABLE IF EXISTS memorie_ram;
@@ -47,7 +55,9 @@ CREATE TABLE memorie_ram (
 	`Codice_prodotto` int PRIMARY KEY,
 	`Nome` char(20) NOT NULL,
 	`Descrizione` char(50)  NOT NULL,
-	`Prezzo` float(8,2)  NOT NULL
+	`Prezzo` float(8,2)  NOT NULL,
+    `Img` char(20) NOT NULL,
+	`Disponibilita` char(20) NOT NULL
 ) ENGINE=InnoDB;
 
 DROP TABLE IF EXISTS monitor;
@@ -55,7 +65,9 @@ CREATE TABLE monitor (
 	`Codice_prodotto` int PRIMARY KEY,
 	`Nome` char(20) NOT NULL,
 	`Descrizione` char(50)  NOT NULL,
-	`Prezzo` float(8,2)  NOT NULL
+	`Prezzo` float(8,2)  NOT NULL,
+    `Img` char(20) NOT NULL,
+	`Disponibilita` char(20) NOT NULL
 ) ENGINE=InnoDB;
 
 DROP TABLE IF EXISTS mouse_tastiere;
@@ -63,7 +75,9 @@ CREATE TABLE mouse_tastiere (
 	`Codice_prodotto` int PRIMARY KEY,
 	`Nome` char(20) NOT NULL,
 	`Descrizione` char(50)  NOT NULL,
-	`Prezzo` float(8,2)  NOT NULL
+	`Prezzo` float(8,2)  NOT NULL,
+    `Img` char(20) NOT NULL,
+	`Disponibilita` char(20) NOT NULL
 ) ENGINE=InnoDB;
 
 DROP TABLE IF EXISTS raffreddamento;
@@ -71,7 +85,9 @@ CREATE TABLE raffreddamento (
 	`Codice_prodotto` int PRIMARY KEY,
 	`Nome` char(20) NOT NULL,
 	`Descrizione` char(50)  NOT NULL,
-	`Prezzo` float(8,2)  NOT NULL
+	`Prezzo` float(8,2)  NOT NULL,
+    `Img` char(20) NOT NULL,
+	`Disponibilita` char(20) NOT NULL
 ) ENGINE=InnoDB;
 
 DROP TABLE IF EXISTS schede_audio;
@@ -79,7 +95,9 @@ CREATE TABLE schede_audio (
 	`Codice_prodotto` int PRIMARY KEY,
 	`Nome` char(20) NOT NULL,
 	`Descrizione` char(50)  NOT NULL,
-	`Prezzo` float(8,2)  NOT NULL
+	`Prezzo` float(8,2)  NOT NULL,
+    `Img` char(20) NOT NULL,
+	`Disponibilita` char(20) NOT NULL
 ) ENGINE=InnoDB;
 
 DROP TABLE IF EXISTS schede_madri;
@@ -87,7 +105,9 @@ CREATE TABLE schede_madri (
 	`Codice_prodotto` int PRIMARY KEY,
 	`Nome` char(20) NOT NULL,
 	`Descrizione` char(50)  NOT NULL,
-	`Prezzo` float(8,2)  NOT NULL
+	`Prezzo` float(8,2)  NOT NULL,
+    `Img` char(20) NOT NULL,
+	`Disponibilita` char(20) NOT NULL
 ) ENGINE=InnoDB;
 
 DROP TABLE IF EXISTS schede_video;
@@ -95,15 +115,19 @@ CREATE TABLE schede_video (
 	`Codice_prodotto` int PRIMARY KEY,
 	`Nome` char(20) NOT NULL,
 	`Descrizione` char(50)  NOT NULL,
-	`Prezzo` float(8,2)  NOT NULL
+	`Prezzo` float(8,2)  NOT NULL,
+    `Img` char(20) NOT NULL,
+	`Disponibilita` char(20) NOT NULL
 ) ENGINE=InnoDB;
 
 DROP TABLE IF EXISTS case_pc;
 CREATE TABLE case_pc (
-  `Codice_prodotto` int PRIMARY KEY,
-  `Nome` char(20) NOT NULL,
-  `Descrizione` char(50)  NOT NULL,
-  `Prezzo` float(8,2)  NOT NULL
+    `Codice_prodotto` int PRIMARY KEY,
+    `Nome` char(20) NOT NULL,
+    `Descrizione` char(50)  NOT NULL,
+    `Prezzo` float(8,2)  NOT NULL,
+    `Img` char(20) NOT NULL,
+    `Disponibilita` char(20) NOT NULL
 ) ENGINE=InnoDB;
 
 
@@ -113,16 +137,28 @@ VALUES ('001', 'Cooler Master MasterWatt 65', 'Alimentatore Notebook - 65 Watt',
 ('002', 'Cooler Master MasterWatt 70', 'Alimentatore Notebook - 70 Watt', '39,90', 'alimentatori.jpg', 'Disponibile'),
 ('003', 'Cooler Master MasterWatt 90', 'Alimentatore Notebook - 90 Watt', '44,90','alimentatori.jpg', 'Disponibile'),
 ('004', 'TECNOWARE FREE SILENT 520 W', 'Alimentatore Interno Per Personal Computer 520 W', '24,90', 'alimentatori.jpg', 'Disponibile'),
-('005', 'HAMLET ALIMENTATORE NOTEBOOK 90W XPWNB90C', 'Alimentatore Universale Compatto, Per Computer Portatili)', '34,90', 'alimentatori.jpg', 'Disponibile'),
-('006', 'ISY ALIMENTATORE NOTEBOOK 19V', 'Alimentatore notebook 19V/90W', '42,90', 'alimentatori.jpg', 'Non Disponibile');
+('005', 'Alimentatore Tecnoware 500W', 'Alimentatore Tecnoware 500W FREE-Silent500 FAL505FS12B (Bulk Version) Fan12cm Silent v2.01 (Gar24m)', '16,90', 'alimentatore_tecnoware_500w.jpg', 'Disponibile'),
+('006', 'Alimentatore Atlantis 500W', 'ATLANTIS P016-MPW-5000-W SINGOLA VENT. SILENZ. 12CM 2SATA 3ATA 12V 24PIN EAN 8026974014104', '43,90', 'alimentatore_atlantis_500w.jpg', 'Non Disponibile'),
+('007', 'Alimentatore Corsair 620 W', 'Alimentatore Corsair 620 W TECNOWARE FREE-Silent620 FAL625FS12 Fan12cm Silent v2.01 (Gar24m)', '33,90', 'alimentatore_corsair_620w.jpg', 'Disponibile'),
+('008', 'Alimentatore Itek', 'Alimentatore Itek ENERGY K-Series 650W ATX - Full Black, Retail', '33,90', 'alimentatore_itek.jpg', 'Non Disponibile'),
+('009', 'Alimentatore Cooler Master Maker 1200', 'Alimentatore Cooler Master Maker 1200 Made In Japan 1200W 80Plus Titanium, Active PFC, Silent 135mm FP fan', '1049,90', 'alimentatore_cooler_master_maker_1200.jpg', 'Disponibile'),
+('010', 'Alimentatore Cooler Master MASTERWATT MAKER 1500', 'Alimentatore Cooler Master MASTERWATT MAKER 1500 1500W 80PLUS-TITANIUM 135MM-FAN ACTIVE-PFC PSU', '489,90', 'alimentatore_cooler_master_masterwatt.jpg', 'Disponibile'),
+('011', 'Alimentatore Cooler Master MASTERWATT MAKER 1500 (NON BLUETOOTH)', 'Alimentatore Cooler Master MASTERWATT MAKER 1500 (NON BLUETOOTH) 1500W 80PLUS-TITANIUM 135MM-FAN ACTIVE-PFC PSU', '469,90', 'alimentatore_cooler_master_masterwatt_no_bluethoot.jpg', 'Disponibile'),
+('012', 'Alimentatore EVGA SUPERNOVA', 'Alimentatore EVGA SUPERNOVA 1600 G2 GOLD', '425,90', 'alimentatore_evga.jpg', 'Disponibile'),
 
-INSERT INTO cpu (`Codice_prodotto`, `Nome`, `Descrizione`, `Prezzo`)
-VALUES ('011', 'Intel Core i3-6300 3,8 GHz (Skylake) Socket 115', 'CPU dual core da Intel con 3,8 GHz max, 4Mb Cache, chipset grafico HD 530, 47 Watt TDP con dissipatore', '189,90'),
-('012', 'Intel Core i5-6600 3,3 GHz (Skylake) Socket 115', 'performante CPU Quadcore da Intel con 3,9 GHz max, 6Mb Cache, chipset grafico HD 530, 65 Watt TDP con dissipatore', '249,90'),
-('013', 'Intel Core i7-7700 3,6 GHz (Kaby Lake) Socket 117', 'performante CPU Quadcore da Intel serie Kaby-Lake con 4,2 GHz max, 8Mb Cache, chipset grafico HD 630, 65 Watt', '349,90'),
-('014', 'Intel Core i7-7700K (Kaby Lake) PreTestato @ 5,1 Ghz - Tray', 'performante CPU Quadcore da Intel serie Kaby-Lake pretestato e certificato per OC fino a 5,1 GHz', '599,90'),
-('015', 'Intel Core i7-8700K 3,7 GHz (Coffee Lake) Socket 1151 - boxed', 'performante CPU Intel Hexa-Core serie Cofee Lake con 3,7/4,7 GHz max, 12Mb Cache L3, chipset grafico HD 630, 95 Watt TDP', '439,90'),
-('016', 'Intel Core i7-8700K (Coffee Lake) PreTestato @ 5,0 Ghz - Tray', 'performante CPU Hexa-Core da Intel serie Coffee Lake pretestato e certificato per OC fino a 5,0 GHz', '529,90');
+INSERT INTO cpu (`Codice_prodotto`, `Nome`, `Descrizione`, `Prezzo`, `Img`, `Disponibilita`)
+VALUES ('012', 'Intel Core i3-6300 3,8 GHz (Skylake) Socket 115', 'CPU dual core da Intel con 3,8 GHz max, 4Mb Cache, chipset grafico HD 530, 47 Watt TDP con dissipatore', '189,90'),
+('013', 'Intel Core i5-6600 3,3 GHz (Skylake) Socket 115', 'performante CPU Quadcore da Intel con 3,9 GHz max, 6Mb Cache, chipset grafico HD 530, 65 Watt TDP con dissipatore', '249,90'),
+('014', 'Intel Core i7-7700 3,6 GHz (Kaby Lake) Socket 117', 'performante CPU Quadcore da Intel serie Kaby-Lake con 4,2 GHz max, 8Mb Cache, chipset grafico HD 630, 65 Watt', '349,90'),
+('015', 'Intel Core i7-7700K (Kaby Lake) PreTestato @ 5,1 Ghz - Tray', 'performante CPU Quadcore da Intel serie Kaby-Lake pretestato e certificato per OC fino a 5,1 GHz', '599,90'),
+('016', 'Intel Core i7-8700K 3,7 GHz (Coffee Lake) Socket 1151 - boxed', 'performante CPU Intel Hexa-Core serie Cofee Lake con 3,7/4,7 GHz max, 12Mb Cache L3, chipset grafico HD 630, 95 Watt TDP', '439,90'),
+('017', 'Intel Core i7-8700K (Coffee Lake) PreTestato @ 5,0 Ghz - Tray', 'performante CPU Hexa-Core da Intel serie Coffee Lake pretestato e certificato per OC fino a 5,0 GHz', '529,90'),
+('018', 'Intel I7-4790K', 'Intel I7-4790K 4 GHZ 8MB Cache', '469,90', 'intel_i7-4790k.jpg', 'Disponibile'),
+('019', 'RYZEN THREADRIPPER 1950X 4.0GHZ', 'AMD Threadripper 1950X, Ryzen. Frequenza del processore: 3,4 GHz, Presa per processore: Socket TR4, Componente per: Server/workstation. Canali di memoria supportati dal processore: Quad, Tipologie di memoria supportati dal processore: DDR4-SDRAM, Velocità memory clock supportate dal processore: 2667 MHz. Thermal Design Power (TDP): 180 W', '1239,90', 'ryzen.jpg', 'Disponibile'),
+('020', 'Intel Cpu Core i9-7900 X-series processor', 'Intel Cpu Core i9-7900 X-series processor, 10 Core, 20 Threads, box', '999,90', 'intel_cpu_core_i9-7900.jpg', 'Disponibile'),
+('021', 'RYZEN THREADRIPPER 1920X 4.0GHZ', 'AMD Threadripper 1920X, Ryzen. Famiglia processore: AMD Ryzen Threadripper, Frequenza del processore: 3,5 GHz, Presa per processore: Socket TR4. Canali di memoria supportati dal processore: Quad, Tipologie di memoria supportati dal processore: DDR4-SDRAM, Velocità memory clock supportate dal processore: 2667 MHz. Thermal Design Power (TDP): 180 W, Istruzioni supportate: AES. L1 cache: 1,125 MB, Temperatura (max): 68 °C, L2 cache: 6144 KB', '909,90', 'ryzen_1920x.jpg', 'Disponibile'),
+('022', 'Intel Cpu Core i7-7820 X-series processor', 'Intel Cpu Core i7-7820 X-series processor, 8 Core, 16 Threads, box', '969,90', 'intel_cpu_core_i7-7820.jpg', 'Disponibile'),
+('023', 'AMD CPU RYZEN 7 1800X', 'AMD CPU RYZEN 7 1800X, 4,00GHZ, AM4, 20MB CACHE, 95W, SENZA DISSIPATORE - YD180XBCAEWOF', '529,90', 'amd_cpu_ryzen.jpg', 'Disponibile'),;
 
 INSERT INTO cuffie (`Codice_prodotto`, `Nome`, `Descrizione`, `Prezzo`)
 VALUES ('017', 'Aorus E1 Headset, Aluminum In-Ear Hi-Fi', 'headset di classe superiore da Aorus con tecnologia in-ear, driver da 9mm, Balanced Armature Drivers e struttura in alluminio', '119,90'),
