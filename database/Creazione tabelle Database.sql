@@ -147,12 +147,12 @@ VALUES ('001', 'Cooler Master MasterWatt 65', 'Alimentatore Notebook - 65 Watt',
 ('012', 'Alimentatore EVGA SUPERNOVA', 'Alimentatore EVGA SUPERNOVA 1600 G2 GOLD', '425,90', 'alimentatore_evga.jpg', 'Disponibile'),
 
 INSERT INTO cpu (`Codice_prodotto`, `Nome`, `Descrizione`, `Prezzo`, `Img`, `Disponibilita`)
-VALUES ('013', 'Intel Core i3-6300 3,8 GHz (Skylake) Socket 115', 'CPU dual core da Intel con 3,8 GHz max, 4Mb Cache, chipset grafico HD 530, 47 Watt TDP con dissipatore', '189,90'),
-('014', 'Intel Core i5-6600 3,3 GHz (Skylake) Socket 115', 'performante CPU Quadcore da Intel con 3,9 GHz max, 6Mb Cache, chipset grafico HD 530, 65 Watt TDP con dissipatore', '249,90'),
-('015', 'Intel Core i7-7700 3,6 GHz (Kaby Lake) Socket 117', 'performante CPU Quadcore da Intel serie Kaby-Lake con 4,2 GHz max, 8Mb Cache, chipset grafico HD 630, 65 Watt', '349,90'),
-('016', 'Intel Core i7-7700K (Kaby Lake) PreTestato @ 5,1 Ghz - Tray', 'performante CPU Quadcore da Intel serie Kaby-Lake pretestato e certificato per OC fino a 5,1 GHz', '599,90'),
-('017', 'Intel Core i7-8700K 3,7 GHz (Coffee Lake) Socket 1151 - boxed', 'performante CPU Intel Hexa-Core serie Cofee Lake con 3,7/4,7 GHz max, 12Mb Cache L3, chipset grafico HD 630, 95 Watt TDP', '439,90'),
-('018', 'Intel Core i7-8700K (Coffee Lake) PreTestato @ 5,0 Ghz - Tray', 'performante CPU Hexa-Core da Intel serie Coffee Lake pretestato e certificato per OC fino a 5,0 GHz', '529,90'),
+VALUES ('013', 'Intel Core i3-6300 3,8 GHz (Skylake) Socket 115', 'CPU dual core da Intel con 3,8 GHz max, 4Mb Cache, chipset grafico HD 530, 47 Watt TDP con dissipatore', '189,90', 'cpu.jpeg', 'Disponibile'),
+('014', 'Intel Core i5-6600 3,3 GHz (Skylake) Socket 115', 'performante CPU Quadcore da Intel con 3,9 GHz max, 6Mb Cache, chipset grafico HD 530, 65 Watt TDP con dissipatore', '249,90', 'cpu.jpeg', 'Disponibile'),
+('015', 'Intel Core i7-7700 3,6 GHz (Kaby Lake) Socket 117', 'performante CPU Quadcore da Intel serie Kaby-Lake con 4,2 GHz max, 8Mb Cache, chipset grafico HD 630, 65 Watt', '349,90', 'cpu.jpeg', 'Disponibile'),
+('016', 'Intel Core i7-7700K (Kaby Lake) PreTestato @ 5,1 Ghz - Tray', 'performante CPU Quadcore da Intel serie Kaby-Lake pretestato e certificato per OC fino a 5,1 GHz', '599,90', 'cpu.jpeg', 'Disponibile'),
+('017', 'Intel Core i7-8700K 3,7 GHz (Coffee Lake) Socket 1151 - boxed', 'performante CPU Intel Hexa-Core serie Cofee Lake con 3,7/4,7 GHz max, 12Mb Cache L3, chipset grafico HD 630, 95 Watt TDP', '439,90', 'cpu.jpeg', 'Disponibile'),
+('018', 'Intel Core i7-8700K (Coffee Lake) PreTestato @ 5,0 Ghz - Tray', 'performante CPU Hexa-Core da Intel serie Coffee Lake pretestato e certificato per OC fino a 5,0 GHz', '529,90', 'cpu.jpeg', 'Disponibile'),
 ('019', 'Intel I7-4790K', 'Intel I7-4790K 4 GHZ 8MB Cache', '469,90', 'intel_i7-4790k.jpg', 'Disponibile'),
 ('020', 'RYZEN THREADRIPPER 1950X 4.0GHZ', 'AMD Threadripper 1950X, Ryzen. Frequenza del processore: 3,4 GHz, Presa per processore: Socket TR4, Componente per: Server/workstation. Canali di memoria supportati dal processore: Quad, Tipologie di memoria supportati dal processore: DDR4-SDRAM, Velocità memory clock supportate dal processore: 2667 MHz. Thermal Design Power (TDP): 180 W', '1239,90', 'ryzen.jpg', 'Disponibile'),
 ('021', 'Intel Cpu Core i9-7900 X-series processor', 'Intel Cpu Core i9-7900 X-series processor, 10 Core, 20 Threads, box', '999,90', 'intel_cpu_core_i9-7900.jpg', 'Disponibile'),
@@ -161,12 +161,12 @@ VALUES ('013', 'Intel Core i3-6300 3,8 GHz (Skylake) Socket 115', 'CPU dual core
 ('024', 'AMD CPU RYZEN 7 1800X', 'AMD CPU RYZEN 7 1800X, 4,00GHZ, AM4, 20MB CACHE, 95W, SENZA DISSIPATORE - YD180XBCAEWOF', '529,90', 'amd_cpu_ryzen.jpg', 'Disponibile');
 
 INSERT INTO cuffie (`Codice_prodotto`, `Nome`, `Descrizione`, `Prezzo`, `Img`, `Disponibilita`)
-VALUES ('025', 'Aorus E1 Headset, Aluminum In-Ear Hi-Fi', 'headset di classe superiore da Aorus con tecnologia in-ear, driver da 9mm, Balanced Armature Drivers e struttura in alluminio', '119,90', '', 'Non Disponibile'),
-('026', 'Asus Cerberus Arctic Stereo Gaming Headset - Bianco', 'gaming headset da Asus ad alta qualità audio con driver da 60mm e sistema di cancellazione del rumore', '39,90', '', 'Non Disponibile'),
-('027', 'Asus Echelon Forest Stereo Gaming Headset', 'gaming headset in versione camouflage ad alta qualità audio da Asus con driver da 50mm e sistema attivo di cancellazione del rumore', '69,90', '', 'Disponibile'),
-('028', 'Asus ROG Centurion 7.1 Gaming Headset', 'gaming headset serie ROG da Asus con 7.1 canali reali, driver da 40mm e sistema attivo di cancellazione del rumore ambientale', '239,90', '', 'Non Disponibile'),
-('029', 'Corsair Gaming VOID PRO RGB Wireless Dolby 7.1 - Bianco', 'headset wireless con audio Dolby 7.1, illuminazione RGB, driver 50mm e earpads in schiuma a memoria di forma da Corsair Gaming', '119,90', '', 'Non Disponibile'),
-('030', 'Razer Destiny 2 Man War Tournament Edition', 'cuffie high end da Razer con altissima qualità audio, microfono a scomparsa in edizione speciale Destiny 2', '129,90', '', 'Disponibile'),
+VALUES ('025', 'Aorus E1 Headset, Aluminum In-Ear Hi-Fi', 'headset di classe superiore da Aorus con tecnologia in-ear, driver da 9mm, Balanced Armature Drivers e struttura in alluminio', '119,90', 'cuffie.jpg', 'Non Disponibile'),
+('026', 'Asus Cerberus Arctic Stereo Gaming Headset - Bianco', 'gaming headset da Asus ad alta qualità audio con driver da 60mm e sistema di cancellazione del rumore', '39,90', 'cuffie.jpg', 'Non Disponibile'),
+('027', 'Asus Echelon Forest Stereo Gaming Headset', 'gaming headset in versione camouflage ad alta qualità audio da Asus con driver da 50mm e sistema attivo di cancellazione del rumore', '69,90', 'cuffie.jpg', 'Disponibile'),
+('028', 'Asus ROG Centurion 7.1 Gaming Headset', 'gaming headset serie ROG da Asus con 7.1 canali reali, driver da 40mm e sistema attivo di cancellazione del rumore ambientale', '239,90', 'cuffie.jpg', 'Non Disponibile'),
+('029', 'Corsair Gaming VOID PRO RGB Wireless Dolby 7.1 - Bianco', 'headset wireless con audio Dolby 7.1, illuminazione RGB, driver 50mm e earpads in schiuma a memoria di forma da Corsair Gaming', '119,90', 'cuffie.jpg', 'Non Disponibile'),
+('030', 'Razer Destiny 2 Man War Tournament Edition', 'cuffie high end da Razer con altissima qualità audio, microfono a scomparsa in edizione speciale Destiny 2', '129,90', 'cuffie.jpg', 'Disponibile'),
 ('031', 'H820E HEADSET USB', 'Le cuffie Headset H820e sono certificate per l''uso con le principali applicazioni software per conferenze, quali Skype for Business e Cisco® Jabber™. Particolarmente consigliate per i professionisti che svolgono attività piuttosto impegnative in aree di lavoro, uffici e ambienti domestici aperti. Scegli H820e Mono o H820e Dual per uno o due altoparlanti.', '164,90', 'headset_usb.jpg', 'Disponibile'),
 ('032', 'LOGITECH CUFFIE CON MICROFONO WIRELESS', 'LOGITECH CUFFIE CON MICROFONO WIRELESS H800 USB, Esegui la connessione ai tuoi dispositivi preferiti e passa dal PC al tablet e dal tablet allo smartphone o viceversa in tutta semplicità.', '129,90', 'logitech_cuffie.jpg', 'Disponibile'),
 ('033', 'H650E HEADSET STEREO USB', 'L’audio DSP e il microfono con eliminazione del rumore consentono comunicazioni di livello professionale mentre l’indicatore LED di chiamata in corso e il dispositivo di controllo sul cavo di rapido accesso rendono più piacevole l’utilizzo delle cuffie H650e.', '64,90', 'headset_stereo.jpg', 'Disponibile'),
@@ -175,12 +175,12 @@ VALUES ('025', 'Aorus E1 Headset, Aluminum In-Ear Hi-Fi', 'headset di classe sup
 ('036', 'PHILIPS CUFFIA DJ', 'Immergiti nella musica con la nuova tecnologia di cancellazione attiva del rumore ActiveShield™. Cuscini tattili che alleviano la pressione per una maggiore comodità e un design compatto ideale per favorire il trasporto e la conservazione del prodotto.', '129,90', 'phiips_cuffia.jpg', 'Disponibile');
 
 INSERT INTO memorie_interne (`Codice_prodotto`, `Nome`, `Descrizione`, `Prezzo`, `Img`, `Disponibilita`)
-VALUES ('037', 'Seagate Archive HDD, SATA 6G, 5.900RPM, 3,5 Pollici - 8 TB', 'efficiente e veloce disco da 3.5 con capacità 8Tb da Seagate con 128Mb di cache e connessione SATA 6G', '299,90', '', 'Disponibile'),
-('038', 'Seagate Barracuda, SATA 6G, 7200RPM, 3,5 Pollici - 3 TB', 'efficiente e veloce disco da 3.5 con capacità 3Tb da Seagate con 64Mb di cache e connessione SATA 6G', '99,90'),
-('039', 'Corsair Force MP500 NVMe SSD, PCIe 3.0 M.2 Type 2280 - 240 GB', 'performance fuori scala da Corsair per questo SSD in formato M.2 con 3.000 MB/s in lettura e 2.400 MB/s in scrittura', '169,90'),
-('040', 'Corsair Force MP500 NVMe SSD, PCIe 3.0 M.2 Type 2280 - 480 GB', 'performance fuori scala da Corsair per questo SSD in formato M.2 con 3.000 MB/s in lettura e 2.400 MB/s in scrittura', '279,90'),
-('041', 'Corsair Force Series LE SATA III SSD 2.5 - 960GB', 'performante SSD da Corsair con max. 560 / 540 MB/s Lettura/Scrittura e 3 anni di garanzia', '419,90'),
-('042', 'Corsair Neutron XTi SATA III SSD 2.5 - 1.920GB', 'SSD Corsair Neutron XTi con controller Quad-Core e max. 560 / 540 MB/s Lettura/Scrittura e 100K IOPS (4k aligned)', '899,90'),
+VALUES ('037', 'Seagate Archive HDD, SATA 6G, 5.900RPM, 3,5 Pollici - 8 TB', 'efficiente e veloce disco da 3.5 con capacità 8Tb da Seagate con 128Mb di cache e connessione SATA 6G', '299,90', 'harddisk.jpg', 'Disponibile'),
+('038', 'Seagate Barracuda, SATA 6G, 7200RPM, 3,5 Pollici - 3 TB', 'efficiente e veloce disco da 3.5 con capacità 3Tb da Seagate con 64Mb di cache e connessione SATA 6G', '99,90', 'harddisk.jpg', 'Disponibile'),
+('039', 'Corsair Force MP500 NVMe SSD, PCIe 3.0 M.2 Type 2280 - 240 GB', 'performance fuori scala da Corsair per questo SSD in formato M.2 con 3.000 MB/s in lettura e 2.400 MB/s in scrittura', '169,90', 'harddisk.jpg', 'Disponibile'),
+('040', 'Corsair Force MP500 NVMe SSD, PCIe 3.0 M.2 Type 2280 - 480 GB', 'performance fuori scala da Corsair per questo SSD in formato M.2 con 3.000 MB/s in lettura e 2.400 MB/s in scrittura', '279,90', 'harddisk.jpg', 'Disponibile'),
+('041', 'Corsair Force Series LE SATA III SSD 2.5 - 960GB', 'performante SSD da Corsair con max. 560 / 540 MB/s Lettura/Scrittura e 3 anni di garanzia', '419,90', 'harddisk.jpg', 'Disponibile'),
+('042', 'Corsair Neutron XTi SATA III SSD 2.5 - 1.920GB', 'SSD Corsair Neutron XTi con controller Quad-Core e max. 560 / 540 MB/s Lettura/Scrittura e 100K IOPS (4k aligned)', '899,90', 'harddisk.jpg', 'Disponibile'),
 ('043', 'HARD DISK SATA3 3.5" 8000GB(8TB)', 'Gli hard disk per la videosorveglianza WD Purple offrono l''esclusiva tecnologia AllFrame™, per assicurarti il massimo dell''affidabilità e della serenità quando installi il tuo sistema di sicurezza a casa o per la tua piccola o media impresa.', '319,90', 'hard_disk_800gb.jpg', 'Disponibile'),
 ('044', 'HARD DISK SATA3 3.5" 8000GB(8TB) WD80EFZX WD RED 128mb cache 5400rpm Nas hard drive', 'Western Digital Red. Capacità hard disk: 8000 GB, Interfaccia hard disk: Serial ATA III, Velocità di rotazione hard disk: 5400 Giri/min. Consumi (modalità stand-by): 0,7 W, Consumo di energia (in lettura): 6,4 W, Consumo di energia (in scrittura): 6,4 W. Larghezza: 101,6 mm, Altezza: 26,1 mm, Profondità: 147 mm', '299,90', 'hard_disk_nas.jpg', 'Disponibile'),
 ('045', 'HARD DISK SATA3 3.5" 6000GB(6TB) WD6002FFWX WD RED PRO 64mb cache 7200rpm Nas 8-16 slot hard drive', 'Western Digital WD6002FFWX. Capacità hard disk: 6000 GB, Interfaccia hard disk: Serial ATA III, Velocità di rotazione hard disk: 7200 RPM. Consumi (modalità stand-by): 1 W, Consumo di energia (in lettura): 9,1 W, Consumo di energia (in scrittura): 9,1 W. Larghezza: 10,2 cm, Altezza: 2,61 cm, Profondità: 14,7 cm', '279,90', 'hard_disk_600gb.jpg', 'Disponibile'),
@@ -189,11 +189,11 @@ VALUES ('037', 'Seagate Archive HDD, SATA 6G, 5.900RPM, 3,5 Pollici - 8 TB', 'ef
 ('048', 'HARD DISK SATA3 3.5" 4000GB(4TB) WD4002FFWX WD RED PRO 128mb cache 7200rpm Nas 8-16 slot hard drive', 'Progettato specificamente per le PMI, WD Red Pro è disponibile per ambienti NAS medio-grandi fino a 16 alloggiamenti. Sviluppato per gestire crescenti carichi di lavoro aziendali, WD Red Pro è stato ampiamente testato.', '208,90', 'hard_disk_sata4tb.jpg', 'Disponibile');
 
 INSERT INTO memorie_ram (`Codice_prodotto`, `Nome`, `Descrizione`, `Prezzo`, `Img`, `Disponibilita`)
-VALUES ('049', 'Corsair Vengeance RGB LED DDR4, 3.333 MHz, C16 - Kit 32GB (4x 8GB)', 'memorie 1,35V a 3.333MHz da Corsair serie Vengeance LED con illuminazione RGB programmabile', '499,90'),
-('050', 'Corsair Vengeance LPX DDR4 PC4-26400, 3.300 MHz, C16, Nero - Kit 16GB (2x 8GB)', 'memorie 1,35V a 3.300MHz da Corsair serie Vengeance LPX con timing CL 16-18-18-36 e dissipatore Vengeance Airflow', '229,90'),
-('051', 'Corsair Dominator Platinum DDR4 PC4-26400, 3.333 MHz, C16 - Kit 32GB (4x 8GB)', 'memorie 1,35V a 3.333MHz da Corsair serie Dominator Platinum con timing CL 16-18-18-36 con Airflow Platinum Dominator', '469,90'),
-('052', 'Corsair Vengeance LPX DDR4 PC4-33000, 4.133 MHz, C19, Nero - Kit 8GB (2x 4GB)', 'memorie 1,35V a 4.133MHz da Corsair serie Vengeance LPX con timing CL 19-25-25-45 e dissipatore Corsair Vengeance Airflow', '189,90'),
-('053', 'Corsair Vengeance LPX DDR4 PC4-33000, 4.133 MHz, C19, Rosso - Kit 8GB (2x 4GB)', 'memorie 1,35V a 4.133MHz da Corsair serie Vengeance LPX con timing CL 19-25-25-45 e dissipatore Corsair Vengeance Airflow', '179,90'),
+VALUES ('049', 'Corsair Vengeance RGB LED DDR4, 3.333 MHz, C16 - Kit 32GB (4x 8GB)', 'memorie 1,35V a 3.333MHz da Corsair serie Vengeance LED con illuminazione RGB programmabile', '499,90', 'ram.jpg', 'Disponibile'),
+('050', 'Corsair Vengeance LPX DDR4 PC4-26400, 3.300 MHz, C16, Nero - Kit 16GB (2x 8GB)', 'memorie 1,35V a 3.300MHz da Corsair serie Vengeance LPX con timing CL 16-18-18-36 e dissipatore Vengeance Airflow', '229,90', 'ram.jpg', 'Disponibile'),
+('051', 'Corsair Dominator Platinum DDR4 PC4-26400, 3.333 MHz, C16 - Kit 32GB (4x 8GB)', 'memorie 1,35V a 3.333MHz da Corsair serie Dominator Platinum con timing CL 16-18-18-36 con Airflow Platinum Dominator', '469,90', 'ram.jpg', 'Disponibile'),
+('052', 'Corsair Vengeance LPX DDR4 PC4-33000, 4.133 MHz, C19, Nero - Kit 8GB (2x 4GB)', 'memorie 1,35V a 4.133MHz da Corsair serie Vengeance LPX con timing CL 19-25-25-45 e dissipatore Corsair Vengeance Airflow', '189,90', , 'ram.jpg', 'Disponibile'),
+('053', 'Corsair Vengeance LPX DDR4 PC4-33000, 4.133 MHz, C19, Rosso - Kit 8GB (2x 4GB)', 'memorie 1,35V a 4.133MHz da Corsair serie Vengeance LPX con timing CL 19-25-25-45 e dissipatore Corsair Vengeance Airflow', '179,90', 'ram.jpg', 'Disponibile'),
 ('054', 'Corsair Vengeance LPX DDR4 PC4-35200, 4.400 MHz, C19, Rosso - Kit 16GB (2x 8GB)', 'memorie 1,4V a 4.400MHz da Corsair serie Vengeance LPX con timing CL 19-23-23-45 e dissipatore Corsair Vengeance Airflow', '399,90', '', 'Disponibile'),
 ('055', 'DDR4 2666MHZ 32GB 4 X 288 DIMM DOMI', 'DDR4 2666MHZ 32GB 4 X 288 DIMM DOMI', '539,90', 'DDR4_2666mhz.jpg', 'Disponibile'),
 ('056', 'GEIL 32GB(8GBx4) PC4-2400', 'GEIL 32GB(8GBx4) PC4-2400 3000MHz EVO X Hybrid-Independent-Light-Module 15-17-17-35 - RGB LED ROG-Certified', '519,90', 'geil_32gb.jpg', 'Disponibile'),
@@ -246,35 +246,59 @@ VALUES ('085', 'Corsair Graphite 780T - Nero', 'nuovo connubio di design e funzi
 
 
 INSERT INTO raffreddamento (`Codice_prodotto`, `Nome`, `Descrizione`, `Prezzo`, `Img`, `Disponibilita`)
-VALUES ('017', 'Corsair Hydro Series H80i v2 Extreme Performance Liquid CPU Cooler', 'sistema a liquido da Corsair a circuito chiuso con radiatore da 120mm e doppia ventola SP120L PWM ad alta silenziosità', '104,90'),
-('018', 'Enermax LiqTech TR4 240 Watercooling AIO - 240 mm', 'sistema a liquido da Enermax a circuito chiuso con radiatore da 240mm e doppia ventola PWM per processori AMD TR4 ThreadRipper', '149,90'),
-('019', 'Thermaltake Floe Riing RGB TT Premium Edition AIO - 240mm', 'dissipatore AIO da Thermaltake con ventole RGB e radiatore da 240mm', '169,90'),
-('020', 'Cooler Master MasterFan Pro 140 Air Flow RGB - 140 mm', 'ventola LED RGB compatibile con varie tecnologie tra cui ASUS Aura, Gigabyte RGB Fusion, 500-800 RPM, 53 CFM, 0.54 mmH2O', '29,90'),
-('021', 'Aerocool Lighting ventola 140mm - Blu', 'ventola con 11 pale trasperenti e LED luminosi da Aerocool', '19,90'),
-('022', 'Aerocool Lighting ventola 140mm - Rosso', 'ventola con 11 pale trasperenti e LED luminosi da Aerocool', '79,90');
+VALUES ('098', 'Corsair Hydro Series H80i v2 Extreme Performance Liquid CPU Cooler', 'sistema a liquido da Corsair a circuito chiuso con radiatore da 120mm e doppia ventola SP120L PWM ad alta silenziosità', '104,90', 'raffreddamento.jpg', 'Non Disponibile'),
+('099', 'Enermax LiqTech TR4 240 Watercooling AIO - 240 mm', 'sistema a liquido da Enermax a circuito chiuso con radiatore da 240mm e doppia ventola PWM per processori AMD TR4 ThreadRipper', '149,90', 'raffreddamento.jpg', 'Non Disponibile'),
+('100', 'Thermaltake Floe Riing RGB TT Premium Edition AIO - 240mm', 'dissipatore AIO da Thermaltake con ventole RGB e radiatore da 240mm', '169,90', 'raffreddamento.jpg', 'Non Disponibile'),
+('101', 'Cooler Master MasterFan Pro 140 Air Flow RGB - 140 mm', 'ventola LED RGB compatibile con varie tecnologie tra cui ASUS Aura, Gigabyte RGB Fusion, 500-800 RPM, 53 CFM, 0.54 mmH2O', '29,90', 'raffreddamento.jpg', 'Non Disponibile'),
+('102', 'Aerocool Lighting ventola 140mm - Blu', 'ventola con 11 pale trasperenti e LED luminosi da Aerocool', '19,90', '', 'Disponibile'),
+('103', 'Aerocool Lighting ventola 140mm - Rosso', 'ventola con 11 pale trasperenti e LED luminosi da Aerocool', '79,90', 'raffreddamento.jpg', 'Non Disponibile')
+('104', 'THERMALTAK RAF.LIQUIDO WATER 3.0', 'THERMALTAK RAF.LIQUIDO WATER 3.0 RIING RED 140 CL-W150-PL14RE-A', '108,90', 'CL-W150-PL14RE-A_MED.jpg', 'Disponibile'),
+('105', 'NZXT AER RGB KIT 2 VENTOLE RGB LED 120mm + Controller Hue+', 'Progettata per l''integrazione perfetta con HUE+, la ventola Aer RGB fornisce un flusso d''aria ottimale e personalizzazioni di illuminazione avanzate. ', '19,90', 'RF-AR120-C1_MED.jpg', 'Disponibile'),
+('106', 'NZXT AER RGB 3 VENTOLE RGB LED 120mm CONTROLLATE DIGITALMENTE', 'Collegamenti di gruppo e a catena di fino a cinque ventole per canale di HUE+ per varie modalità di illuminazione che funzionano in perfetta armonia', '89,90', 'RF-AR120-T1_MED.jpg', 'Disponibile'),
+('107', 'Cooler Master MASTERFAN PRO 140 AF RGB PACK', 'Cooler Master MASTERFAN PRO 140 AF RGB PACK', '71,90', '4719512060506_MED.jpg', 'Disponibile'),
+('108', 'Cooler Master MASTERFAN PRO 120 AP RGB PACK', 'Cooler Master MASTERFAN PRO 120 AP RGB PACK', '69,90', '4719512060490_MED.jpg', 'Disponibile'),
+('109', 'Cooler Master MASTERFAN PRO 120 AB RGB PACK', 'Cooler Master MASTERFAN PRO 120 AB RGB PACK', '61,90', '4719512060469_MED.jpg', 'Disponibile');
 
 
 INSERT INTO schede_audio (`Codice_prodotto`, `Nome`, `Descrizione`, `Prezzo`, `Img`, `Disponibilita`)
-VALUES ('017', 'Asus Xonar DX/XD/A PCIe', 'Scheda Audio per slot PCIe 7.1 con Tecnologia Dolby Home Theater', '59,90'),
-('018', 'ASUS Xonar U3 Scheda Audio Hi-Speed USB', 'scheda audio USB da ASUS serie Xonar con amplificatore per headset e DAC', '39,90'),
-('019', 'Asus Strix RAID Pro 7.1 Gaming Audio Card PCIe', 'scheda audio pro gaming PCIe da Asus con DAC ESS SABRE9006A, amplificatore cuffie da 600Ohm e software di gestione', '119,90'),
-('020', 'Asus Xonar ROG Phoebus - PCIe', 'scheda audio ROG per gamer, con box di controllo, amplificatore per headset e XEAR 3D', '159,90'),
-('021', 'Asus Xonar Essence STX II 7.1 Scheda Audio PCIe x1', 'scheda audio semi professionale da Asus con 124 dB SNR, Audio discreto 7.1 ed amplificatore per HeadSet', '249,90'),
-('022', 'Asus Xonar Essence STU, Hi-Speed USB', 'convertitore USB DAC da Asus con rapporto segnale / rumore di 120 dB e amplificatore (TPA6120A2) da 600 ohm', '319,90');
+VALUES ('110', 'Asus Xonar DX/XD/A PCIe', 'Scheda Audio per slot PCIe 7.1 con Tecnologia Dolby Home Theater', '59,90', '4716659682646_MED.jpg', 'Disponibile'),
+('111', 'ASUS Xonar U3 Scheda Audio Hi-Speed USB', 'scheda audio USB da ASUS serie Xonar con amplificatore per headset e DAC', '39,90', '4716659682646_MED.jpg', 'Disponibile'),
+('112', 'Asus Strix RAID Pro 7.1 Gaming Audio Card PCIe', 'scheda audio pro gaming PCIe da Asus con DAC ESS SABRE9006A, amplificatore cuffie da 600Ohm e software di gestione', '119,90', '4716659682646_MED.jpg', 'Disponibile'),
+('113', 'Asus Xonar ROG Phoebus - PCIe', 'scheda audio ROG per gamer, con box di controllo, amplificatore per headset e XEAR 3D', '159,90'),
+('114', 'Asus Xonar Essence STX II 7.1 Scheda Audio PCIe x1', 'scheda audio semi professionale da Asus con 124 dB SNR, Audio discreto 7.1 ed amplificatore per HeadSet', '249,90', '4716659682646_MED.jpg', 'Disponibile'),
+('115', 'Asus Xonar Essence STU, Hi-Speed USB', 'convertitore USB DAC da Asus con rapporto segnale / rumore di 120 dB e amplificatore (TPA6120A2) da 600 ohm', '319,90', '4716659682646_MED.jpg', 'Disponibile'),
+('116', 'XONAR ESSENCE STX II 7.1', 'Quattro anni dopo il debutto di Essence STX, ASUS continua nel suo impegno di fornire schede audio sempre migliori e di fascia superiore per deliziare i più esigenti degli audiofili.', '299,90', '4716659682646_MED.jpg', 'Disponibile'),
+('117', 'XONAR ESSENCE STX II', 'Basandosi su anni di esperienza nello sviluppo di Essence One, Essence STU e Essence III, Essence STX II beneficia di una progettazione meticolosa, prestazioni eccellenti ed una profonda musicalità Hi-Fi.', '249,90', '4716659682639_MED.jpg', 'Disponibile'),
+('118', 'STRIX RAID DLX', 'Strix Raid DLX è una scheda audio premium costruita con componenti di altissima qualità per audiofili, capace di soddisfare i giocatori che esigono il massimo delle prestazioni audio.', '229,90', '4712900005950_MED.jpg', 'Disponibile'),
+('119', 'XONAR D2/PM/A', 'XONAR D2/PM/A', '189,90', '4719543030332_MED.jpg', 'Disponibile'),
+('120', 'STRIX RAID PRO', 'Strix Raid Pro è una scheda audio premium costruita con componenti di altissima qualità per audiofili, capace di soddisfare i giocatori che esigono il massimo delle prestazioni audio.', '159,90', '4712900005967_MED.jpg', 'Disponibile'),
+('121', 'XONAR PHOEBUS SOL', 'Cogli di sorpresa gli avversari grazie al migliore posizionamento audio e goditi una musica cristallina grazie ad un rapporto segnale-rumore (SNR) di 118dB con amplificatore integrato da 600 ohm per cuffie. ', '139,90', '4716659447740_MED.jpg', 'Disponibile');
 
 INSERT INTO schede_madri (`Codice_prodotto`, `Nome`, `Descrizione`, `Prezzo`, `Img`, `Disponibilita`)
-VALUES ('017', 'ASUS PRIME X399-A, AMD X399 Motherboard - Socket TR4', 'mobo X399 ATX con 4x PCIe x16 (x16/x16/x8/x8), 3x USB 3.1 (2× Type A & 1x Type C), 2x M.2 (PCIe 3.0 x4/SATA) & 6x SATA 6G, 12x USB 3.0 / 4x USB 2.0 & Illuminazione RGB', '359,90'),
-('018', 'Gigabyte Aorus X399 Gaming 7, AMD X399 MOtherboard - Socket TR4', 'mobo X399 ATX con 5x PCIe x16 (x16/x16/x8/x8/4), 2x USB 3.1 (1× Type A & 1x Type C), 3x M.2 (PCIe 3.0 x4/SATA) & 8x SATA 6G, 10x USB 3.0 / 4x USB 2.0 & Illuminazione RGB', '399,90'),
-('019', 'ASUS ROG Zenith Extreme, AMD X399 Motherboard - Socket TR4', 'mobo X399 ATX con 4x PCIe x16 (x16/x16/x8/x8), 2x USB 3.1 (1× Type A & 1x Type C), 3x M.2 (PCIe 3.0 x4/SATA) & 6x SATA 6G, 12x USB 3.0 / 4x USB 2.0, Illuminazione RGB & AC-WLAN / 10 Gigabit
-', '589,90'),
-('020', 'Gigabyte Aorus X299-Ultra Gaming, Intel X299 Mainboard - Socket 2066', 'scheda madre X299 da Gigabyte con 5× PCIe 3.0 x16 (2× x16 / 1× x8 / 2× x4) 7× USB 3.1 / 8× USB 3.0, 3× M.2 (PCIe 3.0 x4) & 8x SATA 6G, Gigabyte RGB Fusion LED', '309,90'),
-('021', 'Asus PRIME X299-DELUXE + Steam Gift Card 50€', 'scheda madre X299 da Asus in bundle con Steam Gift Card da 50€', '479,90'),
-('022', 'Asus ROG Rampage VI EXTREME, Intel X299 Mainboard - Socket 2066', 'scheda madre X299 da Asus con 4× PCIe 3.0 x16, 3× USB 3.1 / 12× USB 3.0 / 2× USB 2.0, 3× M.2 (PCIe 3.0 x4) & 1× U.2 & 6x SATA 6G, illuminazione Asus AURA RGB & WiFi / 10Gb-LAN', '699,90');
+VALUES ('122', 'ASUS PRIME X399-A, AMD X399 Motherboard - Socket TR4', 'mobo X399 ATX con 4x PCIe x16 (x16/x16/x8/x8), 3x USB 3.1 (2× Type A & 1x Type C), 2x M.2 (PCIe 3.0 x4/SATA) & 6x SATA 6G, 12x USB 3.0 / 4x USB 2.0 & Illuminazione RGB', '359,90', '4712900663716_MED.jpg', 'Disponibile'),
+('123', 'Gigabyte Aorus X399 Gaming 7, AMD X399 MOtherboard - Socket TR4', 'mobo X399 ATX con 5x PCIe x16 (x16/x16/x8/x8/4), 2x USB 3.1 (1× Type A & 1x Type C), 3x M.2 (PCIe 3.0 x4/SATA) & 8x SATA 6G, 10x USB 3.0 / 4x USB 2.0 & Illuminazione RGB', '399,90', '4712900663716_MED.jpg', 'Disponibile'),
+('124', 'ASUS ROG Zenith Extreme, AMD X399 Motherboard - Socket TR4', 'mobo X399 ATX con 4x PCIe x16 (x16/x16/x8/x8), 2x USB 3.1 (1× Type A & 1x Type C), 3x M.2 (PCIe 3.0 x4/SATA) & 6x SATA 6G, 12x USB 3.0 / 4x USB 2.0, Illuminazione RGB & AC-WLAN / 10 Gigabit
+', '589,90', '4712900663716_MED.jpg', 'Disponibile'),
+('125', 'Gigabyte Aorus X299-Ultra Gaming, Intel X299 Mainboard - Socket 2066', 'scheda madre X299 da Gigabyte con 5× PCIe 3.0 x16 (2× x16 / 1× x8 / 2× x4) 7× USB 3.1 / 8× USB 3.0, 3× M.2 (PCIe 3.0 x4) & 8x SATA 6G, Gigabyte RGB Fusion LED', '309,90', '4712900663716_MED.jpg', 'Disponibile'),
+('126', 'Asus PRIME X299-DELUXE + Steam Gift Card 50€', 'scheda madre X299 da Asus in bundle con Steam Gift Card da 50€', '479,90', '4712900663716_MED.jpg', 'Disponibile'),
+('127', 'Asus ROG Rampage VI EXTREME, Intel X299 Mainboard - Socket 2066', 'scheda madre X299 da Asus con 4× PCIe 3.0 x16, 3× USB 3.1 / 12× USB 3.0 / 2× USB 2.0, 3× M.2 (PCIe 3.0 x4) & 1× U.2 & 6x SATA 6G, illuminazione Asus AURA RGB & WiFi / 10Gb-LAN', '699,90', '4712900663716_MED.jpg', 'Disponibile'),
+('128', 'MB Asus MAXIMUS IX EXTREME S1151 Z270', 'ASUS MAXIMUS IX EXTREME. Tipi di memoria supportati: DDR4-SDRAM, tipo di slot di memoria: DIMM, Velocità di memoria supportate: 2400,2666,3400,3466,3500,3600,3733,3800,3866,4000,4133 MHz.', '679,90', '4712900663716_MED.jpg', 'Disponibile'),
+('129', 'ASUS RAMPAGE V EDITION 10', 'ASUS ROG Rampage V Edition 10 Intel X99 LGA 2011-v3 ATX', '559,90', '4712900448504_MED.jpg', 'Disponibili'),
+('130', 'MB Asus PRIME X299-DELUXE', 'MB Asus PRIME X299-DELUXE LGA 2066 8*DDR4 4*PCI-E M.2 7*SATA3', '519,90', '4712900763881_MED.jpg', 'Disponibile'),
+('131', 'MB MSI X299 XPOWER GAMING ', 'MB MSI X299 XPOWER GAMING AC LGA2066 8DDR4 4PCI-EX16 1PCI-EX 1U.2 3M.2 10SATA3 3USB3', '489,90', '4719072525958_MED.jpg', 'Disponibile'),
+('132', 'X99-DELUXE II S2011 V3 X99 ATX', 'ASUS X99-DELUXE II. Tipi di memoria supportati: DDR4-SDRAM, tipo di slot di memoria: DIMM, Canali di memoria: Quad. Famiglia processore: Intel, Processori compatibili: Core i7, Socket processore: LGA 2011-v3.', '479,90', '4712900397796_MED.jpg', 'Disponibile'),
+('133', 'MB MSI X299 Gaming M7 ACK', 'MB MSI X299 Gaming M7 ACK LGA 2066 8*DDR4 6*PCI-E M2. 8*SATA3 -MSIX299', '469,90', '4719072525941_MED.jpg', 'Disponibile'),;
 
 INSERT INTO schede_video (`Codice_prodotto`, `Nome`, `Descrizione`, `Prezzo`, `Img`, `Disponibilita`)
-VALUES ('017', 'Gigabyte Radeon RX Vega 56 8G, 8192 MB HBM2', 'Radeon RX Vega con 1.471 MHz Core, 8 Gb di Memoria HBM2 & 3x DisplayPort 1.4 / 1x HDMI', '599,90'),
-('018', 'Gigabyte Radeon RX Vega 64 Silver 8G, 8192 MB HBM2', 'Radeon RX Vega con 1.546 MHz Core, 8 Gb di Memoria HBM2 & 3x DisplayPort 1.4 / 1x HDMI', '729,90'),
-('019', 'Asus GeForce GTX 1080 Ti STRIX O11G Gaming, 11GB GDDR5X', 'Pascal Power da ASUS: GTX 1080 Ti con 1.683 / 1.708 MHz Core, 11Gb di Memoria (11.100 MHz) e Aura Sync RGB, VR & 4K gaming', '969,90'),
-('020', 'Asus ROG Poseidon GeForce GTX 1080 TI 11GB Platinum Edition', 'Pascal Power da ASUS con diussipazione a liquido integrata! GTX 1080 Ti con 1.733 MHz Core, 11GB MB di Memoria (11.1100 MHz) e dissipazione con WB integrato', '999,90'),
-('021', 'VGA 12GB PALIT GeForce GTX Titan X (DVI-I,Mini-HDMI,3xDP,DDR5,A)', 'NVIDIA TITAN X, con architettura NVIDIA Pascal™, è la scheda grafica ideale. Questa rivoluzionaria versione della scheda TITAN X offre a qualsiasi utente la potenza necessaria a realizzare cose in precedenza ritenute impossibili', '1349,90'),
-('022', 'Scheda grafica NVIDIA Quadro M6000 24 GB', 'Creativi, stilisti e designer potranno affrontare carichi di lavoro estremamente elevati di visualizzazione, simulazione ed analisi con l''efficiente NVIDIA® Quadro® M6000 ad alte prestazioni e i suoi straordinari 24 GB di memoria GDDR5 ad elevata larghezza di banda', '9660,90');
+VALUES ('134', 'Gigabyte Radeon RX Vega 56 8G, 8192 MB HBM2', 'Radeon RX Vega con 1.471 MHz Core, 8 Gb di Memoria HBM2 & 3x DisplayPort 1.4 / 1x HDMI', '599,90', 'nvidia.jpg', 'Disponibile'),
+('135', 'Gigabyte Radeon RX Vega 64 Silver 8G, 8192 MB HBM2', 'Radeon RX Vega con 1.546 MHz Core, 8 Gb di Memoria HBM2 & 3x DisplayPort 1.4 / 1x HDMI', '729,90', 'nvidia.jpg', 'Disponibile'),
+('136', 'Asus GeForce GTX 1080 Ti STRIX O11G Gaming, 11GB GDDR5X', 'Pascal Power da ASUS: GTX 1080 Ti con 1.683 / 1.708 MHz Core, 11Gb di Memoria (11.100 MHz) e Aura Sync RGB, VR & 4K gaming', '969,90', 'nvidia.jpg', 'Disponibile'),
+('137', 'Asus ROG Poseidon GeForce GTX 1080 TI 11GB Platinum Edition', 'Pascal Power da ASUS con diussipazione a liquido integrata! GTX 1080 Ti con 1.733 MHz Core, 11GB MB di Memoria (11.1100 MHz) e dissipazione con WB integrato', '999,90', 'nvidia.jpg', 'Disponibile'),
+('138', 'VGA 12GB PALIT GeForce GTX Titan X (DVI-I,Mini-HDMI,3xDP,DDR5,A)', 'NVIDIA TITAN X, con architettura NVIDIA Pascal™, è la scheda grafica ideale. Questa rivoluzionaria versione della scheda TITAN X offre a qualsiasi utente la potenza necessaria a realizzare cose in precedenza ritenute impossibili', '1349,90', 'nvidia.jpg', 'Disponibile'),
+('139', 'Scheda grafica NVIDIA Quadro M6000 24 GB', 'Creativi, stilisti e designer potranno affrontare carichi di lavoro estremamente elevati di visualizzazione, simulazione ed analisi con l''efficiente NVIDIA® Quadro® M6000 ad alte prestazioni e i suoi straordinari 24 GB di memoria GDDR5 ad elevata larghezza di banda', '9660,90', 'nvidia.jpg', 'Disponibile'),
+('140', 'VGA Asus Geforce GTX 1080TI ROG POSEIDON 11G', 'VGA Asus Geforce GTX 1080TI ROG POSEIDON 11G', '1029,90', '4712900748284_MED.jpg', 'Disponibile'),
+('141', 'VGA MSI GEFORCE GTX 1080Ti', 'VGA MSI GEFORCE GTX 1080Ti SEA HAWK X 11G DVI+3xDP +HDMI DX12', '959,90', '4719072517878_MED.jpg', 'Disponibile'),
+('142', 'VGA Evga GeForce GTX 1080 TI SC2 11GB GDDR5X', 'VGA Evga GeForce GTX 1080 TI SC2 11GB GDDR5X', '729,90', '0843368048204_MED.jpg', 'Disponibile'),
+('143', 'VGA ASUS GEFORCE GTX 1080TI ROG', 'VGA ASUS GEFORCE GTX 1080TI ROG STRIX GTX 1080TI O11G-GAMING -VgaSummer', '929,90', '4712900714555_MED.jpg', 'Disponibile'),
+('144', 'VGA Zotac Geforce GTX 1080Ti', 'VGA Zotac Geforce GTX 1080Ti Amp Extreme 11GB GDDR5 -1080ti', '909,90', '4895173613081_MED.jpg', 'Disponibile'),
+('145', 'VGA MSI GeForce GTX 1080 Founders Edition 8GB GDDR5X', 'VGA MSI GeForce GTX 1080 Founders Edition 8GB GDDR5X', '889,90', '4719072465315_MED.jpg', 'Disponibile');
