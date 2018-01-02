@@ -144,7 +144,7 @@ VALUES ('001', 'Cooler Master MasterWatt 65', 'Alimentatore Notebook - 65 Watt',
 ('009', 'Alimentatore Cooler Master Maker 1200', 'Alimentatore Cooler Master Maker 1200 Made In Japan 1200W 80Plus Titanium, Active PFC, Silent 135mm FP fan', '1049,90', 'alimentatore_cooler_master_maker_1200.jpg', 'Disponibile'),
 ('010', 'Alimentatore Cooler Master MASTERWATT MAKER 1500', 'Alimentatore Cooler Master MASTERWATT MAKER 1500 1500W 80PLUS-TITANIUM 135MM-FAN ACTIVE-PFC PSU', '489,90', 'alimentatore_cooler_master_masterwatt.jpg', 'Disponibile'),
 ('011', 'Alimentatore Cooler Master MASTERWATT MAKER 1500 (NON BLUETOOTH)', 'Alimentatore Cooler Master MASTERWATT MAKER 1500 (NON BLUETOOTH) 1500W 80PLUS-TITANIUM 135MM-FAN ACTIVE-PFC PSU', '469,90', 'alimentatore_cooler_master_masterwatt_no_bluethoot.jpg', 'Disponibile'),
-('012', 'Alimentatore EVGA SUPERNOVA', 'Alimentatore EVGA SUPERNOVA 1600 G2 GOLD', '425,90', 'alimentatore_evga.jpg', 'Disponibile'),
+('012', 'Alimentatore EVGA SUPERNOVA', 'Alimentatore EVGA SUPERNOVA 1600 G2 GOLD', '425,90', 'alimentatore_evga.jpg', 'Disponibile');
 
 INSERT INTO cpu (`Codice_prodotto`, `Nome`, `Descrizione`, `Prezzo`, `Img`, `Disponibilita`)
 VALUES ('013', 'Intel Core i3-6300 3,8 GHz (Skylake) Socket 115', 'CPU dual core da Intel con 3,8 GHz max, 4Mb Cache, chipset grafico HD 530, 47 Watt TDP con dissipatore', '189,90', 'cpu.jpeg', 'Disponibile'),
@@ -192,9 +192,9 @@ INSERT INTO memorie_ram (`Codice_prodotto`, `Nome`, `Descrizione`, `Prezzo`, `Im
 VALUES ('049', 'Corsair Vengeance RGB LED DDR4, 3.333 MHz, C16 - Kit 32GB (4x 8GB)', 'memorie 1,35V a 3.333MHz da Corsair serie Vengeance LED con illuminazione RGB programmabile', '499,90', 'ram.jpg', 'Disponibile'),
 ('050', 'Corsair Vengeance LPX DDR4 PC4-26400, 3.300 MHz, C16, Nero - Kit 16GB (2x 8GB)', 'memorie 1,35V a 3.300MHz da Corsair serie Vengeance LPX con timing CL 16-18-18-36 e dissipatore Vengeance Airflow', '229,90', 'ram.jpg', 'Disponibile'),
 ('051', 'Corsair Dominator Platinum DDR4 PC4-26400, 3.333 MHz, C16 - Kit 32GB (4x 8GB)', 'memorie 1,35V a 3.333MHz da Corsair serie Dominator Platinum con timing CL 16-18-18-36 con Airflow Platinum Dominator', '469,90', 'ram.jpg', 'Disponibile'),
-('052', 'Corsair Vengeance LPX DDR4 PC4-33000, 4.133 MHz, C19, Nero - Kit 8GB (2x 4GB)', 'memorie 1,35V a 4.133MHz da Corsair serie Vengeance LPX con timing CL 19-25-25-45 e dissipatore Corsair Vengeance Airflow', '189,90', , 'ram.jpg', 'Disponibile'),
+('052', 'Corsair Vengeance LPX DDR4 PC4-33000, 4.133 MHz, C19, Nero - Kit 8GB (2x 4GB)', 'memorie 1,35V a 4.133MHz da Corsair serie Vengeance LPX con timing CL 19-25-25-45 e dissipatore Corsair Vengeance Airflow', '189,90', 'ram.jpg', 'Disponibile'),
 ('053', 'Corsair Vengeance LPX DDR4 PC4-33000, 4.133 MHz, C19, Rosso - Kit 8GB (2x 4GB)', 'memorie 1,35V a 4.133MHz da Corsair serie Vengeance LPX con timing CL 19-25-25-45 e dissipatore Corsair Vengeance Airflow', '179,90', 'ram.jpg', 'Disponibile'),
-('054', 'Corsair Vengeance LPX DDR4 PC4-35200, 4.400 MHz, C19, Rosso - Kit 16GB (2x 8GB)', 'memorie 1,4V a 4.400MHz da Corsair serie Vengeance LPX con timing CL 19-23-23-45 e dissipatore Corsair Vengeance Airflow', '399,90', '', 'Disponibile'),
+('054', 'Corsair Vengeance LPX DDR4 PC4-35200, 4.400 MHz, C19, Rosso - Kit 16GB (2x 8GB)', 'memorie 1,4V a 4.400MHz da Corsair serie Vengeance LPX con timing CL 19-23-23-45 e dissipatore Corsair Vengeance Airflow', '399,90', 'ram.jpg', 'Disponibile'),
 ('055', 'DDR4 2666MHZ 32GB 4 X 288 DIMM DOMI', 'DDR4 2666MHZ 32GB 4 X 288 DIMM DOMI', '539,90', 'DDR4_2666mhz.jpg', 'Disponibile'),
 ('056', 'GEIL 32GB(8GBx4) PC4-2400', 'GEIL 32GB(8GBx4) PC4-2400 3000MHz EVO X Hybrid-Independent-Light-Module 15-17-17-35 - RGB LED ROG-Certified', '519,90', 'geil_32gb.jpg', 'Disponibile'),
 ('057', 'VENGEANCE LPX 32 GB DDR4 2666 MHZ', 'VENGEANCE LPX 32 GB DDR4 2666 MHZ', '499,90', 'vemgeance_lpx.jpg', 'Disponibile'),
@@ -228,7 +228,7 @@ VALUES ('073', 'Trust Gaming GXT 155 Gaming Mouse - Nero', 'mouse da gioco Elite
 ('081', 'CORSAIR GAMING K70 RGB RAPIDFIRE', 'CORSAIR GAMING K70 RGB RAPIDFIRE', '229,90', 'corsair_gamingk70', 'Disponibile'),
 ('082', 'MOUSE GAMING ASUS ROG', 'MOUSE GAMING ASUS ROG SPATHA L701-1A-ROG', '179,90', 'mouse_asus_rog.jpg', 'Disponibile'),
 ('083', 'Razer Mouse NAGA Epic Chroma', 'Razer Mouse NAGA Epic Chroma', '159,90', 'razer_mouse.jpg', 'Disponibile'),
-('084', 'Razer Mouse Wireless OUROBOROS USB', 'Razer Mouse Wireless OUROBOROS USB', '144,90', 'razer_mouse_wireless.jpg', 'Disponibile'),;
+('084', 'Razer Mouse Wireless OUROBOROS USB', 'Razer Mouse Wireless OUROBOROS USB', '144,90', 'razer_mouse_wireless.jpg', 'Disponibile');
 
 INSERT INTO case_pc (`Codice_prodotto`, `Nome`, `Descrizione`, `Prezzo`, `Img`, `Disponibilita`)
 VALUES ('085', 'Corsair Graphite 780T - Nero', 'nuovo connubio di design e funzionalità da Corsair con nuovi elementi della serie Graphite in versione Full Tower', '189,90', 'workstation-aventum-pro.jpg', 'Disponibile'),
@@ -251,7 +251,7 @@ VALUES ('098', 'Corsair Hydro Series H80i v2 Extreme Performance Liquid CPU Cool
 ('100', 'Thermaltake Floe Riing RGB TT Premium Edition AIO - 240mm', 'dissipatore AIO da Thermaltake con ventole RGB e radiatore da 240mm', '169,90', 'raffreddamento.jpg', 'Non Disponibile'),
 ('101', 'Cooler Master MasterFan Pro 140 Air Flow RGB - 140 mm', 'ventola LED RGB compatibile con varie tecnologie tra cui ASUS Aura, Gigabyte RGB Fusion, 500-800 RPM, 53 CFM, 0.54 mmH2O', '29,90', 'raffreddamento.jpg', 'Non Disponibile'),
 ('102', 'Aerocool Lighting ventola 140mm - Blu', 'ventola con 11 pale trasperenti e LED luminosi da Aerocool', '19,90', '', 'Disponibile'),
-('103', 'Aerocool Lighting ventola 140mm - Rosso', 'ventola con 11 pale trasperenti e LED luminosi da Aerocool', '79,90', 'raffreddamento.jpg', 'Non Disponibile')
+('103', 'Aerocool Lighting ventola 140mm - Rosso', 'ventola con 11 pale trasperenti e LED luminosi da Aerocool', '79,90', 'raffreddamento.jpg', 'Non Disponibile'),
 ('104', 'THERMALTAK RAF.LIQUIDO WATER 3.0', 'THERMALTAK RAF.LIQUIDO WATER 3.0 RIING RED 140 CL-W150-PL14RE-A', '108,90', 'CL-W150-PL14RE-A_MED.jpg', 'Disponibile'),
 ('105', 'NZXT AER RGB KIT 2 VENTOLE RGB LED 120mm + Controller Hue+', 'Progettata per l''integrazione perfetta con HUE+, la ventola Aer RGB fornisce un flusso d''aria ottimale e personalizzazioni di illuminazione avanzate. ', '19,90', 'RF-AR120-C1_MED.jpg', 'Disponibile'),
 ('106', 'NZXT AER RGB 3 VENTOLE RGB LED 120mm CONTROLLATE DIGITALMENTE', 'Collegamenti di gruppo e a catena di fino a cinque ventole per canale di HUE+ per varie modalità di illuminazione che funzionano in perfetta armonia', '89,90', 'RF-AR120-T1_MED.jpg', 'Disponibile'),
@@ -264,7 +264,7 @@ INSERT INTO schede_audio (`Codice_prodotto`, `Nome`, `Descrizione`, `Prezzo`, `I
 VALUES ('110', 'Asus Xonar DX/XD/A PCIe', 'Scheda Audio per slot PCIe 7.1 con Tecnologia Dolby Home Theater', '59,90', '4716659682646_MED.jpg', 'Disponibile'),
 ('111', 'ASUS Xonar U3 Scheda Audio Hi-Speed USB', 'scheda audio USB da ASUS serie Xonar con amplificatore per headset e DAC', '39,90', '4716659682646_MED.jpg', 'Disponibile'),
 ('112', 'Asus Strix RAID Pro 7.1 Gaming Audio Card PCIe', 'scheda audio pro gaming PCIe da Asus con DAC ESS SABRE9006A, amplificatore cuffie da 600Ohm e software di gestione', '119,90', '4716659682646_MED.jpg', 'Disponibile'),
-('113', 'Asus Xonar ROG Phoebus - PCIe', 'scheda audio ROG per gamer, con box di controllo, amplificatore per headset e XEAR 3D', '159,90'),
+('113', 'Asus Xonar ROG Phoebus - PCIe', 'scheda audio ROG per gamer, con box di controllo, amplificatore per headset e XEAR 3D', '159,90', '4716659682646_MED.jpg', 'Disponibile'),
 ('114', 'Asus Xonar Essence STX II 7.1 Scheda Audio PCIe x1', 'scheda audio semi professionale da Asus con 124 dB SNR, Audio discreto 7.1 ed amplificatore per HeadSet', '249,90', '4716659682646_MED.jpg', 'Disponibile'),
 ('115', 'Asus Xonar Essence STU, Hi-Speed USB', 'convertitore USB DAC da Asus con rapporto segnale / rumore di 120 dB e amplificatore (TPA6120A2) da 600 ohm', '319,90', '4716659682646_MED.jpg', 'Disponibile'),
 ('116', 'XONAR ESSENCE STX II 7.1', 'Quattro anni dopo il debutto di Essence STX, ASUS continua nel suo impegno di fornire schede audio sempre migliori e di fascia superiore per deliziare i più esigenti degli audiofili.', '299,90', '4716659682646_MED.jpg', 'Disponibile'),
@@ -287,7 +287,7 @@ VALUES ('122', 'ASUS PRIME X399-A, AMD X399 Motherboard - Socket TR4', 'mobo X39
 ('130', 'MB Asus PRIME X299-DELUXE', 'MB Asus PRIME X299-DELUXE LGA 2066 8*DDR4 4*PCI-E M.2 7*SATA3', '519,90', '4712900763881_MED.jpg', 'Disponibile'),
 ('131', 'MB MSI X299 XPOWER GAMING ', 'MB MSI X299 XPOWER GAMING AC LGA2066 8DDR4 4PCI-EX16 1PCI-EX 1U.2 3M.2 10SATA3 3USB3', '489,90', '4719072525958_MED.jpg', 'Disponibile'),
 ('132', 'X99-DELUXE II S2011 V3 X99 ATX', 'ASUS X99-DELUXE II. Tipi di memoria supportati: DDR4-SDRAM, tipo di slot di memoria: DIMM, Canali di memoria: Quad. Famiglia processore: Intel, Processori compatibili: Core i7, Socket processore: LGA 2011-v3.', '479,90', '4712900397796_MED.jpg', 'Disponibile'),
-('133', 'MB MSI X299 Gaming M7 ACK', 'MB MSI X299 Gaming M7 ACK LGA 2066 8*DDR4 6*PCI-E M2. 8*SATA3 -MSIX299', '469,90', '4719072525941_MED.jpg', 'Disponibile'),;
+('133', 'MB MSI X299 Gaming M7 ACK', 'MB MSI X299 Gaming M7 ACK LGA 2066 8*DDR4 6*PCI-E M2. 8*SATA3 -MSIX299', '469,90', '4719072525941_MED.jpg', 'Disponibile');
 
 INSERT INTO schede_video (`Codice_prodotto`, `Nome`, `Descrizione`, `Prezzo`, `Img`, `Disponibilita`)
 VALUES ('134', 'Gigabyte Radeon RX Vega 56 8G, 8192 MB HBM2', 'Radeon RX Vega con 1.471 MHz Core, 8 Gb di Memoria HBM2 & 3x DisplayPort 1.4 / 1x HDMI', '599,90', 'nvidia.jpg', 'Disponibile'),
