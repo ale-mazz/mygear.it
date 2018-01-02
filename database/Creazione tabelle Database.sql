@@ -4,9 +4,9 @@ DROP TABLE IF EXISTS cuffie;
 CREATE TABLE cuffie (
 	`Codice_prodotto` int PRIMARY KEY,
 	`Nome` char(100) NOT NULL,
-	`Descrizione` char(200)  NOT NULL,
+	`Descrizione` varchar(500)  NOT NULL,
 	`Prezzo` float(8,2)  NOT NULL,
-    `Img` char(20) NOT NULL,
+    `Img` char(70) NOT NULL,
 	`Disponibilita` char(20) NOT NULL
 ) ENGINE=InnoDB;
 
@@ -14,9 +14,9 @@ DROP TABLE IF EXISTS PC;
 CREATE TABLE PC (
 	`Codice_prodotto` int PRIMARY KEY,
 	`Nome` char(20) NOT NULL,
-	`Descrizione` char(50)  NOT NULL,
+	`Descrizione` varchar(500)  NOT NULL,
 	`Prezzo` float(8,2)  NOT NULL,
-    `Img` char(20) NOT NULL,
+    `Img` char(70) NOT NULL,
 	`Disponibilita` char(20) NOT NULL
 ) ENGINE=InnoDB;
 
@@ -24,9 +24,9 @@ DROP TABLE IF EXISTS alimentatori;
 CREATE TABLE alimentatori (
 	`Codice_prodotto` int PRIMARY KEY,
 	`Nome` char(50) NOT NULL,
-	`Descrizione` char(150)  NOT NULL,
+	`Descrizione` varchar(500)  NOT NULL,
 	`Prezzo` float(8,2)  NOT NULL,
-	`Img` char(20) NOT NULL,
+	`Img` char(70) NOT NULL,
 	`Disponibilita` char(20) NOT NULL
 ) ENGINE=InnoDB;
 
@@ -34,9 +34,9 @@ DROP TABLE IF EXISTS CPU;
 CREATE TABLE CPU (
 	`Codice_prodotto` int PRIMARY KEY,
 	`Nome` char(20) NOT NULL,
-	`Descrizione` char(50)  NOT NULL,
+	`Descrizione` varchar(500)  NOT NULL,
 	`Prezzo` float(8,2)  NOT NULL,
-    `Img` char(20) NOT NULL,
+    `Img` char(70) NOT NULL,
 	`Disponibilita` char(20) NOT NULL
 ) ENGINE=InnoDB;
 
@@ -44,9 +44,9 @@ DROP TABLE IF EXISTS memorie_interne;
 CREATE TABLE memorie_interne (
 	`Codice_prodotto` int PRIMARY KEY,
 	`Nome` char(20) NOT NULL,
-	`Descrizione` char(50)  NOT NULL,
+	`Descrizione` varchar(500)  NOT NULL,
 	`Prezzo` float(8,2)  NOT NULL,
-    `Img` char(20) NOT NULL,
+    `Img` char(70) NOT NULL,
 	`Disponibilita` char(20) NOT NULL
 ) ENGINE=InnoDB;
 
@@ -54,9 +54,9 @@ DROP TABLE IF EXISTS memorie_ram;
 CREATE TABLE memorie_ram (
 	`Codice_prodotto` int PRIMARY KEY,
 	`Nome` char(20) NOT NULL,
-	`Descrizione` char(50)  NOT NULL,
+	`Descrizione` varchar(500)  NOT NULL,
 	`Prezzo` float(8,2)  NOT NULL,
-    `Img` char(20) NOT NULL,
+    `Img` char(70) NOT NULL,
 	`Disponibilita` char(20) NOT NULL
 ) ENGINE=InnoDB;
 
@@ -64,9 +64,9 @@ DROP TABLE IF EXISTS monitor;
 CREATE TABLE monitor (
 	`Codice_prodotto` int PRIMARY KEY,
 	`Nome` char(20) NOT NULL,
-	`Descrizione` char(50)  NOT NULL,
+	`Descrizione` varchar(500)  NOT NULL,
 	`Prezzo` float(8,2)  NOT NULL,
-    `Img` char(20) NOT NULL,
+    `Img` char(70) NOT NULL,
 	`Disponibilita` char(20) NOT NULL
 ) ENGINE=InnoDB;
 
@@ -74,9 +74,9 @@ DROP TABLE IF EXISTS mouse_tastiere;
 CREATE TABLE mouse_tastiere (
 	`Codice_prodotto` int PRIMARY KEY,
 	`Nome` char(20) NOT NULL,
-	`Descrizione` char(50)  NOT NULL,
+	`Descrizione` varchar(500)  NOT NULL,
 	`Prezzo` float(8,2)  NOT NULL,
-    `Img` char(20) NOT NULL,
+    `Img` char(70) NOT NULL,
 	`Disponibilita` char(20) NOT NULL
 ) ENGINE=InnoDB;
 
@@ -84,9 +84,9 @@ DROP TABLE IF EXISTS raffreddamento;
 CREATE TABLE raffreddamento (
 	`Codice_prodotto` int PRIMARY KEY,
 	`Nome` char(20) NOT NULL,
-	`Descrizione` char(50)  NOT NULL,
+	`Descrizione` varchar(500)  NOT NULL,
 	`Prezzo` float(8,2)  NOT NULL,
-    `Img` char(20) NOT NULL,
+    `Img` char(70) NOT NULL,
 	`Disponibilita` char(20) NOT NULL
 ) ENGINE=InnoDB;
 
@@ -94,9 +94,9 @@ DROP TABLE IF EXISTS schede_audio;
 CREATE TABLE schede_audio (
 	`Codice_prodotto` int PRIMARY KEY,
 	`Nome` char(20) NOT NULL,
-	`Descrizione` char(50)  NOT NULL,
+	`Descrizione` varchar(500)  NOT NULL,
 	`Prezzo` float(8,2)  NOT NULL,
-    `Img` char(20) NOT NULL,
+    `Img` char(70) NOT NULL,
 	`Disponibilita` char(20) NOT NULL
 ) ENGINE=InnoDB;
 
@@ -104,9 +104,9 @@ DROP TABLE IF EXISTS schede_madri;
 CREATE TABLE schede_madri (
 	`Codice_prodotto` int PRIMARY KEY,
 	`Nome` char(20) NOT NULL,
-	`Descrizione` char(50)  NOT NULL,
+	`Descrizione` varchar(500)  NOT NULL,
 	`Prezzo` float(8,2)  NOT NULL,
-    `Img` char(20) NOT NULL,
+    `Img` char(70) NOT NULL,
 	`Disponibilita` char(20) NOT NULL
 ) ENGINE=InnoDB;
 
@@ -114,9 +114,9 @@ DROP TABLE IF EXISTS schede_video;
 CREATE TABLE schede_video (
 	`Codice_prodotto` int PRIMARY KEY,
 	`Nome` char(20) NOT NULL,
-	`Descrizione` char(50)  NOT NULL,
+	`Descrizione` varchar(500)  NOT NULL,
 	`Prezzo` float(8,2)  NOT NULL,
-    `Img` char(20) NOT NULL,
+    `Img` char(70) NOT NULL,
 	`Disponibilita` char(20) NOT NULL
 ) ENGINE=InnoDB;
 
@@ -124,26 +124,26 @@ DROP TABLE IF EXISTS case_pc;
 CREATE TABLE case_pc (
     `Codice_prodotto` int PRIMARY KEY,
     `Nome` char(20) NOT NULL,
-    `Descrizione` char(50)  NOT NULL,
+    `Descrizione` varchar(500)  NOT NULL,
     `Prezzo` float(8,2)  NOT NULL,
-    `Img` char(20) NOT NULL,
+    `Img` char(70) NOT NULL,
     `Disponibilita` char(20) NOT NULL
 ) ENGINE=InnoDB;
 
 
 
 INSERT INTO alimentatori (`Codice_prodotto`, `Nome`, `Descrizione`, `Prezzo`, `Img`, `Disponibilita`)
-VALUES ('001', 'Cooler Master MasterWatt 65', 'Alimentatore Notebook - 65 Watt', '34,90', 'alimentatori.jpg', 'Disponibile'),
-('002', 'Cooler Master MasterWatt 70', 'Alimentatore Notebook - 70 Watt', '39,90', 'alimentatori.jpg', 'Disponibile'),
-('003', 'Cooler Master MasterWatt 90', 'Alimentatore Notebook - 90 Watt', '44,90','alimentatori.jpg', 'Disponibile'),
-('004', 'TECNOWARE FREE SILENT 520 W', 'Alimentatore Interno Per Personal Computer 520 W', '24,90', 'alimentatori.jpg', 'Disponibile'),
-('005', 'Alimentatore Tecnoware 500W', 'Alimentatore Tecnoware 500W FREE-Silent500 FAL505FS12B (Bulk Version) Fan12cm Silent v2.01 (Gar24m)', '16,90', 'alimentatore_tecnoware_500w.jpg', 'Disponibile'),
+VALUES ('001', 'Corsair Builder Series CX430 PSU - 430 Watt', 'PSU da 430 Watt della Corsair, Alta Efficienza e 28A sui 12V', '56,90', 'imagemagic.jpg', 'Disponibile'),
+('002', 'Corsair Builder Series CX450M PSU Modulare - 450 Watt', 'alimentatore entry level da Corsair con alta efficienza e cablaggio dei cavi modulare', '59,90', 'imagemagic(1).jpg', 'Disponibile'),
+('003', 'Enermax MaxPro 80Plus - 500 Watt', 'PSU entry level da Enermax con certificazione 80Plus e ventola silenziosa da 12cm', '59,90','imagemagic2.jpg', 'Disponibile'),
+('004', 'Corsair SF450 80PLUS Gold High Performance SFX - 450 Watt', 'alimentatore SFX Ultra compatto da 450W, Singola linea 12V da 37A, 2x PCIe e 7 anni di garanzia', '89,90', 'imagemagic3.jpg', 'Disponibile'),
+('005', 'Silverstone SST-GM500-G Gemini Series - 2x 500 Watt', 'alimentatore ridondante ATX con funzionalità Hot-Swap, 2x 500 Watt, 41A su singolo canale e certificazione 80Plus Gold', '599,90', 'imagemagic4.jpg', 'Disponibile'),
 ('006', 'Alimentatore Atlantis 500W', 'ATLANTIS P016-MPW-5000-W SINGOLA VENT. SILENZ. 12CM 2SATA 3ATA 12V 24PIN EAN 8026974014104', '43,90', 'alimentatore_atlantis_500w.jpg', 'Non Disponibile'),
 ('007', 'Alimentatore Corsair 620 W', 'Alimentatore Corsair 620 W TECNOWARE FREE-Silent620 FAL625FS12 Fan12cm Silent v2.01 (Gar24m)', '33,90', 'alimentatore_corsair_620w.jpg', 'Disponibile'),
 ('008', 'Alimentatore Itek', 'Alimentatore Itek ENERGY K-Series 650W ATX - Full Black, Retail', '33,90', 'alimentatore_itek.jpg', 'Non Disponibile'),
 ('009', 'Alimentatore Cooler Master Maker 1200', 'Alimentatore Cooler Master Maker 1200 Made In Japan 1200W 80Plus Titanium, Active PFC, Silent 135mm FP fan', '1049,90', 'alimentatore_cooler_master_maker_1200.jpg', 'Disponibile'),
 ('010', 'Alimentatore Cooler Master MASTERWATT MAKER 1500', 'Alimentatore Cooler Master MASTERWATT MAKER 1500 1500W 80PLUS-TITANIUM 135MM-FAN ACTIVE-PFC PSU', '489,90', 'alimentatore_cooler_master_masterwatt.jpg', 'Disponibile'),
-('011', 'Alimentatore Cooler Master MASTERWATT MAKER 1500 (NON BLUETOOTH)', 'Alimentatore Cooler Master MASTERWATT MAKER 1500 (NON BLUETOOTH) 1500W 80PLUS-TITANIUM 135MM-FAN ACTIVE-PFC PSU', '469,90', 'alimentatore_cooler_master_masterwatt_no_bluethoot.jpg', 'Disponibile'),
+('011', 'Alimentatore Cooler Master MASTERWATT MAKER 1500 (NON BLUETOOTH)', 'Alimentatore Cooler Master MASTERWATT MAKER 1500 (NON BLUETOOTH) 1500W 80PLUS-TITANIUM 135MM-FAN ACTIVE-PFC PSU', '469,90', 'alimentatore_cooler_master.jpg', 'Disponibile'),
 ('012', 'Alimentatore EVGA SUPERNOVA', 'Alimentatore EVGA SUPERNOVA 1600 G2 GOLD', '425,90', 'alimentatore_evga.jpg', 'Disponibile');
 
 INSERT INTO cpu (`Codice_prodotto`, `Nome`, `Descrizione`, `Prezzo`, `Img`, `Disponibilita`)
