@@ -1,6 +1,6 @@
 <?php
 
-require_once 'connection.php';
+require_once '../../php/connection.php';
 
 // MYSQLI Query e riempimento array di array associativi
 
@@ -33,12 +33,14 @@ foreach ($products as $product){
     $insertproduct=$insertproduct.$get_product;
 }
 
-$page=file_get_contents("../catalog/cataloginside/alimentatori.html");
-$footer=file_get_contents("../footer/footer.html");
-$header=file_get_contents("../header/header.html");
+$page=file_get_contents("alimentatori.html");
+$footer=file_get_contents("../../footer/footer.html");
+$header=file_get_contents("../../header/header.html");
 $page=str_replace('$header$', $header ,$page);
 $page=str_replace('$footer$', $footer ,$page);
 $page=str_replace('$products$',$insertproduct, $page);
+$page=str_replace('../','../../', $page);
+
 
 echo $page;
 
