@@ -68,6 +68,13 @@
     margin-top: 10%;
 }
 
+.product_price h3 {
+    font-size: 0.9em;
+    margin-right: 10%;
+    margin-top: -6%;
+    float: right;
+}
+
 
 /******************************************************************
  Media Query Tablet
