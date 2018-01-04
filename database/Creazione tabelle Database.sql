@@ -143,6 +143,15 @@ CREATE TABLE case_pc (
     `Alt` char(20) NOT NULL
 ) ENGINE=InnoDB;
 
+DROP TABLE IF EXISTS utente;
+CREATE TABLE utente (
+    `Username` char(20) PRIMARY KEY,
+    `Cognome` char(20) NOT NULL,
+    `Nome` char(20) NOT NULL,
+    `Email` char(20) NOT NULL,
+    `Password` char(20) NOT NULL
+) ENGINE=InnoDB;
+
 
 
 INSERT INTO alimentatori (`Codice_prodotto`, `Nome`, `Descrizione`, `Prezzo`, `Img`, `Disponibilita`)
