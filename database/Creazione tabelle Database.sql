@@ -7,7 +7,8 @@ CREATE TABLE cuffie (
 	`Descrizione` varchar(500)  NOT NULL,
 	`Prezzo` float(8,2)  NOT NULL,
     `Img` char(70) NOT NULL,
-	`Disponibilita` char(20) NOT NULL
+	`Disponibilita` char(20) NOT NULL,
+    `Alt` char(20) NOT NULL   
 ) ENGINE=InnoDB;
 
 DROP TABLE IF EXISTS PC;
@@ -17,7 +18,8 @@ CREATE TABLE PC (
 	`Descrizione` varchar(500)  NOT NULL,
 	`Prezzo` float(8,2)  NOT NULL,
     `Img` char(70) NOT NULL,
-	`Disponibilita` char(20) NOT NULL
+	`Disponibilita` char(20) NOT NULL,
+    `Alt` char(20) NOT NULL
 ) ENGINE=InnoDB;
 
 DROP TABLE IF EXISTS alimentatori;
@@ -27,7 +29,8 @@ CREATE TABLE alimentatori (
 	`Descrizione` varchar(500)  NOT NULL,
 	`Prezzo` float(8,2)  NOT NULL,
 	`Img` char(70) NOT NULL,
-	`Disponibilita` char(20) NOT NULL
+	`Disponibilita` char(20) NOT NULL,
+    `Alt` char(20) NOT NULL
 ) ENGINE=InnoDB;
 
 DROP TABLE IF EXISTS CPU;
@@ -37,7 +40,8 @@ CREATE TABLE CPU (
 	`Descrizione` varchar(500)  NOT NULL,
 	`Prezzo` float(8,2)  NOT NULL,
     `Img` char(70) NOT NULL,
-	`Disponibilita` char(20) NOT NULL
+	`Disponibilita` char(20) NOT NULL,
+    `Alt` char(20) NOT NULL
 ) ENGINE=InnoDB;
 
 DROP TABLE IF EXISTS memorie_interne;
@@ -47,7 +51,8 @@ CREATE TABLE memorie_interne (
 	`Descrizione` varchar(500)  NOT NULL,
 	`Prezzo` float(8,2)  NOT NULL,
     `Img` char(70) NOT NULL,
-	`Disponibilita` char(20) NOT NULL
+	`Disponibilita` char(20) NOT NULL,
+    `Alt` char(20) NOT NULL
 ) ENGINE=InnoDB;
 
 DROP TABLE IF EXISTS memorie_ram;
@@ -57,7 +62,8 @@ CREATE TABLE memorie_ram (
 	`Descrizione` varchar(500)  NOT NULL,
 	`Prezzo` float(8,2)  NOT NULL,
     `Img` char(70) NOT NULL,
-	`Disponibilita` char(20) NOT NULL
+	`Disponibilita` char(20) NOT NULL,
+    `Alt` char(20) NOT NULL
 ) ENGINE=InnoDB;
 
 DROP TABLE IF EXISTS monitor;
@@ -67,7 +73,8 @@ CREATE TABLE monitor (
 	`Descrizione` varchar(500)  NOT NULL,
 	`Prezzo` float(8,2)  NOT NULL,
     `Img` char(70) NOT NULL,
-	`Disponibilita` char(20) NOT NULL
+	`Disponibilita` char(20) NOT NULL,
+    `Alt` char(20) NOT NULL
 ) ENGINE=InnoDB;
 
 DROP TABLE IF EXISTS mouse_tastiere;
@@ -77,7 +84,8 @@ CREATE TABLE mouse_tastiere (
 	`Descrizione` varchar(500)  NOT NULL,
 	`Prezzo` float(8,2)  NOT NULL,
     `Img` char(70) NOT NULL,
-	`Disponibilita` char(20) NOT NULL
+	`Disponibilita` char(20) NOT NULL,
+    `Alt` char(20) NOT NULL
 ) ENGINE=InnoDB;
 
 DROP TABLE IF EXISTS raffreddamento;
@@ -87,7 +95,8 @@ CREATE TABLE raffreddamento (
 	`Descrizione` varchar(500)  NOT NULL,
 	`Prezzo` float(8,2)  NOT NULL,
     `Img` char(70) NOT NULL,
-	`Disponibilita` char(20) NOT NULL
+	`Disponibilita` char(20) NOT NULL,
+    `Alt` char(20) NOT NULL
 ) ENGINE=InnoDB;
 
 DROP TABLE IF EXISTS schede_audio;
@@ -97,7 +106,8 @@ CREATE TABLE schede_audio (
 	`Descrizione` varchar(500)  NOT NULL,
 	`Prezzo` float(8,2)  NOT NULL,
     `Img` char(70) NOT NULL,
-	`Disponibilita` char(20) NOT NULL
+	`Disponibilita` char(20) NOT NULL,
+    `Alt` char(20) NOT NULL
 ) ENGINE=InnoDB;
 
 DROP TABLE IF EXISTS schede_madri;
@@ -107,7 +117,8 @@ CREATE TABLE schede_madri (
 	`Descrizione` varchar(500)  NOT NULL,
 	`Prezzo` float(8,2)  NOT NULL,
     `Img` char(70) NOT NULL,
-	`Disponibilita` char(20) NOT NULL
+	`Disponibilita` char(20) NOT NULL,
+    `Alt` char(20) NOT NULL
 ) ENGINE=InnoDB;
 
 DROP TABLE IF EXISTS schede_video;
@@ -117,7 +128,8 @@ CREATE TABLE schede_video (
 	`Descrizione` varchar(500)  NOT NULL,
 	`Prezzo` float(8,2)  NOT NULL,
     `Img` char(70) NOT NULL,
-	`Disponibilita` char(20) NOT NULL
+	`Disponibilita` char(20) NOT NULL,
+    `Alt` char(20) NOT NULL
 ) ENGINE=InnoDB;
 
 DROP TABLE IF EXISTS case_pc;
@@ -127,66 +139,67 @@ CREATE TABLE case_pc (
     `Descrizione` varchar(500)  NOT NULL,
     `Prezzo` float(8,2)  NOT NULL,
     `Img` char(70) NOT NULL,
-    `Disponibilita` char(20) NOT NULL
+    `Disponibilita` char(20) NOT NULL,
+    `Alt` char(20) NOT NULL
 ) ENGINE=InnoDB;
 
 
 
 INSERT INTO alimentatori (`Codice_prodotto`, `Nome`, `Descrizione`, `Prezzo`, `Img`, `Disponibilita`)
 VALUES ('001', 'Corsair Builder Series CX430 PSU - 430 Watt', 'PSU da 430 Watt della Corsair, Alta Efficienza e 28A sui 12V', '56,90', 'imagemagic.jpg', 'Disponibile'),
-('002', 'Corsair Builder Series CX450M PSU Modulare - 450 Watt', 'alimentatore entry level da Corsair con alta efficienza e cablaggio dei cavi modulare', '59,90', 'imagemagic(1).jpg', 'Disponibile'),
+('002', 'Corsair Builder Series CX450M PSU Modulare - 450 Watt', 'Alimentatore entry level da Corsair con alta efficienza e cablaggio dei cavi modulare', '59,90', 'imagemagic(1).jpg', 'Disponibile'),
 ('003', 'Enermax MaxPro 80Plus - 500 Watt', 'PSU entry level da Enermax con certificazione 80Plus e ventola silenziosa da 12cm', '59,90','imagemagic2.jpg', 'Disponibile'),
-('004', 'Corsair SF450 80PLUS Gold High Performance SFX - 450 Watt', 'alimentatore SFX Ultra compatto da 450W, Singola linea 12V da 37A, 2x PCIe e 7 anni di garanzia', '89,90', 'imagemagic3.jpg', 'Disponibile'),
-('005', 'Silverstone SST-GM500-G Gemini Series - 2x 500 Watt', 'alimentatore ridondante ATX con funzionalità Hot-Swap, 2x 500 Watt, 41A su singolo canale e certificazione 80Plus Gold', '599,90', 'imagemagic4.jpg', 'Disponibile'),
-('006', 'Alimentatore Atlantis 500W', 'ATLANTIS P016-MPW-5000-W SINGOLA VENT. SILENZ. 12CM 2SATA 3ATA 12V 24PIN EAN 8026974014104', '43,90', 'alimentatore_atlantis_500w.jpg', 'Non Disponibile'),
+('004', 'Corsair SF450 80PLUS Gold High Performance SFX - 450 Watt', 'Alimentatore SFX Ultra compatto da 450W, singola linea 12V da 37A, 2x PCIe e 7 anni di garanzia', '89,90', 'imagemagic3.jpg', 'Disponibile'),
+('005', 'Silverstone SST-GM500-G Gemini Series - 2x 500 Watt', 'Alimentatore ridondante ATX con funzionalità Hot-Swap, 2x 500 Watt, 41A su singolo canale e certificazione 80Plus Gold', '599,90', 'imagemagic4.jpg', 'Disponibile'),
+('006', 'Alimentatore Atlantis 500W', 'ATLANTIS P016-MPW-5000-W singola ventola silenziosa 12cm, 2 SATA, 3 ATA, 12V, 24PIN', '43,90', 'alimentatore_atlantis_500w.jpg', 'Non Disponibile'),
 ('007', 'Alimentatore Corsair 620 W', 'Alimentatore Corsair 620 W TECNOWARE FREE-Silent620 FAL625FS12 Fan12cm Silent v2.01 (Gar24m)', '33,90', 'alimentatore_corsair_620w.jpg', 'Disponibile'),
 ('008', 'Alimentatore Itek', 'Alimentatore Itek ENERGY K-Series 650W ATX - Full Black, Retail', '33,90', 'alimentatore_itek.jpg', 'Non Disponibile'),
-('009', 'Alimentatore Cooler Master Maker 1200', 'Alimentatore Cooler Master Maker 1200 Made In Japan 1200W 80Plus Titanium, Active PFC, Silent 135mm FP fan', '1049,90', 'alimentatore_cooler_master_maker_1200.jpg', 'Disponibile'),
-('010', 'Alimentatore Cooler Master MASTERWATT MAKER 1500', 'Alimentatore Cooler Master MASTERWATT MAKER 1500 1500W 80PLUS-TITANIUM 135MM-FAN ACTIVE-PFC PSU', '489,90', 'alimentatore_cooler_master_masterwatt.jpg', 'Disponibile'),
-('011', 'Alimentatore Cooler Master MASTERWATT MAKER 1500 (NON BLUETOOTH)', 'Alimentatore Cooler Master MASTERWATT MAKER 1500 (NON BLUETOOTH) 1500W 80PLUS-TITANIUM 135MM-FAN ACTIVE-PFC PSU', '469,90', 'alimentatore_cooler_master.jpg', 'Disponibile'),
-('012', 'Alimentatore EVGA SUPERNOVA', 'Alimentatore EVGA SUPERNOVA 1600 G2 GOLD', '425,90', 'alimentatore_evga.jpg', 'Disponibile');
+('009', 'Alimentatore Cooler Master Maker 1200', 'Alimentatore Cooler Master Made In Japan, 1200W 80Plus Titanium, Active PFC, Silent 135mm FP fan', '1049,90', 'alimentatore_cooler_master_maker_1200.jpg', 'Disponibile'),
+('010', 'Alimentatore Cooler Master MASTERWATT MAKER 1500', 'Alimentatore Cooler Master  1500W 80PLUS-TITANIUM 135MM-FAN ACTIVE-PFC PSU', '489,90', 'alimentatore_cooler_master_masterwatt.jpg', 'Disponibile'),
+('011', 'Alimentatore Cooler Master MASTERWATT MAKER 1500 no bluetooth', 'Alimentatore Cooler Master no bluetooth, 1500W 80PLUS-TITANIUM 135MM-FAN ACTIVE-PFC PSU', '469,90', 'alimentatore_cooler_master.jpg', 'Disponibile'),
+('012', 'Alimentatore EVGA SUPERNOVA', 'Alimentatore 1600 G2 GOLD', '425,90', 'alimentatore_evga.jpg', 'Disponibile');
 
 INSERT INTO cpu (`Codice_prodotto`, `Nome`, `Descrizione`, `Prezzo`, `Img`, `Disponibilita`)
-VALUES ('013', 'Intel Core i3-6300 3,8 GHz (Skylake) Socket 115', 'CPU dual core da Intel con 3,8 GHz max, 4Mb Cache, chipset grafico HD 530, 47 Watt TDP con dissipatore', '189,90', 'cpu.jpeg', 'Disponibile'),
-('014', 'Intel Core i5-6600 3,3 GHz (Skylake) Socket 115', 'performante CPU Quadcore da Intel con 3,9 GHz max, 6Mb Cache, chipset grafico HD 530, 65 Watt TDP con dissipatore', '249,90', 'cpu.jpeg', 'Disponibile'),
-('015', 'Intel Core i7-7700 3,6 GHz (Kaby Lake) Socket 117', 'performante CPU Quadcore da Intel serie Kaby-Lake con 4,2 GHz max, 8Mb Cache, chipset grafico HD 630, 65 Watt', '349,90', 'cpu.jpeg', 'Disponibile'),
-('016', 'Intel Core i7-7700K (Kaby Lake) PreTestato @ 5,1 Ghz - Tray', 'performante CPU Quadcore da Intel serie Kaby-Lake pretestato e certificato per OC fino a 5,1 GHz', '599,90', 'cpu.jpeg', 'Disponibile'),
-('017', 'Intel Core i7-8700K 3,7 GHz (Coffee Lake) Socket 1151 - boxed', 'performante CPU Intel Hexa-Core serie Cofee Lake con 3,7/4,7 GHz max, 12Mb Cache L3, chipset grafico HD 630, 95 Watt TDP', '439,90', 'cpu.jpeg', 'Disponibile'),
-('018', 'Intel Core i7-8700K (Coffee Lake) PreTestato @ 5,0 Ghz - Tray', 'performante CPU Hexa-Core da Intel serie Coffee Lake pretestato e certificato per OC fino a 5,0 GHz', '529,90', 'cpu.jpeg', 'Disponibile'),
-('019', 'Intel I7-4790K', 'Intel I7-4790K 4 GHZ 8MB Cache', '469,90', 'intel_i7-4790k.jpg', 'Disponibile'),
-('020', 'RYZEN THREADRIPPER 1950X 4.0GHZ', 'AMD Threadripper 1950X, Ryzen. Frequenza del processore: 3,4 GHz, Presa per processore: Socket TR4, Componente per: Server/workstation. Canali di memoria supportati dal processore: Quad, Tipologie di memoria supportati dal processore: DDR4-SDRAM, Velocità memory clock supportate dal processore: 2667 MHz. Thermal Design Power (TDP): 180 W', '1239,90', 'ryzen.jpg', 'Disponibile'),
-('021', 'Intel Cpu Core i9-7900 X-series processor', 'Intel Cpu Core i9-7900 X-series processor, 10 Core, 20 Threads, box', '999,90', 'intel_cpu_core_i9-7900.jpg', 'Disponibile'),
-('022', 'RYZEN THREADRIPPER 1920X 4.0GHZ', 'AMD Threadripper 1920X, Ryzen. Famiglia processore: AMD Ryzen Threadripper, Frequenza del processore: 3,5 GHz, Presa per processore: Socket TR4. Canali di memoria supportati dal processore: Quad, Tipologie di memoria supportati dal processore: DDR4-SDRAM, Velocità memory clock supportate dal processore: 2667 MHz. Thermal Design Power (TDP): 180 W, Istruzioni supportate: AES. L1 cache: 1,125 MB, Temperatura (max): 68 °C, L2 cache: 6144 KB', '909,90', 'ryzen_1920x.jpg', 'Disponibile'),
-('023', 'Intel Cpu Core i7-7820 X-series processor', 'Intel Cpu Core i7-7820 X-series processor, 8 Core, 16 Threads, box', '969,90', 'intel_cpu_core_i7-7820.jpg', 'Disponibile'),
-('024', 'AMD CPU RYZEN 7 1800X', 'AMD CPU RYZEN 7 1800X, 4,00GHZ, AM4, 20MB CACHE, 95W, SENZA DISSIPATORE - YD180XBCAEWOF', '529,90', 'amd_cpu_ryzen.jpg', 'Disponibile');
+VALUES ('013', 'Intel Core i3-6300 3,8 GHz (Skylake) Socket 115', 'CPU dual core da Intel con 3,8 GHz max, 4Mb Cache, chipset grafico HD 530, 47 Watt TDP con dissipatore', '189,90', '1404323_LB_00_FB.EPS_1000.jpeg', 'Disponibile'),
+('014', 'Intel Core i5-6600 3,3 GHz (Skylake) Socket 115', 'Performante CPU Quadcore da Intel con 3,9 GHz max, 6Mb Cache, chipset grafico HD 530, 65 Watt TDP con dissipatore', '249,90', 'processore-intel-core-i5.jpeg', 'Disponibile'),
+('015', 'Intel Core i7-7700 3,6 GHz (Kaby Lake) Socket 117', 'Performante CPU Quadcore da Intel serie Kaby-Lake con 4,2 GHz max, 8Mb Cache, chipset grafico HD 630, 65 Watt', '349,90', 'CPU_CORE_I7-6700_1151_BOX_4_GHZ_1.jpeg', 'Disponibile'),
+('016', 'Intel Core i7-7700K (Kaby Lake) PreTestato @ 5,1 Ghz - Tray', 'Performante CPU Quadcore da Intel serie Kaby-Lake pretestato e certificato per OC fino a 5,1 GHz', '599,90', '019-753_1g-254x254.jpeg', 'Disponibile'),
+('017', 'Intel Core i7-8700K 3,7 GHz (Coffee Lake) Socket 1151 - boxed', 'Performante CPU Intel Hexa-Core serie Cofee Lake con 3,7/4,7 GHz max, 12Mb Cache L3, chipset grafico HD 630, 95 Watt TDP', '439,90', 'cpui7.jpeg', 'Disponibile'),
+('018', 'Intel Core i7-8700K (Coffee Lake) PreTestato @ 5,0 Ghz - Tray', 'Performante CPU Hexa-Core da Intel serie Coffee Lake pretestato e certificato per OC fino a 5,0 GHz', '529,90', '209079225.jpeg', 'Disponibile'),
+('019', 'Intel I7-4790K', 'CPU Intel I7 4 GHZ 8MB Cache', '469,90', 'intel_i7-4790k.jpg', 'Disponibile'),
+('020', 'Ryzen Threadripper 1950X 4.0GHZ', 'CPU AMD Threadripper 1950X, Ryzen. Frequenza del processore: 3,4 GHz, Presa per processore: Socket TR4, Componente per: Server/workstation', '1239,90', 'ryzen.jpg', 'Disponibile'),
+('021', 'Intel Cpu Core i9-7900 X-series processor', 'Intel CPU i9 X-series, 10 Core, 20 Threads, box', '999,90', 'intel_cpu_core_i9-7900.jpg', 'Disponibile'),
+('022', 'Intel Cpu Core i7-6800K', 'CPU Intel core i7, Frequenza del processore: 3,4 GHz, Numero di core del processore: 6, Presa per processore: LGA 2011-v3', '909,90', '0675901403542_MED.jpeg', 'Disponibile'),
+('023', 'Intel Cpu Core i7-7820 X-series processor', 'Intel Cpu Core i7, 8 Core, 16 Threads, box', '969,90', 'intel_cpu_core_i7-7820.jpg', 'Disponibile'),
+('024', 'AMD CPU Ryzen 7 1800X', 'AMD CPU 4,00GHZ, AM4, 20MB CACHE, 95W, senza dissipatore', '529,90', 'amd_cpu_ryzen.jpg', 'Disponibile');
 
 INSERT INTO cuffie (`Codice_prodotto`, `Nome`, `Descrizione`, `Prezzo`, `Img`, `Disponibilita`)
-VALUES ('025', 'Aorus E1 Headset, Aluminum In-Ear Hi-Fi', 'headset di classe superiore da Aorus con tecnologia in-ear, driver da 9mm, Balanced Armature Drivers e struttura in alluminio', '119,90', 'cuffie.jpg', 'Non Disponibile'),
-('026', 'Asus Cerberus Arctic Stereo Gaming Headset - Bianco', 'gaming headset da Asus ad alta qualità audio con driver da 60mm e sistema di cancellazione del rumore', '39,90', 'cuffie.jpg', 'Non Disponibile'),
-('027', 'Asus Echelon Forest Stereo Gaming Headset', 'gaming headset in versione camouflage ad alta qualità audio da Asus con driver da 50mm e sistema attivo di cancellazione del rumore', '69,90', 'cuffie.jpg', 'Disponibile'),
-('028', 'Asus ROG Centurion 7.1 Gaming Headset', 'gaming headset serie ROG da Asus con 7.1 canali reali, driver da 40mm e sistema attivo di cancellazione del rumore ambientale', '239,90', 'cuffie.jpg', 'Non Disponibile'),
-('029', 'Corsair Gaming VOID PRO RGB Wireless Dolby 7.1 - Bianco', 'headset wireless con audio Dolby 7.1, illuminazione RGB, driver 50mm e earpads in schiuma a memoria di forma da Corsair Gaming', '119,90', 'cuffie.jpg', 'Non Disponibile'),
-('030', 'Razer Destiny 2 Man War Tournament Edition', 'cuffie high end da Razer con altissima qualità audio, microfono a scomparsa in edizione speciale Destiny 2', '129,90', 'cuffie.jpg', 'Disponibile'),
-('031', 'H820E HEADSET USB', 'Le cuffie Headset H820e sono certificate per l''uso con le principali applicazioni software per conferenze, quali Skype for Business e Cisco® Jabber™. Particolarmente consigliate per i professionisti che svolgono attività piuttosto impegnative in aree di lavoro, uffici e ambienti domestici aperti. Scegli H820e Mono o H820e Dual per uno o due altoparlanti.', '164,90', 'headset_usb.jpg', 'Disponibile'),
-('032', 'LOGITECH CUFFIE CON MICROFONO WIRELESS', 'LOGITECH CUFFIE CON MICROFONO WIRELESS H800 USB, Esegui la connessione ai tuoi dispositivi preferiti e passa dal PC al tablet e dal tablet allo smartphone o viceversa in tutta semplicità.', '129,90', 'logitech_cuffie.jpg', 'Disponibile'),
-('033', 'H650E HEADSET STEREO USB', 'L’audio DSP e il microfono con eliminazione del rumore consentono comunicazioni di livello professionale mentre l’indicatore LED di chiamata in corso e il dispositivo di controllo sul cavo di rapido accesso rendono più piacevole l’utilizzo delle cuffie H650e.', '64,90', 'headset_stereo.jpg', 'Disponibile'),
-('034', 'H650E HEADSET MONO USB', 'Addetti alle vendite, rappresentanti del servizio clienti e altri uomini d''affari che trascorrono tutta la giornata al telefono apprezzeranno sicuramente il comfort e il design di Logitech H650e. ', '60,90', 'headset_mono.jpg', 'Disponibile'),
-('035', 'LOGITECH CUFFIE CON MICROFONO GAMING G35', 'La vittoria non ha mai avuto un suono così dolce, grazie al rivoluzionario suono surround 7.1 Dolby®. Avverti l''avvicinarsi del nemico, Esplosioni, rumori di passi, fuoco nemico, passaggio di veicoli, comandi ai membri del tuo team, puoi ascoltare tutto con un realismo incredibile.', '59,90', 'logitech_cuffie_microfono.jpg', 'Disponibile'),
-('036', 'PHILIPS CUFFIA DJ', 'Immergiti nella musica con la nuova tecnologia di cancellazione attiva del rumore ActiveShield™. Cuscini tattili che alleviano la pressione per una maggiore comodità e un design compatto ideale per favorire il trasporto e la conservazione del prodotto.', '129,90', 'phiips_cuffia.jpg', 'Disponibile');
+VALUES ('025', 'Aorus E1 Headset, Aluminum In-Ear Hi-Fi', 'Headset di classe superiore da Aorus con tecnologia in-ear, driver da 9mm, Balanced Armature Drivers e struttura in alluminio', '119,90', 'aoruse1.jpg', 'Non Disponibile'),
+('026', 'Asus Cerberus Arctic Stereo Gaming Headset - Bianco', 'Gaming headset da Asus ad alta qualità audio con driver da 60mm e sistema di cancellazione del rumore', '39,90', 'asusCerberus.jpg', 'Non Disponibile'),
+('027', 'Asus Echelon Forest Stereo Gaming Headset', 'Gaming headset in versione camouflage ad alta qualità audio da Asus con driver da 50mm e sistema attivo di cancellazione del rumore', '69,90', 'asusEchelon.jpg', 'Disponibile'),
+('028', 'Asus ROG Centurion 7.1 Gaming Headset', 'Gaming headset serie ROG da Asus con 7.1 canali reali, driver da 40mm e sistema attivo di cancellazione del rumore ambientale', '239,90', 'asusRog.jpg', 'Non Disponibile'),
+('029', 'Corsair Gaming VOID PRO RGB Wireless Dolby 7.1 - Bianco', 'Headset wireless con audio Dolby 7.1, illuminazione RGB, driver 50mm e earpads in schiuma a memoria di forma da Corsair Gaming', '119,90', 'voidPro.jpg', 'Non Disponibile'),
+('030', 'Razer Destiny 2 Man War Tournament Edition', 'Cuffie high end da Razer con altissima qualità audio, microfono a scomparsa in edizione speciale Destiny 2', '129,90', 'razerDestiny.jpg', 'Disponibile'),
+('031', 'H820E Headset USB', 'Le cuffie Headset H820e sono certificate per l''uso con le principali applicazioni software per conferenze, quali Skype for Business e Cisco Jabber', '164,90', 'headset_usb.jpg', 'Disponibile'),
+('032', 'Logitech cuffie con microfono wireless', 'Esegui la connessione ai tuoi dispositivi preferiti e passa dal PC al tablet e dal tablet allo smartphone o viceversa in tutta semplicità', '129,90', 'logitech_cuffie.jpg', 'Disponibile'),
+('033', 'H650E Headset stereo USB', 'L’audio DSP e il microfono con eliminazione del rumore consentono comunicazioni di livello professionale mentre l’indicatore LED di chiamata in corso e il dispositivo di controllo sul cavo di rapido accesso rendono più piacevole l’utilizzo delle cuffie H650e', '64,90', 'headset_stereo.jpg', 'Disponibile'),
+('034', 'H650E Headset mono USB', 'Addetti alle vendite, rappresentanti del servizio clienti e altri uomini d''affari che trascorrono tutta la giornata al telefono apprezzeranno sicuramente il comfort e il design di Logitech H650e', '60,90', 'headset_mono.jpg', 'Disponibile'),
+('035', 'Logitech cuffie con microfono G35', 'La vittoria non ha mai avuto un suono così dolce, grazie al rivoluzionario suono surround 7.1 Dolby. Avverti l''avvicinarsi del nemico, Esplosioni, rumori di passi, fuoco nemico, passaggio di veicoli, comandi ai membri del tuo team, puoi ascoltare tutto con un realismo incredibile', '59,90', 'logitech_cuffie_microfono.jpg', 'Disponibile'),
+('036', 'PHILIPS Cuffia DJ', 'Immergiti nella musica con la nuova tecnologia di cancellazione attiva del rumore ActiveShield. Cuscini tattili che alleviano la pressione per una maggiore comodità e un design compatto ideale per favorire il trasporto e la conservazione del prodotto', '129,90', 'phiips_cuffia.jpg', 'Disponibile');
 
 INSERT INTO memorie_interne (`Codice_prodotto`, `Nome`, `Descrizione`, `Prezzo`, `Img`, `Disponibilita`)
-VALUES ('037', 'Seagate Archive HDD, SATA 6G, 5.900RPM, 3,5 Pollici - 8 TB', 'efficiente e veloce disco da 3.5 con capacità 8Tb da Seagate con 128Mb di cache e connessione SATA 6G', '299,90', 'harddisk.jpg', 'Disponibile'),
-('038', 'Seagate Barracuda, SATA 6G, 7200RPM, 3,5 Pollici - 3 TB', 'efficiente e veloce disco da 3.5 con capacità 3Tb da Seagate con 64Mb di cache e connessione SATA 6G', '99,90', 'harddisk.jpg', 'Disponibile'),
-('039', 'Corsair Force MP500 NVMe SSD, PCIe 3.0 M.2 Type 2280 - 240 GB', 'performance fuori scala da Corsair per questo SSD in formato M.2 con 3.000 MB/s in lettura e 2.400 MB/s in scrittura', '169,90', 'harddisk.jpg', 'Disponibile'),
-('040', 'Corsair Force MP500 NVMe SSD, PCIe 3.0 M.2 Type 2280 - 480 GB', 'performance fuori scala da Corsair per questo SSD in formato M.2 con 3.000 MB/s in lettura e 2.400 MB/s in scrittura', '279,90', 'harddisk.jpg', 'Disponibile'),
-('041', 'Corsair Force Series LE SATA III SSD 2.5 - 960GB', 'performante SSD da Corsair con max. 560 / 540 MB/s Lettura/Scrittura e 3 anni di garanzia', '419,90', 'harddisk.jpg', 'Disponibile'),
-('042', 'Corsair Neutron XTi SATA III SSD 2.5 - 1.920GB', 'SSD Corsair Neutron XTi con controller Quad-Core e max. 560 / 540 MB/s Lettura/Scrittura e 100K IOPS (4k aligned)', '899,90', 'harddisk.jpg', 'Disponibile'),
-('043', 'HARD DISK SATA3 3.5" 8000GB(8TB)', 'Gli hard disk per la videosorveglianza WD Purple offrono l''esclusiva tecnologia AllFrame™, per assicurarti il massimo dell''affidabilità e della serenità quando installi il tuo sistema di sicurezza a casa o per la tua piccola o media impresa.', '319,90', 'hard_disk_800gb.jpg', 'Disponibile'),
-('044', 'HARD DISK SATA3 3.5" 8000GB(8TB) WD80EFZX WD RED 128mb cache 5400rpm Nas hard drive', 'Western Digital Red. Capacità hard disk: 8000 GB, Interfaccia hard disk: Serial ATA III, Velocità di rotazione hard disk: 5400 Giri/min. Consumi (modalità stand-by): 0,7 W, Consumo di energia (in lettura): 6,4 W, Consumo di energia (in scrittura): 6,4 W. Larghezza: 101,6 mm, Altezza: 26,1 mm, Profondità: 147 mm', '299,90', 'hard_disk_nas.jpg', 'Disponibile'),
-('045', 'HARD DISK SATA3 3.5" 6000GB(6TB) WD6002FFWX WD RED PRO 64mb cache 7200rpm Nas 8-16 slot hard drive', 'Western Digital WD6002FFWX. Capacità hard disk: 6000 GB, Interfaccia hard disk: Serial ATA III, Velocità di rotazione hard disk: 7200 RPM. Consumi (modalità stand-by): 1 W, Consumo di energia (in lettura): 9,1 W, Consumo di energia (in scrittura): 9,1 W. Larghezza: 10,2 cm, Altezza: 2,61 cm, Profondità: 14,7 cm', '279,90', 'hard_disk_600gb.jpg', 'Disponibile'),
-('046', 'WESTERN DIGITAL HDD 6TB SATAIII WD RED 3,5 7200RPM 64MB BUFFER', 'La nostra formula di successo ha portato alla crescita di WD Red rendendola una delle soluzioni con capacità più elevata attualmente disponibili. Disponibile fino a 6 TB, WD offre un portafoglio ancora più ampio di soluzioni NAS per i nostri clienti che vanno da un totale di 1 fino a 16 alloggiamenti. La famiglia WD Red si è appena allargata.', '236,90', 'hard_disk_6tb.jpg', 'Disponibile'),
-('047', 'HARD DISK SATA3 3.5" 6000GB(6TB) WD60EZRZ WD 5400RPM 64mb cache Blue', 'Gli hard disk WD offrono l''accesso gratuito a WD Acronis True Image. Il nostro software disponibile in download consente di copiare velocemente i dati nel nuovo disco, senza dover reinstallare il sistema operativo. Le funzioni di backup e ripristino consentono di salvare e recuperare i dati personali senza difficoltà.', '209,90', 'hard_disk_sata3.jpg', 'Disponibile'),
-('048', 'HARD DISK SATA3 3.5" 4000GB(4TB) WD4002FFWX WD RED PRO 128mb cache 7200rpm Nas 8-16 slot hard drive', 'Progettato specificamente per le PMI, WD Red Pro è disponibile per ambienti NAS medio-grandi fino a 16 alloggiamenti. Sviluppato per gestire crescenti carichi di lavoro aziendali, WD Red Pro è stato ampiamente testato.', '208,90', 'hard_disk_sata4tb.jpg', 'Disponibile');
+VALUES ('037', 'Seagate Archive HDD, SATA 6G, 5.900RPM, 3,5 Pollici - 8 TB', 'Efficiente e veloce disco da 3.5 con capacità 8Tb da Seagate con 128Mb di cache e connessione SATA 6G', '299,90', 's-l225.jpg', 'Disponibile'),
+('038', 'Seagate Barracuda, SATA 6G, 7200RPM, 3,5 Pollici - 3 TB', 'Efficiente e veloce disco da 3.5 con capacità 3Tb da Seagate con 64Mb di cache e connessione SATA 6G', '99,90', 'barracuda.jpg', 'Disponibile'),
+('039', 'Corsair Force MP500 NVMe SSD, PCIe 3.0 M.2 Type 2280 - 240 GB', 'Performance fuori scala da Corsair per questo SSD in formato M.2 con 3.000 MB/s in lettura e 2.400 MB/s in scrittura', '169,90', 'corsairForce.jpg', 'Disponibile'),
+('040', 'Corsair Force MP500 NVMe SSD, PCIe 3.0 M.2 Type 2280 - 480 GB', 'Performance fuori scala da Corsair per questo SSD in formato M.2 con 3.000 MB/s in lettura e 2.400 MB/s in scrittura', '279,90', 'corsairForce480gb.jpg', 'Disponibile'),
+('041', 'Corsair Force Series LE SATA III SSD 2.5 - 960GB', 'Performante SSD da Corsair con max. 560 / 540 MB/s Lettura/Scrittura e 3 anni di garanzia', '419,90', 'corsairForceLE.jpg', 'Disponibile'),
+('042', 'Corsair Neutron XTi SATA III SSD 2.5 - 1.920GB', 'SSD Corsair Neutron XTi con controller Quad-Core e max. 560 / 540 MB/s Lettura/Scrittura e 100K IOPS (4k aligned)', '899,90', 'corsairNeutron.jpg', 'Disponibile'),
+('043', 'HARD DISK SATA3 3.5" 8000GB(8TB)', 'Gli hard disk per la videosorveglianza WD Purple offrono l''esclusiva tecnologia AllFrame', '319,90', 'hard_disk_800gb.jpg', 'Disponibile'),
+('044', 'HARD DISK SATA3 3.5" 8000GB(8TB) WD80EFZX WD RED', 'Western Digital Red. Capacità hard disk: 8000 GB, Interfaccia hard disk: Serial ATA III, Velocità di rotazione hard disk: 5400 Giri/min', '299,90', 'hard_disk_nas.jpg', 'Disponibile'),
+('045', 'HARD DISK SATA3 3.5" 6000GB(6TB) WD6002FFWX WD RED PRO', 'Capacità hard disk: 6000 GB, Interfaccia hard disk: Serial ATA III, Velocità di rotazione hard disk: 7200 RPM', '279,90', 'hard_disk_600gb.jpg', 'Disponibile'),
+('046', 'WESTERN DIGITAL HDD 6TB SATAIII WD RED 3,5', 'La nostra formula di successo ha portato alla crescita di WD Red rendendola una delle soluzioni con capacità più elevata attualmente disponibili', '236,90', 'hard_disk_6tb.jpg', 'Disponibile'),
+('047', 'HARD DISK SATA3 3.5" 6000GB(6TB) WD60EZRZ', 'Gli hard disk WD offrono l''accesso gratuito a WD Acronis True Image. Il nostro software disponibile in download consente di copiare velocemente i dati nel nuovo disco, senza dover reinstallare il sistema operativo', '209,90', 'hard_disk_sata3.jpg', 'Disponibile'),
+('048', 'HARD DISK SATA3 3.5" 4000GB(4TB) WD4002FFWX WD RED PRO', 'Progettato specificamente per le PMI, WD Red Pro è disponibile per ambienti NAS medio-grandi fino a 16 alloggiamenti', '208,90', 'hard_disk_sata4tb.jpg', 'Disponibile');
 
 INSERT INTO memorie_ram (`Codice_prodotto`, `Nome`, `Descrizione`, `Prezzo`, `Img`, `Disponibilita`)
 VALUES ('049', 'Corsair Vengeance RGB LED DDR4, 3.333 MHz, C16 - Kit 32GB (4x 8GB)', 'memorie 1,35V a 3.333MHz da Corsair serie Vengeance LED con illuminazione RGB programmabile', '499,90', 'ram.jpg', 'Disponibile'),
