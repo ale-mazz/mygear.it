@@ -6,7 +6,7 @@ require_once '../../php/connection.php';
 
 $products = array();
 
-$qry = mysqli_query($conn,"SELECT Codice_prodotto, Nome, Descrizione,Prezzo,Img,Disponibilita FROM alimentatori ORDER BY Prezzo ASC");
+$qry = mysqli_query($conn,"SELECT Codice_prodotto, Nome, Descrizione,Prezzo,Img,Disponibilita FROM schede_video ORDER BY Prezzo ASC");
 
 while($row = mysqli_fetch_assoc($qry)){
     $products[] =$row;
@@ -30,7 +30,7 @@ foreach ($products as $product){
     $get_product=str_replace('$description$',$product["Descrizione"], $get_product);
     $get_product=str_replace('$price$',$product["Prezzo"], $get_product);
     $get_product=str_replace('$avaible$',$product["Disponibilita"], $get_product);
-    $get_product=str_replace('$img$',"../../images/categorie/alimentatori/".$product["Img"], $get_product);
+    $get_product=str_replace('$img$',"../../images/categorie/schede_video/".$product["Img"], $get_product);
     $insertproduct=$insertproduct.$get_product;
 }
 
@@ -39,7 +39,7 @@ $footer=file_get_contents("../../footer/footer.html");
 $header=file_get_contents("../../header/header.html");
 $page=str_replace('$header$', $header ,$page);
 $page=str_replace('$footer$', $footer ,$page);
-$page=str_replace('$titlecat$','ALIMENTATORI' ,$page);
+$page=str_replace('$titlecat$','SCHEDE VIDEO' ,$page);
 $page=str_replace('$products$',$insertproduct, $page);
 $page=str_replace('$rt$','../../',$page);
 $page=str_replace('$rthome$','../../',$page);
@@ -47,8 +47,6 @@ $page=str_replace('$chome$','hover', $page);
 $page=str_replace('$cconf$','hover', $page);
 $page=str_replace('$ccat$','selected', $page);
 $page=str_replace('$ccont$','hover', $page);
-
-
 
 
 echo $page;

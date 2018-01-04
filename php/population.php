@@ -15,7 +15,7 @@ echo "Connected successfully";
 
 $dataArray = array();
 
-$qry = mysqli_query($conn,"SELECT Codice_prodotto, Descrizione FROM alimentatori ORDER BY Codice_prodotto");
+$qry = mysqli_query($conn,"SELECT Codice_prodotto, Descrizione FROM alimentatori ORDER BY Prezzo ASC");
 
 while($res = mysqli_fetch_array($qry)) {
     $dataArray[$res['Codice_prodotto']] = $res['Descrizione'];
