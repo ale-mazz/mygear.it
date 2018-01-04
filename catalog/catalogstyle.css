@@ -136,8 +136,8 @@ h2 0.87
 
     .riquadro_esterno {
         position: static;
-        width: 30%;
-        margin-left: 2.5%;
+        width: 28%;
+        margin-left: 2.3%;
     }
 
     .riquadro_interno {
@@ -156,7 +156,7 @@ h2 0.87
     }
 
     #menu_verticale {
-    display: none;
+        display: none;
     }
 }
 
@@ -181,7 +181,7 @@ Media Query Mobile
     .riquadro_esterno {
         position: static;
         width: 45%;
-        margin-left: 3%;
+        margin-left: 27.5%;
         margin-top: 0.5em;
     }
 
@@ -198,7 +198,7 @@ Media Query Mobile
     }
 
     #menu_verticale {
-    display: none;
+        display: none;
     }
 }
 
