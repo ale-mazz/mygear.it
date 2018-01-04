@@ -6,7 +6,7 @@ require_once '../../php/connection.php';
 
 $products = array();
 
-$qry = mysqli_query($conn,"SELECT Codice_prodotto, Nome, Descrizione,Prezzo,Img,Disponibilita FROM mouse_tastiere ORDER BY Codice_prodotto");
+$qry = mysqli_query($conn,"SELECT Codice_prodotto, Nome, Descrizione,Prezzo,Img,Disponibilita FROM mouse_tastiere ORDER BY Prezzo ASC");
 
 while($row = mysqli_fetch_assoc($qry)){
     $products[] =$row;
@@ -43,6 +43,10 @@ $page=str_replace('$titlecat$','MOUSE & TASTIERE' ,$page);
 $page=str_replace('$products$',$insertproduct, $page);
 $page=str_replace('$rt$','../../',$page);
 $page=str_replace('$rthome$','../../',$page);
+$page=str_replace('$chome$','hover', $page);
+$page=str_replace('$cconf$','hover', $page);
+$page=str_replace('$ccat$','selected', $page);
+$page=str_replace('$ccont$','hover', $page);
 
 
 echo $page;
