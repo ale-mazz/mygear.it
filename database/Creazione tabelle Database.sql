@@ -169,18 +169,18 @@ VALUES ('001', 'Corsair Builder Series CX430', 'Marca: Corsair<br>Watt: 430<br>C
 ('012', 'Evga Supernova 850', 'Marca: Evga<br>Watt: 850<br>Certificazione: Gold', '425,90', 'alimentatore_evga.jpg', 'Disponibile');
 
 INSERT INTO cpu (`Codice_prodotto`, `Nome`, `Descrizione`, `Prezzo`, `Img`, `Disponibilita`)
-VALUES ('013', 'Intel Core i3-6300 3,8 GHz (Skylake) Socket 115', 'CPU dual core da Intel con 3,8 GHz max, 4Mb Cache, chipset grafico HD 530, 47 Watt TDP con dissipatore', '189,90', '1404323_LB_00_FB.EPS_1000.jpg', 'Disponibile'),
-('014', 'Intel Core i5-6600 3,3 GHz (Skylake) Socket 115', 'Performante CPU Quadcore da Intel con 3,9 GHz max, 6Mb Cache, chipset grafico HD 530, 65 Watt TDP con dissipatore', '249,90', 'processore-intel-core-i5.jpg', 'Disponibile'),
-('015', 'Intel Core i7-7700 3,6 GHz (Kaby Lake) Socket 117', 'Performante CPU Quadcore da Intel serie Kaby-Lake con 4,2 GHz max, 8Mb Cache, chipset grafico HD 630, 65 Watt', '349,90', 'CPU_CORE_I7-6700_1151_BOX_4_GHZ_1.jpg', 'Disponibile'),
-('016', 'Intel Core i7-7700K (Kaby Lake) PreTestato @ 5,1 Ghz - Tray', 'Performante CPU Quadcore da Intel serie Kaby-Lake pretestato e certificato per OC fino a 5,1 GHz', '599,90', '019-753_1g-254x254.jpg', 'Disponibile'),
-('017', 'Intel Core i7-8700K 3,7 GHz (Coffee Lake) Socket 1151 - boxed', 'Performante CPU Intel Hexa-Core serie Cofee Lake con 3,7/4,7 GHz max, 12Mb Cache L3, chipset grafico HD 630, 95 Watt TDP', '439,90', 'cpui7.jpg', 'Disponibile'),
-('018', 'Intel Core i7-8700K (Coffee Lake) PreTestato @ 5,0 Ghz - Tray', 'Performante CPU Hexa-Core da Intel serie Coffee Lake pretestato e certificato per OC fino a 5,0 GHz', '529,90', '209079225.jpg', 'Disponibile'),
-('019', 'Intel I7-4790K', 'CPU Intel I7 4 GHZ 8MB Cache', '469,90', 'intel_i7-4790k.jpg', 'Disponibile'),
-('020', 'Ryzen Threadripper 1950X 4.0GHZ', 'CPU AMD Threadripper 1950X, Ryzen. Frequenza del processore: 3,4 GHz, Presa per processore: Socket TR4, Componente per: Server/workstation', '1239,90', 'ryzen.jpg', 'Disponibile'),
-('021', 'Intel Cpu Core i9-7900 X-series processor', 'Intel CPU i9 X-series, 10 Core, 20 Threads, box', '999,90', 'intel_cpu_core_i9-7900.jpg', 'Disponibile'),
-('022', 'Intel Cpu Core i7-6800K', 'CPU Intel core i7, Frequenza del processore: 3,4 GHz, Numero di core del processore: 6, Presa per processore: LGA 2011-v3', '909,90', '0675901403542_MED.jpg', 'Disponibile'),
-('023', 'Intel Cpu Core i7-7820 X-series processor', 'Intel Cpu Core i7, 8 Core, 16 Threads, box', '969,90', 'intel_cpu_core_i7-7820.jpg', 'Disponibile'),
-('024', 'AMD CPU Ryzen 7 1800X', 'AMD CPU 4,00GHZ, AM4, 20MB CACHE, 95W, senza dissipatore', '529,90', 'amd_cpu_ryzen.jpg', 'Disponibile');
+VALUES ('013', 'Intel Core i3-6300', 'Marca: Intel<br>Frequenza: 3,8 GHz<br>Socket: 115', '189,90', '1404323_LB_00_FB.EPS_1000.jpg', 'Disponibile'),
+('014', 'Intel Core i5-6600', 'Marca: Intel<br>Frequenza: 3,3 GHz<br>Socket: 115', '249,90', 'processore-intel-core-i5.jpg', 'Disponibile'),
+('015', 'Intel Core i7-7700', 'Marca: Intel<br>Frequenza: 3,6 GHz<br>Socket: 117', '349,90', 'CPU_CORE_I7-6700_1151_BOX_4_GHZ_1.jpg', 'Disponibile'),
+('016', 'Intel Core i7-7700K', 'Marca: Intel<br>Frequenza: 5,1 GHz<br>Socket: 1151', '599,90', '019-753_1g-254x254.jpg', 'Disponibile'),
+('017', 'Intel Core i7-8700K (Coffee Lake)', 'Marca: Intel<br>Frequenza: 5,4 GHz<br>Socket: 1151', '439,90', 'cpui7.jpg', 'Disponibile'),
+('018', 'Intel Core i7-8700K (Coffee Lake) Tray', 'Marca: Intel<br>Frequenza: 5,0 GHz<br>Socket: 1155', '529,90', '209079225.jpg', 'Disponibile'),
+('019', 'Intel I7-4790K', 'Marca: Intel<br>Frequenza: 4,0 GHz<br>Socket: 115', '469,90', 'intel_i7-4790k.jpg', 'Disponibile'),
+('020', 'Ryzen Threadripper 1950X', 'Marca: Intel<br>Frequenza: 3,4 GHz<br>Socket: TR4', '1239,90', 'ryzen.jpg', 'Disponibile'),
+('021', 'Intel Cpu Core i9-7900', 'Marca: Intel<br>Frequenza: 4,5 GHz<br>Socket: 2066', '999,90', 'intel_cpu_core_i9-7900.jpg', 'Disponibile'),
+('022', 'Intel Cpu Core i7-6800K', 'Marca: Intel<br>Frequenza: 4,2 GHz<br>Socket: 2032', '909,90', '0675901403542_MED.jpg', 'Disponibile'),
+('023', 'Intel Cpu Core i7-7820', 'Marca: Intel<br>Frequenza: 4,5 GHz<br>Socket: 2066', '969,90', 'intel_cpu_core_i7-7820.jpg', 'Disponibile'),
+('024', 'AMD CPU Ryzen 7 1800X', 'Marca: AMD<br>Frequenza: 4,0 GHz<br>Socket: AM4', '529,90', 'amd_cpu_ryzen.jpg', 'Disponibile');
 
 INSERT INTO cuffie (`Codice_prodotto`, `Nome`, `Descrizione`, `Prezzo`, `Img`, `Disponibilita`)
 VALUES ('025', 'Aorus E1 Headset, Aluminum In-Ear Hi-Fi', 'Headset di classe superiore da Aorus con tecnologia in-ear, driver da 9mm, Balanced Armature Drivers e struttura in alluminio', '119,90', 'aoruse1.jpg', 'Non Disponibile'),
