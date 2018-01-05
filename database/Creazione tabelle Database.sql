@@ -155,18 +155,18 @@ CREATE TABLE utente (
 
 
 INSERT INTO alimentatori (`Codice_prodotto`, `Nome`, `Descrizione`, `Prezzo`, `Img`, `Disponibilita`)
-VALUES ('001', 'Corsair Builder Series CX430 PSU - 430 Watt', 'PSU da 430 Watt della Corsair, Alta Efficienza e 28A sui 12V', '56,90', 'imagemagic.jpg', 'Disponibile'),
-('002', 'Corsair Builder Series CX450M PSU Modulare - 450 Watt', 'Alimentatore entry level da Corsair con alta efficienza e cablaggio dei cavi modulare', '59,90', 'imagemagic(1).jpg', 'Disponibile'),
-('003', 'Enermax MaxPro 80Plus - 500 Watt', 'PSU entry level da Enermax con certificazione 80Plus e ventola silenziosa da 12cm', '59,90','imagemagic2.jpg', 'Disponibile'),
-('004', 'Corsair SF450 80PLUS Gold High Performance SFX - 450 Watt', 'Alimentatore SFX Ultra compatto da 450W, singola linea 12V da 37A, 2x PCIe e 7 anni di garanzia', '89,90', 'imagemagic3.jpg', 'Disponibile'),
-('005', 'Silverstone SST-GM500-G Gemini Series - 2x 500 Watt', 'Alimentatore ridondante ATX con funzionalità Hot-Swap, 2x 500 Watt, 41A su singolo canale e certificazione 80Plus Gold', '599,90', 'imagemagic4.jpg', 'Disponibile'),
-('006', 'Alimentatore Atlantis 500W', 'ATLANTIS P016-MPW-5000-W singola ventola silenziosa 12cm, 2 SATA, 3 ATA, 12V, 24PIN', '43,90', 'alimentatore_atlantis_500w.jpg', 'Non Disponibile'),
-('007', 'Alimentatore Corsair 620 W', 'Alimentatore Corsair 620 W TECNOWARE FREE-Silent620 FAL625FS12 Fan12cm Silent v2.01 (Gar24m)', '33,90', 'alimentatore_corsair_620w.jpg', 'Disponibile'),
-('008', 'Alimentatore Itek', 'Alimentatore Itek ENERGY K-Series 650W ATX - Full Black, Retail', '33,90', 'alimentatore_itek.jpg', 'Non Disponibile'),
-('009', 'Alimentatore Cooler Master Maker 1200', 'Alimentatore Cooler Master Made In Japan, 1200W 80Plus Titanium, Active PFC, Silent 135mm FP fan', '1049,90', 'alimentatore_cooler_master_maker_1200.jpg', 'Disponibile'),
-('010', 'Alimentatore Cooler Master MASTERWATT MAKER 1500', 'Alimentatore Cooler Master  1500W 80PLUS-TITANIUM 135MM-FAN ACTIVE-PFC PSU', '489,90', 'alimentatore_cooler_master_masterwatt.jpg', 'Disponibile'),
-('011', 'Alimentatore Cooler Master MASTERWATT MAKER 1500 no bluetooth', 'Alimentatore Cooler Master no bluetooth, 1500W 80PLUS-TITANIUM 135MM-FAN ACTIVE-PFC PSU', '469,90', 'alimentatore_cooler_master.jpg', 'Disponibile'),
-('012', 'Alimentatore EVGA SUPERNOVA', 'Alimentatore 1600 G2 GOLD', '425,90', 'alimentatore_evga.jpg', 'Disponibile');
+VALUES ('001', 'Corsair Builder Series CX430', 'PSU da 430 Watt della Corsair, Alta Efficienza e 28A sui 12V', '56,90', 'imagemagic.jpg', 'Disponibile'),
+('002', 'Corsair Builder Series CX450M', 'Alimentatore entry level da Corsair con alta efficienza e cablaggio dei cavi modulare', '59,90', 'imagemagic(1).jpg', 'Disponibile'),
+('003', 'Enermax MaxPro 80Plus', 'PSU entry level da Enermax con certificazione 80Plus e ventola silenziosa da 12cm', '59,90','imagemagic2.jpg', 'Disponibile'),
+('004', 'Corsair SF450 80PLUS Gold', 'Alimentatore SFX Ultra compatto da 450W, singola linea 12V da 37A, 2x PCIe e 7 anni di garanzia', '89,90', 'imagemagic3.jpg', 'Disponibile'),
+('005', 'Silverstone SST-GM500-G Gemini Series', 'Alimentatore ridondante ATX con funzionalit&agrave Hot-Swap certificato 80Plus Gold', '599,90', 'imagemagic4.jpg', 'Disponibile'),
+('006', 'Atlantis 500W', 'ATLANTIS P016-MPW-5000-W singola ventola silenziosa 12cm, 2 SATA, 3 ATA, 12V, 24PIN', '43,90', 'alimentatore_atlantis_500w.jpg', 'Non Disponibile'),
+('007', 'Corsair 620 W', 'Alimentatore Corsair 620 W TECNOWARE FREE-Silent620 ', '33,90', 'alimentatore_corsair_620w.jpg', 'Disponibile'),
+('008', 'Itek 650W', 'Alimentatore Itek ENERGY K-Series 650W ATX - Full Black, Retail', '33,90', 'alimentatore_itek.jpg', 'Non Disponibile'),
+('009', 'Cooler Master Maker 1200', 'Alimentatore Cooler Master Made In Japan, 1200W 80Plus Titanium, Active PFC, Silent 135mm FP fan', '1049,90', 'alimentatore_cooler_master_maker_1200.jpg', 'Disponibile'),
+('010', 'CM MASTERWATT MAKER 1500', 'Alimentatore Cooler Master  1500W 80PLUS-TITANIUM 135MM-FAN ACTIVE-PFC PSU', '489,90', 'alimentatore_cooler_master_masterwatt.jpg', 'Disponibile'),
+('011', 'CM MASTERWATT MAKER 1500 NB', 'Alimentatore Cooler Master no bluetooth, 1500W 80PLUS-TITANIUM 135MM-FAN ACTIVE-PFC PSU', '469,90', 'alimentatore_cooler_master.jpg', 'Disponibile'),
+('012', 'EVGA SUPERNOVA 850', 'Alimentatore Evga Supernova 850watt B2 Certificato G2 GOLD', '425,90', 'alimentatore_evga.jpg', 'Disponibile');
 
 INSERT INTO cpu (`Codice_prodotto`, `Nome`, `Descrizione`, `Prezzo`, `Img`, `Disponibilita`)
 VALUES ('013', 'Intel Core i3-6300 3,8 GHz (Skylake) Socket 115', 'CPU dual core da Intel con 3,8 GHz max, 4Mb Cache, chipset grafico HD 530, 47 Watt TDP con dissipatore', '189,90', '1404323_LB_00_FB.EPS_1000.jpeg', 'Disponibile'),
