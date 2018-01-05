@@ -69,3 +69,81 @@ h2{
 #come p{
     margin-top: 0.3em;
 }
+
+
+/******************************************************************
+ Media Query Tablet
+******************************************************************/
+
+@media only screen and (max-width: 955px) {
+
+    #chi{
+        width: 90%;
+        padding: 6em 5% 3em 5% ;
+    }
+
+    #dove{
+        width: 90%;
+        margin: 2em 5% 3em 5% ;
+        float: none;
+    }
+
+    #come{
+        width: 90%;
+        margin: 2em 5% 3em 5% ;
+    }
+
+    #img_chi{
+        width: 6em;
+        padding: 1em 8em 1em 8em;
+    }
+
+    #chi p{
+        margin: 1em 6em 0em 0em;
+    }
+
+    .img_dove_come{
+        width: 6em;
+        padding: 1em 8em 1em 8em;
+    }
+
+    #dove p{
+        margin: 1em 6em 0em 0em;
+    }
+
+    #come p{
+        margin: 1em 6em 0em 0em;
+    }
+}
+
+/******************************************************************
+Media Query Mobile
+******************************************************************/
+
+@media only screen and (max-width: 767px) {
+    #img_chi {
+        display: none;
+    }
+
+    .img_dove_come{
+        display: none;
+    }
+
+    .titolo_contatti{
+        font-size: 1.5em;
+    }
+
+    #chi p{
+        width: 100%;
+    }
+
+    #dove p{
+        width: 100%;
+    }
+
+    #come p{
+        width: 100%;
+    }
+
+}
+
