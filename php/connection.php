@@ -5,7 +5,7 @@
 $servername = "localhost";
 $username = "root";
 $password = "";
-$db = "mygear";
+$db = "returnfa_mygear";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $db);

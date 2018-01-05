@@ -1,4 +1,4 @@
-CREATE DATABASE IF NOT EXISTS mygear;
+CREATE DATABASE IF NOT EXISTS returnfa_mygear;
 
 DROP TABLE IF EXISTS cuffie;
 CREATE TABLE cuffie (
@@ -33,8 +33,8 @@ CREATE TABLE alimentatori (
     `Alt` char(20) NOT NULL
 ) ENGINE=InnoDB;
 
-DROP TABLE IF EXISTS CPU;
-CREATE TABLE CPU (
+DROP TABLE IF EXISTS cpu;
+CREATE TABLE cpu (
 	`Codice_prodotto` int PRIMARY KEY,
 	`Nome` char(20) NOT NULL,
 	`Descrizione` varchar(500)  NOT NULL,
