@@ -155,30 +155,30 @@ CREATE TABLE utente (
 
 
 INSERT INTO alimentatori (`Codice_prodotto`, `Nome`, `Descrizione`, `Prezzo`, `Img`, `Disponibilita`)
-VALUES ('001', 'Corsair Builder Series CX430', 'PSU da 430 Watt della Corsair, Alta Efficienza e 28A sui 12V', '56,90', 'imagemagic.jpg', 'Disponibile'),
-('002', 'Corsair Builder Series CX450M', 'Alimentatore entry level da Corsair con alta efficienza e cablaggio dei cavi modulare', '59,90', 'imagemagic(1).jpg', 'Disponibile'),
-('003', 'Enermax MaxPro 80Plus', 'PSU entry level da Enermax con certificazione 80Plus e ventola silenziosa da 12cm', '59,90','imagemagic2.jpg', 'Disponibile'),
-('004', 'Corsair SF450 80PLUS Gold', 'Alimentatore SFX Ultra compatto da 450W, singola linea 12V da 37A, 2x PCIe e 7 anni di garanzia', '89,90', 'imagemagic3.jpg', 'Disponibile'),
-('005', 'Silverstone SST-GM500-G Gemini Series', 'Alimentatore ridondante ATX con funzionalit&agrave Hot-Swap certificato 80Plus Gold', '599,90', 'imagemagic4.jpg', 'Disponibile'),
-('006', 'Atlantis 500W', 'ATLANTIS P016-MPW-5000-W singola ventola silenziosa 12cm, 2 SATA, 3 ATA, 12V, 24PIN', '43,90', 'alimentatore_atlantis_500w.jpg', 'Non Disponibile'),
-('007', 'Corsair 620 W', 'Alimentatore Corsair 620 W TECNOWARE FREE-Silent620 ', '33,90', 'alimentatore_corsair_620w.jpg', 'Disponibile'),
-('008', 'Itek 650W', 'Alimentatore Itek ENERGY K-Series 650W ATX - Full Black, Retail', '33,90', 'alimentatore_itek.jpg', 'Non Disponibile'),
-('009', 'Cooler Master Maker 1200', 'Alimentatore Cooler Master Made In Japan, 1200W 80Plus Titanium, Active PFC, Silent 135mm FP fan', '1049,90', 'alimentatore_cooler_master_maker_1200.jpg', 'Disponibile'),
-('010', 'CM MASTERWATT MAKER 1500', 'Alimentatore Cooler Master  1500W 80PLUS-TITANIUM 135MM-FAN ACTIVE-PFC PSU', '489,90', 'alimentatore_cooler_master_masterwatt.jpg', 'Disponibile'),
-('011', 'CM MASTERWATT MAKER 1500 NB', 'Alimentatore Cooler Master no bluetooth, 1500W 80PLUS-TITANIUM 135MM-FAN ACTIVE-PFC PSU', '469,90', 'alimentatore_cooler_master.jpg', 'Disponibile'),
-('012', 'EVGA SUPERNOVA 850', 'Alimentatore Evga Supernova 850watt B2 Certificato G2 GOLD', '425,90', 'alimentatore_evga.jpg', 'Disponibile');
+VALUES ('001', 'Corsair Builder Series CX430', 'Marca: Corsair<br>Watt: 430<br>Certificazione: 80Plus', '56,90', 'imagemagic.jpg', 'Disponibile'),
+('002', 'Corsair Builder Series CX450M', 'Marca: Corsair<br>Watt: 450<br>Certificazione: 80Plus', '59,90', 'imagemagic(1).jpg', 'Disponibile'),
+('003', 'Enermax MaxPro 80Plus', 'Marca: Enermax<br>Watt: 600<br>Certificazione: 80Plus', '59,90','imagemagic2.jpg', 'Disponibile'),
+('004', 'Corsair SF450 80PLUS Gold', 'Marca: Corsair<br>Watt: 450<br>Certificazione: 80Plus Gold', '89,90', 'imagemagic3.jpg', 'Disponibile'),
+('005', 'Silverstone SST-GM500-G Gemini Series', 'Marca: Silverstone<br>Watt: 500<br>Certificazione: 80Plus Gold', '599,90', 'imagemagic4.jpg', 'Disponibile'),
+('006', 'Atlantis 500W', 'Marca: Atlantis<br>Watt: 500<br>Certificazione: No', '43,90', 'alimentatore_atlantis_500w.jpg', 'Non Disponibile'),
+('007', 'Corsair 620 W', 'Marca: Corsair<br>Watt: 620<br>Certificazione: No', '33,90', 'alimentatore_corsair_620w.jpg', 'Disponibile'),
+('008', 'Itek 650W', 'Marca: Itek<br>Watt: 650<br>Certificazione: Silver', '33,90', 'alimentatore_itek.jpg', 'Non Disponibile'),
+('009', 'Cooler Master Maker 1200', 'Marca: Cooler Master<br>Watt: 1200<br>Certificazione: 80Plus Titanium', '1049,90', 'alimentatore_cooler_master_maker_1200.jpg', 'Disponibile'),
+('010', 'CM MASTERWATT MAKER 1500', 'Marca: Cooler Master<br>Watt: 1500<br>Certificazione: 80Plus Titanium', '489,90', 'alimentatore_cooler_master_masterwatt.jpg', 'Disponibile'),
+('011', 'CM MASTERWATT MAKER 1500 NB', 'Marca: Cooler Master<br>Watt: 1500<br>Certificazione: 80Plus Titanium', '469,90', 'alimentatore_cooler_master.jpg', 'Disponibile'),
+('012', 'EVGA SUPERNOVA 850', 'Marca: Evga<br>Watt: 850<br>Certificazione: Gold', '425,90', 'alimentatore_evga.jpg', 'Disponibile');
 
 INSERT INTO cpu (`Codice_prodotto`, `Nome`, `Descrizione`, `Prezzo`, `Img`, `Disponibilita`)
-VALUES ('013', 'Intel Core i3-6300 3,8 GHz (Skylake) Socket 115', 'CPU dual core da Intel con 3,8 GHz max, 4Mb Cache, chipset grafico HD 530, 47 Watt TDP con dissipatore', '189,90', '1404323_LB_00_FB.EPS_1000.jpeg', 'Disponibile'),
-('014', 'Intel Core i5-6600 3,3 GHz (Skylake) Socket 115', 'Performante CPU Quadcore da Intel con 3,9 GHz max, 6Mb Cache, chipset grafico HD 530, 65 Watt TDP con dissipatore', '249,90', 'processore-intel-core-i5.jpeg', 'Disponibile'),
-('015', 'Intel Core i7-7700 3,6 GHz (Kaby Lake) Socket 117', 'Performante CPU Quadcore da Intel serie Kaby-Lake con 4,2 GHz max, 8Mb Cache, chipset grafico HD 630, 65 Watt', '349,90', 'CPU_CORE_I7-6700_1151_BOX_4_GHZ_1.jpeg', 'Disponibile'),
-('016', 'Intel Core i7-7700K (Kaby Lake) PreTestato @ 5,1 Ghz - Tray', 'Performante CPU Quadcore da Intel serie Kaby-Lake pretestato e certificato per OC fino a 5,1 GHz', '599,90', '019-753_1g-254x254.jpeg', 'Disponibile'),
-('017', 'Intel Core i7-8700K 3,7 GHz (Coffee Lake) Socket 1151 - boxed', 'Performante CPU Intel Hexa-Core serie Cofee Lake con 3,7/4,7 GHz max, 12Mb Cache L3, chipset grafico HD 630, 95 Watt TDP', '439,90', 'cpui7.jpeg', 'Disponibile'),
-('018', 'Intel Core i7-8700K (Coffee Lake) PreTestato @ 5,0 Ghz - Tray', 'Performante CPU Hexa-Core da Intel serie Coffee Lake pretestato e certificato per OC fino a 5,0 GHz', '529,90', '209079225.jpeg', 'Disponibile'),
+VALUES ('013', 'Intel Core i3-6300 3,8 GHz (Skylake) Socket 115', 'CPU dual core da Intel con 3,8 GHz max, 4Mb Cache, chipset grafico HD 530, 47 Watt TDP con dissipatore', '189,90', '1404323_LB_00_FB.EPS_1000.jpg', 'Disponibile'),
+('014', 'Intel Core i5-6600 3,3 GHz (Skylake) Socket 115', 'Performante CPU Quadcore da Intel con 3,9 GHz max, 6Mb Cache, chipset grafico HD 530, 65 Watt TDP con dissipatore', '249,90', 'processore-intel-core-i5.jpg', 'Disponibile'),
+('015', 'Intel Core i7-7700 3,6 GHz (Kaby Lake) Socket 117', 'Performante CPU Quadcore da Intel serie Kaby-Lake con 4,2 GHz max, 8Mb Cache, chipset grafico HD 630, 65 Watt', '349,90', 'CPU_CORE_I7-6700_1151_BOX_4_GHZ_1.jpg', 'Disponibile'),
+('016', 'Intel Core i7-7700K (Kaby Lake) PreTestato @ 5,1 Ghz - Tray', 'Performante CPU Quadcore da Intel serie Kaby-Lake pretestato e certificato per OC fino a 5,1 GHz', '599,90', '019-753_1g-254x254.jpg', 'Disponibile'),
+('017', 'Intel Core i7-8700K 3,7 GHz (Coffee Lake) Socket 1151 - boxed', 'Performante CPU Intel Hexa-Core serie Cofee Lake con 3,7/4,7 GHz max, 12Mb Cache L3, chipset grafico HD 630, 95 Watt TDP', '439,90', 'cpui7.jpg', 'Disponibile'),
+('018', 'Intel Core i7-8700K (Coffee Lake) PreTestato @ 5,0 Ghz - Tray', 'Performante CPU Hexa-Core da Intel serie Coffee Lake pretestato e certificato per OC fino a 5,0 GHz', '529,90', '209079225.jpg', 'Disponibile'),
 ('019', 'Intel I7-4790K', 'CPU Intel I7 4 GHZ 8MB Cache', '469,90', 'intel_i7-4790k.jpg', 'Disponibile'),
 ('020', 'Ryzen Threadripper 1950X 4.0GHZ', 'CPU AMD Threadripper 1950X, Ryzen. Frequenza del processore: 3,4 GHz, Presa per processore: Socket TR4, Componente per: Server/workstation', '1239,90', 'ryzen.jpg', 'Disponibile'),
 ('021', 'Intel Cpu Core i9-7900 X-series processor', 'Intel CPU i9 X-series, 10 Core, 20 Threads, box', '999,90', 'intel_cpu_core_i9-7900.jpg', 'Disponibile'),
-('022', 'Intel Cpu Core i7-6800K', 'CPU Intel core i7, Frequenza del processore: 3,4 GHz, Numero di core del processore: 6, Presa per processore: LGA 2011-v3', '909,90', '0675901403542_MED.jpeg', 'Disponibile'),
+('022', 'Intel Cpu Core i7-6800K', 'CPU Intel core i7, Frequenza del processore: 3,4 GHz, Numero di core del processore: 6, Presa per processore: LGA 2011-v3', '909,90', '0675901403542_MED.jpg', 'Disponibile'),
 ('023', 'Intel Cpu Core i7-7820 X-series processor', 'Intel Cpu Core i7, 8 Core, 16 Threads, box', '969,90', 'intel_cpu_core_i7-7820.jpg', 'Disponibile'),
 ('024', 'AMD CPU Ryzen 7 1800X', 'AMD CPU 4,00GHZ, AM4, 20MB CACHE, 95W, senza dissipatore', '529,90', 'amd_cpu_ryzen.jpg', 'Disponibile');
 
@@ -211,8 +211,8 @@ VALUES ('037', 'Seagate Archive HDD, SATA 6G, 5.900RPM, 3,5 Pollici - 8 TB', 'Ef
 ('048', 'HARD DISK SATA3 3.5" 4000GB(4TB) WD4002FFWX WD RED PRO', 'Progettato specificamente per le PMI, WD Red Pro è disponibile per ambienti NAS medio-grandi fino a 16 alloggiamenti', '208,90', 'hard_disk_sata4tb.jpg', 'Disponibile');
 
 INSERT INTO memorie_ram (`Codice_prodotto`, `Nome`, `Descrizione`, `Prezzo`, `Img`, `Disponibilita`)
-VALUES ('049', 'Corsair Vengeance RGB LED DDR4, 3.333 MHz, C16 - Kit 32GB (4x 8GB)', 'Memorie 1,35V a 3.333MHz da Corsair serie Vengeance LED con illuminazione RGB programmabile', '499,90', 'ram1.jpeg', 'Disponibile'),
-('050', 'Corsair Vengeance LPX DDR4 PC4-26400, 3.300 MHz, C16, Nero - Kit 16GB (2x 8GB)', 'Memorie 1,35V a 3.300MHz da Corsair serie Vengeance LPX con timing CL 16-18-18-36 e dissipatore Vengeance Airflow', '229,90', 'ram2.jpeg', 'Disponibile'),
+VALUES ('049', 'Corsair Vengeance RGB LED DDR4, 3.333 MHz, C16 - Kit 32GB (4x 8GB)', 'Memorie 1,35V a 3.333MHz da Corsair serie Vengeance LED con illuminazione RGB programmabile', '499,90', 'ram1.jpg', 'Disponibile'),
+('050', 'Corsair Vengeance LPX DDR4 PC4-26400, 3.300 MHz, C16, Nero - Kit 16GB (2x 8GB)', 'Memorie 1,35V a 3.300MHz da Corsair serie Vengeance LPX con timing CL 16-18-18-36 e dissipatore Vengeance Airflow', '229,90', 'ram2.jpg', 'Disponibile'),
 ('051', 'Corsair Dominator Platinum DDR4 PC4-26400, 3.333 MHz, C16 - Kit 32GB (4x 8GB)', 'Memorie 1,35V a 3.333MHz da Corsair serie Dominator Platinum con timing CL 16-18-18-36 con Airflow Platinum Dominator', '469,90', 'ram3.jpg', 'Disponibile'),
 ('052', 'Corsair Vengeance LPX DDR4 PC4-33000, 4.133 MHz, C19, Nero - Kit 8GB (2x 4GB)', 'Memorie 1,35V a 4.133MHz da Corsair serie Vengeance LPX con timing CL 19-25-25-45 e dissipatore Corsair Vengeance Airflow', '189,90', 'ram4.jpg', 'Disponibile'),
 ('053', 'Corsair Vengeance LPX DDR4 PC4-33000, 4.133 MHz, C19, Rosso - Kit 8GB (2x 4GB)', 'Memorie 1,35V a 4.133MHz da Corsair serie Vengeance LPX con timing CL 19-25-25-45 e dissipatore Corsair Vengeance Airflow', '179,90', 'ram5.jpg', 'Disponibile'),
@@ -225,10 +225,10 @@ VALUES ('049', 'Corsair Vengeance RGB LED DDR4, 3.333 MHz, C16 - Kit 32GB (4x 8G
 ('060', 'DDR4 3000MHZ 16GB 4 X 288 DIMM', 'Progetta per sistemi X99 I moduli DDR4 Dominator Platinum sono progettati per trarre vantaggio dall''avanzata velocità, dalla larghezza di banda e dalla capacità della piattaforma DDR4', '289,90', 'ddr4_3000.jpg', 'Disponibile');
 
 INSERT INTO monitor (`Codice_prodotto`, `Nome`, `Descrizione`, `Prezzo`, `Img`, `Disponibilita`)
-VALUES ('061', 'Asus MG248QR, 60,96 cm (24 pollici), FreeSync, 144 Hz, TN - DP, HDMI', 'Monitor Full HD con pannello TN da Asus con tempo di risposta 1 ms, 144hz di refresh e tecnologia ASUS Ultra Low Blue Light', '349,90', 'AsusMG248.jpeg', 'Disponibile'),
-('062', 'Monitor Benq Zowie Gaming XL2735', 'Tecnologia ZOWIE esclusiva di BenQ - La "Precisione dinamica" mantiene una chiarezza notevole delle immagini in movimento durante il gioco', '569,90', 'monitorBenq.jpeg', 'Disponibile'),
-('063', 'Monitor Gaming MSI OptiX 27" FHD CURVED', 'Monitor LED  27 pollici - Risoluzione: Full HD 1920x1080 pixel - Tempo di risposta: 1 ms', '669,90', '4719072520083_LRG.jpeg', 'Disponibile'),
-('064', 'Monitor Samsung Gaming 31.5 pollici', 'Dimensioni schermo: 80 cm (31.5"), Luminosità schermo: 350 cd/m², Risoluzione del display: 2560 x 1440 Pixel. Colore del prodotto: Nero', '449,90', '8806088693637_MED.jpeg', 'Disponibile'),
+VALUES ('061', 'Asus MG248QR, 60,96 cm (24 pollici), FreeSync, 144 Hz, TN - DP, HDMI', 'Monitor Full HD con pannello TN da Asus con tempo di risposta 1 ms, 144hz di refresh e tecnologia ASUS Ultra Low Blue Light', '349,90', 'AsusMG248.jpg', 'Disponibile'),
+('062', 'Monitor Benq Zowie Gaming XL2735', 'Tecnologia ZOWIE esclusiva di BenQ - La "Precisione dinamica" mantiene una chiarezza notevole delle immagini in movimento durante il gioco', '569,90', 'monitorBenq.jpg', 'Disponibile'),
+('063', 'Monitor Gaming MSI OptiX 27" FHD CURVED', 'Monitor LED  27 pollici - Risoluzione: Full HD 1920x1080 pixel - Tempo di risposta: 1 ms', '669,90', '4719072520083_LRG.jpg', 'Disponibile'),
+('064', 'Monitor Samsung Gaming 31.5 pollici', 'Dimensioni schermo: 80 cm (31.5"), Luminosità schermo: 350 cd/m², Risoluzione del display: 2560 x 1440 Pixel. Colore del prodotto: Nero', '449,90', '8806088693637_MED.jpg', 'Disponibile'),
 ('065', 'ASUS PA328Q, 81,28 cm (32 pollici), 4K/UHD Widescreen - DP, HDMI', 'Monitor Ultra-HD 32 pollici professionale da ASUS con pannello IPS 10-Bit, 100% sRGB, Displayport & HDMI 2.0', '1279,90', 'asusPa.jpg', 'Disponibile'),
 ('066', 'Asus ROG Swift PG348Q, 86,7 cm (34 Pollici) G-SYNC Widescreen - DP, HDMI', 'Monitor UWHD con tecnologia G-SYNC da Asus con tempo di risposta 4 ms, 100hz refresh & pannello IPS da 34 pollici', '1199,90', 'asusRog.jpg', 'Disponibile'),
 ('067', 'Monitor Asus ROG Swift PG348Q', 'Monitor Asus ROG Swift PG348Q , 86,7 cm (34 Pollici) G-SYNC Widescreen - DP, HDMI', '1399,90', 'asus_rog.jpg', 'Disponibile'),
@@ -297,8 +297,8 @@ VALUES ('110', 'Asus Xonar DX/XD/A PCIe', 'Scheda Audio per slot PCIe 7.1 con Te
 ('121', 'XONAR PHOEBUS SOL', 'Cogli di sorpresa gli avversari grazie al migliore posizionamento audio e goditi una musica cristallina grazie ad un rapporto segnale-rumore (SNR) di 118dB con amplificatore integrato da 600 ohm per cuffie. ', '139,90', '4716659447740_MED.jpg', 'Disponibile');
 
 INSERT INTO schede_madri (`Codice_prodotto`, `Nome`, `Descrizione`, `Prezzo`, `Img`, `Disponibilita`)
-VALUES ('122', 'ASUS PRIME X399-A, AMD X399 Motherboard - Socket TR4', 'Schema madre mobo X399 ATX con 4x PCIe x16 (x16/x16/x8/x8), 3x USB 3.1 (2× Type A & 1x Type C), 2x M.2 (PCIe 3.0 x4/SATA) & 6x SATA 6G, 12x USB 3.0 / 4x USB 2.0 & Illuminazione RGB', '359,90', 'asusPrime.png', 'Disponibile'),
-('123', 'Gigabyte Aorus X399 Gaming 7, AMD X399 MOtherboard - Socket TR4', 'Scheda madre mobo X399 ATX con 5x PCIe x16 (x16/x16/x8/x8/4), 2x USB 3.1 (1× Type A & 1x Type C), 3x M.2 (PCIe 3.0 x4/SATA) & 8x SATA 6G, 10x USB 3.0 / 4x USB 2.0 & Illuminazione RGB', '399,90', 'aorusx399.png', 'Disponibile'),
+VALUES ('122', 'ASUS PRIME X399-A, AMD X399 Motherboard - Socket TR4', 'Schema madre mobo X399 ATX con 4x PCIe x16 (x16/x16/x8/x8), 3x USB 3.1 (2× Type A & 1x Type C), 2x M.2 (PCIe 3.0 x4/SATA) & 6x SATA 6G, 12x USB 3.0 / 4x USB 2.0 & Illuminazione RGB', '359,90', 'asusPrime.jpg', 'Disponibile'),
+('123', 'Gigabyte Aorus X399 Gaming 7, AMD X399 MOtherboard - Socket TR4', 'Scheda madre mobo X399 ATX con 5x PCIe x16 (x16/x16/x8/x8/4), 2x USB 3.1 (1× Type A & 1x Type C), 3x M.2 (PCIe 3.0 x4/SATA) & 8x SATA 6G, 10x USB 3.0 / 4x USB 2.0 & Illuminazione RGB', '399,90', 'aorusx399.jpg', 'Disponibile'),
 ('124', 'ASUS ROG Zenith Extreme, AMD X399 Motherboard - Socket TR4', 'Scheda madre mobo X399 ATX con 4x PCIe x16 (x16/x16/x8/x8), 2x USB 3.1 (1× Type A & 1x Type C), 3x M.2 (PCIe 3.0 x4/SATA) & 6x SATA 6G, 12x USB 3.0 / 4x USB 2.0, Illuminazione RGB & AC-WLAN / 10 Gigabit
 ', '589,90', 'asusRog.jpg', 'Disponibile'),
 ('125', 'Gigabyte Aorus X299-Ultra Gaming, Intel X299 Mainboard - Socket 2066', 'Scheda madre X299 da Gigabyte con 5× PCIe 3.0 x16 (2× x16 / 1× x8 / 2× x4) 7× USB 3.1 / 8× USB 3.0, 3× M.2 (PCIe 3.0 x4) & 8x SATA 6G, Gigabyte RGB Fusion LED', '309,90', 'aorusx299.jpg', 'Disponibile'),
