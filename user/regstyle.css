@@ -47,7 +47,7 @@ input[type=password] {
 
 }
 
-.signupbtn {
+#submitButton {
     background-color: #D32F2F;
     color: white;
     padding: 0.5em 0.5em 0.5em 0.5em;
