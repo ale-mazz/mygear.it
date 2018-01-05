@@ -95,14 +95,19 @@
         position: static;
         width: 30%;
         margin-left: 2.5%;
+        margin-bottom: 2%;
     }
 
-    p {
-        font-size: 1em;
+    .product_price h3 {
+        font-size: 0.75em;
+
     }
 
-    h3 {
-        font-size: 1em;
+    .product_availability h3 {
+        font-size: 0.75em;
+    }
+    .product_description p {
+        font-size: 0.75em;
     }
 }
 
@@ -120,13 +125,5 @@ Media Query Mobile
         position: static;
         width: 40%;
         margin-left: 7%;
-    }
-
-    p {
-        font-size: 0.7em;
-    }
-
-    h3 {
-        font-size: 0.7em;
     }
 }

@@ -297,22 +297,22 @@ VALUES ('110', 'Asus Xonar DX/XD/A PCIe', 'Scheda Audio per slot PCIe 7.1 con Te
 ('121', 'XONAR PHOEBUS SOL', 'Cogli di sorpresa gli avversari grazie al migliore posizionamento audio e goditi una musica cristallina grazie ad un rapporto segnale-rumore (SNR) di 118dB con amplificatore integrato da 600 ohm per cuffie. ', '139,90', '4716659447740_MED.jpg', 'Disponibile');
 
 INSERT INTO schede_madri (`Codice_prodotto`, `Nome`, `Descrizione`, `Prezzo`, `Img`, `Disponibilita`)
-VALUES ('122', 'ASUS PRIME X399-A, AMD X399 Motherboard - Socket TR4', 'mobo X399 ATX con 4x PCIe x16 (x16/x16/x8/x8), 3x USB 3.1 (2× Type A & 1x Type C), 2x M.2 (PCIe 3.0 x4/SATA) & 6x SATA 6G, 12x USB 3.0 / 4x USB 2.0 & Illuminazione RGB', '359,90', '4712900663716_MED.jpg', 'Disponibile'),
-('123', 'Gigabyte Aorus X399 Gaming 7, AMD X399 MOtherboard - Socket TR4', 'mobo X399 ATX con 5x PCIe x16 (x16/x16/x8/x8/4), 2x USB 3.1 (1× Type A & 1x Type C), 3x M.2 (PCIe 3.0 x4/SATA) & 8x SATA 6G, 10x USB 3.0 / 4x USB 2.0 & Illuminazione RGB', '399,90', '4712900663716_MED.jpg', 'Disponibile'),
-('124', 'ASUS ROG Zenith Extreme, AMD X399 Motherboard - Socket TR4', 'mobo X399 ATX con 4x PCIe x16 (x16/x16/x8/x8), 2x USB 3.1 (1× Type A & 1x Type C), 3x M.2 (PCIe 3.0 x4/SATA) & 6x SATA 6G, 12x USB 3.0 / 4x USB 2.0, Illuminazione RGB & AC-WLAN / 10 Gigabit
-', '589,90', '4712900663716_MED.jpg', 'Disponibile'),
-('125', 'Gigabyte Aorus X299-Ultra Gaming, Intel X299 Mainboard - Socket 2066', 'scheda madre X299 da Gigabyte con 5× PCIe 3.0 x16 (2× x16 / 1× x8 / 2× x4) 7× USB 3.1 / 8× USB 3.0, 3× M.2 (PCIe 3.0 x4) & 8x SATA 6G, Gigabyte RGB Fusion LED', '309,90', '4712900663716_MED.jpg', 'Disponibile'),
-('126', 'Asus PRIME X299-DELUXE + Steam Gift Card 50€', 'scheda madre X299 da Asus in bundle con Steam Gift Card da 50€', '479,90', '4712900663716_MED.jpg', 'Disponibile'),
-('127', 'Asus ROG Rampage VI EXTREME, Intel X299 Mainboard - Socket 2066', 'scheda madre X299 da Asus con 4× PCIe 3.0 x16, 3× USB 3.1 / 12× USB 3.0 / 2× USB 2.0, 3× M.2 (PCIe 3.0 x4) & 1× U.2 & 6x SATA 6G, illuminazione Asus AURA RGB & WiFi / 10Gb-LAN', '699,90', '4712900663716_MED.jpg', 'Disponibile'),
-('128', 'MB Asus MAXIMUS IX EXTREME S1151 Z270', 'ASUS MAXIMUS IX EXTREME. Tipi di memoria supportati: DDR4-SDRAM, tipo di slot di memoria: DIMM, Velocità di memoria supportate: 2400,2666,3400,3466,3500,3600,3733,3800,3866,4000,4133 MHz.', '679,90', '4712900663716_MED.jpg', 'Disponibile'),
-('129', 'ASUS RAMPAGE V EDITION 10', 'ASUS ROG Rampage V Edition 10 Intel X99 LGA 2011-v3 ATX', '559,90', '4712900448504_MED.jpg', 'Disponibili'),
-('130', 'MB Asus PRIME X299-DELUXE', 'MB Asus PRIME X299-DELUXE LGA 2066 8*DDR4 4*PCI-E M.2 7*SATA3', '519,90', '4712900763881_MED.jpg', 'Disponibile'),
-('131', 'MB MSI X299 XPOWER GAMING ', 'MB MSI X299 XPOWER GAMING AC LGA2066 8DDR4 4PCI-EX16 1PCI-EX 1U.2 3M.2 10SATA3 3USB3', '489,90', '4719072525958_MED.jpg', 'Disponibile'),
+VALUES ('122', 'ASUS PRIME X399-A, AMD X399 Motherboard - Socket TR4', 'Schema madre mobo X399 ATX con 4x PCIe x16 (x16/x16/x8/x8), 3x USB 3.1 (2× Type A & 1x Type C), 2x M.2 (PCIe 3.0 x4/SATA) & 6x SATA 6G, 12x USB 3.0 / 4x USB 2.0 & Illuminazione RGB', '359,90', 'asusPrime.png', 'Disponibile'),
+('123', 'Gigabyte Aorus X399 Gaming 7, AMD X399 MOtherboard - Socket TR4', 'Scheda madre mobo X399 ATX con 5x PCIe x16 (x16/x16/x8/x8/4), 2x USB 3.1 (1× Type A & 1x Type C), 3x M.2 (PCIe 3.0 x4/SATA) & 8x SATA 6G, 10x USB 3.0 / 4x USB 2.0 & Illuminazione RGB', '399,90', 'aorusx399.png', 'Disponibile'),
+('124', 'ASUS ROG Zenith Extreme, AMD X399 Motherboard - Socket TR4', 'Scheda madre mobo X399 ATX con 4x PCIe x16 (x16/x16/x8/x8), 2x USB 3.1 (1× Type A & 1x Type C), 3x M.2 (PCIe 3.0 x4/SATA) & 6x SATA 6G, 12x USB 3.0 / 4x USB 2.0, Illuminazione RGB & AC-WLAN / 10 Gigabit
+', '589,90', 'asusRog.jpg', 'Disponibile'),
+('125', 'Gigabyte Aorus X299-Ultra Gaming, Intel X299 Mainboard - Socket 2066', 'Scheda madre X299 da Gigabyte con 5× PCIe 3.0 x16 (2× x16 / 1× x8 / 2× x4) 7× USB 3.1 / 8× USB 3.0, 3× M.2 (PCIe 3.0 x4) & 8x SATA 6G, Gigabyte RGB Fusion LED', '309,90', 'aorusx299.jpg', 'Disponibile'),
+('126', 'Asus PRIME X299-DELUXE + Steam Gift Card 50€', 'Scheda madre X299 da Asus in bundle con Steam Gift Card da 50€', '479,90', 'primesteam.jpg', 'Disponibile'),
+('127', 'Asus ROG Rampage VI EXTREME, Intel X299 Mainboard - Socket 2066', 'Scheda madre X299 da Asus con 4× PCIe 3.0 x16, 3× USB 3.1 / 12× USB 3.0 / 2× USB 2.0, 3× M.2 (PCIe 3.0 x4) & 1× U.2 & 6x SATA 6G, illuminazione Asus AURA RGB & WiFi / 10Gb-LAN', '699,90', 'rampage.jpg', 'Disponibile'),
+('128', 'MB Asus MAXIMUS IX EXTREME S1151 Z270', 'Tipi di memoria supportati: DDR4-SDRAM, tipo di slot di memoria: DIMM, Velocità di memoria supportate: 2400,2666,3400,3466,3500,3600,3733,3800,3866,4000,4133 MHz.', '679,90', 'maximus.jpg', 'Disponibile'),
+('129', 'ASUS RAMPAGE V EDITION 10', 'Scheda madre Intel X99 LGA 2011-v3 ATX', '559,90', 'rampageV.jpg', 'Disponibili'),
+('130', 'MB Asus PRIME X299-DELUXE', 'Schema Madre LGA 2066 8*DDR4 4*PCI-E M.2 7*SATA3', '519,90', '4712900763881_MED.jpg', 'Disponibile'),
+('131', 'MB MSI X299 XPOWER GAMING ', 'Scheda madre AC LGA2066 8DDR4 4PCI-EX16 1PCI-EX 1U.2 3M.2 10SATA3 3USB3', '489,90', '4719072525958_MED.jpg', 'Disponibile'),
 ('132', 'X99-DELUXE II S2011 V3 X99 ATX', 'ASUS X99-DELUXE II. Tipi di memoria supportati: DDR4-SDRAM, tipo di slot di memoria: DIMM, Canali di memoria: Quad. Famiglia processore: Intel, Processori compatibili: Core i7, Socket processore: LGA 2011-v3.', '479,90', '4712900397796_MED.jpg', 'Disponibile'),
 ('133', 'MB MSI X299 Gaming M7 ACK', 'MB MSI X299 Gaming M7 ACK LGA 2066 8*DDR4 6*PCI-E M2. 8*SATA3 -MSIX299', '469,90', '4719072525941_MED.jpg', 'Disponibile');
 
 INSERT INTO schede_video (`Codice_prodotto`, `Nome`, `Descrizione`, `Prezzo`, `Img`, `Disponibilita`)
-VALUES ('134', 'Gigabyte Radeon RX Vega 56 8G, 8192 MB HBM2', 'Radeon RX Vega con 1.471 MHz Core, 8 Gb di Memoria HBM2 & 3x DisplayPort 1.4 / 1x HDMI', '599,90', 'nvidia.jpg', 'Disponibile'),
+VALUES ('134', 'Gigabyte Radeon RX Vega 56 8G, 8192 MB HBM2', 'Radeon RX Vega con 1.471 MHz Core, 8 Gb di Memoria HBM2 & 3x DisplayPort 1.4 / 1x HDMI', '599,90', 'radeonRX.jpg', 'Disponibile'),
 ('135', 'Gigabyte Radeon RX Vega 64 Silver 8G, 8192 MB HBM2', 'Radeon RX Vega con 1.546 MHz Core, 8 Gb di Memoria HBM2 & 3x DisplayPort 1.4 / 1x HDMI', '729,90', 'nvidia.jpg', 'Disponibile'),
 ('136', 'Asus GeForce GTX 1080 Ti STRIX O11G Gaming, 11GB GDDR5X', 'Pascal Power da ASUS: GTX 1080 Ti con 1.683 / 1.708 MHz Core, 11Gb di Memoria (11.100 MHz) e Aura Sync RGB, VR & 4K gaming', '969,90', 'nvidia.jpg', 'Disponibile'),
 ('137', 'Asus ROG Poseidon GeForce GTX 1080 TI 11GB Platinum Edition', 'Pascal Power da ASUS con diussipazione a liquido integrata! GTX 1080 Ti con 1.733 MHz Core, 11GB MB di Memoria (11.1100 MHz) e dissipazione con WB integrato', '999,90', 'nvidia.jpg', 'Disponibile'),
