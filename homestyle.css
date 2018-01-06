@@ -24,19 +24,19 @@ Corpo Home
     padding-top: 1em;
 }
 
-.homeWindows {
+.homeContainersOut{
     float: left;
     width: 30%;
     margin-left: 2.5%;
 
 }
 
-.homeWindowsTitles {
+.homeTitles {
     width: 10%;
     margin-left: 45%;
 }
 
-.homeWindowsTitles h1 {
+.homeTitles h1 {
     font-size: 1.5em;
     color: #000000;
     text-align: center;
@@ -51,7 +51,7 @@ Corpo Home
     background-color: white;
 }
 
-.homeWindows img {
+.homeContainersOutimg {
     width: 80%;
     margin-left: 10%;
     margin-right: 10%;
@@ -62,11 +62,11 @@ Corpo Home
     padding-bottom: 18%;
 }
 
-.homeWindowsContainer {
+.homeInfo {
     padding: 1em;
 }
 
-.homeWindowsContainer h1 {
+.homeInfo h1 {
     font-size: 1em;
     padding-bottom: 0.5em;
 }
@@ -77,18 +77,18 @@ Corpo Home
     border-bottom-width: 0.1em;
 }
 
-.homeWindowsContainer h2 {
+.homeInfo h2 {
     font-size: 0.9em;
     padding-top: 1em;
 }
 
-.homeWindowsContainer a {
+.homeInfo a {
     color: #000000;
     display: inline-block;
     position: relative;
 }
 
-.homeWindowsContainer a:hover {
+.homeInfo a:hover {
     color: #D50000;
     -webkit-transform: scale(1.2);
     -ms-transform: scale(1.2);
@@ -147,27 +147,27 @@ Corpo Home
         font-size: 1.5em;
     }
 
-    .homeWindowsContainer h1 {
+    .homeInfo h1 {
         font-size: 2em;
     }
 
-    .homeWindowsContainer h2 {
+    .homeInfo h2 {
         font-size: 1.8em;
     }
 
-    .homeWindowsTitles {
+    .homeTitles {
         margin-bottom: 0em;
         width: 60%;
         margin-left: 20%;
     }
 
-    .homeWindowsTitles h1 {
+    .homeTitles h1 {
         font-size: 3em;
         margin-bottom: 1em;
         text-align: center;
     }
 
-    .homeWindows {
+    .homeContainersOut{
         width: 100%;
         margin: 0;
         margin-top: 2em;
@@ -214,31 +214,31 @@ Media Query Mobile
         font-size: 1.5em;
     }
 
-    .homeWindowsContainer h1 {
+    .homeInfo h1 {
         font-size: 1em;
     }
 
-    .homeWindowsContainer h2 {
+    .homeInfo h2 {
         font-size: 1em;
     }
 
-    .homeWindowsTitles {
+    .homeTitles {
         width: 60%;
         margin-left: 20%;
     }
 
-    .homeWindowsTitles h1 {
+    .homeTitles h1 {
         font-size: 1.5em;
         margin-top: 1em;
         text-align: center;
     }
 
-    .homeWindows {
+    .homeContainersOut{
         width: 100%;
         margin: 0;
     }
 
-    .homeWindowsTables {
+    .homeContainersIn {
         margin-left: 0;
         width: 100%;
     }
@@ -271,15 +271,15 @@ Media Query Mobile
     }
 
 
-    .homeWindowsTable:before,
-    .homeWindowsTable:after {
+    .homeContainersIn:before,
+    .homeContainersIn:after {
         content: "";
         position: absolute;
         top: -3px;
         right: -3px;
     }
 
-    .homeWindowsTable:before {
+    .homeContainersIn:before {
         bottom: -2px;
         width: 2px;
         background-image: -webkit-gradient(linear, 0 100%, 0 0, from(#9E9E9E), to(transparent));
@@ -288,7 +288,7 @@ Media Query Mobile
         background-image: -o-linear-gradient(#9E9E9E, transparent);
     }
 
-    .homeWindowsTable:after {
+    .homeContainersIn:after {
         left: -2px;
         height: 2px;
         background-image: -webkit-gradient(linear, 0 0, 100% 0, from(transparent), to(#9E9E9E));
@@ -297,9 +297,20 @@ Media Query Mobile
         background-image: -o-linear-gradient(left, transparent, #9E9E9E);
     }
 
-     .homeWindowsTable {
+     .homeContainersIn {
         position: relative;
     }
+}
 
+/******************************************************************
+ Print Style Home
+******************************************************************/
+
+
+@media print {
+
+    #headerContainer {
+    display: none;
+    }
 
 }
