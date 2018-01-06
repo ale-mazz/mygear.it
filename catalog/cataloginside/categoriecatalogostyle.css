@@ -37,9 +37,8 @@
 }
 
 .product {
-    margin-top: 1.5em;
-    margin-left: 4%;
-    width: 20%;
+    margin: 1em 2.5% 1em 0em;
+    width: 18%;
     float: left;
     background-color: white;
     position: relative;
