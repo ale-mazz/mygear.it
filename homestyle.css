@@ -301,16 +301,3 @@ Media Query Mobile
         position: relative;
     }
 }
-
-/******************************************************************
- Print Style Home
-******************************************************************/
-
-
-@media print {
-
-    #headerContainer, #headerDropMenu, #footerTop, #footerBottom {
-        display: none;
-    }
-
-}

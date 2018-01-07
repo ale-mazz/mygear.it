@@ -238,3 +238,15 @@ Media Query
         top: 2.52em;
     }
 }
+
+/******************************************************************
+ Print Style Header
+******************************************************************/
+
+@media print {
+
+    #headerContainer, #headerDropMenu{
+        display: none;
+    }
+
+}
