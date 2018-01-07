@@ -41,20 +41,19 @@ Corpo Home
     text-align: center;
 }
 
-
 .homeContainersIn {
-    width: 80%;
-    margin-left: 10%;
-    margin-right: 10%;
-}
-
-.homeContainersIn img {
     margin-top: 1.5em;
-    margin-left: 10%;
+    margin-left: 5%;
     width: 90%;
     clear: left;
     float: left;
     background-color: white;
+}
+
+.homeContainersIn img {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 #homeImgVetrina {
@@ -174,7 +173,7 @@ Corpo Home
         margin-top: 2em;
     }
 
-    .homeWindowsTable {
+    .homeContainersIn {
         margin: 0;
         width: 100%;
     }
@@ -311,7 +310,10 @@ Media Query Mobile
 @media print {
 
     #headerContainer {
-    display: none;
+        display: none;
+    }
+    #headerDropMenu{
+        display: none;
     }
 
 }
