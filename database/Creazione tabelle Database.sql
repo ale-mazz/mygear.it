@@ -283,7 +283,7 @@ VALUES ('098', 'Corsair Hydro Series H80i v2 Extreme Performance Liquid CPU Cool
 
 
 INSERT INTO schede_audio (`Codice_prodotto`, `Nome`, `Descrizione`, `Prezzo`, `Img`, `Disponibilita`)
-VALUES ('110', 'Asus Xonar DX/XD/A PCIe', 'Scheda Audio per slot PCIe 7.1 con Tecnologia Dolby Home Theater', '59,90', '4716659682646_MED.jpg', 'Disponibile'),
+VALUES ('110', 'Asus Xonar DX/XD/A PCIe', 'Scheda Audio per slot PCIe 7.1 con Tecnologia Dolby Home Theater', '59,90', 'xonar.jpg', 'Disponibile'),
 ('111', 'ASUS Xonar U3 Scheda Audio Hi-Speed USB', 'Scheda audio USB da ASUS serie Xonar con amplificatore per headset e DAC', '39,90', 'xonarusb.jpg', 'Disponibile'),
 ('112', 'Asus Strix RAID Pro 7.1 Gaming Audio Card PCIe', 'Scheda audio pro gaming PCIe da Asus con DAC ESS SABRE9006A, amplificatore cuffie da 600Ohm e software di gestione', '119,90', 'raidpro.jpg', 'Disponibile'),
 ('113', 'Asus Xonar ROG Phoebus - PCIe', 'Scheda audio ROG per gamer, con box di controllo, amplificatore per headset e XEAR 3D', '159,90', 'rog.jpg', 'Disponibile'),
