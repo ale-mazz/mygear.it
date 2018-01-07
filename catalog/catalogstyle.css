@@ -21,6 +21,7 @@ h2 0.87
     width: 100%;
     margin-top: 2em;
     margin-bottom: 2em;
+    float:right;
     position: static;
 }
 
@@ -43,11 +44,8 @@ h2 0.87
 /* menù verticale */
 
 #container_menu {
-    overflow-y: scroll;
-    margin-bottom: 50em;
-    float: left;
-    clear: both;
-    width: 18%;
+    margin-left: 18%;
+    background-color: yellow;
 }
 
 #menu_verticale {
@@ -56,6 +54,7 @@ h2 0.87
     width: 15.5%;
     float: left;
     clear: both;
+    position: fixed;
 
     background-color: #212121;
     color: #FAFAFA;
