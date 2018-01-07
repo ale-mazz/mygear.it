@@ -283,7 +283,7 @@ VALUES ('098', 'Corsair Hydro Series H80i v2 Extreme Performance Liquid CPU Cool
 
 
 INSERT INTO schede_audio (`Codice_prodotto`, `Nome`, `Descrizione`, `Prezzo`, `Img`, `Disponibilita`)
-VALUES ('110', 'Asus Xonar DX/XD/A PCIe', 'Scheda Audio per slot PCIe 7.1 con Tecnologia Dolby Home Theater', '59,90', '4716659682646_MED.jpg', 'Disponibile'),
+VALUES ('110', 'Asus Xonar DX/XD/A PCIe', 'Scheda Audio per slot PCIe 7.1 con Tecnologia Dolby Home Theater', '59,90', 'xonar.jpg', 'Disponibile'),
 ('111', 'ASUS Xonar U3 Scheda Audio Hi-Speed USB', 'Scheda audio USB da ASUS serie Xonar con amplificatore per headset e DAC', '39,90', 'xonarusb.jpg', 'Disponibile'),
 ('112', 'Asus Strix RAID Pro 7.1 Gaming Audio Card PCIe', 'Scheda audio pro gaming PCIe da Asus con DAC ESS SABRE9006A, amplificatore cuffie da 600Ohm e software di gestione', '119,90', 'raidpro.jpg', 'Disponibile'),
 ('113', 'Asus Xonar ROG Phoebus - PCIe', 'Scheda audio ROG per gamer, con box di controllo, amplificatore per headset e XEAR 3D', '159,90', 'rog.jpg', 'Disponibile'),
@@ -293,7 +293,7 @@ VALUES ('110', 'Asus Xonar DX/XD/A PCIe', 'Scheda Audio per slot PCIe 7.1 con Te
 ('117', 'XONAR ESSENCE STX II', 'Basandosi su anni di esperienza nello sviluppo di Essence One, Essence STU e Essence III, Essence STX II beneficia di una progettazione meticolosa, prestazioni eccellenti ed una profonda musicalità Hi-Fi', '249,90', 'stx2.jpg', 'Disponibile'),
 ('118', 'STRIX RAID DLX', 'Strix Raid DLX è una scheda audio premium costruita con componenti di altissima qualità per audiofili, capace di soddisfare i giocatori che esigono il massimo delle prestazioni audio', '229,90', 'raidDlx.jpg', 'Disponibile'),
 ('119', 'XONAR D2/PM/A', 'Sistema audio: 7.1 canali, Qualità sonora: 24 bit, Rapporto segnale/rumore in uscita (SNR): 118 dB. Interfaccia host: PCI', '189,90', 'd2xonara.jpg', 'Disponibile'),
-('120', 'STRIX RAID PRO', 'Strix Raid Pro è una scheda audio premium costruita con componenti di altissima qualità per audiofili, capace di soddisfare i giocatori che esigono il massimo delle prestazioni audio.', '159,90', 'asus-raiddlx-6.jpg', 'Disponibile'),
+('120', 'STRIX RAID PRO', 'Strix Raid Pro è una scheda audio premium costruita con componenti di altissima qualità per audiofili, capace di soddisfare i giocatori che esigono il massimo delle prestazioni audio.', '159,90', 'asus6.jpg', 'Disponibile'),
 ('121', 'XONAR PHOEBUS SOL', 'Cogli di sorpresa gli avversari grazie al migliore posizionamento audio e goditi una musica cristallina grazie ad un rapporto segnale-rumore (SNR) di 118dB con amplificatore integrato da 600 ohm per cuffie. ', '139,90', '4716659447740_MED.jpg', 'Disponibile');
 
 INSERT INTO schede_madri (`Codice_prodotto`, `Nome`, `Descrizione`, `Prezzo`, `Img`, `Disponibilita`)
