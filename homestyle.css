@@ -309,10 +309,7 @@ Media Query Mobile
 
 @media print {
 
-    #headerContainer {
-        display: none;
-    }
-    #headerDropMenu{
+    #headerContainer, #headerDropMenu, #footerTop, #footerBottom {
         display: none;
     }
 
