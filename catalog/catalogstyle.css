@@ -54,7 +54,7 @@ h2 0.87
     margin: 0;
     padding: 0;
     background-color: #B71C1C;
-    width: 200px;
+    width: 150px;
 }
 
 #menu_verticale li {
@@ -109,7 +109,7 @@ h2 0.87
 }
 
 /******************************************************************
- Media Query Home
+ Media Query Tablet
 ******************************************************************/
 
 @media only screen and (max-width: 955px) {
