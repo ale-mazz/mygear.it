@@ -30,7 +30,7 @@ foreach ($products as $product){
     $get_product=str_replace('$description$',$product["Descrizione"], $get_product);
     $get_product=str_replace('$price$',$product["Prezzo"], $get_product);
     $get_product=str_replace('$availability$',$product["Disponibilita"], $get_product);
-    $get_product=str_replace('$img$',"../../images/categorie/schede_madri".$product["Img"], $get_product);
+    $get_product=str_replace('$img$',"../../images/categorie/schede_madri/".$product["Img"], $get_product);
     $insertproduct=$insertproduct.$get_product;
 }
 
