@@ -239,32 +239,32 @@ VALUES ('061', 'Asus MG248QR', 'Marca: Asus<br>Dimensione: 24"<br>Risoluzione: 1
 ('072', 'Asus ROG SwiftX', 'Marca: Asus<br>Dimensione: 27"<br>Risoluzione: 4K', '769,90', 'asus_rog_swift.jpg', 'Disponibile');
 
 INSERT INTO mouse_tastiere (`Codice_prodotto`, `Nome`, `Descrizione`, `Prezzo`, `Img`, `Disponibilita`)
-VALUES ('073', 'Trust Gaming GXT 155 Gaming Mouse - Nero', 'Mouse da gioco Elite, con pesi integrati personalizzabili e memoria interna per profili programmabili', '49,90', 'trust_mouse.jpg', 'Disponibile'),
-('074', 'Corsair Gaming GLAIVE RGB Gaming Mouse, 16000 DPI - Alluminio', 'Mouse gaming da Corsair con sensore laser da 16.000 DPI, struttura in alluminio e componenti intercambiabili', '69,90', 'corsair_mouse.jpg', 'Disponibile'),
-('075', 'Cooler Master MasterMouse MM520, 12000 DPI, RGB, Claw Grip', 'Mouse pro gaming da Cooler Master con 7 tasti, sensore ottico da 12.000 DPI, 512 KB memoria integrata ed illuminazione RGB', '69,90', 'coolerMouse.jpg', 'Disponibile'),
-('076', 'Corsair Gaming STRAFE RGB, Cherry MX Silent - Layout ITA', 'Tastiera meccanica pro gamer da Corsair con kit tasti antiscivolo, retroilluminazione RGB e switch Cherry MX Silent', '149,90', 'straffe.jpg', 'Disponibile'),
-('077', 'Logitech Wireless Desktop MK710', 'Bundle con tastiera e mouse Logitech, tecnologia Wireless e alta qualità per durare nel tempo', '99,90','tastiera_mouse.jpg', 'Disponibile'),
-('078', 'Razer Turret - Layout US', 'Bundle Razer con mouse Gaming e LapBoard da divano', '179,90', 'razerTurret.jpg', 'Disponibile'),
-('079', 'TASTIERA GAMING ASUS ROG', 'TASTIERA da gaming Claymore Gaming Keyboard - ITA', '254,90', 'tastiera_gaming_asus.jpg', 'Disponibile'),
-('080', 'CORSAIR GAMING K95 RGB BROWN', 'Tastiera da gaming adatta a qualsiasi esperienza di gioco', '239,90', 'corsair_gaming.jpg', 'Disponibile'),
-('081', 'CORSAIR GAMING K70 RGB RAPIDFIRE', 'Tastiera da gaming resistente, leggera e adatta ad ogni esperienza di gioco', '229,90', 'corsair_gamingk70', 'Disponibile'),
-('082', 'MOUSE GAMING ASUS ROG', 'MOUSE da gaming, qualità e resistenza per ogni esperienza di gioco', '179,90', 'mouse_asus_rog.jpg', 'Disponibile'),
-('083', 'Razer Mouse NAGA Epic Chroma', 'Mouse', '159,90', 'razer_mousenaga.jpg', 'Disponibile'),
-('084', 'Razer Mouse Wireless OUROBOROS USB', 'Razer Mouse Wireless OUROBOROS USB', '144,90', 'razer_mouse_wireless.jpg', 'Disponibile');
+VALUES ('073', 'Gaming GXT', 'Marca: Trust<br>Wireless: No<br>Gaming: Si', '49,90', 'trust_mouse.jpg', 'Disponibile'),
+('074', 'GLAIVE RGB', 'Marca: Corsair<br>Wireless: No<br>Gaming: Si', '69,90', 'corsair_mouse.jpg', 'Disponibile'),
+('075', 'MasterMouse MM520', 'Marca: Cooler Master<br>Wireless: No<br>Gaming: Si', '69,90', 'coolerMouse.jpg', 'Disponibile'),
+('076', 'STRAFE RGB', 'Marca: Trust<br>Wireless: No<br>Gaming: Si', '149,90', 'straffe.jpg', 'Disponibile'),
+('077', 'Desktop MK710', 'Marca: Logitech<br>Wireless: Si<br>Gaming: Si', '99,90','tastiera_mouse.jpg', 'Disponibile'),
+('078', 'Razer Turret', 'Marca: Razer<br>Wireless: No<br>Gaming: Si', '179,90', 'razerTurret.jpg', 'Disponibile'),
+('079', 'ASUS ROG', 'Marca: Asus<br>Wireless: No<br>Gaming: Si', '254,90', 'tastiera_gaming_asus.jpg', 'Disponibile'),
+('080', 'K95 RGB BROWN', 'Marca: Corsair<br>Wireless: No<br>Gaming: Si', '239,90', 'corsair_gaming.jpg', 'Disponibile'),
+('081', 'K70 RGB RAPIDFIRE', 'Marca: Corsair<br>Wireless: No<br>Gaming: Si', '229,90', 'corsair_gamingk70.jpg', 'Disponibile'),
+('082', 'ASUS ROG', 'Marca: Asus<br>Wireless: No<br>Gaming: Si', '179,90', 'mouse_asus_rog.jpg', 'Disponibile'),
+('083', 'NAGA Epic Chroma', 'Marca: Razer<br>Wireless: No<br>Gaming: Si', '159,90', 'razer_mousenaga.jpg', 'Disponibile'),
+('084', 'OUROBOROS USB', 'Marca: Trust<br>Wireless: Si<br>Gaming: Si', '144,90', 'razer_mouse_wireless.jpg', 'Disponibile');
 
 INSERT INTO case_pc (`Codice_prodotto`, `Nome`, `Descrizione`, `Prezzo`, `Img`, `Disponibilita`)
-VALUES ('085', 'Corsair Graphite 780T - Nero', 'Nuovo connubio di design e funzionalità da Corsair con nuovi elementi della serie Graphite in versione Full Tower', '189,90', 'Corsair-Graphite.jpg', 'Disponibile'),
-('086', 'Corsair Crystal 570X RGB in Vetro Temperato - Rosso con Finestra', 'Case gamer da Corsair con 7 slot PCI, supporto per radiatori da 360/240mm, finestra in vetro temprato e ventole RGB', '209,90', 'corsairCrystal.jpg', 'Disponibile'),
-('087', 'Cooler Master Cosmos C700P, TG - Nero/Argento con Finestra', 'Edizione rinnovata della serie Cosmos da Cooler Master con design sportivo, paratie in vetro temperato ed illuminazione RGB', '289,90', 'collerCosmos.jpg', 'Disponibile'),
-('088', 'Cooler Master Cosmos II RC-1200-KKN1 - Nero', 'Nuovo Cosmos II da Cooler Master con design sportivo, ottimizzazione dei flussi d''aria interni e pannello di controllo avanzato', '399,90', 'cosmosMaster.jpg', 'Disponibile'),
-('089', 'Aerocool P7-C1-BG - Nero con Finestra in Vetro Temperato', 'Case con design esagonale da Aerocool con illuminazione personalizzabile e finestra laterale in vetro temperato', '119,90', 'aerocool.jpg', 'Disponibile'),
-('090', 'Hydra Desk HD-DSK-001 Desk Case - Nero', 'Ultimate desktop per pro gamers da Hydra 100% alluminio con amplia espandibilità e predisposizione per liquido, 100% made in Italy', '1109,90', 'hydra-deskcase.jpg', 'Disponibile'),
-('091', 'Case Cougar CHALLENGER ORANGE GAMING', 'Case da gaming colore arancione/giallo economico', '79,90', 'casecougar.jpg', 'Disponibile'),
-('092', 'Case Cougar PANZER MAX GAMING', 'Case da gaming progettato per ogni gamer', '129,90', 'casecougarmax.jpg', 'Disponibile'),
-('094', 'Case Cougar PANZER GAMING', 'Case da gaming progettato per gamer principianti', '79,90', 'casecougarpanzer.jpg', 'Disponibile'),
-('095', 'Case Cooler Master MasterBox 5T', 'Il MasterBox 5, costruito in acciaio e poca plastica, è caratterizzato da linee che ricordano molto la versione base del MasterCase', '79,90', 'mastercase.jpg', 'Disponibile'),
-('096', 'Case NZXT Phantom 820 - Bianco', 'L''illuminazione HUE integrata permette di illuminare l''interno/esterno dell''alloggiamento con l''opzione di accensione/spegnimento e di personalizzarne i colori a piacimento', '119,90', 'casePhantom.jpg', 'Disponibile'),
-('097', 'Case Cooler Master HAF X - Full Tower', 'HAF X, dall’aspetto imponente, robusto ed aggressivo, integra il meglio della tecnologia e del design della serie HAF', '209,90', 'hafX.jpg', 'Disponibile');
+VALUES ('085', 'Graphite 780T', 'Marca: Corsair<br>Modello: Full-Tower<br>Vetro Temperato: Si', '189,90', 'Corsair-Graphite.jpg', 'Disponibile'),
+('086', 'Crystal 570X RGB', 'Marca: Corsair<br>Modello: Full-Tower<br>Vetro Temperato: Si', '209,90', 'corsairCrystal.jpg', 'Disponibile'),
+('087', 'Cosmos C700P', 'Marca: Cooler Master<br>Modello: Full-Tower<br>Vetro Temperato: Si', '289,90', 'collerCosmos.jpg', 'Disponibile'),
+('088', 'Cosmos II', 'Marca: Corsair<br>Modello: Full-Tower<br>Vetro Temperato: No', '399,90', 'cosmosMaster.jpg', 'Disponibile'),
+('089', 'Aerocool P7-C1-BG', 'Marca: Aerocool<br>Modello: Full-Tower<br>Vetro Temperato: Si', '119,90', 'aerocool.jpg', 'Disponibile'),
+('090', 'Desk HD-DSK-001', 'Marca: Hydra<br>Modello: Desk<br>Vetro Temperato: Si', '1109,90', 'hydra-deskcase.jpg', 'Disponibile'),
+('091', 'Challenger Orange', 'Marca: Cougar<br>Modello: Full-Tower<br>Vetro Temperato: No', '79,90', 'casecougar.jpg', 'Disponibile'),
+('092', 'PANZER MAX', 'Marca: Cougar<br>Modello: Full-Tower<br>Vetro Temperato: Si', '129,90', 'casecougarmax.jpg', 'Disponibile'),
+('094', 'PANZER', 'Marca: Cougar<br>Modello: Full-Tower<br>Vetro Temperato: Si', '79,90', 'casecougarpanzer.jpg', 'Disponibile'),
+('095', 'Maker 5t', 'Marca: Cooler Master<br>Modello: Full-Tower<br>Vetro Temperato: Si', '199,00', 'mastercase.jpg', 'Disponibile'),
+('096', 'Phantom 820', 'Marca: NZTX<br>Modello: Full-Tower<br>Vetro Temperato: No', '119,90', 'casePhantom.jpg', 'Disponibile'),
+('097', 'HAF X', 'Marca: Cooler Master<br>Modello: Full-Tower<br>Vetro Temperato: Si', '209,90', 'hafX.jpg', 'Disponibile');
 
 
 INSERT INTO raffreddamento (`Codice_prodotto`, `Nome`, `Descrizione`, `Prezzo`, `Img`, `Disponibilita`)
