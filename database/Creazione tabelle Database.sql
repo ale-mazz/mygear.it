@@ -268,7 +268,7 @@ VALUES ('085', 'Graphite 780T', 'Marca: Corsair<br>Modello: Full-Tower<br>Vetro 
 
 
 INSERT INTO raffreddamento (`Codice_prodotto`, `Nome`, `Descrizione`, `Prezzo`, `Img`, `Disponibilita`)
-VALUES ('098', 'Corsair Hydro Series H80i v2 Extreme Performance Liquid CPU Cooler', 'Sistema a liquido da Corsair a circuito chiuso con radiatore da 120mm e doppia ventola SP120L PWM ad alta silenziosità', '104,90', 'hydrohigh.jpg', 'Non Disponibile'),
+VALUES ('098', 'Hydro Series H80i v2', 'Marca: Corsair<br>Tipologia: Liquido<br>Dimensione: 120mm', '104,90', 'hydrohigh.jpg', 'Non Disponibile'),
 ('099', 'Enermax LiqTech TR4 240 Watercooling AIO - 240 mm', 'Sistema a liquido da Enermax a circuito chiuso con radiatore da 240mm e doppia ventola PWM per processori AMD TR4 ThreadRipper', '149,90', 'enermax.jpg', 'Non Disponibile'),
 ('100', 'Thermaltake Floe Riing RGB TT Premium Edition AIO - 240mm', 'Dissipatore AIO da Thermaltake con ventole RGB e radiatore da 240mm', '169,90', 'Thermaltake.jpg', 'Non Disponibile'),
 ('101', 'Dissipatore CPU a Liquido NZXT Kraken', 'La nuovissima serie Kraken è dotata dei comandi più avanzati mai disponibili su un dispositivo di raffreddamento a liquido all-in-one', '179,90', 'kraken.jpg', 'Non Disponibile'),
