@@ -82,7 +82,6 @@
     width: 15.5%;
     float: left;
     clear: both;
-
     background-color: #212121;
     color: #FAFAFA;
     border-style: solid;
@@ -102,6 +101,7 @@
 #menu_verticale ul {
     list-style-type: none;
 }
+
 #menu_verticale li {
     padding: 0.5em;
 }
@@ -142,15 +142,16 @@
 
     .product_price h3 {
         font-size: 0.75em;
-
     }
 
     .product_availability h3 {
         font-size: 0.75em;
     }
+
     .product_description p {
         font-size: 0.75em;
     }
+
 }
 
 /******************************************************************
@@ -168,4 +169,5 @@ Media Query Mobile
         width: 40%;
         margin-left: 7%;
     }
+
 }

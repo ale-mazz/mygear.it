@@ -23,7 +23,6 @@
     -webkit-transform: scale(1.2);
     -ms-transform: scale(1.2);
     -moz-transform: scale(1.2);
-
 }
 
 .configIndexOptions {
@@ -41,7 +40,6 @@
     background-color: #424242;
     padding: 3%;
     margin-top: 2em;
-
 }
 
 #configTitle h1 {
@@ -71,7 +69,6 @@
     font-size: 1em;
     text-align: left;
     color: white;
-
 }
 
 .configConfigurazioniTop h2 {
@@ -130,7 +127,6 @@
 
 @media only screen and (max-width: 955px) {
 
-
     #configTitle {
         margin-top: 0em;
     }
@@ -139,9 +135,7 @@
         font-size: 2em;
         padding-top: 3em;
         margin-top: 0em;
-
     }
-
 
     .configImg{
         width: 100%;
@@ -190,12 +184,10 @@
 
     .configContainer h1 {
         font-size: 1.5em;
-
     }
 
 
-    @media only screen and (max-width: 767px) {
-
+@media only screen and (max-width: 767px) {
 
     #configTitle h1 {
         font-size: 1em;

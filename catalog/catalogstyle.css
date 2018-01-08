@@ -54,8 +54,9 @@ h2 0.87
     margin: 0;
     padding: 0;
     background-color: #B71C1C;
-    width: 190px;
+    width: 200px;
 }
+
 #menu_verticale li {
     padding: 0.5em;
     border-top: solid;
@@ -93,7 +94,7 @@ h2 0.87
 }
 
 #container_categorie {
-    margin-left: 18.5%;
+    margin-left: 20%;
 }
 
 /* posizione immagine "all'interno del bordo" */
@@ -156,6 +157,7 @@ h2 0.87
     #container_categorie {
     margin-left: 0%;
     }
+
 }
 
 /******************************************************************
@@ -203,6 +205,7 @@ Media Query Mobile
     #container_categorie {
     margin-left: 0%;
     }
+
 }
 
 
@@ -235,4 +238,5 @@ Media Query Mobile
         background-image: -moz-linear-gradient(left, transparent, #9E9E9E);
         background-image: -o-linear-gradient(left, transparent, #9E9E9E);
     }
+
 }

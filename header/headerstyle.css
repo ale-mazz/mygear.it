@@ -8,7 +8,6 @@ Generale
     margin: 0em;
 }
 
-
 body {
     font-family: 'Lato';
     background-color: white;
@@ -65,8 +64,6 @@ header {
     -webkit-transform: scale(1.2);
     -ms-transform: scale(1.2);
     -moz-transform: scale(1.2);
-
-
 }
 
 .selected {
@@ -115,6 +112,7 @@ Media Query
         -ms-transform: scale(1.2);
         -moz-transform: scale(1.2);
     }
+
 }
 
 @media only screen and (max-width: 955px) {
@@ -205,7 +203,6 @@ Media Query
 @media only screen and (max-width: 767px) {
 
     header {
-
         height: 4em;
     }
     #headerContainer {
@@ -231,12 +228,13 @@ Media Query
         margin-right: 0.13em;
         padding: 0.25em 0.25em 0.25em 0.25em;
         line-height: 0.9em;
-
     }
+
     #headerDropMenu {
         font-size: 1.5em;
         top: 2.52em;
     }
+
 }
 
 /******************************************************************
