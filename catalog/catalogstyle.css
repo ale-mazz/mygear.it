@@ -174,18 +174,19 @@ Media Query Mobile
 
     .riquadro_esterno h2 {
         font-size: 0.87em;
+        width: 60%;
+        text-align: center;
     }
 
     .riquadro_esterno {
-        position: static;
-        width: 45%;
-        margin-left: 27.5%;
+        width: 20%;
+        margin-left: 20%;
         margin-top: 0.5em;
     }
 
     .riquadro_interno {
         position: static;
-        width: 90%
+        width: 90%;
         float: none;
         padding-left: 5%;
     }
