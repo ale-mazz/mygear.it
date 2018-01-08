@@ -236,7 +236,7 @@ VALUES ('061', 'MG248QR', 'Marca: Asus<br>Dimensione: 24"<br>Risoluzione: 1080p'
 ('069', 'Predator  X34A', 'Marca: Asus<br>Dimensione: 34"<br>Risoluzione: 4K', '1199,90', 'acer_predator.jpg', 'Disponibile'),
 ('070', 'Gaming NMX', 'Marca: Samsung<br>Dimensione: 34"<br>Risoluzione: 4K', '999,90', 'samsung_gaming_34.jpg', 'Disponibile'),
 ('071', 'Predator XB-2K', 'Marca: Acer<br>Dimensione: 27"<br>Risoluzione: 4K', '899,90', 'acer_predator_gaming.jpg', 'Disponibile'),
-('072', 'ROG Swift PG278Q', 'Marca: Asus<br>Dimensione: 27"<br>Risoluzione: 4K', '769,90', 'asus_rog_swift.jpg', 'Disponibile');
+('072', 'ROG Swift PG278Q', 'Marca: Asus<br>Dimensione: 27"<br>Risoluzione: 4K', '799,00', 'asus_rog_swift.jpg', 'Disponibile');
 
 INSERT INTO mouse_tastiere (`Codice_prodotto`, `Nome`, `Descrizione`, `Prezzo`, `Img`, `Disponibilita`)
 VALUES ('073', 'Gaming GXT', 'Marca: Trust<br>Wireless: No<br>Gaming: Si', '49,90', 'trust_mouse.jpg', 'Disponibile'),
