@@ -155,26 +155,26 @@ CREATE TABLE utente (
 
 
 INSERT INTO alimentatori (`Codice_prodotto`, `Nome`, `Descrizione`, `Prezzo`, `Img`, `Disponibilita`)
-VALUES ('001', 'Corsair Builder Series CX430', 'Marca: Corsair<br>Watt: 430<br>Certificazione: 80Plus', '56,90', 'imagemagic.jpg', 'Disponibile'),
-('002', 'Corsair Builder Series CX450M', 'Marca: Corsair<br>Watt: 450<br>Certificazione: 80Plus', '59,90', 'imagemagic(1).jpg', 'Disponibile'),
-('003', 'Enermax MaxPro 80Plus', 'Marca: Enermax<br>Watt: 600<br>Certificazione: 80Plus', '59,90','imagemagic2.jpg', 'Disponibile'),
-('004', 'Corsair SF450 80PLUS Gold', 'Marca: Corsair<br>Watt: 450<br>Certificazione: 80Plus Gold', '89,90', 'imagemagic3.jpg', 'Disponibile'),
-('005', 'Silverstone SST-GM500-G', 'Marca: Silverstone<br>Watt: 500<br>Certificazione: 80Plus Gold', '599,90', 'imagemagic4.jpg', 'Disponibile'),
+VALUES ('001', 'Series CX430', 'Marca: Corsair<br>Watt: 430<br>Certificazione: 80Plus', '56,90', 'imagemagic.jpg', 'Disponibile'),
+('002', 'Series CX450M', 'Marca: Corsair<br>Watt: 450<br>Certificazione: 80Plus', '59,90', 'imagemagic(1).jpg', 'Disponibile'),
+('003', 'MaxPro 80Plus', 'Marca: Enermax<br>Watt: 600<br>Certificazione: 80Plus', '59,90','imagemagic2.jpg', 'Disponibile'),
+('004', 'SF450', 'Marca: Corsair<br>Watt: 450<br>Certificazione: 80Plus Gold', '89,90', 'imagemagic3.jpg', 'Disponibile'),
+('005', 'SST-GM500-G', 'Marca: Silverstone<br>Watt: 500<br>Certificazione: 80Plus Gold', '599,90', 'imagemagic4.jpg', 'Disponibile'),
 ('006', 'Atlantis 500W', 'Marca: Atlantis<br>Watt: 500<br>Certificazione: No', '43,90', 'alimentatore_atlantis_500w.jpg', 'Non Disponibile'),
 ('007', 'Corsair 620 W', 'Marca: Corsair<br>Watt: 620<br>Certificazione: No', '33,90', 'alimentatore_corsair_620w.jpg', 'Disponibile'),
 ('008', 'Itek 650W', 'Marca: Itek<br>Watt: 650<br>Certificazione: Silver', '33,90', 'alimentatore_itek.jpg', 'Non Disponibile'),
-('009', 'Cooler Master Maker 1200', 'Marca: Cooler Master<br>Watt: 1200<br>Certificazione: 80Plus Titanium', '1049,90', 'alimentatore_cooler_master_maker_1200.jpg', 'Disponibile'),
+('009', 'Maker 1200', 'Marca: Cooler Master<br>Watt: 1200<br>Certificazione: 80Plus Titanium', '1049,90', 'alimentatore_cooler_master_maker_1200.jpg', 'Disponibile'),
 ('010', 'Masterwatt Maker 1500', 'Marca: Cooler Master<br>Watt: 1500<br>Certificazione: 80Plus Titanium', '489,90', 'alimentatore_cooler_master_masterwatt.jpg', 'Disponibile'),
 ('011', 'Masterwatt Maker 1500 NB', 'Marca: Cooler Master<br>Watt: 1500<br>Certificazione: 80Plus Titanium', '469,90', 'alimentatore_cooler_master.jpg', 'Disponibile'),
-('012', 'Evga Supernova 850', 'Marca: Evga<br>Watt: 850<br>Certificazione: Gold', '425,90', 'alimentatore_evga.jpg', 'Disponibile');
+('012', 'Supernova 850', 'Marca: Evga<br>Watt: 850<br>Certificazione: Gold', '425,90', 'alimentatore_evga.jpg', 'Disponibile');
 
 INSERT INTO cpu (`Codice_prodotto`, `Nome`, `Descrizione`, `Prezzo`, `Img`, `Disponibilita`)
 VALUES ('013', 'Intel Core i3-6300', 'Marca: Intel<br>Frequenza: 3,8 GHz<br>Socket: 115', '189,90', '1404323_LB_00_FB.EPS_1000.jpg', 'Disponibile'),
 ('014', 'Intel Core i5-6600', 'Marca: Intel<br>Frequenza: 3,3 GHz<br>Socket: 115', '249,90', 'processore-intel-core-i5.jpg', 'Disponibile'),
 ('015', 'Intel Core i7-7700', 'Marca: Intel<br>Frequenza: 3,6 GHz<br>Socket: 117', '349,90', 'CPU_CORE_I7-6700_1151_BOX_4_GHZ_1.jpg', 'Disponibile'),
 ('016', 'Intel Core i7-7700K', 'Marca: Intel<br>Frequenza: 5,1 GHz<br>Socket: 1151', '599,90', '019-753_1g-254x254.jpg', 'Disponibile'),
-('017', 'Intel Core i7-8700K (Coffee Lake)', 'Marca: Intel<br>Frequenza: 5,4 GHz<br>Socket: 1151', '439,90', 'cpui7.jpg', 'Disponibile'),
-('018', 'Intel Core i7-8700K (Coffee Lake) Tray', 'Marca: Intel<br>Frequenza: 5,0 GHz<br>Socket: 1155', '529,90', '209079225.jpg', 'Disponibile'),
+('017', 'Intel Core i7-8700K', 'Marca: Intel<br>Frequenza: 5,4 GHz<br>Socket: 1151', '439,90', 'cpui7.jpg', 'Disponibile'),
+('018', 'Intel Core i7-8700K Tray', 'Marca: Intel<br>Frequenza: 5,0 GHz<br>Socket: 1155', '529,90', '209079225.jpg', 'Disponibile'),
 ('019', 'Intel I7-4790K', 'Marca: Intel<br>Frequenza: 4,0 GHz<br>Socket: 115', '469,90', 'intel_i7-4790k.jpg', 'Disponibile'),
 ('020', 'Ryzen Threadripper 1950X', 'Marca: Intel<br>Frequenza: 3,4 GHz<br>Socket: TR4', '1239,90', 'ryzen.jpg', 'Disponibile'),
 ('021', 'Intel Cpu Core i9-7900', 'Marca: Intel<br>Frequenza: 4,5 GHz<br>Socket: 2066', '999,90', 'intel_cpu_core_i9-7900.jpg', 'Disponibile'),
@@ -271,7 +271,7 @@ INSERT INTO raffreddamento (`Codice_prodotto`, `Nome`, `Descrizione`, `Prezzo`, 
 VALUES ('098', 'Hydro Series H80i v2', 'Marca: Corsair<br>Tipologia: Liquido<br>Dimensione: 120mm', '104,90', 'hydrohigh.jpg', 'Non Disponibile'),
 ('099', 'LiqTech TR4 240', 'Marca: Enermax<br>Tipologia: Liquido<br>Dimensione: 240mm', '149,90', 'enermax.jpg', 'Non Disponibile'),
 ('100', 'Floe Riing RGB TT', 'Marca: Thermaltake<br>Tipologia: Liquido<br>Dimensione: 240mm', '169,90', 'Thermaltake.jpg', 'Non Disponibile'),
-('101', 'Dissipatore CPU a Liquido NZXT Kraken', 'Marca: <br>Tipologia: Liquido<br>Dimensione: 120mm', '179,90', 'kraken.jpg', 'Non Disponibile'),
+('101', 'NZXT Kraken', 'Marca: <br>Tipologia: Liquido<br>Dimensione: 120mm', '179,90', 'kraken.jpg', 'Non Disponibile'),
 ('102', 'Airmaker', 'Marca: Cooler Master<br>Tipologia: Aria<br>Dimensione: 140mm', '139,90', 'airmaker.jpg', 'Disponibile'),
 ('103', 'Masterliquid', 'Marca: Cooler Master<br>Tipologia: Liquido<br>Dimensione: 140mm', '129,90', 'masterliquid.jpg', 'Non Disponibile'),
 ('104', 'Nepton 240M', 'Marca: Cooler Master<br>Tipologia: Liquido<br>Dimensione: 240mm', '158,90', 'nepton.jpg', 'Disponibile'),
@@ -298,9 +298,9 @@ VALUES ('110', 'Xonar DX/XD/A', 'Marca: Asus<br>Tipologia: Interna', '59,90', 'x
 
 INSERT INTO schede_madri (`Codice_prodotto`, `Nome`, `Descrizione`, `Prezzo`, `Img`, `Disponibilita`)
 VALUES ('122', 'Prime X399-A', 'Marca: Asus<br>Modello: X399<br>Socket: TR4 ', '359,90', 'asusPrime.jpg', 'Disponibile'),
-('123', 'Gigabyte Aorus X399', 'Marca: Aorus<br>Modello: X399<br>Socket: TR4', '399,90', 'aorusx399.jpg', 'Disponibile'),
+('123', 'X399-Gaming', 'Marca: Aorus<br>Modello: X399<br>Socket: TR4', '399,90', 'aorusx399.jpg', 'Disponibile'),
 ('124', 'ROG Zenith Extreme', 'Marca: Asus<br>Modello: X399<br>Socket: TR4', '589,90', 'asusRog.jpg', 'Disponibile'),
-('125', 'Gigabyte Aorus X299-Ultra Gaming', 'Marca: Asus<br>Modello: X299<br>Socket: 2066', '309,90', 'aorusx299.jpg', 'Disponibile'),
+('125', 'X299-Ultra Gaming', 'Marca: Asus<br>Modello: X299<br>Socket: 2066', '309,90', 'aorusx299.jpg', 'Disponibile'),
 ('126', 'PRIME X299-DELUXE', 'Marca: Aorus<br>Modello: X299<br>Socket: 2066', '479,90', 'primesteam.jpg', 'Disponibile'),
 ('127', 'ROG Rampage VI EXTREME', 'Marca: Asus<br>Modello: X299<br>Socket: 2066', '699,90', 'rampage.jpg', 'Disponibile'),
 ('128', 'MAXIMUS IX EXTREME', 'Marca: Asus<br>Modello: Z270<br>Socket: 1151', '679,90', 'maximus.jpg', 'Disponibile'),
