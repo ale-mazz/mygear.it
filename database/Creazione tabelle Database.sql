@@ -14,7 +14,7 @@ CREATE TABLE cuffie (
 DROP TABLE IF EXISTS PC;
 CREATE TABLE PC (
 	`Codice_prodotto` int PRIMARY KEY,
-	`Nome` char(20) NOT NULL,
+	`Nome` char(100) NOT NULL,
 	`Descrizione` varchar(500)  NOT NULL,
 	`Prezzo` float(8,2)  NOT NULL,
     `Img` char(70) NOT NULL,
@@ -25,7 +25,7 @@ CREATE TABLE PC (
 DROP TABLE IF EXISTS alimentatori;
 CREATE TABLE alimentatori (
 	`Codice_prodotto` int PRIMARY KEY,
-	`Nome` char(50) NOT NULL,
+	`Nome` char(100) NOT NULL,
 	`Descrizione` varchar(500)  NOT NULL,
 	`Prezzo` float(8,2)  NOT NULL,
 	`Img` char(70) NOT NULL,
@@ -36,7 +36,7 @@ CREATE TABLE alimentatori (
 DROP TABLE IF EXISTS cpu;
 CREATE TABLE cpu (
 	`Codice_prodotto` int PRIMARY KEY,
-	`Nome` char(20) NOT NULL,
+	`Nome` char(100) NOT NULL,
 	`Descrizione` varchar(500)  NOT NULL,
 	`Prezzo` float(8,2)  NOT NULL,
     `Img` char(70) NOT NULL,
@@ -47,7 +47,7 @@ CREATE TABLE cpu (
 DROP TABLE IF EXISTS memorie_interne;
 CREATE TABLE memorie_interne (
 	`Codice_prodotto` int PRIMARY KEY,
-	`Nome` char(20) NOT NULL,
+	`Nome` char(100) NOT NULL,
 	`Descrizione` varchar(500)  NOT NULL,
 	`Prezzo` float(8,2)  NOT NULL,
     `Img` char(70) NOT NULL,
@@ -58,7 +58,7 @@ CREATE TABLE memorie_interne (
 DROP TABLE IF EXISTS memorie_ram;
 CREATE TABLE memorie_ram (
 	`Codice_prodotto` int PRIMARY KEY,
-	`Nome` char(20) NOT NULL,
+	`Nome` char(100) NOT NULL,
 	`Descrizione` varchar(500)  NOT NULL,
 	`Prezzo` float(8,2)  NOT NULL,
     `Img` char(70) NOT NULL,
@@ -69,7 +69,7 @@ CREATE TABLE memorie_ram (
 DROP TABLE IF EXISTS monitor;
 CREATE TABLE monitor (
 	`Codice_prodotto` int PRIMARY KEY,
-	`Nome` char(20) NOT NULL,
+	`Nome` char(100) NOT NULL,
 	`Descrizione` varchar(500)  NOT NULL,
 	`Prezzo` float(8,2)  NOT NULL,
     `Img` char(70) NOT NULL,
@@ -80,7 +80,7 @@ CREATE TABLE monitor (
 DROP TABLE IF EXISTS mouse_tastiere;
 CREATE TABLE mouse_tastiere (
 	`Codice_prodotto` int PRIMARY KEY,
-	`Nome` char(20) NOT NULL,
+	`Nome` char(100) NOT NULL,
 	`Descrizione` varchar(500)  NOT NULL,
 	`Prezzo` float(8,2)  NOT NULL,
     `Img` char(70) NOT NULL,
@@ -91,7 +91,7 @@ CREATE TABLE mouse_tastiere (
 DROP TABLE IF EXISTS raffreddamento;
 CREATE TABLE raffreddamento (
 	`Codice_prodotto` int PRIMARY KEY,
-	`Nome` char(20) NOT NULL,
+	`Nome` char(100) NOT NULL,
 	`Descrizione` varchar(500)  NOT NULL,
 	`Prezzo` float(8,2)  NOT NULL,
     `Img` char(70) NOT NULL,
@@ -102,7 +102,7 @@ CREATE TABLE raffreddamento (
 DROP TABLE IF EXISTS schede_audio;
 CREATE TABLE schede_audio (
 	`Codice_prodotto` int PRIMARY KEY,
-	`Nome` char(20) NOT NULL,
+	`Nome` char(100) NOT NULL,
 	`Descrizione` varchar(500)  NOT NULL,
 	`Prezzo` float(8,2)  NOT NULL,
     `Img` char(70) NOT NULL,
@@ -113,7 +113,7 @@ CREATE TABLE schede_audio (
 DROP TABLE IF EXISTS schede_madri;
 CREATE TABLE schede_madri (
 	`Codice_prodotto` int PRIMARY KEY,
-	`Nome` char(20) NOT NULL,
+	`Nome` char(100) NOT NULL,
 	`Descrizione` varchar(500)  NOT NULL,
 	`Prezzo` float(8,2)  NOT NULL,
     `Img` char(70) NOT NULL,
@@ -124,7 +124,7 @@ CREATE TABLE schede_madri (
 DROP TABLE IF EXISTS schede_video;
 CREATE TABLE schede_video (
 	`Codice_prodotto` int PRIMARY KEY,
-	`Nome` char(20) NOT NULL,
+	`Nome` char(100) NOT NULL,
 	`Descrizione` varchar(500)  NOT NULL,
 	`Prezzo` float(8,2)  NOT NULL,
     `Img` char(70) NOT NULL,
@@ -135,7 +135,7 @@ CREATE TABLE schede_video (
 DROP TABLE IF EXISTS case_pc;
 CREATE TABLE case_pc (
     `Codice_prodotto` int PRIMARY KEY,
-    `Nome` char(20) NOT NULL,
+    `Nome` char(100) NOT NULL,
     `Descrizione` varchar(500)  NOT NULL,
     `Prezzo` float(8,2)  NOT NULL,
     `Img` char(70) NOT NULL,
@@ -145,7 +145,7 @@ CREATE TABLE case_pc (
 
 DROP TABLE IF EXISTS utente;
 CREATE TABLE utente (
-    `Username` char(20) PRIMARY KEY,
+    `Username` char(100) PRIMARY KEY,
     `Cognome` char(20) NOT NULL,
     `Nome` char(20) NOT NULL,
     `Email` char(20) NOT NULL,
