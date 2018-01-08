@@ -278,7 +278,7 @@ VALUES ('098', 'Hydro Series H80i v2', 'Marca: Corsair<br>Tipologia: Liquido<br>
 ('105', 'V8 GTS', 'Marca: Cooler Mster<br>Tipologia: Aria<br>Dimensione: 120mm', '119,90', 'v8.jpg', 'Disponibile'),
 ('106', 'Silent Liquid', 'Marca: Thermaltak<br>Tipologia: Liquido<br>Dimensione: 120mm', '109,90', 'thermaltak.jpg', 'Disponibile'),
 ('107', 'H1200 PRO', 'Marca: Antec<br>Tipologia: Liquido<br>Dimensione: 120mm', '111,90', 'antec.jpg', 'Disponibile'),
-('108', 'ICERED 240', 'Marca: Itek<br>Tipologia: Liquido<br>Dimensione: 240mm', '129,90', '4719512060490_MED.jpg', 'Disponibile'),
+('108', 'ICERED 240', 'Marca: Itek<br>Tipologia: Liquido<br>Dimensione: 240mm', '129,90', 'icered.jpg', 'Disponibile'),
 ('109', 'LIQUY R2 240', 'Marca: Itek<br>Tipologia: Liquido<br>Dimensione: 240mm', '151,90', 'liquy.jpg', 'Disponibile');
 
 
