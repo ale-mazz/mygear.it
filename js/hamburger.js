@@ -1,15 +1,15 @@
 /*JQUERY JS*/
 
 $(function (){
-    var hamburger = document.getElementById("hamburger");
-    hamburger.onclick = function () {
-        if (document.getElementsByClassName('menuOpen').length == 0) {
-            $('#drop_menu').addClass('menuOpen').removeClass('menuClose');
-            $('#drop_menu').css('height','auto');
+    var menuButton = document.getElementById("headerHamburger");
+    menuButton.onclick = function () {
+        if (document.getElementsByClassName('headerMenuOpen').length == 0) {
+            $('#headerDropMenu').addClass('headerMenuOpen').removeClass('headerMenuClose');
+            //$('#headerDropMenu').css('height','auto');
         }
-        else if(document.getElementsByClassName('menuClose').length == 0){
-            $('#drop_menu').addClass('menuClose').removeClass('menuOpen');
+        else if(document.getElementsByClassName('headerMenuClose').length == 0){
+            $('#headerDropMenu').addClass('headerMenuClose').removeClass('headerMenuOpen');
+            //$('#headerDropMenu').css('height','3.857em');
         }
     };
 });
-
