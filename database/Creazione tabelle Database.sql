@@ -225,18 +225,18 @@ VALUES ('049', 'Corsair RGB LED', 'Marca: Corsair<br>Dimensione: 32GB (4x 8GB)<b
 ('060', 'Corsair DP', 'Marca: Corsair<br>Dimensione: 16GB (1x 16GB)<br>Frequenza: 3.00MHz', '289,90', 'ddr4_3000.jpg', 'Disponibile');
 
 INSERT INTO monitor (`Codice_prodotto`, `Nome`, `Descrizione`, `Prezzo`, `Img`, `Disponibilita`)
-VALUES ('061', 'Asus MG248QR', 'Marca: Asus<br>Dimensione: 24"<br>Risoluzione: 1080p', '349,90', 'AsusMG248.jpg', 'Disponibile'),
-('062', 'Benq Zowie Gaming', 'Marca: Benq<br>Dimensione: 27"<br>Risoluzione: 4K', '569,90', 'monitorBenq.jpg', 'Disponibile'),
-('063', 'Gaming MSI OptiX', 'Marca: MSI<br>Dimensione: 27"<br>Risoluzione: 1080p', '669,90', '4719072520083_LRG.jpg', 'Disponibile'),
-('064', 'Samsung Gaming', 'Marca: Samgung<br>Dimensione: 31.5"<br>Risoluzione: 4K', '449,90', '8806088693637_MED.jpg', 'Disponibile'),
+VALUES ('061', 'MG248QR', 'Marca: Asus<br>Dimensione: 24"<br>Risoluzione: 1080p', '349,90', 'AsusMG248.jpg', 'Disponibile'),
+('062', 'Zowie', 'Marca: Benq<br>Dimensione: 27"<br>Risoluzione: 4K', '569,90', 'monitorBenq.jpg', 'Disponibile'),
+('063', 'MSI OptiX', 'Marca: MSI<br>Dimensione: 27"<br>Risoluzione: 1080p', '669,90', '4719072520083_LRG.jpg', 'Disponibile'),
+('064', 'Gaming TCY', 'Marca: Samgung<br>Dimensione: 31.5"<br>Risoluzione: 4K', '449,90', '8806088693637_MED.jpg', 'Disponibile'),
 ('065', 'ASUS PA328Q', 'Marca: Asus<br>Dimensione: 32"<br>Risoluzione: 4K', '1279,90', 'asusPa.jpg', 'Disponibile'),
-('066', 'Asus ROG Swift', 'Marca: Asus<br>Dimensione: 34"<br>Risoluzione: 4K', '1199,90', 'asusRog.jpg', 'Disponibile'),
-('067', 'Asus ROG Mega', 'Marca: Asus<br>Dimensione: 34"<br>Risoluzione: 4K', '1399,90', 'asus_rog.jpg', 'Disponibile'),
-('068', 'Samsung Gaming', 'Marca: Samsung<br>Dimensione: 49"<br>Risoluzione: 2K', '1299,90', 'samsung_gaming.jpg', 'Disponibile'),
-('069', 'Predator Gaming X34A', 'Marca: Asus<br>Dimensione: 34"<br>Risoluzione: 4K', '1199,90', 'acer_predator.jpg', 'Disponibile'),
-('070', 'Samsung Gaming', 'Marca: Samsung<br>Dimensione: 34"<br>Risoluzione: 4K', '999,90', 'samsung_gaming_34.jpg', 'Disponibile'),
-('071', 'Gaming Predator XB-2K', 'Marca: Acer<br>Dimensione: 27"<br>Risoluzione: 4K', '899,90', 'acer_predator_gaming.jpg', 'Disponibile'),
-('072', 'Asus ROG SwiftX', 'Marca: Asus<br>Dimensione: 27"<br>Risoluzione: 4K', '769,90', 'asus_rog_swift.jpg', 'Disponibile');
+('066', 'ROG Swift', 'Marca: Asus<br>Dimensione: 34"<br>Risoluzione: 4K', '1199,90', 'asusRog.jpg', 'Disponibile'),
+('067', 'ROG Mega', 'Marca: Asus<br>Dimensione: 34"<br>Risoluzione: 4K', '1399,90', 'asus_rog.jpg', 'Disponibile'),
+('068', 'Gaming MXt', 'Marca: Samsung<br>Dimensione: 49"<br>Risoluzione: 2K', '1299,90', 'samsung_gaming.jpg', 'Disponibile'),
+('069', 'Predator  X34A', 'Marca: Asus<br>Dimensione: 34"<br>Risoluzione: 4K', '1199,90', 'acer_predator.jpg', 'Disponibile'),
+('070', 'Gaming NMX', 'Marca: Samsung<br>Dimensione: 34"<br>Risoluzione: 4K', '999,90', 'samsung_gaming_34.jpg', 'Disponibile'),
+('071', 'Predator XB-2K', 'Marca: Acer<br>Dimensione: 27"<br>Risoluzione: 4K', '899,90', 'acer_predator_gaming.jpg', 'Disponibile'),
+('072', 'ROG Swift PG278Q', 'Marca: Asus<br>Dimensione: 27"<br>Risoluzione: 4K', '769,90', 'asus_rog_swift.jpg', 'Disponibile');
 
 INSERT INTO mouse_tastiere (`Codice_prodotto`, `Nome`, `Descrizione`, `Prezzo`, `Img`, `Disponibilita`)
 VALUES ('073', 'Gaming GXT', 'Marca: Trust<br>Wireless: No<br>Gaming: Si', '49,90', 'trust_mouse.jpg', 'Disponibile'),
