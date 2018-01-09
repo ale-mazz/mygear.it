@@ -16,7 +16,7 @@
 #configIndex a {
     display: inline-block;
     position: relative;
-    text-decoration: underline;
+    text-decoration-color: white;
 }
 
 #configIndex a:hover {
