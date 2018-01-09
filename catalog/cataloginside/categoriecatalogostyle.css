@@ -73,46 +73,7 @@
     margin-top: -6%;
     float: right;
 }
-<<<<<<< HEAD
 
-/* menù verticale */
-
-#menu_verticale {
-    width: 20%;
-    float: left;
-    margin-bottom: 55%;
-}
-
-#menu_verticale ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    background-color: #B71C1C;
-    width: 200px;
-}
-
-#menu_verticale li {
-    padding: 0.4em;
-    border-top: solid;
-    border-bottom: solid;
-    border-color: white;
-    border-width: 2px;
-}
-
-#menu_verticale a {
-    display: block;
-    color: white;
-    padding: 0.15em 0.2em;
-    text-decoration: none;
-    font-size: 0.9em;
-}
-
-#menu_verticale li:hover {
-    background-color: #212121;
-}
-
-=======
->>>>>>> origin/master
 /******************************************************************
  Media Query Tablet
 ******************************************************************/
@@ -146,10 +107,6 @@
         font-size: 0.75em;
     }
 
-    #menu_verticale{
-        display: none;
-    }
-
 }
 
 /******************************************************************
@@ -167,10 +124,6 @@ Media Query Mobile
         width: 40%;
         margin-left: 7%;
         height: 330px;
-    }
-
-    #menu_verticale{
-        display: none;
     }
 
 }
