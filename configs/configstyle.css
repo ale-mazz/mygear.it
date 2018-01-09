@@ -37,36 +37,6 @@
     -moz-transform: scale(1.2);
 }
 
-/*
-#configIndex {
-    width: 100%;
-}
-
-#configIndex h1{
-    color: white;
-    font-size: 1.5em;
-}
-
-#configIndex a {
-    display: block;
-    position: relative;
-    text-decoration-color: white;
-}
-
-.configIndexOptions {
-    padding-top: 0.5em;
-    padding-bottom: 0.5em;
-    width: 33.3%;
-    float: left;
-    background-color: #B71C1C;
-    text-align: center;
-}
-
-.configIndexOptions a:hover {
-    background-color: #212121;
-}
-*/
-
 .configConfigurazioniTop {
     width: 94%;
     float: left;

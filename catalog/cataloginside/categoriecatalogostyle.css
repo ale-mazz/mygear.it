@@ -73,51 +73,6 @@
     margin-top: -6%;
     float: right;
 }
-
-/* menù verticale */
-
-#menu_verticale {
-    margin: 1em 2.5% 60% 0%;
-    padding-bottom: 3em;
-    width: 15.5%;
-    float: left;
-    clear: both;
-    background-color: #212121;
-    color: #FAFAFA;
-    border-style: solid;
-    border-color: #D32F2F;
-    border-left: none;
-    border-right: none;
-}
-
-#menu_verticale h2 {
-    font-size: 1.1em;
-    padding: 0.5em;
-    border-bottom-style: solid;
-    border-bottom-color: #FAFAFA;
-    border-bottom-width: 0.1em;
-}
-
-#menu_verticale ul {
-    list-style-type: none;
-}
-
-#menu_verticale li {
-    padding: 0.5em;
-}
-
-#menu_verticale a {
-    color: white;
-    font-size: 0.8em;
-}
-
-#menu_verticale a:hover {
-    color: #D32F2F;
-    -webkit-transform: scale(1.5);
-    -ms-transform: scale(3);
-    -moz-transform: scale(1.5);
-}
-
 /******************************************************************
  Media Query Tablet
 ******************************************************************/

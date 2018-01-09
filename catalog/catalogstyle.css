@@ -23,43 +23,6 @@
     text-align: center;
     font-size: 1.1em;
 }
-
-/* menù verticale */
-
-#catalogVerticalMenu {
-    width: 20%;
-    float: left;
-    margin-bottom: 12%;
-}
-
-#catalogVerticalMenu ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    background-color: #B71C1C;
-    width: 200px;
-}
-
-#catalogVerticalMenu li {
-    padding: 0.4em;
-    border-top: solid;
-    border-bottom: solid;
-    border-color: white;
-    border-width: 2px;
-}
-
-#catalogVerticalMenu a {
-    display: block;
-    color: white;
-    padding: 0.15em 0.2em;
-    text-decoration: none;
-    font-size: 0.9em;
-}
-
-#catalogVerticalMenu li:hover {
-    background-color: #212121;
-}
-
 /* dimensione/margin immagini */
 
 .catalogContainerIn img {
@@ -150,14 +113,6 @@
         margin: 2em;
     }
 
-    #catalogVerticalMenu {
-        display: none;
-    }
-
-    #container_categorie {
-    margin-left: 0%;
-    }
-
 }
 
 /******************************************************************
@@ -198,9 +153,6 @@ Media Query Mobile
         margin: 0%;
     }
 
-    #catalogVerticalMenu {
-        display: none;
-    }
 }
 
 
