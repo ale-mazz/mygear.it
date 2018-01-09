@@ -1,20 +1,3 @@
-/*****************************
-dimensioni scritte
-
-desktop (em)
-h1 2
-h2 1.5
-
-tablet
-h1 1.9
-h2 1.4
-
-phone
-h1 1.4
-h2 0.87
-
-*****************************/
-
 /* titolo pagina */
 
 #titolo_catalogo {
@@ -102,6 +85,26 @@ h2 0.87
     padding: 1em;
     background-color: white;
     position: relative;
+}
+
+
+/******************************************************************
+ Print Style Catalog
+******************************************************************/
+
+@media print {
+
+    #menu_verticale{
+        display: none;
+    }
+
+    .riquadro_esterno {
+        margin: 2em 0% 3em 4%;
+        width: 20%;
+        float: left;
+        text-align: center;
+    }
+
 }
 
 /******************************************************************
@@ -234,10 +237,5 @@ Media Query Mobile
         background-image: -moz-linear-gradient(left, transparent, #9E9E9E);
         background-image: -o-linear-gradient(left, transparent, #9E9E9E);
     }
-
-}
-
-@media only screen and (min-width: 956px) {
-
 
 }
