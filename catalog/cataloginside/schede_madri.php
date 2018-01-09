@@ -35,7 +35,7 @@ foreach ($products as $product){
 }
 
 $page=file_get_contents("catinside.html");
-$verticalmenu=file_get_contents("../menu_verticale.html");
+$verticalmenu=file_get_contents("../verticalmenu.html");
 $footer=file_get_contents("../../footer/footer.html");
 $header=file_get_contents("../../header/header.html");
 $page=str_replace('$header$', $header ,$page);
