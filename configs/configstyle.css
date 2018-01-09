@@ -125,6 +125,18 @@
     font-size: 0.7em;
 }
 
+.configTornaSu {
+    width: 100%;
+    margin-right: 5%;
+    float: right;
+    background-color: #424242;
+}
+
+.configTornaSu h1 {
+    color: white;
+    font-size: 0.5em;
+}
+
 /******************************************************************
  Media Query Tablet
 ******************************************************************/
