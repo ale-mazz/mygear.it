@@ -223,7 +223,7 @@
     }
 
     .configContainerSections p {
-        font-size: 1em;
+        font-size: 0.9em;
     }
 
     .configContainer {
@@ -231,9 +231,10 @@
     }
 
     .configContainer h1 {
-        font-size: 1.5em;
+        font-size: 1.3em;
     }
 
+}
 /******************************************************************
  Media Query Mobile
 ******************************************************************/
@@ -286,23 +287,62 @@
 
 }
 
+
 /******************************************************************
  Print Style Config
 ******************************************************************/
 
 @media print {
 
-#configIndex h1{
-    color: black;
-    font-size: 15em;
+    #configIndex h1{
+        color: black;
+    }
+
+    #configIndex a {
+        text-decoration: none;
+    }
+
+    .configIndexOptions {
+        background-color: #FFFFFF;
+    }
+
+    .configConfigurazioniTop {
+        width: 100%;
+        background-color: #FFFFFF;
+    }
+
+    .configImg {
+        width: 40%;
+        float: left;
+        margin-top: 2em;
+    }
+
+    .configImg img {
+        max-width: 70%;
+    }
+
+    .configDescription {
+        background-color: #FFFFFF;
+        padding: 0em;
+        width: 60%;
+    }
+
+    .configConfigurazioniTop p {
+        color: black;
+    }
+
+    .configConfigurazioniTop h2 {
+        color: black;
+        padding-top: 1em;
+    }
+
+    .configConfigurazioniTop h1 {
+        color: black;
+    }
+
+
+    .configSpecification {
+        padding-top: 2.5em;
+    }
 }
 
-#configIndex a {
-    text-decoration: none;
-}
-
-.configIndexOptions {
-    background-color: #FFFFFF;
-}
-
-}

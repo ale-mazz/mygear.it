@@ -1,36 +1,23 @@
 /********************************************************************************
     corpo contatti
 ********************************************************************************/
-
-#corpo_contatti {
-    width: 100%;
-    padding-top: 2em;
-}
-
-.titolo_contatti {
+.contactsTitles {
     padding-bottom: 0.5em;
     border-bottom-style: solid;
     border-bottom-color: #000000;
     border-bottom-width: 0.1em;
 }
 
-#chi{
+.contactsTitles h1{
+    font-size: 2em;
+}
+
+#contactsWho{
     text-align: center;
-    padding: 3em 7% 5em 7% ;
+    padding: 3em 7% 5em 7%;
 }
 
-#img_chi{
-    width: 5em;
-    float: left;
-    padding: 0.5em 8em 0em 10em;
-}
-
-#chi p {
-    margin: 1em 10em 0em 0em;
-
-}
-
-#dove {
+#contactsWhere {
     float:left;
     text-align: center;
     width: 40%;
@@ -38,7 +25,7 @@
     margin-bottom: 2em;
 }
 
-#come {
+#contactsHow {
     text-align: center;
     width: 40%;
     margin-right: 7%;
@@ -46,7 +33,13 @@
     margin-bottom: 2em;
 }
 
-.img_dove_come{
+#contactsWho img{
+    width: 5em;
+    float: left;
+    padding: 0.5em 8em 0em 10em;
+}
+
+#contactsWhere img, #contactsHow img{
     float:left;
     clear: right;
     text-align: left;
@@ -54,22 +47,45 @@
     padding: 0.5em 2em 0em 2em;
 }
 
-h1{
-    font-size: 2em;
+#contactsWho p {
+    margin: 1em 10em 0em 0em;
+
 }
 
-h2{
-    font-size: 1.3em;
-}
-
-#dove p{
+#contactsWhere p{
     margin-top: 1em;
 }
 
-#come p{
+#contactsHow p{
     margin-top: 0.3em;
 }
 
+/******************************************************************
+ Print Style Config
+******************************************************************/
+
+@media print {
+
+    #contactsWhere{
+        float: none;
+    }
+
+    #contactsWho, #contactsWhere, #contactsHow {
+        width: 100%;
+        padding: 2em 0% 2em 0%;
+        margin: 0%;
+    }
+
+    #contactsWho img, #contactsWhere img, #contactsHow img{
+        width: 6em;
+        padding: 1em 8em 1em 8em;
+    }
+
+    #contactsWho p, #contactsWhere p, #contactsHow p{
+        margin: 1em 6em 0em 0em;
+        font-size: 1.2em;
+    }
+}
 
 /******************************************************************
  Media Query Tablet
@@ -77,41 +93,26 @@ h2{
 
 @media only screen and (max-width: 955px) {
 
-    #chi{
-        width: 90%;
-        padding: 6em 5% 3em 5% ;
-    }
-
-    #dove{
-        width: 90%;
-        margin: 2em 5% 3em 5% ;
+    #contactsWhere{
         float: none;
     }
 
-    #come{
+    #contactsWho{
         width: 90%;
-        margin: 2em 5% 3em 5% ;
+        padding: 6em 5% 3em 5%;
     }
 
-    #img_chi{
+    #contactsWhere, #contactsHow{
+        width: 90%;
+        margin: 2em 5% 3em 5%;
+    }
+
+    #contactsWho img, #contactsWhere img, #contactsHow img{
         width: 6em;
         padding: 1em 8em 1em 8em;
     }
 
-    #chi p{
-        margin: 1em 6em 0em 0em;
-    }
-
-    .img_dove_come{
-        width: 6em;
-        padding: 1em 8em 1em 8em;
-    }
-
-    #dove p{
-        margin: 1em 6em 0em 0em;
-    }
-
-    #come p{
+    #contactsWho p, #contactsWhere p, #contactsHow p{
         margin: 1em 6em 0em 0em;
     }
 
@@ -123,29 +124,16 @@ Media Query Mobile
 
 @media only screen and (max-width: 767px) {
 
-    #img_chi {
+    #contactsWho img, #contactsWhere img, #contactsHow img{
         display: none;
     }
 
-    .img_dove_come{
-        display: none;
-    }
-
-    .titolo_contatti{
+    .contactsTitles{
         font-size: 1.5em;
     }
 
-    #chi p{
-        width: 100%;
-    }
-
-    #dove p{
-        width: 100%;
-    }
-
-    #come p{
+    #contactsWho p, #contactsWhere p, #contactsHow p{
         width: 100%;
     }
 
 }
-
