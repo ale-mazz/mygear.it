@@ -241,3 +241,24 @@
     }
 
 }
+
+/******************************************************************
+ Print Style Config
+******************************************************************/
+
+@media print {
+
+#configIndex h1{
+    color: black;
+    font-size: 15em;
+}
+
+#configIndex a {
+    text-decoration: none;
+}
+
+.configIndexOptions {
+    background-color: #FFFFFF;
+}
+
+}
