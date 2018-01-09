@@ -16,7 +16,7 @@
 
 #chi{
     text-align: center;
-    padding: 3em 7% 5em 7% ;
+    padding: 3em 7% 5em 7%;
 }
 
 #img_chi{
@@ -70,6 +70,50 @@ h2{
     margin-top: 0.3em;
 }
 
+/******************************************************************
+ Print Style Config
+******************************************************************/
+
+@media print {
+
+    #chi{
+        width: 90%;
+        padding: 6em 5% 3em 5%;
+    }
+
+    #dove{
+        width: 90%;
+        margin: 2em 5% 3em 5%;
+        float: none;
+    }
+
+    #come{
+        width: 90%;
+        margin: 2em 5% 3em 5%;
+    }
+
+    #img_chi{
+        width: 6em;
+        padding: 1em 8em 1em 8em;
+    }
+
+    #chi p{
+        margin: 1em 6em 0em 0em;
+    }
+
+    .img_dove_come{
+        width: 6em;
+        padding: 1em 8em 1em 8em;
+    }
+
+    #dove p{
+        margin: 1em 6em 0em 0em;
+    }
+
+    #come p{
+        margin: 1em 6em 0em 0em;
+    }
+}
 
 /******************************************************************
  Media Query Tablet
@@ -79,18 +123,18 @@ h2{
 
     #chi{
         width: 90%;
-        padding: 6em 5% 3em 5% ;
+        padding: 6em 5% 3em 5%;
     }
 
     #dove{
         width: 90%;
-        margin: 2em 5% 3em 5% ;
+        margin: 2em 5% 3em 5%;
         float: none;
     }
 
     #come{
         width: 90%;
-        margin: 2em 5% 3em 5% ;
+        margin: 2em 5% 3em 5%;
     }
 
     #img_chi{
@@ -148,4 +192,3 @@ Media Query Mobile
     }
 
 }
-

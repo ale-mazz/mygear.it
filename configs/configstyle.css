@@ -202,6 +202,7 @@
         font-size: 1.5em;
     }
 
+}
 /******************************************************************
  Media Query Mobile
 ******************************************************************/
@@ -254,23 +255,62 @@
 
 }
 
+
 /******************************************************************
  Print Style Config
 ******************************************************************/
 
 @media print {
 
-#configIndex h1{
-    color: black;
-    font-size: 15em;
+    #configIndex h1{
+        color: black;
+    }
+
+    #configIndex a {
+        text-decoration: none;
+    }
+
+    .configIndexOptions {
+        background-color: #FFFFFF;
+    }
+
+    .configConfigurazioniTop {
+        width: 100%;
+        background-color: #FFFFFF;
+    }
+
+    .configImg {
+        width: 40%;
+        float: left;
+        margin-top: 2em;
+    }
+
+    .configImg img {
+        max-width: 70%;
+    }
+
+    .configDescription {
+        background-color: #FFFFFF;
+        padding: 0em;
+        width: 60%;
+    }
+
+    .configConfigurazioniTop p {
+        color: black;
+    }
+
+    .configConfigurazioniTop h2 {
+        color: black;
+        padding-top: 1em;
+    }
+
+    .configConfigurazioniTop h1 {
+        color: black;
+    }
+
+
+    .configSpecification {
+        padding-top: 2.5em;
+    }
 }
 
-#configIndex a {
-    text-decoration: none;
-}
-
-.configIndexOptions {
-    background-color: #FFFFFF;
-}
-
-}
