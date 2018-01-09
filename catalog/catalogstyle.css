@@ -153,10 +153,6 @@
         display: none;
     }
 
-    #container_categorie {
-    margin-left: 0%;
-    }
-
 }
 
 /******************************************************************
@@ -199,10 +195,6 @@ Media Query Mobile
 
     #menu_verticale {
         display: none;
-    }
-
-    #container_categorie {
-    margin-left: 0%;
     }
 
 }
