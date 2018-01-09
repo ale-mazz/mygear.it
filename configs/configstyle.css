@@ -4,11 +4,11 @@
     margin-bottom: 2em;
 }
 
-#horizontal_menu {
+#configHorizontalMenu {
     width: 100%;
 }
 
-#horizontal_menu ul {
+#configHorizontalMenu ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -16,12 +16,12 @@
     background-color: #B71C1C;
 }
 
-#horizontal_menu li {
+#configHorizontalMenu li {
     float: left;
     width: 33.33%;
 }
 
-#horizontal_menu li a {
+#configHorizontalMenu li a {
     display: block;
     color: white;
     text-align: center;
@@ -30,8 +30,11 @@
     padding: 0.2em;
 }
 
-#horizontal_menu li a:hover {
+#configHorizontalMenu li a:hover {
     background-color: #212121;
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -moz-transform: scale(1.2);
 }
 
 /*
@@ -294,16 +297,8 @@
 
 @media print {
 
-    #configIndex h1{
+    #configHorizontalMenu h1{
         color: black;
-    }
-
-    #configIndex a {
-        text-decoration: none;
-    }
-
-    .configIndexOptions {
-        background-color: #FFFFFF;
     }
 
     .configConfigurazioniTop {
