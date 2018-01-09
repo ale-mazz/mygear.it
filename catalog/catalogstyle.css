@@ -44,8 +44,8 @@ h2 0.87
 /* menù verticale */
 
 #menu_verticale {
-    position: fixed;
     width: 15.5%;
+    position: fixed;
     margin-top: 0.45em;
 }
 
@@ -58,7 +58,7 @@ h2 0.87
 }
 
 #menu_verticale li {
-    padding: 0.5em;
+    padding: 0.4em;
     border-top: solid;
     border-bottom: solid;
     border-color: white;
@@ -238,5 +238,10 @@ Media Query Mobile
         background-image: -moz-linear-gradient(left, transparent, #9E9E9E);
         background-image: -o-linear-gradient(left, transparent, #9E9E9E);
     }
+
+}
+
+@media only screen and (min-width: 956px) {
+
 
 }
