@@ -15,7 +15,7 @@ h2 0.87
 
 *****************************/
 
-/* titolo pagina h1 */
+/* titolo pagina */
 
 #titolo_catalogo {
     width: 100%;
@@ -109,7 +109,7 @@ h2 0.87
 }
 
 /******************************************************************
- Media Query Home
+ Media Query Tablet
 ******************************************************************/
 
 @media only screen and (max-width: 955px) {

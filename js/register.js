@@ -1,4 +1,13 @@
 
+//Js da sistemare
+
+
+
+closeAlert = function (div) {
+    var messagesDiv = div.parentElement;
+    messagesDiv.innerHTML = '';
+};
+
 /**
  * Creates a custom alert.
  * @param id: Id of the alert.
@@ -14,6 +23,7 @@ createAlert = function(id, alertType, message){
         '' +
         '</div>';
 };
+
 
 /**
  * Checks if a field containing a password and one containing a confirmation of that password match.
@@ -132,7 +142,6 @@ registerOnLoad = function () {
     var password = document.getElementById("password");
     var confirmPassword = document.getElementById("confirmPassword");
     var name = document.getElementById("name");
-    var surname = document.getElementById("surname");
 
     username.onchange = function () {
         checkUsernameFieldLength(document.getElementById('username'));
@@ -146,7 +155,6 @@ registerOnLoad = function () {
     confirmPassword.onkeyup = checkPassword;
 
     name.onchange = checkNameAndSurname;
-    surname.onchange = checkNameAndSurname;
 
     /* Attach the proper function to the submit event of the form*/
     document.getElementById("registerForm").onsubmit = sendRegisterRequest;

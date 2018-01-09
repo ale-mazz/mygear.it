@@ -4,7 +4,7 @@
  * Class login
  * handles the user's login and logout process
  */
-class Login
+class loginclass
 {
     /**
      * @var object The database connection
@@ -21,7 +21,7 @@ class Login
 
     /**
      * the function "__construct()" automatically starts whenever an object of this class is created,
-     * you know, when you do "$login = new Login();"
+     * you know, when you do "$login = new loginclass();"
      */
     public function __construct()
     {
@@ -51,7 +51,7 @@ class Login
             $this->errors[] = "Password field was empty.";
         } elseif (!empty($_POST['user_name']) && !empty($_POST['user_password'])) {
 
-            // create a database connection, using the constants from config/db.php (which we loaded in index.php)
+            // create a database connection, using the constants from config/db.php (which we loaded in registrazione.php)
             $this->db_connection = new mysqli(DB_HOST, DB_USER, DB_PASS, DB_NAME);
 
             // change character set to utf8 and check it
