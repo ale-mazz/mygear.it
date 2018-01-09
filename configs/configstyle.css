@@ -125,6 +125,18 @@
     font-size: 0.7em;
 }
 
+.configTornaSu {
+    width: 100%;
+    margin-right: 5%;
+    float: right;
+    background-color: #424242;
+}
+
+.configTornaSu h1 {
+    color: white;
+    font-size: 0.5em;
+}
+
 /******************************************************************
  Media Query Tablet
 ******************************************************************/
@@ -239,5 +251,26 @@
     .configContainer h1 {
         font-size: 0.5em;
     }
+
+}
+
+/******************************************************************
+ Print Style Config
+******************************************************************/
+
+@media print {
+
+#configIndex h1{
+    color: black;
+    font-size: 15em;
+}
+
+#configIndex a {
+    text-decoration: none;
+}
+
+.configIndexOptions {
+    background-color: #FFFFFF;
+}
 
 }
