@@ -76,42 +76,24 @@ h2{
 
 @media print {
 
-    #chi{
-        width: 90%;
-        padding: 6em 5% 3em 5%;
-    }
-
     #dove{
-        width: 90%;
-        margin: 2em 5% 3em 5%;
         float: none;
     }
 
-    #come{
-        width: 90%;
-        margin: 2em 5% 3em 5%;
+    #chi, #dove, #come {
+        width: 100%;
+        padding: 2em 0% 2em 0%;
+        margin: 0%;
     }
 
-    #img_chi{
+    #img_chi, .img_dove_come{
         width: 6em;
         padding: 1em 8em 1em 8em;
     }
 
-    #chi p{
+    #chi p, #dove p, #come p{
         margin: 1em 6em 0em 0em;
-    }
-
-    .img_dove_come{
-        width: 6em;
-        padding: 1em 8em 1em 8em;
-    }
-
-    #dove p{
-        margin: 1em 6em 0em 0em;
-    }
-
-    #come p{
-        margin: 1em 6em 0em 0em;
+        font-size: 1.2em;
     }
 }
 
