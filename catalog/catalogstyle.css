@@ -1,6 +1,6 @@
 /* titolo pagina */
 
-#titolo_catalogo {
+#catalogTitle {
     width: 100%;
     margin-top: 2em;
     margin-bottom: 2em;
@@ -8,7 +8,7 @@
     position: static;
 }
 
-#titolo_catalogo h1 {
+#catalogTitle h1 {
     font-size: 2em;
     text-align: center;
     color: #000000;
@@ -113,11 +113,11 @@
 
 @media only screen and (max-width: 955px) {
 
-    #titolo_catalogo h1 {
+    #catalogTitle h1 {
         font-size: 1.9em;
     }
 
-    #titolo_catalogo {
+    #catalogTitle {
         position: static;
         margin-top: 0em;
         padding-top: 5em;
@@ -165,11 +165,11 @@ Media Query Mobile
 
 @media only screen and (max-width: 767px) {
 
-    #titolo_catalogo{
+    #catalogTitle{
         margin-bottom: 1em;
     }
 
-    #titolo_catalogo h1 {
+    #catalogTitle h1 {
         font-size: 1.4em;
     }
 
