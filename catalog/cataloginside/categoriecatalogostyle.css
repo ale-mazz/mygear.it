@@ -73,6 +73,7 @@
     margin-top: -6%;
     float: right;
 }
+<<<<<<< HEAD
 
 /* menù verticale */
 
@@ -110,6 +111,8 @@
     background-color: #212121;
 }
 
+=======
+>>>>>>> origin/master
 /******************************************************************
  Media Query Tablet
 ******************************************************************/
@@ -163,6 +166,7 @@ Media Query Mobile
         position: static;
         width: 40%;
         margin-left: 7%;
+        height: 330px;
     }
 
     #menu_verticale{
