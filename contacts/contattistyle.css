@@ -93,41 +93,26 @@
 
 @media only screen and (max-width: 955px) {
 
+    #contactsWhere{
+        float: none;
+    }
+
     #contactsWho{
         width: 90%;
         padding: 6em 5% 3em 5%;
     }
 
-    #contactsWhere{
-        width: 90%;
-        margin: 2em 5% 3em 5%;
-        float: none;
-    }
-
-    #contactsHow{
+    #contactsWhere, #contactsHow{
         width: 90%;
         margin: 2em 5% 3em 5%;
     }
 
-    #contactsWho img{
+    #contactsWho img, #contactsWhere img, #contactsHow img{
         width: 6em;
         padding: 1em 8em 1em 8em;
     }
 
-    #contactsWho p{
-        margin: 1em 6em 0em 0em;
-    }
-
-    #contactsWhere img, #contactsHow img{
-        width: 6em;
-        padding: 1em 8em 1em 8em;
-    }
-
-    #contactsWhere p{
-        margin: 1em 6em 0em 0em;
-    }
-
-    #contactsHow p{
+    #contactsWho p, #contactsWhere p, #contactsHow p{
         margin: 1em 6em 0em 0em;
     }
 
@@ -139,11 +124,7 @@ Media Query Mobile
 
 @media only screen and (max-width: 767px) {
 
-    #contactsWho img {
-        display: none;
-    }
-
-    #contactsWhere img, #contactsHow img{
+    #contactsWho img, #contactsWhere img, #contactsHow img{
         display: none;
     }
 
@@ -151,15 +132,7 @@ Media Query Mobile
         font-size: 1.5em;
     }
 
-    #contactsWho p{
-        width: 100%;
-    }
-
-    #contactsWhere p{
-        width: 100%;
-    }
-
-    #contactsHow p{
+    #contactsWho p, #contactsWhere p, #contactsHow p{
         width: 100%;
     }
 
