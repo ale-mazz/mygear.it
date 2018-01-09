@@ -1,7 +1,7 @@
 <?php
 
 /**
- * A simple, clean and secure PHP loginclass Script / MINIMAL VERSION
+ * A simple, clean and secure PHP loginUser Script / MINIMAL VERSION
  *
  * Uses PHP SESSIONS, modern password-hashing and salting and gives the basic functions a proper login system needs.
  *
@@ -12,7 +12,7 @@
 
 // checking for minimum PHP version
 if (version_compare(PHP_VERSION, '5.3.7', '<')) {
-    exit("Sorry, Simple PHP loginclass does not run on a PHP version smaller than 5.3.7 !");
+    exit("Sorry, Simple PHP loginUser does not run on a PHP version smaller than 5.3.7 !");
 } else if (version_compare(PHP_VERSION, '5.5.0', '<')) {
     // if you are using PHP 5.3 or PHP 5.4 you have to include the password_api_compatibility_library.php
     // (this library adds the PHP 5.5 password hashing functions to older versions of PHP)
@@ -23,7 +23,7 @@ if (version_compare(PHP_VERSION, '5.3.7', '<')) {
 require_once("config/db.php");
 
 // load the login class
-require_once("classes/loginclass.php");
+require_once("classes/loginclass");
 
 // create a login object. when this object is created, it will do all login/logout stuff automatically
 // so this single line handles the entire login process. in consequence, you can simply ...
