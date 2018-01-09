@@ -165,8 +165,7 @@ registerOnLoad = function () {
  */
 checkNameAndSurname = function () {
     var name = document.getElementById("name");
-    var surname = document.getElementById("surname");
-    return checkNameFieldLength(name) && checkNameFieldLength(surname);
+    return checkNameFieldLength(name);
 };
 /**
  * Checks that the username field has the proper length.
