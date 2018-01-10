@@ -4,7 +4,7 @@
  * Class login
  * handles the user's login and logout process
  */
-class loginclass
+class loginUser
 {
     /**
      * @var object The database connection
@@ -21,7 +21,7 @@ class loginclass
 
     /**
      * the function "__construct()" automatically starts whenever an object of this class is created,
-     * you know, when you do "$login = new loginclass();"
+     * you know, when you do "$login = new loginUser();"
      */
     public function __construct()
     {
@@ -35,23 +35,23 @@ class loginclass
         }
         // login via post data (if user just submitted a login form)
         elseif (isset($_POST["login"])) {
-            $this->dologinWithPostData();
+            $this->loginUser($username, $password);
         }
     }
 
     /**
      * log in with post data
      */
-    private function dologinWithPostData()
+    public function loginUser($username, $password)
     {
         // check login form contents
-        if (empty($_POST['user_name'])) {
+        if (empty($username)) {
             $this->errors[] = "Username field was empty.";
-        } elseif (empty($_POST['user_password'])) {
+        } elseif (empty($password)) {
             $this->errors[] = "Password field was empty.";
-        } elseif (!empty($_POST['user_name']) && !empty($_POST['user_password'])) {
+        } elseif (!empty($username) && !empty($password)) {
 
-            // create a database connection, using the constants from config/db.php (which we loaded in registrazione.php)
+            
             $this->db_connection = new mysqli(DB_HOST, DB_USER, DB_PASS, DB_NAME);
 
             // change character set to utf8 and check it
@@ -63,13 +63,13 @@ class loginclass
             if (!$this->db_connection->connect_errno) {
 
                 // escape the POST stuff
-                $user_name = $this->db_connection->real_escape_string($_POST['user_name']);
+                $user_username = $this->db_connection->real_escape_string($username);
 
                 // database query, getting all the info of the selected user (allows login via email address in the
                 // username field)
-                $sql = "SELECT user_name, user_email, user_password_hash
+                $sql = "SELECT user_username, user_email, user_password_hash
                         FROM users
-                        WHERE user_name = '" . $user_name . "' OR user_email = '" . $user_name . "';";
+                        WHERE user_username = '" . $user_username . "' OR user_email = '" . $user_username . "';";
                 $result_of_login_check = $this->db_connection->query($sql);
 
                 // if this user exists
@@ -80,10 +80,10 @@ class loginclass
 
                     // using PHP 5.5's password_verify() function to check if the provided password fits
                     // the hash of that user's password
-                    if (password_verify($_POST['user_password'], $result_row->user_password_hash)) {
+                    if (password_verify($password, $result_row->user_password_hash)) {
 
                         // write user data into PHP SESSION (a file on your server)
-                        $_SESSION['user_name'] = $result_row->user_name;
+                        $_SESSION['user_username'] = $result_row->user_username;
                         $_SESSION['user_email'] = $result_row->user_email;
                         $_SESSION['user_login_status'] = 1;
 

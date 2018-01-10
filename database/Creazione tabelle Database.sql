@@ -1,163 +1,149 @@
+-- Creazione database 'returnfa_mygear' appartenente al sito mygear.it, sviluppato per il progetto di Tecnologie Web anno 17/18 Università degli studi di Padova
+-- A cura di Tiziano Rizzo e Alessandro Mazzon
+
 CREATE DATABASE IF NOT EXISTS returnfa_mygear;
+
+-- Struttura delle tabelle dei vari prodotti
 
 DROP TABLE IF EXISTS cuffie;
 CREATE TABLE cuffie (
 	`Codice_prodotto` int PRIMARY KEY,
-	`Nome` char(100) NOT NULL,
-	`Descrizione` varchar(500)  NOT NULL,
-	`Prezzo` float(8,2)  NOT NULL,
-    `Img` char(70) NOT NULL,
-	`Disponibilita` char(20) NOT NULL,
-    `Alt` char(20) NOT NULL   
-) ENGINE=InnoDB;
-
-DROP TABLE IF EXISTS PC;
-CREATE TABLE PC (
-	`Codice_prodotto` int PRIMARY KEY,
-	`Nome` char(100) NOT NULL,
-	`Descrizione` varchar(500)  NOT NULL,
-	`Prezzo` float(8,2)  NOT NULL,
-    `Img` char(70) NOT NULL,
-	`Disponibilita` char(20) NOT NULL,
-    `Alt` char(20) NOT NULL
+	`Nome`            char(100)    NOT NULL,
+	`Descrizione`     varchar(500) NOT NULL,
+	`Prezzo`          float(8,2)   NOT NULL,
+	`Img`             char(70)     NOT NULL,
+	`Disponibilita`   char(20)     NOT NULL,
+	`Alt`             char(20)     NOT NULL
 ) ENGINE=InnoDB;
 
 DROP TABLE IF EXISTS alimentatori;
 CREATE TABLE alimentatori (
 	`Codice_prodotto` int PRIMARY KEY,
-	`Nome` char(100) NOT NULL,
-	`Descrizione` varchar(500)  NOT NULL,
-	`Prezzo` float(8,2)  NOT NULL,
-	`Img` char(70) NOT NULL,
-	`Disponibilita` char(20) NOT NULL,
-    `Alt` char(20) NOT NULL
+	`Nome`            char(100)    NOT NULL,
+	`Descrizione`     varchar(500) NOT NULL,
+	`Prezzo`          float(8,2)   NOT NULL,
+	`Img`             char(70)     NOT NULL,
+	`Disponibilita`   char(20)     NOT NULL,
+	`Alt`             char(20)     NOT NULL
 ) ENGINE=InnoDB;
 
 DROP TABLE IF EXISTS cpu;
 CREATE TABLE cpu (
 	`Codice_prodotto` int PRIMARY KEY,
-	`Nome` char(100) NOT NULL,
-	`Descrizione` varchar(500)  NOT NULL,
-	`Prezzo` float(8,2)  NOT NULL,
-    `Img` char(70) NOT NULL,
-	`Disponibilita` char(20) NOT NULL,
-    `Alt` char(20) NOT NULL
+	`Nome`            char(100)    NOT NULL,
+	`Descrizione`     varchar(500) NOT NULL,
+	`Prezzo`          float(8,2)   NOT NULL,
+	`Img`             char(70)     NOT NULL,
+	`Disponibilita`   char(20)     NOT NULL,
+	`Alt`             char(20)     NOT NULL
 ) ENGINE=InnoDB;
 
 DROP TABLE IF EXISTS memorie_interne;
 CREATE TABLE memorie_interne (
 	`Codice_prodotto` int PRIMARY KEY,
-	`Nome` char(100) NOT NULL,
-	`Descrizione` varchar(500)  NOT NULL,
-	`Prezzo` float(8,2)  NOT NULL,
-    `Img` char(70) NOT NULL,
-	`Disponibilita` char(20) NOT NULL,
-    `Alt` char(20) NOT NULL
+	`Nome`            char(100)    NOT NULL,
+	`Descrizione`     varchar(500) NOT NULL,
+	`Prezzo`          float(8,2)   NOT NULL,
+	`Img`             char(70)     NOT NULL,
+	`Disponibilita`   char(20)     NOT NULL,
+	`Alt`             char(20)     NOT NULL
 ) ENGINE=InnoDB;
 
 DROP TABLE IF EXISTS memorie_ram;
 CREATE TABLE memorie_ram (
 	`Codice_prodotto` int PRIMARY KEY,
-	`Nome` char(100) NOT NULL,
-	`Descrizione` varchar(500)  NOT NULL,
-	`Prezzo` float(8,2)  NOT NULL,
-    `Img` char(70) NOT NULL,
-	`Disponibilita` char(20) NOT NULL,
-    `Alt` char(20) NOT NULL
+	`Nome`            char(100)    NOT NULL,
+	`Descrizione`     varchar(500) NOT NULL,
+	`Prezzo`          float(8,2)   NOT NULL,
+	`Img`             char(70)     NOT NULL,
+	`Disponibilita`   char(20)     NOT NULL,
+	`Alt`             char(20)     NOT NULL
 ) ENGINE=InnoDB;
 
 DROP TABLE IF EXISTS monitor;
 CREATE TABLE monitor (
 	`Codice_prodotto` int PRIMARY KEY,
-	`Nome` char(100) NOT NULL,
-	`Descrizione` varchar(500)  NOT NULL,
-	`Prezzo` float(8,2)  NOT NULL,
-    `Img` char(70) NOT NULL,
-	`Disponibilita` char(20) NOT NULL,
-    `Alt` char(20) NOT NULL
+	`Nome`            char(100)    NOT NULL,
+	`Descrizione`     varchar(500) NOT NULL,
+	`Prezzo`          float(8,2)   NOT NULL,
+	`Img`             char(70)     NOT NULL,
+	`Disponibilita`   char(20)     NOT NULL,
+	`Alt`             char(20)     NOT NULL
 ) ENGINE=InnoDB;
 
 DROP TABLE IF EXISTS mouse_tastiere;
 CREATE TABLE mouse_tastiere (
 	`Codice_prodotto` int PRIMARY KEY,
-	`Nome` char(100) NOT NULL,
-	`Descrizione` varchar(500)  NOT NULL,
-	`Prezzo` float(8,2)  NOT NULL,
-    `Img` char(70) NOT NULL,
-	`Disponibilita` char(20) NOT NULL,
-    `Alt` char(20) NOT NULL
+	`Nome`            char(100)    NOT NULL,
+	`Descrizione`     varchar(500) NOT NULL,
+	`Prezzo`          float(8,2)   NOT NULL,
+	`Img`             char(70)     NOT NULL,
+	`Disponibilita`   char(20)     NOT NULL,
+	`Alt`             char(20)     NOT NULL
 ) ENGINE=InnoDB;
 
 DROP TABLE IF EXISTS raffreddamento;
 CREATE TABLE raffreddamento (
 	`Codice_prodotto` int PRIMARY KEY,
-	`Nome` char(100) NOT NULL,
-	`Descrizione` varchar(500)  NOT NULL,
-	`Prezzo` float(8,2)  NOT NULL,
-    `Img` char(70) NOT NULL,
-	`Disponibilita` char(20) NOT NULL,
-    `Alt` char(20) NOT NULL
+	`Nome`            char(100)    NOT NULL,
+	`Descrizione`     varchar(500) NOT NULL,
+	`Prezzo`          float(8,2)   NOT NULL,
+	`Img`             char(70)     NOT NULL,
+	`Disponibilita`   char(20)     NOT NULL,
+	`Alt`             char(20)     NOT NULL
 ) ENGINE=InnoDB;
 
 DROP TABLE IF EXISTS schede_audio;
 CREATE TABLE schede_audio (
 	`Codice_prodotto` int PRIMARY KEY,
-	`Nome` char(100) NOT NULL,
-	`Descrizione` varchar(500)  NOT NULL,
-	`Prezzo` float(8,2)  NOT NULL,
-    `Img` char(70) NOT NULL,
-	`Disponibilita` char(20) NOT NULL,
-    `Alt` char(20) NOT NULL
+	`Nome`            char(100)    NOT NULL,
+	`Descrizione`     varchar(500) NOT NULL,
+	`Prezzo`          float(8,2)   NOT NULL,
+	`Img`             char(70)     NOT NULL,
+	`Disponibilita`   char(20)     NOT NULL,
+	`Alt`             char(20)     NOT NULL
 ) ENGINE=InnoDB;
 
 DROP TABLE IF EXISTS schede_madri;
 CREATE TABLE schede_madri (
 	`Codice_prodotto` int PRIMARY KEY,
-	`Nome` char(100) NOT NULL,
-	`Descrizione` varchar(500)  NOT NULL,
-	`Prezzo` float(8,2)  NOT NULL,
-    `Img` char(70) NOT NULL,
-	`Disponibilita` char(20) NOT NULL,
-    `Alt` char(20) NOT NULL
+	`Nome`            char(100)    NOT NULL,
+	`Descrizione`     varchar(500) NOT NULL,
+	`Prezzo`          float(8,2)   NOT NULL,
+	`Img`             char(70)     NOT NULL,
+	`Disponibilita`   char(20)     NOT NULL,
+	`Alt`             char(20)     NOT NULL
 ) ENGINE=InnoDB;
 
 DROP TABLE IF EXISTS schede_video;
 CREATE TABLE schede_video (
 	`Codice_prodotto` int PRIMARY KEY,
-	`Nome` char(100) NOT NULL,
-	`Descrizione` varchar(500)  NOT NULL,
-	`Prezzo` float(8,2)  NOT NULL,
-    `Img` char(70) NOT NULL,
-	`Disponibilita` char(20) NOT NULL,
-    `Alt` char(20) NOT NULL
+	`Nome`            char(100)    NOT NULL,
+	`Descrizione`     varchar(500) NOT NULL,
+	`Prezzo`          float(8,2)   NOT NULL,
+	`Img`             char(70)     NOT NULL,
+	`Disponibilita`   char(20)     NOT NULL,
+	`Alt`             char(20)     NOT NULL
 ) ENGINE=InnoDB;
 
 DROP TABLE IF EXISTS case_pc;
 CREATE TABLE case_pc (
-    `Codice_prodotto` int PRIMARY KEY,
-    `Nome` char(100) NOT NULL,
-    `Descrizione` varchar(500)  NOT NULL,
-    `Prezzo` float(8,2)  NOT NULL,
-    `Img` char(70) NOT NULL,
-    `Disponibilita` char(20) NOT NULL,
-    `Alt` char(20) NOT NULL
+	`Codice_prodotto` int PRIMARY KEY,
+	`Nome`            char(100)    NOT NULL,
+	`Descrizione`     varchar(500) NOT NULL,
+	`Prezzo`          float(8,2)   NOT NULL,
+	`Img`             char(70)     NOT NULL,
+	`Disponibilita`   char(20)     NOT NULL,
+	`Alt`             char(20)     NOT NULL
 ) ENGINE=InnoDB;
 
-DROP TABLE IF EXISTS utente;
-CREATE TABLE utente (
-    `Username` char(100) PRIMARY KEY,
-    `Cognome` char(20) NOT NULL,
-    `Nome` char(20) NOT NULL,
-    `Email` char(20) NOT NULL,
-    `Password` char(20) NOT NULL
-) ENGINE=InnoDB;
-
+-- Inserimento dei prodotti nel database
 
 
 INSERT INTO alimentatori (`Codice_prodotto`, `Nome`, `Descrizione`, `Prezzo`, `Img`, `Disponibilita`, `Alt`)
 VALUES ('001', 'Series CX430', 'Marca: Corsair<br>Watt: 430<br>Certificazione: 80Plus', '56,90', 'imagemagic.jpg', 'Disponibile', 'Alimentatore Corsair 430 watt'),
 ('002', 'Series CX450M', 'Marca: Corsair<br>Watt: 450<br>Certificazione: 80Plus', '59,90', 'imagemagic(1).jpg', 'Disponibile', 'Alimentatore Corsair 430 watt'),
-('003', 'MaxPro 80Plus', 'Marca: Enermax<br>Watt: 600<br>Certificazione: 80Plus', '59,90','imagemagic2.jpg', 'Disponibile', 'Alimentatore Enermax 600 watt'),
+('003', 'MaxPro 80Plus', 'Marca: Enermax<br>Watt: 600<br>Certificazione: 80Plus', '59,90', 'imagemagic2.jpg', 'Disponibile', 'Alimentatore Enermax 600 watt'),
 ('004', 'SF450', 'Marca: Corsair<br>Watt: 450<br>Certificazione: 80Plus Gold', '89,90', 'imagemagic3.jpg', 'Disponibile', 'Alimentatore Corsair 450 watt'),
 ('005', 'SST-GM500-G', 'Marca: Silverstone<br>Watt: 500<br>Certificazione: 80Plus Gold', '599,90', 'imagemagic4.jpg', 'Disponibile', 'Alimentatore Silverstone 500 watt'),
 ('006', 'Atlantis 500W', 'Marca: Atlantis<br>Watt: 500<br>Certificazione: No', '43,90', 'alimentatore_atlantis_500w.jpg', 'Non Disponibile', 'Alimentatore Atlantis 500 watt'),
@@ -243,7 +229,7 @@ VALUES ('073', 'Gaming GXT', 'Marca: Trust<br>Wireless: No<br>Gaming: Si', '49,9
 ('074', 'GLAIVE RGB', 'Marca: Corsair<br>Wireless: No<br>Gaming: Si', '69,90', 'corsair_mouse.jpg', 'Disponibile', 'Mouse Corsair da Gaming'),
 ('075', 'MasterMouse MM520', 'Marca: Cooler Master<br>Wireless: No<br>Gaming: Si', '69,90', 'coolerMouse.jpg', 'Disponibile', 'Mouse Cooler Master da Gaming'),
 ('076', 'STRAFE RGB', 'Marca: Trust<br>Wireless: No<br>Gaming: Si', '149,90', 'straffe.jpg', 'Disponibile', 'Mouse Trust da Gaming'),
-('077', 'Desktop MK710', 'Marca: Logitech<br>Wireless: Si<br>Gaming: Si', '99,90','tastiera_mouse.jpg', 'Disponibile', 'Tastiera e Mouse Logitech wireless da Gaming'),
+('077', 'Desktop MK710', 'Marca: Logitech<br>Wireless: Si<br>Gaming: Si', '99,90', 'tastiera_mouse.jpg', 'Disponibile', 'Tastiera e Mouse Logitech wireless da Gaming'),
 ('078', 'Razer Turret', 'Marca: Razer<br>Wireless: No<br>Gaming: Si', '179,90', 'razerTurret.jpg', 'Disponibile', 'Tastiera e Mouse Razer da Gaming'),
 ('079', 'ASUS ROG', 'Marca: Asus<br>Wireless: No<br>Gaming: Si', '254,90', 'tastiera_gaming_asus.jpg', 'Disponibile', 'Tastiera Asus da Gaming'),
 ('080', 'K95 RGB BROWN', 'Marca: Corsair<br>Wireless: No<br>Gaming: Si', '239,90', 'corsair_gaming.jpg', 'Disponibile', 'Tastiera Corsair da Gaming'),
@@ -323,3 +309,37 @@ VALUES ('134', 'RX Vega 56', 'Marca: Gigabyte<br>Memoria: 8GB<br>Tecnologia: AMD
 ('143', 'GTX 1080Ti ROG', 'Marca: Asus<br>Memoria: 11GB<br>Tecnologia: Nvidia', '929,90', '4712900714555_MED.jpg', 'Disponibile', 'Scheda Video Nvidia da 11 Giga Byte'),
 ('144', 'GTX 1080Ti', 'Marca: Zotac<br>Memoria: 11GB<br>Tecnologia: Nvidia', '909,90', '4895173613081_MED.jpg', 'Disponibile', 'Scheda Video Nvidia da 11 Giga Byte'),
 ('145', 'GTX 1080 Founders', 'Marca: MSI<br>Memoria: 8GB<br>Tecnologia: Nvidia', '889,90', '4719072465315_MED.jpg', 'Disponibile', 'Scheda Video Nvidia da 11 Giga Byte');
+
+-- Struttura della tabella `users`
+DROP TABLE IF EXISTS `users`;
+CREATE TABLE `users` (
+	`user_id`            INT(11)                              NOT NULL
+	COMMENT 'auto incrementing user_id of each user, unique index',
+	`user_name`          VARCHAR(64) COLLATE utf8_unicode_ci  NOT NULL
+	COMMENT 'user''s name',
+	`user_username`      VARCHAR(64) COLLATE utf8_unicode_ci  NOT NULL
+	COMMENT 'user''s username, unique',
+	`user_password_hash` VARCHAR(255) COLLATE utf8_unicode_ci NOT NULL
+	COMMENT 'user''s password in salted and hashed format',
+	`user_email`         VARCHAR(64) COLLATE utf8_unicode_ci  NOT NULL
+	COMMENT 'user''s email, unique'
+)
+	ENGINE = InnoDB
+	DEFAULT CHARSET = utf8
+	COLLATE = utf8_unicode_ci
+	COMMENT ='user data';
+
+-- Indici per le tabelle `users`
+
+ALTER TABLE `users`
+	ADD PRIMARY KEY (`user_id`),
+	ADD UNIQUE KEY `user_name` (`user_name`),
+	ADD UNIQUE KEY `user_email` (`user_email`);
+
+-- AUTO_INCREMENT per la tabella `users`
+
+ALTER TABLE `users`
+	MODIFY `user_id` INT(11) NOT NULL AUTO_INCREMENT
+	COMMENT 'auto incrementing user_id of each user, unique index',
+	AUTO_INCREMENT = 0;
+COMMIT;
