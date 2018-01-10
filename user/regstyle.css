@@ -4,16 +4,25 @@
 
 }
 
-#regTitle h1 {
-
-    font-size: 1.5em;
-    background-color: #D32F2F;
-    text-align: center;
-    color: white;
-    font-weight: bold;
+#regTitle {
+    width: 100%;
     margin-bottom: 2em;
     margin-top: 2em;
-    padding: 1em 1em 1em 1em;
+    padding: 1em 0em 1em 0em;
+    background-color: #D32F2F;
+    text-align: center;
+}
+
+#regTitle h1 {
+    font-size: 1.5em;
+    color: white;
+    font-weight: bold;
+}
+
+#regTitle h2 {
+    padding-top: 1em;
+    font-size: 1.2em;
+    color: white;
 }
 
 #accountTitle h2 {
