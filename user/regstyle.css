@@ -64,13 +64,16 @@ input[type=password] {
 
 .alert{
     padding: 0.5em 1em;
-    margin: 1em 0;
+    margin-top: 3em;
+    margin-left: 30%;
+    margin-bottom: 3em;
     display: block;
     font-size: 1.286em;
     text-align: center;
     opacity: 0.7;
     color: white;
     float: left;
+    width: 40%;
 }
 .close{
     background-color: transparent;
@@ -96,9 +99,9 @@ input[type=password] {
 
 #asklog {
 
-    margin-left: 25%;
-    margin-top: 10em;
-    width: 50%;
+    margin-left: 30%;
+    margin-top: 0em;
+    width: 40%;
     text-align: center;
 }
 

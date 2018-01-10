@@ -82,6 +82,7 @@ class RegisterNewUser
             if (!$this->db_connection->connect_errno) {
 
                 // escaping, additionally removing everything that could be (html/javascript-) code
+                $name = $this->db_connection->real_escape_string(strip_tags($username, ENT_QUOTES));
                 $user_name = $this->db_connection->real_escape_string(strip_tags($username, ENT_QUOTES));
                 $user_email = $this->db_connection->real_escape_string(strip_tags($email, ENT_QUOTES));
 
@@ -93,14 +94,14 @@ class RegisterNewUser
                 $user_password_hash = password_hash($user_password, PASSWORD_DEFAULT);
 
                 // check if user or email address already exists
-                $sql = "SELECT * FROM users WHERE user_name = '$user_name' OR user_email = '$user_email'";
+                $sql = "SELECT * FROM users WHERE user_username = '$user_name' OR user_email = '$user_email'";
                 $query_check_user_name = $this->db_connection->query($sql);
 
                 if ($query_check_user_name->num_rows == 1) {
                     $this->errors[] = "Sorry, that username / email address is already taken.";
                 } else {
                     // write new user's data into database
-                    $sql = "INSERT INTO users (name, user_name, user_password_hash, user_email)
+                    $sql = "INSERT INTO users (user_name, user_username, user_password_hash, user_email)
                             VALUES('" . $name . "', '" . $user_name . "', '" . $user_password_hash . "', '" . $user_email . "');";
                     $query_new_user_insert = $this->db_connection->query($sql);
 

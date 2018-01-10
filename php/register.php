@@ -4,9 +4,6 @@ include_once '../php/connection.php';
 include_once '../php/classes/RegisterNewUser.php';
 
 
-$MESSAGE_ERROR_SAME_USER = 'User with same username already registered';
-$MESSAG_ERROR_SAME_EMAIL = 'User with same e-mail address already registered';
-
 // Get all POST variables
 $username = $_POST['username'];
 $name = $_POST['name'];
