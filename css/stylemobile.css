@@ -1,0 +1,148 @@
+/******************************************************************
+ Media Query Tablet
+******************************************************************/
+
+/***** Header *****/
+
+/***** Footer *****/
+
+/***** Home *****/
+
+@media only screen and (max-width: 955px) {
+
+    #homeBanner img {
+        margin-top: 3.8em;
+    }
+    #homeContentTop h1 {
+        font-size: 2em;
+    }
+
+    #homeContentTop p {
+        font-size: 1.5em;
+    }
+
+    .homeInfo h1 {
+        font-size: 2em;
+    }
+
+    .homeInfo h2 {
+        font-size: 1.8em;
+    }
+
+    .homeTitles {
+        margin-bottom: 0em;
+        width: 60%;
+        margin-left: 20%;
+    }
+
+    .homeTitles h1 {
+        font-size: 3em;
+        margin-bottom: 1em;
+        text-align: center;
+    }
+
+    .homeContainersOut{
+        width: 100%;
+        margin: 0;
+        margin-top: 2em;
+    }
+
+    .homeContainersIn {
+        margin: 0;
+        width: 100%;
+    }
+
+    #homeImgVetrina {
+        padding-top: 2em;
+        padding-bottom: 0em;
+    }
+
+    #homeTitleBottom h1 {
+        font-size: 3em;
+    }
+
+    #homeLoghi img {
+        width: 15%;
+        margin-left: 8%;
+        float: left;
+        padding-top: 1em;
+    }
+
+}
+
+/***** Configurazioni *****/
+
+/***** Catalogo *****/
+
+/***** Categorie *****/
+
+/***** Contatti *****/
+
+
+
+/******************************************************************
+Media Query Mobile
+******************************************************************/
+
+/***** Header *****/
+
+/***** Footer *****/
+
+/***** Home *****/
+
+@media only screen and (max-width: 767px) {
+
+    #homeBanner img {
+        margin-top: 3.58em;
+    }
+
+    #homeContentTop p {
+        font-size: 0.8em;
+    }
+
+     #homeContentTop h1 {
+        font-size: 1.5em;
+    }
+
+    .homeInfo h1 {
+        font-size: 1em;
+    }
+
+    .homeInfo h2 {
+        font-size: 1em;
+    }
+
+    .homeTitles {
+        width: 60%;
+        margin-left: 20%;
+    }
+
+    .homeTitles h1 {
+        font-size: 1.5em;
+        margin-top: 1em;
+        text-align: center;
+    }
+
+    .homeContainersOut{
+        width: 100%;
+        margin: 0;
+    }
+
+    .homeContainersIn {
+        margin-left: 0;
+        width: 100%;
+    }
+
+    #homeTitleBottom {
+        font-size: 0.7em;
+    }
+
+}
+
+/***** Configurazioni *****/
+
+/***** Catalogo *****/
+
+/***** Categorie *****/
+
+/***** Contatti *****/
