@@ -81,6 +81,32 @@
     }
 
 /***** Footer *****/
+    #footer {
+        font-size: 2em;
+    }
+    #footer a {
+        font-size: 1.2em;
+    }
+    #footer a:hover {
+        font-size: 1.2em;
+    }
+    .footerContainer {
+        width: 95%;
+        float: left;
+    }
+    .footerContainer p {
+        font-size: 1em;
+        padding: 0.5em 0.5em 0.5em 0.5em;
+    }
+    .footerContainer h2 {
+        display: none;
+    }
+    #footerLoghiSocial {
+        margin-top: 0.5em;
+    }
+    #footerLoghiSocial a{
+        margin-left: 9%;
+    }
 
 /***** Home *****/
     #homeBanner img {
@@ -181,6 +207,15 @@ Media Query Mobile
     }
 
 /***** Footer *****/
+    #footer {
+        font-size: 0.8em;
+    }
+    #footer a {
+        font-size: 1.2em;
+    }
+    #footer a:hover {
+        font-size: 1.5em;
+    }
 
 /***** Home *****/
 
