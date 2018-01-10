@@ -24,6 +24,39 @@ Home
 /******************************************************************
 Configurazioni
 ******************************************************************/
+    #configHorizontalMenu h1{
+        color: black;
+    }
+    .configConfigurazioniTop {
+        width: 100%;
+        background-color: #FFFFFF;
+    }
+    .configImg {
+        width: 40%;
+        float: left;
+        margin-top: 3em;
+    }
+    .configImg img {
+        max-width: 70%;
+    }
+    .configDescription {
+        background-color: #FFFFFF;
+        padding: 2em;
+        width: 50%;
+    }
+    .configConfigurazioniTop p {
+        color: black;
+    }
+    .configConfigurazioniTop h2 {
+        color: black;
+        padding-top: 1em;
+    }
+    .configConfigurazioniTop h1 {
+        color: black;
+    }
+    .configSpecification {
+        padding-top: 2.5em;
+    }
 
 /******************************************************************
 Catalogo

@@ -157,6 +157,72 @@
     }
 
 /***** Configurazioni *****/
+    #configTitle {
+        margin-top: 0em;
+    }
+    #configTitle h1 {
+        font-size: 2em;
+        padding-top: 3em;
+        margin-top: 0em;
+    }
+    .configImg{
+        width: 100%;
+        float: none;
+    }
+    .configImg img {
+        float: none;
+        max-width: none;
+        width: 90%;
+        margin: 5%;
+    }
+    .configDescription {
+        float: none;
+        clear: none;
+        margin: 0%;
+        width: 90%;
+    }
+    .configConfigurazioniTop p {
+        font-size: 1.5em;
+    }
+    .configConfigurazioniTop h1 {
+        font-size: 2.5em;
+        padding-top: 0em;
+        padding-bottom: 0em;
+    }
+    .configSpecification h1 {
+        font-size: 2.5em;
+    }
+    .configContainerSections {
+        height: 5em;
+    }
+    .configContainerSections p {
+        font-size: 0.9em;
+    }
+    .configContainer {
+        margin-bottom: 2em;
+    }
+    .configContainer h1 {
+        font-size: 1.3em;
+    }
+    .configTornaSuMobile {
+        width: auto;
+        margin-right: 10%;
+        padding: 1em;
+        float: right;
+        background-color: #B71C1C;
+    }
+    .configTornaSuMobile a {
+        color: white;
+        font-size: 1em;
+        text-align: right;
+        text-decoration: none;
+    }
+    .configTornaSuMobile:hover {
+        background-color: #212121;
+    }
+    .configTornaSu {
+        display: none;
+    }
 
 /***** Catalogo *****/
 
@@ -271,6 +337,40 @@ Media Query Mobile
     }
 
 /***** Configurazioni *****/
+    #configTitle h1 {
+        font-size: 1em;
+        padding-top: 5em;
+    }
+    .configDescription {
+        float: none;
+        clear: none;
+        margin: 0%;
+        width: 80%;
+    }
+    .configConfigurazioniTop p {
+        font-size: 0.8em;
+    }
+    .configConfigurazioniTop h1 {
+        font-size: 1.5em;
+    }
+    .configConfigurazioniTop h2 {
+        font-size: 1em;
+    }
+    .configSpecification h1 {
+        font-size: 1.2em;
+    }
+    .configContainerSections {
+        height: 2em;
+    }
+    .configContainerSections p {
+        font-size: 0.5em;
+    }
+    .configContainer {
+        margin-bottom: 2em;
+    }
+    .configContainer h1 {
+        font-size: 0.5em;
+    }
 
 /***** Catalogo *****/
 

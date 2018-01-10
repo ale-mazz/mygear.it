@@ -293,6 +293,116 @@ Home
 /********************************************************************************
 Configurazioni
 ********************************************************************************/
+#configTitle {
+    width: 100%;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+#configHorizontalMenu {
+    width: 100%;
+}
+#configHorizontalMenu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #B71C1C;
+}
+#configHorizontalMenu li {
+    float: left;
+    width: 33.33%;
+}
+#configHorizontalMenu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 0.9em;
+    padding: 0.2em;
+}
+#configHorizontalMenu li a:hover {
+    background-color: #212121;
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+}
+.configConfigurazioniTop {
+    width: 94%;
+    float: left;
+    background-color: #424242;
+    padding: 3%;
+    margin-top: 2em;
+}
+#configTitle h1 {
+    font-size: 2em;
+    text-align: center;
+    color: #000000;
+}
+.configImg {
+    width: 40%;
+    float: left;
+}
+.configImg img {
+    max-width: 70%;
+    margin: 5%;
+}
+.configDescription {
+    float: left;
+    background-color: #212121;
+    padding: 2em;
+    width: 52%;
+}
+.configConfigurazioniTop p {
+    font-size: 1em;
+    text-align: left;
+    color: white;
+}
+.configConfigurazioniTop h2 {
+    font-size: 1.5em;
+    text-align: left;
+    padding-top: 2em;
+    color: white;
+}
+.configConfigurazioniTop h1 {
+    font-size: 2em;
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    color: white;
+}
+.configSpecification {
+    width: 100%;
+    float: left;
+    clear: left;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+.configSpecification h1 {
+    font-size: 2em;
+    text-align: center;
+}
+.configContainer {
+    width: 30%;
+    float: left;
+    margin-left: 2.5%;
+    background-color: white;
+    padding-top: 1em;
+    font-size: 1.2em;
+}
+.configContainer h1 {
+    font-size: 0.8em;
+    padding-bottom: 0.3em;
+    color: #000000;
+    text-align: left;
+}
+.configContainerSections {
+    width: 100%;
+    height: 1.5em;
+    padding-bottom: 1.5em;
+}
+.configContainerSections p {
+    font-size: 0.7em;
+}
 
 /********************************************************************************
 Catalogo
@@ -356,11 +466,11 @@ Contatti
 }
 
 /********************************************************************************
-Bordo (home, catalogo, categorie, ?other?)
+Media Query
 ********************************************************************************/
-
 @media only screen and (min-width: 956px) {
 
+/***** Bordo (home, catalogo, categorie, ?other?) *****/
     #homeTitleBottom:after {
         content: "";
         position: absolute;
@@ -402,6 +512,27 @@ Bordo (home, catalogo, categorie, ?other?)
     }
      .homeContainersIn {
         position: relative;
+    }
+
+/***** TORNA-SU configurazioni *****/
+    .configTornaSu {
+        width: auto;
+        margin-right: 10%;
+        padding: 1em;
+        float: right;
+        background-color: #B71C1C;
+    }
+    .configTornaSu a {
+        color: white;
+        font-size: 1em;
+        text-align: right;
+        text-decoration: none;
+    }
+    .configTornaSu:hover {
+        background-color: #212121;
+    }
+    .configTornaSuMobile {
+        display: none;
     }
 
 }
