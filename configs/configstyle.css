@@ -155,19 +155,8 @@
     font-size: 0.7em;
 }
 
-.configTornaSu {
-    width: auto;
-    margin-right: 10%;
-    padding: 1em;
-    float: right;
-    background-color: #424242;
-}
 
-.configTornaSu a {
-    color: white;
-    font-size: 1em;
-    text-align: right;
-}
+
 
 /******************************************************************
  Media Query Tablet
@@ -234,6 +223,30 @@
         font-size: 1.3em;
     }
 
+    .configTornaSuMobile {
+        width: auto;
+        margin-right: 10%;
+        padding: 1em;
+        float: right;
+        background-color: #B71C1C;
+    }
+
+    .configTornaSuMobile a {
+        color: white;
+        font-size: 1em;
+        text-align: right;
+        text-decoration: none;
+    }
+
+    .configTornaSuMobile:hover {
+        background-color: #212121;
+    }
+
+    .configTornaSu {
+        display: none;
+    }
+
+
 }
 /******************************************************************
  Media Query Mobile
@@ -285,6 +298,32 @@
         font-size: 0.5em;
     }
 
+}
+
+@media only screen and (min-width: 956px) {
+
+    .configTornaSu {
+        width: auto;
+        margin-right: 10%;
+        padding: 1em;
+        float: right;
+        background-color: #B71C1C;
+    }
+
+    .configTornaSu a {
+        color: white;
+        font-size: 1em;
+        text-align: right;
+        text-decoration: none;
+    }
+
+    .configTornaSu:hover {
+        background-color: #212121;
+    }
+
+    .configTornaSuMobile {
+        display: none;
+    }
 }
 
 
