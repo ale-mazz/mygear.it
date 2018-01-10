@@ -75,6 +75,32 @@
 }
 
 /******************************************************************
+ Print Style Categ
+******************************************************************/
+
+@media print {
+
+    .product {
+        margin: 2em 0% 3em 4%;
+        width: 20%;
+        float: left;
+        text-align: center;
+    }
+
+    .product_price h3 {
+        margin-top: 4%;
+        float:left;
+        width: 100%;
+    }
+
+    .product_availability h3 {
+        float: left;
+        width: 100%;
+    }
+
+}
+
+/******************************************************************
  Media Query Tablet
 ******************************************************************/
 
@@ -116,14 +142,33 @@ Media Query Mobile
 @media only screen and (max-width: 767px) {
 
     #title_cat h1{
-        font-size: 1.4em;
+        font-size: 1.5em;
     }
 
     .product {
         position: static;
-        width: 40%;
-        margin-left: 7%;
+        width: 30%;
+        margin-left: 10%;
+        margin-right: 10%;
         height: 330px;
     }
 
+    .product_name h1 {
+        font-size: 1.1em;
+    }
+
+    .product_price h3 {
+        margin-top: 1%;
+        float:left;
+        width: 100%;
+    }
+
+    .product_availability h3 {
+        float: left;
+        width: 100%;
+    }
+
+    .imageCat {
+    width: 70%;
+    }
 }

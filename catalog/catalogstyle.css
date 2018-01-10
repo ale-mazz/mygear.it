@@ -101,13 +101,6 @@
         padding: 0em;
     }
 
-    .icona_categoria {
-        max-width: 70%;
-        margin-left: 4%;
-        margin-bottom: 1em;
-        margin: 2em;
-    }
-
 }
 
 /******************************************************************
@@ -116,36 +109,25 @@ Media Query Mobile
 
 @media only screen and (max-width: 767px) {
 
-    #catalogTitle{
-        margin-bottom: 1em;
-    }
-
     #catalogTitle h1 {
-        font-size: 1.4em;
+        font-size: 1.5em;
     }
 
     .catalogContainerOut h2 {
-        font-size: 0.87em;
-        width: 60%;
+        font-size: 1.1em;
+        width: 100%;
         text-align: center;
     }
 
     .catalogContainerOut {
-        width: 20%;
-        margin-left: 20%;
-        margin-top: 0.5em;
-    }
-
-    .catalogContainerIn {
         position: static;
-        width: 90%;
-        float: none;
-        padding-left: 5%;
+        width: 30%;
+        margin-left: 10%;
+        margin-right: 10%;
     }
 
-    .icona_categoria {
-        max-width: 100%;
-        margin: 0%;
+    .catalogContainerIn img {
+        width: 70%;
     }
 
 }
