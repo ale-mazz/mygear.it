@@ -57,6 +57,9 @@ Configurazioni
     .configSpecification {
         padding-top: 2.5em;
     }
+    .configTornaSu{
+        display: none;
+    }
 
 /******************************************************************
 Catalogo
