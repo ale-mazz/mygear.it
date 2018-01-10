@@ -1,8 +1,8 @@
 @charset "UTF-8";
+
 /******************************************************************************
 Generale
 *******************************************************************************/
-
 * {
     padding: 0em;
     margin: 0em;
@@ -15,7 +15,6 @@ body {
 /********************************************************************************
 Header & Menu
 *******************************************************************************/
-
 header {
     width: 100%;
     background-color: #D32F2F;
@@ -102,7 +101,6 @@ header {
 /********************************************************************************
 Footer
 ********************************************************************************/
-
 #footer {
     float: left;
     margin-top: 3em;
@@ -307,6 +305,55 @@ Categorie
 /********************************************************************************
 Contatti
 ********************************************************************************/
+.contactsTitles {
+    padding-bottom: 0.5em;
+    border-bottom-style: solid;
+    border-bottom-color: #000000;
+    border-bottom-width: 0.1em;
+}
+.contactsTitles h1{
+    font-size: 2em;
+}
+#contactsWho{
+    text-align: center;
+    padding: 3em 7% 5em 7%;
+}
+#contactsWhere {
+    float:left;
+    text-align: center;
+    width: 40%;
+    margin-left: 7%;
+    margin-bottom: 2em;
+}
+#contactsHow {
+    text-align: center;
+    width: 40%;
+    margin-right: 7%;
+    float: right;
+    margin-bottom: 2em;
+}
+#contactsWho img{
+    width: 5em;
+    float: left;
+    padding: 0.5em 8em 0em 10em;
+}
+#contactsWhere img, #contactsHow img{
+    float:left;
+    clear: right;
+    text-align: left;
+    width: 5em;
+    padding: 0.5em 2em 0em 2em;
+}
+#contactsWho p {
+    margin: 1em 10em 0em 0em;
+
+}
+#contactsWhere p{
+    margin-top: 1em;
+}
+#contactsHow p{
+    margin-top: 0.3em;
+}
 
 /********************************************************************************
 Bordo (home, catalogo, categorie, ?other?)

@@ -3,7 +3,6 @@
 /******************************************************************
 Header & Footer
 ******************************************************************/
-
     #headerContainer, #headerDropMenu, #footer{
         display: none;
     }
@@ -11,16 +10,13 @@ Header & Footer
 /******************************************************************
 Home
 ******************************************************************/
-
     .homeInfo h1 {
         font-size: 1.2em;
         padding-bottom: 0.5em;
     }
-
     .homeInfo a {
         text-decoration: none;
     }
-
     .homeInfo p {
         padding-bottom: 1em;
     }
@@ -40,5 +36,21 @@ Categorie
 /******************************************************************
 Contatti
 ******************************************************************/
+    #contactsWhere{
+        float: none;
+    }
+    #contactsWho, #contactsWhere, #contactsHow {
+        width: 100%;
+        padding: 2em 0% 2em 0%;
+        margin: 0%;
+    }
+    #contactsWho img, #contactsWhere img, #contactsHow img{
+        width: 6em;
+        padding: 1em 8em 1em 8em;
+    }
+    #contactsWho p, #contactsWhere p, #contactsHow p{
+        margin: 1em 6em 0em 0em;
+        font-size: 1.2em;
+    }
 
 }

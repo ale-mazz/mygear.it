@@ -5,7 +5,6 @@
 @media only screen and (max-width: 955px) {
 
 /***** Header *****/
-
     .headerMenu {
         display: none;
     }
@@ -164,6 +163,24 @@
 /***** Categorie *****/
 
 /***** Contatti *****/
+    #contactsWhere{
+        float: none;
+    }
+    #contactsWho{
+        width: 90%;
+        padding: 6em 5% 3em 5%;
+    }
+    #contactsWhere, #contactsHow{
+        width: 90%;
+        margin: 2em 5% 3em 5%;
+    }
+    #contactsWho img, #contactsWhere img, #contactsHow img{
+        width: 6em;
+        padding: 1em 8em 1em 8em;
+    }
+    #contactsWho p, #contactsWhere p, #contactsHow p{
+        margin: 1em 6em 0em 0em;
+    }
 
 }
 
@@ -174,8 +191,7 @@ Media Query Mobile
 
 @media only screen and (max-width: 767px) {
 
-    /***** Header *****/
-
+/***** Header *****/
     header {
         height: 4em;
     }
@@ -218,7 +234,6 @@ Media Query Mobile
     }
 
 /***** Home *****/
-
     #homeBanner img {
         margin-top: 3.58em;
     }
@@ -234,7 +249,6 @@ Media Query Mobile
     .homeInfo h2 {
         font-size: 1em;
     }
-
     .homeTitles {
         width: 60%;
         margin-left: 20%;
@@ -263,5 +277,14 @@ Media Query Mobile
 /***** Categorie *****/
 
 /***** Contatti *****/
+    #contactsWho img, #contactsWhere img, #contactsHow img{
+        display: none;
+    }
+    .contactsTitles{
+        font-size: 1.5em;
+    }
+    #contactsWho p, #contactsWhere p, #contactsHow p{
+        width: 100%;
+    }
 
 }
