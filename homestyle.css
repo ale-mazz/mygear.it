@@ -94,12 +94,19 @@ Corpo Home
     -moz-transform: scale(1.2);
 }
 
-/*
-.structural {
-    margin-left: 30%;
-    margin-top: 5em;
+#homeRegistrati {
+    width: 100%;
+    float: left;
+    margin-top: 2em;
+    padding-bottom: 1em;
+    padding-top: 1em;
 }
-*/
+
+#homeRegistrati p {
+    text-align: center;
+    color: black;
+    font-size: 1.5em;
+}
 
 #homeTitleBottom {
     float: left;
