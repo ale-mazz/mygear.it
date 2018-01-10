@@ -38,6 +38,7 @@
     width: 17%;
     float: left;
     text-align: center;
+    height: 200px;
 }
 
 /* posizione immagine "all'interno del bordo" */
@@ -91,6 +92,7 @@
         position: static;
         width: 28%;
         margin-left: 2.3%;
+        height: 190px;
     }
 
     .catalogContainerIn {
@@ -114,7 +116,7 @@ Media Query Mobile
     }
 
     .catalogContainerOut h2 {
-        font-size: 0.6em;
+        font-size: 1.1em;
         width: 100%;
         text-align: center;
     }
@@ -124,6 +126,7 @@ Media Query Mobile
         width: 30%;
         margin-left: 10%;
         margin-right: 10%;
+        height: 130px;
     }
 
     .catalogContainerIn img {
