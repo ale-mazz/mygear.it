@@ -1,6 +1,103 @@
+@charset "UTF-8";
+/******************************************************************************
+Generale
+*******************************************************************************/
+
+* {
+    padding: 0em;
+    margin: 0em;
+}
+body {
+    font-family: 'Lato';
+    background-color: white;
+}
+
 /********************************************************************************
-Header
-********************************************************************************/
+Header & Menu
+*******************************************************************************/
+
+header {
+    width: 100%;
+    background-color: #D32F2F;
+    height: 4em;
+}
+.headerMenu {
+    margin: auto;
+    float: right;
+}
+#headerContainer {
+    background: #B71C1C;
+    height: 4.6em;
+}
+.headerMenu ul {
+    list-style-type: none;
+    font-size: 1em;
+    float: right;
+    margin-top: 0em;
+}
+.headerMenu li {
+    float: left;
+    padding-top: 0.4em;
+    padding-bottom: 0.9em;
+    padding-left: 0.5em;
+    padding-right: 0.8em;
+}
+.headerMenu li a {
+    display: block;
+    color: white;
+    padding: 1em 1em;
+    text-decoration: none;
+}
+.hover {
+    display: inline-block;
+    position: relative;
+}
+.hover:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+}
+.selected {
+    font-weight: 900;
+}
+.headerLogo {
+    top: 0px;
+    height: 3em;
+    width: auto;
+    padding-left: 2em;
+    padding-top: 0.5em;
+}
+#headerButtonLogin {
+    -moz-appearance: button;
+    appearance: button;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    background-color: #D32F2F;
+    float: right;
+    border: none;
+    color: white;
+    padding: 1em 1em;
+    text-decoration: none;
+    font-size: 1em;
+    margin-top: 0.4em;
+    cursor: pointer;
+}
+
+/***** Media Query *****/
+@media only screen and (min-width: 956px) {
+    #headerHamburger {
+        display: none;
+    }
+    #headerDropMenu {
+        display: none;
+    }
+    #headerButtonLogin:hover {
+        -webkit-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+        -moz-transform: scale(1.2);
+    }
+}
 
 /********************************************************************************
 Footer
@@ -13,12 +110,10 @@ Home
     width: 100%;
     height: auto;
 }
-
 #homeContentTop {
     width: 100%;
     margin-top: 3em;
 }
-
 #homeContentTop p {
     height: 1em;
     text-align: left;
@@ -26,24 +121,20 @@ Home
     color: #000000;
     padding-top: 1em;
 }
-
 .homeContainersOut{
     float: left;
     width: 30%;
     margin-left: 1.25%;
     margin-right: 1.25%;
 }
-
 .homeTitles {
     text-align: center;
 }
-
 .homeTitles h1 {
     font-size: 1.5em;
     color: #000000;
     text-align: center;
 }
-
 .homeContainersIn {
     margin-top: 1.5em;
     margin-left: 10%;
@@ -52,51 +143,42 @@ Home
     float: left;
     background-color: white;
 }
-
 .homeContainersIn img {
     width: 80%;
     margin-left: 10%;
     margin-right: 10%;
 }
-
 #homeImgVetrina {
     padding-top: 17.5%;
     padding-bottom: 18%;
 }
-
 .homeInfo {
     padding: 1em;
 }
-
 .homeInfo h1 {
     font-size: 1em;
     padding-bottom: 0.5em;
 }
-
 .footerTopBlockTitle_home {
     border-color: #000000;
     border-bottom-style: solid;
     border-bottom-width: 0.1em;
 }
-
 .homeInfo h2 {
     font-size: 0.9em;
     padding-top: 1em;
 }
-
 .homeInfo a {
     color: #000000;
     display: inline-block;
     position: relative;
 }
-
 .homeInfo a:hover {
     color: #D50000;
     -webkit-transform: scale(1.2);
     -ms-transform: scale(1.2);
     -moz-transform: scale(1.2);
 }
-
 #homeRegistrati {
     width: 100%;
     float: left;
@@ -104,17 +186,14 @@ Home
     padding-bottom: 1em;
     padding-top: 1em;
 }
-
 #homeRegistrati p {
     text-align: center;
     color: #000000;
     font-size: 1.5em;
 }
-
 #homeRegistrati a:hover {
     color: #D50000;
 }
-
 #homeTitleBottom {
     float: left;
     width: 100%;
@@ -122,24 +201,20 @@ Home
     padding-top: 1em;
     padding-bottom: 1em;
 }
-
 #homeTitleBottom h1 {
     text-align: center;
     color: black;
 }
-
 #homeLoghi {
     float: left;
     clear: left;
     width: 100%;
 }
-
 #homeLoghi img {
     width: 8%;
     margin-left: 4%;
     text-decoration: none;
 }
-
 #homeLoghi a {
     text-decoration: none;
 }
@@ -172,7 +247,6 @@ Bordo (home, catalogo, categorie, ?other?)
         top: -3px;
         left: 20px;
     }
-
     #homeTitleBottom:after {
         right: 20px;
         height: 3px;
@@ -181,20 +255,15 @@ Bordo (home, catalogo, categorie, ?other?)
         background-image: -moz-linear-gradient(left, transparent, #9E9E9E, transparent);
         background-image: -o-linear-gradient(left, transparent, #9E9E9E, transparent);
     }
-
     #homeTitleBottom {
         position: relative;
     }
-
-
-    .homeContainersIn:before,
-    .homeContainersIn:after {
+    .homeContainersIn:before, .homeContainersIn:after {
         content: "";
         position: absolute;
         top: -3px;
         right: -3px;
     }
-
     .homeContainersIn:before {
         bottom: -2px;
         width: 2px;
@@ -203,7 +272,6 @@ Bordo (home, catalogo, categorie, ?other?)
         background-image: -moz-linear-gradient(#9E9E9E, transparent);
         background-image: -o-linear-gradient(#9E9E9E, transparent);
     }
-
     .homeContainersIn:after {
         left: -2px;
         height: 2px;
@@ -212,7 +280,6 @@ Bordo (home, catalogo, categorie, ?other?)
         background-image: -moz-linear-gradient(left, transparent, #9E9E9E);
         background-image: -o-linear-gradient(left, transparent, #9E9E9E);
     }
-
      .homeContainersIn {
         position: relative;
     }

@@ -2,65 +2,128 @@
  Media Query Tablet
 ******************************************************************/
 
+@media only screen and (max-width: 955px) {
+
 /***** Header *****/
+
+    .headerMenu {
+        display: none;
+    }
+    header {
+        width: 100%;
+        background-color: #D32F2F;
+        height: 4em;
+        display: inline-block;
+        font-size: 0.8em;
+        position: fixed;
+    }
+    #headerContainer {
+        position: fixed;
+        width: 100%;
+        height: 3.8em;
+    }
+    .headerLogo {
+        float: left;
+        height: 2.6em;
+        padding-left: 1.5em;
+        padding-top: 0.7em;
+    }
+    #headerHamburger {
+        display: block;
+        background: none;
+        position: absolute;
+        top: 0;
+        right: 0;
+        line-height: 0.6em;
+        padding: 0.45em 0.45em 0.45em 0.45em;
+        color: white;
+        border: 0;
+        font-size: 3em;
+        font-weight: bold;
+        cursor: pointer;
+        outline: none;
+    }
+    #headerDropMenu {
+        font-weight: bold;
+        font-size: 2em;
+        background: #EEEEEE;
+        text-align: center;
+        position: fixed;
+        width: 100%;
+        top: 1.87em;
+    }
+    #headerDropMenu ul {
+        list-style-type: none;
+        list-style-image: none;
+    }
+    #headerDropMenu li {
+        display: block;
+        padding: 15px 0 15px 0;
+        border-bottom: #E0E0E0 1px solid;
+    }
+    #headerDropMenu a {
+        text-decoration: none;
+        color: #424242;
+    }
+    .headerMenuClose {
+        height: 0;
+        display: none;
+    }
+    .headerMenuOpen {
+        height: auto;
+        display: block;
+    }
+    #headerButtonLogin {
+        font-size: 1.5em;
+        padding: 0.5em 0.5em 0.5em 0.5em;
+        margin-top: 0.4em;
+        margin-right: 5em;
+    }
 
 /***** Footer *****/
 
 /***** Home *****/
-
-@media only screen and (max-width: 955px) {
-
     #homeBanner img {
         margin-top: 3.8em;
     }
     #homeContentTop h1 {
         font-size: 2em;
     }
-
     #homeContentTop p {
         font-size: 1.5em;
     }
-
     .homeInfo h1 {
         font-size: 2em;
     }
-
     .homeInfo h2 {
         font-size: 1.8em;
     }
-
     .homeTitles {
         margin-bottom: 0em;
         width: 60%;
         margin-left: 20%;
     }
-
     .homeTitles h1 {
         font-size: 3em;
         margin-bottom: 1em;
         text-align: center;
     }
-
     .homeContainersOut{
         width: 100%;
         margin: 0;
         margin-top: 2em;
     }
-
     .homeContainersIn {
         margin: 0;
         width: 100%;
     }
-
     #homeImgVetrina {
         padding-top: 2em;
         padding-bottom: 0em;
     }
-
     #homeTitleBottom h1 {
         font-size: 3em;
     }
-
     #homeLoghi img {
         width: 15%;
         margin-left: 8%;
@@ -68,8 +131,6 @@
         padding-top: 1em;
     }
 
-}
-
 /***** Configurazioni *****/
 
 /***** Catalogo *****/
@@ -78,36 +139,63 @@
 
 /***** Contatti *****/
 
+}
 
 
 /******************************************************************
 Media Query Mobile
 ******************************************************************/
 
-/***** Header *****/
+@media only screen and (max-width: 767px) {
+
+    /***** Header *****/
+
+    header {
+        height: 4em;
+    }
+    #headerContainer {
+        height: 3.8em;
+    }
+    .headerLogo {
+        width: 14em;
+        height: auto;
+        padding-top: 0.7em;
+        padding-left: 1em;
+    }
+    #headerButtonLogin {
+        font-size: 1.2em;
+        margin-right: 3.5em;
+        margin-top: 0.8em;
+        padding: 0.5em 0.5em 0.5em 0.5em;
+    }
+    #headerHamburger {
+        font-size: 2.5em;
+        margin-top: 0.2em;
+        margin-right: 0.13em;
+        padding: 0.25em 0.25em 0.25em 0.25em;
+        line-height: 0.9em;
+    }
+    #headerDropMenu {
+        font-size: 1.5em;
+        top: 2.52em;
+    }
 
 /***** Footer *****/
 
 /***** Home *****/
 
-@media only screen and (max-width: 767px) {
-
     #homeBanner img {
         margin-top: 3.58em;
     }
-
     #homeContentTop p {
         font-size: 0.8em;
     }
-
      #homeContentTop h1 {
         font-size: 1.5em;
     }
-
     .homeInfo h1 {
         font-size: 1em;
     }
-
     .homeInfo h2 {
         font-size: 1em;
     }
@@ -116,28 +204,22 @@ Media Query Mobile
         width: 60%;
         margin-left: 20%;
     }
-
     .homeTitles h1 {
         font-size: 1.5em;
         margin-top: 1em;
         text-align: center;
     }
-
     .homeContainersOut{
         width: 100%;
         margin: 0;
     }
-
     .homeContainersIn {
         margin-left: 0;
         width: 100%;
     }
-
     #homeTitleBottom {
         font-size: 0.7em;
     }
-
-}
 
 /***** Configurazioni *****/
 
@@ -146,3 +228,5 @@ Media Query Mobile
 /***** Categorie *****/
 
 /***** Contatti *****/
+
+}
