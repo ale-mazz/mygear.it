@@ -122,9 +122,10 @@ Media Query Mobile
     .catalogContainerOut {
         position: static;
         width: 40%;
+        margin-top: 5%;
         margin-left: 5%;
         margin-right: 5%;
-        height: 130px;
+        height: 170px;
     }
 
     .catalogContainerIn img {
