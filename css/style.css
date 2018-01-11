@@ -68,7 +68,6 @@ header {
 }
 #headerButtonLogin {
     -moz-appearance: button;
-    appearance: button;
     text-decoration: none;
     display: inline-block;
     position: relative;
@@ -77,9 +76,9 @@ header {
     border: none;
     color: white;
     padding: 1em 1em;
-    text-decoration: none;
     font-size: 1em;
     margin-top: 0.4em;
+    margin-right: 0.4em;
     cursor: pointer;
 }
 
@@ -92,9 +91,9 @@ header {
         display: none;
     }
     #headerButtonLogin:hover {
-        -webkit-transform: scale(1.2);
-        -ms-transform: scale(1.2);
-        -moz-transform: scale(1.2);
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        -moz-transform: scale(1.1);
     }
 }
 
