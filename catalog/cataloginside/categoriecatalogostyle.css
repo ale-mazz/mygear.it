@@ -74,6 +74,40 @@
     float: right;
 }
 
+#catalogVerticalMenu {
+    width: 20%;
+    float: left;
+    margin-bottom: 55%;
+}
+
+#catalogVerticalMenu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #B71C1C;
+    width: 200px;
+}
+
+#catalogVerticalMenu li {
+    padding: 0.4em;
+    border-top: solid;
+    border-bottom: solid;
+    border-color: white;
+    border-width: 2px;
+}
+
+#catalogVerticalMenu a {
+    display: block;
+    color: white;
+    padding: 0.15em 0.2em;
+    text-decoration: none;
+    font-size: 0.9em;
+}
+
+#catalogVerticalMenu li:hover {
+    background-color: #212121;
+}
+
 /******************************************************************
  Print Style Categ
 ******************************************************************/
@@ -96,6 +130,10 @@
     .product_availability h3 {
         float: left;
         width: 100%;
+    }
+
+    #catalogVerticalMenu{
+        display: none;
     }
 
 }
@@ -131,6 +169,10 @@
 
     .product_description p {
         font-size: 0.75em;
+    }
+
+    #catalogVerticalMenu{
+        display: none;
     }
 
 }
@@ -171,4 +213,9 @@ Media Query Mobile
     .imageCat {
     width: 70%;
     }
+
+    #catalogVerticalMenu{
+        display: none;
+    }
+
 }
