@@ -10,35 +10,10 @@
     color: #000000;
 }
 
-.product:before,
-.product:after {
-    content: "";
-    position: absolute;
-    top: -3px;
-    right: -3px;
-}
-
-.product:before {
-    bottom: -2px;
-    width: 2px;
-    background-image: -webkit-gradient(linear, 0 100%, 0 0, from(#9E9E9E), to(transparent));
-    background-image: -webkit-linear-gradient(#9E9E9E, transparent);
-    background-image: -moz-linear-gradient(#9E9E9E, transparent);
-    background-image: -o-linear-gradient(#9E9E9E, transparent);
-}
-
-.product:after {
-    left: -2px;
-    height: 2px;
-    background-image: -webkit-gradient(linear, 0 0, 100% 0, from(transparent), to(#9E9E9E));
-    background-image: -webkit-linear-gradient(left, transparent, #9E9E9E);
-    background-image: -moz-linear-gradient(left, transparent, #9E9E9E);
-    background-image: -o-linear-gradient(left, transparent, #9E9E9E);
-}
-
 .product {
     margin: 1em 1.5% 1em 1.5%;
     width: 17%;
+    height: 23em;
     float: left;
     background-color: white;
     position: relative;
@@ -192,9 +167,9 @@ Media Query Mobile
     .product {
         position: static;
         width: 30%;
+        height: 320px;
         margin-left: 10%;
         margin-right: 10%;
-        height: 330px;
     }
 
     .product_name h1 {
@@ -220,4 +195,31 @@ Media Query Mobile
         display: none;
     }
 
+}
+
+
+.product:before,
+.product:after {
+    content: "";
+    position: absolute;
+    top: -3px;
+    right: -3px;
+}
+
+.product:before {
+    bottom: -2px;
+    width: 2px;
+    background-image: -webkit-gradient(linear, 0 100%, 0 0, from(#9E9E9E), to(transparent));
+    background-image: -webkit-linear-gradient(#9E9E9E, transparent);
+    background-image: -moz-linear-gradient(#9E9E9E, transparent);
+    background-image: -o-linear-gradient(#9E9E9E, transparent);
+}
+
+.product:after {
+    left: -2px;
+    height: 2px;
+    background-image: -webkit-gradient(linear, 0 0, 100% 0, from(transparent), to(#9E9E9E));
+    background-image: -webkit-linear-gradient(left, transparent, #9E9E9E);
+    background-image: -moz-linear-gradient(left, transparent, #9E9E9E);
+    background-image: -o-linear-gradient(left, transparent, #9E9E9E);
 }
