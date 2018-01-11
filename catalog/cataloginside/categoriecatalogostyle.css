@@ -65,13 +65,15 @@
 .product_availability h3 {
     font-size: 0.9em;
     margin-top: 10%;
+    float: left;
+    width: 100%;
 }
 
 .product_price h3 {
     font-size: 0.9em;
     margin-right: 10%;
-    margin-top: -6%;
-    float: right;
+    float: left;
+    width: 100%;
 }
 
 #catalogVerticalMenu {
