@@ -35,7 +35,7 @@
         right: 0;
         line-height: 0.6em;
         padding: 0.45em 0.45em 0.45em 0.45em;
-        color: white;
+        color: #FFFFFF;
         border: 0;
         font-size: 3em;
         font-weight: bold;
@@ -83,12 +83,7 @@
     #footer {
         font-size: 2em;
     }
-    #footer a {
-        font-size: 1.2em;
-    }
-    #footer a:hover {
-        font-size: 1.2em;
-    }
+
     .footerContainer {
         width: 95%;
         float: left;
@@ -97,15 +92,11 @@
         font-size: 1em;
         padding: 0.5em 0.5em 0.5em 0.5em;
     }
-    .footerContainer h2 {
-        display: none;
-    }
+
     #footerLoghiSocial {
         margin-top: 0.5em;
     }
-    #footerLoghiSocial a{
-        margin-left: 9%;
-    }
+
 
 /***** Home *****/
     #homeBanner img {
@@ -212,13 +203,14 @@
         background-color: #B71C1C;
     }
     .configTornaSuMobile a {
-        color: white;
+        color: #FFFFFF;
         font-size: 1em;
         text-align: right;
         text-decoration: none;
     }
-    .configTornaSuMobile:hover {
-        background-color: #212121;
+
+    .configTornaSuMobile a:visited {
+        text-decoration: none;
     }
     .configTornaSu {
         display: none;
@@ -292,12 +284,6 @@ Media Query Mobile
     #footer {
         font-size: 0.8em;
     }
-    #footer a {
-        font-size: 1.2em;
-    }
-    #footer a:hover {
-        font-size: 1.5em;
-    }
 
 /***** Home *****/
     #homeBanner img {
@@ -337,6 +323,7 @@ Media Query Mobile
     }
 
 /***** Configurazioni *****/
+
     #configTitle h1 {
         font-size: 1em;
         padding-top: 5em;

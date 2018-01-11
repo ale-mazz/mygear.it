@@ -1,5 +1,5 @@
 #regform {
-    background-color: white;
+    background-color: #FFFFFF;
     margin: 7em 10em 7em 10em;
 
 }
@@ -8,7 +8,7 @@
 
     background-color: #D32F2F;
     text-align: center;
-    color: white;
+    color: #FFFFFF;
     font-weight: bold;
     font-size: 1.6em;
     margin-bottom: 2em;
@@ -37,7 +37,7 @@ input[type=password] {
 
 .signupbtn {
     background-color: #D32F2F;
-    color: white;
+    color: #FFFFFF;
     padding: 0.5em 0.5em 0.5em 0.5em;
     border: none;
     cursor: pointer;

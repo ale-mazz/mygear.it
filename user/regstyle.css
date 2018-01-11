@@ -1,5 +1,5 @@
 #registerForm {
-    background-color: white;
+    background-color: #FFFFFF;
     margin: 3em 10em 10em 10em;
 
 }
@@ -15,14 +15,14 @@
 
 #regTitle h1 {
     font-size: 1.5em;
-    color: white;
+    color: #FFFFFF;
     font-weight: bold;
 }
 
 #regTitle h2 {
     padding-top: 1em;
     font-size: 1.2em;
-    color: white;
+    color: #FFFFFF;
 }
 
 #accountTitle h2 {
@@ -53,7 +53,7 @@ input[type=password] {
 
 #submitButton {
     background-color: #D32F2F;
-    color: white;
+    color: #FFFFFF;
     padding: 0.5em 0.5em 0.5em 0.5em;
     border: none;
     cursor: pointer;
@@ -80,14 +80,14 @@ input[type=password] {
     font-size: 1.286em;
     text-align: center;
     opacity: 0.7;
-    color: white;
+    color: #FFFFFF;
     float: left;
     width: 40%;
 }
 .close{
     background-color: transparent;
     border: none;
-    color: white;
+    color: #FFFFFF;
     text-align: center;
     text-decoration: none;
     display: inline-block;

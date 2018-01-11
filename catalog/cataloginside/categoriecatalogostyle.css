@@ -15,7 +15,7 @@
     width: 17%;
     height: 25em;
     float: left;
-    background-color: white;
+    background-color: #FFFFFF;
     position: relative;
 }
 
@@ -69,13 +69,13 @@
     padding: 0.4em;
     border-top: solid;
     border-bottom: solid;
-    border-color: white;
+    border-color: #FFFFFF;
     border-width: 2px;
 }
 
 #catalogVerticalMenu a {
     display: block;
-    color: white;
+    color: #FFFFFF;
     padding: 0.15em 0.2em;
     text-decoration: none;
     font-size: 0.9em;
