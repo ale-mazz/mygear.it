@@ -41,14 +41,14 @@
     font-size: 0.9em;
     margin-top: 10%;
     float: left;
-    width: 100%;
+    width: 50%;
 }
 
 .product_price h3 {
     font-size: 0.9em;
-    margin-right: 10%;
+    margin-top: 10%;
     float: left;
-    width: 100%;
+    width: 50%;
 }
 
 #catalogVerticalMenu {
@@ -166,10 +166,10 @@ Media Query Mobile
 
     .product {
         position: static;
-        width: 30%;
+        width: 40%;
         height: 320px;
-        margin-left: 10%;
-        margin-right: 10%;
+        margin-left: 5%;
+        margin-right: 5%;
     }
 
     .product_name h1 {
@@ -178,12 +178,12 @@ Media Query Mobile
 
     .product_price h3 {
         margin-top: 1%;
-        float:left;
+        float:none;
         width: 100%;
     }
 
     .product_availability h3 {
-        float: left;
+        float: none;
         width: 100%;
     }
 
