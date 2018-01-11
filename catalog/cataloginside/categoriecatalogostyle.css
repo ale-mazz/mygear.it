@@ -167,13 +167,14 @@ Media Query Mobile
     .product {
         position: static;
         width: 40%;
-        height: 320px;
+        height: 390px;
         margin-left: 5%;
         margin-right: 5%;
     }
 
     .product_name h1 {
         font-size: 1.1em;
+        text-align: center;
     }
 
     .product_price h3 {
