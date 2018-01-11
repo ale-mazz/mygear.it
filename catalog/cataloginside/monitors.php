@@ -6,7 +6,7 @@ require_once '../../php/connection.php';
 
 $products = array();
 
-$qry = mysqli_query($conn,"SELECT Codice_prodotto, Nome, Descrizione,Prezzo,Img,Disponibilita FROM monitor ORDER BY Prezzo ASC");
+$qry = mysqli_query($conn, "SELECT Codice_prodotto, Nome, Descrizione, Prezzo, Img, Disponibilita, Alt FROM monitor ORDER BY Prezzo ASC");
 
 while($row = mysqli_fetch_assoc($qry)){
     $products[] =$row;
@@ -30,6 +30,7 @@ foreach ($products as $product){
     $get_product=str_replace('$description$',$product["Descrizione"], $get_product);
     $get_product=str_replace('$price$',$product["Prezzo"], $get_product);
     $get_product=str_replace('$availability$',$product["Disponibilita"], $get_product);
+    $get_product = str_replace('$alt$', $product["Alt"], $get_product);
     $get_product=str_replace('$img$',"../../images/categorie/monitor/".$product["Img"], $get_product);
     $insertproduct=$insertproduct.$get_product;
 }

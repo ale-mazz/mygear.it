@@ -15,7 +15,6 @@ $page=str_replace('$cconf$','hover', $page);
 $page=str_replace('$ccat$','hover', $page);
 $page=str_replace('$ccont$','hover', $page);
 
-
 echo $page;
 
 mysqli_close($conn);
