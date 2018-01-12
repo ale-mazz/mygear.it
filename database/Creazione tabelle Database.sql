@@ -197,18 +197,20 @@ VALUES ('037', 'Seagate Archive HDD', 'Marca: Seagate<br>Tipologia: HDD<br>Dimen
 ('048', 'HARD DISK SATA3 3.5"', 'Marca: Western Digital Red<br>Tipologia: HDD<br>Dimensione: 4TB', '208,90', 'hard_disk_sata4tb.jpg', 'Disponibile', 'Memoria di Massa da 4 Tera Byte');
 
 INSERT INTO memorie_ram (`Codice_prodotto`, `Nome`, `Descrizione`, `Prezzo`, `Img`, `Disponibilita`, `Alt`)
-VALUES ('049', 'Corsair RGB LED', 'Marca: Corsair<br>Dimensione: 32GB (4x 8GB)<br>Frequenza: 3.33MHz', '499,90', 'ram1.jpg', 'Disponibile', 'Memoria Ram da 32 Giga Byte'),
-('050', 'Corsair PC4-26400', 'Marca: Corsair<br>Dimensione: 16GB (2x 8GB)<br>Frequenza: 3.30MHz', '229,90', 'ram2.jpg', 'Disponibile', 'Memoria Ram da 16 Giga Byte'),
-('051', 'Corsair PC4-26400', 'Marca: Corsair<br>Dimensione: 32GB (4x 8GB)<br>Frequenza: 3.33MHz', '469,90', 'ram3.jpg', 'Disponibile', 'Memoria Ram da 32 Giga Byte'),
-('052', 'Corsair PC4-33000', 'Marca: Corsair<br>Dimensione: 8GB (2x 4GB)<br>Frequenza: 4.133MHz', '189,90', 'ram4.jpg', 'Disponibile', 'Memoria Ram da 8 Giga Byte'),
-('053', 'Corsair PC4-33000 Red', 'Marca: Corsair<br>Dimensione: 8GB (2x 4GB)<br>Frequenza: 4.133MHz', '179,90', 'ram5.jpg', 'Disponibile', 'Memoria Ram da 8 Giga Byte'),
-('054', 'Corsair PC4-35200', 'Marca: Corsair<br>Dimensione: 16GB (2x 8GB)<br>Frequenza: 4.400MHz', '399,90', 'ram6.jpg', 'Disponibile', 'Memoria Ram da 16 Giga Byte'),
-('055', 'Corsair DP', 'Marca: Corsair<br>Dimensione: 32GB (4x 8GB)<br>Frequenza: 2.666MHz', '539,90', 'DDR4_2666mhz.jpg', 'Disponibile', 'Memoria Ram da 32 Giga Byte'),
-('056', 'Geil evo x rog', 'Marca: Geil<br>Dimensione: 32GB (4x 8GB)<br>Frequenza: 3.00MHz', '519,90', 'geil_32gb.jpg', 'Disponibile', 'Memoria Ram da 32 Giga Byte'),
-('057', 'Corsair LPX', 'Marca: Corsair<br>Dimensione: 32GB (4x 8GB)<br>Frequenza: 2.66MHz', '499,90', 'vemgeance_lpx.jpg', 'Disponibile', 'Memoria Ram da 32 Giga Byte'),
-('058', 'XMP HyperX Predator', 'Marca: Hyper<br>Dimensione: 32GB (4x 8GB)<br>Frequenza: 3.00MHz', '489,90', 'hyperx.jpg', 'Disponibile', 'Memoria Ram da 32 Giga Byte'),
-('059', 'RAM DDR4 Geil', 'Marca: Geil<br>Dimensione: 32GB (2x 16GB)<br>Frequenza: 2.44MHz', '439,90', 'geil_ram.jpg', 'Disponibile', 'Memoria Ram da 32 Giga Byte'),
-('060', 'Corsair DP', 'Marca: Corsair<br>Dimensione: 16GB (1x 16GB)<br>Frequenza: 3.00MHz', '289,90', 'ddr4_3000.jpg', 'Disponibile', 'Memoria Ram da 16 Giga Byte');
+VALUES ('049', 'Corsair RGB LED', 'Marca: Corsair<br>Capacit&agrave: 32GB (4x 8GB)<br>Frequenza: 333MHz', '499,90',
+        'ram1.jpg', 'Disponibile', 'Memoria Ram da 32 Giga Byte'),
+  ('050', 'Corsair PC4-26400', 'Marca: Corsair<br>Capacit&agrave: 16GB (2x 8GB)<br>Frequenza: 3300MHz', '229,90', 'ram2.jpg', 'Disponibile', 'Memoria Ram da 16 Giga Byte'),
+  ('051', 'Corsair PC4-26400', 'Marca: Corsair<br>Capacit&agrave: 32GB (4x 8GB)<br>Frequenza: 3330MHz', '469,90', 'ram3.jpg', 'Disponibile', 'Memoria Ram da 32 Giga Byte'),
+  ('052', 'Corsair PC4-33000', 'Marca: Corsair<br>Capacit&agrave: 8GB (2x 4GB)<br>Frequenza: 4133MHz', '189,90', 'ram4.jpg', 'Disponibile', 'Memoria Ram da 8 Giga Byte'),
+  ('053', 'Corsair PC4-33000 Red', 'Marca: Corsair<br>Capacit&agrave: 8GB (2x 4GB)<br>Frequenza: 4133MHz', '179,90', 'ram5.jpg', 'Disponibile', 'Memoria Ram da 8 Giga Byte'),
+  ('054', 'Corsair PC4-35200', 'Marca: Corsair<br>Capacit&agrave: 16GB (2x 8GB)<br>Frequenza: 4400MHz', '399,90', 'ram6.jpg', 'Disponibile', 'Memoria Ram da 16 Giga Byte'),
+  ('055', 'Corsair DP', 'Marca: Corsair<br>Capacit&agrave: 32GB (4x 8GB)<br>Frequenza: 2666MHz', '539,90', 'DDR4_2666mhz.jpg', 'Disponibile', 'Memoria Ram da 32 Giga Byte'),
+  ('056', 'Geil evo x rog', 'Marca: Geil<br>Capacit&agrave: 32GB (4x 8GB)<br>Frequenza: 3000MHz', '519,90', 'geil_32gb.jpg', 'Disponibile', 'Memoria Ram da 32 Giga Byte'),
+  ('057', 'Corsair LPX', 'Marca: Corsair<br>Capacit&agrave: 32GB (4x 8GB)<br>Frequenza: 2660MHz', '499,90', 'vemgeance_lpx.jpg', 'Disponibile', 'Memoria Ram da 32 Giga Byte'),
+  ('058', 'XMP HyperX Predator', 'Marca: Hyper<br>Capacit&agrave: 32GB (4x 8GB)<br>Frequenza: 3000MHz', '489,90', 'hyperx.jpg', 'Disponibile', 'Memoria Ram da 32 Giga Byte'),
+  ('059', 'RAM DDR4 Geil', 'Marca: Geil<br>Capacit&agrave: 32GB (2x 16GB)<br>Frequenza: 2440MHz', '439,90', 'geil_ram.jpg', 'Disponibile', 'Memoria Ram da 32 Giga Byte'),
+  ('060', 'Corsair DP', 'Marca: Corsair<br>Capacit&agrave: 16GB (1x 16GB)<br>Frequenza: 3000MHz', '289,90',
+   'ddr4_3000.jpg', 'Disponibile', 'Memoria Ram da 16 Giga Byte');
 
 INSERT INTO monitor (`Codice_prodotto`, `Nome`, `Descrizione`, `Prezzo`, `Img`, `Disponibilita`, `Alt`)
 VALUES ('061', 'MG248QR', 'Marca: Asus<br>Dimensione: 24"<br>Risoluzione: 1080p', '349,90', 'AsusMG248.jpg', 'Disponibile', 'Monitor Asus 24 pollici 1080p'),
