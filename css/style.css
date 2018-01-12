@@ -285,7 +285,7 @@ Configurazioni
     display: block;
     color: #FFFFFF;
     text-align: center;
-    text-decoration: none;
+    text-decoration: underline;
     font-size: 0.9em;
     padding: 0.2em;
 }
@@ -498,7 +498,7 @@ Media Query
         color: #FFFFFF;
         font-size: 1em;
         text-align: right;
-        text-decoration: none;
+        text-decoration: underline;
     }
     .configTornaSu:hover {
         background-color: #212121;
