@@ -197,7 +197,7 @@ VALUES ('037', 'Seagate Archive HDD', 'Marca: Seagate<br>Tipologia: HDD<br>Dimen
 ('048', 'HARD DISK SATA3 3.5"', 'Marca: Western Digital Red<br>Tipologia: HDD<br>Dimensione: 4TB', '208,90', 'hard_disk_sata4tb.jpg', 'Disponibile', 'Memoria di Massa da 4 Tera Byte');
 
 INSERT INTO memorie_ram (`Codice_prodotto`, `Nome`, `Descrizione`, `Prezzo`, `Img`, `Disponibilita`, `Alt`)
-VALUES ('049', 'Corsair RGB LED', 'Marca: Corsair<br>Capacit&agrave: 32GB (4x 8GB)<br>Frequenza: 333MHz', '499,90',
+VALUES ('049', 'Corsair RGB LED', 'Marca: Corsair<br>Capacit&agrave: 32GB (4x 8GB)<br>Frequenza: 3330MHz', '499,90',
         'ram1.jpg', 'Disponibile', 'Memoria Ram da 32 Giga Byte'),
   ('050', 'Corsair PC4-26400', 'Marca: Corsair<br>Capacit&agrave: 16GB (2x 8GB)<br>Frequenza: 3300MHz', '229,90', 'ram2.jpg', 'Disponibile', 'Memoria Ram da 16 Giga Byte'),
   ('051', 'Corsair PC4-26400', 'Marca: Corsair<br>Capacit&agrave: 32GB (4x 8GB)<br>Frequenza: 3330MHz', '469,90', 'ram3.jpg', 'Disponibile', 'Memoria Ram da 32 Giga Byte'),
