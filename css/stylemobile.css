@@ -173,6 +173,10 @@
         margin: 0%;
         width: 90%;
     }
+
+    .configConfigurazioniTop {
+        padding-top: 5em;
+    }
     .configConfigurazioniTop p {
         font-size: 1.5em;
     }
@@ -186,12 +190,13 @@
     }
     .configContainerSections {
         height: 5em;
+        padding-bottom: 0.5em;
     }
     .configContainerSections p {
         font-size: 0.9em;
     }
     .configContainer {
-        margin-bottom: 2em;
+        margin-bottom: 0.5em;
     }
     .configContainer h1 {
         font-size: 1.3em;
@@ -354,7 +359,7 @@ Media Query Mobile
         font-size: 0.5em;
     }
     .configContainer {
-        margin-bottom: 2em;
+        margin-bottom: 0.5em;
     }
     .configContainer h1 {
         font-size: 0.5em;

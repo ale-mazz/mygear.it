@@ -501,16 +501,21 @@ Media Query
         font-size: 1em;
         text-align: right;
         text-decoration: underline;
+        display: inline-block;
     }
     .configTornaSu:hover {
         background-color: #212121;
+        -webkit-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+        -moz-transform: scale(1.2);
+
     }
     .configTornaSuMobile {
         display: none;
     }
 
     /**********configurazioni *******/
-    #configHorizontalMenu li a:hover {
+    #configHorizontalMenu a:hover {
         background-color: #212121;
         -webkit-transform: scale(1.2);
         -ms-transform: scale(1.2);
