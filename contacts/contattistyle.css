@@ -1,90 +1,11 @@
 /********************************************************************************
     corpo contatti
 ********************************************************************************/
-.contactsTitles {
-    padding-bottom: 0.5em;
-    border-bottom-style: solid;
-    border-bottom-color: #000000;
-    border-bottom-width: 0.1em;
-}
-
-.contactsTitles h1{
-    font-size: 2em;
-}
-
-#contactsWho{
-    text-align: center;
-    padding: 3em 7% 5em 7%;
-}
-
-#contactsWhere {
-    float:left;
-    text-align: center;
-    width: 40%;
-    margin-left: 7%;
-    margin-bottom: 2em;
-}
-
-#contactsHow {
-    text-align: center;
-    width: 40%;
-    margin-right: 7%;
-    float: right;
-    margin-bottom: 2em;
-}
-
-#contactsWho img{
-    width: 5em;
-    float: left;
-    padding: 0.5em 8em 0em 10em;
-}
-
-#contactsWhere img, #contactsHow img{
-    float:left;
-    clear: right;
-    text-align: left;
-    width: 5em;
-    padding: 0.5em 2em 0em 2em;
-}
-
-#contactsWho p {
-    margin: 1em 10em 0em 0em;
-
-}
-
-#contactsWhere p{
-    margin-top: 1em;
-}
-
-#contactsHow p{
-    margin-top: 0.3em;
-}
-
 /******************************************************************
  Print Style Config
 ******************************************************************/
 
 @media print {
-
-    #contactsWhere{
-        float: none;
-    }
-
-    #contactsWho, #contactsWhere, #contactsHow {
-        width: 100%;
-        padding: 2em 0% 2em 0%;
-        margin: 0%;
-    }
-
-    #contactsWho img, #contactsWhere img, #contactsHow img{
-        width: 6em;
-        padding: 1em 8em 1em 8em;
-    }
-
-    #contactsWho p, #contactsWhere p, #contactsHow p{
-        margin: 1em 6em 0em 0em;
-        font-size: 1.2em;
-    }
 }
 
 /******************************************************************
@@ -92,29 +13,6 @@
 ******************************************************************/
 
 @media only screen and (max-width: 955px) {
-
-    #contactsWhere{
-        float: none;
-    }
-
-    #contactsWho{
-        width: 90%;
-        padding: 6em 5% 3em 5%;
-    }
-
-    #contactsWhere, #contactsHow{
-        width: 90%;
-        margin: 2em 5% 3em 5%;
-    }
-
-    #contactsWho img, #contactsWhere img, #contactsHow img{
-        width: 6em;
-        padding: 1em 8em 1em 8em;
-    }
-
-    #contactsWho p, #contactsWhere p, #contactsHow p{
-        margin: 1em 6em 0em 0em;
-    }
 
 }
 
@@ -124,16 +22,5 @@ Media Query Mobile
 
 @media only screen and (max-width: 767px) {
 
-    #contactsWho img, #contactsWhere img, #contactsHow img{
-        display: none;
-    }
-
-    .contactsTitles{
-        font-size: 1.5em;
-    }
-
-    #contactsWho p, #contactsWhere p, #contactsHow p{
-        width: 100%;
-    }
 
 }

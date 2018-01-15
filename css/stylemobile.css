@@ -1,0 +1,378 @@
+/******************************************************************
+ Media Query Tablet
+******************************************************************/
+
+@media only screen and (max-width: 955px) {
+
+/***** Header *****/
+    .headerMenu {
+        display: none;
+    }
+    header {
+        width: 100%;
+        background-color: #D32F2F;
+        height: 4em;
+        display: inline-block;
+        font-size: 0.8em;
+        position: fixed;
+    }
+    #headerContainer {
+        position: fixed;
+        width: 100%;
+        height: 3.8em;
+    }
+    .headerLogo {
+        float: left;
+        height: 2.6em;
+        padding-left: 1.5em;
+        padding-top: 0.7em;
+    }
+    #headerHamburger {
+        display: block;
+        background: none;
+        position: absolute;
+        top: 0;
+        right: 0;
+        line-height: 0.6em;
+        padding: 0.45em 0.45em 0.45em 0.45em;
+        color: #FFFFFF;
+        border: 0;
+        font-size: 3em;
+        font-weight: bold;
+        cursor: pointer;
+        outline: none;
+    }
+    #headerDropMenu {
+        font-weight: bold;
+        font-size: 2em;
+        background: #EEEEEE;
+        text-align: center;
+        position: fixed;
+        width: 100%;
+        top: 1.87em;
+    }
+    #headerDropMenu ul {
+        list-style-type: none;
+        list-style-image: none;
+    }
+    #headerDropMenu li {
+        display: block;
+        padding: 15px 0 15px 0;
+        border-bottom: #E0E0E0 1px solid;
+    }
+    #headerDropMenu a {
+        text-decoration: none;
+        color: #424242;
+    }
+    .headerMenuClose {
+        height: 0;
+        display: none;
+    }
+    .headerMenuOpen {
+        height: auto;
+        display: block;
+    }
+    #headerButtonLogin {
+        font-size: 1.5em;
+        padding: 0.5em 0.5em 0.5em 0.5em;
+        margin-top: 0.4em;
+        margin-right: 5em;
+    }
+
+/***** Footer *****/
+    #footer {
+        font-size: 2em;
+    }
+
+    .footerContainer {
+        width: 95%;
+        float: left;
+    }
+    .footerContainer p {
+        font-size: 1em;
+        padding: 0.5em 0.5em 0.5em 0.5em;
+    }
+
+    #footerLoghiSocial {
+        margin-top: 0.5em;
+    }
+
+
+/***** Home *****/
+    #homeBanner img {
+        margin-top: 3.8em;
+    }
+    #homeContentTop h1 {
+        font-size: 2em;
+    }
+    #homeContentTop p {
+        font-size: 1.5em;
+    }
+    .homeInfo h1 {
+        font-size: 2em;
+    }
+    .homeInfo h2 {
+        font-size: 1.8em;
+    }
+    .homeTitles {
+        margin-bottom: 0em;
+        width: 60%;
+        margin-left: 20%;
+    }
+    .homeTitles h1 {
+        font-size: 3em;
+        margin-bottom: 1em;
+        text-align: center;
+    }
+    .homeContainersOut{
+        width: 100%;
+        margin: 0;
+        margin-top: 2em;
+    }
+    .homeContainersIn {
+        margin: 0;
+        width: 100%;
+    }
+    #homeImgVetrina {
+        padding-top: 2em;
+        padding-bottom: 0em;
+    }
+    #homeTitleBottom h1 {
+        font-size: 3em;
+    }
+    #homeLoghi img {
+        width: 15%;
+        margin-left: 8%;
+        float: left;
+        padding-top: 1em;
+    }
+
+/***** Configurazioni *****/
+    #configTitle {
+        margin-top: 0em;
+    }
+    #configTitle h1 {
+        font-size: 2em;
+        padding-top: 3em;
+        margin-top: 0em;
+    }
+
+    .configImg{
+        width: 100%;
+        float: none;
+    }
+    .configImg img {
+        float: none;
+        max-width: none;
+        width: 90%;
+        margin: 5%;
+    }
+    .configDescription {
+        float: none;
+        clear: none;
+        margin: 0%;
+        width: 90%;
+    }
+    .configConfigurazioniTop p {
+        font-size: 1.5em;
+    }
+    .configConfigurazioniTop h1 {
+        font-size: 2.5em;
+        padding-top: 0em;
+        padding-bottom: 0em;
+    }
+    .configSpecification h1 {
+        font-size: 2.5em;
+    }
+    .configContainerSections {
+        height: 5em;
+    }
+    .configContainerSections p {
+        font-size: 0.9em;
+    }
+    .configContainer {
+        margin-bottom: 2em;
+    }
+    .configContainer h1 {
+        font-size: 1.3em;
+    }
+    .configTornaSuMobile {
+        width: auto;
+        margin-right: 10%;
+        padding: 1em;
+        float: right;
+        background-color: #B71C1C;
+    }
+    .configTornaSuMobile a {
+        color: #FFFFFF;
+        font-size: 1em;
+        text-align: right;
+        text-decoration: underline;
+    }
+
+    .configTornaSuMobile a:visited {
+        text-decoration: none;
+    }
+    .configTornaSu {
+        display: none;
+    }
+
+/***** Catalogo *****/
+
+/***** Categorie *****/
+
+/***** Contatti *****/
+    #contactsWhere{
+        float: none;
+    }
+    #contactsWho{
+        width: 90%;
+        padding: 6em 5% 3em 5%;
+    }
+    #contactsWhere, #contactsHow{
+        width: 90%;
+        margin: 2em 5% 3em 5%;
+    }
+    #contactsWho img, #contactsWhere img, #contactsHow img{
+        width: 6em;
+        padding: 1em 8em 1em 8em;
+    }
+    #contactsWho p, #contactsWhere p, #contactsHow p{
+        margin: 1em 6em 0em 0em;
+    }
+
+}
+
+
+/******************************************************************
+Media Query Mobile
+******************************************************************/
+
+@media only screen and (max-width: 767px) {
+
+/***** Header *****/
+    header {
+        height: 4em;
+    }
+    #headerContainer {
+        height: 3.8em;
+    }
+    .headerLogo {
+        width: 14em;
+        height: auto;
+        padding-top: 0.7em;
+        padding-left: 1em;
+    }
+    #headerButtonLogin {
+        font-size: 1.2em;
+        margin-right: 3.5em;
+        margin-top: 0.8em;
+        padding: 0.5em 0.5em 0.5em 0.5em;
+    }
+    #headerHamburger {
+        font-size: 2.5em;
+        margin-top: 0.2em;
+        margin-right: 0.13em;
+        padding: 0.25em 0.25em 0.25em 0.25em;
+        line-height: 0.9em;
+    }
+    #headerDropMenu {
+        font-size: 1.5em;
+        top: 2.52em;
+    }
+
+/***** Footer *****/
+    #footer {
+        font-size: 0.8em;
+    }
+
+/***** Home *****/
+    #homeBanner img {
+        margin-top: 3.58em;
+    }
+    #homeContentTop p {
+        font-size: 0.8em;
+    }
+     #homeContentTop h1 {
+        font-size: 1.5em;
+    }
+    .homeInfo h1 {
+        font-size: 1em;
+    }
+    .homeInfo h2 {
+        font-size: 1em;
+    }
+    .homeTitles {
+        width: 60%;
+        margin-left: 20%;
+    }
+    .homeTitles h1 {
+        font-size: 1.5em;
+        margin-top: 1em;
+        text-align: center;
+    }
+    .homeContainersOut{
+        width: 100%;
+        margin: 0;
+    }
+    .homeContainersIn {
+        margin-left: 0;
+        width: 100%;
+    }
+    #homeTitleBottom {
+        font-size: 0.7em;
+    }
+
+/***** Configurazioni *****/
+
+    #configTitle h1 {
+        font-size: 1em;
+        padding-top: 5em;
+    }
+    .configDescription {
+        float: none;
+        clear: none;
+        margin: 0%;
+        width: 80%;
+    }
+    .configConfigurazioniTop p {
+        font-size: 0.8em;
+    }
+    .configConfigurazioniTop h1 {
+        font-size: 1.5em;
+    }
+    .configConfigurazioniTop h2 {
+        font-size: 1em;
+    }
+    .configSpecification h1 {
+        font-size: 1.2em;
+    }
+    .configContainerSections {
+        height: 2em;
+    }
+    .configContainerSections p {
+        font-size: 0.5em;
+    }
+    .configContainer {
+        margin-bottom: 2em;
+    }
+    .configContainer h1 {
+        font-size: 0.5em;
+    }
+
+/***** Catalogo *****/
+
+/***** Categorie *****/
+
+/***** Contatti *****/
+    #contactsWho img, #contactsWhere img, #contactsHow img{
+        display: none;
+    }
+    .contactsTitles{
+        font-size: 1.5em;
+    }
+    #contactsWho p, #contactsWhere p, #contactsHow p{
+        width: 100%;
+    }
+
+}

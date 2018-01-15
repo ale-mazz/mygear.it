@@ -2,14 +2,15 @@
 <html lang="it">
 
 <head>
-    <title>MYGEAR</title>
-    <link rel="stylesheet" type="text/css" href="../header/headerstyle.css">
+    <title>registrazione | MYGEAR</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="mygear computer pc assemblati shop">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="stylesheet" type="text/css" href="../css/stylemobile.css">
     <link rel="stylesheet" type="text/css" href="../footer/footerstyle.css">
     <link rel="stylesheet" type="text/css" href="regstyle.css">
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lato" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-
-    <meta charset="UTF-8">
 </head>
 
 <body onload="registerOnLoad()">
@@ -17,7 +18,8 @@
     $header$
 
 <div id="regTitle">
-    <h1>CREA SUBITO IL TUO ACCOUNT PER RIMANERE SEMPRE AGGIORNATO SULLE OFFERTE DEL NEOGOZIO!</h1>
+    <h1>CREA SUBITO IL TUO ACCOUNT PER RIMANERE SEMPRE AGGIORNATO SULLE OFFERTE DEL NEGOZIO!</h1>
+    <h2>Se sei registrato da più di 1 anno potrai usufruire di sconti a partire dal 20%</h2>
 </div>
 <div id="accountTitle">
     <h2>REGISTRAZIONE</h2>
@@ -27,13 +29,13 @@
         <div class="containerreg">
             <label id="labeltxt" for="name">Nome</label>
             <input id="name" type="text" name="name" required>
-            <label id="labeltxt" for="username">Username</label>
+            <label id="labeltxt" for="username"><span lang="en">Username</span></label>
             <input id="username" type="text" name="username" required>
-            <label id="labeltxt" for="email">Email</label>
+            <label id="labeltxt" for="email"><span lang="en">Email</span></label>
             <input id="email" type="email" name="email" required>
-            <label id="labeltxt" for="password">Password</label>
+            <label id="labeltxt" for="password"><span lang="en">Password</span></label>
             <input id="password" type="password" name="password" required>
-            <label id="labeltxt" for="confirmPassword">Ripeti Password</label>
+            <label id="labeltxt" for="confirmPassword">Ripeti <span lang="en">Password</span></label>
             <input id="confirmPassword" type="password" name="confirmPassword" required>
         </div>
         <input id="submitButton" type="submit" value="Registrati">

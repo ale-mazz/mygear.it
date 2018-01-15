@@ -2,129 +2,11 @@
     Footer
 ********************************************************************************/
 
-#footer {
-    float: left;
-    margin-top: 3em;
-    background-color: #212121;
-    width: 100%;
-    font-size: 0.8em;
-    color: #FAFAFA;
-    border-style: solid;
-    border-color: #D32F2F;
-    border-left: none;
-    border-right: none;
-}
-
-#footer ul {
-    list-style-type: none;
-    padding-left: 0;
-}
-
-#footer ul li {
-    padding-top: 0.5em;
-    padding-bottom: 0.5em;
-    padding-left: 0.5em;
-}
-
-#footer a {
-    color: white;
-    font-size: 1.2em;
-    display: inline-block;
-    position: relative;
-}
-
-#footer a:hover {
-    color: #D32F2F;
-    -webkit-transform: scale(1.2);
-    -ms-transform: scale(1.2);
-    -moz-transform: scale(1.2);
-}
-
-#footer h1 {
-    color: #FAFAFA;
-    font-size: 1.2em;
-}
-
-.footerBlockTitle {
-    padding-bottom: 0.3em;
-    padding-top: 0.3em;
-    border-bottom-style: solid;
-    border-bottom-color: #FAFAFA;
-    border-bottom-width: 0.1em;
-}
-.footerContainer {
-    width: 30%;
-    float: left;
-    margin-left: 2.5%;
-}
-
-.footerContainer p {
-    margin-bottom: 0.3em;
-    padding-top: 0.3em;
-    font-size: 1em;
-}
-
-#footerLoghiSocial {
-    width: 99.5%;
-    margin-left: 0.5em;
-}
-
-#footerLoghiSocial a{
-    display: inline-block;
-    width: 8%;
-    margin-right: 5%;
-    padding-bottom: 0.5em;
-}
-
-#footerLoghiSocial img {
-    width: 100%;
-}
-
-.footercontainer img:hover {
-    -webkit-transform: scale(1.2);
-    -ms-transform: scale(1.2);
-    -moz-transform: scale(1.2);
-}
-
 /******************************************************************
  Media Query Tablet
 ******************************************************************/
 
 @media only screen and (max-width: 955px) {
-
-    #footer {
-        font-size: 2em;
-    }
-
-    #footer a {
-        font-size: 1.2em;
-    }
-
-    #footer a:hover {
-        font-size: 1.2em;
-    }
-
-    .footerContainer {
-        width: 95%;
-        float: left;
-    }
-
-    .footerContainer p {
-        font-size: 1em;
-        padding: 0.5em 0.5em 0.5em 0.5em;
-    }
-
-    .footerContainer h2 {
-        display: none;
-    }
-
-    #footerLoghiSocial {
-        margin-top: 0.5em;
-    }
-
-    #footerLoghiSocial a{
-        margin-left: 9%;
-    }
 
 }
 
@@ -134,18 +16,6 @@ Media Query Mobile
 
 @media only screen and (max-width: 767px) {
 
-    #footer {
-        font-size: 0.8em;
-    }
-
-
-    #footer a {
-        font-size: 1.2em;
-    }
-
-    #footer a:hover {
-        font-size: 1.5em;
-    }
 
  }
 

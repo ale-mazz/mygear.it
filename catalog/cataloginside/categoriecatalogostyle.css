@@ -10,37 +10,12 @@
     color: #000000;
 }
 
-.product:before,
-.product:after {
-    content: "";
-    position: absolute;
-    top: -3px;
-    right: -3px;
-}
-
-.product:before {
-    bottom: -2px;
-    width: 2px;
-    background-image: -webkit-gradient(linear, 0 100%, 0 0, from(#9E9E9E), to(transparent));
-    background-image: -webkit-linear-gradient(#9E9E9E, transparent);
-    background-image: -moz-linear-gradient(#9E9E9E, transparent);
-    background-image: -o-linear-gradient(#9E9E9E, transparent);
-}
-
-.product:after {
-    left: -2px;
-    height: 2px;
-    background-image: -webkit-gradient(linear, 0 0, 100% 0, from(transparent), to(#9E9E9E));
-    background-image: -webkit-linear-gradient(left, transparent, #9E9E9E);
-    background-image: -moz-linear-gradient(left, transparent, #9E9E9E);
-    background-image: -o-linear-gradient(left, transparent, #9E9E9E);
-}
-
 .product {
     margin: 1em 1.5% 1em 1.5%;
     width: 17%;
+    height: 25em;
     float: left;
-    background-color: white;
+    background-color: #FFFFFF;
     position: relative;
 }
 
@@ -65,13 +40,79 @@
 .product_availability h3 {
     font-size: 0.9em;
     margin-top: 10%;
+    float: left;
+    width: 50%;
 }
 
 .product_price h3 {
     font-size: 0.9em;
-    margin-right: 10%;
-    margin-top: -6%;
-    float: right;
+    margin-top: 10%;
+    float: left;
+    width: 50%;
+}
+
+#catalogVerticalMenu {
+    width: 20%;
+    float: left;
+    margin-bottom: 55%;
+}
+
+#catalogVerticalMenu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #B71C1C;
+    width: 200px;
+}
+
+#catalogVerticalMenu li {
+    padding: 0.4em;
+    border-top: solid;
+    border-bottom: solid;
+    border-color: #FFFFFF;
+    border-width: 2px;
+}
+
+#catalogVerticalMenu a {
+    display: block;
+    color: #FFFFFF;
+    padding: 0.15em 0.2em;
+    text-decoration: underline;
+    font-size: 0.9em;
+}
+
+#catalogVerticalMenu li:hover {
+    background-color: #212121;
+}
+
+/******************************************************************
+ Print Style Categ
+******************************************************************/
+
+@media print {
+
+    .product {
+        margin: 2em 0% 3em 4%;
+        width: 20%;
+        float: left;
+        text-align: center;
+    }
+
+    .product_price h3 {
+        margin-top: 4%;
+        float:left;
+        width: 100%;
+    }
+
+    .product_availability h3 {
+        float: left;
+        width: 100%;
+    }
+
+    #catalogVerticalMenu{
+        display: none;
+    }
+
 }
 
 /******************************************************************
@@ -107,6 +148,10 @@
         font-size: 0.75em;
     }
 
+    #catalogVerticalMenu{
+        display: none;
+    }
+
 }
 
 /******************************************************************
@@ -116,14 +161,65 @@ Media Query Mobile
 @media only screen and (max-width: 767px) {
 
     #title_cat h1{
-        font-size: 1.4em;
+        font-size: 1.5em;
     }
 
     .product {
         position: static;
         width: 40%;
-        margin-left: 7%;
-        height: 330px;
+        height: 390px;
+        margin-left: 5%;
+        margin-right: 5%;
     }
 
+    .product_name h1 {
+        font-size: 1.1em;
+    }
+
+    .product_price h3 {
+        margin-top: 1%;
+        float:none;
+        width: 100%;
+    }
+
+    .product_availability h3 {
+        float: none;
+        width: 100%;
+    }
+
+    .imageCat {
+    width: 70%;
+    }
+
+    #catalogVerticalMenu{
+        display: none;
+    }
+
+}
+
+
+.product:before,
+.product:after {
+    content: "";
+    position: absolute;
+    top: -3px;
+    right: -3px;
+}
+
+.product:before {
+    bottom: -2px;
+    width: 2px;
+    background-image: -webkit-gradient(linear, 0 100%, 0 0, from(#9E9E9E), to(transparent));
+    background-image: -webkit-linear-gradient(#9E9E9E, transparent);
+    background-image: -moz-linear-gradient(#9E9E9E, transparent);
+    background-image: -o-linear-gradient(#9E9E9E, transparent);
+}
+
+.product:after {
+    left: -2px;
+    height: 2px;
+    background-image: -webkit-gradient(linear, 0 0, 100% 0, from(transparent), to(#9E9E9E));
+    background-image: -webkit-linear-gradient(left, transparent, #9E9E9E);
+    background-image: -moz-linear-gradient(left, transparent, #9E9E9E);
+    background-image: -o-linear-gradient(left, transparent, #9E9E9E);
 }

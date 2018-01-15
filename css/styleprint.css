@@ -1,0 +1,92 @@
+@media print {
+
+/******************************************************************
+Header & Footer
+******************************************************************/
+    #headerContainer, #headerDropMenu, #footer{
+        display: none;
+    }
+
+/******************************************************************
+Home
+******************************************************************/
+    .homeInfo h1 {
+        font-size: 1.2em;
+        padding-bottom: 0.5em;
+    }
+    .homeInfo a {
+        text-decoration: none;
+    }
+    .homeInfo p {
+        padding-bottom: 1em;
+    }
+
+/******************************************************************
+Configurazioni
+******************************************************************/
+    #configHorizontalMenu h1{
+        color: #000000;
+    }
+    .configConfigurazioniTop {
+        width: 100%;
+        background-color: #FFFFFF;
+    }
+    .configImg {
+        width: 40%;
+        float: left;
+        margin-top: 3em;
+    }
+    .configImg img {
+        max-width: 70%;
+    }
+    .configDescription {
+        background-color: #FFFFFF;
+        padding: 2em;
+        width: 50%;
+    }
+    .configConfigurazioniTop p {
+        color: #000000;
+    }
+    .configConfigurazioniTop h2 {
+        color: #000000;
+        padding-top: 1em;
+    }
+    .configConfigurazioniTop h1 {
+        color: #000000;
+    }
+    .configSpecification {
+        padding-top: 2.5em;
+    }
+    .configTornaSu{
+        display: none;
+    }
+
+/******************************************************************
+Catalogo
+******************************************************************/
+
+/******************************************************************
+Categorie
+******************************************************************/
+
+/******************************************************************
+Contatti
+******************************************************************/
+    #contactsWhere{
+        float: none;
+    }
+    #contactsWho, #contactsWhere, #contactsHow {
+        width: 100%;
+        padding: 2em 0% 2em 0%;
+        margin: 0%;
+    }
+    #contactsWho img, #contactsWhere img, #contactsHow img{
+        width: 6em;
+        padding: 1em 8em 1em 8em;
+    }
+    #contactsWho p, #contactsWhere p, #contactsHow p{
+        margin: 1em 6em 0em 0em;
+        font-size: 1.2em;
+    }
+
+}
