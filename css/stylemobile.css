@@ -223,8 +223,59 @@
     }
 
 /***** Catalogo *****/
+    #catalogTitle h1 {
+        font-size: 1.9em;
+    }
+    #catalogTitle {
+        position: static;
+        margin-top: 0em;
+        padding-top: 5em;
+    }
+    .catalogContainerOut h2 {
+        position: static;
+        font-size: 1.4em;
+    }
+    .catalogContainerOut {
+        position: static;
+        width: 28%;
+        margin-left: 2.3%;
+        height: 190px;
+    }
+    .catalogContainerIn {
+        position: static;
+        width: 90%;
+        float: none;
+        margin-left: 5%;
+        padding: 0em;
+    }
+
+/***** Menù verticale (catalogo, categorie) *****/
+    #catalogVerticalMenu{
+        display: none;
+    }
 
 /***** Categorie *****/
+    #CatalogInsideTitle {
+        margin: 0em;
+        padding-top: 5em;
+    }
+    #CatalogInsideTitle h1 {
+        font-size: 1.9em;
+    }
+    .CatalogInsideProduct {
+        position: static;
+        width: 28%;
+        margin-left: 2.3%;
+    }
+    .CatalogInsideProductPrice h3 {
+        font-size: 0.75em;
+    }
+    .CatalogInsideProductAvailability h3 {
+        font-size: 0.75em;
+    }
+    .CatalogInsideProductDescription p {
+        font-size: 0.75em;
+    }
 
 /***** Contatti *****/
     #contactsWhere{
@@ -366,8 +417,54 @@ Media Query Mobile
     }
 
 /***** Catalogo *****/
+    #catalogTitle h1 {
+        font-size: 1.5em;
+    }
+    .catalogContainerOut h2 {
+        font-size: 1em;
+        width: 100%;
+        text-align: center;
+    }
+    .catalogContainerOut {
+        position: static;
+        width: 40%;
+        margin-top: 5%;
+        margin-left: 5%;
+        margin-right: 5%;
+        height: 170px;
+    }
+    .catalogContainerIn img {
+        width: 80%;
+    }
+
+/***** Menù verticale (catalogo, categorie) *****/
+    #catalogVerticalMenu{
+        display: none;
+    }
 
 /***** Categorie *****/
+    #CatalogInsideTitle h1{
+        font-size: 1.5em;
+    }
+    .CatalogInsideProduct {
+        position: static;
+        width: 40%;
+        height: 390px;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .CatalogInsideProduct_name h1 {
+        font-size: 1.1em;
+    }
+    .CatalogInsideProductPrice h3 {
+        margin-top: 1%;
+        float:none;
+        width: 100%;
+    }
+    .CatalogInsideProductAvailability h3 {
+        float: none;
+        width: 100%;
+    }
 
 /***** Contatti *****/
     #contactsWho img, #contactsWhere img, #contactsHow img{

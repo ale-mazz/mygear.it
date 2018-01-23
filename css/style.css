@@ -373,10 +373,119 @@ Configurazioni
 /********************************************************************************
 Catalogo
 ********************************************************************************/
-
+#catalogTitle {
+    width: 100%;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    float:right;
+    position: static;
+}
+#catalogTitle h1 {
+    font-size: 2em;
+    text-align: center;
+    color: #000000;
+}
+.catalogContainerOut a {
+    text-decoration: none;
+    color: #000000;
+}
+.catalogContainerOut h2 {
+    text-align: center;
+    font-size: 1.1em;
+}
+.catalogContainerIn img {
+    width: 80%;
+    margin-left: 5%;
+}
+.catalogContainerOut {
+    margin: 1em 1.5% 1em 1.5%;
+    width: 17%;
+    float: left;
+    text-align: center;
+    height: 16em;
+}
+.catalogContainerIn {
+    text-align: center;
+    margin-top: 1em;
+    float: left;
+    padding: 1em;
+    background-color: #FFFFFF;
+    position: relative;
+}
+/********************************************************************************
+Menù Verticale (catalogo, categorie)
+********************************************************************************/
+#catalogVerticalMenu {
+    width: 20%;
+    float: left;
+    margin-bottom: 16%;
+}
+#catalogVerticalMenu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #B71C1C;
+    width: 200px;
+}
+#catalogVerticalMenu li {
+    padding: 0.4em;
+    border-top: solid;
+    border-bottom: solid;
+    border-color: #FFFFFF;
+    border-width: 2px;
+}
+#catalogVerticalMenu a {
+    display: block;
+    color: #FFFFFF;
+    padding: 0.15em 0.2em;
+    text-decoration: underline;
+    font-size: 0.9em;
+}
+#catalogVerticalMenu li:hover {
+    background-color: #212121;
+}
 /********************************************************************************
 Categorie
 ********************************************************************************/
+#CatalogInsideTitle {
+    width: 100%;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+#CatalogInsideTitle h1 {
+    font-size: 2em;
+    text-align: center;
+    color: #000000;
+}
+.CatalogInsideProduct {
+    margin: 1em 1.5% 1em 1.5%;
+    width: 17%;
+    float: left;
+    background-color: #FFFFFF;
+    position: relative;
+}
+.CatalogInsideProductDescription p {
+    margin-top: 1em;
+    font-size: 0.8em;
+    text-align: left;
+}
+.CatalogInsideProduct_name h1{
+    margin-top: 3em;
+    font-size: 1.1em;
+}
+.CatalogInsideProductAvailability h3 {
+    font-size: 0.9em;
+    margin-top: 10%;
+    float: left;
+    width: 50%;
+}
+.CatalogInsideProductPrice h3 {
+    font-size: 0.9em;
+    margin-top: 10%;
+    float: left;
+    width: 50%;
+}
+
 
 /********************************************************************************
 Contatti
@@ -436,7 +545,8 @@ Media Query
 ********************************************************************************/
 @media only screen and (min-width: 956px) {
 
-/***** Bordo (home, catalogo, categorie, ?other?) *****/
+/***** Bordo *****/
+    /*** Bordo Home ***/
     #homeTitleBottom:after {
         content: "";
         position: absolute;
@@ -479,8 +589,55 @@ Media Query
      .homeContainersIn {
         position: relative;
     }
-/***** Footer **********************/
+    /*** Bordo Catalogo ***/
+    .catalogContainerIn:before,
+    .catalogContainerIn:after {
+        content: "";
+        position: absolute;
+        top: -3px;
+        right: -3px;
+    }
+    .catalogContainerIn:before {
+        bottom: -2px;
+        width: 2px;
+        background-image: -webkit-gradient(linear, 0 100%, 0 0, from(#9E9E9E), to(transparent));
+        background-image: -webkit-linear-gradient(#9E9E9E, transparent);
+        background-image: -moz-linear-gradient(#9E9E9E, transparent);
+        background-image: -o-linear-gradient(#9E9E9E, transparent);
+    }
+    .catalogContainerIn:after {
+        left: -2px;
+        height: 2px;
+        background-image: -webkit-gradient(linear, 0 0, 100% 0, from(transparent), to(#9E9E9E));
+        background-image: -webkit-linear-gradient(left, transparent, #9E9E9E);
+        background-image: -moz-linear-gradient(left, transparent, #9E9E9E);
+        background-image: -o-linear-gradient(left, transparent, #9E9E9E);
+    }.CatalogInsideProduct:before,
+    /*** Bordo Categorie ***/
+    .CatalogInsideProduct:after {
+        content: "";
+        position: absolute;
+        top: -3px;
+        right: -3px;
+    }
+    .CatalogInsideProduct:before {
+        bottom: -2px;
+        width: 2px;
+        background-image: -webkit-gradient(linear, 0 100%, 0 0, from(#9E9E9E), to(transparent));
+        background-image: -webkit-linear-gradient(#9E9E9E, transparent);
+        background-image: -moz-linear-gradient(#9E9E9E, transparent);
+        background-image: -o-linear-gradient(#9E9E9E, transparent);
+    }
+    .CatalogInsideProduct:after {
+        left: -2px;
+        height: 2px;
+        background-image: -webkit-gradient(linear, 0 0, 100% 0, from(transparent), to(#9E9E9E));
+        background-image: -webkit-linear-gradient(left, transparent, #9E9E9E);
+        background-image: -moz-linear-gradient(left, transparent, #9E9E9E);
+        background-image: -o-linear-gradient(left, transparent, #9E9E9E);
+    }
 
+/***** Footer **********************/
     #footerLoghiSocial img:hover {
         -webkit-transform: scale(1.2);
         -ms-transform: scale(1.2);
