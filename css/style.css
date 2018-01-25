@@ -447,39 +447,39 @@ Menù Verticale (catalogo, categorie)
 /********************************************************************************
 Categorie
 ********************************************************************************/
-#CatalogInsideTitle {
+#catalogInsideTitle {
     width: 100%;
     margin-top: 2em;
     margin-bottom: 2em;
 }
-#CatalogInsideTitle h1 {
+#catalogInsideTitle h1 {
     font-size: 2em;
     text-align: center;
     color: #000000;
 }
-.CatalogInsideProduct {
+.catalogInsideProduct {
     margin: 1em 1.5% 1em 1.5%;
     width: 17%;
     float: left;
     background-color: #FFFFFF;
     position: relative;
 }
-.CatalogInsideProductDescription p {
+.catalogInsideProductDescription p {
     margin-top: 1em;
     font-size: 0.8em;
     text-align: left;
 }
-.CatalogInsideProductName h1{
+.catalogInsideProductName h1{
     margin-top: 3em;
     font-size: 1.1em;
 }
-.CatalogInsideProductAvailability h3 {
+.catalogInsideProductAvailability h3 {
     font-size: 0.9em;
     margin-top: 10%;
     float: left;
     width: 50%;
 }
-.CatalogInsideProductPrice h3 {
+.catalogInsideProductPrice h3 {
     font-size: 0.9em;
     margin-top: 10%;
     float: left;
@@ -490,6 +490,18 @@ Categorie
 /********************************************************************************
 Contatti
 ********************************************************************************/
+#contactsTitle {
+    width: 100%;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    float:right;
+    position: static;
+}
+#contactsTitle h1 {
+    font-size: 2em;
+    text-align: center;
+    color: #000000;
+}
 .contactsTitles {
     padding-bottom: 0.5em;
     border-bottom-style: solid;
@@ -539,12 +551,6 @@ Contatti
 }
 #contactsHow p{
     margin-top: 0.3em;
-}
-/* new */
-.contactsFlexContainer{
-  display: flex;
-  flex-wrap: nowrap;
-  flex-direction: column;
 }
 
 /********************************************************************************
@@ -619,15 +625,15 @@ Media Query
         background-image: -webkit-linear-gradient(left, transparent, #9E9E9E);
         background-image: -moz-linear-gradient(left, transparent, #9E9E9E);
         background-image: -o-linear-gradient(left, transparent, #9E9E9E);
-    }.CatalogInsideProduct:before,
+    }.catalogInsideProduct:before,
     /*** Bordo Categorie ***/
-    .CatalogInsideProduct:after {
+    .catalogInsideProduct:after {
         content: "";
         position: absolute;
         top: -3px;
         right: -3px;
     }
-    .CatalogInsideProduct:before {
+    .catalogInsideProduct:before {
         bottom: -2px;
         width: 2px;
         background-image: -webkit-gradient(linear, 0 100%, 0 0, from(#9E9E9E), to(transparent));
@@ -635,7 +641,7 @@ Media Query
         background-image: -moz-linear-gradient(#9E9E9E, transparent);
         background-image: -o-linear-gradient(#9E9E9E, transparent);
     }
-    .CatalogInsideProduct:after {
+    .catalogInsideProduct:after {
         left: -2px;
         height: 2px;
         background-image: -webkit-gradient(linear, 0 0, 100% 0, from(transparent), to(#9E9E9E));
