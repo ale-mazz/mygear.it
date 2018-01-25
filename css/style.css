@@ -469,7 +469,7 @@ Categorie
     font-size: 0.8em;
     text-align: left;
 }
-.CatalogInsideProduct_name h1{
+.CatalogInsideProductName h1{
     margin-top: 3em;
     font-size: 1.1em;
 }
@@ -500,6 +500,7 @@ Contatti
     font-size: 2em;
 }
 #contactsWho{
+    height: 10em;
     text-align: center;
     padding: 3em 7% 5em 7%;
 }
@@ -538,6 +539,12 @@ Contatti
 }
 #contactsHow p{
     margin-top: 0.3em;
+}
+/* new */
+.contactsFlexContainer{
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
 }
 
 /********************************************************************************
