@@ -81,18 +81,18 @@ Menù Verticale (catalogo, categorie)
 /******************************************************************
 Categorie
 ******************************************************************/
-    .CatalogInsideProduct {
+    .catalogInsideProduct {
         margin: 2em 0% 3em 4%;
         width: 20%;
         float: left;
         text-align: center;
     }
-    .CatalogInsideProductPrice h3 {
+    .catalogInsideProductPrice h3 {
         margin-top: 4%;
         float:left;
         width: 100%;
     }
-    .CatalogInsideProductAvailability h3 {
+    .catalogInsideProductAvailability h3 {
         float: left;
         width: 100%;
     }

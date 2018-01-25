@@ -253,18 +253,18 @@
     }
 
 /***** Categorie *****/
-    .CatalogInsideProduct {
+    .catalogInsideProduct {
         position: static;
         width: 28%;
         margin-left: 2.3%;
     }
-    .CatalogInsideProductPrice h3 {
+    .catalogInsideProductPrice h3 {
         font-size: 0.75em;
     }
-    .CatalogInsideProductAvailability h3 {
+    .catalogInsideProductAvailability h3 {
         font-size: 0.75em;
     }
-    .CatalogInsideProductDescription p {
+    .catalogInsideProductDescription p {
         font-size: 0.75em;
     }
 
@@ -435,22 +435,22 @@ Media Query Mobile
     }
 
 /***** Categorie *****/
-    .CatalogInsideProduct {
+    .catalogInsideProduct {
         position: static;
         width: 40%;
         height: 390px;
         margin-left: 5%;
         margin-right: 5%;
     }
-    .CatalogInsideProduct_name h1 {
+    .catalogInsideProduct_name h1 {
         font-size: 1.1em;
     }
-    .CatalogInsideProductPrice h3 {
+    .catalogInsideProductPrice h3 {
         margin-top: 1%;
         float:none;
         width: 100%;
     }
-    .CatalogInsideProductAvailability h3 {
+    .catalogInsideProductAvailability h3 {
         float: none;
         width: 100%;
     }
