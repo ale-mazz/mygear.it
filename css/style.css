@@ -11,6 +11,16 @@ body {
     font-family: 'Lato';
     background-color: #FFFFFF;
 }
+.pageTitle {
+    width: 100%;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+.pageTitle h1 {
+    font-size: 2em;
+    text-align: center;
+    color: #000000;
+}
 
 /********************************************************************************
 Header & Menu
@@ -264,11 +274,6 @@ Home
 /********************************************************************************
 Configurazioni
 ********************************************************************************/
-#configTitle {
-    width: 100%;
-    margin-top: 2em;
-    margin-bottom: 2em;
-}
 #configHorizontalMenu {
     width: 100%;
 }
@@ -298,11 +303,6 @@ Configurazioni
     background-color: #424242;
     padding: 3%;
     margin-top: 2em;
-}
-#configTitle h1 {
-    font-size: 2em;
-    text-align: center;
-    color: #000000;
 }
 .configImg {
     width: 40%;
@@ -373,18 +373,6 @@ Configurazioni
 /********************************************************************************
 Catalogo
 ********************************************************************************/
-#catalogTitle {
-    width: 100%;
-    margin-top: 2em;
-    margin-bottom: 2em;
-    float:right;
-    position: static;
-}
-#catalogTitle h1 {
-    font-size: 2em;
-    text-align: center;
-    color: #000000;
-}
 .catalogContainerOut a {
     text-decoration: none;
     color: #000000;
@@ -490,18 +478,6 @@ Categorie
 /********************************************************************************
 Contatti
 ********************************************************************************/
-#contactsTitle {
-    width: 100%;
-    margin-top: 2em;
-    margin-bottom: 2em;
-    float:right;
-    position: static;
-}
-#contactsTitle h1 {
-    font-size: 2em;
-    text-align: center;
-    color: #000000;
-}
 .contactsTitles {
     padding-bottom: 0.5em;
     border-bottom-style: solid;
