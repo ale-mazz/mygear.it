@@ -4,6 +4,15 @@
 
 @media only screen and (max-width: 955px) {
 
+/***** General *****/
+    .pageTitle {
+        margin: 0em;
+        padding-top: 5em;
+    }
+    .pageTitle h1 {
+        font-size: 1.9em;
+    }
+
 /***** Header *****/
     .headerMenu {
         display: none;
@@ -156,7 +165,6 @@
         padding-top: 3em;
         margin-top: 0em;
     }
-
     .configImg{
         width: 100%;
         float: none;
@@ -173,7 +181,6 @@
         margin: 0%;
         width: 90%;
     }
-
     .configConfigurazioniTop {
         padding-top: 5em;
     }
@@ -214,7 +221,6 @@
         text-align: right;
         text-decoration: underline;
     }
-
     .configTornaSuMobile a:visited {
         text-decoration: none;
     }
@@ -223,14 +229,6 @@
     }
 
 /***** Catalogo *****/
-    #catalogTitle h1 {
-        font-size: 1.9em;
-    }
-    #catalogTitle {
-        position: static;
-        margin-top: 0em;
-        padding-top: 5em;
-    }
     .catalogContainerOut h2 {
         position: static;
         font-size: 1.4em;
@@ -255,13 +253,6 @@
     }
 
 /***** Categorie *****/
-    #CatalogInsideTitle {
-        margin: 0em;
-        padding-top: 5em;
-    }
-    #CatalogInsideTitle h1 {
-        font-size: 1.9em;
-    }
     .CatalogInsideProduct {
         position: static;
         width: 28%;
@@ -305,6 +296,10 @@ Media Query Mobile
 ******************************************************************/
 
 @media only screen and (max-width: 767px) {
+/***** General *****/
+    .pageTitle h1{
+        font-size: 1.5em;
+    }
 
 /***** Header *****/
     header {
@@ -417,9 +412,6 @@ Media Query Mobile
     }
 
 /***** Catalogo *****/
-    #catalogTitle h1 {
-        font-size: 1.5em;
-    }
     .catalogContainerOut h2 {
         font-size: 1em;
         width: 100%;
@@ -443,9 +435,6 @@ Media Query Mobile
     }
 
 /***** Categorie *****/
-    #CatalogInsideTitle h1{
-        font-size: 1.5em;
-    }
     .CatalogInsideProduct {
         position: static;
         width: 40%;

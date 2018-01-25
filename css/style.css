@@ -435,16 +435,6 @@ Menù Verticale (catalogo, categorie)
 /********************************************************************************
 Categorie
 ********************************************************************************/
-#catalogInsideTitle {
-    width: 100%;
-    margin-top: 2em;
-    margin-bottom: 2em;
-}
-#catalogInsideTitle h1 {
-    font-size: 2em;
-    text-align: center;
-    color: #000000;
-}
 .catalogInsideProduct {
     margin: 1em 1.5% 1em 1.5%;
     width: 17%;
