@@ -4,11 +4,11 @@ include_once '../php/connection.php';
 include_once '../php/classes/LoginUser.php';
 
 
-$user = $_POST['user'];
+$username = $_POST['user'];
 $password = $_POST['password'];
 
 // Check if all required fields have been filled
-$error = !(isset($password) && isset($user));
+$error = !(isset($password) && isset($username));
 
 
 $type = 'error';
@@ -21,10 +21,14 @@ if (!$error) {
     $newLogin->loginUser($username, $password);
     $result = empty($newLogin->errors);
 
-    if (!$result['result']) {
+    if (!$result) {
         $type = 'error';
-        $errorCode = $result['error_code'];
-        $message = $result['message'];
+        $errorCode = 1;
+        $message = $newLogin->errors[0];
+    } else {
+        $type = 'success';
+        $message = 'User logged in';
+        $errorCode = '';
     }
 }
 
@@ -32,12 +36,8 @@ $responseArray = array('type' => $type, 'message' => $message, 'errorCode' => $e
 
 if (!empty($_SERVER['HTTP_X_REQUESTED_WITH']) && strtolower($_SERVER['HTTP_X_REQUESTED_WITH']) == 'xmlhttprequest') {
     $encoded = json_encode($responseArray);
-    header("Location:../../index.php);
+    header('Content-Type: application/json');
+    // header("Location:../../index.php");
 
     echo $encoded;
-}
-
-else {
-
-    header("Location: index . php");
 }

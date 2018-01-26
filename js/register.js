@@ -44,7 +44,8 @@ checkPasswordAndConfirmationFields = function (password, confirmPassword){
     return valid;
 };
 
-const MIN_USERNAME_LENGTH = 6; const MAX_USERNAME_LENGTH = 20;
+const MIN_USERNAME_LENGTH = 6;
+const MAX_USERNAME_LENGTH = 64;
 /**
  * Checks if a field containing a username is valid.
  * @param username: HTML element containing the username as value.
