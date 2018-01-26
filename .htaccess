@@ -5,3 +5,5 @@ RewriteBase /
 RewriteRule ^(.+)\.php$ /$1 [R,L]
 RewriteCond %{REQUEST_FILENAME}.php -f
 RewriteRule ^(.*?)/?$ /$1.php [NC,END]
+
+ErrorDocument 404 /errore/404.php

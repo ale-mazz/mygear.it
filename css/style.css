@@ -11,6 +11,16 @@ body {
     font-family: 'Lato';
     background-color: #FFFFFF;
 }
+.pageTitle {
+    width: 100%;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+.pageTitle h1 {
+    font-size: 2em;
+    text-align: center;
+    color: #000000;
+}
 
 /********************************************************************************
 Header & Menu
@@ -264,11 +274,6 @@ Home
 /********************************************************************************
 Configurazioni
 ********************************************************************************/
-#configTitle {
-    width: 100%;
-    margin-top: 2em;
-    margin-bottom: 2em;
-}
 #configHorizontalMenu {
     width: 100%;
 }
@@ -291,18 +296,12 @@ Configurazioni
     font-size: 0.9em;
     padding: 0.2em;
 }
-
 .configConfigurazioniTop {
     width: 94%;
     float: left;
     background-color: #424242;
     padding: 3%;
     margin-top: 2em;
-}
-#configTitle h1 {
-    font-size: 2em;
-    text-align: center;
-    color: #000000;
 }
 .configImg {
     width: 40%;
@@ -373,10 +372,98 @@ Configurazioni
 /********************************************************************************
 Catalogo
 ********************************************************************************/
+.catalogContainerOut a {
+    text-decoration: none;
+    color: #000000;
+}
+.catalogContainerOut h2 {
+    text-align: center;
+    font-size: 1.1em;
+}
+.catalogContainerIn img {
+    width: 80%;
+    margin: 0.5em 2.5% 0.5em 2.5%;
+}
+.catalogContainerOut {
+    margin: 1em 1.5% 1em 1.5%;
+    width: 17%;
+    float: left;
+    text-align: center;
+    height: 16em;
+}
+.catalogContainerIn {
+    text-align: center;
+    margin-top: 1em;
+    float: left;
+    padding: 1em;
+    background-color: #FFFFFF;
+    position: relative;
+}
+/********************************************************************************
+Menù Verticale (catalogo, categorie)
+********************************************************************************/
+#catalogVerticalMenu {
+    width: 20%;
+    float: left;
+    height: 56em;
+}
+#catalogVerticalMenu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #B71C1C;
+    width: 200px;
+}
+#catalogVerticalMenu li {
+    padding: 0.4em;
+    border-top: solid;
+    border-bottom: solid;
+    border-color: #FFFFFF;
+    border-width: 2px;
+}
+#catalogVerticalMenu a {
+    display: block;
+    color: #FFFFFF;
+    padding: 0.15em 0.2em;
+    text-decoration: underline;
+    font-size: 0.9em;
+}
+#catalogVerticalMenu li:hover {
+    background-color: #212121;
+}
 
 /********************************************************************************
 Categorie
 ********************************************************************************/
+.catalogInsideProduct {
+    margin: 1em 1.5% 1em 1.5%;
+    width: 17%;
+    float: left;
+    background-color: #FFFFFF;
+    position: relative;
+    height: 25em;
+}
+.catalogInsideProductDescription p {
+    margin-top: 1em;
+    font-size: 0.8em;
+    text-align: left;
+}
+.catalogInsideProductName h1{
+    margin-top: 3em;
+    font-size: 1.1em;
+}
+.catalogInsideProductAvailability h3 {
+    font-size: 0.9em;
+    margin-top: 10%;
+    float: left;
+    width: 50%;
+}
+.catalogInsideProductPrice h3 {
+    font-size: 0.9em;
+    margin-top: 10%;
+    float: left;
+    width: 50%;
+}
 
 /********************************************************************************
 Contatti
@@ -391,6 +478,7 @@ Contatti
     font-size: 2em;
 }
 #contactsWho{
+    height: 10em;
     text-align: center;
     padding: 3em 7% 5em 7%;
 }
@@ -399,14 +487,14 @@ Contatti
     text-align: center;
     width: 40%;
     margin-left: 7%;
-    margin-bottom: 2em;
+    margin-bottom: 5em;
 }
 #contactsHow {
     text-align: center;
     width: 40%;
     margin-right: 7%;
     float: right;
-    margin-bottom: 2em;
+    margin-bottom: 5em;
 }
 #contactsWho img{
     width: 5em;
@@ -436,7 +524,8 @@ Media Query
 ********************************************************************************/
 @media only screen and (min-width: 956px) {
 
-/***** Bordo (home, catalogo, categorie, ?other?) *****/
+/***** Bordo *****/
+    /*** Bordo Home ***/
     #homeTitleBottom:after {
         content: "";
         position: absolute;
@@ -479,8 +568,55 @@ Media Query
      .homeContainersIn {
         position: relative;
     }
-/***** Footer **********************/
+    /*** Bordo Catalogo ***/
+    .catalogContainerIn:before,
+    .catalogContainerIn:after {
+        content: "";
+        position: absolute;
+        top: -3px;
+        right: -3px;
+    }
+    .catalogContainerIn:before {
+        bottom: -2px;
+        width: 2px;
+        background-image: -webkit-gradient(linear, 0 100%, 0 0, from(#9E9E9E), to(transparent));
+        background-image: -webkit-linear-gradient(#9E9E9E, transparent);
+        background-image: -moz-linear-gradient(#9E9E9E, transparent);
+        background-image: -o-linear-gradient(#9E9E9E, transparent);
+    }
+    .catalogContainerIn:after {
+        left: -2px;
+        height: 2px;
+        background-image: -webkit-gradient(linear, 0 0, 100% 0, from(transparent), to(#9E9E9E));
+        background-image: -webkit-linear-gradient(left, transparent, #9E9E9E);
+        background-image: -moz-linear-gradient(left, transparent, #9E9E9E);
+        background-image: -o-linear-gradient(left, transparent, #9E9E9E);
+    }.catalogInsideProduct:before,
+    /*** Bordo Categorie ***/
+    .catalogInsideProduct:after {
+        content: "";
+        position: absolute;
+        top: -3px;
+        right: -3px;
+    }
+    .catalogInsideProduct:before {
+        bottom: -2px;
+        width: 2px;
+        background-image: -webkit-gradient(linear, 0 100%, 0 0, from(#9E9E9E), to(transparent));
+        background-image: -webkit-linear-gradient(#9E9E9E, transparent);
+        background-image: -moz-linear-gradient(#9E9E9E, transparent);
+        background-image: -o-linear-gradient(#9E9E9E, transparent);
+    }
+    .catalogInsideProduct:after {
+        left: -2px;
+        height: 2px;
+        background-image: -webkit-gradient(linear, 0 0, 100% 0, from(transparent), to(#9E9E9E));
+        background-image: -webkit-linear-gradient(left, transparent, #9E9E9E);
+        background-image: -moz-linear-gradient(left, transparent, #9E9E9E);
+        background-image: -o-linear-gradient(left, transparent, #9E9E9E);
+    }
 
+/***** Footer **********************/
     #footerLoghiSocial img:hover {
         -webkit-transform: scale(1.2);
         -ms-transform: scale(1.2);

@@ -64,10 +64,38 @@ Configurazioni
 /******************************************************************
 Catalogo
 ******************************************************************/
+    .catalogContainerOut {
+        margin: 2em 0% 3em 4%;
+        width: 20%;
+        float: left;
+        text-align: center;
+    }
+
+/********************************************************************************
+Menù Verticale (catalogo, categorie)
+********************************************************************************/
+    #catalogVerticalMenu{
+        display: none;
+    }
 
 /******************************************************************
 Categorie
 ******************************************************************/
+    .catalogInsideProduct {
+        margin: 2em 0% 3em 4%;
+        width: 20%;
+        float: left;
+        text-align: center;
+    }
+    .catalogInsideProductPrice h3 {
+        margin-top: 4%;
+        float:left;
+        width: 100%;
+    }
+    .catalogInsideProductAvailability h3 {
+        float: left;
+        width: 100%;
+    }
 
 /******************************************************************
 Contatti
