@@ -39,7 +39,7 @@ class RegisterNewUser
 
         if (strlen($name) > 64 || strlen($name) < 2) {
             $this->errors[] = "Name cannot be shorter than 2 or longer than 64 characters";
-        } elseif (!preg_match('/^[a-z\d]{2,64}$/i', $name)){
+        } elseif (!preg_match('/^[a-z\d\s]{2,64}$/i', $name)) {
             $this->errors[] = "Name does not fit the name scheme: only a-Z and numbers are allowed, 2 to 64 characters";
         } elseif (empty($username)) {
             $this->errors[] = "Empty Username";

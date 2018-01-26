@@ -2,17 +2,20 @@
 <html lang="it">
 
 <head>
-    <title>utente | MYGEAR</title>
+    <title>Utente | MYGEAR</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="keywords" content="mygear computer pc assemblati shop">
     <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="headerstyle.css">
     <link rel="stylesheet" type="text/css" href="utentestyle.css">
-    <link rel="stylesheet" type="text/css" href="footerstyle.css">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="stylesheet" type="text/css" href="../css/stylemobile.css">
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lato" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="../js/hamburger.js"></script>
+    <script src="../js/logout.js"></script>
 </head>
 
-<body>
+<body onload="logoutOnLoad()">
 
     $header$
 
@@ -68,29 +71,14 @@
             <input class="userSubmitButton" id="changeContactsButton" type="submit" value="salva modifiche">
             <div class="messages"></div>
         </form>
-
-        <h2>Notifiche<span lang="en">Newsletter</span></h2>
-        <form class="userForm">
-            <label class="userNewsLetterLabel">Desideri ricevere via <span lang="en">mail</span> le novità di MyGear?</label>
-            <input class="userChoice" id="yesMail" type="radio" name="mail" value="yes">
-            <label class="userChoiceLabel" id="yesMailLabel" for="yesMail">Sì</label>
-            <input class="userChoice" id="noMail" type="radio" name="mail" value="no" checked="checked">
-            <label class="userChoiceLabel" id="noMailLabel" for="noMail">No</label>
-            <input class="userSubmitButton" id="changeNewsButton" type="submit" value="salva modifiche">
-
-        </form>
     </div>
 
-    <form action="login.html">
-        <input id="userLogoutButton" name="logoutLabel" type="submit" value="Logout">
-    </form>
+    <button id="logOut">Logout</button>
 
     $footer$
 
     <!-- Vari Scritp JS utilizzati -->
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="../js/hamburger.js"></script>
 
 </body>
 

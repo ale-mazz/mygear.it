@@ -2,7 +2,7 @@
 <html lang="it">
 
 <head>
-    <title>login | MYGEAR</title>
+    <title>Login | MYGEAR</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="keywords" content="mygear computer pc assemblati shop">
     <meta charset="UTF-8">
@@ -14,36 +14,37 @@
 
 <body onload="loginOnLoad()">
 
-    $header$
+$header$
 
-    <div id="regTitle">
-        <h1>SEI GIA' REGISTRATO? ACCEDI SUBITO!</h1>
-    </div>
-    <form id="loginForm" method="post" action="../php/dologin.php" name="loginform">
-        <div id="regform">
-            <div class="containerlogin">
-                <h2><span lang="en">Username</span></h2>
-                <input type="text" name="user_username" required>
-                <h2><span lang="en">Password</span></h2>
-                <input type="password" name="user_password" autocomplete="off" required>
-            </div>
-            <div class="clearfix">
-                <input id="submitButton" type="submit" value="accedi">
-            </div>
-            <div id="askreg">
-                <a>Non ti sei ancora registrato? Registrati subito </a><a href="registrazione.php">qui!</a>
-            </div>
-            <div class="messages" id="messageUserdata"></div>
-        </div>
+<div id="regTitle">
+    <h1>SEI GIA' REGISTRATO? ACCEDI SUBITO!</h1>
+</div>
+<div id="loginFormContainer" class="textCenter">
+    <form id="loginForm" action="../php/dologin.php" method="post">
+        <fieldset>
+            <legend class="displayNone">Inserimento dati per l'accesso</legend>
+            <label class="loginInputLabel" id="usernameLabel" for="username" lang="en">E-mail/Username</label>
+            <input class="loginInputField" id="username" type="text" name="user" title="E-mail o Username"
+                   required="required"/>
+            <label class="loginInputLabel" id="passwordLabel" for="password" lang="en">Password</label>
+            <input class="loginInputField" id="password" type="password" name="password" title="Password"
+                   required="required"/>
+            <input id="submitButton" type="submit" value="accedi">
+        </fieldset>
+        <div class="messages" id="messageUserdata"></div>
     </form>
+</div>
+<div id="asklog">
+    <a>Non sei ancora registrato? Fallo subito </a><a href="registrazione.php">qui!</a>
+</div>
 
-        $footer$
+$footer$
 
-        <!-- Vari Scritp JS utilizzati -->
+<!-- Vari Scritp JS utilizzati -->
 
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <script src="../js/hamburger.js"></script>
-        <script src="../js/login.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="../js/hamburger.js"></script>
+<script src="../js/login.js"></script>
 
 </body>
 

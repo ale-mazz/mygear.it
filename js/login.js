@@ -1,3 +1,4 @@
+
 createAlert = function (id, alertType, message) {
     return '<div id="' + id + '" class="alert alert-' + alertType + ' alert-dismissable">' +
         '<button type="button" class="close" data-dismiss="alert" aria-hidden="true" ' +
@@ -29,20 +30,21 @@ sendLoginRequest = function () {
 
         // Function called when the request has been successful
         success: function (data) {
-            if (data.type == 'success') {
-                if (checkCookie()) {
+            // console.log(data);
+            if (data.type === "success") {
+                // if (checkCookie()) {
                     // Get the user session created
 
                     var hashUserSession = data.message;
 
                     // If the cookies are enabled then save the session and redirect the user to the last page h
                     // visited
-                    setCookie('userSession', hashUserSession, 43800);
-                    window.location = getURLPage(getCookieById('page'));
-                } else {
-                    // Otherwise redirect it to the home page
+                // setCookie('userSession', hashUserSession, 43800);
+                // window.location = getURLPage(getCookieById('page'));
+                // } else {
+                //     // Otherwise redirect it to the home page
                     window.location = '../index.php';
-                }
+                // }
 
             }
 
@@ -69,6 +71,6 @@ sendLoginRequest = function () {
             }
 
         }
-    })
+    });
     return false;
 };
