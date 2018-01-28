@@ -257,6 +257,7 @@
         position: static;
         width: 28%;
         margin-left: 2.3%;
+        height: 400px;
     }
     .catalogInsideProductPrice h3 {
         font-size: 0.75em;
@@ -438,7 +439,7 @@ Media Query Mobile
     .catalogInsideProduct {
         position: static;
         width: 40%;
-        height: 390px;
+        height: 450px;
         margin-left: 5%;
         margin-right: 5%;
     }
