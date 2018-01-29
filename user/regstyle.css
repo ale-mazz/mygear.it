@@ -135,9 +135,8 @@ input[type=password] {
 
     }
     #asklog {
-
+        padding-top: 2em;
         margin-left: 15%;
-        margin-top: 15em;
         width: 70%;
         text-align: center;
     }
@@ -157,16 +156,48 @@ input[type=password] {
 
 @media only screen and (max-width: 767px) {
 
+    #registerForm  {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    #accountTitle h2 {
+
+        font-size: 1.2em;
+    }
+
+    #regTitle h1 {
+        font-size: 0.6em;
+    }
+
     #regform {
         margin: 8%;
     }
 
     .containerreg {
-        margin-top: 0m;
-        width: 100%;
+        margin-top: 0;
+        width: 80%;
+        margin-left: 7%;
     }
-    #asklog a {
 
-        font-size: 1.4em;
+    .labeltxt {
+        font-size: 1em;
+    }
+
+    input[type=text],
+    input[type=password] {
+        font-size: 0.8em;
+    }
+
+    #submitButton {
+        font-size: 1.2em;
+    }
+
+    #asklog {
+        padding-top: 0;
+    }
+
+    #asklog a {
+        font-size: 1.2em;
     }
 }
