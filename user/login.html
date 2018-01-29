@@ -17,24 +17,25 @@
 $header$
 
 <div id="regTitle">
-    <h1>SEI GIA' REGISTRATO? ACCEDI SUBITO!</h1>
+    <h1>SE SEI GIA' REGISTRATO PUOI ACCEDERE SUBITO AL TUO ACCOUNT.<br>INSERISCI I TUOI DATI NEL FORM SOTTOSTANTE!</h1>
 </div>
-<div id="loginFormContainer" class="textCenter">
+<div id="loginTitle">
+    <h2>LOGIN</h2>
+</div>
+<div id="loginFormContainer">
     <form id="loginForm" action="../php/dologin.php" method="post">
         <fieldset>
             <legend class="displayNone">Inserimento dati per l'accesso</legend>
             <label class="loginInputLabel" id="usernameLabel" for="username" lang="en">E-mail/Username</label>
-            <input class="loginInputField" id="username" type="text" name="user" title="E-mail o Username"
-                   required="required"/>
+            <input id="username" type="text" name="user" title="Username" required="required"/>
             <label class="loginInputLabel" id="passwordLabel" for="password" lang="en">Password</label>
-            <input class="loginInputField" id="password" type="password" name="password" title="Password"
-                   required="required"/>
-            <input id="submitButton" type="submit" value="accedi">
+            <input id="password" type="password" name="password" title="Password" required="required"/>
+            <input id="submitButton" type="submit" value="Accedi">
         </fieldset>
         <div class="messages" id="messageUserdata"></div>
     </form>
 </div>
-<div id="asklog">
+<div id="askreg">
     <a>Non sei ancora registrato? Fallo subito </a><a href="registrazione.php">qui!</a>
 </div>
 
