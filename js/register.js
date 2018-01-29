@@ -45,7 +45,7 @@ checkPasswordAndConfirmationFields = function (password, confirmPassword){
 };
 
 const MIN_USERNAME_LENGTH = 6;
-const MAX_USERNAME_LENGTH = 20;
+const MAX_USERNAME_LENGTH = 64;
 /**
  * Checks if a field containing a username is valid.
  * @param username: HTML element containing the username as value.
@@ -217,7 +217,7 @@ sendRegisterRequest = function () {
             var message = 'Registrazione effettuata con successo. Grazie per esserti registrato!';
 
             if(errorCode === 1){
-                message = 'Registrazione fallita. Per favore controlla e riprova.'
+                message = 'Registrazione fallita. Per favore riprova più tardi'
             }
 
             /* Create the alert box, which will have two different classes:*/
