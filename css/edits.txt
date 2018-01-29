@@ -20,12 +20,5 @@ stesso codice per:
 - .homeContainersIn:before, .catalogContainerIn:before, .catalogInsideProduct:before
 - .homeContainersIn:after, .catalogContainerIn:after, .catalogInsideProduct:after
 
-eliminati:
+invariati:
 - #homeTitleBottom, #homeTitleBottom:after, #homeTitleBottom:after
-
-****************************
-HOME
-****************************
-
-eliminati:
-- #homeTitleBottom
