@@ -1,5 +1,7 @@
 <?php
 
+session_start();
+
 require_once '../php/connection.php';
 
 $page=file_get_contents("catalogo.html");
@@ -16,6 +18,17 @@ $page=str_replace('$ccont$','hover', $page);
 $page=str_replace('$rt$','../',$page);
 $page=str_replace('$rthome$','../',$page);
 $page=str_replace('$rtcat$','cataloginside/',$page);
+
+$login = "ACCEDI";
+$user = "../user/";
+if (isset($_SESSION['user_username'])) {
+    $login = $_SESSION['user_username'];
+    $user = '../user/user.php';
+
+}
+
+$page = str_replace('$rtuser$', $user, $page);
+$page = str_replace('$login$', $login, $page);
 
 //Prezzo Minimo
 
@@ -119,6 +132,5 @@ foreach ($products as $product){
 
 echo $page;
 
-mysqli_close($conn);
 
 ?>

@@ -31,6 +31,5 @@ $page = str_replace('$login$', $login, $page);
 
 echo $page;
 
-mysqli_close($conn);
 
 ?>

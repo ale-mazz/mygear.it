@@ -18,6 +18,5 @@ $page=str_replace('$ccont$','selected', $page);
 
 echo $page;
 
-mysqli_close($conn);
 
 ?>

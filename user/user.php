@@ -16,6 +16,16 @@ $page = str_replace('$cconf$', 'hover', $page);
 $page = str_replace('$ccat$', 'hover', $page);
 $page = str_replace('$ccont$', 'hover', $page);
 
+$login = "ACCEDI";
+$user = "";
+if (isset($_SESSION['user_username'])) {
+    $login = $_SESSION['user_username'];
+    $user = 'user.php';
+
+}
+
+$page = str_replace('$rtuser$', $user, $page);
+$page = str_replace('$login$', $login, $page);
 
 echo $page;
 
