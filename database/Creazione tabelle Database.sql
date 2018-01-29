@@ -123,7 +123,7 @@ CREATE TABLE schede_video (
 	`Prezzo`          float(8,2)   NOT NULL,
 	`Img`             char(70)     NOT NULL,
 	`Disponibilita`   char(20)     NOT NULL,
-	`Alt`             char(20)     NOT NULL
+	`Alt`             char(30)     NOT NULL
 ) ENGINE=InnoDB;
 
 DROP TABLE IF EXISTS case_pc;
@@ -134,25 +134,25 @@ CREATE TABLE case_pc (
 	`Prezzo`          float(8,2)   NOT NULL,
 	`Img`             char(70)     NOT NULL,
 	`Disponibilita`   char(20)     NOT NULL,
-	`Alt`             char(20)     NOT NULL
+	`Alt`             char(30)     NOT NULL
 ) ENGINE=InnoDB;
 
 -- Inserimento dei prodotti nel database
 
 
 INSERT INTO alimentatori (`Codice_prodotto`, `Nome`, `Descrizione`, `Prezzo`, `Img`, `Disponibilita`, `Alt`)
-VALUES ('001', '<span lang="en">Series</span> CX430', 'Marca: <span lang="en">Corsair</span><br>Watt: 430<br>Certificazione: 80Plus', '56,90', 'imagemagic.jpg', 'Disponibile', 'Alimentatore <span lang="en">Corsair</span>'),
-('002', '<span lang="en">Series</span> CX450M', 'Marca: <span lang="en">Corsair</span><br>Watt: 450<br>Certificazione: 80Plus', '59,90', 'imagemagic(1).jpg', 'Disponibile', 'Alimentatore <span lang="en">Corsair</span>'),
+VALUES ('001', '<span lang="en">Series</span> CX430', 'Marca: <span lang="en">Corsair</span><br>Watt: 430<br>Certificazione: 80Plus', '56,90', 'imagemagic.jpg', 'Disponibile', 'Alimentatore Corsair'),
+('002', '<span lang="en">Series</span> CX450M', 'Marca: <span lang="en">Corsair</span><br>Watt: 450<br>Certificazione: 80Plus', '59,90', 'imagemagic(1).jpg', 'Disponibile', 'Alimentatore Corsair'),
 ('003', 'MaxPro 80Plus', 'Marca: <span lang="en">Enermax</span><br>Watt: 600<br>Certificazione: 80Plus', '59,90', 'imagemagic2.jpg', 'Disponibile', 'Alimentatore Enermax'),
-('004', 'SF450', 'Marca: <span lang="en">Corsair</span><br>Watt: 450<br>Certificazione: 80Plus Gold', '89,90', 'imagemagic3.jpg', 'Disponibile', 'Alimentatore <span lang="en">Corsair</span> 450'),
-('005', 'SST-GM500-G', 'Marca: <span lang="en">Silverstone</span><br>Watt: 500<br>Certificazione: 80Plus Gold', '599,90', 'imagemagic4.jpg', 'Disponibile', 'Alimentatore <span lang="en">Silverstone</span>'),
-('006', '<span lang="en">Atlantis</span> 500W', 'Marca: <span lang="en">Atlantis</span><br>Watt: 500<br>Certificazione: No', '43,90', 'alimentatore_atlantis_500w.jpg', 'Non Disponibile', 'Alimentatore <span lang="en">Atlantis</span>'),
-('007', '<span lang="en">Corsair</span> 620 W', 'Marca: <span lang="en">Corsair</span><br>Watt: 620<br>Certificazione: No', '33,90', 'alimentatore_corsair_620w.jpg', 'Disponibile', 'Alimentatore <span lang="en">Corsair</span>'),
-('008', '<span lang="en">Itek</span> 650W', 'Marca: <span lang="en">Itek</span><br>Watt: 650<br>Certificazione: Silver', '33,90', 'alimentatore_itek.jpg', 'Non Disponibile', 'Alimentatore <span lang="en">Itek</span>'),
-('009', '<span lang="en">Maker</span> 1200', 'Marca: <span lang="en">Cooler Master</span><br>Watt: 1200<br>Certificazione: 80Plus Titanium', '1049,90', 'alimentatore_cooler_master_maker_1200.jpg', 'Disponibile', 'Alimentatore <span lang="en">Cooler Master</span>'),
-('010', '<span lang="en">Masterwatt Maker</span> 1500', 'Marca: <span lang="en">Cooler Master</span><br>Watt: 1500<br>Certificazione: 80Plus Titanium', '489,90', 'alimentatore_cooler_master_masterwatt.jpg', 'Disponibile', 'Alimentatore <span lang="en">Cooler Master</span>'),
-('011', '<span lang="en">Masterwatt Maker</span> 1500 NB', 'Marca: Cooler Master<br>Watt: 1500<br>Certificazione: 80Plus Titanium', '469,90', 'alimentatore_cooler_master.jpg', 'Disponibile', 'Alimentatore <span lang="en">Cooler Master</span>'),
-('012', 'Supernova 850', 'Marca: <span lang="en">Evga</span><br>Watt: 850<br>Certificazione: Gold', '425,90', 'alimentatore_evga.jpg', 'Disponibile', 'Alimentatore <span lang="en">Evga</span>');
+('004', 'SF450', 'Marca: <span lang="en">Corsair</span><br>Watt: 450<br>Certificazione: 80Plus Gold', '89,90', 'imagemagic3.jpg', 'Disponibile', 'Alimentatore Corsair 450'),
+('005', 'SST-GM500-G', 'Marca: <span lang="en">Silverstone</span><br>Watt: 500<br>Certificazione: 80Plus Gold', '599,90', 'imagemagic4.jpg', 'Disponibile', 'Alimentatore Silverstone'),
+('006', '<span lang="en">Atlantis</span> 500W', 'Marca: <span lang="en">Atlantis</span><br>Watt: 500<br>Certificazione: No', '43,90', 'alimentatore_atlantis_500w.jpg', 'Non Disponibile', 'Alimentatore Atlantis'),
+('007', '<span lang="en">Corsair</span> 620 W', 'Marca: <span lang="en">Corsair</span><br>Watt: 620<br>Certificazione: No', '33,90', 'alimentatore_corsair_620w.jpg', 'Disponibile', 'Alimentatore Corsair'),
+('008', '<span lang="en">Itek</span> 650W', 'Marca: <span lang="en">Itek</span><br>Watt: 650<br>Certificazione: Silver', '33,90', 'alimentatore_itek.jpg', 'Non Disponibile', 'Alimentatore Itek'),
+('009', '<span lang="en">Maker</span> 1200', 'Marca: <span lang="en">Cooler Master</span><br>Watt: 1200<br>Certificazione: 80Plus Titanium', '1049,90', 'alimentatore_cooler_master_maker_1200.jpg', 'Disponibile', 'Alimentatore Cooler Master'),
+('010', '<span lang="en">Masterwatt Maker</span> 1500', 'Marca: <span lang="en">Cooler Master</span><br>Watt: 1500<br>Certificazione: 80Plus Titanium', '489,90', 'alimentatore_cooler_master_masterwatt.jpg', 'Disponibile', 'Alimentatore Cooler Master'),
+('011', '<span lang="en">Masterwatt Maker</span> 1500 NB', 'Marca: Cooler Master<br>Watt: 1500<br>Certificazione: 80Plus Titanium', '469,90', 'alimentatore_cooler_master.jpg', 'Disponibile', 'Alimentatore Cooler Master'),
+('012', 'Supernova 850', 'Marca: <span lang="en">Evga</span><br>Watt: 850<br>Certificazione: Gold', '425,90', 'alimentatore_evga.jpg', 'Disponibile', 'Alimentatore Evga');
 
 INSERT INTO cpu (`Codice_prodotto`, `Nome`, `Descrizione`, `Prezzo`, `Img`, `Disponibilita`, `Alt`)
 VALUES ('013', 'Intel Core i3-6300', 'Marca: Intel<br>Frequenza: 3,8 GHz<br>Socket: 115', '189,90', '1404323_LB_00_FB.EPS_1000.jpg', 'Disponibile', 'Cpu Intel Core i3'),
@@ -169,12 +169,12 @@ VALUES ('013', 'Intel Core i3-6300', 'Marca: Intel<br>Frequenza: 3,8 GHz<br>Sock
 ('024', 'AMD CPU <span lang="en">Ryzen</span> 7 1800X', 'Marca: <span lang="en">Ryzen</span><br>Frequenza: 4,0 GHz<br>Socket: AM4', '529,90', 'amd_cpu_ryzen.jpg', 'Disponibile', 'Cpu AMD');
 
 INSERT INTO cuffie (`Codice_prodotto`, `Nome`, `Descrizione`, `Prezzo`, `Img`, `Disponibilita`, `Alt`)
-VALUES ('025', '<span lang="en">Aorus E1 Headset</span>', 'Marca: <span lang="en">Aorus</span><br><span lang="en">Wireless</span>: No<br><span lang="en">Gaming</span>: Si', '119,90', 'aoruse1.jpg', 'Non Disponibile', 'Cuffie <span lang="en">Aorus</span>'),
+VALUES ('025', '<span lang="en">Aorus E1 Headset</span>', 'Marca: <span lang="en">Aorus</span><br><span lang="en">Wireless</span>: No<br><span lang="en">Gaming</span>: Si', '119,90', 'aoruse1.jpg', 'Non Disponibile', 'Cuffie Aorus'),
 ('026', 'Asus <span lang="en">Cerberus Arctic Stereo</span>', 'Marca: Asus<br><span lang="en">Wireless</span>: No<br><span lang="en">Gaming</span>: Si', '39,90', 'asusCerberus.jpg', 'Non Disponibile', 'Cuffie Asus'),
 ('027', 'Asus <span lang="en">Echelon Forest Stereo</span>', 'Marca: Asus<br><span lang="en">Wireless</span>: No<br><span lang="en">Gaming</span>: Si', '69,90', 'asusEchelon.jpg', 'Disponibile', 'Cuffie Asus'),
 ('028', 'Asus ROG <span lang="en">Centurion</span> 7.1', 'Marca: Asus<br><span lang="en">Wireless</span>: No<br><span lang="en">Gaming</span>: Si', '239,90', 'asusRog.jpg', 'Non Disponibile', 'Cuffie Asus'),
-('029', '<span lang="en">Corsair Gaming VOID PRO</span>', 'Marca: <span lang="en">Corsair</span><br><span lang="en">Wireless</span>: Si<br><span lang="en">Gaming</span>: Si', '119,90', 'voidPro.jpg', 'Non Disponibile', 'Cuffie <span lang="en">Corsair</span>'),
-('030', '<span lang="en">Headset Razer Destiny 2</span>', 'Marca: Razer<br><span lang="en">Wireless</span>: No<br><span lang="en">Gaming</span>: Si', '129,90', 'razerDestiny.jpg', 'Disponibile', 'Cuffie <span lang="en">Razer</span>'),
+('029', '<span lang="en">Corsair Gaming VOID PRO</span>', 'Marca: <span lang="en">Corsair</span><br><span lang="en">Wireless</span>: Si<br><span lang="en">Gaming</span>: Si', '119,90', 'voidPro.jpg', 'Non Disponibile', 'Cuffie Corsair'),
+('030', '<span lang="en">Headset Razer Destiny 2</span>', 'Marca: Razer<br><span lang="en">Wireless</span>: No<br><span lang="en">Gaming</span>: Si', '129,90', 'razerDestiny.jpg', 'Disponibile', 'Cuffie Razer'),
 ('031', 'H820E <span lang="en">Headset</span> USB', 'Marca: Logitech<br><span lang="en">Wireless</span>: No<br><span lang="en">Gaming</span>: No', '164,90', 'headset_usb.jpg', 'Disponibile', 'Cuffie Logitech'),
 ('032', 'Logitech cuffie con microfono', 'Marca: Logitech<br><span lang="en">Wireless</span>: Si<br><span lang="en">Gaming</span>: No', '129,90', 'logitech_cuffie.jpg', 'Disponibile', 'Cuffie Logitech '),
 ('033', 'H650E <span lang="en">Headset stereo</span> USB', 'Marca: Logitech<br><span lang="en">Wireless</span>: No<br><span lang="en">Gaming</span>: No', '64,90', 'headset_stereo.jpg', 'Disponibile', 'Cuffie Logitech'),
@@ -213,7 +213,7 @@ VALUES ('049', '<span lang="en">Corsair</span> RGB LED', 'Marca: <span lang="en"
 INSERT INTO monitor (`Codice_prodotto`, `Nome`, `Descrizione`, `Prezzo`, `Img`, `Disponibilita`, `Alt`)
 VALUES ('061', 'MG248QR', 'Marca: Asus<br>Dimensione: 24"<br>Risoluzione: 1080p', '349,90', 'AsusMG248.jpg', 'Disponibile', 'Monitor Asus'),
 ('062', 'Zowie', 'Marca: Benq<br>Dimensione: 27"<br>Risoluzione: 4K', '569,90', 'monitorBenq.jpg', 'Disponibile', 'Monitor Benq'),
-('063', '<span lang="en">MSI</span> OptiX', 'Marca: <span lang="en">MSI</span><br>Dimensione: 27"<br>Risoluzione: 1080p', '669,90', '4719072520083_LRG.jpg', 'Disponibile', 'Monitor <span lang="en">MSI</span>'),
+('063', '<span lang="en">MSI</span> OptiX', 'Marca: <span lang="en">MSI</span><br>Dimensione: 27"<br>Risoluzione: 1080p', '669,90', '4719072520083_LRG.jpg', 'Disponibile', 'Monitor MSI'),
 ('064', '<span lang="en">Gaming</span> TCY', 'Marca: Samsung<br>Dimensione: 31.5"<br>Risoluzione: 4K', '449,90', '8806088693637_MED.jpg', 'Disponibile', 'Monitor Samsung'),
 ('065', 'ASUS PA328Q', 'Marca: Asus<br>Dimensione: 32"<br>Risoluzione: 4K', '1279,90', 'asusPa.jpg', 'Disponibile', 'Monitor Asus'),
 ('066', 'ROG Swift', 'Marca: Asus<br>Dimensione: 34"<br>Risoluzione: 4K', '1199,90', 'asusRog.jpg', 'Disponibile', 'Monitor Asus'),
@@ -225,47 +225,47 @@ VALUES ('061', 'MG248QR', 'Marca: Asus<br>Dimensione: 24"<br>Risoluzione: 1080p'
 ('072', 'ROG Swift PG278Q', 'Marca: Asus<br>Dimensione: 27"<br>Risoluzione: 4K', '799,00', 'asus_rog_swift.jpg', 'Disponibile', 'Monitor Asus');
 
 INSERT INTO mouse_tastiere (`Codice_prodotto`, `Nome`, `Descrizione`, `Prezzo`, `Img`, `Disponibilita`, `Alt`)
-VALUES ('073', '<span lang="en">Gaming</span> GXT', 'Marca: <span lang="en">Trust</span><br><span lang="en">Wireless</span>: No<br><span lang="en">Gaming</span>: Si', '49,90', 'trust_mouse.jpg', 'Disponibile', 'Mouse <span lang="en">Trust</span>'),
-('074', 'GLAIVE RGB', 'Marca: <span lang="en">Corsair</span><br><span lang="en">Wireless</span>: No<br><span lang="en">Gaming</span>: Si', '69,90', 'corsair_mouse.jpg', 'Disponibile', 'Mouse <span lang="en">Corsair</span>'),
-('075', 'MasterMouse MM520', 'Marca: Cooler Master<br><span lang="en">Wireless</span>: No<br><span lang="en">Gaming</span>: Si', '69,90', 'coolerMouse.jpg', 'Disponibile', 'Mouse <span lang="en">Cooler Master</span>'),
-('076', 'STRAFE RGB', 'Marca: <span lang="en">Trust</span><br><span lang="en">Wireless</span>: No<br><span lang="en">Gaming</span>: Si', '149,90', 'straffe.jpg', 'Disponibile', 'Mouse <span lang="en">Trust</span>'),
+VALUES ('073', '<span lang="en">Gaming</span> GXT', 'Marca: <span lang="en">Trust</span><br><span lang="en">Wireless</span>: No<br><span lang="en">Gaming</span>: Si', '49,90', 'trust_mouse.jpg', 'Disponibile', 'Mouse Trust'),
+('074', 'GLAIVE RGB', 'Marca: <span lang="en">Corsair</span><br><span lang="en">Wireless</span>: No<br><span lang="en">Gaming</span>: Si', '69,90', 'corsair_mouse.jpg', 'Disponibile', 'Mouse Corsair'),
+('075', 'MasterMouse MM520', 'Marca: Cooler Master<br><span lang="en">Wireless</span>: No<br><span lang="en">Gaming</span>: Si', '69,90', 'coolerMouse.jpg', 'Disponibile', 'Mouse Cooler Master'),
+('076', 'STRAFE RGB', 'Marca: <span lang="en">Trust</span><br><span lang="en">Wireless</span>: No<br><span lang="en">Gaming</span>: Si', '149,90', 'straffe.jpg', 'Disponibile', 'Mouse Trust'),
 ('077', 'Desktop MK710', 'Marca: Logitech<br><span lang="en">Wireless</span>: Si<br><span lang="en">Gaming</span>: Si', '99,90', 'tastiera_mouse.jpg', 'Disponibile', 'Tastiera e Mouse Logitech'),
-('078', '<span lang="en">Razer Turret</span>', 'Marca: <span lang="en">Razer</span><br><span lang="en">Wireless</span>: No<br><span lang="en">Gaming</span>: Si', '179,90', 'razerTurret.jpg', 'Disponibile', 'Tastiera e Mouse <span lang="en">Razer</span>'),
+('078', '<span lang="en">Razer Turret</span>', 'Marca: <span lang="en">Razer</span><br><span lang="en">Wireless</span>: No<br><span lang="en">Gaming</span>: Si', '179,90', 'razerTurret.jpg', 'Disponibile', 'Tastiera e Mouse Razer'),
 ('079', 'ASUS ROG', 'Marca: Asus<br><span lang="en">Wireless</span>: No<br><span lang="en">Gaming</span>: Si', '254,90', 'tastiera_gaming_asus.jpg', 'Disponibile', 'Tastiera Asus'),
-('080', 'K95 RGB <span lang="en">BROWN</span>', 'Marca: <span lang="en">Corsair</span><br><span lang="en">Wireless</span>: No<br><span lang="en">Gaming</span>: Si', '239,90', 'corsair_gaming.jpg', 'Disponibile', 'Tastiera <span lang="en">Corsair</span>'),
-('081', 'K70 RGB <span lang="en">RAPIDFIRE</span>', 'Marca: <span lang="en">Corsair</span><br><span lang="en">Wireless</span>: No<br><span lang="en">Gaming</span>: Si', '229,90', 'corsair_gamingk70.jpg', 'Disponibile', 'Tastiera <span lang="en">Corsair</span>'),
+('080', 'K95 RGB <span lang="en">BROWN</span>', 'Marca: <span lang="en">Corsair</span><br><span lang="en">Wireless</span>: No<br><span lang="en">Gaming</span>: Si', '239,90', 'corsair_gaming.jpg', 'Disponibile', 'Tastiera Corsair'),
+('081', 'K70 RGB <span lang="en">RAPIDFIRE</span>', 'Marca: <span lang="en">Corsair</span><br><span lang="en">Wireless</span>: No<br><span lang="en">Gaming</span>: Si', '229,90', 'corsair_gamingk70.jpg', 'Disponibile', 'Tastiera Corsair'),
 ('082', 'ASUS ROG', 'Marca: Asus<br><span lang="en">Wireless</span>: No<br><span lang="en">Gaming</span>: Si', '179,90', 'mouse_asus_rog.jpg', 'Disponibile', 'Tastiera Asus'),
-('083', 'NAGA Epic Chroma', 'Marca: <span lang="en">Razer</span><br><span lang="en">Wireless</span>: No<br><span lang="en">Gaming</span>: Si', '159,90', 'razer_mousenaga.jpg', 'Disponibile', 'Tastiera <span lang="en">Razer</span>'),
-('084', '<span lang="en">OUROBOROS</span> USB', 'Marca: <span lang="en">Trust</span><br><span lang="en">Wireless</span>: Si<br><span lang="en">Gaming</span>: Si', '144,90', 'razer_mouse_wireless.jpg', 'Disponibile', 'Tastiera <span lang="en">Trust</span>');
+('083', 'NAGA Epic Chroma', 'Marca: <span lang="en">Razer</span><br><span lang="en">Wireless</span>: No<br><span lang="en">Gaming</span>: Si', '159,90', 'razer_mousenaga.jpg', 'Disponibile', 'Tastiera Razer'),
+('084', '<span lang="en">OUROBOROS</span> USB', 'Marca: <span lang="en">Trust</span><br><span lang="en">Wireless</span>: Si<br><span lang="en">Gaming</span>: Si', '144,90', 'razer_mouse_wireless.jpg', 'Disponibile', 'Tastiera Trust');
 
 INSERT INTO case_pc (`Codice_prodotto`, `Nome`, `Descrizione`, `Prezzo`, `Img`, `Disponibilita`, `Alt`)
-VALUES ('085', '<span lang="en">Graphite</span> 780T', 'Marca: <span lang="en">Corsair</span><br>Modello: <span lang="en">Full-Tower</span><br>Vetro Temperato: Si', '189,90', 'Corsair-Graphite.jpg', 'Disponibile', '<span lang="en">Case Corsair</span>'),
-('086', '<span lang="en">Crystal</span> 570X RGB', 'Marca: <span lang="en">Corsair</span><br>Modello: <span lang="en">Full-Tower</span><br>Vetro Temperato: Si', '209,90', 'corsairCrystal.jpg', 'Disponibile', '<span lang="en">Case Corsair</span>'),
-('087', 'Cosmos C700P', 'Marca: Cooler Master<br>Modello: <span lang="en">Full-Tower</span><br>Vetro Temperato: Si', '289,90', 'collerCosmos.jpg', 'Disponibile', 'Case Cooler Master</span>'),
-('088', 'Cosmos II', 'Marca: <span lang="en">Corsair</span><br>Modello: <span lang="en">Full-Tower</span><br>Vetro Temperato: No', '399,90', 'cosmosMaster.jpg', 'Disponibile', '<span lang="en">Case Corsair</span>'),
-('089', '<span lang="en">Aerocool</span> P7-C1-BG', 'Marca: <span lang="en">Aerocool</span><br>Modello: <span lang="en">Full-Tower</span><br>Vetro Temperato: Si', '119,90', 'aerocool.jpg', 'Disponibile', '<span lang="en">Case Aerocool</span>o'),
-('090', 'Desk HD-DSK-001', 'Marca: Hydra<br>Modello: Desk<br>Vetro Temperato: Si', '1109,90', 'hydra-deskcase.jpg', 'Disponibile', '<span lang="en">Case Hydra</span> con vetro temperato'),
-('091', '<span lang="en">Challenger Orange</span>', 'Marca: Cougar<br>Modello: <span lang="en">Full-Tower</span><br>Vetro Temperato: No', '79,90', 'casecougar.jpg', 'Disponibile', '<span lang="en">Case Cougar</span>'),
-('092', '<span lang="en">PANZER MAX</span>', 'Marca: Cougar<br>Modello: <span lang="en">Full-Tower</span><br>Vetro Temperato: Si', '129,90', 'casecougarmax.jpg', 'Disponibile', '<span lang="en">Case Cougar</span>'),
-('094', '<span lang="en">PANZER</span>', 'Marca: Cougar<br>Modello: <span lang="en">Full-Tower</span><br>Vetro Temperato: Si', '79,90', 'casecougarpanzer.jpg', 'Disponibile', '<span lang="en">Case Cougar</span>'),
-('095', '<span lang="en">Maker</span> 5t', 'Marca: <span lang="en">Cooler Master</span><br>Modello: <span lang="en">Full-Tower</span><br>Vetro Temperato: Si', '199,00', 'mastercase.jpg', 'Disponibile', '<span lang="en">Case Cooler Master</span>'),
-('096', '<span lang="en">Phantom</span> 820', 'Marca: NZTX<br>Modello: <span lang="en">Full-Tower</span><br>Vetro Temperato: No', '119,90', 'casePhantom.jpg', 'Disponibile', '<span lang="en">Case</span> NZTX'),
-('097', 'HAF X', 'Marca: <span lang="en">Cooler Master</span><br>Modello: <span lang="en">Full-Tower</span><br>Vetro Temperato: Si', '209,90', 'hafX.jpg', 'Disponibile', '<span lang="en">Case Cooler Master</span>');
+VALUES ('085', '<span lang="en">Graphite</span> 780T', 'Marca: <span lang="en">Corsair</span><br>Modello: <span lang="en">Full-Tower</span><br>Vetro Temperato: Si', '189,90', 'Corsair-Graphite.jpg', 'Disponibile', 'Hardware Corsair'),
+('086', '<span lang="en">Crystal</span> 570X RGB', 'Marca: <span lang="en">Corsair</span><br>Modello: <span lang="en">Full-Tower</span><br>Vetro Temperato: Si', '209,90', 'corsairCrystal.jpg', 'Disponibile', 'Hardware Corsair'),
+('087', 'Cosmos C700P', 'Marca: Cooler Master<br>Modello: <span lang="en">Full-Tower</span><br>Vetro Temperato: Si', '289,90', 'collerCosmos.jpg', 'Disponibile', 'Hardware Cooler Master'),
+('088', 'Cosmos II', 'Marca: <span lang="en">Corsair</span><br>Modello: <span lang="en">Full-Tower</span><br>Vetro Temperato: No', '399,90', 'cosmosMaster.jpg', 'Disponibile', 'Case Corsair'),
+('089', '<span lang="en">Aerocool</span> P7-C1-BG', 'Marca: <span lang="en">Aerocool</span><br>Modello: <span lang="en">Full-Tower</span><br>Vetro Temperato: Si', '119,90', 'aerocool.jpg', 'Disponibile', 'Case Aerocool'),
+('090', 'Desk HD-DSK-001', 'Marca: Hydra<br>Modello: Desk<br>Vetro Temperato: Si', '1109,90', 'hydra-deskcase.jpg', 'Disponibile', 'Case Hydra con vetro temperato'),
+('091', '<span lang="en">Challenger Orange</span>', 'Marca: Cougar<br>Modello: <span lang="en">Full-Tower</span><br>Vetro Temperato: No', '79,90', 'casecougar.jpg', 'Disponibile', 'Case Cougar'),
+('092', '<span lang="en">PANZER MAX</span>', 'Marca: Cougar<br>Modello: <span lang="en">Full-Tower</span><br>Vetro Temperato: Si', '129,90', 'casecougarmax.jpg', 'Disponibile', 'Case Cougar'),
+('094', '<span lang="en">PANZER</span>', 'Marca: Cougar<br>Modello: <span lang="en">Full-Tower</span><br>Vetro Temperato: Si', '79,90', 'casecougarpanzer.jpg', 'Disponibile', 'Case Cougar'),
+('095', '<span lang="en">Maker</span> 5t', 'Marca: <span lang="en">Cooler Master</span><br>Modello: <span lang="en">Full-Tower</span><br>Vetro Temperato: Si', '199,00', 'mastercase.jpg', 'Disponibile', 'Case Cooler Master'),
+('096', '<span lang="en">Phantom</span> 820', 'Marca: NZTX<br>Modello: <span lang="en">Full-Tower</span><br>Vetro Temperato: No', '119,90', 'casePhantom.jpg', 'Disponibile', 'Case NZTX'),
+('097', 'HAF X', 'Marca: <span lang="en">Cooler Master</span><br>Modello: <span lang="en">Full-Tower</span><br>Vetro Temperato: Si', '209,90', 'hafX.jpg', 'Disponibile', 'Case Cooler Master');
 
 
 INSERT INTO raffreddamento (`Codice_prodotto`, `Nome`, `Descrizione`, `Prezzo`, `Img`, `Disponibilita`, `Alt`)
-VALUES ('098', '<span lang="en">Hydro Series</span> H80i v2', 'Marca: <span lang="en">Corsair</span><br>Tipologia: Liquido<br>Dimensione: 120mm', '104,90', 'hydrohigh.jpg', 'Non Disponibile', 'Dissipatore a liquido <span lang="en">Corsair</span>'),
-('099', 'LiqTech TR4 240', 'Marca: Enermax<br>Tipologia: Liquido<br>Dimensione: 240mm', '149,90', 'enermax.jpg', 'Non Disponibile', 'Dissipatore a liquido <span lang="en">Enermax</span>'),
-('100', 'Floe Riing RGB TT', 'Marca: Thermaltake<br>Tipologia: Liquido<br>Dimensione: 240mm', '169,90', 'Thermaltake.jpg', 'Non Disponibile', 'Dissipatore a liquido <span lang="en">Thermaltake</span>'),
+VALUES ('098', '<span lang="en">Hydro Series</span> H80i v2', 'Marca: <span lang="en">Corsair</span><br>Tipologia: Liquido<br>Dimensione: 120mm', '104,90', 'hydrohigh.jpg', 'Non Disponibile', 'Dissipatore a liquido Corsair'),
+('099', 'LiqTech TR4 240', 'Marca: Enermax<br>Tipologia: Liquido<br>Dimensione: 240mm', '149,90', 'enermax.jpg', 'Non Disponibile', 'Dissipatore a liquido Enermax'),
+('100', 'Floe Riing RGB TT', 'Marca: Thermaltake<br>Tipologia: Liquido<br>Dimensione: 240mm', '169,90', 'Thermaltake.jpg', 'Non Disponibile', 'Dissipatore a liquido Thermaltake'),
 ('101', 'NZXT Kraken', 'Marca: NZTX <br>Tipologia: Liquido<br>Dimensione: 120mm', '179,90', 'kraken.jpg', 'Non Disponibile', 'Dissipatore a liquido NZTX'),
-('102', '<span lang="en">Airmaker</span>', 'Marca: <span lang="en">Cooler Master</span><br>Tipologia: Aria<br>Dimensione: 140mm', '139,90', 'airmaker.jpg', 'Disponibile', 'Dissipatore ad Aria <span lang="en">Cooler Master</span>'),
-('103', '<span lang="en">Masterliquid</span>', 'Marca: <span lang="en">Cooler Master</span><br>Tipologia: Liquido<br>Dimensione: 140mm', '129,90', 'masterliquid.jpg', 'Non Disponibile', 'Dissipatore a liquido <span lang="en">Cooler Master</span>'),
-('104', 'Nepton 240M', 'Marca: <span lang="en">Cooler Master</span><br>Tipologia: Liquido<br>Dimensione: 240mm', '158,90', 'nepton.jpg', 'Disponibile', 'Dissipatore a liquido <span lang="en">Cooler Master</span>'),
-('105', 'V8 GTS', 'Marca: Cooler Mster<br>Tipologia: Aria<br>Dimensione: 120mm', '119,90', 'v8.jpg', 'Disponibile', 'Dissipatore ad Aria <span lang="en">Cooler Master</span> 120mm'),
-('106', '<span lang="en">Silent Liquid</span>', 'Marca: <span lang="en">Thermaltak</span><br>Tipologia: Liquido<br>Dimensione: 120mm', '109,90', 'thermaltak.jpg', 'Disponibile', 'Dissipatore a liquido <span lang="en">Thermaltak</span>'),
-('107', 'H1200 PRO', 'Marca: <span lang="en">Antec</span><br>Tipologia: Liquido<br>Dimensione: 120mm', '111,90', 'antec.jpg', 'Disponibile', 'Dissipatore a liquido <span lang="en">Antec</span>'),
-('108', '<span lang="en">ICERED</span> 240', 'Marca: <span lang="en">Itek</span><br>Tipologia: Liquido<br>Dimensione: 240mm', '129,90', 'icered.jpg', 'Disponibile', 'Dissipatore a liquido <span lang="en">Itek</span>'),
-('109', '<span lang="en">LIQUY</span> R2 240', 'Marca: <span lang="en">Itek</span><br>Tipologia: Liquido<br>Dimensione: 240mm', '151,90', 'liquy.jpg', 'Disponibile', 'Dissipatore a liquido <span lang="en">Itek</span>');
+('102', '<span lang="en">Airmaker</span>', 'Marca: <span lang="en">Cooler Master</span><br>Tipologia: Aria<br>Dimensione: 140mm', '139,90', 'airmaker.jpg', 'Disponibile', 'Dissipatore ad Aria Cooler Master'),
+('103', '<span lang="en">Masterliquid</span>', 'Marca: <span lang="en">Cooler Master</span><br>Tipologia: Liquido<br>Dimensione: 140mm', '129,90', 'masterliquid.jpg', 'Non Disponibile', 'Dissipatore a liquido Cooler Master'),
+('104', 'Nepton 240M', 'Marca: <span lang="en">Cooler Master</span><br>Tipologia: Liquido<br>Dimensione: 240mm', '158,90', 'nepton.jpg', 'Disponibile', 'Dissipatore a liquido Cooler Master'),
+('105', 'V8 GTS', 'Marca: Cooler Mster<br>Tipologia: Aria<br>Dimensione: 120mm', '119,90', 'v8.jpg', 'Disponibile', 'Dissipatore ad Aria Cooler Master 120mm'),
+('106', '<span lang="en">Silent Liquid</span>', 'Marca: <span lang="en">Thermaltak</span><br>Tipologia: Liquido<br>Dimensione: 120mm', '109,90', 'thermaltak.jpg', 'Disponibile', 'Dissipatore a liquido Thermaltak'),
+('107', 'H1200 PRO', 'Marca: <span lang="en">Antec</span><br>Tipologia: Liquido<br>Dimensione: 120mm', '111,90', 'antec.jpg', 'Disponibile', 'Dissipatore a liquido Antec'),
+('108', '<span lang="en">ICERED</span> 240', 'Marca: <span lang="en">Itek</span><br>Tipologia: Liquido<br>Dimensione: 240mm', '129,90', 'icered.jpg', 'Disponibile', 'Dissipatore a liquido Itek'),
+('109', '<span lang="en">LIQUY</span> R2 240', 'Marca: <span lang="en">Itek</span><br>Tipologia: Liquido<br>Dimensione: 240mm', '151,90', 'liquy.jpg', 'Disponibile', 'Dissipatore a liquido Itek');
 
 
 INSERT INTO schede_audio (`Codice_prodotto`, `Nome`, `Descrizione`, `Prezzo`, `Img`, `Disponibilita`, `Alt`)
@@ -292,9 +292,9 @@ VALUES ('122', 'Prime X399-A', 'Marca: Asus<br>Modello: X399<br>Socket: TR4 ', '
 ('128', '<span lang="en">MAXIMUS IX EXTREME</span>', 'Marca: Asus<br>Modello: Z270<br>Socket: 1151', '679,90', 'maximus.jpg', 'Disponibile', 'Scheda Madre Asus'),
 ('129', '<span lang="en">RAMPAGE V EDITION 10</span>', 'Marca: Asus<br>Modello: X99<br>Socket: 2011', '559,90', 'rampageV.jpg', 'Disponibili', 'Scheda Madre Asus'),
 ('130', '<span lang="en">PRIME DELUXE</span>', 'Marca: Asus<br>Modello: X299<br>Socket: 2066', '519,90', '4712900763881_MED.jpg', 'Disponibile', 'Scheda Madre Asus'),
-('131', '<span lang="en">XPOWER GAMING</span>', 'Marca: <span lang="en">MSI</span><br>Modello: X299<br>Socket: 2066', '489,90', '4719072525958_MED.jpg', 'Disponibile', 'Scheda Madre <span lang="en">MSI</span>'),
+('131', '<span lang="en">XPOWER GAMING</span>', 'Marca: <span lang="en">MSI</span><br>Modello: X299<br>Socket: 2066', '489,90', '4719072525958_MED.jpg', 'Disponibile', 'Scheda Madre MSI'),
 ('132', '<span lang="en">DELUXE 2</span>', 'Marca: Asus<br>Modello: X99<br>Socket: 2011', '479,90', '4712900397796_MED.jpg', 'Disponibile', 'Scheda Madre Asus X99'),
-('133', '<span lang="en">Gaming</span> M7 ACK', 'Marca: <span lang="en">MSI</span><br>Modello: X299<br>Socket: 2066', '469,90', '4719072525941_MED.jpg', 'Disponibile', 'Scheda Madre <span lang="en">MSI</span>');
+('133', '<span lang="en">Gaming</span> M7 ACK', 'Marca: <span lang="en">MSI</span><br>Modello: X299<br>Socket: 2066', '469,90', '4719072525941_MED.jpg', 'Disponibile', 'Scheda Madre MSI');
 
 INSERT INTO schede_video (`Codice_prodotto`, `Nome`, `Descrizione`, `Prezzo`, `Img`, `Disponibilita`, `Alt`)
 VALUES ('134', 'RX Vega 56', 'Marca: Gigabyte<br>Memoria: 8GB<br>Tecnologia: AMD', '599,90', 'radeonRX.jpg', 'Disponibile', 'Scheda Video AMD'),
