@@ -507,14 +507,6 @@ Contatti
     margin-top: 0.3em;
 }
 
-@media only screen and (min-width: 1500px) {
-    #contactsSpaceFooter {
-        position: absolute;
-        bottom: 0px;
-        width: 100%;
-    }
-}
-
 /********************************************************************************
 Media Query
 ********************************************************************************/
@@ -589,5 +581,13 @@ Media Query
     }
     #configHorizontalMenu a:hover {
         background-color: #212121;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .spaceFooter {
+        position: absolute;
+        bottom: 0px;
+        width: 100%;
     }
 }
