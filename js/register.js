@@ -1,30 +1,5 @@
 
 //Js da sistemare
-
-
-
-closeAlert = function (div) {
-    var messagesDiv = div.parentElement;
-    messagesDiv.innerHTML = '';
-};
-
-/**
- * Creates a custom alert.
- * @param id: Id of the alert.
- * @param alertType: Type of the alert that should be created, can either be 'success' or 'error'.
- * @param message: Message to be displayed inside the alert.
- * @returns {string}: Returns the created <div> element which represents the alert.
- */
-createAlert = function(id, alertType, message){
-    return '<div id="' + id +'" class="alert alert-' + alertType + ' alert-dismissable">' +
-        '<button type="button" class="close" data-dismiss="alert" aria-hidden="true" ' +
-        'onclick="closeAlert('+ id +')">&times;</button>' +
-        message +
-        '' +
-        '</div>';
-};
-
-
 /**
  * Checks if a field containing a password and one containing a confirmation of that password match.
  * @param password: HTML element containing the password.
@@ -229,7 +204,7 @@ sendRegisterRequest = function () {
 
             if (alertType && messageText) {
                 /* If both alert message and type has been passed successfully than show the popup into the HTML page*/
-                var registerForm = $('#registerForm');
+                var registerForm = $('#regLoginForm');
                 registerForm.find('.messages').html(alertBox);
 
                 /* If the registration has been successful then reset the form*/

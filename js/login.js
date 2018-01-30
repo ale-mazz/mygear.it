@@ -1,15 +1,5 @@
-
-createAlert = function (id, alertType, message) {
-    return '<div id="' + id + '" class="alert alert-' + alertType + ' alert-dismissable">' +
-        '<button type="button" class="close" data-dismiss="alert" aria-hidden="true" ' +
-        'onclick="closeAlert(' + id + ')">&times;</button>' +
-        message +
-        '' +
-        '</div>';
-};
-
 loginOnLoad = function () {
-    document.getElementById('loginForm').onsubmit = sendLoginRequest;
+    document.getElementById('regLoginForm').onsubmit = sendLoginRequest;
 };
 
 /**
