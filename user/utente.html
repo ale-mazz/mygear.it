@@ -23,57 +23,65 @@
         <h1>Dati Utente</h1>
         <h2>Dati Personali</h2>
         <form class="userForm">
+            <fieldset>
+                <legend class="displayNone">Informazioni personali utente</legend>
 
-            <label class="userInputLabel" id="usernameLabel" for="username" lang="en">Username</label>
-            <input class="userInputField" id="username" value="" type="text" name="user" title="Username" required="required" />
+                <label class="userInputLabel" id="usernameLabel" for="username" lang="en">Username</label>
+                <input class="userInputField" id="username" value="" type="text" name="user" title="Username" required="required" />
 
-            <label class="userInputLabel" id="emailLabel" for="email" lang="en">E-mail</label>
-            <input class="userInputField" id="email" value="" type="email" name="email" title="E-mail" required="required" readonly/>
+                <label class="userInputLabel" id="emailLabel" for="email" lang="en">E-mail</label>
+                <input class="userInputField" id="email" value="" type="email" name="email" title="E-mail" required="required" readonly/>
 
-            <label class="userInputLabel" id="birthDateLabel" for="birth">Data di nascita</label>
-            <input class="userInputField" id="birth" value="" type="text" name="birth" title="Data di nascita" />
-
-            <input class="userSubmitButton" id="personalInfoButton" type="submit" value="Salva modifiche">
-            <div class="messages"></div>
+                <input class="userSubmitButton" id="personalInfoButton" type="submit" value="Salva modifiche">
+                <div class="messages"></div>
+            </fieldset>
 
         </form>
 
         <h2>Modifica <span lang="en">Password</span></h2>
         <form class="userForm">
-            <label class="userInputLabel" id="oldPasswordLabel" for="oldPassword">Vecchia <span lang="en">password</span></label>
-            <input class="userInputField" id="oldPassword" type="password" name="oldPassword" required="required" />
+            <fieldset>
+                <legend class="displayNone">Password utente</legend>
+                <label class="userInputLabel" id="oldPasswordLabel" for="oldPassword">Vecchia <span lang="en">password</span></label>
+                <input class="userInputField" id="oldPassword" type="password" name="oldPassword" required="required" />
 
-            <label class="userInputLabel" id="newPasswordLabel" for="newPassword">Nuova <span lang="en">password</span></label>
-            <input class="userInputField" id="newPassword" type="password" name="newPassword" required="required" />
+                <label class="userInputLabel" id="newPasswordLabel" for="newPassword">Nuova <span lang="en">password</span></label>
+                <input class="userInputField" id="newPassword" type="password" name="newPassword" required="required" />
 
-            <label class="userInputLabel" id="repeatPasswordLabel" for="repeatPassword">Ripeti <span lang="en">password</span></label>
-            <input class="userInputField" id="repeatPassword" type="password" name="repeatPassword" required="required" />
+                <label class="userInputLabel" id="repeatPasswordLabel" for="repeatPassword">Ripeti <span lang="en">password</span></label>
+                <input class="userInputField" id="repeatPassword" type="password" name="repeatPassword" required="required" />
 
-            <input class="userSubmitButton" id="changePasswordButton" type="submit" value="Cambia password">
-            <div class="messages"></div>
+                <input class="userSubmitButton" id="changePasswordButton" type="submit" value="Cambia password">
+                <div class="messages"></div>
+            </fieldset>
         </form>
 
         <h1>Contatti</h1>
         <h2>Contatti <span lang="en">Social</span></h2>
         <form class="userForm">
-            <label class="userInputLabel" id="facebookLabel" for="facebook" lang="en">Facebook</label>
-            <input class="userInputField" id="facebook" type="text" name="facebook" value="">
+            <fieldset>
+                <legend class="displayNone">Contatti social utente</legend>
+                <label class="userInputLabel" id="facebookLabel" for="facebook" lang="en">Facebook</label>
+                <input class="userInputField" id="facebook" type="text" name="facebook" value="">
 
-            <label class="userInputLabel" id="twitterLabel" for="twitter" lang="en">Twitter</label>
-            <input class="userInputField" id="twitter" type="text" name="twitter" value="">
+                <label class="userInputLabel" id="twitterLabel" for="twitter" lang="en">Twitter</label>
+                <input class="userInputField" id="twitter" type="text" name="twitter" value="">
 
-            <label class="userInputLabel" id="instagramLabel" for="instagram" lang="en">Instagram</label>
-            <input class="userInputField" id="instagram" type="text" name="instagram" value="">
+                <label class="userInputLabel" id="instagramLabel" for="instagram" lang="en">Instagram</label>
+                <input class="userInputField" id="instagram" type="text" name="instagram" value="">
 
-            <label class="userInputLabel" id="youtubeLabel" for="youtube" lang="en">Canale YouTube</label>
-            <input class="userInputField" id="youtube" type="text" name="youtube" value="">
+                <label class="userInputLabel" id="youtubeLabel" for="youtube" lang="en">Canale YouTube</label>
+                <input class="userInputField" id="youtube" type="text" name="youtube" value="">
 
-            <input class="userSubmitButton" id="changeContactsButton" type="submit" value="salva modifiche">
-            <div class="messages"></div>
+                <input class="userSubmitButton" id="changeContactsButton" type="submit" value="salva modifiche">
+                <div class="messages"></div>
+            </fieldset>
         </form>
     </div>
 
+    <div id="userLogoutButton">
     <a href="../php/logout.php" id="logOut">Logout</a>
+    </div>
 
     $footer$
 

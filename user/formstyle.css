@@ -60,7 +60,7 @@ fieldset {
 .alert{
     padding: 0.5em 1em;
     margin-top: 3em;
-    margin-left: 30%;
+    margin-left: 28%;
     margin-bottom: 3em;
     display: block;
     font-size: 1.286em;
@@ -105,8 +105,6 @@ fieldset {
     font-size: 1.4em;
 }
 
-
-
 .displayNone {
     display: none;
 }
@@ -130,17 +128,16 @@ fieldset {
     #regLoginform {
         margin-top: 0em;
         padding-top: 0em;
+
     }
 
-    .fieldset {
-        margin-left: 0;
-        width: 100%;
-        margin-top: 2em;
-    }
 
     input[type=text],
+    input[type=email],
     input[type=password] {
         font-size: 1.2em;
+
+
 
     }
 
@@ -150,8 +147,10 @@ fieldset {
     }
 
     .alert {
-        margin-left: 20%;
+        margin-left: 16%;
         width: 60%;
+        display: inline-block;
+        position: relative;
     }
 
     #askRegLog {
@@ -159,6 +158,7 @@ fieldset {
         margin-left: 15%;
         width: 70%;
         text-align: center;
+        clear: left;
     }
 
     #askRegLog a {
@@ -199,8 +199,11 @@ fieldset {
     }
 
     input[type=text],
+    input[type=email],
     input[type=password] {
         font-size: 0.8em;
+        width: 95%;
+        margin-right: 5%;
     }
 
     #submitButton {
@@ -208,7 +211,7 @@ fieldset {
     }
 
     #askRegLog {
-        padding-top: 0;
+        padding-top: 2em;
     }
 
     #askRegLog a {

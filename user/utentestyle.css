@@ -28,6 +28,14 @@
     margin-left: 10%;
 }
 
+fieldset {
+    border: 0;
+}
+
+.displayNone {
+    display: none;
+}
+
 .userInputLabel {
     float: left;
     clear: left;
@@ -88,10 +96,15 @@
     float: right;
     clear: left;
     margin-right: 10%;
+    text-align: center;
 }
 
 #userLogoutButton: hover{
     background-color: #D32F2F;
+}
+
+#userLogoutButton a{
+    color: white;
 }
 
 @media only screen and (max-width: 955px) {
@@ -165,4 +178,19 @@
         width: 30%;
         margin-top: 2.5em;
     }
+}
+@media only screen and (min-width: 956px) {
+
+    #userLogoutButton:hover {
+        -webkit-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+        -moz-transform: scale(1.2);
+    }
+
+    .userSubmitButton:hover {
+        -webkit-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+        -moz-transform: scale(1.2);
+    }
+
 }
