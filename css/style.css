@@ -450,9 +450,13 @@ Categorie
 .catalogImageInside {
     max-width: 80%;
     height: auto;
-    margin-top: 4%;
-    margin-left: 10%;
-    margin-right: 10%;
+    display: block;
+    margin: 0 auto;
+}
+
+#containerImageInside {
+    width: 100%;
+    height: auto;
 }
 
 /********************************************************************************
@@ -590,26 +594,5 @@ Media Query
         position: absolute;
         bottom: 0px;
         width: 100%;
-    }
-
-    .catalogInsideProduct {
-        display:block;
-        text-align:center;
-    }
-    .catalogInsideProductDescription p {
-        display:block;
-        text-align:center;
-    }
-    .catalogInsideProductName h1{
-        display:block;
-        text-align:center;
-    }
-    .catalogInsideProductAvailability h3 {
-        display:block;
-        text-align:center;
-    }
-    .catalogInsideProductPrice h3 {
-        display:block;
-        text-align:center;
     }
 }
