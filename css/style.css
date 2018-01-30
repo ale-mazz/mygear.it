@@ -474,21 +474,19 @@ Contatti
 #contactsWho{
     height: 10em;
     text-align: center;
-    padding: 3em 7% 5em 7%;
+    padding: 0em 7% 3em 7%;
 }
 #contactsWhere {
     float:left;
     text-align: center;
     width: 40%;
     margin-left: 7%;
-    margin-bottom: 5em;
 }
 #contactsHow {
     text-align: center;
     width: 40%;
     margin-right: 7%;
     float: right;
-    margin-bottom: 5em;
 }
 #contactsWho img{
     width: 5em;
