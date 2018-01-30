@@ -17,7 +17,7 @@ $page=str_replace('$ccat$','hover', $page);
 $page=str_replace('$ccont$','hover', $page);
 
 $login = "ACCEDI";
-$user = "";
+$user = "index.php";
 if (isset($_SESSION['user_username'])) {
     $login = $_SESSION['user_username'];
     $user = 'user.php';
