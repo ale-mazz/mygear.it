@@ -18,7 +18,7 @@
 
     $header$
 
-<div id="regTitle">
+<div id="regLoginTitle">
     <h1>CREA SUBITO IL TUO ACCOUNT PER RIMANERE SEMPRE AGGIORNATO SULLE OFFERTE DEL NEGOZIO!<br>
     Se sei registrato da più di 1 anno potrai usufruire di sconti a partire dal 20%</h1>
 </div>
@@ -26,8 +26,8 @@
     <h2>REGISTRAZIONE</h2>
 </div>
 <div id="registerFormContainer">
-    <form id="registerForm" action="../php/register.php" method="post" >
-        <div class="containerreg">
+    <form id="regLoginForm" action="../php/register.php" method="post" >
+        <fieldset>
             <label class="labeltxt" for="name">Nome e Cognome</label>
             <input id="name" type="text" name="name" required>
             <label class="labeltxt" for="username"><span lang="en">Username</span></label>
@@ -38,13 +38,13 @@
             <input id="password" type="password" name="password" required>
             <label class="labeltxt" for="confirmPassword">Ripeti <span lang="en">Password</span></label>
             <input id="confirmPassword" type="password" name="confirmPassword" required>
-        </div>
+        </fieldset>
         <input id="submitButton" type="submit" value="Registrati">
         <div class="messages"></div>
     </form>
 
 </div>
-<div id="asklog">
+<div id="askRegLog">
     <a>Sei già registrato? Accedi subito </a><a href="index.php">qui!</a>
 </div>
 
