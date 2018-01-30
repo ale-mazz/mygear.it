@@ -450,9 +450,13 @@ Categorie
 .catalogImageInside {
     max-width: 80%;
     height: auto;
-    margin-top: 4%;
-    margin-left: 10%;
-    margin-right: 10%;
+    display: block;
+    margin: 0 auto;
+}
+
+#containerImageInside {
+    width: 100%;
+    height: auto;
 }
 
 /********************************************************************************
@@ -636,23 +640,4 @@ Media Query
         bottom: 0px;
         width: 100%;
     }
-
-    .catalogInsideProduct {
-        width: 17%;
-        float: left;
-        background-color: #FFFFFF;
-        position: relative;
-        height: 25em;
-        display:block;
-        margin: 1em 1.5% 1em 1.5%;
-        text-align:center
-    }
-    .catalogImageInside {
-        max-width: 70%;
-        height: auto;
-        margin-top: 4%;
-        margin-left: 10%;
-        margin-right: 10%;
-    }
-
 }
