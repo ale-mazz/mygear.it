@@ -4,6 +4,12 @@ session_start();
 
 require_once '../php/connection.php';
 
+if (isset($_SESSION['user_username'])) {
+    header("location: user.php");
+    exit();
+
+}
+
 $page=file_get_contents("registrazione.html");
 $footer=file_get_contents("../footer/footer.html");
 $header=file_get_contents("../header/header.html");
@@ -18,11 +24,6 @@ $page=str_replace('$ccont$','hover', $page);
 
 $login = "ACCEDI";
 $user = "index.php";
-if (isset($_SESSION['user_username'])) {
-    $login = $_SESSION['user_username'];
-    $user = 'user.php';
-
-}
 
 $page = str_replace('$rtuser$', $user, $page);
 $page = str_replace('$login$', $login, $page);

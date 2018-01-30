@@ -13,8 +13,7 @@ $page=str_replace('$rthome$','../',$page);
 $page=str_replace('$chome$','hover', $page);
 $page=str_replace('$cconf$','hover', $page);
 $page=str_replace('$ccat$','hover', $page);
-$page=str_replace('$ccont$','selected', $page);
-
+$page = str_replace('$ccont$', 'hover', $page);
 
 echo $page;
 
