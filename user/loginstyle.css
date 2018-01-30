@@ -125,7 +125,7 @@ fieldset {
         margin: 0%;
     }
 
-    #regTitle {
+    #loginTitle {
         margin-top: 0em;
         padding-top: 3em;
         font-size: 0.7em;
@@ -161,11 +161,14 @@ fieldset {
     #askreg{
         width: 80%;
         margin-left: 10%;
-        margin-top: 40%;
     }
     #askreg a{
         font-size: 1.2em;
     }
 }
 
-@media only screen and (max-width: 767px) {}
+@media only screen and (max-width: 767px) {
+
+
+
+}

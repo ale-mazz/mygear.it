@@ -4,7 +4,6 @@ session_start();
 
 require_once '../php/connection.php';
 
-
 $page=file_get_contents("contatti.html");
 $footer=file_get_contents("../footer/footer.html");
 $header=file_get_contents("../header/header.html");
@@ -29,6 +28,5 @@ $page = str_replace('$rtuser$', $user, $page);
 $page = str_replace('$login$', $login, $page);
 
 echo $page;
-
 
 ?>
