@@ -424,8 +424,6 @@ Categorie
     background-color: #FFFFFF;
     position: relative;
     height: 25em;
-    display:block;
-    text-align:center;
 }
 .catalogInsideProductDescription p {
     margin-top: 1em;
@@ -592,5 +590,26 @@ Media Query
         position: absolute;
         bottom: 0px;
         width: 100%;
+    }
+
+    .catalogInsideProduct {
+        display:block;
+        text-align:center;
+    }
+    .catalogInsideProductDescription p {
+        display:block;
+        text-align:center;
+    }
+    .catalogInsideProductName h1{
+        display:block;
+        text-align:center;
+    }
+    .catalogInsideProductAvailability h3 {
+        display:block;
+        text-align:center;
+    }
+    .catalogInsideProductPrice h3 {
+        display:block;
+        text-align:center;
     }
 }
