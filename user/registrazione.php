@@ -9,7 +9,6 @@ if (isset($_SESSION['user_username'])) {
     exit();
 
 }
-
 $page=file_get_contents("registrazione.html");
 $footer=file_get_contents("../footer/footer.html");
 $header=file_get_contents("../header/header.html");

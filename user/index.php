@@ -7,7 +7,6 @@ require_once '../php/connection.php';
 if (isset($_SESSION['user_username'])) {
     header("location: user.php");
     exit();
-
 }
 
 $page=file_get_contents("login.html");
