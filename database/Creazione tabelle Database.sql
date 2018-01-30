@@ -1,4 +1,4 @@
--- Creazione database 'returnfa_mygear' appartenente al sito mygear.it, sviluppato per il progetto di Tecnologie Web anno 17/18 Università degli studi di Padova
+-- Creazione database appartenente al sito mygear.it, sviluppato per il progetto di Tecnologie Web anno 17/18 Università degli studi di Padova
 -- A cura di Tiziano Rizzo e Alessandro Mazzon
 
 CREATE DATABASE IF NOT EXISTS returnfa_mygear;
@@ -136,6 +136,46 @@ CREATE TABLE case_pc (
 	`Disponibilita`   char(20)     NOT NULL,
 	`Alt`             char(30)     NOT NULL
 ) ENGINE=InnoDB;
+
+-- Struttura della tabella `users`
+DROP TABLE IF EXISTS `users`;
+CREATE TABLE `users` (
+  `user_id`            INT(11)                              NOT NULL
+  COMMENT 'auto incrementing user_id of each user, unique index',
+  `user_name`          VARCHAR(64) COLLATE utf8_unicode_ci  NOT NULL
+  COMMENT 'user''s name',
+  `user_username`      VARCHAR(64) COLLATE utf8_unicode_ci  NOT NULL
+  COMMENT 'user''s username, unique',
+  `user_password_hash` VARCHAR(255) COLLATE utf8_unicode_ci NOT NULL
+  COMMENT 'user''s password in salted and hashed format',
+  `user_email`         VARCHAR(64) COLLATE utf8_unicode_ci  NOT NULL
+  COMMENT 'user''s email, unique',
+  `facebook`           VARCHAR(64) COLLATE utf8_unicode_ci  NOT NULL
+  COMMENT 'user''s facebook',
+  `twitter`            VARCHAR(64) COLLATE utf8_unicode_ci  NOT NULL
+  COMMENT 'user''s twitter',
+  `instagram`          VARCHAR(64) COLLATE utf8_unicode_ci  NOT NULL
+  COMMENT 'user''s instagram'
+)
+  ENGINE = InnoDB
+  DEFAULT CHARSET = utf8
+  COLLATE = utf8_unicode_ci
+  COMMENT ='user data';
+
+-- Indici per le tabelle `users`
+
+ALTER TABLE `users`
+  ADD PRIMARY KEY (`user_id`),
+  ADD UNIQUE KEY `user_username` (`user_username`),
+  ADD UNIQUE KEY `user_email` (`user_email`);
+
+-- AUTO_INCREMENT per la tabella `users`
+
+ALTER TABLE `users`
+  MODIFY `user_id` INT(11) NOT NULL AUTO_INCREMENT
+  COMMENT 'auto incrementing user_id of each user, unique index',
+  AUTO_INCREMENT = 0;
+COMMIT;
 
 -- Inserimento dei prodotti nel database
 
@@ -310,36 +350,3 @@ VALUES ('134', 'RX Vega 56', 'Marca: Gigabyte<br>Memoria: 8GB<br>Tecnologia: AMD
 ('144', 'GTX 1080Ti', 'Marca: Zotac<br>Memoria: 11GB<br>Tecnologia: Nvidia', '909,90', '4895173613081_MED.jpg', 'Disponibile', 'Scheda Video Nvidia'),
 ('145', 'GTX 1080 <span lang="en">Founders</span>', 'Marca: <span lang="en">MSI</span><br>Memoria: 8GB<br>Tecnologia: Nvidia', '889,90', '4719072465315_MED.jpg', 'Disponibile', 'Scheda Video Nvidia');
 
--- Struttura della tabella `users`
-DROP TABLE IF EXISTS `users`;
-CREATE TABLE `users` (
-	`user_id`            INT(11)                              NOT NULL
-	COMMENT 'auto incrementing user_id of each user, unique index',
-	`user_name`          VARCHAR(64) COLLATE utf8_unicode_ci  NOT NULL
-	COMMENT 'user''s name',
-	`user_username`      VARCHAR(64) COLLATE utf8_unicode_ci  NOT NULL
-	COMMENT 'user''s username, unique',
-	`user_password_hash` VARCHAR(255) COLLATE utf8_unicode_ci NOT NULL
-	COMMENT 'user''s password in salted and hashed format',
-	`user_email`         VARCHAR(64) COLLATE utf8_unicode_ci  NOT NULL
-	COMMENT 'user''s email, unique'
-)
-	ENGINE = InnoDB
-	DEFAULT CHARSET = utf8
-	COLLATE = utf8_unicode_ci
-	COMMENT ='user data';
-
--- Indici per le tabelle `users`
-
-ALTER TABLE `users`
-	ADD PRIMARY KEY (`user_id`),
-	ADD UNIQUE KEY `user_name` (`user_name`),
-	ADD UNIQUE KEY `user_email` (`user_email`);
-
--- AUTO_INCREMENT per la tabella `users`
-
-ALTER TABLE `users`
-	MODIFY `user_id` INT(11) NOT NULL AUTO_INCREMENT
-	COMMENT 'auto incrementing user_id of each user, unique index',
-	AUTO_INCREMENT = 0;
-COMMIT;

@@ -54,7 +54,7 @@ sendLoginRequest = function () {
 
                 if (alertType && messageText) {
                     // If both alert message and type has been passed successfully than show the popup into the HTML page
-                    var loginForm = $('#loginForm');
+                    var loginForm = $('#regLoginForm');
                     loginForm.find('.messages').html(alertBox);
                 }
 
