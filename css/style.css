@@ -462,15 +462,6 @@ Categorie
 /********************************************************************************
 Contatti
 ********************************************************************************/
-.contactsTitles {
-    padding-bottom: 0.5em;
-    border-bottom-style: solid;
-    border-bottom-color: #000000;
-    border-bottom-width: 0.1em;
-}
-.contactsTitles h1{
-    font-size: 2em;
-}
 #contactsWho{
     height: 10em;
     text-align: center;
@@ -509,6 +500,18 @@ Contatti
 #contactsHow p{
     margin-top: 0.3em;
 }
+.contactsTitles {
+    position: relative;
+    float: left;
+    width: 100%;
+    margin-bottom: 1em;
+}
+.contactsTitles h1 {
+    text-align: center;
+    color: #000000;
+    font-size: 2em;
+    margin-bottom:0.5em;
+}
 
 /********************************************************************************
 Pagina 404
@@ -524,13 +527,16 @@ Pagina 404
     padding: 1em 6em 1em 8em;
 }
 #notFoundTitles {
-    padding-bottom: 0.5em;
-    border-bottom-style: solid;
-    border-bottom-color: #000000;
-    border-bottom-width: 0.1em;
+    position: relative;
+    float: left;
+    width: 100%;
+    margin-bottom: 1em;
 }
-#notFoundTitles h1{
+#notFoundTitles h1 {
+    text-align: center;
+    color: #000000;
     font-size: 2em;
+    margin-bottom:0.5em;
 }
 #notFoundContainer p {
     margin: 1.5em 10em 0em 0em;
@@ -571,7 +577,7 @@ Media Query
         -ms-transform: scale(1.1);
         -moz-transform: scale(1.1);
     }
-/***** Home bordo orizzontale *****/
+/***** Bordi orizzontali (home, contatti, 404) *****/
     #homeTitleBottom:after {
         content: "";
         position: absolute;
@@ -586,7 +592,21 @@ Media Query
         background-image: -moz-linear-gradient(left, transparent, #9E9E9E, transparent);
         background-image: -o-linear-gradient(left, transparent, #9E9E9E, transparent);
     }
-/***** Bordo riquadri *****/
+    .contactsTitles:before, #notFoundTitles:before{
+        content: "";
+        position: absolute;
+        bottom: 3px;
+        left: 20px;
+    }
+    .contactsTitles:before, #notFoundTitles:before{
+        right: 5px;
+        height: 3px;
+        background-image: -webkit-gradient(linear, 0 0, 100% 0, from(transparent), to(#9E9E9E), to (transparent));
+        background-image: -webkit-linear-gradient(left, transparent, #9E9E9E, transparent);
+        background-image: -moz-linear-gradient(left, transparent, #9E9E9E, transparent);
+        background-image: -o-linear-gradient(left, transparent, #9E9E9E, transparent);
+    }
+/***** Bordo riquadri (home, catalogo, categorie) *****/
     .homeContainersIn:before, .homeContainersIn:after, .catalogContainerIn:before, .catalogContainerIn:after, .catalogInsideProduct:before, .catalogInsideProduct:after{
         content: "";
         position: absolute;
