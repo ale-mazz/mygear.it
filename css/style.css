@@ -448,7 +448,8 @@ Categorie
 }
 
 .catalogImageInside {
-    width: 80%;
+    max-width: 80%;
+    height: auto;
     margin-top: 4%;
     margin-left: 10%;
     margin-right: 10%;
