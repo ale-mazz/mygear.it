@@ -509,6 +509,51 @@ Contatti
 }
 
 /********************************************************************************
+Pagina 404
+********************************************************************************/
+#notFoundContainer{
+    height: 10em;
+    text-align: center;
+    padding: 0em 7% 5em 7%;
+}
+#notFoundContainer img{
+    height: 8em;
+    float: left;
+    padding: 1em 6em 1em 8em;
+}
+#notFoundTitles {
+    padding-bottom: 0.5em;
+    border-bottom-style: solid;
+    border-bottom-color: #000000;
+    border-bottom-width: 0.1em;
+}
+#notFoundTitles h1{
+    font-size: 2em;
+}
+#notFoundContainer p {
+    margin: 1.5em 10em 0em 0em;
+}
+#notFoundBack {
+    width: 20%;
+    margin-right: 40%;
+    padding: 1em;
+    float: right;
+    background-color: #B71C1C;
+    text-align: center;
+}
+#notFoundBack a {
+    color: #FFFFFF;
+    font-size: 1em;
+    text-decoration: underline;
+    display: inline-block;
+}
+#notFoundFooter {
+        position: absolute;
+        bottom: 0px;
+        width: 100%;
+}
+
+/********************************************************************************
 Media Query
 ********************************************************************************/
 @media only screen and (min-width: 956px) {
