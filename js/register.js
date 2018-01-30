@@ -133,7 +133,7 @@ registerOnLoad = function () {
     name.onchange = checkNameAndSurname;
 
     /* Attach the proper function to the submit event of the form*/
-    document.getElementById("registerForm").onsubmit = sendRegisterRequest;
+    document.getElementById("regLoginForm").onsubmit = sendRegisterRequest;
 };
 /**
  * Checks that the username and name inserted are valid.
