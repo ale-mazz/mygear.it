@@ -459,45 +459,34 @@ Categorie
 /********************************************************************************
 Contatti
 ********************************************************************************/
-.contactsTitles {
-    padding-bottom: 0.5em;
-    border-bottom-style: solid;
-    border-bottom-color: #000000;
-    border-bottom-width: 0.1em;
-}
-.contactsTitles h1{
-    font-size: 2em;
-}
 #contactsWho{
     height: 10em;
     text-align: center;
-    padding: 3em 7% 5em 7%;
+    padding: 0em 7% 3em 7%;
 }
 #contactsWhere {
     float:left;
     text-align: center;
     width: 40%;
     margin-left: 7%;
-    margin-bottom: 5em;
 }
 #contactsHow {
     text-align: center;
     width: 40%;
     margin-right: 7%;
     float: right;
-    margin-bottom: 5em;
 }
 #contactsWho img{
     width: 5em;
     float: left;
-    padding: 0.5em 8em 0em 10em;
+    padding: 0em 8em 0em 10em;
 }
 #contactsWhere img, #contactsHow img{
     float:left;
     clear: right;
     text-align: left;
     width: 5em;
-    padding: 0.5em 2em 0em 2em;
+    padding: 0em 2em 0em 2em;
 }
 #contactsWho p {
     margin: 1em 10em 0em 0em;
@@ -517,24 +506,16 @@ Pagina 404
     padding-bottom: 0.5em;
     height: 10em;
     text-align: center;
-    padding: 3em 7% 5em 7%;
+    padding: 0em 7% 5em 7%;
 }
-#notFoundTitles h1{
-    font-size: 2em;
-    border-bottom-style: solid;
-    border-bottom-color: #000000;
-    border-bottom-width: 0.1em;
-}
-
 #notFoundContainer img{
-    width: 6em;
+    width: 7em;
     float: left;
-    padding: 1.5em 6em 1.5em 8em;
+    padding: 0em 6em 1.5em 8em;
 }
 #notFoundContainer p {
-    margin: 2em;
+    margin-top: 3em;
 }
-
 #notFoundBack {
     width: 20%;
     background-color: #B71C1C;
@@ -543,9 +524,20 @@ Pagina 404
     margin-right: 40%;
     text-align: center;
 }
-
 #notFoundBack a {
     color: white;
+}
+
+/***** Titoli sezioni (contatti, 404) *****/
+.titlesHorizontalBord h1{
+    font-size: 2em;
+    margin-bottom: 0.2em;
+}
+.titlesHorizontalBord {
+    position: relative;
+    float: left;
+    width: 100%;
+    margin: 0.5em 0em 1.5em 0em;
 }
 
 /********************************************************************************
@@ -570,14 +562,21 @@ Media Query
     #footer {
         height: 6.5em;
     }
-/***** Home bordo orizzontale *****/
+
+/***** Bordo orizzontale (home, contatti, 404) *****/
     #homeTitleBottom:after {
         content: "";
         position: absolute;
         top: -3px;
         left: 20px;
     }
-    #homeTitleBottom:after{
+    .titlesHorizontalBord:after {
+        content: "";
+        position: absolute;
+        bottom: -3px;
+        left: 20px;
+    }
+    #homeTitleBottom:after, .titlesHorizontalBord:after{
         right: 20px;
         height: 3px;
         background-image: -webkit-gradient(linear, 0 0, 100% 0, from(transparent), to(#9E9E9E), to (transparent));
@@ -588,7 +587,8 @@ Media Query
         filter: progid:DXImageTransform.Microsoft.Gradient(left, GradientType=0,StartColorStr=#9E9E9E,EndColorStr=transparent); /*Internet explorer 5-7*/
         background: -ms-linear-gradient(left, transparent, #9E9E9E, transparent); /*Internet explorer 10-11*/
     }
-/***** Bordo riquadri *****/
+
+/***** Bordo riquadri (home, catalogo, categorie) *****/
     .homeContainersIn:before, .homeContainersIn:after, .catalogContainerIn:before, .catalogContainerIn:after, .catalogInsideProduct:before, .catalogInsideProduct:after{
         content: "";
         position: absolute;
