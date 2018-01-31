@@ -22,7 +22,7 @@ foreach ($variables as $variable){
 
 $type = 'error';
 $errorCode = 0;
-$message = 'One or more required field(s) is missing';
+$message = 'Uno o più campi sono vuoti o incompleti.';
 
 if(!$error) {
 
@@ -32,7 +32,7 @@ if(!$error) {
 
     if ($result){
         $type = 'success';
-        $message = 'Thanks for registering';
+        $message = 'Grazie per esserti registrato!';
         $errorCode = '';
     } else {
         $message = $newRegistration->errors[0];

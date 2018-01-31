@@ -13,7 +13,7 @@ $error = !(isset($password) && isset($username));
 
 $type = 'error';
 $errorCode = 0;
-$message = 'One or more required field(s) is missing';
+$message = 'Uno o più campi sono vuoti o incompleti.';
 
 if (!$error) {
 
@@ -27,7 +27,7 @@ if (!$error) {
         $message = $newLogin->errors[0];
     } else {
         $type = 'success';
-        $message = 'User logged in';
+        $message = 'Accesso effettuato.';
         $errorCode = '';
     }
 }

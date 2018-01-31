@@ -25,16 +25,9 @@ class loginUser
      */
     public function __construct()
     {
-        // create/read session, absolutely necessary
         session_start();
 
-        // check the possible login actions:
-        // if user tried to log out (happen when user clicks logout button)
-        if (isset($_GET["logout"])) {
-            $this->doLogout();
-        }
-        // login via post data (if user just submitted a login form)
-        elseif (isset($_POST["login"])) {
+        if (isset($_POST["login"])) {
             $this->loginUser($username, $password);
         }
     }
@@ -51,7 +44,7 @@ class loginUser
             $this->errors[] = "Password field was empty.";
         } elseif (!empty($username) && !empty($password)) {
 
-            
+
             $this->db_connection = new mysqli(DB_HOST, DB_USER, DB_PASS, DB_NAME);
 
             // change character set to utf8 and check it
@@ -88,10 +81,10 @@ class loginUser
                         $_SESSION['user_login_status'] = 1;
 
                     } else {
-                        $this->errors[] = "Wrong password. Try again.";
+                        $this->errors[] = "Password errata, riprova.";
                     }
                 } else {
-                    $this->errors[] = "This user does not exist.";
+                    $this->errors[] = "Utente non esistente.";
                 }
             } else {
                 $this->errors[] = "Database connection problem.";
@@ -99,29 +92,4 @@ class loginUser
         }
     }
 
-    /**
-     * perform the logout
-     */
-    public function doLogout()
-    {
-        // delete the session of the user
-        $_SESSION = array();
-        session_destroy();
-        // return a little feeedback message
-        $this->messages[] = "You have been logged out.";
-
-    }
-
-    /**
-     * simply return the current state of the user's login
-     * @return boolean user's login status
-     */
-    public function isUserLoggedIn()
-    {
-        if (isset($_SESSION['user_login_status']) AND $_SESSION['user_login_status'] == 1) {
-            return true;
-        }
-        // default return
-        return false;
-    }
 }
