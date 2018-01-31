@@ -109,9 +109,6 @@ header {
     margin-top: 0.4em;
     margin-right: 0.4em;
     cursor: pointer;
-    width: 4em;
-    overflow: hidden;
-    text-overflow: ellipsis;
 }
 
 /********************************************************************************
@@ -759,5 +756,26 @@ Media Query
     .spaceFooter {
         position: absolute;
         width: 100%;
+    }
+}
+
+/******
+Extra Media Query
+ */
+@media only screen and (min-width: 955px) and (max-width: 1020px) {
+
+    #headerButtonLogin {
+        width: 4.2em;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+
+    #headerButtonLogin {
+        width: 4em;
+        overflow: hidden;
+        text-overflow: ellipsis;
     }
 }
