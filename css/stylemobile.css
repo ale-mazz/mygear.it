@@ -141,7 +141,6 @@
         padding-top: 2em;
         padding-bottom: 0em;
     }
-
     .homeInfo h1 {
         font-size: 2em;
     }
@@ -251,6 +250,11 @@
         float: none;
         margin-left: 5%;
         padding: 0em;
+    }
+
+/***** Menù Verticale *****/
+    #catalogVerticalMenu ul{
+        display: none;
     }
 
 /***** Categorie *****/
