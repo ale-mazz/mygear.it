@@ -19,12 +19,6 @@ body {
 .pageTitle h1 {
     font-size: 2em;
     text-align: center;
-    color: #000000;
-}
-.hoverScale:hover{
-    -webkit-transform: scale(1.2);
-    -ms-transform: scale(1.2);
-    -moz-transform: scale(1.2);
 }
 
 /********************************************************************************
@@ -35,13 +29,13 @@ header {
     background-color: #D32F2F;
     height: 4em;
 }
-.headerMenu {
-    margin: auto;
-    float: right;
-}
 #headerContainer {
     background: #B71C1C;
     height: 4.6em;
+}
+.headerMenu {
+    margin: auto;
+    float: right;
 }
 .headerMenu ul {
     list-style-type: none;
@@ -114,7 +108,6 @@ Footer
     padding-bottom: 2em;
     padding-top: 1em;
 }
-
 #footer h1 {
     color: #FAFAFA;
     font-size: 1.2em;
@@ -201,11 +194,6 @@ Home
     font-size: 1em;
     padding-bottom: 0.5em;
 }
-.footerTopBlockTitle_home {
-    border-color: #000000;
-    border-bottom-style: solid;
-    border-bottom-width: 0.1em;
-}
 .homeInfo h2 {
     font-size: 0.9em;
     padding-top: 1em;
@@ -228,6 +216,11 @@ Home
     text-align: center;
     color: #000000;
     font-size: 1.5em;
+}
+.footerTopBlockTitle_home {
+    border-color: #000000;
+    border-bottom-style: solid;
+    border-bottom-width: 0.1em;
 }
 #homeTitleBottom {
     position: relative;
@@ -287,6 +280,24 @@ Configurazioni
     padding: 3%;
     margin-top: 2em;
 }
+.configConfigurazioniTop h1 {
+    font-size: 2em;
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    color: #FFFFFF;
+}
+.configConfigurazioniTop h2 {
+    font-size: 1.5em;
+    text-align: left;
+    padding-top: 2em;
+    color: #FFFFFF;
+}
+.configConfigurazioniTop p {
+    font-size: 1em;
+    text-align: left;
+    color: #FFFFFF;
+}
 .configImg {
     width: 40%;
     float: left;
@@ -300,24 +311,6 @@ Configurazioni
     background-color: #212121;
     padding: 2em;
     width: 52%;
-}
-.configConfigurazioniTop p {
-    font-size: 1em;
-    text-align: left;
-    color: #FFFFFF;
-}
-.configConfigurazioniTop h2 {
-    font-size: 1.5em;
-    text-align: left;
-    padding-top: 2em;
-    color: #FFFFFF;
-}
-.configConfigurazioniTop h1 {
-    font-size: 2em;
-    text-align: center;
-    padding-top: 1em;
-    padding-bottom: 1em;
-    color: #FFFFFF;
 }
 .configSpecification {
     width: 100%;
@@ -356,24 +349,20 @@ Configurazioni
 /********************************************************************************
 Catalogo
 ********************************************************************************/
-.catalogContainerOut a {
-    text-decoration: none;
-    color: #000000;
-}
-.catalogContainerOut h2 {
-    text-align: center;
-    font-size: 1.1em;
-}
-.catalogContainerIn img {
-    width: 80%;
-    margin: 0.5em 2.5% 0.5em 2.5%;
-}
 .catalogContainerOut {
     margin: 1em 1.5% 1em 1.5%;
     width: 17%;
     float: left;
     text-align: center;
     height: 16em;
+}
+.catalogContainerOut h2 {
+    text-align: center;
+    font-size: 1.1em;
+}
+.catalogContainerOut a {
+    text-decoration: none;
+    color: #000000;
 }
 .catalogContainerIn {
     text-align: center;
@@ -383,37 +372,9 @@ Catalogo
     background-color: #FFFFFF;
     position: relative;
 }
-/********************************************************************************
-Menù Verticale (catalogo, categorie)
-********************************************************************************/
-#catalogVerticalMenu {
-    width: 20%;
-    float: left;
-    height: 56em;
-}
-#catalogVerticalMenu ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    background-color: #B71C1C;
-    width: 200px;
-}
-#catalogVerticalMenu li {
-    padding: 0.4em;
-    border-top: solid;
-    border-bottom: solid;
-    border-color: #FFFFFF;
-    border-width: 2px;
-}
-#catalogVerticalMenu a {
-    display: block;
-    color: #FFFFFF;
-    padding: 0.15em 0.2em;
-    text-decoration: underline;
-    font-size: 0.9em;
-}
-#catalogVerticalMenu li:hover {
-    background-color: #212121;
+.catalogContainerIn img {
+    width: 80%;
+    margin: 0.5em 2.5% 0.5em 2.5%;
 }
 
 /********************************************************************************
@@ -427,14 +388,20 @@ Categorie
     position: relative;
     height: 25em;
 }
-.catalogInsideProductDescription p {
-    margin-top: 1em;
-    font-size: 0.8em;
-    text-align: left;
+.catalogImageInside {
+    width: 80%;
+    margin-top: 4%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 .catalogInsideProductName h1{
     margin-top: 3em;
     font-size: 1.1em;
+}
+.catalogInsideProductDescription p {
+    margin-top: 1em;
+    font-size: 0.8em;
+    text-align: left;
 }
 .catalogInsideProductAvailability h3 {
     font-size: 0.9em;
@@ -447,13 +414,6 @@ Categorie
     margin-top: 10%;
     float: left;
     width: 50%;
-}
-
-.catalogImageInside {
-    width: 80%;
-    margin-top: 4%;
-    margin-left: 10%;
-    margin-right: 10%;
 }
 
 /********************************************************************************
@@ -498,10 +458,21 @@ Contatti
     margin-top: 0.3em;
 }
 
+/***** Titoli sezioni (contatti, 404) *****/
+.titlesHorizontalBord {
+    position: relative;
+    float: left;
+    width: 100%;
+    margin: 0.5em 0em 1em 0em;
+}
+.titlesHorizontalBord h1{
+    font-size: 2em;
+    margin-bottom: 0.2em;
+}
+
 /********************************************************************************
 Pagina 404
 ********************************************************************************/
-
 #notFoundContainer {
     padding-bottom: 0.5em;
     height: 10em;
@@ -525,25 +496,20 @@ Pagina 404
     text-align: center;
 }
 #notFoundBack a {
-    color: white;
-}
-
-/***** Titoli sezioni (contatti, 404) *****/
-.titlesHorizontalBord h1{
-    font-size: 2em;
-    margin-bottom: 0.2em;
-}
-.titlesHorizontalBord {
-    position: relative;
-    float: left;
-    width: 100%;
-    margin: 0.5em 0em 1.5em 0em;
+    color: #FFFFFF;
 }
 
 /********************************************************************************
-Media Query
+Media Query (solo desktop)
 ********************************************************************************/
 @media only screen and (min-width: 956px) {
+/***** Generale ****/
+    .hoverScale:hover{
+        -webkit-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+        -moz-transform: scale(1.2);
+    }
+
 /***** Header *****/
     #headerHamburger {
         display: none;
@@ -562,6 +528,39 @@ Media Query
     #footer {
         height: 6.5em;
     }
+
+/********************************************************************************
+Menù Verticale (catalogo, categorie)
+********************************************************************************/
+#catalogVerticalMenu {
+    width: 20%;
+    float: left;
+    height: 56em;
+}
+#catalogVerticalMenu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #B71C1C;
+    width: 200px;
+}
+#catalogVerticalMenu li {
+    padding: 0.4em;
+    border-top: solid;
+    border-bottom: solid;
+    border-color: #FFFFFF;
+    border-width: 2px;
+}
+#catalogVerticalMenu a {
+    display: block;
+    color: #FFFFFF;
+    padding: 0.15em 0.2em;
+    text-decoration: underline;
+    font-size: 0.9em;
+}
+#catalogVerticalMenu li:hover {
+    background-color: #212121;
+}
 
 /***** Bordo orizzontale (home, contatti, 404) *****/
     #homeTitleBottom:after {
