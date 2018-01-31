@@ -111,8 +111,8 @@ Footer
     border-color: #D32F2F;
     border-left: none;
     border-right: none;
-    padding-top: 2em;
     padding-bottom: 2em;
+    padding-top: 1em;
 }
 
 #footer h1 {
@@ -524,6 +524,12 @@ Media Query
         -webkit-transform: scale(1.1);
         -ms-transform: scale(1.1);
         -moz-transform: scale(1.1);
+    }
+
+/***** Footer *********************/
+
+    #footer {
+        height: 6.5em;
     }
 /***** Home bordo orizzontale *****/
     #homeTitleBottom:after {
