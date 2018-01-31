@@ -374,9 +374,11 @@ Media Query Mobile
     .homeContainersIn {
         margin-left: 0;
         width: 100%;
+        position: static;
     }
     #homeTitleBottom {
         font-size: 0.7em;
+        position: static;
     }
 
 /***** Configurazioni *****/
