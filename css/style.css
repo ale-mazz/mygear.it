@@ -7,21 +7,25 @@ Generale
     padding: 0em;
     margin: 0em;
 }
+
 body {
     font-family: 'Lato';
     background-color: #FFFFFF;
 }
+
 .pageTitle {
     width: 100%;
     margin-top: 2em;
     margin-bottom: 2em;
 }
+
 .pageTitle h1 {
     font-size: 2em;
     text-align: center;
     color: #000000;
 }
-.hoverScale:hover{
+
+.hoverScale:hover {
     -webkit-transform: scale(1.2);
     -ms-transform: scale(1.2);
     -moz-transform: scale(1.2);
@@ -35,20 +39,24 @@ header {
     background-color: #D32F2F;
     height: 4em;
 }
+
 .headerMenu {
     margin: auto;
     float: right;
 }
+
 #headerContainer {
     background: #B71C1C;
     height: 4.6em;
 }
+
 .headerMenu ul {
     list-style-type: none;
     font-size: 1em;
     float: right;
     margin-top: 0em;
 }
+
 .headerMenu li {
     float: left;
     padding-top: 0.4em;
@@ -56,24 +64,29 @@ header {
     padding-left: 0.5em;
     padding-right: 0.8em;
 }
+
 .headerMenu li a {
     display: block;
     color: #FFFFFF;
     padding: 1em 1em;
     text-decoration: none;
 }
+
 .hover {
     display: inline-block;
     position: relative;
 }
+
 .hover:hover {
     -webkit-transform: scale(1.2);
     -ms-transform: scale(1.2);
     -moz-transform: scale(1.2);
 }
+
 .selected {
     font-weight: 900;
 }
+
 .headerLogo {
     top: 0px;
     height: 3em;
@@ -81,6 +94,7 @@ header {
     padding-left: 2em;
     padding-top: 0.5em;
 }
+
 #headerButtonLogin {
     -moz-appearance: button;
     text-decoration: none;
@@ -95,6 +109,9 @@ header {
     margin-top: 0.4em;
     margin-right: 0.4em;
     cursor: pointer;
+    width: 4em;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 /********************************************************************************
@@ -117,6 +134,7 @@ Footer
     color: #FAFAFA;
     font-size: 1.2em;
 }
+
 .footerBlockTitle {
     padding-bottom: 0.3em;
     padding-top: 0.3em;
@@ -124,19 +142,23 @@ Footer
     border-bottom-color: #FAFAFA;
     border-bottom-width: 0.1em;
 }
+
 .footerContainer {
     width: 30%;
     float: left;
     margin-left: 2.5%;
 }
+
 .footerContainer p {
     margin-bottom: 0.3em;
     padding-top: 0.3em;
     font-size: 1em;
 }
+
 #footerLoghiSocial {
     width: 100%;
 }
+
 #footerLoghiSocial img {
     width: 10%;
     margin-left: 10%;
@@ -149,10 +171,12 @@ Home
     width: 100%;
     height: auto;
 }
+
 #homeContentTop {
     width: 100%;
     margin-top: 3em;
 }
+
 #homeContentTop p {
     height: 1em;
     text-align: left;
@@ -160,20 +184,24 @@ Home
     color: #000000;
     padding-top: 1em;
 }
-.homeContainersOut{
+
+.homeContainersOut {
     float: left;
     width: 30%;
     margin-left: 1.25%;
     margin-right: 1.25%;
 }
+
 .homeTitles {
     text-align: center;
 }
+
 .homeTitles h1 {
     font-size: 1.5em;
     color: #000000;
     text-align: center;
 }
+
 .homeContainersIn {
     position: relative;
     margin-top: 1.5em;
@@ -183,38 +211,47 @@ Home
     float: left;
     background-color: #FFFFFF;
 }
+
 .homeContainersIn img {
     width: 80%;
     margin-left: 10%;
     margin-right: 10%;
 }
+
 #homeImgVetrina {
     padding-top: 17.5%;
     padding-bottom: 18%;
 }
+
 .homeInfo {
     padding: 1em;
 }
+
 .homeInfo h1 {
     font-size: 1em;
     padding-bottom: 0.5em;
 }
+
 .footerTopBlockTitle_home {
     border-color: #000000;
     border-bottom-style: solid;
     border-bottom-width: 0.1em;
 }
+
 .homeInfo h2 {
     font-size: 0.9em;
     padding-top: 1em;
 }
+
 #homeContentTop a {
     color: #000000;
     display: inline-block;
 }
+
 #homeContentTop a:visited {
     color: #D32F2F;
 }
+
 #homeRegistrati {
     width: 100%;
     float: left;
@@ -222,11 +259,13 @@ Home
     padding-bottom: 1em;
     padding-top: 1em;
 }
+
 #homeRegistrati p {
     text-align: center;
     color: #000000;
     font-size: 1.5em;
 }
+
 #homeTitleBottom {
     position: relative;
     float: left;
@@ -235,20 +274,24 @@ Home
     padding-top: 1em;
     padding-bottom: 1em;
 }
+
 #homeTitleBottom h1 {
     text-align: center;
     color: #000000;
 }
+
 #homeLoghi {
     float: left;
     clear: left;
     width: 100%;
 }
+
 #homeLoghi img {
     width: 8%;
     margin-left: 4%;
     text-decoration: none;
 }
+
 #homeLoghi a {
     text-decoration: none;
 }
@@ -259,6 +302,7 @@ Configurazioni
 #configHorizontalMenu {
     width: 100%;
 }
+
 #configHorizontalMenu ul {
     list-style-type: none;
     margin: 0;
@@ -266,10 +310,12 @@ Configurazioni
     overflow: hidden;
     background-color: #B71C1C;
 }
+
 #configHorizontalMenu li {
     float: left;
     width: 33.33%;
 }
+
 #configHorizontalMenu a {
     display: block;
     color: #FFFFFF;
@@ -278,6 +324,7 @@ Configurazioni
     font-size: 0.9em;
     padding: 0.2em;
 }
+
 .configConfigurazioniTop {
     width: 94%;
     float: left;
@@ -285,31 +332,37 @@ Configurazioni
     padding: 3%;
     margin-top: 2em;
 }
+
 .configImg {
     width: 40%;
     float: left;
 }
+
 .configImg img {
     max-width: 70%;
     margin: 5%;
 }
+
 .configDescription {
     float: left;
     background-color: #212121;
     padding: 2em;
     width: 52%;
 }
+
 .configConfigurazioniTop p {
     font-size: 1em;
     text-align: left;
     color: #FFFFFF;
 }
+
 .configConfigurazioniTop h2 {
     font-size: 1.5em;
     text-align: left;
     padding-top: 2em;
     color: #FFFFFF;
 }
+
 .configConfigurazioniTop h1 {
     font-size: 2em;
     text-align: center;
@@ -317,6 +370,7 @@ Configurazioni
     padding-bottom: 1em;
     color: #FFFFFF;
 }
+
 .configSpecification {
     width: 100%;
     float: left;
@@ -324,10 +378,12 @@ Configurazioni
     padding-top: 1em;
     padding-bottom: 1em;
 }
+
 .configSpecification h1 {
     font-size: 2em;
     text-align: center;
 }
+
 .configContainer {
     width: 30%;
     float: left;
@@ -336,17 +392,20 @@ Configurazioni
     padding-top: 1em;
     font-size: 1.2em;
 }
+
 .configContainer h1 {
     font-size: 0.8em;
     padding-bottom: 0.3em;
     color: #000000;
     text-align: left;
 }
+
 .configContainerSections {
     width: 100%;
     height: 1.5em;
     padding-bottom: 1.5em;
 }
+
 .configContainerSections p {
     font-size: 0.7em;
 }
@@ -358,14 +417,17 @@ Catalogo
     text-decoration: none;
     color: #000000;
 }
+
 .catalogContainerOut h2 {
     text-align: center;
     font-size: 1.1em;
 }
+
 .catalogContainerIn img {
     width: 80%;
     margin: 0.5em 2.5% 0.5em 2.5%;
 }
+
 .catalogContainerOut {
     margin: 1em 1.5% 1em 1.5%;
     width: 17%;
@@ -373,6 +435,7 @@ Catalogo
     text-align: center;
     height: 18em;
 }
+
 .catalogContainerIn {
     text-align: center;
     margin-top: 1em;
@@ -381,6 +444,7 @@ Catalogo
     background-color: #FFFFFF;
     position: relative;
 }
+
 /********************************************************************************
 Menù Verticale (catalogo, categorie)
 ********************************************************************************/
@@ -389,6 +453,7 @@ Menù Verticale (catalogo, categorie)
     float: left;
     height: 56em;
 }
+
 #catalogVerticalMenu ul {
     list-style-type: none;
     margin: 0;
@@ -396,6 +461,7 @@ Menù Verticale (catalogo, categorie)
     background-color: #B71C1C;
     width: 200px;
 }
+
 #catalogVerticalMenu li {
     padding: 0.4em;
     border-top: solid;
@@ -403,6 +469,7 @@ Menù Verticale (catalogo, categorie)
     border-color: #FFFFFF;
     border-width: 2px;
 }
+
 #catalogVerticalMenu a {
     display: block;
     color: #FFFFFF;
@@ -410,6 +477,7 @@ Menù Verticale (catalogo, categorie)
     text-decoration: underline;
     font-size: 0.9em;
 }
+
 #catalogVerticalMenu li:hover {
     background-color: #212121;
 }
@@ -425,21 +493,25 @@ Categorie
     position: relative;
     height: 25em;
 }
+
 .catalogInsideProductDescription p {
     margin-top: 1em;
     font-size: 0.8em;
     text-align: left;
 }
-.catalogInsideProductName h1{
+
+.catalogInsideProductName h1 {
     margin-top: 3em;
     font-size: 1.1em;
 }
+
 .catalogInsideProductAvailability h3 {
     font-size: 0.9em;
     margin-top: 10%;
     float: left;
     width: 50%;
 }
+
 .catalogInsideProductPrice h3 {
     font-size: 0.9em;
     margin-top: 10%;
@@ -462,85 +534,99 @@ Categorie
 /********************************************************************************
 Contatti
 ********************************************************************************/
-#contactsWho{
+#contactsWho {
     height: 10em;
     text-align: center;
     padding: 0em 7% 3em 7%;
 }
+
 #contactsWhere {
-    float:left;
+    float: left;
     text-align: center;
     width: 40%;
     margin-left: 7%;
 }
+
 #contactsHow {
     text-align: center;
     width: 40%;
     margin-right: 7%;
     float: right;
 }
-#contactsWho img{
+
+#contactsWho img {
     width: 5em;
     float: left;
     padding: 0.5em 8em 0em 10em;
 }
-#contactsWhere img, #contactsHow img{
-    float:left;
+
+#contactsWhere img, #contactsHow img {
+    float: left;
     clear: right;
     text-align: left;
     width: 5em;
     padding: 0.5em 2em 0em 2em;
 }
+
 #contactsWho p {
     margin: 1em 10em 0em 0em;
 }
-#contactsWhere p{
+
+#contactsWhere p {
     margin-top: 1em;
 }
-#contactsHow p{
+
+#contactsHow p {
     margin-top: 0.3em;
 }
+
 .contactsTitles {
     position: relative;
     float: left;
     width: 100%;
     margin-bottom: 1em;
 }
+
 .contactsTitles h1 {
     text-align: center;
     color: #000000;
     font-size: 2em;
-    margin-bottom:0.5em;
+    margin-bottom: 0.5em;
 }
 
 /********************************************************************************
 Pagina 404
 ********************************************************************************/
-#notFoundContainer{
+#notFoundContainer {
     height: 10em;
     text-align: center;
     padding: 0em 7% 5em 7%;
 }
-#notFoundContainer img{
+
+#notFoundContainer img {
     height: 8em;
     float: left;
     padding: 1em 6em 1em 8em;
 }
+
 #notFoundTitles {
     position: relative;
     float: left;
     width: 100%;
     margin-bottom: 1em;
 }
+
 #notFoundTitles h1 {
     text-align: center;
     color: #000000;
     font-size: 2em;
-    margin-bottom:0.5em;
+    margin-bottom: 0.5em;
 }
+
 #notFoundContainer p {
     margin: 1.5em 10em 0em 0em;
 }
+
 #notFoundBack {
     width: 20%;
     margin-right: 40%;
@@ -549,71 +635,83 @@ Pagina 404
     background-color: #B71C1C;
     text-align: center;
 }
+
 #notFoundBack a {
     color: #FFFFFF;
     font-size: 1em;
     text-decoration: underline;
     display: inline-block;
 }
+
 #notFoundFooter {
-        position: absolute;
-        bottom: 0px;
-        width: 100%;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
 }
 
 /********************************************************************************
 Media Query
 ********************************************************************************/
 @media only screen and (min-width: 956px) {
-/***** Header *****/
+    /***** Header *****/
     #headerHamburger {
         display: none;
     }
+
     #headerDropMenu {
         display: none;
     }
+
     #headerButtonLogin:hover {
         -webkit-transform: scale(1.1);
         -ms-transform: scale(1.1);
         -moz-transform: scale(1.1);
     }
-/***** Bordi orizzontali (home, contatti, 404) *****/
+
+    /***** Bordi orizzontali (home, contatti, 404) *****/
     #homeTitleBottom:after {
         content: "";
         position: absolute;
         top: -3px;
         left: 20px;
     }
-    #homeTitleBottom:after{
+
+    #homeTitleBottom:after {
         right: 20px;
         height: 3px;
-        background-image: -webkit-gradient(linear, 0 0, 100% 0, from(transparent), to(#9E9E9E), to (transparent));
+        background-image: -webkit-gradient(linear, 0 0, 100% 0, from(transparent), to(#9E9E9E), to (transparent);
+    );
         background-image: -webkit-linear-gradient(left, transparent, #9E9E9E, transparent);
         background-image: -moz-linear-gradient(left, transparent, #9E9E9E, transparent);
         background-image: -o-linear-gradient(left, transparent, #9E9E9E, transparent);
     }
-    .contactsTitles:before, #notFoundTitles:before{
+
+    .contactsTitles:before, #notFoundTitles:before {
         content: "";
         position: absolute;
         bottom: 3px;
         left: 20px;
     }
-    .contactsTitles:before, #notFoundTitles:before{
+
+    .contactsTitles:before, #notFoundTitles:before {
         right: 5px;
         height: 3px;
-        background-image: -webkit-gradient(linear, 0 0, 100% 0, from(transparent), to(#9E9E9E), to (transparent));
+        background-image: -webkit-gradient(linear, 0 0, 100% 0, from(transparent), to(#9E9E9E), to (transparent);
+    );
         background-image: -webkit-linear-gradient(left, transparent, #9E9E9E, transparent);
         background-image: -moz-linear-gradient(left, transparent, #9E9E9E, transparent);
         background-image: -o-linear-gradient(left, transparent, #9E9E9E, transparent);
     }
-/***** Bordo riquadri (home, catalogo, categorie) *****/
-    .homeContainersIn:before, .homeContainersIn:after, .catalogContainerIn:before, .catalogContainerIn:after, .catalogInsideProduct:before, .catalogInsideProduct:after{
+
+    /***** Bordo riquadri (home, catalogo, categorie) *****/
+    .homeContainersIn:before, .homeContainersIn:after, .catalogContainerIn:before, .catalogContainerIn:after, .catalogInsideProduct:before, .catalogInsideProduct:after {
         content: "";
         position: absolute;
         top: -3px;
         right: -3px;
     }
-    .homeContainersIn:before, .catalogContainerIn:before, .catalogInsideProduct:before{
+
+    .homeContainersIn:before, .catalogContainerIn:before, .catalogInsideProduct:before {
         bottom: -2px;
         width: 2px;
         background-image: -webkit-gradient(linear, 0 100%, 0 0, from(#9E9E9E), to(transparent));
@@ -621,7 +719,8 @@ Media Query
         background-image: -moz-linear-gradient(#9E9E9E, transparent);
         background-image: -o-linear-gradient(#9E9E9E, transparent);
     }
-    .homeContainersIn:after, .catalogContainerIn:after, .catalogInsideProduct:after{
+
+    .homeContainersIn:after, .catalogContainerIn:after, .catalogInsideProduct:after {
         left: -2px;
         height: 2px;
         background-image: -webkit-gradient(linear, 0 0, 100% 0, from(transparent), to(#9E9E9E));
@@ -629,7 +728,8 @@ Media Query
         background-image: -moz-linear-gradient(left, transparent, #9E9E9E);
         background-image: -o-linear-gradient(left, transparent, #9E9E9E);
     }
-/***** Configurazioni *****/
+
+    /***** Configurazioni *****/
     .configTornaSu {
         width: auto;
         margin-right: 10%;
@@ -637,6 +737,7 @@ Media Query
         float: right;
         background-color: #B71C1C;
     }
+
     .configTornaSu a {
         color: #FFFFFF;
         font-size: 1em;
@@ -644,9 +745,11 @@ Media Query
         text-decoration: underline;
         display: inline-block;
     }
+
     .configTornaSuMobile {
         display: none;
     }
+
     #configHorizontalMenu a:hover {
         background-color: #212121;
     }
@@ -655,7 +758,6 @@ Media Query
 @media only screen and (min-width: 1440px) {
     .spaceFooter {
         position: absolute;
-        bottom: 0px;
         width: 100%;
     }
 }

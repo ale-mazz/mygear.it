@@ -18,14 +18,6 @@ $(function () {
 
 //Creazione Alert
 
-/**
- * Creates a custom alert.
- * @param id: Id of the alert.
- * @param alertType: Type of the alert that should be created, can either be 'success' or 'error'.
- * @param message: Message to be displayed inside the alert.
- * @returns {string}: Returns the created <div> element which represents the alert.
- */
-
 createAlert = function (id, alertType, message) {
     return '<div id="' + id + '" class="alert alert-' + alertType + ' alert-dismissable">' +
         '<button type="button" class="close" data-dismiss="alert" aria-hidden="true" ' +

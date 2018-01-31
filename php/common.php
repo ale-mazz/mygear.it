@@ -44,12 +44,3 @@ function checkUsername($username) :bool{
 function checkName($name) :bool{
     return  !(strlen($name) < 2 || strlen($name) > 35);
 }
-
-/**
- * Checks the validity of the surname.
- * @param string $surname: Name to be checked.
- * @return bool: True if the surname satisfy the criteria, false otherwise.
- */
-function checkSurname($surname) : bool {
-    return !(strlen($surname) < 2 || strlen($surname) > 35);
-}

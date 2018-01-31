@@ -26,7 +26,7 @@ class RegisterNewUser
     public function __construct()
     {
         if (isset($_POST["register"])) {
-            $this->registerNewUser();
+            $this->registerNewUser($name, $username, $email, $password, $confirmpassword);
         }
     }
 
@@ -82,15 +82,12 @@ class RegisterNewUser
             if (!$this->db_connection->connect_errno) {
 
                 // escaping, additionally removing everything that could be (html/javascript-) code
-                $name = $this->db_connection->real_escape_string(strip_tags($username, ENT_QUOTES));
+                $name = $this->db_connection->real_escape_string(strip_tags($name, ENT_QUOTES));
                 $user_name = $this->db_connection->real_escape_string(strip_tags($username, ENT_QUOTES));
                 $user_email = $this->db_connection->real_escape_string(strip_tags($email, ENT_QUOTES));
 
                 $user_password = $password;
 
-                // crypt the user's password with PHP 5.5's password_hash() function, results in a 60 character
-                // hash string. the PASSWORD_DEFAULT constant is defined by the PHP 5.5, or if you are using
-                // PHP 5.3/5.4, by the password hashing compatibility library
                 $user_password_hash = password_hash($user_password, PASSWORD_DEFAULT);
 
                 // check if user or email address already exists
@@ -98,7 +95,7 @@ class RegisterNewUser
                 $query_check_user_name = $this->db_connection->query($sql);
 
                 if ($query_check_user_name->num_rows == 1) {
-                    $this->errors[] = "Sorry, that username / email address is already taken.";
+                    $this->errors[] = "Username o Email già esistente.";
                 } else {
                     // write new user's data into database
                     $sql = "INSERT INTO users (user_name, user_username, user_password_hash, user_email)
@@ -107,13 +104,13 @@ class RegisterNewUser
 
                     // if user has been added successfully
                     if ($query_new_user_insert) {
-                        $this->messages[] = "Your account has been created successfully. You can now log in.";
+                        $this->messages[] = "Il tuo account è stato creato correttamente.";
                     } else {
-                        $this->errors[] = "Sorry, your registration failed. Please go back and try again.";
+                        $this->errors[] = "Registrazione fallita, per favore riprova.";
                     }
                 }
             } else {
-                $this->errors[] = "Sorry, no database connection.";
+                $this->errors[] = "Connessione al DB fallita.";
             }
         } else {
             $this->errors[] = "An unknown error occurred.";
