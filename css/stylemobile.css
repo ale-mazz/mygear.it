@@ -297,6 +297,26 @@
 
 }
 
+/***** Pagina 404 *****/
+#notFoundContainer {
+    padding-bottom: 0.5em;
+    height: 10em;
+    text-align: center;
+    padding: 3em 7% 5em 7%;
+}
+
+#notFoundContainer img{
+    width: 6em;
+    float: left;
+    padding: 1.5em 7em 5em 8em;
+}
+#notFoundContainer p {
+    margin: 2em;
+}
+
+#notFoundBack {
+    margin-top: 1em;
+}
 
 /******************************************************************
 Media Query Mobile
@@ -473,6 +493,15 @@ Media Query Mobile
     }
     #contactsWho p, #contactsWhere p, #contactsHow p{
         width: 100%;
+    }
+
+/***** Pagina 404 *****/
+    #notFoundContainer img{
+        display: none;
+    }
+
+    #notFoundBack {
+        margin-top: 5em;
     }
 
 }
