@@ -1,3 +1,5 @@
+//Javascript che gestisce il processo di Login
+
 loginOnLoad = function () {
     document.getElementById('regLoginForm').onsubmit = sendLoginRequest;
 };

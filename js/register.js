@@ -1,10 +1,10 @@
-//Funzioni utilizzate dal modulo registrazione
+//Javascript che gestisce il processo di Registrazione
 
 checkPasswordAndConfirmationFields = function (password, confirmPassword) {
     var valid = false;
 
     if (password.value !== confirmPassword.value) {
-        confirmPassword.setCustomValidity("Le password non coincidono");
+        confirmPassword.setCustomValidity("Le password non coincidono.");
     } else {
         confirmPassword.setCustomValidity('');
         valid = true;
@@ -21,9 +21,9 @@ checkUsernameFieldLength = function (username) {
     var valid = false;
 
     if (usernameLength < MIN_USERNAME_LENGTH) {
-        username.setCustomValidity("L'username deve essere lungo almeno " + MIN_USERNAME_LENGTH + " caratteri");
+        username.setCustomValidity("L'username deve essere lungo almeno " + MIN_USERNAME_LENGTH + " caratteri.");
     } else if (usernameLength > MAX_USERNAME_LENGTH) {
-        username.setCustomValidity("L'username deve essere lungo meno di " + MAX_USERNAME_LENGTH + " caratteri");
+        username.setCustomValidity("L'username deve essere lungo meno di " + MAX_USERNAME_LENGTH + " caratteri.");
     } else {
         username.setCustomValidity('');
         valid = true;
@@ -32,7 +32,7 @@ checkUsernameFieldLength = function (username) {
     return valid;
 };
 
-const MIN_PASSWORD_LENGTH = 8;
+const MIN_PASSWORD_LENGTH = 6;
 const MAX_PASSWORD_LENGTH = 20;
 
 checkPasswordFieldLength = function (password) {
@@ -40,9 +40,9 @@ checkPasswordFieldLength = function (password) {
     var valid = false;
 
     if (passwordLength < MIN_PASSWORD_LENGTH) {
-        password.setCustomValidity("La password deve essere lunga almeno " + MIN_PASSWORD_LENGTH + " caratteri");
+        password.setCustomValidity("La password deve essere lunga almeno " + MIN_PASSWORD_LENGTH + " caratteri.");
     } else if (passwordLength > MAX_PASSWORD_LENGTH) {
-        password.setCustomValidity("La password deve essere lunga meno di " + MAX_PASSWORD_LENGTH + " caratteri");
+        password.setCustomValidity("La password deve essere lunga meno di " + MAX_PASSWORD_LENGTH + " caratteri.");
     } else {
         password.setCustomValidity('');
         valid = true;
@@ -52,16 +52,16 @@ checkPasswordFieldLength = function (password) {
 };
 
 const MIN_NAME_LENGTH = 2;
-const MAX_NAME_LENGTH = 35;
+const MAX_NAME_LENGTH = 64;
 
 checkNameFieldLength = function (name) {
     var nameLength = name.value.length;
     var valid = false;
 
     if (nameLength < MIN_NAME_LENGTH) {
-        name.setCustomValidity("Questo campo deve essere lungo almeno " + MIN_NAME_LENGTH + " caratteri");
+        name.setCustomValidity("Questo campo deve essere lungo almeno " + MIN_NAME_LENGTH + " caratteri.");
     } else if (nameLength > MAX_NAME_LENGTH) {
-        name.setCustomValidity("Questo campo deve essere lungo meno di " + MAX_NAME_LENGTH + " caratteri");
+        name.setCustomValidity("Questo campo deve essere lungo meno di " + MAX_NAME_LENGTH + " caratteri.");
     } else {
         name.setCustomValidity('');
         valid = true;
@@ -78,9 +78,9 @@ checkLongTestFieldLength = function (field) {
     var valid = false;
 
     if (fieldLength < MIN_LONG_TEXT_LENGTH) {
-        name.setCustomValidity("Questo campo deve essere lungo almeno " + MIN_LONG_TEXT_LENGTH + " caratteri");
+        name.setCustomValidity("Questo campo deve essere lungo almeno " + MIN_LONG_TEXT_LENGTH + " caratteri.");
     } else if (fieldLength > MAX_LONG_TEXT_LENGTH) {
-        name.setCustomValidity("Questo campo deve essere lungo meno di " + MAX_LONG_TEXT_LENGTH + " caratteri");
+        name.setCustomValidity("Questo campo deve essere lungo meno di " + MAX_LONG_TEXT_LENGTH + " caratteri.");
     } else {
         name.setCustomValidity('');
         valid = true;

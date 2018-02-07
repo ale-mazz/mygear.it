@@ -1,28 +1,17 @@
 <?php
 
-/**
- * Class registration
- * handles the user registration
- */
+//Classe che gestisce la il processo di Registrazione. Js Obbligatorio
+
 class RegisterNewUser
 {
-    /**
-     * @var object $db_connection The database connection
-     */
+
     private $db_connection = null;
-    /**
-     * @var array $errors Collection of error messages
-     */
+
     public $errors = array();
-    /**
-     * @var array $messages Collection of success / neutral messages
-     */
+
     public $messages = array();
 
-    /**
-     * the function "__construct()" automatically starts whenever an object of this class is created,
-     * you know, when you do "$registration = new registrationclass();"
-     */
+
     public function __construct()
     {
         if (isset($_POST["register"])) {
@@ -30,10 +19,6 @@ class RegisterNewUser
         }
     }
 
-    /**
-     * handles the entire registration process. checks all error possibilities
-     * and creates a new user in the database if everything is fine
-     */
     public function registerNewUser($name, $username, $email, $password, $confirmpassword)
     {
 
@@ -70,18 +55,14 @@ class RegisterNewUser
             && !empty($confirmpassword)
             && ($password === $confirmpassword)
         ) {
-            // create a database connection
             $this->db_connection = new mysqli(DB_HOST, DB_USER, DB_PASS, DB_NAME);
 
-            // change character set to utf8 and check it
             if (!$this->db_connection->set_charset("utf8")) {
                 $this->errors[] = $this->db_connection->error;
             }
 
-            // if no connection errors (= working database connection)
             if (!$this->db_connection->connect_errno) {
 
-                // escaping, additionally removing everything that could be (html/javascript-) code
                 $name = $this->db_connection->real_escape_string(strip_tags($name, ENT_QUOTES));
                 $user_name = $this->db_connection->real_escape_string(strip_tags($username, ENT_QUOTES));
                 $user_email = $this->db_connection->real_escape_string(strip_tags($email, ENT_QUOTES));
@@ -90,30 +71,27 @@ class RegisterNewUser
 
                 $user_password_hash = password_hash($user_password, PASSWORD_DEFAULT);
 
-                // check if user or email address already exists
                 $sql = "SELECT * FROM users WHERE user_username = '$user_name' OR user_email = '$user_email'";
                 $query_check_user_name = $this->db_connection->query($sql);
 
                 if ($query_check_user_name->num_rows == 1) {
                     $this->errors[] = "Username o Email già esistente.";
                 } else {
-                    // write new user's data into database
                     $sql = "INSERT INTO users (user_name, user_username, user_password_hash, user_email)
                             VALUES('" . $name . "', '" . $user_name . "', '" . $user_password_hash . "', '" . $user_email . "');";
                     $query_new_user_insert = $this->db_connection->query($sql);
 
-                    // if user has been added successfully
                     if ($query_new_user_insert) {
                         $this->messages[] = "Il tuo account è stato creato correttamente.";
                     } else {
-                        $this->errors[] = "Registrazione fallita, per favore riprova.";
+                        $this->errors[] = "Registrazione fallita, controlla i campi e riprova.";
                     }
                 }
             } else {
                 $this->errors[] = "Connessione al DB fallita.";
             }
         } else {
-            $this->errors[] = "An unknown error occurred.";
+            $this->errors[] = "Errore.";
         }
     }
 }

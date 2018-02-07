@@ -11,7 +11,6 @@ $email = $_POST['email'];
 $password = $_POST['password'];
 $confirmPassword = $_POST['confirmPassword'];
 
-// Check that all the required fields have been filled
 $variables = array($name, $email, $username, $password);
 $error = false;
 foreach ($variables as $variable){
