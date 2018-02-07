@@ -13,7 +13,7 @@ checkPasswordAndConfirmationFields = function (password, confirmPassword) {
     return valid;
 };
 
-const MIN_USERNAME_LENGTH = 6;
+const MIN_USERNAME_LENGTH = 2;
 const MAX_USERNAME_LENGTH = 64;
 
 checkUsernameFieldLength = function (username) {
@@ -52,7 +52,7 @@ checkPasswordFieldLength = function (password) {
 };
 
 const MIN_NAME_LENGTH = 2;
-const MAX_NAME_LENGTH = 64;
+const MAX_NAME_LENGTH = 64;\
 
 checkNameFieldLength = function (name) {
     var nameLength = name.value.length;

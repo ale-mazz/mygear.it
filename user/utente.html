@@ -9,29 +9,34 @@
     <meta charset="UTF-8">
     <link rel="icon" href="../images/favicon.ico"/>
     <link rel="stylesheet" type="text/css" href="utentestyle.css">
+    <link rel="stylesheet" type="text/css" href="formstyle.css">
     <link rel="stylesheet" type="text/css" href="../css/style.css">
     <link rel="stylesheet" type="text/css" href="../css/stylemobile.css">
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lato" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="../js/common.js"></script>
+    <script src="../js/usermodify.js"></script>
+
 </head>
 
-<body onload="logoutOnLoad()">
+<body onload="userOnLoad()">
 
     $header$
 
     <div id="userContainer">
         <h1>Dati Utente</h1>
         <h2>Dati Personali</h2>
-        <form class="userForm">
+        <form class="userForm" id="userForm">
             <fieldset>
                 <legend class="displayNone">Informazioni personali utente</legend>
 
                 <label class="userInputLabel" id="usernameLabel" for="username" lang="en">Username</label>
-                <input class="userInputField" id="username" value="" type="text" name="user" title="Username" required="required" />
+                <input class="userInputField" id="username" value="" type="text" name="username" title="Username"
+                       required="required" placeholder="$username$"/>
 
                 <label class="userInputLabel" id="emailLabel" for="email" lang="en">E-mail</label>
-                <input class="userInputField" id="email" value="" type="email" name="email" title="E-mail" required="required" readonly/>
+                <input class="userInputField" id="email" value="" type="email" name="email" title="E-mail"
+                       required="required" readonly placeholder="$email$"/>
 
                 <input class="userSubmitButton" id="personalInfoButton" type="submit" value="Salva modifiche">
                 <div class="messages"></div>
@@ -40,7 +45,7 @@
         </form>
 
         <h2>Modifica <span lang="en">Password</span></h2>
-        <form class="userForm">
+        <form class="userForm" id="passwordForm">
             <fieldset>
                 <legend class="displayNone">Password utente</legend>
                 <label class="userInputLabel" id="oldPasswordLabel" for="oldPassword">Vecchia <span lang="en">password</span></label>
@@ -59,17 +64,17 @@
 
         <h1>Contatti</h1>
         <h2>Contatti <span lang="en">Social</span></h2>
-        <form class="userForm">
+        <form class="userForm" id="contactForm">
             <fieldset>
                 <legend class="displayNone">Contatti social utente</legend>
                 <label class="userInputLabel" id="facebookLabel" for="facebook" lang="en">Facebook</label>
-                <input class="userInputField" id="facebook" type="text" name="facebook" value="">
+                <input class="userInputField" id="facebook" type="text" name="facebook" placeholder="$facebook$">
 
                 <label class="userInputLabel" id="twitterLabel" for="twitter" lang="en">Twitter</label>
-                <input class="userInputField" id="twitter" type="text" name="twitter" value="">
+                <input class="userInputField" id="twitter" type="text" name="twitter" placeholder="$twitter$">
 
                 <label class="userInputLabel" id="instagramLabel" for="instagram" lang="en">Instagram</label>
-                <input class="userInputField" id="instagram" type="text" name="instagram" value="">
+                <input class="userInputField" id="instagram" type="text" name="instagram" placeholder="$instagram$">
 
                 <input class="userSubmitButton" id="changeContactsButton" type="submit" value="salva modifiche">
                 <div class="messages"></div>
@@ -82,9 +87,6 @@
     </div>
 
     $footer$
-
-    <!-- Vari Scritp JS utilizzati -->
-
 
 </body>
 

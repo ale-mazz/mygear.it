@@ -29,6 +29,13 @@ $user = 'user.php';
 $page = str_replace('$rtuser$', $user, $page);
 $page = str_replace('$login$', $login, $page);
 
+
+$page = str_replace('$username$', $_SESSION['user_username'], $page);
+$page = str_replace('$email$', $_SESSION['user_email'], $page);
+$page = str_replace('$facebook$', $_SESSION['facebook'], $page);
+$page = str_replace('$twitter$', $_SESSION['twitter'], $page);
+$page = str_replace('$instagram$', $_SESSION['instagram'], $page);
+
 echo $page;
 
 ?>

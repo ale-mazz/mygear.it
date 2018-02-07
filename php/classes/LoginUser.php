@@ -41,7 +41,7 @@ class loginUser
 
                 $user_username = $this->db_connection->real_escape_string($username);
 
-                $sql = "SELECT user_username, user_email, user_password_hash
+                $sql = "SELECT user_username, user_email, user_password_hash, facebook, twitter, instagram
                         FROM users
                         WHERE user_username = '$user_username' OR user_email = '$user_username'";
                 $result_of_login_check = $this->db_connection->query($sql);
@@ -56,6 +56,9 @@ class loginUser
                         $_SESSION['user_username'] = $result_row->user_username;
                         $_SESSION['user_email'] = $result_row->user_email;
                         $_SESSION['user_login_status'] = 1;
+                        $_SESSION['facebook'] = $result_row->facebook;
+                        $_SESSION['twitter'] = $result_row->twitter;
+                        $_SESSION['instagram'] = $result_row->instagram;
 
                     } else {
                         $this->errors[] = "Password errata, riprova.";
