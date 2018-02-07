@@ -386,7 +386,7 @@ Categorie
     float: left;
     background-color: #FFFFFF;
     position: relative;
-    height: 25em;
+    height: 28em;
 }
 .catalogImageInside {
     width: 80%;
@@ -535,7 +535,7 @@ Menù Verticale (catalogo, categorie)
 #catalogVerticalMenu {
     width: 20%;
     float: left;
-    height: 56em;
+    height: 85em;
 }
 #catalogVerticalMenu ul {
     list-style-type: none;
@@ -654,7 +654,7 @@ Extra Media Query
 @media only screen and (max-width: 400px) {
 
     #headerButtonLogin {
-        width: 3em;
+        width: 4em;
         overflow: hidden;
         text-overflow: ellipsis;
     }
