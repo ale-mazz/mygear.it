@@ -654,7 +654,7 @@ Extra Media Query
 @media only screen and (max-width: 400px) {
 
     #headerButtonLogin {
-        width: 4em;
+        width: 3em;
         overflow: hidden;
         text-overflow: ellipsis;
     }
