@@ -17,9 +17,6 @@ sendLoginRequest = function () {
             // console.log(data);
             if (data.type === "success") {
 
-
-                var hashUserSession = data.message;
-
                 window.location = '../index.php';
             }
 
