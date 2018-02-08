@@ -330,9 +330,8 @@ Media Query Mobile
         height: 3.8em;
     }
     .headerLogo {
-        width: 14em;
-        height: auto;
-        padding-top: 0.7em;
+        height: 2.4em;
+        padding-top: 0.8em;
         padding-left: 1em;
     }
     #headerButtonLogin {
