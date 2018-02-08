@@ -52,7 +52,7 @@ checkPasswordFieldLength = function (password) {
 };
 
 const MIN_NAME_LENGTH = 2;
-const MAX_NAME_LENGTH = 64;\
+const MAX_NAME_LENGTH = 64;
 
 checkNameFieldLength = function (name) {
     var nameLength = name.value.length;
