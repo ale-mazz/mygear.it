@@ -34,6 +34,12 @@ Home
     .homeInfo p {
         padding-bottom: 1em;
     }
+    #homeRegistrati {
+        margin: 0;
+    }
+    #homeTitleBottom {
+        margin: 1em;
+    }
 
 /******************************************************************
 Configurazioni
@@ -71,7 +77,7 @@ Configurazioni
     .configSpecification {
         padding-top: 2.5em;
     }
-    .configTornaSu{
+    .configTornaSu, .configTornaSuMobile{
         display: none;
     }
 
@@ -79,7 +85,7 @@ Configurazioni
 Catalogo
 ******************************************************************/
     .catalogContainerOut {
-        margin: 2em 0% 3em 4%;
+        margin: 2em 0% 0 4%;
         width: 20%;
         float: left;
         text-align: center;
@@ -131,4 +137,23 @@ Contatti
         font-size: 1.2em;
     }
 
+/******************************************************************
+404
+******************************************************************/
+    #notFoundContainer {
+        width: 100%;
+        padding: 2em 0% 2em 0%;
+        margin: 0%;
+    }
+    #notFoundContainer img {
+        width: 6em;
+        padding: 3em 8em;
+    }
+    #notFoundContainer p {
+        margin: 2em 6em 0em 0em;
+        font-size: 1.2em;
+    }
+    #notFoundBack {
+        display: none;
+    }
 }

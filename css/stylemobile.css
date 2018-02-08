@@ -122,6 +122,7 @@
         width: 100%;
         margin: 0;
         margin-top: 2em;
+        position: static;
     }
     .homeTitles {
         margin-bottom: 0em;
@@ -147,7 +148,9 @@
     .homeInfo h2 {
         font-size: 1.8em;
     }
-
+    #homeTitleBottom {
+        position: inherit;
+    }
     #homeTitleBottom h1 {
         font-size: 3em;
     }
