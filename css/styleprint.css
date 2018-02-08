@@ -34,6 +34,12 @@ Home
     .homeInfo p {
         padding-bottom: 1em;
     }
+    #homeRegistrati {
+        margin: 0;
+    }
+    #homeTitleBottom {
+        margin: 1em;
+    }
 
 /******************************************************************
 Configurazioni
@@ -79,7 +85,7 @@ Configurazioni
 Catalogo
 ******************************************************************/
     .catalogContainerOut {
-        margin: 2em 0% 3em 4%;
+        margin: 2em 0% 0 4%;
         width: 20%;
         float: left;
         text-align: center;
