@@ -71,7 +71,7 @@ Configurazioni
     .configSpecification {
         padding-top: 2.5em;
     }
-    .configTornaSu{
+    .configTornaSu, .configTornaSuMobile{
         display: none;
     }
 
