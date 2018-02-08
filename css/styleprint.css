@@ -6,12 +6,12 @@
 Generale
 *******************************************************************************/
 * {
-    padding: 0em;
-    margin: 0em;
+    padding: 0;
+    margin: 0;
 }
 body {
     font-family: "Times New Roman", Times, serif;
-    background-color: #FFFFFF;
+    background-color: #FFF;
 }
 
 /******************************************************************
@@ -45,11 +45,11 @@ Home
 Configurazioni
 ******************************************************************/
     #configHorizontalMenu h1{
-        color: #000000;
+        color: #000;
     }
     .configConfigurazioniTop {
         width: 100%;
-        background-color: #FFFFFF;
+        background-color: #FFF;
     }
     .configImg {
         width: 40%;
@@ -60,19 +60,16 @@ Configurazioni
         max-width: 70%;
     }
     .configDescription {
-        background-color: #FFFFFF;
+        background-color: #FFF;
         padding: 2em;
         width: 50%;
     }
-    .configConfigurazioniTop p {
-        color: #000000;
+    .configConfigurazioniTop h1, .configConfigurazioniTop p {
+        color: #000;
     }
     .configConfigurazioniTop h2 {
-        color: #000000;
+        color: #000;
         padding-top: 1em;
-    }
-    .configConfigurazioniTop h1 {
-        color: #000000;
     }
     .configSpecification {
         padding-top: 2.5em;
@@ -85,7 +82,7 @@ Configurazioni
 Catalogo
 ******************************************************************/
     .catalogContainerOut {
-        margin: 2em 0% 0 4%;
+        margin: 2em 0 0 4%;
         width: 20%;
         float: left;
         text-align: center;
@@ -102,7 +99,7 @@ Menù Verticale (catalogo, categorie)
 Categorie
 ******************************************************************/
     .catalogInsideProduct {
-        margin: 2em 0% 3em 4%;
+        margin: 2em 0 3em 4%;
         width: 20%;
         float: left;
         text-align: center;
@@ -125,15 +122,15 @@ Contatti
     }
     #contactsWho, #contactsWhere, #contactsHow {
         width: 100%;
-        padding: 2em 0% 2em 0%;
-        margin: 0%;
+        padding: 2em 0;
+        margin: 0;
     }
     #contactsWho img, #contactsWhere img, #contactsHow img{
         width: 6em;
-        padding: 1em 8em 1em 8em;
+        padding: 1em 8eM;
     }
     #contactsWho p, #contactsWhere p, #contactsHow p{
-        margin: 1em 6em 0em 0em;
+        margin: 1em 6em 0 0;
         font-size: 1.2em;
     }
 
@@ -142,15 +139,15 @@ Contatti
 ******************************************************************/
     #notFoundContainer {
         width: 100%;
-        padding: 2em 0% 2em 0%;
-        margin: 0%;
+        padding: 2em 0;
+        margin: 0;
     }
     #notFoundContainer img {
         width: 6em;
         padding: 3em 8em;
     }
     #notFoundContainer p {
-        margin: 2em 6em 0em 0em;
+        margin: 2em 6em 0 0;
         font-size: 1.2em;
     }
     #notFoundBack {

@@ -6,7 +6,7 @@
 
 /***** General *****/
     .pageTitle {
-        margin: 0em;
+        margin: 0;
         padding-top: 5em;
     }
     .pageTitle h1 {
@@ -52,8 +52,8 @@
         top: 0;
         right: 0;
         line-height: 0.6em;
-        padding: 0.45em 0.45em 0.45em 0.45em;
-        color: #FFFFFF;
+        padding: 0.45em;
+        color: #FFF;
         border: 0;
         font-size: 3em;
         font-weight: bold;
@@ -63,7 +63,7 @@
     #headerDropMenu {
         font-weight: bold;
         font-size: 2em;
-        background: #EEEEEE;
+        background: #EEE;
         text-align: center;
         position: fixed;
         width: 100%;
@@ -125,7 +125,7 @@
         position: static;
     }
     .homeTitles {
-        margin-bottom: 0em;
+        margin-bottom: 0;
         width: 60%;
         margin-left: 20%;
     }
@@ -140,7 +140,7 @@
     }
     #homeImgVetrina {
         padding-top: 2em;
-        padding-bottom: 0em;
+        padding-bottom: 0;
     }
     .homeInfo h1 {
         font-size: 2em;
@@ -170,8 +170,8 @@
     }
     .configConfigurazioniTop h1 {
         font-size: 2.5em;
-        padding-top: 0em;
-        padding-bottom: 0em;
+        padding-top: 0;
+        padding-bottom: 0;
     }
     .configConfigurazioniTop p {
         font-size: 1.5em;
@@ -179,7 +179,7 @@
     .configDescription {
         float: none;
         clear: none;
-        margin: 0%;
+        margin:0;
         width: 90%;
     }
     .configSpecification h1 {
@@ -199,12 +199,12 @@
         font-size: 0.9em;
     }
     #configTitle {
-        margin-top: 0em;
+        margin-top: 0;
     }
     #configTitle h1 {
         font-size: 2em;
         padding-top: 3em;
-        margin-top: 0em;
+        margin-top: 0;
     }
     .configImg{
         width: 100%;
@@ -227,7 +227,7 @@
         background-color: #B71C1C;
     }
     .configTornaSuMobile a {
-        color: #FFFFFF;
+        color: #FFF;
         font-size: 1em;
         text-align: right;
         text-decoration: underline;
@@ -252,7 +252,7 @@
         width: 90%;
         float: none;
         margin-left: 5%;
-        padding: 0em;
+        padding: 0;
     }
 
 /***** Menù Verticale *****/
@@ -267,13 +267,7 @@
         margin-left: 2.3%;
         height: 400px;
     }
-    .catalogInsideProductDescription p {
-        font-size: 0.75em;
-    }
-    .catalogInsideProductAvailability h3 {
-        font-size: 0.75em;
-    }
-    .catalogInsideProductPrice h3 {
+    .catalogInsideProductDescription p, .catalogInsideProductAvailability h3, .catalogInsideProductPrice h3 {
         font-size: 0.75em;
     }
 
@@ -291,10 +285,10 @@
     }
     #contactsWho img, #contactsWhere img, #contactsHow img{
         width: 6em;
-        padding: 1em 8em 1em 8em;
+        padding: 1em 8em;
     }
     #contactsWho p, #contactsWhere p, #contactsHow p{
-        margin: 1em 6em 0em 0em;
+        margin: 1em 6em 0 0;
     }
 }
 
@@ -303,11 +297,9 @@
     #notFoundContainer img{
         padding: 1.5em 7em 5em 8em;
     }
-
     #notFoundContainer p {
         margin: 2em;
     }
-
     #notFoundBack {
         margin-top: 1em;
     }
@@ -413,7 +405,7 @@ Media Query Mobile
     .configDescription {
         float: none;
         clear: none;
-        margin: 0%;
+        margin:0;
         width: 80%;
     }
     .configSpecification h1 {
