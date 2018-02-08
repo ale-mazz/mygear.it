@@ -152,12 +152,8 @@ sendRegisterRequest = function () {
                 message = 'Registrazione fallita. Controlla i campi e riprova.'
             }
 
-            var alertBox = createAlert('register', alertType, message);
-
-
             if (alertType && messageText) {
-                var registerForm = $('#regLoginForm');
-                registerForm.find('.messages').html(alertBox);
+                $('#messageRegistration').html("<div>" + messageText + "</div>").delay(3000).fadeOut(3000);
 
                 if (errorCode === '') {
                     registerForm[0].reset();

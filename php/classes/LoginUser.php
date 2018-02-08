@@ -43,7 +43,7 @@ class loginUser
 
                 $sql = "SELECT user_username, user_email, user_password_hash, facebook, twitter, instagram
                         FROM users
-                        WHERE user_username = '$user_username' OR user_email = '$user_username'";
+                        WHERE user_username = '$user_username'";
                 $result_of_login_check = $this->db_connection->query($sql);
 
                 if ($result_of_login_check->num_rows == 1) {
@@ -51,15 +51,14 @@ class loginUser
                     $result_row = $result_of_login_check->fetch_object();
 
 
-                    if (password_verify($password, $result_row->user_password_hash)) {
+                    if (hash('sha512', $password) == $result_row->user_password_hash) {
 
                         $_SESSION['user_username'] = $result_row->user_username;
                         $_SESSION['user_email'] = $result_row->user_email;
-                        $_SESSION['user_login_status'] = 1;
                         $_SESSION['facebook'] = $result_row->facebook;
                         $_SESSION['twitter'] = $result_row->twitter;
                         $_SESSION['instagram'] = $result_row->instagram;
-
+                        $_SESSION['user_login_status'] = 1;
                     } else {
                         $this->errors[] = "Password errata, riprova.";
                     }
