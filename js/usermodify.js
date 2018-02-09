@@ -28,7 +28,10 @@ userModifyRequest = function () {
                 var messageText = data.message;
             }
             if (alertType && messageText) {
-                $('#messageUser').html("<div>" + messageText + "</div>").delay(3000).fadeOut(3000);
+                $('#messageUser').append("<div id='errorMessage'>" + messageText + "</div>");
+                setTimeout(function () {
+                    $('#errorMessage').remove();
+                }, 3000);
             }
         }
     });
@@ -56,7 +59,10 @@ passwordModifyRequest = function () {
                 messageText = data.message;
             }
             if (alertType && messageText) {
-                $('#messagePassword').html("<div>" + messageText + "</div>").delay(3000).fadeOut(3000);
+                $('#messagePassword').append("<div id='errorMessage'>" + messageText + "</div>");
+                setTimeout(function () {
+                    $('#errorMessage').remove();
+                }, 3000);
             }
         }
     });
@@ -85,9 +91,11 @@ contactModifyRequest = function () {
 
                 messageText = data.message;
             }
-
             if (alertType && messageText) {
-                $('#messageContact').html("<div>" + messageText + "</div>").delay(3000).fadeOut(3000);
+                $('#messageContact').append("<div id='errorMessage'>" + messageText + "</div>");
+                setTimeout(function () {
+                    $('#errorMessage').remove();
+                }, 3000);
             }
         }
     });

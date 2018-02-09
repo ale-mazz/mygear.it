@@ -514,6 +514,13 @@ Media Query (solo desktop)
         -moz-transform: scale(1.2);
     }
 
+    .hoverScaleBlack:hover {
+        -webkit-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+        -moz-transform: scale(1.2);
+        background-color: #212121;
+    }
+
 /***** Header *****/
     #headerHamburger {
         display: none;
@@ -562,14 +569,15 @@ Menù Verticale (catalogo, categorie)
     font-size: 0.9em;
 }
 
-    /*#catalogVerticalMenu li:hover {
-        background-color: #212121;
-    }*/
 #catalogContainerVerticalMenu {
     width: 20%;
     height: 85em;
     float: left;
 }
+
+    .notClickable {
+        text-decoration: none;
+    }
 
 /***** Bordo orizzontale (home, contatti, 404) *****/
     #homeTitleBottom:after {
