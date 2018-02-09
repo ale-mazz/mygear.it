@@ -19,6 +19,11 @@ body {
     font-size: 2em;
     text-align: center;
 }
+.pageShortspaceFooter {
+        position: absolute;
+        bottom: 0px;
+        width: 100%;
+}
 
 /********************************************************************************
 Header & Menu
@@ -658,14 +663,6 @@ Extra Media Query
         width: 4em;
         overflow: hidden;
         text-overflow: ellipsis;
-    }
-}
-
-@media only screen and (min-width: 956px) {
-    .pageShortspaceFooter {
-        position: absolute;
-        bottom: 0px;
-        width: 100%;
     }
 }
 
