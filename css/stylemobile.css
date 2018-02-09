@@ -489,3 +489,12 @@ Media Query Mobile
         margin-top: 5em;
     }
 }
+
+/****** Extra Media Query ******/
+@media only screen and (max-width: 400px) {
+    #headerButtonLogin {
+        width: 4em;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+}

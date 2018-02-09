@@ -656,9 +656,7 @@ Menù Verticale (catalogo, categorie)
     }
 }
 
-/******
-Extra Media Query
- */
+/****** Extra Media Query ******/
 @media only screen and (min-width: 955px) and (max-width: 1020px) {
     #headerButtonLogin {
         width: 4.2em;
@@ -667,13 +665,6 @@ Extra Media Query
     }
 }
 
-@media only screen and (max-width: 400px) {
-    #headerButtonLogin {
-        width: 4em;
-        overflow: hidden;
-        text-overflow: ellipsis;
-    }
-}
 @media only screen and (min-width: 1440px) {
     #footer {
         height: 8em;
