@@ -98,7 +98,7 @@ fieldset {
     text-align: center;
 }
 
-#userLogoutButton: hover{
+#userLogoutButton:hover{
     background-color: #D32F2F;
 }
 
@@ -181,15 +181,15 @@ fieldset {
 @media only screen and (min-width: 956px) {
 
     #userLogoutButton:hover {
-        -webkit-transform: scale(1.2);
-        -ms-transform: scale(1.2);
-        -moz-transform: scale(1.2);
+        -webkit-transform:scale(1.2);
+        -ms-transform:scale(1.2);
+        -moz-transform:scale(1.2);
     }
 
     .userSubmitButton:hover {
-        -webkit-transform: scale(1.2);
-        -ms-transform: scale(1.2);
-        -moz-transform: scale(1.2);
+        -webkit-transform:scale(1.2);
+        -ms-transform:scale(1.2);
+        -moz-transform:scale(1.2);
     }
 
 }
