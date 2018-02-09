@@ -668,3 +668,15 @@ Extra Media Query
         width: 100%;
     }
 }
+
+@media only screen and (min-width: 1970px) {
+    .catalogContainerOut {
+        height: 20em;
+    }
+    .catalogInsideProduct {
+        height: 35em;
+    }
+    #catalogContainerVerticalMenu {
+        height: 92em;
+    }
+}
