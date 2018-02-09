@@ -19,11 +19,6 @@ body {
     font-size: 2em;
     text-align: center;
 }
-.pageShortspaceFooter {
-        position: absolute;
-        bottom: 0px;
-        width: 100%;
-}
 
 /********************************************************************************
 Header & Menu
@@ -520,6 +515,11 @@ Media Query (solo desktop)
         -moz-transform: scale(1.2);
         background-color: #212121;
     }
+    .spaceFooter {
+        position: absolute;
+        bottom: 0px;
+        width: 100%;
+    }
 
 /***** Header *****/
     #headerHamburger {
@@ -656,9 +656,7 @@ Menù Verticale (catalogo, categorie)
     }
 }
 
-/******
-Extra Media Query
- */
+/****** Extra Media Query ******/
 @media only screen and (min-width: 955px) and (max-width: 1020px) {
     #headerButtonLogin {
         width: 4.2em;
@@ -667,30 +665,15 @@ Extra Media Query
     }
 }
 
-@media only screen and (max-width: 400px) {
-    #headerButtonLogin {
-        width: 4em;
-        overflow: hidden;
-        text-overflow: ellipsis;
-    }
-}
 @media only screen and (min-width: 1440px) {
     #footer {
         height: 8em;
     }
 }
 
-@media only screen and (min-width: 1440px) (max-width: 1969px) {
-    .spaceFooter {
-        position: absolute;
-        bottom: 0px;
-        width: 100%;
-    }
-}
-
 @media only screen and (min-width: 1970px) {
     #footer {
-        height: 10em;
+        height: 9em;
     }
     .catalogContainerOut {
         height: 20em;

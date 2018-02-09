@@ -16,10 +16,6 @@
         position: inherit;
     }
 
-    .pageShortspaceFooter {
-        position: static;
-    }
-
 /***** Header *****/
     header {
         width: 100%;
@@ -306,15 +302,12 @@
 }
 
 /***** Pagina 404 *****/
-
     #notFoundContainer img{
         padding: 1.5em 7em 5em 8em;
     }
-
     #notFoundContainer p {
         margin: 2em;
     }
-
     #notFoundBack {
         margin-top: 1em;
     }
@@ -491,5 +484,14 @@ Media Query Mobile
     }
     #notFoundBack {
         margin-top: 5em;
+    }
+}
+
+/****** Extra Media Query ******/
+@media only screen and (max-width: 400px) {
+    #headerButtonLogin {
+        width: 4em;
+        overflow: hidden;
+        text-overflow: ellipsis;
     }
 }
