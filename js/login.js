@@ -24,7 +24,10 @@ sendLoginRequest = function () {
                 var messageText = data.message;
 
                 if (alertType && messageText) {
-                    $('#messageUserdata').html("<div>" + messageText + "</div>").delay(3000).fadeOut(3000);
+                    $('#messageUserdata').append("<div id='loginMessage'>" + messageText + "</div>");
+                    setTimeout(function () {
+                        $('#loginMessage').remove();
+                    }, 3000);
                 }
 
             }
