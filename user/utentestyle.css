@@ -1,7 +1,6 @@
 #userContainer{
-    background-color: #FFFFFF;
-    padding-top: 0.5em;
-    padding-bottom: 0.5em;
+    background-color: #FFF;
+    padding: 0.5em 0;
 }
 
 #userContainer h1 {
@@ -40,7 +39,7 @@ fieldset {
     clear: left;
     width: 30%;
     font-size: 1.2896em;
-    color: #000000;
+    color: #000;
 }
 
 .userInputField {
@@ -48,11 +47,11 @@ fieldset {
     width: 70%;
     margin-bottom: 1em;
     padding: 0.2em;;
-    background-color: #FFFFFF;
-    border: 1px solid #000000;
+    background-color: #FFF;
+    border: 1px solid #000;
     box-sizing: border-box;
     font-size: 1.2em;
-    color: #000000;
+    color: #000;
 }
 .userSubmitButton {
     padding: 0.5em;
@@ -62,7 +61,7 @@ fieldset {
     font-size: 1.2896em;
     border: none;
     background-color: #D32F2F;
-    color: #FFFFFF;
+    color: #FFF;
     text-transform: uppercase;
     margin-top: 0.5em;
 }
@@ -78,17 +77,17 @@ fieldset {
     clear: left;
     width: 100%;
     font-size: 1.2896em;
-    color: #000000;
+    color: #000;
 }
 
 #userLogoutButton {
-    padding: 0.5em 0.3em 0.5em 0.3em;
+    padding: 0.5em 0.3em;
     display: block;
     cursor: pointer;
     font-size: 1.2896em;
     border: none;
     background-color: #D32F2F;
-    color: #FFFFFF;
+    color: #FFF;
     text-transform: uppercase;
     float: right;
     clear: left;
@@ -101,7 +100,7 @@ fieldset {
 }
 
 #userLogoutButton a{
-    color: white;
+    color: #FFF;
     text-decoration: none;
 }
 
@@ -161,11 +160,7 @@ fieldset {
         font-size: 1.2em;
     }
 
-    .userInputField {
-        font-size: 1em;
-    }
-
-    .userSubmitButton {
+    .userInputField, .userSubmitButton {
         font-size: 1em;
     }
 
@@ -179,13 +174,10 @@ fieldset {
 
 @media only screen and (min-width: 956px) {
 
-    #userLogoutButton:hover {
-        -webkit-transform:scale(1.2);
-        -ms-transform:scale(1.2);
-        -moz-transform:scale(1.2);
-    }
-
-    .userSubmitButton:hover {
+/****************************
+    si può aggiungere classe hoverScale
+*********************/
+    #userLogoutButton:hover, .userSubmitButton:hover {
         -webkit-transform:scale(1.2);
         -ms-transform:scale(1.2);
         -moz-transform:scale(1.2);
@@ -193,11 +185,9 @@ fieldset {
 
 }
 
-
 .messages {
-    width: 10%;
+    width: 30%;
     margin-top: 1em;
-    padding: 0.5em;
     background-color: #000;
     color: #FFF;
 }

@@ -1,19 +1,16 @@
 #regLoginForm {
-    background-color: #FFFFFF;
+    background-color: #FFF;
     margin: 3em 10em 10em 10em;
 }
-
 #regLoginTitle h1 {
     background-color: #D32F2F;
     text-align: center;
-    color: #FFFFFF;
+    color: #FFF;
     font-weight: bold;
     font-size: 1.6em;
-    margin-bottom: 2em;
-    margin-top: 2em;
-    padding: 1em 1em 1em 1em;
+    margin: 2em 0;
+    padding: 1em;
 }
-
 #accountTitle h2 {
     font-size: 2.7em;
     text-align: center;
@@ -29,17 +26,15 @@ input[type=email],
 input[type=password] {
     width: 100%;
     font-size: 1em;
-    margin-bottom: 0.6em;
-    margin-top: 0.6em;
-    padding: 0.5em 0.5em 0.5em 0.5em;
+    margin: 0.6em 0;
+    padding: 0.5em;
     display: inline-block;
     border: 1px solid #ccc;
-
 }
 
 #submitButton {
     background-color: #D32F2F;
-    color: #FFFFFF;
+    color: #FFF;
     padding: 0.5em;
     border: none;
     cursor: pointer;
@@ -65,23 +60,10 @@ fieldset {
     border: 0;
 }
 
-.close{
-    background-color: transparent;
-    border: none;
-    color: #FFFFFF;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 1.5em;
-    padding: 0;
-    margin-right: 0.5em;
-    cursor: pointer;
-}
-
 #askRegLog {
 
     margin-left: 30%;
-    margin-top: 0em;
+    margin-top:0;
     width: 40%;
     text-align: center;
 }
@@ -107,13 +89,13 @@ fieldset {
     }
 
     #regLoginTitle h1 {
-        margin-top: 0em;
+        margin-top:0;
         font-size: 1.6em;
     }
 
     #regLoginform {
-        margin-top: 0em;
-        padding-top: 0em;
+        margin-top:0;
+        padding-top:0;
 
     }
 
@@ -160,11 +142,6 @@ fieldset {
         margin-right: 5%;
     }
 
-    #accountTitle h2 {
-
-        font-size: 1.2em;
-    }
-
     #regLoginTitle h1 {
         font-size: 0.8em;
     }
@@ -185,26 +162,16 @@ fieldset {
         margin-right: 5%;
     }
 
-    #submitButton {
+    #accountTitle h2, #submitButton, #askRegLog, #askRegLog a {
         font-size: 1.2em;
     }
-
-    #askRegLog {
-        padding-top: 2em;
-    }
-
-    #askRegLog a {
-        font-size: 1.2em;
-    }
-
 }
 
+/****** EXTRA MEDIA QUERY *****/
 @media only screen and (min-width: 956px) {
-
     #submitButton:hover {
-        -webkit-transform: scale(1.2);
-        -ms-transform: scale(1.2);
-        -moz-transform: scale(1.2);
+        -webkit-transform:scale(1.2);
+        -ms-transform:scale(1.2);
+        -moz-transform:scale(1.2);
     }
-
 }
