@@ -502,20 +502,6 @@ Pagina 404
 Media Query (solo desktop)
 ********************************************************************************/
 
-@media only screen and (min-width: 1350px) {
-    .spaceFooter {
-        position: absolute;
-        bottom: 0px;
-        width: 100%;
-    }
-}
-
-@media only screen and (min-width: 1440px) {
-    #footer {
-        height: 8em;
-    }
-}
-
 @media only screen and (min-width: 956px) {
 /***** Generale ****/
     .hoverScale:hover{
@@ -675,6 +661,20 @@ Menù Verticale (catalogo, categorie)
     }
 }
 
+@media only screen and (min-width: 1350px) {
+    .spaceFooter {
+        position: absolute;
+        bottom: 0px;
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    #footer {
+        height: 8em;
+    }
+}
+
 @media only screen and (min-width: 1970px) {
     #footer {
         height: 9em;
@@ -687,5 +687,13 @@ Menù Verticale (catalogo, categorie)
     }
     #catalogContainerVerticalMenu {
         height: 92em;
+    }
+}
+
+@media only screen and (min-width: 2100px) {
+    .loginspaceFooter {
+        position: absolute;
+        bottom: 0px;
+        width: 100%;
     }
 }
