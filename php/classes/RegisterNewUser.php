@@ -82,9 +82,9 @@ class RegisterNewUser
                     $query_new_user_insert = $this->db_connection->query($sql);
 
                     if ($query_new_user_insert) {
-                        $this->messages[] = "Il tuo account è stato creato correttamente.";
+                        $this->messages[] = "Grazie per esserti registrato!";
                     } else {
-                        $this->errors[] = "Registrazione fallita, controlla i campi e riprova.";
+                        $this->errors[] = "Uno o più campi sono vuoti o incompleti.";
                     }
                 }
             } else {
