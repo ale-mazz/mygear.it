@@ -194,9 +194,10 @@ fieldset {
 }
 
 
-.errorMessage {
+.messages {
     width: 10%;
-    padding: 0.5;
+    margin-top: 1em;
+    padding: 0.5em;
     background-color: #000;
     color: #FFF;
 }

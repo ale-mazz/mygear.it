@@ -501,6 +501,21 @@ Pagina 404
 /********************************************************************************
 Media Query (solo desktop)
 ********************************************************************************/
+
+@media only screen and (min-width: 1350px) {
+    .spaceFooter {
+        position: absolute;
+        bottom: 0px;
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    #footer {
+        height: 8em;
+    }
+}
+
 @media only screen and (min-width: 956px) {
 /***** Generale ****/
     .hoverScale:hover{
@@ -514,11 +529,6 @@ Media Query (solo desktop)
         -ms-transform: scale(1.2);
         -moz-transform: scale(1.2);
         background-color: #212121;
-    }
-    .spaceFooter {
-        position: absolute;
-        bottom: 0px;
-        width: 100%;
     }
 
 /***** Header *****/
@@ -662,12 +672,6 @@ Menù Verticale (catalogo, categorie)
         width: 4.2em;
         overflow: hidden;
         text-overflow: ellipsis;
-    }
-}
-
-@media only screen and (min-width: 1440px) {
-    #footer {
-        height: 8em;
     }
 }
 
