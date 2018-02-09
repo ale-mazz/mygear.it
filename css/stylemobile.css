@@ -6,7 +6,7 @@
 
 /***** General *****/
     .pageTitle {
-        margin: 0;
+        margin: 0em;
         padding-top: 5em;
     }
     .pageTitle h1 {
@@ -40,7 +40,7 @@
         padding-top: 0.7em;
     }
     #headerButtonLogin {
-        font-size: 1.4em;
+        font-size: 1.5em;
         padding: 0.5em 0.5em 0.5em 0.5em;
         margin-top: 0.4em;
         margin-right: 5em;
@@ -52,8 +52,8 @@
         top: 0;
         right: 0;
         line-height: 0.6em;
-        padding: 0.45em;
-        color: #FFF;
+        padding: 0.45em 0.45em 0.45em 0.45em;
+        color: #FFFFFF;
         border: 0;
         font-size: 3em;
         font-weight: bold;
@@ -63,7 +63,7 @@
     #headerDropMenu {
         font-weight: bold;
         font-size: 2em;
-        background: #EEE;
+        background: #EEEEEE;
         text-align: center;
         position: fixed;
         width: 100%;
@@ -122,10 +122,9 @@
         width: 100%;
         margin: 0;
         margin-top: 2em;
-        position: static;
     }
     .homeTitles {
-        margin-bottom: 0;
+        margin-bottom: 0em;
         width: 60%;
         margin-left: 20%;
     }
@@ -140,7 +139,7 @@
     }
     #homeImgVetrina {
         padding-top: 2em;
-        padding-bottom: 0;
+        padding-bottom: 0em;
     }
     .homeInfo h1 {
         font-size: 2em;
@@ -148,9 +147,7 @@
     .homeInfo h2 {
         font-size: 1.8em;
     }
-    #homeTitleBottom {
-        position: inherit;
-    }
+
     #homeTitleBottom h1 {
         font-size: 3em;
     }
@@ -170,8 +167,8 @@
     }
     .configConfigurazioniTop h1 {
         font-size: 2.5em;
-        padding-top: 0;
-        padding-bottom: 0;
+        padding-top: 0em;
+        padding-bottom: 0em;
     }
     .configConfigurazioniTop p {
         font-size: 1.5em;
@@ -179,7 +176,7 @@
     .configDescription {
         float: none;
         clear: none;
-        margin:0;
+        margin: 0%;
         width: 90%;
     }
     .configSpecification h1 {
@@ -199,12 +196,12 @@
         font-size: 0.9em;
     }
     #configTitle {
-        margin-top: 0;
+        margin-top: 0em;
     }
     #configTitle h1 {
         font-size: 2em;
         padding-top: 3em;
-        margin-top: 0;
+        margin-top: 0em;
     }
     .configImg{
         width: 100%;
@@ -227,7 +224,7 @@
         background-color: #B71C1C;
     }
     .configTornaSuMobile a {
-        color: #FFF;
+        color: #FFFFFF;
         font-size: 1em;
         text-align: right;
         text-decoration: underline;
@@ -252,7 +249,7 @@
         width: 90%;
         float: none;
         margin-left: 5%;
-        padding: 0;
+        padding: 0em;
     }
 
 /***** Menù Verticale *****/
@@ -267,7 +264,13 @@
         margin-left: 2.3%;
         height: 400px;
     }
-    .catalogInsideProductDescription p, .catalogInsideProductAvailability h3, .catalogInsideProductPrice h3 {
+    .catalogInsideProductDescription p {
+        font-size: 0.75em;
+    }
+    .catalogInsideProductAvailability h3 {
+        font-size: 0.75em;
+    }
+    .catalogInsideProductPrice h3 {
         font-size: 0.75em;
     }
 
@@ -285,10 +288,10 @@
     }
     #contactsWho img, #contactsWhere img, #contactsHow img{
         width: 6em;
-        padding: 1em 8em;
+        padding: 1em 8em 1em 8em;
     }
     #contactsWho p, #contactsWhere p, #contactsHow p{
-        margin: 1em 6em 0 0;
+        margin: 1em 6em 0em 0em;
     }
 }
 
@@ -297,9 +300,11 @@
     #notFoundContainer img{
         padding: 1.5em 7em 5em 8em;
     }
+
     #notFoundContainer p {
         margin: 2em;
     }
+
     #notFoundBack {
         margin-top: 1em;
     }
@@ -322,8 +327,9 @@ Media Query Mobile
         height: 3.8em;
     }
     .headerLogo {
-        height: 2.4em;
-        padding-top: 0.8em;
+        width: 14em;
+        height: auto;
+        padding-top: 0.7em;
         padding-left: 1em;
     }
     #headerButtonLogin {
@@ -405,7 +411,7 @@ Media Query Mobile
     .configDescription {
         float: none;
         clear: none;
-        margin:0;
+        margin: 0%;
         width: 80%;
     }
     .configSpecification h1 {
