@@ -666,6 +666,11 @@ Extra Media Query
         text-overflow: ellipsis;
     }
 }
+@media only screen and (min-width: 1440px) {
+    #footer {
+        height: 8em;
+    }
+}
 
 @media only screen and (min-width: 1440px) (max-width: 1969px) {
     .spaceFooter {
@@ -676,6 +681,9 @@ Extra Media Query
 }
 
 @media only screen and (min-width: 1970px) {
+    #footer {
+        height: 10em;
+    }
     .catalogContainerOut {
         height: 20em;
     }
