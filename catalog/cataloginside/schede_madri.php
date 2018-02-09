@@ -56,18 +56,18 @@ $page=str_replace('$rtcat$','',$page);
 
 //Vertical menu scale
 
-$page = str_replace('$hvali$', 'hoverScale', $page);
-$page = str_replace('$hvcase$', 'hoverScale', $page);
-$page = str_replace('$hvcpu$', 'hoverScale', $page);
-$page = str_replace('$hvcuffie$', 'hoverScale', $page);
-$page = str_replace('$hvmi$', 'hoverScale', $page);
-$page = str_replace('$hvmr$', 'hoverScale', $page);
-$page = str_replace('$hvmo$', 'hoverScale', $page);
-$page = str_replace('$hvmt$', 'hoverScale', $page);
-$page = str_replace('$hvraf$', 'hoverScale', $page);
-$page = str_replace('$hvsa$', 'hoverScale', $page);
-$page = str_replace('$hvsm$', '', $page);
-$page = str_replace('$hvsv$', 'hoverScale', $page);
+$page = str_replace('$hvali$', 'hoverScaleBlack', $page);
+$page = str_replace('$hvcase$', 'hoverScaleBlack', $page);
+$page = str_replace('$hvcpu$', 'hoverScaleBlack', $page);
+$page = str_replace('$hvcuffie$', 'hoverScaleBlack', $page);
+$page = str_replace('$hvmi$', 'hoverScaleBlack', $page);
+$page = str_replace('$hvmr$', 'hoverScaleBlack', $page);
+$page = str_replace('$hvmo$', 'hoverScaleBlack', $page);
+$page = str_replace('$hvmt$', 'hoverScaleBlack', $page);
+$page = str_replace('$hvraf$', 'hoverScaleBlack', $page);
+$page = str_replace('$hvsa$', 'hoverScaleBlack', $page);
+$page = str_replace('$hvsm$', 'notClickable', $page);
+$page = str_replace('$hvsv$', 'hoverScaleBlack', $page);
 
 //
 
