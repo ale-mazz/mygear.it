@@ -16,6 +16,10 @@
         position: inherit;
     }
 
+    .pageShortspaceFooter {
+        position: static;
+    }
+
 /***** Header *****/
     header {
         width: 100%;
@@ -108,6 +112,7 @@
         margin-top: 0.5em;
     }
 
+
 /***** Home *****/
     #homeBanner img {
         margin-top: 3.8em;
@@ -136,6 +141,7 @@
     .homeContainersIn {
         margin: 0;
         width: 100%;
+        position: static;
     }
     #homeImgVetrina {
         padding-top: 2em;
@@ -146,6 +152,10 @@
     }
     .homeInfo h2 {
         font-size: 1.8em;
+    }
+
+    #homeTitleBottom {
+        position: static;
     }
 
     #homeTitleBottom h1 {
@@ -387,11 +397,9 @@ Media Query Mobile
     .homeContainersIn {
         margin-left: 0;
         width: 100%;
-        position: static;
     }
     #homeTitleBottom {
         font-size: 0.7em;
-        position: static;
     }
 
 /***** Configurazioni *****/
