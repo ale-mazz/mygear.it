@@ -24,6 +24,7 @@ sendLoginRequest = function () {
                 var messageText = data.message;
 
                 if (alertType && messageText) {
+                    document.getElementById("regLoginForm").reset();
                     $('#messageUserdata').append("<div id='loginMessage'>" + messageText + "</div>");
                     setTimeout(function () {
                         $('#loginMessage').remove();

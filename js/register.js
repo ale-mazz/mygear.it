@@ -142,9 +142,7 @@ sendRegisterRequest = function () {
             //console.log(data);
 
             var alertType = data.type;
-
             var messageText = data.message;
-
             var errorCode = data.errorCode;
             var message = 'Registrazione effettuata con successo. Grazie per esserti registrato!';
 
@@ -153,11 +151,11 @@ sendRegisterRequest = function () {
             }
 
             if (alertType && messageText) {
-                $('#messageRegistration').html("<div>" + messageText + "</div>").delay(3000).fadeOut(3000);
-
-                if (errorCode === '') {
-                    registerForm[0].reset();
-                }
+                document.getElementById("regLoginForm").reset();
+                $('#messageRegistration').append("<div id='regFailMessage'>" + messageText + "</div>");
+                setTimeout(function () {
+                    $('#regFailMessage').remove();
+                }, 3000);
             }
         }
     });
