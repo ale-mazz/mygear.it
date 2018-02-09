@@ -523,7 +523,6 @@ Media Query (solo desktop)
     }
 
 /***** Footer *********************/
-
     #footer {
         height: 6.5em;
     }
@@ -534,7 +533,7 @@ Menù Verticale (catalogo, categorie)
 #catalogVerticalMenu {
     width: 20%;
     float: left;
-    height: 85em;
+    height: 56em;
 }
 #catalogVerticalMenu ul {
     list-style-type: none;
@@ -559,6 +558,11 @@ Menù Verticale (catalogo, categorie)
 }
 #catalogVerticalMenu li:hover {
     background-color: #212121;
+}
+#catalogContainerVerticalMenu {
+    width: 20%;
+    height: 85em;
+    float: left;
 }
 
 /***** Bordo orizzontale (home, contatti, 404) *****/
@@ -662,5 +666,17 @@ Extra Media Query
         position: absolute;
         bottom: 0px;
         width: 100%;
+    }
+}
+
+@media only screen and (min-width: 1970px) {
+    .catalogContainerOut {
+        height: 20em;
+    }
+    .catalogInsideProduct {
+        height: 35em;
+    }
+    #catalogContainerVerticalMenu {
+        height: 92em;
     }
 }
