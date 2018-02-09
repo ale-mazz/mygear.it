@@ -51,7 +51,7 @@ input[type=password] {
     margin-top: 2em;
 }
 
-#loginMessage{
+#loginMessage, #regFailMessage {
     width: 40%;
     margin-top: 2em;
     margin-left: 30%;
@@ -65,19 +65,6 @@ fieldset {
     border: 0;
 }
 
-.alert{
-    padding: 0.5em 1em;
-    margin-top: 3em;
-    margin-left: 28%;
-    margin-bottom: 3em;
-    display: block;
-    font-size: 1.286em;
-    text-align: center;
-    opacity: 0.7;
-    color: #FFFFFF;
-    float: left;
-    width: 40%;
-}
 .close{
     background-color: transparent;
     border: none;
@@ -89,15 +76,6 @@ fieldset {
     padding: 0;
     margin-right: 0.5em;
     cursor: pointer;
-}
-.alert-dismissable{
-    margin-right: 2.500em;
-}
-.alert-error{
-    background-color: #880E4F;
-}
-.alert-success{
-    background-color: #1B5E20;
 }
 
 #askRegLog {
@@ -152,13 +130,6 @@ fieldset {
     .clearfix {
         width: 80%;
         margin-left: 10%;
-    }
-
-    .alert {
-        margin-left: 16%;
-        width: 60%;
-        display: inline-block;
-        position: relative;
     }
 
     #askRegLog {
@@ -224,12 +195,6 @@ fieldset {
 
     #askRegLog a {
         font-size: 1.2em;
-    }
-
-    .alert {
-        width: 70%;
-        margin-left: 10%;
-        font-size: 0.8em;
     }
 
 }
