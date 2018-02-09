@@ -54,6 +54,23 @@ $page=str_replace('$ccat$','selected', $page);
 $page=str_replace('$ccont$','hover', $page);
 $page=str_replace('$rtcat$','',$page);
 
+//Vertical menu scale
+
+$page = str_replace('$hvali$', 'hoverScale', $page);
+$page = str_replace('$hvcase$', 'hoverScale', $page);
+$page = str_replace('$hvcpu$', 'hoverScale', $page);
+$page = str_replace('$hvcuffie$', 'hoverScale', $page);
+$page = str_replace('$hvmi$', 'hoverScale', $page);
+$page = str_replace('$hvmr$', 'hoverScale', $page);
+$page = str_replace('$hvmo$', '', $page);
+$page = str_replace('$hvmt$', 'hoverScale', $page);
+$page = str_replace('$hvraf$', 'hoverScale', $page);
+$page = str_replace('$hvsa$', 'hoverScale', $page);
+$page = str_replace('$hvsm$', 'hoverScale', $page);
+$page = str_replace('$hvsv$', 'hoverScale', $page);
+
+//
+
 $login = "ACCEDI";
 $user = "../../user/";
 if (isset($_SESSION['user_username'])) {

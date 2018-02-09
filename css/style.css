@@ -556,9 +556,10 @@ Menù Verticale (catalogo, categorie)
     text-decoration: underline;
     font-size: 0.9em;
 }
-#catalogVerticalMenu li:hover {
-    background-color: #212121;
-}
+
+    /*#catalogVerticalMenu li:hover {
+        background-color: #212121;
+    }*/
 #catalogContainerVerticalMenu {
     width: 20%;
     height: 85em;
