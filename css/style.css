@@ -671,14 +671,6 @@ Menù Verticale (catalogo, categorie)
     }
 }
 
-@media only screen and (min-width: 1440px) (max-width: 1969px) {
-    .spaceFooter {
-        position: absolute;
-        bottom: 0px;
-        width: 100%;
-    }
-}
-
 @media only screen and (min-width: 1970px) {
     #footer {
         height: 9em;
