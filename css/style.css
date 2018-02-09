@@ -4,8 +4,8 @@
 Generale
 *******************************************************************************/
 * {
-    padding: 0em;
-    margin: 0em;
+    padding: 0;
+    margin: 0;
 }
 body {
     font-family: 'Lato';
@@ -13,8 +13,7 @@ body {
 }
 .pageTitle {
     width: 100%;
-    margin-top: 2em;
-    margin-bottom: 2em;
+    margin-top: 2em 0;
 }
 .pageTitle h1 {
     font-size: 2em;
@@ -41,7 +40,7 @@ header {
     list-style-type: none;
     font-size: 1em;
     float: right;
-    margin-top: 0em;
+    margin-top: 0;
 }
 .headerMenu li {
     float: left;
@@ -422,7 +421,7 @@ Contatti
 #contactsWho{
     height: 10em;
     text-align: center;
-    padding: 0em 7% 3em 7%;
+    padding: 0 7% 3em 7%;
 }
 #contactsWhere {
     float:left;
@@ -439,17 +438,17 @@ Contatti
 #contactsWho img{
     width: 5em;
     float: left;
-    padding: 0em 8em 0em 10em;
+    padding: 0 8em;
 }
 #contactsWhere img, #contactsHow img{
     float:left;
     clear: right;
     text-align: left;
     width: 5em;
-    padding: 0em 2em 0em 2em;
+    padding: 0 2em;
 }
 #contactsWho p {
-    margin: 1em 10em 0em 0em;
+    margin: 1em 10em 0 0;
 }
 #contactsWhere p{
     margin-top: 1em;
@@ -463,7 +462,7 @@ Contatti
     position: relative;
     float: left;
     width: 100%;
-    margin: 0.5em 0em 1em 0em;
+    margin: 0.5em 0 1em 0;
 }
 .titlesHorizontalBord h1{
     font-size: 2em;
@@ -477,12 +476,12 @@ Pagina 404
     padding-bottom: 0.5em;
     height: 10em;
     text-align: center;
-    padding: 0em 7% 5em 7%;
+    padding: 0 7% 5em 7%;
 }
 #notFoundContainer img{
     width: 7em;
     float: left;
-    padding: 0em 6em 1.5em 8em;
+    padding: 0 6em 1.5em 8em;
 }
 #notFoundContainer p {
     margin-top: 3em;
