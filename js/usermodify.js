@@ -1,6 +1,8 @@
 userOnLoad = function () {
     document.getElementById('userForm').onsubmit = userModifyRequest;
     document.getElementById('passwordForm').onsubmit = passwordModifyRequest;
+    document.getElementById('contactForm').onsubmit = contactModifyRequest;
+
 
 };
 
@@ -15,26 +17,23 @@ userModifyRequest = function () {
 
         success: function (data) {
             console.log(data);
-            if (data.type === "success") {
-                window.location = document.location;
-            } else {
+            if (data.type == 'success') {
+                messageText = 'Utente modificato con successo';
+                window.location = 'user.php';
+            }
+            else if (data.type == 'error') {
+
+                document.getElementById("userForm").reset();
                 var alertType = data.type;
                 var messageText = data.message;
-                var alertBox = createAlert('userForm', alertType, messageText);
-
-                if (alertType && messageText) {
-                    var userForm = $('#userForm');
-                    userForm.find('.messages').html(alertBox);
-                }
+            }
+            if (alertType && messageText) {
+                $('#messageUser').html("<div>" + messageText + "</div>").delay(3000).fadeOut(3000);
             }
         }
     });
     return false;
 };
-
-var oldPassword = document.getElementById("oldPassword");
-var newPassword = document.getElementById("newPassword");
-var repeatPassword = document.getElementById("repeatPassword");
 
 passwordModifyRequest = function () {
     var url = document.location + "/../../php/passwordmodify.php";
@@ -42,37 +41,55 @@ passwordModifyRequest = function () {
     $.ajax({
         type: "POST",
         url: url,
-        // Send the search text to the PHP script
-        data: {
-            'oldpassword': oldPassword.value,
-            'newpassword': newPassword.value,
-            'repeatpassword': repeatPassword.value
-        },
-        // Function called when the request has been successful
+        data: $(this).serialize(),
         success: function (data) {
-            // Get the type of alert box that must be created
+            console.log(data);
+
             var alertType = data.type;
             var messageText = '';
-            // Get the message that should be written in the alert box
             if (data.type == 'success') {
                 messageText = 'Password modificata';
+                document.getElementById("passwordForm").reset();
             }
             else if (data.type == 'error') {
-
+                document.getElementById("passwordForm").reset();
                 messageText = data.message;
             }
-            // Create the alert box, which will have two different classes:
-            // 1. 'alert-dismissable' which identifies that the popup should be possible to dismiss
-            // 2. Either 'alert-error' or 'alert-success' which identify respectively that the request has encountered
-            //    an error or it has been successful.
-            var alertBox = createAlert('passwordForm', alertType, messageText);
             if (alertType && messageText) {
-                // If both alert message and type has been passed successfully than show the popup into the HTML page
-                var loginForm = $('#passwordForm');
-                loginForm.find('.messages').html(alertBox);
+                $('#messagePassword').html("<div>" + messageText + "</div>").delay(3000).fadeOut(3000);
             }
         }
     });
     return false;
 
+};
+
+contactModifyRequest = function () {
+    var url = document.location + "/../../php/contactmodify.php";
+
+    $.ajax({
+        type: "POST",
+        url: url,
+
+        data: $(this).serialize(),
+
+        success: function (data) {
+
+            var alertType = data.type;
+            var messageText = '';
+            if (data.type == 'success') {
+                messageText = 'Informazioni modificate';
+                window.location = 'user.php';
+            }
+            else if (data.type == 'error') {
+
+                messageText = data.message;
+            }
+
+            if (alertType && messageText) {
+                $('#messageContact').html("<div>" + messageText + "</div>").delay(3000).fadeOut(3000);
+            }
+        }
+    });
+    return false;
 };

@@ -19,19 +19,12 @@ sendLoginRequest = function () {
 
                 window.location = '../index.php';
             }
-
             else {
                 var alertType = data.type;
-
-
                 var messageText = data.message;
 
-
-                var alertBox = createAlert('login', alertType, messageText);
-
                 if (alertType && messageText) {
-                    var loginForm = $('#regLoginForm');
-                    loginForm.find('.messages').html(alertBox);
+                    $('#messageUserdata').html("<div>" + messageText + "</div>").delay(3000).fadeOut(3000);
                 }
 
             }

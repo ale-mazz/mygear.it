@@ -69,7 +69,7 @@ class RegisterNewUser
 
                 $user_password = $password;
 
-                $user_password_hash = password_hash($user_password, PASSWORD_DEFAULT);
+                $user_password_hash = hash('sha512', $user_password);
 
                 $sql = "SELECT * FROM users WHERE user_username = '$user_name' OR user_email = '$user_email'";
                 $query_check_user_name = $this->db_connection->query($sql);

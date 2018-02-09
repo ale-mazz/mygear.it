@@ -6,37 +6,42 @@ include_once('connection.php');
 
 // Get all POST variables
 
-if (!isset($_POST['username'])) {
-    die('failed.');
-}
-$username = $_POST['username'];
-$facebook = $_POST['facebook'];
-$twitter = $_POST['twitter'];
-$instagram = $_POST['instagram'];
+$username = $_SESSION['user_username'];
+
+// Ottengo valori dei parametri POST
+$facebook = isset($_POST['facebook']) ? $_POST['facebook'] : '';
+$twitter = isset($_POST['twitter']) ? $_POST['twitter'] : '';
+$instagram = isset($_POST['instagram']) ? $_POST['instagram'] : '';
 
 
-$success = setContact($facebook, $twitter, $instagram, $conn);
+// Ottengo valori dal database
+$facebook_database = $_SESSION['facebook'];
+$twitter_database = $_SESSION['twitter'];
+$instagram_database = $_SESSION['instagram'];
 
-$type = $success ? 'success' : 'error';
-$message = $success ? 'Informazioni modificate con successo' : 'Modifica non riuscita';
-$error = $success ? -1 : 0;
 
+// Calcolo i valori giusti
+$insert_facebook = strlen($facebook) > 0 ? $facebook : $facebook_database;
+$insert_twitter = strlen($twitter) > 0 ? $twitter : $twitter_database;
+$insert_instagram = strlen($instagram) > 0 ? $instagram : $instagram_database;
 
-function setContact($facebook, $twitter, $instagram, $conn)
-{
+$type = '';
+$message = '';
 
-    $sql = "UPDATE users SET facebook  = '$facebook' WHERE user_username = '$username' AND SET instagram = '$instagram' WHERE user_username = '$username' AND SET twitter = '$twitter' WHERE user_username = '$username'";
-    $success = $conn->query($sql);
-    // Tell if the query has been successful or not
-    if ($success) {
-        $_SESSION['facebook'] = $facebook;
-        $_SESSION['instagram'] = $instagram;
-        $_SESSION['twitter'] = $twitter;
+$sql = "UPDATE users SET facebook = '$insert_facebook', twitter ='$insert_twitter', instagram = '$insert_instagram' WHERE user_username = '$username'";
+$success = $conn->query($sql);
 
-    }
+// Tell if the query has been successful or not
+if ($success) {
+    $_SESSION['facebook'] = $insert_facebook;
+    $_SESSION['twitter'] = $insert_twitter;
+    $_SESSION['instagram'] = $insert_instagram;
 
-    return $success;
-
+    $type = 'success';
+    $message = 'Informazioni aggiornate';
+} else {
+    $type = 'error';
+    $message = 'Errore query';
 }
 
 $responseArray = array('type' => $type, 'message' => $message);
