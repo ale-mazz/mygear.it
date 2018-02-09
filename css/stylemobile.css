@@ -15,9 +15,6 @@
     .titlesHorizontalBord {
         position: inherit;
     }
-    .pageShortspaceFooter {
-        position: static;
-    }
 
 /***** Header *****/
     header {

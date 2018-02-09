@@ -19,11 +19,6 @@ body {
     font-size: 2em;
     text-align: center;
 }
-.pageShortspaceFooter {
-        position: absolute;
-        bottom: 0px;
-        width: 100%;
-}
 
 /********************************************************************************
 Header & Menu
@@ -520,6 +515,11 @@ Media Query (solo desktop)
         -moz-transform: scale(1.2);
         background-color: #212121;
     }
+    .spaceFooter {
+        position: absolute;
+        bottom: 0px;
+        width: 100%;
+    }
 
 /***** Header *****/
     #headerHamburger {
@@ -681,7 +681,7 @@ Menù Verticale (catalogo, categorie)
 
 @media only screen and (min-width: 1970px) {
     #footer {
-        height: 10em;
+        height: 9em;
     }
     .catalogContainerOut {
         height: 20em;
