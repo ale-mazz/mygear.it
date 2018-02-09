@@ -661,6 +661,14 @@ Extra Media Query
     }
 }
 
+@media only screen and (min-width: 956px) {
+    .pageShortspaceFooter {
+        position: absolute;
+        bottom: 0px;
+        width: 100%;
+    }
+}
+
 @media only screen and (min-width: 1440px) (max-width: 1969px) {
     .spaceFooter {
         position: absolute;
