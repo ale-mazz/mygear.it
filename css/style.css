@@ -747,12 +747,12 @@ Media Query (solo desktop)
         right: 20px;
         height: 3px;
         background-image: -webkit-gradient(linear, 0 0, 100% 0, from(#FFF), to(#9E9E9E), to (#FFF));
-        background-image: -webkit-linear-gradient(left, transparent, #9E9E9E, transparent); /* Chrome, Safari */
-        background-image: -moz-linear-gradient(left, transparent, #9E9E9E, transparent); /* Mozilla */
-        background-image: -o-linear-gradient(left, transparent, #9E9E9E, transparent); /* Opera */
-        -ms-filter: progid:DXImageTransform.Microsoft.Gradient(left, GradientType=0,StartColorStr=#9E9E9E,EndColorStr=transparent);/*Internet explorer 8*/
-        filter: progid:DXImageTransform.Microsoft.Gradient(left, GradientType=0,StartColorStr=#9E9E9E,EndColorStr=transparent); /*Internet explorer 5-7*/
-        background: -ms-linear-gradient(left, transparent, #9E9E9E, transparent); /*Internet explorer 10-11*/
+        background-image: -webkit-linear-gradient(left, #FFF, #9E9E9E, #FFF); /* Chrome, Safari */
+        background-image: -moz-linear-gradient(left, #FFF, #9E9E9E, #FFF); /* Mozilla */
+        background-image: -o-linear-gradient(left, #FFF, #9E9E9E, #FFF); /* Opera */
+        -ms-filter: progid:DXImageTransform.Microsoft.Gradient(left, GradientType=0,StartColorStr=#9E9E9E,EndColorStr=#FFF);/*Internet explorer 8*/
+        filter: progid:DXImageTransform.Microsoft.Gradient(left, GradientType=0,StartColorStr=#9E9E9E,EndColorStr=#FFF); /*Internet explorer 5-7*/
+        background: -ms-linear-gradient(left, #FFF, #9E9E9E, #FFF); /*Internet explorer 10-11*/
         }
     /********************************************************************************
         Bordo riquadri (home, catalogo, categorie)
@@ -767,23 +767,23 @@ Media Query (solo desktop)
         bottom: -2px;
         width: 2px;
         background-image: -webkit-gradient(linear, 0 100%, 0 0, from(#9E9E9E), to(#FFF));
-        background-image: -webkit-linear-gradient(#9E9E9E, transparent); /* Chrome, Safari */
-        background-image: -moz-linear-gradient(#9E9E9E, transparent); /* Mozilla */
-        background-image: -o-linear-gradient(#9E9E9E, transparent); /* Opera */
-        filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr=#9E9E9E,EndColorStr=transparent); /*Internet explorer 5-7*/
-        -ms-filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr=#9E9E9E,EndColorStr=transparent);/*Internet explorer 8*/
-        background: -ms-linear-gradient(#9E9E9E, transparent); /*Internet explorer 10-11*/
+        background-image: -webkit-linear-gradient(#9E9E9E, #FFF); /* Chrome, Safari */
+        background-image: -moz-linear-gradient(#9E9E9E, #FFF); /* Mozilla */
+        background-image: -o-linear-gradient(#9E9E9E, #FFF); /* Opera */
+        filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr=#9E9E9E,EndColorStr=#FFF); /*Internet explorer 5-7*/
+        -ms-filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr=#9E9E9E,EndColorStr=#FFF);/*Internet explorer 8*/
+        background: -ms-linear-gradient(#9E9E9E, #FFF); /*Internet explorer 10-11*/
     }
     .homeContainersIn:after, .catalogContainerIn:after, .catalogInsideProduct:after{
         left: -2px;
         height: 2px;
         background-image: -webkit-gradient(linear, 0 0, 100% 0, from(#FFF), to(#9E9E9E));
-        background-image: -webkit-linear-gradient(left, transparent, #9E9E9E); /* Chrome, Safari */
-        background-image: -moz-linear-gradient(left, transparent, #9E9E9E); /* Mozilla */
-        background-image: -o-linear-gradient(left, transparent, #9E9E9E); /* Opera */
-        filter: progid:DXImageTransform.Microsoft.Gradient(left, GradientType=0,StartColorStr=transparent,EndColorStr=#9E9E9E); /*Internet explorer 5-7*/
-        -ms-filter: progid:DXImageTransform.Microsoft.Gradient(left, GradientType=0,StartColorStr=transparent,EndColorStr=#9E9E9E); /*Internet explorer 8*/
-        background: -ms-linear-gradient(left, transparent, #9E9E9E); /*Internet explorer 10-11*/
+        background-image: -webkit-linear-gradient(left, #FFF, #9E9E9E); /* Chrome, Safari */
+        background-image: -moz-linear-gradient(left, #FFF, #9E9E9E); /* Mozilla */
+        background-image: -o-linear-gradient(left, #FFF, #9E9E9E); /* Opera */
+        filter: progid:DXImageTransform.Microsoft.Gradient(left, GradientType=0,StartColorStr=#FFF,EndColorStr=#9E9E9E); /*Internet explorer 5-7*/
+        -ms-filter: progid:DXImageTransform.Microsoft.Gradient(left, GradientType=0,StartColorStr=#FFF,EndColorStr=#9E9E9E); /*Internet explorer 8*/
+        background: -ms-linear-gradient(left, #FFF, #9E9E9E); /*Internet explorer 10-11*/
     }
 /********************************************************************************
 Configurazioni
