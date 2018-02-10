@@ -858,7 +858,7 @@ Extra Media Query
     }
 }
 
-@media only screen and (min-width: 2600px) {
+@media only screen and (min-width: 2800px) {
     .catalogspaceFooter {
         position: absolute;
         bottom: 0px;
