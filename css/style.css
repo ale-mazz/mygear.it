@@ -67,7 +67,7 @@ header {
     font-weight: 900;
 }
 .headerLogo {
-    top: 0px;
+    top: 0;
     height: 3em;
     width: auto;
     padding-left: 2em;
@@ -827,7 +827,7 @@ Extra Media Query
     }
     .SpaceFooter {
         position: absolute;
-        bottom: 0px;
+        bottom: 0;
         width: 100%;
     }
 }
@@ -850,7 +850,7 @@ Extra Media Query
 @media only screen and (min-width: 2100px) {
     .loginSpaceFooter {
         position: absolute;
-        bottom: 0px;
+        bottom: 0;
         width: 100%;
     }
 }
@@ -858,7 +858,7 @@ Extra Media Query
 @media only screen and (min-width: 2800px) {
     .catalogSpaceFooter {
         position: absolute;
-        bottom: 0px;
+        bottom: 0;
         width: 100%;
     }
 }
@@ -866,7 +866,7 @@ Extra Media Query
 @media only screen and (min-width: 7000px) {
     .catalogInsideSpaceFooter {
         position: absolute;
-        bottom: 0px;
+        bottom: 0;
         width: 100%;
     }
 }
