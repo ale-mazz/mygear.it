@@ -822,7 +822,7 @@ Extra Media Query
 }
 
 @media only screen and (min-width: 1500px) {
-    .spaceFooter {
+    .SpaceFooter {
         position: absolute;
         bottom: 0px;
         width: 100%;
@@ -851,7 +851,7 @@ Extra Media Query
 }
 
 @media only screen and (min-width: 2100px) {
-    .loginspaceFooter {
+    .loginSpaceFooter {
         position: absolute;
         bottom: 0px;
         width: 100%;
@@ -859,7 +859,15 @@ Extra Media Query
 }
 
 @media only screen and (min-width: 2800px) {
-    .catalogspaceFooter {
+    .catalogSpaceFooter {
+        position: absolute;
+        bottom: 0px;
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 7000px) {
+    .catalogInsideSpaceFooter {
         position: absolute;
         bottom: 0px;
         width: 100%;
