@@ -19,7 +19,6 @@ body {
     font-size: 2em;
     text-align: center;
 }
-
 /********************************************************************************
 Header & Menu
 *******************************************************************************/
@@ -89,7 +88,6 @@ header {
     margin-right: 0.4em;
     cursor: pointer;
 }
-
 /********************************************************************************
 Footer
 ********************************************************************************/
@@ -135,7 +133,6 @@ Footer
     width: 10%;
     margin-left: 10%;
 }
-
 /********************************************************************************
 Home
 ********************************************************************************/
@@ -246,7 +243,6 @@ Home
 #homeLoghi a {
     text-decoration: none;
 }
-
 /********************************************************************************
 Configurazioni
 ********************************************************************************/
@@ -344,7 +340,6 @@ Configurazioni
 .configContainerSections p {
     font-size: 0.7em;
 }
-
 /********************************************************************************
 Catalogo
 ********************************************************************************/
@@ -375,7 +370,6 @@ Catalogo
     width: 80%;
     margin: 0.5em 2.5% 0.5em 2.5%;
 }
-
 /********************************************************************************
 Categorie
 ********************************************************************************/
@@ -414,7 +408,6 @@ Categorie
     float: left;
     width: 50%;
 }
-
 /********************************************************************************
 Contatti
 ********************************************************************************/
@@ -450,8 +443,9 @@ Contatti
     margin-top: 0.3em;
     padding: 0 20%;
 }
-
-/***** Titoli sezioni (contatti, 404) *****/
+/********************************************************************************
+Titoli sezioni (contatti, 404)
+********************************************************************************/
 .titlesHorizontalBord {
     position: relative;
     float: left;
@@ -462,7 +456,6 @@ Contatti
     font-size: 2em;
     margin-bottom: 0.2em;
 }
-
 /********************************************************************************
 Pagina 404
 ********************************************************************************/
@@ -486,27 +479,189 @@ Pagina 404
 #notFoundBack a {
     color: #FFF;
 }
+/********************************************************************************
+Login & Registrazione
+********************************************************************************/
+#regLoginForm {
+    margin: 3em 10em 10em 10em;
+}
+#regLoginTitle h1 {
+    background-color: #D32F2F;
+    text-align: center;
+    color: #FFF;
+    font-weight: bold;
+    font-size: 1.6em;
+    margin: 2em 0;
+    padding: 1em;
+}
+#accountTitle h2 {
+    text-align: center;
+    font-size: 2.7em;
+}
+.labeltxt, .loginInputLabel {
+    text-align: center;
+    font-size: 1.7em;
+}
+input[type=text], input[type=email], input[type=password] {
+    width: 100%;
+    font-size: 1em;
+    margin: 0.6em 0;
+    padding: 0.5em;
+    display: inline-block;
+    border: 1px solid #ccc;
+}
+#loginMessage, #regFailMessage {
+    width: 30%;
+    margin: 3em 35% 0 35%;
+    background-color: #000;
+    padding: 0.5em;
+    text-align: center;
+    color: #FFF;
+}
+#submitButton {
+    background-color: #D32F2F;
+    color: #FFF;
+    padding: 0.5em;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 2em;
+    float: left;
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 2em;
+}
+#askRegLog {
+    margin-left: 30%;
+    margin-top:0;
+    width: 40%;
+    text-align: center;
+}
+#askRegLog a {
+    font-size: 1.4em;
+}
+/********************************************************************************
+Login & Registrazione & Utente
+********************************************************************************/
+fieldset {
+    border: 0;
+}
+.displayNone {
+    display: none;
+}
+/********************************************************************************
+Utente
+********************************************************************************/
+#userContainer{
+    padding: 0.5em 0;
+}
+#userContainer h1 {
+    font-size: 2.5em;
+    color: #D32F2F;
+    font-weight: bold;
+    margin-top: 1em;
+    margin-left: 10%;
+}
+#userContainer h2 {
+    font-size: 1.7em;
+    color: #212121;
+    font-weight: bold;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    margin-top: 1em;
+    margin-left: 10%;
+}
+.userForm {
+    width: 80%;
+    margin-left: 10%;
+}
+.userInputLabel {
+    float: left;
+    clear: left;
+    width: 30%;
+    font-size: 1.2em;
+    color: #000;
+}
+.userInputField {
+    float: left;
+    width: 70%;
+    margin-bottom: 1em;
+    padding: 0.2em;;
+    background-color: #FFF;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    font-size: 1.2em;
+    color: #000;
+}
+.userSubmitButton {
+    background-color: #D32F2F;
+    color: #FFF;
+    padding: 0.5em;
+    clear: both;
+    display: block;
+    cursor: pointer;
+    font-size: 1.2em;
+    border: none;
+    text-transform: uppercase;
+    margin-top: 0.5em;
+}
+.userChoiceLabel {
+    font-size: 1.2em;
+}
+.userNewsLetterLabel {
+    float: left;
+    clear: left;
+    width: 100%;
+    font-size: 1.2em;
+    color: #000;
+}
+#userLogoutButton {
+    padding: 0.5em 0.3em;
+    display: block;
+    cursor: pointer;
+    font-size: 1.2em;
+    border: none;
+    background-color: #D32F2F;
+    color: #FFF;
+    text-transform: uppercase;
+    float: right;
+    clear: left;
+    margin-right: 10%;
+    text-align: center;
+}
+#userLogoutButton a{
+    color: #FFF;
+    text-decoration: none;
+}
+.messages {
+    text-align: center;
+    color: #FFF;
+    background-color: #000;
+    margin-top: 1em;
+    width: 15em;
+}
 
 /********************************************************************************
 Media Query (solo desktop)
 ********************************************************************************/
-
 @media only screen and (min-width: 956px) {
-/***** Generale ****/
+    /********************************************************************************
+        Generale
+    ********************************************************************************/
     .hoverScale:hover{
         -webkit-transform: scale(1.2);
         -ms-transform: scale(1.2);
         -moz-transform: scale(1.2);
     }
-
     .hoverScaleBlack:hover {
         -webkit-transform: scale(1.2);
         -ms-transform: scale(1.2);
         -moz-transform: scale(1.2);
         background-color: #212121;
     }
-
-/***** Header *****/
+    /********************************************************************************
+        Header
+    ********************************************************************************/
     #headerHamburger {
         display: none;
     }
@@ -518,53 +673,64 @@ Media Query (solo desktop)
         -ms-transform: scale(1.1);
         -moz-transform: scale(1.1);
     }
-
-/***** Footer *********************/
+    /********************************************************************************
+        Footer
+    ********************************************************************************/
     #footer {
         height: 6.5em;
     }
-
-/********************************************************************************
-Menù Verticale (catalogo, categorie)
-********************************************************************************/
-#catalogVerticalMenu {
-    width: 20%;
-    float: left;
-    height: 56em;
-}
-#catalogVerticalMenu ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    background-color: #B71C1C;
-    width: 200px;
-}
-#catalogVerticalMenu li {
-    padding: 0.4em 1.4em;
-    border-top: solid;
-    border-bottom: solid;
-    border-color: #FFFFFF;
-    border-width: 2px;
-}
-#catalogVerticalMenu a {
-    display: block;
-    color: #FFFFFF;
-    padding: 0.15em 0.2em;
-    text-decoration: underline;
-    font-size: 0.9em;
-}
-
-#catalogContainerVerticalMenu {
-    width: 20%;
-    height: 85em;
-    float: left;
-}
-
-.notClickable {
-    text-decoration: none;
-}
-
-/***** Bordo orizzontale (home, contatti, 404) *****/
+    /********************************************************************************
+    User
+    ********************************************************************************/
+    .userSubmitButton:hover{
+        background-color: #D32F2F;
+    }
+    /********************************************************************************
+    User
+    ********************************************************************************/
+    #userLogoutButton:hover{
+        background-color: #D32F2F;
+    }
+    /********************************************************************************
+    Menù Verticale (catalogo, categorie)
+    ********************************************************************************/
+    #catalogVerticalMenu {
+        width: 20%;
+        float: left;
+        height: 56em;
+    }
+    #catalogVerticalMenu ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        background-color: #B71C1C;
+        width: 200px;
+    }
+    #catalogVerticalMenu li {
+        padding: 0.4em 1.4em;
+        border-top: solid;
+        border-bottom: solid;
+        border-color: #FFFFFF;
+        border-width: 2px;
+    }
+    #catalogVerticalMenu a {
+        display: block;
+        color: #FFFFFF;
+        padding: 0.15em 0.2em;
+        text-decoration: underline;
+        font-size: 0.9em;
+    }
+    #catalogContainerVerticalMenu {
+        width: 20%;
+        height: 85em;
+        float: left;
+    }
+    .notClickable {
+        text-decoration: none;
+    }
+    /********************************************************************************
+        Bordo orizzontale (home, contatti, 404)
+    ********************************************************************************/
     #homeTitleBottom:after {
         content: "";
         position: absolute;
@@ -587,9 +753,10 @@ Menù Verticale (catalogo, categorie)
         -ms-filter: progid:DXImageTransform.Microsoft.Gradient(left, GradientType=0,StartColorStr=#9E9E9E,EndColorStr=transparent);/*Internet explorer 8*/
         filter: progid:DXImageTransform.Microsoft.Gradient(left, GradientType=0,StartColorStr=#9E9E9E,EndColorStr=transparent); /*Internet explorer 5-7*/
         background: -ms-linear-gradient(left, transparent, #9E9E9E, transparent); /*Internet explorer 10-11*/
-    }
-
-/***** Bordo riquadri (home, catalogo, categorie) *****/
+        }
+    /********************************************************************************
+        Bordo riquadri (home, catalogo, categorie)
+    ********************************************************************************/
     .homeContainersIn:before, .homeContainersIn:after, .catalogContainerIn:before, .catalogContainerIn:after, .catalogInsideProduct:before, .catalogInsideProduct:after{
         content: "";
         position: absolute;
@@ -618,7 +785,9 @@ Menù Verticale (catalogo, categorie)
         -ms-filter: progid:DXImageTransform.Microsoft.Gradient(left, GradientType=0,StartColorStr=transparent,EndColorStr=#9E9E9E); /*Internet explorer 8*/
         background: -ms-linear-gradient(left, transparent, #9E9E9E); /*Internet explorer 10-11*/
     }
-/***** Configurazioni *****/
+/********************************************************************************
+Configurazioni
+********************************************************************************/
     .configTornaSu {
         width: auto;
         margin-right: 10%;
@@ -641,7 +810,9 @@ Menù Verticale (catalogo, categorie)
     }
 }
 
-/****** Extra Media Query ******/
+/********************************************************************************
+Extra Media Query
+********************************************************************************/
 @media only screen and (min-width: 955px) and (max-width: 1020px) {
     #headerButtonLogin {
         width: 4.2em;
