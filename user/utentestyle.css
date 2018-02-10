@@ -38,7 +38,7 @@ fieldset {
     float: left;
     clear: left;
     width: 30%;
-    font-size: 1.2896em;
+    font-size: 1.2em;
     color: #000;
 }
 
@@ -58,7 +58,7 @@ fieldset {
     clear: both;
     display: block;
     cursor: pointer;
-    font-size: 1.2896em;
+    font-size: 1.2em;
     border: none;
     background-color: #D32F2F;
     color: #FFF;
@@ -69,14 +69,14 @@ fieldset {
     background-color: #D32F2F;
 }
 .userChoiceLabel {
-    font-size: 1.286em;
+    font-size: 1.2em;
 }
 
 .userNewsLetterLabel {
     float: left;
     clear: left;
     width: 100%;
-    font-size: 1.2896em;
+    font-size: 1.2em;
     color: #000;
 }
 
@@ -84,7 +84,7 @@ fieldset {
     padding: 0.5em 0.3em;
     display: block;
     cursor: pointer;
-    font-size: 1.2896em;
+    font-size: 1.2em;
     border: none;
     background-color: #D32F2F;
     color: #FFF;
