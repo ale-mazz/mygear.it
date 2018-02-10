@@ -821,17 +821,14 @@ Extra Media Query
     }
 }
 
-@media only screen and (min-width: 1500px) {
-    .spaceFooter {
-        position: absolute;
-        bottom: 0px;
-        width: 100%;
-    }
-}
-
 @media only screen and (min-width: 1440px) {
     #footer {
         height: 8em;
+    }
+    .SpaceFooter {
+        position: absolute;
+        bottom: 0px;
+        width: 100%;
     }
 }
 
@@ -851,7 +848,7 @@ Extra Media Query
 }
 
 @media only screen and (min-width: 2100px) {
-    .loginspaceFooter {
+    .loginSpaceFooter {
         position: absolute;
         bottom: 0px;
         width: 100%;
@@ -859,7 +856,15 @@ Extra Media Query
 }
 
 @media only screen and (min-width: 2800px) {
-    .catalogspaceFooter {
+    .catalogSpaceFooter {
+        position: absolute;
+        bottom: 0px;
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 7000px) {
+    .catalogInsideSpaceFooter {
         position: absolute;
         bottom: 0px;
         width: 100%;
