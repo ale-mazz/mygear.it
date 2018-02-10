@@ -656,7 +656,7 @@ Menù Verticale (catalogo, categorie)
     }
 }
 
-@media only screen and (min-width: 1350px) {
+@media only screen and (min-width: 1500px) {
     .spaceFooter {
         position: absolute;
         bottom: 0px;
@@ -672,7 +672,7 @@ Menù Verticale (catalogo, categorie)
 
 @media only screen and (min-width: 1970px) {
     #footer {
-        height: 9em;
+        height: 10em;
     }
     .catalogContainerOut {
         height: 20em;
@@ -687,6 +687,14 @@ Menù Verticale (catalogo, categorie)
 
 @media only screen and (min-width: 2100px) {
     .loginspaceFooter {
+        position: absolute;
+        bottom: 0px;
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 2600px) {
+    .catalogspaceFooter {
         position: absolute;
         bottom: 0px;
         width: 100%;
