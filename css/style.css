@@ -746,7 +746,7 @@ Media Query (solo desktop)
     #homeTitleBottom:after, .titlesHorizontalBord:after{
         right: 20px;
         height: 3px;
-        background-image: -webkit-gradient(linear, 0 0, 100% 0, from(transparent), to(#9E9E9E), to (transparent));
+        background-image: -webkit-gradient(linear, 0 0, 100% 0, from(#FFF), to(#9E9E9E), to (#FFF));
         background-image: -webkit-linear-gradient(left, transparent, #9E9E9E, transparent); /* Chrome, Safari */
         background-image: -moz-linear-gradient(left, transparent, #9E9E9E, transparent); /* Mozilla */
         background-image: -o-linear-gradient(left, transparent, #9E9E9E, transparent); /* Opera */
@@ -766,7 +766,7 @@ Media Query (solo desktop)
     .homeContainersIn:before, .catalogContainerIn:before, .catalogInsideProduct:before{
         bottom: -2px;
         width: 2px;
-        background-image: -webkit-gradient(linear, 0 100%, 0 0, from(#9E9E9E), to(transparent));
+        background-image: -webkit-gradient(linear, 0 100%, 0 0, from(#9E9E9E), to(#FFF));
         background-image: -webkit-linear-gradient(#9E9E9E, transparent); /* Chrome, Safari */
         background-image: -moz-linear-gradient(#9E9E9E, transparent); /* Mozilla */
         background-image: -o-linear-gradient(#9E9E9E, transparent); /* Opera */
@@ -777,7 +777,7 @@ Media Query (solo desktop)
     .homeContainersIn:after, .catalogContainerIn:after, .catalogInsideProduct:after{
         left: -2px;
         height: 2px;
-        background-image: -webkit-gradient(linear, 0 0, 100% 0, from(transparent), to(#9E9E9E));
+        background-image: -webkit-gradient(linear, 0 0, 100% 0, from(#FFF), to(#9E9E9E));
         background-image: -webkit-linear-gradient(left, transparent, #9E9E9E); /* Chrome, Safari */
         background-image: -moz-linear-gradient(left, transparent, #9E9E9E); /* Mozilla */
         background-image: -o-linear-gradient(left, transparent, #9E9E9E); /* Opera */
