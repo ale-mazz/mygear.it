@@ -473,29 +473,24 @@ Contatti
 Pagina 404
 ********************************************************************************/
 #notFoundContainer {
-    padding-bottom: 0.5em;
-    height: 10em;
     text-align: center;
-    padding: 0 7% 5em 7%;
 }
 #notFoundContainer img{
     width: 7em;
-    float: left;
-    padding: 0 6em 1.5em 8em;
+    padding-top: 0.5em;
 }
 #notFoundContainer p {
-    margin-top: 3em;
+    padding: 1em;
 }
 #notFoundBack {
     width: 20%;
     background-color: #B71C1C;
+    margin: 2em 40%;
     padding: 1em;
-    float: right;
-    margin-right: 40%;
     text-align: center;
 }
 #notFoundBack a {
-    color: #FFFFFF;
+    color: #FFF;
 }
 
 /********************************************************************************
