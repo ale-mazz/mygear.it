@@ -21,7 +21,7 @@ foreach ($variables as $variable){
 
 $type = 'error';
 $errorCode = 0;
-$message = 'Uno o più campi sono vuoti o incompleti.';
+$message = 'Uno o più campi sono vuoti o incompleti';
 
 if(!$error) {
 
@@ -31,7 +31,7 @@ if(!$error) {
 
     if ($result){
         $type = 'success';
-        $message = 'Grazie per esserti registrato!';
+        $message = 'Grazie per esserti registrato';
         $errorCode = '';
     } else {
         $message = $newRegistration->errors[0];

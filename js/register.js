@@ -144,10 +144,10 @@ sendRegisterRequest = function () {
             var alertType = data.type;
             var messageText = data.message;
             var errorCode = data.errorCode;
-            var message = 'Registrazione effettuata con successo. Grazie per esserti registrato!';
+            var message = 'Registrazione effettuata con successo. Grazie per esserti registrato';
 
             if (errorCode === 1) {
-                message = 'Registrazione fallita. Controlla i campi e riprova.'
+                message = 'Registrazione fallita. Controlla i campi e riprova'
             }
 
             if (alertType && messageText) {
