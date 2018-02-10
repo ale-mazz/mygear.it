@@ -29,6 +29,3 @@ $page = str_replace('$rtuser$', $user, $page);
 $page = str_replace('$login$', $login, $page);
 
 echo $page;
-
-
-?>

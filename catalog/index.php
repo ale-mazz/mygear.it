@@ -27,6 +27,23 @@ if (isset($_SESSION['user_username'])) {
 
 }
 
+//Vertical menu scale
+
+$page = str_replace('$hvali$', 'notClickable', $page);
+$page = str_replace('$hvcase$', 'hoverScaleBlack', $page);
+$page = str_replace('$hvcpu$', 'hoverScaleBlack', $page);
+$page = str_replace('$hvcuffie$', 'hoverScaleBlack', $page);
+$page = str_replace('$hvmi$', 'hoverScaleBlack', $page);
+$page = str_replace('$hvmr$', 'hoverScaleBlack', $page);
+$page = str_replace('$hvmo$', 'hoverScaleBlack', $page);
+$page = str_replace('$hvmt$', 'hoverScaleBlack', $page);
+$page = str_replace('$hvraf$', 'hoverScaleBlack', $page);
+$page = str_replace('$hvsa$', 'hoverScaleBlack', $page);
+$page = str_replace('$hvsm$', 'hoverScaleBlack', $page);
+$page = str_replace('$hvsv$', 'hoverScaleBlack', $page);
+
+//
+
 $page = str_replace('$rtuser$', $user, $page);
 $page = str_replace('$login$', $login, $page);
 
@@ -132,5 +149,3 @@ foreach ($products as $product){
 
 echo $page;
 
-
-?>
