@@ -282,22 +282,21 @@
 
 /***** Contatti *****/
     #contactsWho{
+        text-align: center;
+        height: auto;
         width: 90%;
-        padding: 6em 5% 3em 5%;
-    }
-    #contactsWhere{
-        float: none;
+        margin: 3em 5%;
     }
     #contactsWhere, #contactsHow{
+        float: none;
         width: 90%;
-        margin: 2em 5% 3em 5%;
+        margin: 2em 5%;
     }
     #contactsWho img, #contactsWhere img, #contactsHow img{
-        width: 6em;
-        padding: 1em 8em 1em 8em;
+        margin: 0 0 0 5%;
     }
     #contactsWho p, #contactsWhere p, #contactsHow p{
-        margin: 1em 6em 0em 0em;
+        margin: 0;
     }
 }
 
@@ -460,11 +459,11 @@ Media Query Mobile
     }
 
 /***** Contatti *****/
+    #contactsWho{
+        margin-bottom: 0;
+    }
     #contactsWho img, #contactsWhere img, #contactsHow img{
         display: none;
-    }
-    #contactsWho p, #contactsWhere p, #contactsHow p{
-        width: 100%;
     }
 
 /***** Pagina 404 *****/

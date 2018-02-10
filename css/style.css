@@ -421,40 +421,34 @@ Contatti
 #contactsWho{
     height: 10em;
     text-align: center;
-    padding: 0 7% 3em 7%;
-}
-#contactsWhere {
-    float:left;
-    text-align: center;
-    width: 40%;
-    margin-left: 7%;
-}
-#contactsHow {
-    text-align: center;
-    width: 40%;
-    margin-right: 7%;
-    float: right;
+    margin-bottom: 2em;
 }
 #contactsWho img{
     width: 5em;
     float: left;
-    padding: 0 8em;
+    margin: 0 0 0.5em 10%;
+}
+#contactsWho p {
+    padding: 1em 20%;
+}
+#contactsWhere, #contactsHow {
+    text-align: center;
+    float:left;
+    margin-left: 6.66%;
+    width: 40%;
 }
 #contactsWhere img, #contactsHow img{
     float:left;
-    clear: right;
-    text-align: left;
     width: 5em;
-    padding: 0 2em;
-}
-#contactsWho p {
-    margin: 1em 10em 0 0;
+    margin: 0 0 0.5em 5%;
 }
 #contactsWhere p{
     margin-top: 1em;
+    padding: 0 20%;
 }
 #contactsHow p{
     margin-top: 0.3em;
+    padding: 0 20%;
 }
 
 /***** Titoli sezioni (contatti, 404) *****/
