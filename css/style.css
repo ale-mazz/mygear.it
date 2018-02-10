@@ -821,17 +821,14 @@ Extra Media Query
     }
 }
 
-@media only screen and (min-width: 1500px) {
+@media only screen and (min-width: 1440px) {
+    #footer {
+        height: 8em;
+    }
     .SpaceFooter {
         position: absolute;
         bottom: 0px;
         width: 100%;
-    }
-}
-
-@media only screen and (min-width: 1440px) {
-    #footer {
-        height: 8em;
     }
 }
 
