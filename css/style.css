@@ -566,9 +566,9 @@ Menù Verticale (catalogo, categorie)
     float: left;
 }
 
-    .notClickable {
-        text-decoration: none;
-    }
+.notClickable {
+    text-decoration: none;
+}
 
 /***** Bordo orizzontale (home, contatti, 404) *****/
     #homeTitleBottom:after {
