@@ -9,7 +9,7 @@ if (!isset($_SESSION['user_username'])) {
     exit();
 
 }
-$page = file_get_contents("utente.html");
+$page = file_get_contents("user.html");
 $footer = file_get_contents("../footer/footer.html");
 $header = file_get_contents("../header/header.html");
 $page = str_replace('$header$', $header, $page);
