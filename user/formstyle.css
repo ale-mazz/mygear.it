@@ -32,6 +32,15 @@ input[type=password] {
     border: 1px solid #ccc;
 }
 
+#loginMessage, #regFailMessage {
+    width: 30%;
+    margin: 3em 35% 0 35%;
+    background-color: #000;
+    padding: 0.5em;
+    text-align: center;
+    color: #FFF;
+}
+
 #submitButton {
     background-color: #D32F2F;
     color: #FFF;
@@ -44,16 +53,6 @@ input[type=password] {
     width: 60%;
     margin-left: 20%;
     margin-top: 2em;
-}
-
-#loginMessage, #regFailMessage {
-    width: 40%;
-    margin-top: 2em;
-    margin-left: 30%;
-    background-color: #000;
-    padding: 1em 0;
-    text-align: center;
-    color: #FFF;
 }
 
 fieldset {
