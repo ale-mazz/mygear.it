@@ -38,4 +38,4 @@ $page = str_replace('$instagram$', $_SESSION['instagram'], $page);
 
 echo $page;
 
-?>
+

@@ -29,4 +29,4 @@ if (isset($_SESSION['user_username'])) {
 
     echo $page;
 }
-?>
+

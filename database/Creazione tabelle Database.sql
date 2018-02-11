@@ -1,4 +1,4 @@
--- Creazione database appartenente al sito mygear.it, sviluppato per il progetto di Tecnologie Web anno 17/18 Università degli studi di Padova
+-- Creazione database appartenente al sito mygear, sviluppato per il progetto di Tecnologie Web anno 17/18 Università degli studi di Padova
 -- A cura di Tiziano Rizzo e Alessandro Mazzon
 
 CREATE DATABASE IF NOT EXISTS returnfa_mygear;
