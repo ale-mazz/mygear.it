@@ -29,7 +29,7 @@ if (isset($_SESSION['user_username'])) {
 
 //Vertical menu scale
 
-$page = str_replace('$hvali$', 'notClickable', $page);
+$page = str_replace('$hvali$', 'hoverScaleBlack', $page);
 $page = str_replace('$hvcase$', 'hoverScaleBlack', $page);
 $page = str_replace('$hvcpu$', 'hoverScaleBlack', $page);
 $page = str_replace('$hvcuffie$', 'hoverScaleBlack', $page);
