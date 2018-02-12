@@ -9,7 +9,6 @@ $OLDPASSWORD_EGUALS_NEWPASSWORD = 'Nuova passoword uguale alla vecchia';
 $REPEAT_PASSWORD_DO_NOT_MATH = 'Le due password non coincidono';
 $GENERAL_ERROR = 'Errore, riprovare più tardi';
 
-// Get all POST variables
 if (!isset($_POST['oldPassword']) || !isset($_POST['newPassword']) || !isset($_POST['repeatPassword'])) {
     die('failed.');
 }
@@ -28,11 +27,9 @@ if (!$checkOldPasswordInDb) {
     $type = 'error';
     $message = $PASSWORD_NOT_CORRECT;
 } else {
-    //guardo che non sia uguale a quella precedente
     if ($old_user_password_hash == $new_user_password_hash) {
         $type = 'error';
         $message = $OLDPASSWORD_EGUALS_NEWPASSWORD;
-    } // se non è uguale allora aggiungo in db la password nuova
     else if ($new_user_password_hash != $new_user_password_repeat_hash) {
         $type = 'error';
         $message = $REPEAT_PASSWORD_DO_NOT_MATH;
@@ -40,7 +37,6 @@ if (!$checkOldPasswordInDb) {
         $sql = "UPDATE users SET user_password_hash  = '$new_user_password_hash' WHERE user_username = '$username'";
         $success = $conn->query($sql);
 
-        // Tell if the query has been successful or not
         if ($success) {
             $type = 'success';
             $message = 'Password cambiata';

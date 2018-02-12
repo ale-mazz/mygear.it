@@ -1,3 +1,5 @@
+//Javascript che gestisce la pagina User
+
 userOnLoad = function () {
     document.getElementById('userForm').onsubmit = userModifyRequest;
     document.getElementById('passwordForm').onsubmit = passwordModifyRequest;

@@ -4,7 +4,6 @@ include_once '../php/connection.php';
 include_once '../php/classes/RegisterNewUser.php';
 
 
-// Get all POST variables
 $username = $_POST['username'];
 $name = $_POST['name'];
 $email = $_POST['email'];

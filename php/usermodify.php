@@ -9,8 +9,6 @@ $ERROR_GENERAL = 2;
 $CODE_NOT_ERROR = 0;
 $CODE_NONE_MODIFICATION = 3;
 
-// Get all POST variables
-
 if (!isset($_POST['username'])) {
     die('failed.');
 }
@@ -48,7 +46,6 @@ function setUser($user, $conn)
     $sql = "UPDATE users SET user_username  = '$user' WHERE user_username = '$oldUser'";
     $success = $conn->query($sql);
 
-    // Tell if the query has been successful or not
     if ($success) {
         $_SESSION['user_username'] = $user;
     }

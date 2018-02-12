@@ -4,8 +4,6 @@ session_start();
 
 include_once('connection.php');
 
-// Get all POST variables
-
 $username = $_SESSION['user_username'];
 
 // Ottengo valori dei parametri POST
@@ -31,7 +29,6 @@ $message = '';
 $sql = "UPDATE users SET facebook = '$insert_facebook', twitter ='$insert_twitter', instagram = '$insert_instagram' WHERE user_username = '$username'";
 $success = $conn->query($sql);
 
-// Tell if the query has been successful or not
 if ($success) {
     $_SESSION['facebook'] = $insert_facebook;
     $_SESSION['twitter'] = $insert_twitter;
