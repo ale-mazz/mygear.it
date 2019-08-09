@@ -1,4 +1,19 @@
-<h1>Tec Web 2017/2018 - Università degli studi di Padova</h1>
+# mygear.it 
 
-Progetto Tecnlogie Web 2017/2018
-Contributors: Alessandro Mazzon, Luca Modica, Massimiliano Trentin, Tiziano Rizzo
+Università degli studi di Padova, tw 17/18
+
+## Simple website made with:
+
+* **HTML5**
+* **CSS**
+* **PHP**
+* **JS**
+
+## Authors
+
+* **Alessandro Mazzon**
+* **Luca Modica**
+* **Massimiliano Trentin**
+* **Tiziano Rizzo**
+
+
